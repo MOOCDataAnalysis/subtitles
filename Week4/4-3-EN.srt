@@ -1,0 +1,317 @@
+1
+00:00:01,069 --> 00:00:03,037
+In the previous video I showed you how to
+use
+
+2
+00:00:03,037 --> 00:00:06,917
+named ranges. They're really nice to use,
+because it makes it a lot easier,
+
+3
+00:00:07,024 --> 00:00:11,037
+to read your formulas. However, there is still an open challenge,
+
+4
+00:00:11,037 --> 00:00:14,837
+because we want to be able to add new
+teachers to our worksheet, 
+
+5
+00:00:15,019 --> 00:00:19,959
+without having to update either the formulas
+or the named range. So if we would like to
+
+6
+00:00:19,960 --> 00:00:19,965
+
+7
+00:00:19,965 --> 00:00:23,085
+add for instance myself, I'm going to
+moonlight as a dance teacher,
+
+8
+00:00:23,085 --> 00:00:26,585
+I want those formulas to be updated automatically
+
+9
+00:00:26,869 --> 00:00:30,038
+and our current solution of using an
+entire column as a named range
+
+10
+00:00:30,038 --> 00:00:33,089
+is actually no good, because it blocks
+all of the cells
+
+11
+00:00:33,089 --> 00:00:37,068
+underneath the data. So in this video I'm
+going to show you an alternative
+
+12
+00:00:37,068 --> 00:00:38,240
+solution
+
+13
+00:00:38,240 --> 00:00:43,000
+that will address both of these problems.
+We can select
+
+14
+00:00:43,001 --> 00:00:47,230
+our data. Let me remove myself, I will
+re-add myself later. 
+
+15
+00:00:47,320 --> 00:00:50,899
+Now we can select all the data 
+in our worksheet and we can insert
+
+16
+00:00:50,899 --> 00:00:53,924
+a data table; insert table right
+there.
+
+17
+00:00:54,149 --> 00:00:59,005
+And then Excel asks us to select what data
+we would like in the data table
+
+18
+00:00:59,005 --> 00:01:03,925
+and also whether or not our data has
+headers, whether the first line describes
+
+19
+00:01:04,001 --> 00:01:08,301
+what the date means. And first of all we get
+this nice little visualization on top
+
+20
+00:01:08,420 --> 00:01:09,720
+of our data,
+
+21
+00:01:09,720 --> 00:01:12,960
+but also what is happening is that all
+of these columns are
+
+22
+00:01:12,960 --> 00:01:16,609
+automatically turned into something
+like named ranges,
+
+23
+00:01:16,619 --> 00:01:20,004
+labeled by the first line. Labeled by the
+headers,
+
+24
+00:01:20,004 --> 00:01:24,384
+so we can use that in our formula. We
+can say we want to count
+
+25
+00:01:24,640 --> 00:01:30,219
+TABLE1 and then we get all the columns in
+our table, we want to have TABLE1
+
+26
+00:01:30,229 --> 00:01:34,389
+maximum level and now the formula works.
+
+27
+00:01:34,439 --> 00:01:38,005
+And if we add another teacher to our roster,
+let me re-add myself
+
+28
+00:01:38,005 --> 00:01:41,925
+as a dance teacher, you see a little corner
+thingy over there
+
+29
+00:01:42,029 --> 00:01:46,369
+is going down with the table and that
+shows where the table ends.
+
+30
+00:01:46,620 --> 00:01:49,860
+So as soon as you enter a new row in the
+table,
+
+31
+00:01:50,013 --> 00:01:54,005
+the table is extended and you don't have
+to update the named range. So let
+
+32
+00:01:54,005 --> 00:01:55,985
+me add another teacher to show you
+
+33
+00:01:56,043 --> 00:02:01,663
+that little table thingy, the corner edge 
+is showing you where the table ends.
+
+34
+00:02:01,719 --> 00:02:06,018
+So this is a solution that looks really
+nice, we have all the benefits
+
+35
+00:02:06,018 --> 00:02:09,458
+of named ranges, however we don't have to
+change
+
+36
+00:02:09,460 --> 00:02:13,072
+anything in case we're adding teachers.
+
+37
+00:02:13,072 --> 00:02:17,052
+But there's one thing that's super ugly,
+actually I hope you have been
+
+38
+00:02:17,056 --> 00:02:22,033
+shouting at your computer screens again:
+"Oh no, I don't like the name of that
+
+39
+00:02:22,033 --> 00:02:23,013
+table!
+
+40
+00:02:23,017 --> 00:02:26,025
+How can you have a video about named
+ranges, names
+
+41
+00:02:26,097 --> 00:02:29,857
+with a table that is called TABLE1? That is 
+crazy!"
+
+42
+00:02:30,005 --> 00:02:34,016
+You are right my friend, that is crazy.
+Lets immediately change the name of the
+
+43
+00:02:34,061 --> 00:02:35,001
+table, because
+
+44
+00:02:35,004 --> 00:02:40,120
+this is super ugly. We can do that, as I 
+showed you in a previous video with the
+
+45
+00:02:40,120 --> 00:02:41,400
+name manager,
+
+46
+00:02:41,400 --> 00:02:45,000
+but there is another solution as well,
+to get rid of that
+
+47
+00:02:45,005 --> 00:02:49,474
+ugly TABLE1. If we go back to the
+teachers worksheet and select the data
+
+48
+00:02:49,480 --> 00:02:50,200
+table,
+
+49
+00:02:50,209 --> 00:02:53,068
+we get an additional tab in the ribbon.
+And there,
+
+50
+00:02:53,068 --> 00:02:57,099
+we can easily change our table without
+selecting anything.
+
+51
+00:02:57,099 --> 00:03:00,659
+And you see that within the formulas
+now also we get
+
+52
+00:03:00,659 --> 00:03:03,519
+table TEACHERS instead of TABLE1. We
+don't have to
+
+53
+00:03:03,520 --> 00:03:07,000
+update anything and there's more we can
+do
+
+54
+00:03:07,004 --> 00:03:10,684
+in this ribbon tab. For instance we can add
+
+55
+00:03:10,900 --> 00:03:15,500
+slicers, this is really like a filter,
+you see the logo is similar to a filter
+
+56
+00:03:15,500 --> 00:03:16,940
+but it's more interactive.
+
+57
+00:03:17,018 --> 00:03:20,717
+You can click all the tariffs you want
+and the data table will
+
+58
+00:03:20,879 --> 00:03:24,003
+update automatically. So this is a nice
+little way
+
+59
+00:03:24,003 --> 00:03:27,098
+if you have changed your data into a
+data table to interactively play
+
+60
+00:03:27,098 --> 00:03:30,198
+with what is in your dataset.
+
+61
+00:03:30,239 --> 00:03:35,005
+And I encourage you, this is not really
+an exercise, but I encourage you
+
+62
+00:03:35,005 --> 00:03:39,019
+to download the spreadsheet from our
+course page and to play with everything
+
+63
+00:03:39,064 --> 00:03:40,044
+that's there.
+
+64
+00:03:40,045 --> 00:03:44,078
+Because the data table allows for a lot
+of playing, you can change the markup
+
+65
+00:03:44,078 --> 00:03:48,758
+you can add a total columns or total rows,
+so download the spreadsheet and play
+
+66
+00:03:48,760 --> 00:03:50,036
+with it, because it's
+
+67
+00:03:50,036 --> 00:03:54,516
+really really nice to work with data
+tables. See you in the next video!
+

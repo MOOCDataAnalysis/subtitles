@@ -1,0 +1,433 @@
+1
+00:00:01,709 --> 00:00:05,002
+In the previous video, we've turned our
+data into a data table
+
+2
+00:00:05,002 --> 00:00:09,002
+and done some analysis on top of that. So
+what we want to do now is
+
+3
+00:00:09,002 --> 00:00:13,011
+actually make our planning. We want to
+make a schedule for what teacher teaches
+
+4
+00:00:13,029 --> 00:00:14,389
+what course on what day of the week.
+
+5
+00:00:14,440 --> 00:00:17,960
+So ultimately we're going to want
+something like this,
+
+6
+00:00:18,027 --> 00:00:21,052
+but let's start with an intermediary
+step first.
+
+7
+00:00:21,052 --> 00:00:24,832
+We have here a list of what courses are
+taught on
+
+8
+00:00:25,001 --> 00:00:28,360
+what day of the week. So we want to have
+in our planning
+
+9
+00:00:28,360 --> 00:00:32,660
+initially, we don't have the names yet, we
+just want to have X's
+
+10
+00:00:32,669 --> 00:00:37,009
+on the spots where we have a course and
+empty spots or dashes
+
+11
+00:00:37,009 --> 00:00:40,399
+on the place where we do not have a
+course for a given level.
+
+12
+00:00:40,399 --> 00:00:44,023
+So we can do that with a function that
+we have already seen in the past,
+
+13
+00:00:44,023 --> 00:00:48,403
+namely the FIND function. There we go,
+
+14
+00:00:50,860 --> 00:00:53,320
+we can use the FIND function to search
+for
+
+15
+00:00:53,320 --> 00:00:57,420
+a value in a string as we've seen before.
+So we're going to find
+
+16
+00:00:57,559 --> 00:01:01,591
+this 1 in the list of all the courses
+that we have on Monday.
+
+17
+00:01:02,380 --> 00:01:05,379
+And we have found it, if we execute this
+formula,
+
+18
+00:01:05,379 --> 00:01:08,051
+you see that indeed there is a 1 in this
+string
+
+19
+00:01:08,051 --> 00:01:13,831
+on the first spot, so on 1. And here we
+have to add a dollar of course, because if
+
+20
+00:01:14,011 --> 00:01:16,380
+we're going drag the function down
+
+21
+00:01:16,479 --> 00:01:20,599
+then we want to stay focused, stay
+pointing on the first line.
+
+22
+00:01:20,720 --> 00:01:24,700
+And what you see now is that in case we
+do not find the one, we get
+
+23
+00:01:24,700 --> 00:01:28,040
+an error value. We can catch that error value
+with a function
+
+24
+00:01:28,075 --> 00:01:31,975
+called ISERROR, so we can ask Excel is
+
+25
+00:01:32,014 --> 00:01:35,006
+this formula resulting in an error,
+yes or no?
+
+26
+00:01:35,006 --> 00:01:39,306
+Or I should say true or false, because
+that will be the result of the formula,
+
+27
+00:01:39,500 --> 00:01:43,000
+you see in the case where we have found
+one we get a FALSE.
+
+28
+00:01:43,000 --> 00:01:46,909
+Now we can slap and IF on top of that, we
+can say
+
+29
+00:01:46,909 --> 00:01:52,480
+if we get an error well then we want to have
+a dash and if we do not get an error then
+
+30
+00:01:52,480 --> 00:01:53,719
+we want to have an X.
+
+31
+00:01:53,869 --> 00:01:59,002
+So that we get X's in all the spots
+where we indeed have the given course
+
+32
+00:01:59,002 --> 00:02:00,682
+on the given day.
+
+33
+00:02:01,920 --> 00:02:05,799
+So almost there, we can drag this
+formula to the right
+
+34
+00:02:05,799 --> 00:02:07,033
+and then we have
+
+35
+00:02:07,033 --> 00:02:11,078
+our formula. Unfortunately, we have
+forgotten something
+
+36
+00:02:11,078 --> 00:02:15,338
+again another dollar. They are so
+annoying and so easy to forget,
+
+37
+00:02:15,340 --> 00:02:16,620
+right?
+
+38
+00:02:16,780 --> 00:02:21,840
+So if we add a dollar to our formula, it
+will work we can drag into the right
+
+39
+00:02:21,840 --> 00:02:25,871
+and indeed we have got our function.
+
+40
+00:02:26,004 --> 00:02:30,051
+But I do not particularly like this formula a
+lot... If you look at it
+
+41
+00:02:30,051 --> 00:02:33,072
+you have the one dollar here and
+the other dollar there,
+
+42
+00:02:33,072 --> 00:02:37,972
+I'm pretty sure that if you look at this
+formula tomorrow or maybe in a week or
+
+43
+00:02:38,042 --> 00:02:43,482
+three, you look at this like: "I don't really
+remember what is going on here".
+
+44
+00:02:43,660 --> 00:02:47,000
+So we can make this formula a lot easier,
+
+45
+00:02:47,005 --> 00:02:50,054
+by using... I guess you can guess this...
+
+46
+00:02:50,220 --> 00:02:54,019
+A named range. So if we take this
+
+47
+00:02:54,019 --> 00:02:57,028
+first row of the spreadsheet and
+
+48
+00:02:57,028 --> 00:03:00,034
+change that into a named range let's call
+this
+
+49
+00:03:00,034 --> 00:03:05,049
+HorzLevels, Horizontal Levels. Then there's a
+special trick that we can use,
+
+50
+00:03:05,049 --> 00:03:10,086
+if we use a named range like this. What we
+can do is what we can refer to that named range
+
+51
+00:03:10,086 --> 00:03:11,037
+
+52
+00:03:11,037 --> 00:03:14,095
+from a lower row. Let's have a look at how
+that looks like.
+
+53
+00:03:14,095 --> 00:03:17,575
+If we just enter into this cell: is
+
+54
+00:03:18,019 --> 00:03:21,055
+equal to the named range, what we
+actually get
+
+55
+00:03:21,055 --> 00:03:25,054
+is the intersection of the column that
+this cell is in
+
+56
+00:03:25,054 --> 00:03:28,083
+and the row that represents the named range.
+
+57
+00:03:28,083 --> 00:03:32,903
+So without doing anything, no cell
+references or no calculation, we're just
+
+58
+00:03:33,001 --> 00:03:36,087
+pointing at a named range, we get the value
+
+59
+00:03:36,087 --> 00:03:40,667
+at the intersection. We can copy this 
+down no ugly dollars needed,
+
+60
+00:03:41,001 --> 00:03:44,026
+and you'll see that you get the value
+from the named range. And if you go
+
+61
+00:03:44,026 --> 00:03:45,045
+outside of it
+
+62
+00:03:45,045 --> 00:03:49,079
+then you get an error. We can use this
+little trick
+
+63
+00:03:49,079 --> 00:03:54,619
+to beautify the formula that we just had,
+let's have a look at how it looks like.
+
+64
+00:03:55,400 --> 00:03:58,000
+So here again, in slow-motion
+
+65
+00:03:58,006 --> 00:04:02,500
+I will show you what we've done, because
+this might take you a while, for your
+
+66
+00:04:02,500 --> 00:04:03,440
+brain
+
+67
+00:04:03,440 --> 00:04:07,209
+to really understand how the intersection
+works. So if you refer
+
+68
+00:04:07,209 --> 00:04:11,003
+from a cell to a given named range what
+you will get
+
+69
+00:04:11,003 --> 00:04:14,843
+as a result is the intersection of the
+column you are in
+
+70
+00:04:15,011 --> 00:04:19,130
+and the named range. So we can use
+that in
+
+71
+00:04:19,130 --> 00:04:23,600
+this function, lets see how that goes. So
+we can get rid of that 
+
+72
+00:04:23,600 --> 00:04:26,980
+ugly little dollar, let's remove it right
+away. And we can
+
+73
+00:04:27,014 --> 00:04:30,088
+replace it by a reference to the named range.
+
+74
+00:04:30,300 --> 00:04:35,000
+It's a lot easier to read, you don't need to
+think about the dollars, you don't need to think
+
+75
+00:04:35,006 --> 00:04:36,006
+about copying,
+
+76
+00:04:36,006 --> 00:04:39,042
+you could just say I'm pointing up to
+
+77
+00:04:39,042 --> 00:04:43,022
+the Horizontal Levels named range. And
+this trick does not 
+
+78
+00:04:43,026 --> 00:04:46,034
+only work within one worksheet, it also
+works
+
+79
+00:04:46,034 --> 00:04:49,035
+between worksheets. So if we go back to
+this
+
+80
+00:04:49,044 --> 00:04:52,095
+lessons worksheet and call this column
+'levels',
+
+81
+00:04:52,095 --> 00:04:56,915
+we can also use it from this worksheet.
+So if we refer now
+
+82
+00:04:57,069 --> 00:05:01,889
+back to the worksheet, no formula is needed,
+no functions needed, just
+
+83
+00:05:02,002 --> 00:05:06,089
+a reference. You see that in the same
+fashion you get the intersection
+
+84
+00:05:06,089 --> 00:05:11,009
+of the named range in the one worksheet
+and the row you are in currently.
+
+85
+00:05:11,072 --> 00:05:14,952
+So we can use that as well here, we are
+going to say I want to find
+
+86
+00:05:15,051 --> 00:05:19,031
+the horizontal level in the levels. So your
+formula
+
+87
+00:05:19,047 --> 00:05:22,054
+is a lot more readable, you can just
+navigate
+
+88
+00:05:22,054 --> 00:05:25,814
+the named ranges that are in the
+worksheet. If you have forgotten where
+
+89
+00:05:25,880 --> 00:05:26,840
+they are,
+
+90
+00:05:26,840 --> 00:05:30,889
+by using the drag down and selecting a
+named range within the formula.
+
+91
+00:05:30,900 --> 00:05:33,904
+So from ugly dollars to readable
+
+92
+00:05:34,018 --> 00:05:37,058
+functions with named ranges.
+

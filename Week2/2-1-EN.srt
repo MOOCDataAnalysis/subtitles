@@ -1,0 +1,338 @@
+1
+00:00:01,500 --> 00:00:05,360
+Hi, welcome to this week of "Data Analysis to the 
+MAX()"
+
+2
+00:00:05,360 --> 00:00:10,139
+In previous weeks we have looked at how
+to calculate with formulas and how to
+
+3
+00:00:10,139 --> 00:00:11,419
+operate calculations 
+
+4
+00:00:11,519 --> 00:00:14,073
+based on conditions. But 
+this week,
+
+5
+00:00:14,073 --> 00:00:18,333
+we are going to look into lookup 
+functions - how to combine data
+
+6
+00:00:18,539 --> 00:00:22,299
+from this part of your spreadsheet and
+that part of your spreadsheet, and correctly
+
+7
+00:00:22,380 --> 00:00:22,960
+put it together.
+
+8
+00:00:23,001 --> 00:00:27,023
+And VLOOKUP functions are very, very 
+popular - you could say they are like
+
+9
+00:00:27,032 --> 00:00:28,033
+Taylor Swift
+
+10
+00:00:28,033 --> 00:00:31,065
+of Excel formulas. Lookup functions are
+
+11
+00:00:31,065 --> 00:00:35,066
+in the top five of the most used 
+Excel functions,
+
+12
+00:00:35,340 --> 00:00:39,140
+and this is why it is very important to
+know how to use them
+
+13
+00:00:39,149 --> 00:00:43,689
+and when to use them. So, let's look at 
+this week's example.
+
+14
+00:00:43,740 --> 00:00:46,920
+Imagine you are running a hardware store. So, here you have
+
+15
+00:00:47,026 --> 00:00:50,866
+information that you export from your
+register - you can see
+
+16
+00:00:51,079 --> 00:00:55,014
+what item code you have sold, when 
+you've sold it and for what price.
+
+17
+00:00:55,014 --> 00:00:58,073
+And, on top of that register data,
+
+18
+00:00:58,199 --> 00:01:01,041
+we are going to do some analysis - we want 
+to know what
+
+19
+00:01:01,041 --> 00:01:04,068
+items have we sold. So you can see here
+
+20
+00:01:04,068 --> 00:01:08,728
+the codes, the associated names, the price 
+we sell it for,
+
+21
+00:01:08,979 --> 00:01:13,139
+the price we bought it for, the margin, 
+which is the difference between those
+
+22
+00:01:13,180 --> 00:01:14,040
+two prices,
+
+23
+00:01:14,260 --> 00:01:17,560
+and the margin expressed in percentages.
+
+24
+00:01:18,800 --> 00:01:22,240
+So for this data we want to do
+some analysis.
+
+25
+00:01:22,299 --> 00:01:25,339
+More specifically, we want to know what 
+turnover do we make
+
+26
+00:01:25,500 --> 00:01:29,080
+for each of the items that we sell. So we 
+could do that
+
+27
+00:01:29,340 --> 00:01:32,740
+like this, where we have the codes and the 
+names, and then
+
+28
+00:01:33,035 --> 00:01:37,175
+from the ProductInfo sheet we import - 
+we directly link
+
+29
+00:01:37,320 --> 00:01:41,500
+what the selling price is. And then, with 
+COUNTIF function
+
+30
+00:01:41,619 --> 00:01:45,119
+we can look at the actual register data, 
+we can see
+
+31
+00:01:45,399 --> 00:01:48,425
+what, when, how many items have we sold
+
+32
+00:01:48,659 --> 00:01:52,001
+of this particular type, and if we 
+multiply
+
+33
+00:01:52,001 --> 00:01:55,310
+the number of times we have sold a
+certain item with
+
+34
+00:01:55,409 --> 00:01:59,043
+the price that we sell it for, then we
+get the turnover per product
+
+35
+00:01:59,043 --> 00:02:01,203
+that we need.
+
+36
+00:02:05,500 --> 00:02:07,940
+There we have it. We have calculated
+
+37
+00:02:07,979 --> 00:02:11,699
+the turnover per product, so the first 
+thing that you see that's a little bit
+
+38
+00:02:11,959 --> 00:02:13,064
+strange about this formula
+
+39
+00:02:13,064 --> 00:02:16,243
+is that Excel inputs a link to
+
+40
+00:02:16,819 --> 00:02:20,038
+this worksheet into the formula. That 
+happens because,
+
+41
+00:02:20,038 --> 00:02:23,097
+while we were building the formula, we
+moved to a different worksheet
+
+42
+00:02:23,097 --> 00:02:26,877
+and back, but of course that's not what we 
+want. So let's first
+
+43
+00:02:27,016 --> 00:02:31,022
+get rid of that prefix - just remove it, 
+because it's not necessary,
+
+44
+00:02:31,022 --> 00:02:34,003
+it just makes our spreadsheet more
+complex than is needed.
+
+45
+00:02:34,003 --> 00:02:39,143
+So the question is now - is our 
+spreadsheet now perfect? Are we in the
+
+46
+00:02:39,239 --> 00:02:40,013
+perfect state?
+
+47
+00:02:40,013 --> 00:02:43,097
+Maybe you have encountered this problem
+before, maybe you know
+
+48
+00:02:43,097 --> 00:02:48,697
+why this is a problem. If you don't, let 
+me take you through what's problematic
+
+49
+00:02:49,019 --> 00:02:52,519
+about organizing your spreadsheet in this way.
+
+50
+00:02:55,920 --> 00:02:59,040
+To show you this, we're going to select 
+all data in our worksheet,
+
+51
+00:02:59,062 --> 00:03:02,602
+copy-paste it into a fresh worksheet,
+
+52
+00:03:02,959 --> 00:03:07,002
+and we're going to copy-paste it as values, 
+just so you can see
+
+53
+00:03:07,002 --> 00:03:11,064
+what the original value was, because, 
+maybe, some things are going to change
+
+54
+00:03:11,082 --> 00:03:14,471
+if I mess up my spreadsheet. So, just to be
+sure,
+
+55
+00:03:15,209 --> 00:03:19,004
+we make a copy of the original data. Now
+let's go back
+
+56
+00:03:19,004 --> 00:03:22,093
+to our ProductInfo worksheet and do
+something very innocent -
+
+57
+00:03:22,093 --> 00:03:25,793
+we're just going to sort our ProductInfo worksheet,
+
+58
+00:03:26,011 --> 00:03:30,390
+sorted based on the selling price. You can think:
+
+59
+00:03:30,489 --> 00:03:33,076
+"Well, sorting something is never going to
+mess up my worksheet"
+
+60
+00:03:33,076 --> 00:03:38,236
+However, if you look now at the Turnover
+PerProduct we see that our Bench
+
+61
+00:03:38,489 --> 00:03:41,089
+is suddenly worth only 10 Euros where 
+previously
+
+62
+00:03:41,089 --> 00:03:45,749
+it was worth 250. And this is because, as 
+you can see here,
+
+63
+00:03:46,059 --> 00:03:49,859
+the links are still pointing at the original values,
+
+64
+00:03:50,047 --> 00:03:53,787
+and even though we have sorted them, 
+the links haven't changed. So we are
+
+65
+00:03:54,042 --> 00:03:55,066
+pointing directly
+
+66
+00:03:55,066 --> 00:03:58,069
+at the wrong value. So what you
+should
+
+67
+00:03:58,069 --> 00:04:01,749
+remember from this example is that if
+you make a link
+
+68
+00:04:02,018 --> 00:04:05,081
+over worksheet it doesn't get sorted, if
+you sort
+
+69
+00:04:05,081 --> 00:04:08,082
+that worksheet with, you see in the 
+result here,
+
+70
+00:04:08,082 --> 00:04:12,722
+potential for error. So this is exactly
+the scenario
+
+71
+00:04:13,002 --> 00:04:16,541
+where instead of a direct link we want to use
+
+72
+00:04:16,739 --> 00:04:20,239
+a lookup function. You'll see that in the 
+next video.
+

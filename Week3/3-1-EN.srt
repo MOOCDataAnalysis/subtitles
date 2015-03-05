@@ -1,0 +1,602 @@
+1
+00:00:00,057 --> 00:00:03,637
+Hi welcome to this week's videos. This
+week we're
+
+2
+00:00:04,023 --> 00:00:09,028
+only going to talk about pivot tables
+and I'm going to guess that this is a little
+
+3
+00:00:09,028 --> 00:00:10,041
+bit of a relief to you.
+
+4
+00:00:10,041 --> 00:00:13,761
+Because if you did last week's exercise
+this is probably
+
+5
+00:00:13,929 --> 00:00:18,420
+more or less what you ended up with so
+I'm going to assume that you have seen
+
+6
+00:00:18,420 --> 00:00:20,600
+enough new formulas for a week.
+
+7
+00:00:20,619 --> 00:00:25,075
+So this week no new formulas, we're
+only going to talk about how to analyze
+
+8
+00:00:25,075 --> 00:00:27,035
+your data using pivot tables. 
+
+9
+00:00:27,039 --> 00:00:30,859
+Also we're not doing the
+hardware store anymore.
+
+10
+00:00:31,023 --> 00:00:34,192
+I think we've seen enough of the
+hardware store for a little bit, so this
+
+11
+00:00:34,220 --> 00:00:34,960
+week
+
+12
+00:00:34,969 --> 00:00:39,429
+we're going to be running a bar. The
+spreadsheet for a bar is a little bit
+
+13
+00:00:39,429 --> 00:00:42,200
+similar to the hardware case because we
+again have
+
+14
+00:00:42,280 --> 00:00:46,095
+an export from a register system where we
+keep track of everything that we sell in the bar.
+
+16
+00:00:46,095 --> 00:00:50,915
+But we have some more information in this
+case because in addition to the date,
+
+17
+00:00:51,017 --> 00:00:54,617
+the time, the type of beer that we're
+selling, and the quantity,
+
+18
+00:00:54,699 --> 00:00:57,879
+we're also keeping track of who buys the
+beers.
+
+19
+00:00:57,949 --> 00:01:01,169
+So let's assume all our customers have
+some sort of loyalty card,
+
+20
+00:01:01,329 --> 00:01:04,068
+so we know exactly who buys what at which
+time
+
+21
+00:01:04,068 --> 00:01:07,868
+and that of course allows us to do a lot
+of nice analysis.
+
+22
+00:01:09,320 --> 00:01:10,680
+So with this data,
+
+23
+00:01:10,900 --> 00:01:14,960
+we also have a list of all the beers that
+we're selling in another worksheet, 
+
+24
+00:01:15,000 --> 00:01:18,000
+all the beers that are there and let's
+assume we just Googled
+
+25
+00:01:18,001 --> 00:01:21,026
+for all the beers and we found a nice
+list of beers.
+
+26
+00:01:21,035 --> 00:01:24,067
+So of course a question that we could
+ask ourselves is:
+
+27
+00:01:24,067 --> 00:01:27,907
+How many of each of the beer types have
+we been selling?
+
+28
+00:01:28,035 --> 00:01:31,875
+So we can use a COUNTIF() function for
+that, I'm sure this is a pretty
+
+29
+00:01:31,980 --> 00:01:33,078
+familiar function by now.
+
+30
+00:01:33,078 --> 00:01:37,018
+We look in the register log how many
+times have we
+
+31
+00:01:37,189 --> 00:01:40,059
+sold this specific beer? 
+
+32
+00:01:40,059 --> 00:01:44,639
+Simple right? You already know that. 
+So question: is this formula
+
+33
+00:01:44,659 --> 00:01:50,219
+actually correct? Can you spot anything that
+might be wrong with this formula? 
+
+34
+00:01:50,479 --> 00:01:53,419
+I'll give you one second to think about it.
+
+35
+00:01:55,074 --> 00:01:59,714
+So I hope you were yelling at your
+computer screen while I was pausing,
+
+36
+00:02:00,001 --> 00:02:02,033
+because obviously there are few things
+
+37
+00:02:02,042 --> 00:02:06,762
+that are wrong with this formula. The
+first thing is that beers prefix,
+
+38
+00:02:06,939 --> 00:02:10,067
+we don't need it. Excel adds it always
+
+39
+00:02:10,067 --> 00:02:13,867
+if you switch worksheets, but it's actually
+better to remove it.
+
+40
+00:02:13,980 --> 00:02:18,060
+But something else is wrong with this
+function, I don't think COUNTIF() is the
+
+41
+00:02:18,069 --> 00:02:18,909
+right thing
+
+42
+00:02:19,041 --> 00:02:22,079
+to use, because we have a quantity there.
+
+43
+00:02:22,079 --> 00:02:25,479
+So what we do with a COUNTIF() is just
+count
+
+44
+00:02:25,660 --> 00:02:28,940
+all the rows that are there. But that's not
+what we want.
+
+45
+00:02:29,014 --> 00:02:32,079
+We want to use a SUMIF() function,
+because we want to have the sum
+
+46
+00:02:32,079 --> 00:02:37,579
+of all those quantities we are selling.
+So we have to change our function a little
+
+47
+00:02:37,680 --> 00:02:38,380
+bit,
+
+48
+00:02:38,480 --> 00:02:41,860
+because now we also need to tell Excel
+what the column is
+
+49
+00:02:42,002 --> 00:02:45,026
+that were summing. If we add that function
+then
+
+50
+00:02:45,044 --> 00:02:52,844
+the formula is correct.
+However this formula is correct, but something
+
+51
+00:02:53,029 --> 00:02:57,086
+is a little bit inconvenient here,
+because you see here in this time sort
+
+52
+00:02:57,086 --> 00:02:57,906
+column
+
+53
+00:02:58,044 --> 00:03:01,844
+we only have zeros at this point because
+the list
+
+54
+00:03:02,032 --> 00:03:05,034
+of all the possible beers that we can sell is so
+long
+
+55
+00:03:05,034 --> 00:03:08,874
+that the first ones just are not
+occurring.
+
+56
+00:03:09,002 --> 00:03:12,004
+So I have to click Sort. I have to go
+
+57
+00:03:12,022 --> 00:03:15,029
+to the ribbon, click sort, say I want to have
+
+58
+00:03:15,092 --> 00:03:19,752
+only the largest numbers on top. And
+then as you can see
+
+59
+00:03:20,006 --> 00:03:24,031
+we can see what beers we have exactly
+been selling. So it's quite a hassle to
+
+60
+00:03:24,031 --> 00:03:25,491
+get everything done.
+
+61
+00:03:25,549 --> 00:03:29,001
+And in addition to that we could ask
+
+62
+00:03:29,001 --> 00:03:33,038
+more difficult question. Suppose our boss
+comes in and even though we changed our
+
+63
+00:03:33,047 --> 00:03:37,807
+business from a hardware store to a beer
+shop we still have the same boss isn't
+
+64
+00:03:38,002 --> 00:03:38,881
+that interesting.
+
+65
+00:03:39,079 --> 00:03:42,339
+And she asks very interesting questions
+like: What beers
+
+66
+00:03:42,519 --> 00:03:45,563
+have been most sold after 11 p.m.?
+
+67
+00:03:45,959 --> 00:03:49,043
+Those are probably interesting to know
+because you want to know what beers are
+
+68
+00:03:49,043 --> 00:03:50,072
+popular early in
+
+69
+00:03:50,072 --> 00:03:53,792
+in the evening at what beers are more
+popular late at night.
+
+70
+00:03:54,016 --> 00:03:57,059
+So suppose we have to add an analysis
+like that
+
+71
+00:03:57,059 --> 00:04:01,358
+is going to be a little bit cumbersome.
+Because first of all we have to add
+
+72
+00:04:01,360 --> 00:04:02,560
+another column
+
+73
+00:04:02,800 --> 00:04:05,840
+saying what what times are after eleven.
+
+74
+00:04:05,840 --> 00:04:08,400
+And your first intuition might be to use
+
+75
+00:04:08,569 --> 00:04:13,048
+an IF() function there, but it's actually
+not needed. You can just use a comparison
+
+76
+00:04:13,048 --> 00:04:13,968
+function
+
+77
+00:04:14,015 --> 00:04:18,784
+as a proper formula in Excel. So here 
+we try
+
+78
+00:04:18,919 --> 00:04:23,033
+a first attempt, we say if the time is
+bigger than 23.
+
+79
+00:04:23,033 --> 00:04:27,041
+However that's not really working,
+because you see here in this case, we
+
+80
+00:04:27,041 --> 00:04:28,088
+have 11 p.m.
+
+81
+00:04:28,220 --> 00:04:33,740
+However we still get FALSE. And the reason
+for that is the way that Excel works with
+
+82
+00:04:33,740 --> 00:04:35,740
+times, is that it saves the time
+
+83
+00:04:36,052 --> 00:04:42,053
+as the fraction of the day. So 5 p.m. is
+more or less like 0.7 here.
+
+84
+00:04:42,780 --> 00:04:45,846
+You can see that if you change the time
+into a number.
+
+85
+00:04:46,019 --> 00:04:50,498
+So for proper comparison with times we
+have to compare with a time.
+
+86
+00:04:50,669 --> 00:04:55,033
+So we have the time, 23 hours, 0 minutes and 0 seconds.
+
+87
+00:04:55,033 --> 00:04:59,373
+and if we use that as a comparison then
+we actually get TRUE here
+
+88
+00:04:59,599 --> 00:05:04,097
+in the case where the time is above eleven. 
+So I was cheating a little bit. I told
+
+89
+00:05:04,097 --> 00:05:07,977
+you in the beginning of the video that I
+wouldn't show you any new formulas.
+
+90
+00:05:08,031 --> 00:05:12,260
+This is a new formula, but I hope
+you're going to let this one go, because
+
+91
+00:05:12,539 --> 00:05:14,039
+it's very simple and it's
+
+92
+00:05:14,099 --> 00:05:19,115
+only for time comparison. So with this
+function we can now add our analysis,
+
+93
+00:05:19,259 --> 00:05:20,013
+because we can
+
+94
+00:05:20,013 --> 00:05:23,042
+change our time sold from a SUMIF()
+
+95
+00:05:23,159 --> 00:05:27,078
+into a SUMIFS() where we use multiple
+conditions to sum.
+
+96
+00:05:27,078 --> 00:05:31,058
+We have to change our formula a little bit,
+because how the SUMIFS() works
+
+97
+00:05:31,065 --> 00:05:34,078
+is, we get first the column that we are
+summing,
+
+98
+00:05:34,078 --> 00:05:38,038
+and then a list of conditions. So we picked
+the quantity column first,
+
+99
+00:05:38,075 --> 00:05:42,575
+and then we say we want to have the name of 
+the beer,
+
+100
+00:05:42,580 --> 00:05:46,660
+as the first condition. It has to be
+equal to the first column of the beers
+
+101
+00:05:46,669 --> 00:05:47,389
+worksheet,
+
+102
+00:05:47,389 --> 00:05:50,099
+and then the second condition is the
+time
+
+103
+00:05:50,099 --> 00:05:55,019
+after 11 p.m. has to be TRUE. 
+
+104
+00:05:55,082 --> 00:06:01,942
+So it's quite a long formula, but it gets 
+the job done. However as you can see here,
+
+105
+00:06:02,038 --> 00:06:06,858
+the column is now not sorted yet, 
+because it is still sorted
+
+106
+00:06:07,008 --> 00:06:10,013
+in the original order, so if you want to sort
+it
+
+107
+00:06:10,013 --> 00:06:13,232
+again we have to click sort. Here you can
+see
+
+108
+00:06:13,349 --> 00:06:18,002
+those values are not properly sorted yet.
+So if we click sort now
+
+109
+00:06:18,002 --> 00:06:21,037
+something strange happens. Here you see:
+
+110
+00:06:21,037 --> 00:06:24,052
+Hey, that is not the correct value! The
+links
+
+111
+00:06:24,052 --> 00:06:29,053
+again, have been updated and that's
+because we forgot this time
+
+112
+00:06:29,062 --> 00:06:33,682
+I hope you were screaming again at the computer
+screen. We forgot to remove that beers
+
+113
+00:06:33,720 --> 00:06:35,709
+prefix. So if you remove that
+
+114
+00:06:35,919 --> 00:06:41,119
+then we get the correct result. But that
+was a lot of work right?
+
+115
+00:06:41,389 --> 00:06:45,769
+A simple query: what beer is best
+sold after 11 p.m.?
+
+116
+00:06:45,919 --> 00:06:48,941
+We have to add another column, change our
+formula
+
+117
+00:06:49,139 --> 00:06:52,172
+and make sure that we don't forget to
+remove the prefixes
+
+118
+00:06:52,340 --> 00:06:57,699
+and that we don't forget to sort. So what I hope
+that you take away from these videos,
+
+119
+00:06:57,699 --> 00:07:02,059
+is formulas are meant for calculations. If
+you're calculating 
+
+120
+00:07:02,219 --> 00:07:05,027
+a sum or an average a formula is fine.
+
+121
+00:07:05,027 --> 00:07:08,787
+But as soon as you start to do really
+analysis, you're
+
+122
+00:07:09,012 --> 00:07:12,421
+diving into your data, you're asking
+yourself questions: like
+
+123
+00:07:12,529 --> 00:07:15,083
+what's the most popular beer on a
+Saturday
+
+124
+00:07:15,083 --> 00:07:18,683
+if the temperature is below zero degrees?
+Something like that.
+
+125
+00:07:19,012 --> 00:07:23,752
+If you're analyzing your data formulas
+quickly go out of hand. And I think you
+
+126
+00:07:24,001 --> 00:07:25,460
+saw in this example that
+
+127
+00:07:25,469 --> 00:07:30,005
+that just happens very quickly. So 
+remember formulas are not for analysis
+
+128
+00:07:30,005 --> 00:07:33,033
+and of course then what is for analysis?
+
+129
+00:07:33,580 --> 00:07:37,597
+Pivot tables! More about pivot tables in
+the next few videos.
+

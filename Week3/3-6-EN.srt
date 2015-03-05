@@ -1,0 +1,319 @@
+1
+00:00:00,719 --> 00:00:05,519
+Hi, welcome back! I can imagine that the
+last video left you a little bit
+
+2
+00:00:05,740 --> 00:00:07,089
+confused, because
+
+3
+00:00:07,279 --> 00:00:10,779
+I was doing some magic here, just
+clicking fields together and suddenly
+
+4
+00:00:11,000 --> 00:00:12,020
+everything worked.
+
+5
+00:00:12,028 --> 00:00:16,068
+Maybe you were screaming at your computer
+screen again, like what's going on
+
+6
+00:00:16,069 --> 00:00:16,949
+here?
+
+7
+00:00:17,014 --> 00:00:20,413
+So in this video we're really going to
+look at what
+
+8
+00:00:20,539 --> 00:00:26,058
+exactly happened there. So
+
+9
+00:00:26,058 --> 00:00:29,918
+we're not going to work with 
+adding a new pivot table anymore.
+
+10
+00:00:30,049 --> 00:00:33,052
+Actually, secretly, you didn't know that,
+but secretly
+
+11
+00:00:33,079 --> 00:00:37,859
+we were working with power-pivot so
+let's go to the PowerPivot worksheet and
+
+12
+00:00:38,035 --> 00:00:39,014
+manage our data.
+
+13
+00:00:39,329 --> 00:00:42,689
+And what you see here, is that PowerPivot
+has stored all that
+
+14
+00:00:42,840 --> 00:00:46,856
+data for us. The data that we have
+added to the data model, it's 
+
+15
+00:00:47,009 --> 00:00:50,298
+a little bit tricky actually it should
+have said
+
+16
+00:00:50,379 --> 00:00:55,759
+add this data to a PowerPivot model.
+Because PowerPivot is storing that data for us.
+
+17
+00:00:55,760 --> 00:00:59,740
+And here you see the data in a diagram
+view and if I click that link
+
+18
+00:00:59,809 --> 00:01:02,852
+you see that this is the link that I
+have actually created
+
+19
+00:01:03,239 --> 00:01:07,245
+when I was clicking. I said this is
+related to that
+
+20
+00:01:07,299 --> 00:01:11,859
+beer is related to the name. So let's improve
+those names a little because range 
+
+21
+00:01:11,920 --> 00:01:15,001
+and range1 aren't good names. Let's
+rename them to register and beer
+
+22
+00:01:15,074 --> 00:01:19,314
+so they align with what is in our
+spreadsheet model.
+
+23
+00:01:22,960 --> 00:01:23,640
+So
+
+24
+00:01:23,729 --> 00:01:27,969
+now we have a view of our data, this
+allows us to do some more cool analysis.
+
+25
+00:01:28,119 --> 00:01:29,119
+For instance,
+
+26
+00:01:29,119 --> 00:01:33,599
+we would like to know: What countries do
+the beers that are popular in our bar
+
+27
+00:01:33,600 --> 00:01:34,720
+stem from?
+
+28
+00:01:34,720 --> 00:01:37,759
+So do we drink US beers? Do we drink
+
+29
+00:01:37,759 --> 00:01:41,719
+German beers? Dutch beers maybe? We want
+to know that.
+
+30
+00:01:42,000 --> 00:01:46,000
+But in order to do that we need to have
+some more information.
+
+31
+00:01:46,000 --> 00:01:49,800
+We need to go to the brewery worksheet,
+because the brewery worksheet has the
+
+32
+00:01:49,800 --> 00:01:51,400
+information of what
+
+33
+00:01:51,480 --> 00:01:55,920
+brewery is in what country. So we're not
+going to make another pivot table, we
+
+34
+00:01:56,006 --> 00:01:58,071
+don't need to do that to add it to the
+data model.
+
+35
+00:01:58,071 --> 00:02:02,149
+You know that we were secretly working
+with PowerPivot, so we can say now
+
+36
+00:02:02,480 --> 00:02:03,860
+I want to
+
+37
+00:02:03,969 --> 00:02:07,061
+go to the PowerPivot ribbon and add
+
+38
+00:02:07,061 --> 00:02:10,761
+the data to the data model directly. So
+you see here
+
+39
+00:02:11,012 --> 00:02:14,033
+we get all the data in a similar way
+that we got it before
+
+40
+00:02:14,033 --> 00:02:17,853
+all the column headers are right there.
+We can immediately rename it to
+
+41
+00:02:18,027 --> 00:02:18,847
+breweries
+
+42
+00:02:19,003 --> 00:02:22,483
+and now we can create a relation. We
+don't need to go to the
+
+43
+00:02:22,700 --> 00:02:25,722
+pivot table where Excel says: Ha,
+
+44
+00:02:26,000 --> 00:02:29,044
+I need a relation then we create it, 
+we create it directly.
+
+45
+00:02:29,044 --> 00:02:33,564
+We can say the brewery name in the beer
+worksheet is related to the name
+
+46
+00:02:33,760 --> 00:02:37,980
+column in the brewery worksheet. And
+when we make that relation
+
+47
+00:02:38,075 --> 00:02:42,784
+we can use that to build our pivot
+tables on. So if you go to a pivot table
+
+48
+00:02:43,459 --> 00:02:46,058
+now, you see that in addition to to
+register and the beers
+
+49
+00:02:46,058 --> 00:02:49,006
+we also have a list of breweries. And we 
+can use that
+
+50
+00:02:49,006 --> 00:02:52,021
+to make our country analysis, we can
+drag country in
+
+51
+00:02:52,075 --> 00:02:55,093
+and then we get the number of beers that
+we have sold
+
+52
+00:02:55,093 --> 00:02:59,168
+for each of the countries. So what happens
+in the background is this
+
+53
+00:03:00,068 --> 00:03:05,928
+country is linked to the beers trough the
+brewery name and those beers are linked to
+
+54
+00:03:06,260 --> 00:03:07,960
+the beer list, to the register log
+
+55
+00:03:08,047 --> 00:03:12,047
+in the beer name. So PowerPivot traverses all
+those relations
+
+56
+00:03:12,047 --> 00:03:15,947
+secretly in the background, makes something
+like a VLOOKUP
+
+57
+00:03:16,044 --> 00:03:20,014
+to haul all the data in and then you can build
+a pivot table
+
+58
+00:03:20,014 --> 00:03:23,654
+right on top of it. We don't need to do the
+actual VLOOKUP,
+
+59
+00:03:23,780 --> 00:03:28,040
+if we add everything to the data
+model and create the relations
+
+60
+00:03:28,160 --> 00:03:34,020
+we can build a pivot table on top of that. So
+let's look at the data again,
+
+61
+00:03:34,022 --> 00:03:37,942
+what is the traversal that we go through?
+We go from the register log
+
+62
+00:03:38,016 --> 00:03:42,216
+via the name through the brewery from the
+brewery name through brewery
+
+63
+00:03:42,299 --> 00:03:45,058
+and then through the country. So that's the
+exact same traversal
+
+64
+00:03:45,058 --> 00:03:49,078
+that I did, but now I did it in the data
+instead of in the data model.
+
+65
+00:03:50,380 --> 00:03:53,080
+So that leaves us with this pivot
+table
+
+66
+00:03:53,085 --> 00:03:56,945
+in which we can see what are the beers that
+we have sold
+
+67
+00:03:57,038 --> 00:03:59,298
+for each of the countries.
+

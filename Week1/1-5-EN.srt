@@ -1,0 +1,609 @@
+1
+00:00:00,088 --> 00:00:03,980
+This is where we left off in the
+previous video, we have nicely organized
+
+2
+00:00:03,980 --> 00:00:05,099
+our worksheet and we are
+
+3
+00:00:05,099 --> 00:00:09,019
+calculating the profit, the potential
+profit that we could make
+
+4
+00:00:09,023 --> 00:00:12,583
+by selling all of our shares. But of course,
+now that we
+
+5
+00:00:12,740 --> 00:00:16,720
+have added this Trend column, we want to
+do something with it.
+
+6
+00:00:17,006 --> 00:00:20,007
+We don't want to sell all our
+shares
+
+7
+00:00:20,007 --> 00:00:23,907
+if the price is going up, so we want to
+make a calculation -
+
+8
+00:00:24,000 --> 00:00:27,088
+based on a trend, we will make a decision
+are we selling
+
+9
+00:00:27,088 --> 00:00:31,208
+or are we not selling. So how does this
+look like?
+
+10
+00:00:31,439 --> 00:00:35,139
+We will add another column 
+in this worksheet,
+
+11
+00:00:35,149 --> 00:00:40,019
+now we're going to call it the Number or the
+Amount that we're going to sell,
+
+12
+00:00:40,020 --> 00:00:44,160
+based on the trends. So let's add another
+column "Amount to sell"
+
+13
+00:00:44,160 --> 00:00:46,900
+and then here we will use
+
+14
+00:00:47,000 --> 00:00:52,009
+a conditional formula, the IF formula, and
+that works as following:
+
+15
+00:00:52,009 --> 00:00:56,749
+the first part of the IF formula says what
+are we going to look at,
+
+16
+00:00:56,749 --> 00:00:59,960
+so we say: if the Trend, the G column,
+
+17
+00:01:00,034 --> 00:01:04,674
+is equal to "Up", in that case, 
+after the comma, we say
+
+18
+00:01:04,689 --> 00:01:07,714
+what we are doing. Well, if the trend is
+going up,
+
+19
+00:01:07,939 --> 00:01:10,099
+we're not selling anything, we're selling
+0 shares.
+
+20
+00:01:10,099 --> 00:01:13,879
+In the other case, if the trend is going
+down,
+
+21
+00:01:14,060 --> 00:01:19,320
+let's say we sell half of our shares. We
+still remain with half of it, but we want to
+
+22
+00:01:19,320 --> 00:01:21,560
+sell half just to be safe,
+
+23
+00:01:21,560 --> 00:01:25,600
+if things are going wrong. And you see
+now, in the first line,
+
+24
+00:01:25,799 --> 00:01:28,089
+we're not selling anything and in
+subsequent lines,
+
+25
+00:01:28,089 --> 00:01:32,609
+in case the shares are going down, yes, 
+we are selling some,
+
+26
+00:01:32,720 --> 00:01:39,800
+half of the shares that we have.
+And what I can do now here to round,
+
+27
+00:01:39,800 --> 00:01:44,060
+as we've done in the previous video, is I
+could set it to 0 decimals,
+
+28
+00:01:44,061 --> 00:01:48,621
+because I don't want, of course, to sell
+half of share, that's not possible.
+
+29
+00:01:48,659 --> 00:01:53,084
+But what I could also do here instead is 
+use the ROUND function, it has the same
+
+30
+00:01:53,084 --> 00:01:57,724
+function and works the same. Some people
+prefer to use ROUND function because it
+
+31
+00:01:57,860 --> 00:01:59,000
+is more clear
+
+32
+00:01:59,259 --> 00:02:03,051
+what exactly is going on. You can see in
+the formula
+
+33
+00:02:03,120 --> 00:02:05,140
+that something is being rounded,
+
+34
+00:02:06,032 --> 00:02:09,065
+and still our data is connected to the
+web feed,
+
+35
+00:02:09,065 --> 00:02:12,845
+so if we hit Refresh and if something
+would have changed in the meantime,
+
+36
+00:02:13,048 --> 00:02:17,788
+everything in the worksheet changes - so
+the data, and the formulas, and then
+
+37
+00:02:18,034 --> 00:02:22,047
+also, ultimately, the decision of how much
+shares we are going to sell.
+
+38
+00:02:22,047 --> 00:02:27,065
+Maybe you notice now that's
+something is wrong in this worksheet.
+
+39
+00:02:27,065 --> 00:02:28,045
+Maybe you are
+
+40
+00:02:28,045 --> 00:02:31,900
+yelling at your computer stream: "Wait, wait,
+I found a mistake!"
+
+41
+00:02:32,760 --> 00:02:37,660
+Do you know what? This profit column is
+now based
+
+42
+00:02:38,001 --> 00:02:41,079
+on the number of shares that I
+
+43
+00:02:41,079 --> 00:02:45,719
+have all of them. But, if I'm not selling
+all of them, of course I'm
+
+44
+00:02:46,037 --> 00:02:49,049
+also not going to make profit out of all
+of them.
+
+45
+00:02:49,049 --> 00:02:53,091
+So what I need to do is update my
+formula not to be calculated based
+
+46
+00:02:53,091 --> 00:02:57,771
+on the shares I have, but on the shares
+that I'm going to sell
+
+47
+00:02:58,043 --> 00:03:01,683
+based on the trends. And what happens now
+here
+
+48
+00:03:02,003 --> 00:03:06,021
+is that this profit is depending on the
+column left
+
+49
+00:03:06,048 --> 00:03:09,748
+and right to it, and that's not something
+we like - if we talk about
+
+50
+00:03:10,007 --> 00:03:14,054
+organizing your worksheet, we want the
+data to flow nicely through your spreadsheet
+
+51
+00:03:14,054 --> 00:03:19,554
+from left to right. So I swapped those
+two columns and now the flow is nicely
+
+52
+00:03:19,820 --> 00:03:20,800
+logical
+
+53
+00:03:21,014 --> 00:03:24,022
+as you would read it normally, from left
+to right. So that's also
+
+54
+00:03:24,094 --> 00:03:27,774
+an organization factor that you can take
+into account when
+
+55
+00:03:28,060 --> 00:03:33,420
+you're designing your own spreadsheets.
+
+56
+00:03:35,460 --> 00:03:39,720
+So there's one more thing that we want
+to do - what we want to do is calculate
+
+57
+00:03:40,007 --> 00:03:44,044
+the health of the portfolio that we have.
+So I want to know
+
+58
+00:03:44,044 --> 00:03:48,089
+do I have a lot of Up shares and a lot
+of Down shares,
+
+59
+00:03:48,089 --> 00:03:52,769
+because if a big part of my portfolio is
+going down,
+
+60
+00:03:53,001 --> 00:03:57,002
+maybe I want to make some other decisions -
+I want to buy additional shares
+
+61
+00:03:57,002 --> 00:04:00,542
+that are going up. So what I could do
+potentially is:
+
+62
+00:04:00,709 --> 00:04:04,005
+I could use another conditional
+formula as you see here.
+
+63
+00:04:04,005 --> 00:04:07,007
+I could say: if the shares are going up
+then
+
+64
+00:04:07,007 --> 00:04:11,487
+I want to have the number of shares, and
+otherwise I have 0. And then, in one
+
+65
+00:04:11,680 --> 00:04:12,460
+column,
+
+66
+00:04:12,700 --> 00:04:14,860
+I get a list of all the shares
+
+67
+00:04:15,024 --> 00:04:19,092
+that are going up. And I could do the
+exact same thing for down,
+
+68
+00:04:19,092 --> 00:04:23,752
+same function: if the shares are going
+down,
+
+69
+00:04:24,006 --> 00:04:27,025
+if the trend is equal to "Down", then
+
+70
+00:04:27,025 --> 00:04:30,074
+I pick the number of shares, and
+otherwise I pick 0.
+
+71
+00:04:30,074 --> 00:04:33,814
+And then have two columns in which one
+is all the Up shares
+
+72
+00:04:34,057 --> 00:04:38,085
+and the other is all the Down shares. And
+then, of course, I guess you understand
+
+73
+00:04:38,085 --> 00:04:38,865
+this,
+
+74
+00:04:39,025 --> 00:04:42,041
+at the end of the worksheet I can add
+a SUM
+
+75
+00:04:42,041 --> 00:04:46,046
+function and then I get an overview of
+the health of my portfolio,
+
+76
+00:04:46,091 --> 00:04:49,791
+what part of it is going up and
+what part of it
+
+77
+00:04:50,001 --> 00:04:53,006
+is going down. Let's see how it looks
+like - I'm going to sum
+
+78
+00:04:53,006 --> 00:04:56,102
+the entire column, there we go.
+
+79
+00:04:57,056 --> 00:05:03,061
+So 1800 shares going up, and if I drag
+it, about 700 shares going down.
+
+80
+00:05:03,061 --> 00:05:07,841
+So, our portfolio looks pretty okay because
+a lot more shares are going up than
+
+81
+00:05:08,021 --> 00:05:12,079
+that are going down. However, this
+calculation is wrong - you need
+
+82
+00:05:12,079 --> 00:05:15,639
+two additional columns and two additional
+
+83
+00:05:16,067 --> 00:05:19,067
+SUM formulas just to get an idea of
+
+84
+00:05:19,067 --> 00:05:22,787
+how things are going. This can be done
+
+85
+00:05:23,001 --> 00:05:27,057
+in an easier way and let me show you how.
+So let's zoom out a little bit,
+
+86
+00:05:27,057 --> 00:05:32,095
+then you see all the extra information,
+all the extra space that we need,
+
+87
+00:05:32,200 --> 00:05:35,600
+two extra columns just to calculate these
+three
+
+88
+00:05:36,041 --> 00:05:40,063
+values, that are Up and Down. So let's not 
+do it,
+
+89
+00:05:40,063 --> 00:05:45,065
+let's clear this room, we're going to do
+it away with it, we don't need it anymore.
+
+90
+00:05:45,280 --> 00:05:48,860
+Right click, "Clear Contents", there we go,
+
+91
+00:05:48,960 --> 00:05:52,480
+we don't need it anymore. Let me show you
+a better
+
+92
+00:05:52,680 --> 00:05:55,717
+and a way more compact way to actually
+analyse
+
+93
+00:05:55,900 --> 00:05:59,000
+the health of our portfolio. What we
+can use
+
+94
+00:05:59,006 --> 00:06:02,746
+is a list of all the types, so we say
+we're looking for
+
+95
+00:06:03,004 --> 00:06:07,564
+shares that are going up and shares that are
+going down. And then we use a SUMIF
+
+96
+00:06:07,800 --> 00:06:10,818
+function. It's a combination of,
+
+97
+00:06:11,012 --> 00:06:15,632
+of course, the SUM and the IF. And how
+this function works is that I can
+
+98
+00:06:15,780 --> 00:06:18,874
+pick part of my spreadsheet, so I click
+one column
+
+99
+00:06:19,077 --> 00:06:22,797
+and I say I'm going to look at
+everything that matches in that
+
+100
+00:06:23,068 --> 00:06:27,348
+column. So where am I going to look is the
+first part of the function.
+
+101
+00:06:27,520 --> 00:06:30,800
+In the Trend column I'm going to look
+if
+
+102
+00:06:31,034 --> 00:06:34,059
+something is going on, like with the
+normal IF.
+
+103
+00:06:34,059 --> 00:06:37,061
+Well, what do I need to compare to
+
+104
+00:06:37,061 --> 00:06:40,801
+is exactly the same as in the
+
+105
+00:06:41,039 --> 00:06:44,005
+IF function - I'm comparing is the
+Trend
+
+106
+00:06:44,005 --> 00:06:48,545
+equal to "Up" and I've just made a list of
+this. And what am I summing -
+
+107
+00:06:48,680 --> 00:06:51,759
+the number of shares. And you see me drag
+down,
+
+108
+00:06:51,889 --> 00:06:54,889
+and the exact same result is appearing,
+
+109
+00:06:54,889 --> 00:06:57,609
+as when we had the entire column with
+the SUMs.
+
+110
+00:06:57,980 --> 00:07:01,008
+So it's a lot conciser and also it
+allows us for
+
+111
+00:07:01,018 --> 00:07:05,034
+easily adding other types of trends - for
+instance we have a "Flat" trend
+
+112
+00:07:05,034 --> 00:07:08,673
+where nothing is changing, we can just
+add "Flat" to list
+
+113
+00:07:08,979 --> 00:07:11,984
+and drag the formula down, whereas in
+the old situation
+
+114
+00:07:12,479 --> 00:07:16,339
+we needed an extra column for every new
+share type. So the SUMIF
+
+115
+00:07:16,340 --> 00:07:19,880
+is a really nice combination of the
+SUM and the IF
+
+116
+00:07:20,022 --> 00:07:23,068
+that takes up a lot less space and is
+more flexible
+
+117
+00:07:23,068 --> 00:07:28,948
+if you want to change your worksheets.
+So, this week we've looked at an example
+
+118
+00:07:29,099 --> 00:07:30,012
+of a spreadsheet
+
+119
+00:07:30,012 --> 00:07:34,491
+where we're calculating the value of stocks,
+we've looked at functions to manipulate
+
+120
+00:07:34,599 --> 00:07:35,459
+Strings,
+
+121
+00:07:35,480 --> 00:07:38,860
+text values, we've looked at conditional
+formulas, the IF
+
+122
+00:07:39,019 --> 00:07:43,488
+and the SUMIF, and piece everything
+together with the data taken
+
+123
+00:07:43,659 --> 00:07:46,075
+from the web. So that's everything 
+we want
+
+124
+00:07:46,075 --> 00:07:49,855
+to talk about this week, just one more
+thing -
+
+125
+00:07:50,000 --> 00:07:53,039
+let me ask you once more to post your
+excelfies
+
+126
+00:07:53,039 --> 00:07:56,519
+on the forum, so we have an idea of who
+we're working with.
+
+127
+00:07:56,660 --> 00:07:57,800
+See you next week!
+

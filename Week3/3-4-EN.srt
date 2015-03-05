@@ -1,0 +1,249 @@
+1
+00:00:00,064 --> 00:00:03,824
+Hi, welcome back! In previous videos we've
+looked at
+
+2
+00:00:03,939 --> 00:00:06,094
+pivot tables extensively, and in the previous
+video
+
+3
+00:00:06,094 --> 00:00:09,854
+we looked at how to use different
+functions: like an AVERAGE function
+
+4
+00:00:10,017 --> 00:00:11,029
+instead of a SUM.
+
+5
+00:00:11,029 --> 00:00:14,458
+And there's one more function that I'd
+really like to talk about and this
+
+6
+00:00:14,719 --> 00:00:16,725
+is called the distinct count.
+
+7
+00:00:16,779 --> 00:00:21,055
+So it's different from a COUNTIF() or a 
+normal COUNT() function, where you just
+
+8
+00:00:21,055 --> 00:00:25,063
+count the number of lines. This distinct count
+
+9
+00:00:25,063 --> 00:00:28,923
+counts the number of different customers
+in this case
+
+10
+00:00:29,038 --> 00:00:34,039
+that have bought a specific beer. So if
+you use a distinct count, you can see
+
+11
+00:00:34,039 --> 00:00:37,061
+what beer is popular with a lot of
+different people.
+
+12
+00:00:37,560 --> 00:00:41,669
+And that's really a different measure
+from a COUNT() and in the exercises
+
+13
+00:00:41,719 --> 00:00:45,036
+we will talk about this distinct count
+a little bit more so this is why I
+
+14
+00:00:45,036 --> 00:00:46,235
+wanted to show it to you.
+
+15
+00:00:46,559 --> 00:00:49,095
+But there's one thing in the whole
+pivot table view
+
+16
+00:00:49,095 --> 00:00:53,695
+that we haven't really looked at yet.
+And that's this columns, right here.
+
+17
+00:00:53,739 --> 00:00:57,017
+So we filtered, we have used different
+functions, different values,
+
+18
+00:00:57,017 --> 00:01:01,078
+but we haven't added columns to the mix.
+And columns in a pivot table
+
+19
+00:01:01,078 --> 00:01:04,738
+literally add another dimension to your
+data analysis.
+
+20
+00:01:05,056 --> 00:01:09,065
+Because in previous videos we've only
+looked at this row dimension
+
+21
+00:01:09,065 --> 00:01:12,865
+and now we're also going to add columns
+in our pivot table.
+
+22
+00:01:13,064 --> 00:01:16,824
+So let's have a look at how that goes. We
+don't need the guest ID
+
+23
+00:01:17,000 --> 00:01:20,096
+and the count anymore,
+what we're going to add
+
+24
+00:01:20,240 --> 00:01:24,760
+as rows is all the different types and
+what we're going to add
+
+25
+00:01:25,021 --> 00:01:28,320
+as the calculation is 
+
+26
+00:01:28,380 --> 00:01:33,020
+the count of the quantity.
+So what we see now,
+
+27
+00:01:33,025 --> 00:01:36,780
+per time of the day: how many quantities
+have we sold?
+
+28
+00:01:36,780 --> 00:01:41,020
+And then we drag in columns. So we add
+the guest IDs
+
+29
+00:01:41,028 --> 00:01:44,057
+as columns. Let's zoom out a little bit so
+we can
+
+30
+00:01:44,057 --> 00:01:48,377
+better see what happens. So what we see now is
+overview of
+
+31
+00:01:48,479 --> 00:01:51,096
+per customer at the time of the day what
+
+32
+00:01:51,096 --> 00:01:55,416
+is actually being sold. So you can see
+this first customer right here,
+
+33
+00:01:55,420 --> 00:01:59,080
+he is a regular. He buys beers at 5 p.m., 
+at 7 p.m.
+
+34
+00:01:59,082 --> 00:02:03,882
+Whereas the second customers is different,
+he either buys before dinner
+
+35
+00:02:04,001 --> 00:02:08,840
+or after dinner. And the third customer
+again is different, because he only comes in
+
+36
+00:02:08,240 --> 00:02:08,840
+
+37
+00:02:09,000 --> 00:02:12,049
+late at night. And by analyzing your data
+in this way you really
+
+38
+00:02:12,049 --> 00:02:16,068
+get an overview of what exactly
+happened, what times,
+
+39
+00:02:16,068 --> 00:02:19,808
+what customers are doing what? 
+So this is not really
+
+40
+00:02:20,004 --> 00:02:24,744
+meant for having an overview
+analysis, it is meant for really diving into
+
+41
+00:02:24,744 --> 00:02:26,000
+your data. So you can exactly see
+
+42
+00:02:26,042 --> 00:02:31,068
+who is buying what at what time.
+So let's add another example of
+
+43
+00:02:31,068 --> 00:02:35,328
+using columns, so instead of using
+guest ID's we're now going to use
+
+44
+00:02:35,340 --> 00:02:36,020
+beer ID's
+
+45
+00:02:36,054 --> 00:02:40,071
+but we're keeping time as rows. So now
+we come profile beers.
+
+46
+00:02:40,080 --> 00:02:43,720
+We see that this first beer right here,
+is really a beer
+
+47
+00:02:43,720 --> 00:02:47,220
+for early in the evening, where our
+second beer is a beer
+
+48
+00:02:47,360 --> 00:02:51,000
+that's been sold late at night more. So
+by
+
+49
+00:02:51,002 --> 00:02:55,023
+adding columns to your pivot table
+you're not summarizing anymore
+
+50
+00:02:55,041 --> 00:02:59,021
+it's more like profiling what exactly
+happens in our data.
+
+51
+00:02:59,640 --> 00:03:04,060
+And this, again, allows you to really gain
+a more detailed understanding
+
+52
+00:03:04,120 --> 00:03:06,300
+of what is happening in your data.
+

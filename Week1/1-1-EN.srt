@@ -1,0 +1,156 @@
+1
+00:00:00,071 --> 00:00:03,030
+Hello there! Welcome to EX101x,
+
+2
+00:00:03,669 --> 00:00:06,930
+THE course for data analysis. My name is
+Felienne
+
+3
+00:00:06,993 --> 00:00:10,098
+and I will be your guide through
+this course. And I like to welcome you
+
+4
+00:00:10,098 --> 00:00:15,007
+not just to EX101x but also to Delft
+University of Technology!
+
+5
+00:00:15,889 --> 00:00:20,000
+Even though you're not here with us on
+campus, doing this MOOC will still make
+
+6
+00:00:20,000 --> 00:00:21,055
+you part
+
+7
+00:00:21,055 --> 00:00:25,117
+of the Delft family. In this building that I
+normally work on the 8th floor,
+
+8
+00:00:26,017 --> 00:00:29,058
+we have the Spreadsheet Lab. This is my
+research group
+
+9
+00:00:29,058 --> 00:00:32,061
+where we work with a bunch of people on
+making spreadsheets
+
+10
+00:00:32,061 --> 00:00:35,098
+easier and more fun. This week
+
+11
+00:00:35,098 --> 00:00:38,587
+it's all about getting to know each
+other - not just for you
+
+12
+00:00:39,469 --> 00:00:42,540
+to get to know me, but also for you to
+get to know
+
+13
+00:00:42,540 --> 00:00:46,643
+the edX platform. Maybe this is your first
+MOOC, so we will use the exercises of this
+
+14
+00:00:47,000 --> 00:00:47,730
+week
+
+15
+00:00:47,739 --> 00:00:51,803
+to get you familiar with the way of
+submitting exercises and homework to us.
+
+16
+00:00:52,379 --> 00:00:55,415
+But in addition for you to get to know
+me
+
+17
+00:00:55,739 --> 00:00:59,764
+and the edX platform, this week will also
+allow me an opportunity
+
+18
+00:00:59,989 --> 00:01:03,160
+to get to know you - I really want to know
+
+19
+00:01:03,161 --> 00:01:06,113
+what your current data analysis tools
+are. Is this you?
+
+20
+00:01:07,013 --> 00:01:10,106
+Are you printing out data sheets and
+colouring them with a marker in your office?
+
+21
+00:01:11,006 --> 00:01:15,070
+Or maybe you use spreadsheets recreationally
+and plan your vacation with it?
+
+22
+00:01:15,071 --> 00:01:19,895
+I want to know. Not just for me to be
+able to tailor the course towards your
+
+23
+00:01:20,058 --> 00:01:21,060
+specific needs,
+
+24
+00:01:21,061 --> 00:01:25,006
+but also for you to get to know each
+other. It's really nice if you are on the
+
+25
+00:01:25,006 --> 00:01:25,595
+forum
+
+26
+00:01:26,189 --> 00:01:29,600
+and you have some sense of the other
+people in the course.
+
+27
+00:01:29,601 --> 00:01:32,007
+This is why for this first week we are
+asking you
+
+28
+00:01:32,061 --> 00:01:36,530
+to take a picture of yourself and your
+computer screen with your favourite 
+
+29
+00:01:37,079 --> 00:01:38,083
+data analysis tool on it.
+
+30
+00:01:38,479 --> 00:01:42,493
+So just open your favourite spreadsheet
+or database, take your phone,
+
+31
+00:01:42,619 --> 00:01:46,590
+make a picture of yourself at your desk,
+or as I like to call it
+
+32
+00:01:46,591 --> 00:01:49,952
+an "excelfie", and send this to us so 
+we can have a look
+
+33
+00:01:50,052 --> 00:01:52,889
+who is on this journey with us.
+

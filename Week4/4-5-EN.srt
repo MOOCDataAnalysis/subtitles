@@ -1,0 +1,203 @@
+1
+00:00:00,047 --> 00:00:04,039
+So in this week's videos I've taught you
+about Named Ranges.
+
+2
+00:00:04,039 --> 00:00:07,419
+But, of course, we're still running our
+Dance studio and the
+
+3
+00:00:07,529 --> 00:00:12,000
+ultimate goal of this week's exercises is
+to actually complete a planning
+
+4
+00:00:12,000 --> 00:00:16,027
+for our Dance studio. So let's have a
+look at what we've done so far:
+
+5
+00:00:16,027 --> 00:00:20,400
+we have improved our formula with
+use of named range, we've made a data table
+
+6
+00:00:20,400 --> 00:00:21,040
+
+7
+00:00:21,049 --> 00:00:25,076
+out of the teachers, we have all the
+information. There's one thing
+
+8
+00:00:25,076 --> 00:00:28,836
+that we still need and that's the 
+availability - what
+
+9
+00:00:28,949 --> 00:00:32,389
+teacher can teach on what days of the
+week, because not all of them are
+
+10
+00:00:32,500 --> 00:00:33,300
+available
+
+11
+00:00:33,309 --> 00:00:37,429
+all the time. But we have an issue now
+here, because in this worksheet
+
+12
+00:00:37,640 --> 00:00:40,969
+the days of the week are in this
+
+13
+00:00:41,079 --> 00:00:45,199
+direction, whereas the availability
+is in the other direction.
+
+14
+00:00:45,309 --> 00:00:50,589
+Well, we can fix that by selecting this
+data and copying it with Paste Special
+
+15
+00:00:50,660 --> 00:00:53,840
+in a transposed way, so all of the data
+is flipped.
+
+16
+00:00:54,042 --> 00:01:00,022
+And now we can copy it back to the original
+position. But what has happened now
+
+17
+00:01:00,109 --> 00:01:04,309
+is our worksheet has changed, but 
+the named
+
+18
+00:01:04,339 --> 00:01:08,092
+ranges have not. So the name is still
+Horizontal levels,
+
+19
+00:01:08,092 --> 00:01:11,852
+but in the spreadsheet it doesn't mean
+Levels anymore,
+
+20
+00:01:12,005 --> 00:01:16,037
+it's actually days of the week now. And 
+this is one of the risks,
+
+21
+00:01:16,082 --> 00:01:20,902
+unfortunately, of using named range that
+I would like to call
+
+22
+00:01:20,939 --> 00:01:25,065
+the Basmati Effect. Often in your
+spreadsheet, but also in normal
+
+23
+00:01:25,065 --> 00:01:26,445
+programming,
+
+24
+00:01:26,509 --> 00:01:30,034
+it happens that your code changes, your
+spreadsheet changes,
+
+25
+00:01:30,034 --> 00:01:33,814
+but the values and names you have
+given to them
+
+26
+00:01:34,002 --> 00:01:37,680
+have not changed, and then you get things
+like this where you have a container
+
+27
+00:01:37,680 --> 00:01:38,400
+saying
+
+28
+00:01:38,409 --> 00:01:42,081
+"Rice" but actually it contains cookies. And
+this is what happens in spreadsheets as
+
+29
+00:01:42,081 --> 00:01:45,659
+well, and this is what has happened now in
+our example,
+
+30
+00:01:45,659 --> 00:01:51,009
+where we have a name called Horizontal
+Levels, but it actually contains
+
+31
+00:01:51,009 --> 00:01:54,093
+days of the week. So your exercise for
+this week, the first
+
+32
+00:01:54,093 --> 00:01:59,633
+exercise, is to fix this. I would like
+you to use the Name Manager to change
+
+33
+00:01:59,700 --> 00:02:00,700
+this name into
+
+34
+00:02:00,700 --> 00:02:01,929
+appropriate name
+
+35
+00:02:01,939 --> 00:02:05,099
+but also to fix the formulas in such a
+way that you are again
+
+36
+00:02:05,099 --> 00:02:08,859
+retrieving data, so that you get Xs
+
+37
+00:02:09,042 --> 00:02:14,111
+on the spots of the days and the levels.
+And the second assignment
+
+38
+00:02:14,489 --> 00:02:18,360
+is to actually make the planning - so not
+just the crosses, but
+
+39
+00:02:18,360 --> 00:02:21,920
+actual names for teachers that can teach
+
+40
+00:02:22,031 --> 00:02:27,291
+at a given day for a given level. So that's
+your assignment, use named ranges but
+
+41
+00:02:27,300 --> 00:02:27,900
+also
+
+42
+00:02:28,033 --> 00:02:33,013
+all of the things we talked about in
+previous videos to complete this planning.
+
+43
+00:02:33,020 --> 00:02:34,200
+Good luck!
+

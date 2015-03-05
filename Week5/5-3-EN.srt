@@ -1,0 +1,416 @@
+1
+00:00:00,280 --> 00:00:03,480
+In a previous video we looked at array
+formulas.
+
+2
+00:00:03,500 --> 00:00:07,160
+More specifically, we've looked at how to
+transpose our data
+
+3
+00:00:07,300 --> 00:00:11,920
+so that we can filter it for questions
+that we don't want to have in an exam anymore.
+
+4
+00:00:12,019 --> 00:00:15,539
+Our data is prepared now, it's in the
+right way.
+
+5
+00:00:15,660 --> 00:00:19,060
+So let's filter it, we can go to the filter
+button, select our data
+
+6
+00:00:19,067 --> 00:00:24,000
+and say: Hey we don't want all the data,
+we don't want all of the questions
+
+7
+00:00:24,000 --> 00:00:27,034
+we only want to have everything
+
+8
+00:00:27,034 --> 00:00:30,414
+beside the second row. But unfortunately
+
+9
+00:00:30,500 --> 00:00:34,940
+we still have the same result, because we
+have transposed
+
+10
+00:00:34,980 --> 00:00:38,300
+everything including the last column
+
+11
+00:00:38,300 --> 00:00:41,020
+which is now the last row, so don't worry
+you think,
+
+12
+00:00:41,027 --> 00:00:44,559
+we can just delete it. That doesn't work,
+
+13
+00:00:44,559 --> 00:00:47,479
+you cannot change part of an arrayformula.
+
+14
+00:00:47,480 --> 00:00:50,600
+It's impossible once you have selected
+an area
+
+15
+00:00:50,600 --> 00:00:54,689
+that's meant for an array, you cannot
+delete cells in it.
+
+16
+00:00:54,699 --> 00:00:58,399
+And this is a good, because you don't
+want to accidentally overwrite part of
+
+17
+00:00:58,400 --> 00:00:59,020
+your array
+
+18
+00:00:59,028 --> 00:01:02,359
+by hitting the keyboard with your elbow.
+But in this case,
+
+19
+00:01:02,359 --> 00:01:06,599
+we don't want to have the final column
+anymore, we want to add new calculations,
+
+20
+00:01:06,820 --> 00:01:09,440
+So what we need to do is use the same
+
+21
+00:01:09,660 --> 00:01:12,540
+region again but we with one row less and put
+the
+
+22
+00:01:12,540 --> 00:01:15,560
+array formula in again. So
+
+23
+00:01:15,560 --> 00:01:20,015
+the only way we can delete the values is:
+delete everything,
+
+24
+00:01:20,015 --> 00:01:25,355
+delete the entire array formula and then
+paste it again
+
+25
+00:01:25,369 --> 00:01:28,869
+using one row less. It's a bit cumbersome
+
+26
+00:01:28,869 --> 00:01:32,021
+so if you want to change an array you have
+to change everything.
+
+27
+00:01:32,021 --> 00:01:37,259
+But there we have it. So now we can add the
+SUM() function ourself,
+
+28
+00:01:37,259 --> 00:01:41,036
+based on the transposed data. We just
+add a SUM()
+
+29
+00:01:41,036 --> 00:01:44,796
+of the entire column. There we go, no
+worries.
+
+30
+00:01:45,120 --> 00:01:46,960
+And we drag it.
+
+31
+00:01:48,082 --> 00:01:49,522
+Yep, there it is.
+
+32
+00:01:50,007 --> 00:01:54,038
+So now we can filter, we are entirely
+prepared, we go to filter we remove
+
+33
+00:01:54,038 --> 00:01:57,618
+the second question from the list of
+questions,
+
+34
+00:01:57,619 --> 00:02:01,078
+and it works. Apparently, it doesn't.
+
+35
+00:02:01,078 --> 00:02:05,098
+The calculation even though a row is
+filtered out,
+
+36
+00:02:05,149 --> 00:02:11,109
+is still calculating on the entire
+column. so we can not use a function to
+
+37
+00:02:11,640 --> 00:02:14,016
+filter, because it will still
+
+38
+00:02:14,040 --> 00:02:17,880
+calculate the entire column unfortunately.
+
+39
+00:02:18,480 --> 00:02:21,560
+I hope you're screaming right now, I
+really hope
+
+40
+00:02:21,560 --> 00:02:25,040
+that on the other side of the video you
+are saying this:
+
+41
+00:02:25,047 --> 00:02:29,680
+Hey, but I know why this isn't working
+because formulas are
+
+42
+00:02:29,680 --> 00:02:33,569
+not for analysis, formulas are for
+calculation
+
+43
+00:02:33,579 --> 00:02:36,979
+if you want to do analysis you
+should do something else.
+
+44
+00:02:36,980 --> 00:02:40,014
+For instance a pivot table,
+
+45
+00:02:40,014 --> 00:02:43,113
+indeed. Okay, okay, okay, I hear you.
+
+46
+00:02:43,239 --> 00:02:48,245
+Let's try to do our analysis with a pivot
+table. We get rid of the formulas
+
+47
+00:02:48,299 --> 00:02:52,679
+they are not for analysis. We get rid of
+the filter and we select all the data
+
+48
+00:02:52,680 --> 00:02:53,780
+and put it
+
+49
+00:02:53,780 --> 00:02:57,020
+into a pivot table. Filter
+
+50
+00:02:57,025 --> 00:03:00,445
+can go, we select all the data.
+
+51
+00:03:00,600 --> 00:03:04,000
+Oh yeah, I've changed the student number
+to one two three four instead of
+
+52
+00:03:04,000 --> 00:03:08,880
+the very long student numbers, because
+that will make the pivot table a bit too big.
+
+53
+00:03:09,060 --> 00:03:14,800
+Let's go, we add pivot table. Yep, there we go.
+
+54
+00:03:16,580 --> 00:03:20,980
+select the pivot table and we put
+it on a new worksheet that I have just
+
+55
+00:03:20,980 --> 00:03:21,980
+made.
+
+56
+00:03:21,980 --> 00:03:24,015
+Select the data and we have a pivot table.
+
+57
+00:03:24,015 --> 00:03:28,069
+So now we can filter right? We can say we
+want all of the students, these are student
+
+58
+00:03:28,069 --> 00:03:29,649
+numbers now,
+
+59
+00:03:29,709 --> 00:03:34,049
+all the sums of all the students. 
+Click, click, click.
+
+60
+00:03:35,960 --> 00:03:38,420
+Yep and we can add a filter
+
+61
+00:03:38,420 --> 00:03:42,016
+on what questions to use, super easy if
+you've seen the week
+
+62
+00:03:42,016 --> 00:03:45,596
+about the pivot tables, you know how to do
+this. We can just select
+
+63
+00:03:45,600 --> 00:03:50,579
+what questions we want. However as you
+see, it's pretty hard to compare the
+
+64
+00:03:50,580 --> 00:03:52,560
+different scenarios with each other.
+
+65
+00:03:52,560 --> 00:03:56,200
+Now this is 55 if I change a value
+
+66
+00:03:56,209 --> 00:03:59,869
+it changes, but what I would like to have
+is have the
+
+67
+00:03:59,869 --> 00:04:02,095
+scenarios side by side. One row for
+
+68
+00:04:02,095 --> 00:04:06,035
+the exam with question 2 included and 
+one row
+
+69
+00:04:06,042 --> 00:04:10,013
+for the exam without question 2, without
+everything
+
+70
+00:04:10,013 --> 00:04:13,027
+swapping all the time. If I do that
+
+71
+00:04:13,027 --> 00:04:16,820
+the only way I could do that is to make
+two pivot tables with two different
+
+72
+00:04:16,820 --> 00:04:17,820
+filters. 
+
+73
+00:04:17,960 --> 00:04:20,999
+And then of course we're running into
+the duplication problem again.
+
+74
+00:04:21,002 --> 00:04:25,007
+There's another downside of using
+pivot table for this analysis,
+
+75
+00:04:25,007 --> 00:04:29,267
+if we go to the table field settings down
+here,
+
+76
+00:04:29,760 --> 00:04:32,400
+there's a limited number of functions we
+can use.
+
+77
+00:04:32,400 --> 00:04:35,260
+So there is SUM(), AVERAGE(), MIN(), MAX(), but not
+
+78
+00:04:35,260 --> 00:04:40,960
+all of Excel's I think 350+ 
+built-in functions are there.
+
+79
+00:04:40,960 --> 00:04:44,963
+There's a limited set a functions that we
+can use. So if we're summing the exam
+
+80
+00:04:45,018 --> 00:04:46,037
+results that's fine,
+
+81
+00:04:46,040 --> 00:04:51,080
+but if we want take differeent quartals for instance,
+if we want to use the median
+
+82
+00:04:51,080 --> 00:04:55,380
+if we want to use the mode, then
+there's no way that we can do that with
+
+83
+00:04:55,380 --> 00:04:56,460
+a pivot table.
+
+84
+00:04:56,460 --> 00:05:01,680
+So in conclusion, yes formulas are for
+calculation and not for analysis,
+
+85
+00:05:01,680 --> 00:05:05,760
+however there are some limitations to
+what you can do
+
+86
+00:05:05,760 --> 00:05:09,840
+with pivot tables, because they don't
+support everything and also they don't
+
+87
+00:05:09,840 --> 00:05:10,729
+really support
+
+88
+00:05:10,729 --> 00:05:14,560
+scenario analysis in which I want to
+compare two different filters with each
+
+89
+00:05:14,560 --> 00:05:15,420
+other.
+
+90
+00:05:15,420 --> 00:05:18,400
+And that's where you're going to need
+array formulas.
+
