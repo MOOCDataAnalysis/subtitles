@@ -14,7 +14,7 @@ Well, we're going to work on data analysis
 - I guess you understood so much -
 
 4
-00:00:11,841 --> 00:00:14,213
+00:00:11,841 --> 00:00:14,961
 but I will tell you what we will do: in
 the first
 
@@ -39,11 +39,11 @@ VLOOKUPs, all the things you need.
 And some people, while I was designing
 
 9
-00:00:31,449 --> 00:00:32,300
+00:00:31,026 --> 00:00:32,446
 this MOOC,
 
 10
-00:00:32,300 --> 00:00:36,087
+00:00:32,446 --> 00:00:37,014
 asked me the following question: why
 spreadsheets? Why are you going to spend
 
@@ -52,7 +52,7 @@ spreadsheets? Why are you going to spend
 six weeks on spreadsheets?
 
 12
-00:00:38,091 --> 00:00:43,092
+00:00:38,091 --> 00:00:43,851
 Especially in the era of big data, aren't
 you supposed to be teaching those people
 
@@ -61,12 +61,12 @@ you supposed to be teaching those people
 Hadoop clusters or 'R'? Well, no!
 
 14
-00:00:47,012 --> 00:00:51,034
+00:00:47,012 --> 00:00:51,652
 Spreadsheets are really relevant!
 One of the reasons that is very important
 
 15
-00:00:51,034 --> 00:00:52,121
+00:00:51,660 --> 00:00:53,020
 to teach people about spreadsheets
 
 16
@@ -75,22 +75,22 @@ is that they're very commonly used:
 ninety-five percent
 
 17
-00:00:56,078 --> 00:01:00,094
+00:00:56,078 --> 00:01:00,998
 of all US companies still use
 spreadsheets for financial reporting.
 
 18
-00:01:00,094 --> 00:01:03,128
+00:01:01,000 --> 00:01:04,420
 So if you're still doing it, you don't
 have to feel bad because
 
 19
-00:01:04,028 --> 00:01:07,093
+00:01:04,420 --> 00:01:08,000
 so is everyone else. Working with
 spreadsheets is
 
 20
-00:01:07,093 --> 00:01:10,108
+00:01:08,000 --> 00:01:11,008
 super common - 64 percent of
 
 21
@@ -103,7 +103,7 @@ life. This is a survey
 from the US Labor Statistics
 
 23
-00:01:18,043 --> 00:01:21,662
+00:01:18,043 --> 00:01:21,943
 from 2003, so it's a little bit old but
 it's still
 
@@ -113,7 +113,7 @@ a lot of people. And a more recent survey,
 from 2009,
 
 25
-00:01:25,891 --> 00:01:28,678
+00:01:25,891 --> 00:01:29,431
 showed that spreadsheets are the fourth
 most common task
 
@@ -147,7 +147,7 @@ for this one report. You just download
 the data,
 
 32
-00:01:49,072 --> 00:01:54,100
+00:01:49,072 --> 00:01:54,992
 make a graph and this is where it will
 end. And often it doesn't!
 
@@ -162,7 +162,7 @@ can I have it as well?" Sure, you are
 good colleague,
 
 35
-00:02:03,078 --> 00:02:06,277
+00:02:03,078 --> 00:02:06,978
 so you email this spreadsheet to him, 
 and he changes some data,
 
@@ -171,45 +171,45 @@ and he changes some data,
 and he adds a few worksheets, and the
 spreadsheet starts leading its own life.
 
-38
-00:02:11,085 --> 00:02:14,104
+37
+00:02:11,085 --> 00:02:14,865
 And our research has shown that this is
 very common - on
 
-39
+38
 00:02:15,004 --> 00:02:18,006
 average spreadsheets stay alive for five
 years,
 
-40
-00:02:18,006 --> 00:02:21,105
+39
+00:02:18,006 --> 00:02:22,005
 and during their life span they are used by
 12 different people.
 
-41
+40
 00:02:22,005 --> 00:02:25,051
 So this is why it's really important to
 be able to design
 
-42
-00:02:25,051 --> 00:02:28,125
+41
+00:02:25,051 --> 00:02:28,991
 a good, error-free spreadsheet,
 because even though you think
 
-43
+42
 00:02:29,025 --> 00:02:32,029
 it's just for you, chances are very big
 
-44
-00:02:32,065 --> 00:02:36,123
+43
+00:02:32,065 --> 00:02:36,705
 that this spreadsheet has a very long
 life-span. So, that's the answer to the
 
-45
-00:02:36,323 --> 00:02:37,100
+44
+00:02:36,840 --> 00:02:38,000
 question
 
-46
-00:02:38,000 --> 00:02:39,082
+45
+00:02:38,000 --> 00:02:40,040
 why we're doing this course in spreadsheets.
 

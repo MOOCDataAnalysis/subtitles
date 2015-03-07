@@ -150,27 +150,27 @@ rows. So if we go back to our transpose
 worksheet we make sure that we make enough
 
 33
-00:01:56,520 --> 00:01:57,020
-room
-
-34
-00:01:57,029 --> 00:02:02,649
-for everything, and then we can use the
+00:01:56,520 --> 00:02:02,640
+room for everything, and then we can use the
 TRANSPOSE() function with control shift enter,
 
-35
+34
 00:02:02,900 --> 00:02:06,900
 making it into an array formula and now we
 get the result of the entire array.
 
-36
+35
 00:02:07,005 --> 00:02:11,845
 So what was previously one row is now in
 a transposed version
 
+36
+00:02:11,845 --> 00:02:13,100
+one column.
+
 37
-00:02:11,980 --> 00:02:16,000
-one column. So why am I showing you this?
+00:02:14,000 --> 00:02:16,000
+So why am I showing you this?
 
 38
 00:02:16,002 --> 00:02:19,008

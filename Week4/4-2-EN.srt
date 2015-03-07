@@ -90,7 +90,7 @@ spreadsheet is changing.
 
 20
 00:01:07,409 --> 00:01:11,300
-And now you see, if you select Max.Level again,
+And now you see, if you select Max. Level again,
 all of the rows are included in the
 
 21
