@@ -1,0 +1,386 @@
+1
+00:00:01,005 --> 00:00:03,785
+Welcome back! In the previous video we've
+looked at
+
+2
+00:00:04,029 --> 00:00:08,005
+reasons why you want to use lookup
+functions and that was because
+
+3
+00:00:08,005 --> 00:00:11,534
+direct links in spreadsheets are going 
+to be messed up
+
+4
+00:00:11,579 --> 00:00:15,299
+if you change your data on the other
+side, for example, by sorting.
+
+5
+00:00:15,539 --> 00:00:19,088
+I really hope you have this ingrained
+into your spreadsheet brain -
+
+6
+00:00:19,500 --> 00:00:22,920
+that if you see a formula like this, if 
+you see a direct link
+
+7
+00:00:23,074 --> 00:00:26,374
+in your own worksheets or in a spreadsheet
+that your colleague has made,
+
+8
+00:00:26,380 --> 00:00:26,940
+for example,
+
+9
+00:00:27,073 --> 00:00:31,082
+try to think: is this really the best way 
+to organize my spreadsheet?
+
+10
+00:00:31,082 --> 00:00:36,084
+Am I really sure that that C2 is going
+to contain the same value
+
+11
+00:00:36,084 --> 00:00:40,095
+if I look at the spreadsheet tomorrow? 
+So what can we do about this?
+
+12
+00:00:40,095 --> 00:00:44,135
+We can use lookup functions and those
+will be explained
+
+13
+00:00:44,489 --> 00:00:47,096
+in this week's videos.
+
+14
+00:00:47,096 --> 00:00:51,576
+But first, let's take a step back and not talk 
+about spreadsheets for like 1 minute.
+
+15
+00:00:52,620 --> 00:00:54,820
+What actually does it mean
+
+16
+00:00:54,899 --> 00:00:58,009
+if you're looking up a value? 
+Let's look at that
+
+17
+00:00:58,009 --> 00:01:02,012
+outside of the spreadsheet context in,
+well, the canonical example
+
+18
+00:01:02,039 --> 00:01:07,319
+of looking something up - a phone book. What 
+are the three ingredients that you use if
+
+19
+00:01:07,320 --> 00:01:09,035
+you look something up in a phone book?
+
+20
+00:01:09,035 --> 00:01:12,079
+Well, first of all, you have a value that
+you're looking for,
+
+21
+00:01:12,079 --> 00:01:17,599
+in this case the name Bauer. That's what 
+we're looking up. The second ingredient is
+
+22
+00:01:17,869 --> 00:01:19,002
+what are we looking in,
+
+23
+00:01:19,002 --> 00:01:22,027
+in this case the phone book of 
+NamesandNumbers.com.
+
+24
+00:01:23,540 --> 00:01:27,960
+And third ingredient isn't actually 
+that obvious - the third ingredient of searching
+
+25
+00:01:28,008 --> 00:01:32,047
+is what am I going to return. In this
+example we are returning
+
+26
+00:01:32,119 --> 00:01:38,051
+the town in which Bauer lives. And 
+this three ingredients are also occurring
+
+27
+00:01:38,051 --> 00:01:42,751
+in lookup functions in a spreadsheet. 
+So let's look at how that looks:
+
+28
+00:01:43,018 --> 00:01:46,698
+we use a formula here. First of all, 
+we're going to get rid
+
+29
+00:01:47,008 --> 00:01:50,029
+of those direct links. We will 
+select them and just say:
+
+30
+00:01:50,029 --> 00:01:54,038
+right click, Clear Contents. We don't
+want to see those direct links again.
+
+31
+00:01:54,038 --> 00:01:57,052
+Now we have a room to import our new 
+formula,
+
+32
+00:01:57,052 --> 00:02:00,095
+the VLOOKUP. So we just type VLOOKUP
+
+33
+00:02:00,095 --> 00:02:05,495
+in our formula and now we input 
+the three ingredients for looking up:
+
+34
+00:02:05,799 --> 00:02:09,013
+first of all - what are we looking for. 
+That's the code.
+
+35
+00:02:09,013 --> 00:02:13,842
+Second, what are we looking in - 
+the ProductInfo worksheet.
+
+36
+00:02:13,959 --> 00:02:16,319
+And third of all, what are we going 
+to return:
+
+37
+00:02:16,569 --> 00:02:20,011
+the third column of the ProductInfo 
+worksheet.
+
+38
+00:02:20,011 --> 00:02:23,056
+And now you see - we have 
+associated price
+
+39
+00:02:23,056 --> 00:02:27,876
+with the Bench, in this case 
+the B809 product code.
+
+40
+00:02:29,040 --> 00:02:30,580
+So quick question: 
+
+41
+00:02:30,599 --> 00:02:34,610
+is this formula perfect? Apart from
+whether or not you know 
+
+42
+00:02:34,629 --> 00:02:35,429
+the VLOOKUP function,
+
+43
+00:02:35,429 --> 00:02:38,047
+can you spot what actually is wrong with
+
+44
+00:02:38,047 --> 00:02:41,887
+this formula? I'll give you five seconds 
+to think about it.
+
+45
+00:02:45,640 --> 00:02:48,880
+It's not perfect, right? You know that
+because I forgot the dollar sign ($).
+
+46
+00:02:49,045 --> 00:02:53,885
+If I draw this formula down now, you'll
+see that the links get messed up
+
+47
+00:02:54,049 --> 00:02:57,469
+because I didn't input the dollar sign.
+So let's fix that first.
+
+48
+00:02:57,629 --> 00:03:01,018
+Just delete the original reference and
+add the dollar signs.
+
+49
+00:03:01,018 --> 00:03:04,607
+By the way, you don't have to do it
+manually as I do here.
+
+50
+00:03:04,769 --> 00:03:07,081
+Which you can also do is select the
+reference and hit
+
+51
+00:03:07,081 --> 00:03:11,201
+F4, and then the dollars will be
+input for you. So we drag this
+
+52
+00:03:11,201 --> 00:03:12,073
+formula down
+
+53
+00:03:12,073 --> 00:03:15,633
+and now you can see it is perfect - 
+we're looking up
+
+54
+00:03:15,829 --> 00:03:20,229
+the right values. So maybe you missed what I
+did here because it went a little bit
+
+55
+00:03:20,360 --> 00:03:20,900
+quickly.
+
+56
+00:03:21,012 --> 00:03:24,015
+Let's take a step back and do all
+the things
+
+57
+00:03:24,015 --> 00:03:28,047
+step for step. All the lookup ingredients
+point exactly at what they are.
+
+58
+00:03:28,047 --> 00:03:32,207
+So remember the three ingredients - what are
+we looking for,
+
+59
+00:03:32,299 --> 00:03:36,059
+what are we looking in, and what are we
+going to return. You see that they occur
+
+60
+00:03:36,059 --> 00:03:41,039
+in the VLOOKUP function as well. The
+first part is what am I looking for,
+
+61
+00:03:41,360 --> 00:03:45,060
+this is the code. The second part is what
+am I looking in,
+
+62
+00:03:45,239 --> 00:03:48,619
+it's this part of the ProductInfo
+worksheet.
+
+63
+00:03:48,949 --> 00:03:52,043
+And the final argument, I would say, is
+the most tricky,
+
+64
+00:03:52,043 --> 00:03:55,783
+because it's just a number, it doesn't
+really look spreadsheety
+
+65
+00:03:55,909 --> 00:03:58,912
+with a reference, and it actually means
+what
+
+66
+00:03:59,209 --> 00:04:03,213
+number of column am I going to return. 
+So in this case it's 3,
+
+67
+00:04:03,609 --> 00:04:07,072
+which means I'm returning the third
+column of the whole range
+
+68
+00:04:07,072 --> 00:04:11,592
+that I have selected. And then you see,
+with this we obtain the selling
+
+69
+00:04:11,700 --> 00:04:12,580
+price
+
+70
+00:04:12,769 --> 00:04:16,007
+for each of the codes. We can do the
+exact same thing
+
+71
+00:04:16,007 --> 00:04:20,486
+if we also want to look up the names
+associated with a certain code.
+
+72
+00:04:20,549 --> 00:04:24,013
+The only thing we have to change is, in
+case of the names we're looking
+
+73
+00:04:24,013 --> 00:04:26,014
+for, the second column to return.
+
+74
+00:04:26,014 --> 00:04:29,008
+The rest of the formula is the same - 
+we're looking for the same value
+
+75
+00:04:29,008 --> 00:04:32,708
+in the same range. We are only returning 
+a different value.
+
+76
+00:04:33,029 --> 00:04:37,035
+With that we have made a perfect
+connection between two worksheets
+
+77
+00:04:37,035 --> 00:04:40,066
+based on the codes that occur 
+in both of them.
+
+78
+00:04:40,066 --> 00:04:45,026
+In the next video we're going to look at
+the mysterious fourth parameter of the
+
+79
+00:04:45,220 --> 00:04:46,360
+VLOOKUP function
+
+80
+00:04:46,500 --> 00:04:50,200
+that I have not yet used in this video.
+See you there!
+

@@ -1,0 +1,320 @@
+1
+00:00:00,260 --> 00:00:04,500
+So pivot tables. In the last video I showed
+you that
+
+2
+00:00:04,509 --> 00:00:08,200
+formulas are really meant for
+calculation and not for detailed
+
+3
+00:00:08,200 --> 00:00:11,349
+analysis of your data. So we can use
+
+4
+00:00:11,349 --> 00:00:15,820
+a pivot table for that and pivotting
+means turning around. Actually
+
+5
+00:00:15,820 --> 00:00:19,039
+I'm not entirely sure why a pivot table
+is called that
+
+6
+00:00:19,039 --> 00:00:22,470
+I like to think of it more as a flatten
+table,
+
+7
+00:00:22,470 --> 00:00:26,680
+because what a pivot table does, it
+takes a whole bunch of data
+
+8
+00:00:26,680 --> 00:00:30,019
+and it flattens it given a certain
+dimension.
+
+9
+00:00:30,019 --> 00:00:36,489
+This might sound very cryptic to you
+so let's just go to our own data and
+
+10
+00:00:36,489 --> 00:00:39,540
+make a pivot table, so we don't need that
+
+11
+00:00:39,540 --> 00:00:42,989
+nasty calculation anymore, we're just
+going to select
+
+12
+00:00:42,989 --> 00:00:46,379
+our entire register log and then
+
+13
+00:00:46,379 --> 00:00:51,010
+we're goint to insert a pivot table. So I've
+made a worksheet for you, you can select the
+
+14
+00:00:51,010 --> 00:00:53,829
+data that you want and then you can say
+where you want to have it,
+
+15
+00:00:53,829 --> 00:00:57,920
+new worksheet is fine but I already made
+a pivot table worksheet
+
+16
+00:00:57,920 --> 00:01:01,949
+and what's important is that you add this
+data to the data model.
+
+17
+00:01:01,949 --> 00:01:05,239
+I will talk about that later but for now
+you just remember that this is
+
+18
+00:01:05,239 --> 00:01:08,830
+always what you want. So Excel is now
+calculating
+
+19
+00:01:08,830 --> 00:01:14,430
+and it has created a pivot table for us.
+So maybe you think now what?
+
+20
+00:01:14,430 --> 00:01:18,340
+Okay we have a pivot table but I
+don't know what to do with it.
+
+21
+00:01:18,340 --> 00:01:23,170
+I don't see my data, 
+what do I do? I'm a bit confused.
+
+22
+00:01:23,170 --> 00:01:26,549
+So what you can see here is all the
+fields
+
+23
+00:01:26,549 --> 00:01:30,189
+from our register log are available to
+us in the pivot table.
+
+24
+00:01:30,189 --> 00:01:34,150
+If we go back to the register log we
+see that all those column headers
+
+25
+00:01:34,150 --> 00:01:37,400
+Excel has detected, has looked at the data
+and
+
+26
+00:01:37,400 --> 00:01:40,689
+saw that these are the column headers and
+placed them
+
+27
+00:01:40,689 --> 00:01:45,689
+in the pivot table for you. So you can pick
+one and drag it down to the rows field
+
+28
+00:01:45,689 --> 00:01:49,600
+and now it's going to calculate some things.
+So you see all the beers
+
+29
+00:01:49,600 --> 00:01:53,570
+that are in our register log are now in
+our pivot table.
+
+30
+00:01:53,570 --> 00:01:59,640
+And this is in the sense that I mean a 
+flattening table, because what happened is
+
+31
+00:01:59,640 --> 00:02:03,590
+we had that entire register log: all
+these beers,
+
+32
+00:02:03,590 --> 00:02:07,080
+and what the pivot table has done
+is it has flattened into
+
+33
+00:02:07,090 --> 00:02:09,150
+only the beer names that are here.
+
+34
+00:02:09,150 --> 00:02:12,800
+For example
+
+35
+00:02:12,800 --> 00:02:17,380
+the Schlafly Oktoberfest occurs twice
+but in the flattened pivot table
+
+36
+00:02:17,380 --> 00:02:20,750
+it only occurs once. Only the unique
+values remain.
+
+37
+00:02:20,750 --> 00:02:26,410
+As you can see here. But we're not really
+analyzing yet, now we just have the list
+
+38
+00:02:26,410 --> 00:02:28,700
+of beers of course we want to do
+something with it.
+
+39
+00:02:28,700 --> 00:02:33,430
+So what we can do is take that quantity 
+and drag it to the value field.
+
+40
+00:02:33,430 --> 00:02:36,040
+And what happens now is, it is summing the quantity
+
+41
+00:02:36,040 --> 00:02:39,410
+per beers. So while flattening the
+data,
+
+42
+00:02:39,410 --> 00:02:42,510
+all the quantities that it encounters
+
+43
+00:02:42,510 --> 00:02:46,900
+are summed and if we sort it we get the
+exact same result as we had
+
+44
+00:02:46,900 --> 00:02:50,820
+when we were using the SUMIF() function.
+
+45
+00:02:50,820 --> 00:02:54,050
+We get 170 items sold for the Schlafly
+Oktoberfest beer.
+
+46
+00:02:55,640 --> 00:02:57,280
+So now again
+
+47
+00:02:57,290 --> 00:03:00,630
+imagine that our boss comes in and says
+what beer
+
+48
+00:03:00,630 --> 00:03:05,720
+sells best after 11 p.m.? This is super
+easy, because we can take the time field
+
+49
+00:03:05,720 --> 00:03:09,660
+now and use it to filter our data. So we
+take time,
+
+50
+00:03:09,660 --> 00:03:14,820
+we drag it down to the filter and now we
+have the list of all times
+
+51
+00:03:14,820 --> 00:03:17,830
+in a drop-down function. So we just
+
+52
+00:03:17,830 --> 00:03:21,780
+say we want to select a bunch of them, we
+scroll down and we
+
+53
+00:03:21,780 --> 00:03:26,810
+tick everything that is after 11 p.m. You
+could also use a formula for that but
+
+54
+00:03:26,810 --> 00:03:30,000
+just clicking is also super easy. And
+then we 
+
+55
+00:03:30,000 --> 00:03:33,970
+see that the best sold beer after 11
+p.m. is this Schlafly October.
+
+56
+00:03:33,970 --> 00:03:38,120
+We knew that from the SUMIF() function,
+but now we've done it
+
+57
+00:03:38,120 --> 00:03:44,020
+without any formulas! So compare what I
+did in this video to what I did in the
+
+58
+00:03:44,020 --> 00:03:45,190
+previous video.
+
+59
+00:03:45,190 --> 00:03:48,370
+I didn't use any formulas, it was only
+
+60
+00:03:48,370 --> 00:03:52,160
+importing my data into the pivot
+table, selecting the right fields,
+
+61
+00:03:52,160 --> 00:03:55,410
+applying the right filter and the
+analysis is there.
+
+62
+00:03:55,410 --> 00:03:59,900
+And it's super easy for me now if I want
+to know what's the best sold beer before
+
+63
+00:03:59,900 --> 00:04:00,920
+7 p.m.
+
+64
+00:04:00,920 --> 00:04:06,010
+Just changing the filter a little bit, no
+formulas needed, no change to any formulas 
+
+65
+00:04:06,010 --> 00:04:06,660
+needed,
+
+66
+00:04:06,660 --> 00:04:11,150
+and I have my analysis. So a pivot table
+really allows us
+
+67
+00:04:11,150 --> 00:04:13,850
+to play with our data in easy fashion.
+

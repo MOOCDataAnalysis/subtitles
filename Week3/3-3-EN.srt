@@ -1,0 +1,210 @@
+1
+00:00:00,560 --> 00:00:04,250
+So in the previous videos, we looked at how
+to use pivot tables for simple 
+
+2
+00:00:04,250 --> 00:00:05,080
+analysis
+
+3
+00:00:05,080 --> 00:00:08,099
+and in the following videos we're going to
+
+4
+00:00:08,099 --> 00:00:12,809
+really dive into all the possibilities
+that pivot tables have to offer. So this
+
+5
+00:00:12,809 --> 00:00:13,820
+is what we ended up with
+
+6
+00:00:13,820 --> 00:00:17,130
+in the previous video. So what we could do
+now is
+
+7
+00:00:17,130 --> 00:00:21,039
+add another row field, for instance add
+the date and now we get a
+
+8
+00:00:21,039 --> 00:00:24,350
+stacked list of rows. So we get
+
+9
+00:00:24,350 --> 00:00:27,570
+the type of beer and underneath it, all the 
+dates
+
+10
+00:00:27,570 --> 00:00:31,920
+on which we have sold the beers.
+We can open and close them like a folder
+
+11
+00:00:31,920 --> 00:00:32,579
+structure
+
+12
+00:00:32,579 --> 00:00:37,309
+and we can investigate exactly at what
+date have we sold which beer.
+
+13
+00:00:37,309 --> 00:00:41,329
+And we can swap them too, so we can make
+date the highest level,
+
+14
+00:00:41,329 --> 00:00:45,660
+and then we get for each day what are
+the beers we have sold
+
+15
+00:00:45,660 --> 00:00:48,989
+at that date. And that makes it easy
+again
+
+16
+00:00:48,989 --> 00:00:53,180
+to really dive into the data and understand
+what are my customers doing
+
+17
+00:00:53,180 --> 00:01:00,180
+when are day drinking what type of
+drinks? So, so far we've
+
+18
+00:01:01,180 --> 00:01:02,170
+only 
+
+19
+00:01:02,170 --> 00:01:07,260
+looked at SUMs, but we can use all types
+of different functions there, we don't
+
+20
+00:01:07,260 --> 00:01:08,380
+need to use sums.
+
+21
+00:01:08,380 --> 00:01:12,369
+There's a lot of other function that we
+can use if we go to the value settings
+
+22
+00:01:12,369 --> 00:01:12,979
+below.
+
+23
+00:01:12,979 --> 00:01:14,549
+If we click them... 
+
+24
+00:01:14,549 --> 00:01:19,040
+Yes there we go. If you click them you 
+can select a lot of other fields.
+
+25
+00:01:19,040 --> 00:01:24,299
+So you see SUM(), but I can also use 
+COUNT() or MIN() or MAX().
+
+26
+00:01:24,299 --> 00:01:28,509
+So let's pick AVERAGE(), let's pick the
+average amount
+
+27
+00:01:28,509 --> 00:01:33,360
+of quantity that has been sold and what
+does that exactly mean
+
+28
+00:01:33,360 --> 00:01:36,970
+the average amount of quantity? It's not the
+average of the entire column,
+
+29
+00:01:36,970 --> 00:01:42,369
+what we get is the average per beer of
+whatever is in that quantity column.
+
+30
+00:01:42,369 --> 00:01:45,979
+So you can see that if sort values, let's
+sort them,
+
+31
+00:01:45,979 --> 00:01:52,380
+so we can really see what's going on. Yes
+there we go, we sort values and we see that some
+
+32
+00:01:52,380 --> 00:01:53,229
+beers 
+
+33
+00:01:53,229 --> 00:01:57,930
+are on average sold in a quantity of two.
+So we can say that the Chocolate Stout
+
+34
+00:01:57,930 --> 00:02:02,610
+is really a date beer, people buy it duo's.
+Whereas a Bud Light is
+
+35
+00:02:02,610 --> 00:02:05,630
+usually bought in bigger groups.
+
+36
+00:02:05,630 --> 00:02:10,070
+And that sort of makes sense I guess, you buy 
+couple of Bud Lights for your friends, but a
+
+37
+00:02:10,070 --> 00:02:11,050
+Chocolate Stout
+
+38
+00:02:11,050 --> 00:02:14,070
+you might buy that for your date. 
+So when using an
+
+39
+00:02:14,070 --> 00:02:18,170
+average we look at the data in an
+entirely different way. We're not looking
+
+40
+00:02:18,170 --> 00:02:19,210
+at the total
+
+41
+00:02:19,210 --> 00:02:22,990
+but while flattening the data 
+we're taking the average
+
+42
+00:02:22,990 --> 00:02:28,600
+for each type of beer that we sell. So in
+this way pivot tables allow us
+
+43
+00:02:28,600 --> 00:02:32,860
+to really dive again I'm going to say
+there's multiple times in this series
+
+44
+00:02:32,860 --> 00:02:35,980
+dive into the data and help us understand
+
+45
+00:02:35,980 --> 00:02:37,160
+what it actually means.
+

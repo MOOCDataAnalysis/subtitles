@@ -1,0 +1,257 @@
+1
+00:00:00,081 --> 00:00:03,781
+This is where we left off in the previous
+video, we used the LEFT and FIND
+
+2
+00:00:04,006 --> 00:00:05,146
+functions
+
+3
+00:00:05,339 --> 00:00:09,599
+to chop off that part of data that
+we need in order for us to be able
+
+4
+00:00:09,969 --> 00:00:13,082
+to use the value in calculations. And in
+the meantime,
+
+5
+00:00:13,082 --> 00:00:17,622
+you, in the exercises, have also added
+this Trend column,
+
+6
+00:00:18,000 --> 00:00:21,027
+where you chop off the first part of the
+Change column.
+
+7
+00:00:21,027 --> 00:00:25,031
+And I'm not going to show you the formula,
+so if you haven't done the exercises yet
+
+8
+00:00:25,031 --> 00:00:30,400
+you still have an opportunity to do so.
+What I've also done in the meantime is: I've
+
+9
+00:00:30,679 --> 00:00:32,025
+added not just the value,
+
+10
+00:00:32,025 --> 00:00:35,005
+the number of shares I have, for the
+first row,
+
+11
+00:00:35,005 --> 00:00:39,965
+but also for all of the others. So I've just
+gone back to this first worksheet
+
+12
+00:00:40,037 --> 00:00:45,136
+and copied all the data in. And as I said
+in the previous video - yes, I will explain
+
+13
+00:00:45,200 --> 00:00:46,140
+you a better way
+
+14
+00:00:46,180 --> 00:00:50,620
+to connect two worksheets together. If
+you already know it, don't worry, this is
+
+15
+00:00:50,620 --> 00:00:52,036
+not how I think it's done,
+
+16
+00:00:52,036 --> 00:00:56,716
+but for this exercise it's just easier to
+copy the data in.
+
+17
+00:00:56,960 --> 00:01:00,880
+So this is typically the point, if you
+have a lot of columns,
+
+18
+00:01:01,003 --> 00:01:04,463
+where you're going to want to clean up
+your worksheet.
+
+19
+00:01:04,479 --> 00:01:09,004
+If it doesn't fit on the screen anymore,
+it's time to do some organization.
+
+20
+00:01:09,004 --> 00:01:12,403
+So let's scroll back to the first columns
+and these
+
+21
+00:01:12,439 --> 00:01:15,619
+first 5 columns, they have a special
+role, right?
+
+22
+00:01:15,620 --> 00:01:20,000
+They are imported from the web. So we can
+indicate that to future users of the
+
+23
+00:01:20,001 --> 00:01:21,004
+worksheet by
+
+24
+00:01:21,013 --> 00:01:24,072
+adding a column here, a border on the side
+
+25
+00:01:24,072 --> 00:01:28,272
+of the column. And here are two other
+columns that play a different role,
+
+26
+00:01:28,280 --> 00:01:29,560
+because they are built
+
+27
+00:01:29,560 --> 00:01:33,380
+on the web data and then I have two
+more columns. And
+
+28
+00:01:33,439 --> 00:01:37,034
+if I've done this, I don't really need
+the original values anymore,
+
+29
+00:01:37,034 --> 00:01:41,374
+because with my String operation I have
+retrieved the information that I need,
+
+30
+00:01:41,400 --> 00:01:45,340
+and I can still refresh the data even
+though the columns are hidden,
+
+31
+00:01:45,340 --> 00:01:49,760
+the calculation is still refreshed after
+I hit the Refresh button.
+
+32
+00:01:49,900 --> 00:01:52,960
+So this already looks a lot nicer, now
+in one
+
+33
+00:01:53,119 --> 00:01:56,999
+view you can see what's going on. Only
+the final column is bothering me a
+
+34
+00:01:57,005 --> 00:01:58,002
+little bit,
+
+35
+00:01:58,002 --> 00:02:02,022
+because some of the values have 2 and
+others have 1 decimal.
+
+36
+00:02:02,100 --> 00:02:05,000
+So what we can do here, in this cell
+formatting
+
+37
+00:02:05,000 --> 00:02:08,019
+pop-up that you bring up by hitting
+Ctrl + 1,
+
+38
+00:02:08,019 --> 00:02:11,044
+we can set the number of decimals. But we
+can go further than
+
+39
+00:02:11,044 --> 00:02:14,072
+that, we can even indicate that the
+value is a currency
+
+40
+00:02:14,072 --> 00:02:18,792
+and add the Euro symbol before it. So
+it's a lot more clear for someone who's
+
+41
+00:02:18,800 --> 00:02:21,014
+going to work with this spreadsheet,
+
+42
+00:02:21,014 --> 00:02:24,019
+and you remember from the first video
+that there are probably
+
+43
+00:02:24,019 --> 00:02:28,043
+12 people over the next 5 years.
+It's a lot clearer for them
+
+44
+00:02:28,043 --> 00:02:31,095
+what this value means, because they
+can see
+
+45
+00:02:31,095 --> 00:02:34,435
+this is money that we're talking about.
+So
+
+46
+00:02:34,680 --> 00:02:39,080
+organize your spreadsheet well - if
+you have people over to your house,
+
+47
+00:02:39,081 --> 00:02:42,095
+you're going to clean your house. If
+people are going to look at your
+
+48
+00:02:42,095 --> 00:02:44,775
+spreadsheet, you organize your worksheet.
+
+49
+00:02:44,780 --> 00:02:48,058
+And in the spreadsheet that you're going
+to send in for the homework,
+
+50
+00:02:48,058 --> 00:02:51,698
+we are going to look at your
+spreadsheet or you are going to peer
+
+51
+00:02:51,820 --> 00:02:52,840
+review
+
+52
+00:02:53,002 --> 00:02:56,422
+other people's spreadsheets and this is one
+of the things that we will be paying
+
+53
+00:02:56,540 --> 00:02:57,540
+attention to
+
+54
+00:02:57,660 --> 00:02:59,300
+in those reviews.
+

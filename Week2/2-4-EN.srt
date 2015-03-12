@@ -1,0 +1,359 @@
+1
+00:00:01,016 --> 00:00:04,095
+Hi, welcome back! In the previous video I
+explained you
+
+2
+00:00:04,095 --> 00:00:07,097
+that usually, if you want to use the 
+VLOOKUP function,
+
+3
+00:00:07,097 --> 00:00:10,997
+you're going to want to use FALSE as the
+last parameter,
+
+4
+00:00:11,044 --> 00:00:14,067
+because you want to be warned if a
+certain value
+
+5
+00:00:14,340 --> 00:00:18,320
+isn't found when integrating two
+worksheets. However, there are scenarios,
+
+6
+00:00:18,320 --> 00:00:19,740
+though, where TRUE
+
+7
+00:00:19,800 --> 00:00:23,015
+is the good choice, and in this video I
+will explain you when
+
+8
+00:00:23,015 --> 00:00:27,895
+you have to use TRUE. So, for instance,
+when we're doing this analysis:
+
+9
+00:00:28,008 --> 00:00:32,002
+in this new worksheet I've created, we're
+going to have a detailed look
+
+10
+00:00:32,002 --> 00:00:35,008
+into the use of margins. So, for instance, you had
+to
+
+11
+00:00:35,026 --> 00:00:39,037
+talk with your sales director and he
+said "Hey, I would like to know
+
+12
+00:00:39,037 --> 00:00:44,052
+for what product we have a good margin
+and for what other products our margin
+
+13
+00:00:44,052 --> 00:00:44,972
+could be
+
+14
+00:00:45,002 --> 00:00:48,039
+increased maybe?". So, first of all,
+
+15
+00:00:48,039 --> 00:00:51,839
+for each code we're going to look up the
+margin. And this is still just
+
+16
+00:00:52,039 --> 00:00:55,050
+an old fashioned VLOOKUP with
+the FALSE,
+
+17
+00:00:55,149 --> 00:00:58,589
+where we're going to the ProductInfo
+and we're returning the sixth column,
+
+18
+00:00:58,880 --> 00:01:01,893
+which is the margin. We change that.
+
+19
+00:01:02,005 --> 00:01:06,014
+Again, don't forget the dollar sign, it's
+really important that you remember that!
+
+20
+00:01:06,014 --> 00:01:09,674
+And then you drag the formula down and
+you have all the margins.
+
+21
+00:01:09,780 --> 00:01:13,320
+Now we want to do the analysis on top of it.
+So we want to know
+
+22
+00:01:13,500 --> 00:01:16,900
+is this a good margin or a bad margin.
+We can input
+
+23
+00:01:17,046 --> 00:01:20,606
+a formula for that, a simple
+conditional formula that we talked about in
+
+24
+00:01:20,606 --> 00:01:21,740
+previous videos.
+
+25
+00:01:21,760 --> 00:01:24,760
+We just say: if our margin is, let's say,
+
+26
+00:01:24,760 --> 00:01:30,960
+smaller than 20 percent then it's bad. In
+the alternative case, if it's bigger than
+
+27
+00:01:30,960 --> 00:01:33,080
+20 percent, but still smaller than 30,
+
+28
+00:01:33,086 --> 00:01:37,986
+we're going to say the margin is OK, and
+in other cases, if it's above 30,
+
+29
+00:01:38,039 --> 00:01:41,899
+then we're going to say: yes, our margin
+on this product is good!
+
+30
+00:01:42,013 --> 00:01:45,006
+So, yes, we can do this with a
+conditional formula,
+
+31
+00:01:45,006 --> 00:01:48,526
+just drag the formula down,
+
+32
+00:01:48,729 --> 00:01:52,013
+and we have it! Nothing wrong with it,
+
+33
+00:01:52,013 --> 00:01:56,039
+well, we are nesting conditions here and
+you should remember from previous videos
+
+34
+00:01:56,039 --> 00:02:00,359
+that if you're nesting a lot of
+conditionals then a formula can get
+
+35
+00:02:00,440 --> 00:02:01,690
+complicated.
+
+36
+00:02:02,160 --> 00:02:06,020
+You might not expect it, but this is
+actually a very good scenario
+
+37
+00:02:06,038 --> 00:02:09,257
+to use a VLOOKUP! It is really different
+from
+
+38
+00:02:09,400 --> 00:02:12,078
+looking up values over two tables, but
+actually
+
+39
+00:02:12,078 --> 00:02:16,998
+the VLOOKUP applies here, and let me show you how! 
+What we can do here
+
+40
+00:02:17,024 --> 00:02:21,524
+is add a table in our worksheet where
+we add the classification.
+
+41
+00:02:21,700 --> 00:02:24,960
+So we say: for margin of everything above
+
+42
+00:02:25,048 --> 00:02:28,768
+zero the classification is going to be
+bad,
+
+43
+00:02:29,038 --> 00:02:32,198
+everything between zero and 20
+
+44
+00:02:32,300 --> 00:02:36,900
+is going to be OK, and everything above
+20, between 20 and 30,
+
+45
+00:02:37,035 --> 00:02:41,335
+is going to be good. The exact same
+classification as we just put into
+
+46
+00:02:41,500 --> 00:02:44,900
+the conditional formula. Now we can
+
+47
+00:02:45,022 --> 00:02:48,822
+get rid of the whole IF, the nested IF
+that we didn't really like,
+
+48
+00:02:49,008 --> 00:02:52,019
+and put a VLOOKUP there. We're going
+to look for
+
+49
+00:02:52,019 --> 00:02:55,068
+the value of the margin in this new
+
+50
+00:02:55,160 --> 00:02:58,680
+margin table, we're returning the second
+column
+
+51
+00:02:58,709 --> 00:03:03,041
+and then we're going to add TRUE, because
+we don't want to look for 22,
+
+52
+00:03:03,041 --> 00:03:06,072
+you know that 22 is not in the table. We
+want to look
+
+53
+00:03:06,072 --> 00:03:10,072
+for the closest margin that there is,  
+to 22.
+
+54
+00:03:10,200 --> 00:03:13,420
+And you see that the functionality in
+this VLOOKUP
+
+55
+00:03:13,420 --> 00:03:16,660
+is exactly the same as the functionality
+of the IF.
+
+56
+00:03:17,140 --> 00:03:20,980
+And doing it this way you can see it's
+very easy, because if you want to change
+
+57
+00:03:21,000 --> 00:03:23,540
+something in my table you just saw me
+change
+
+58
+00:03:23,700 --> 00:03:26,777
+ok into uppercase OK. I can just do
+that
+
+59
+00:03:27,011 --> 00:03:30,054
+in the table, I don't need to change the
+formulas, just change my table
+
+60
+00:03:30,054 --> 00:03:33,894
+and all the formulas are updated. 
+Even more so, 
+
+61
+00:03:34,026 --> 00:03:37,084
+if I want to add another classification,
+like 40 percent is
+
+62
+00:03:37,084 --> 00:03:41,089
+the best margin there is, I can just
+add it to my table
+
+63
+00:03:41,089 --> 00:03:45,809
+update the lookup table and then my
+condition is updated.
+
+64
+00:03:46,009 --> 00:03:49,438
+Whereas if I should I do that with an if,
+then I would have gone on
+
+65
+00:03:49,519 --> 00:03:54,038
+another branch of the if and my formula
+would get longer and longer and longer.
+
+66
+00:03:54,038 --> 00:03:57,698
+And with this VLOOKUP solution it
+doesn't matter how many classifications
+
+67
+00:03:57,900 --> 00:04:01,719
+I have. If I have a hundred, this formula 
+will still be one
+
+68
+00:04:01,769 --> 00:04:04,649
+VLOOKUP, whereas if I have a
+hundred classifications
+
+69
+00:04:04,740 --> 00:04:07,940
+in a conditional formula, then I'll have
+a hundred IF.
+
+70
+00:04:08,022 --> 00:04:11,942
+Or, actually, I would have ninety-nine
+IFs, but that would still be a lot.
+
+71
+00:04:11,980 --> 00:04:17,008
+So, if you are classifying things, if
+you are dividing a certain value
+
+72
+00:04:17,018 --> 00:04:20,043
+into different categories using an if,
+
+73
+00:04:20,043 --> 00:04:24,083
+then I hope you remember this scenario -
+you could use VLOOKUP
+
+74
+00:04:24,083 --> 00:04:25,020
+with TRUE
+
+75
+00:04:25,021 --> 00:04:29,161
+to substantially simplify your formulas
+in such scenario.
+

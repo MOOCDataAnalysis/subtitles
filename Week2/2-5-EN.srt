@@ -1,0 +1,244 @@
+1
+00:00:00,660 --> 00:00:04,040
+Hi! In previous videos we look at the
+use of VLOOKUP,
+
+2
+00:00:04,047 --> 00:00:08,640
+when to use it, and, specifically, when to
+use the TRUE and FALSE parameters.
+
+3
+00:00:08,840 --> 00:00:12,320
+Unfortunately, there's also trouble in
+paradise -
+
+4
+00:00:12,429 --> 00:00:15,048
+The VLOOKUP function isn't always
+
+5
+00:00:15,048 --> 00:00:19,328
+perfect. And in this video I'm going to
+show you two reasons
+
+6
+00:00:19,449 --> 00:00:24,014
+when you're not going to want to use
+VLOOKUP.
+
+7
+00:00:24,014 --> 00:00:27,854
+So if we're in a little hardware shop, but we're
+only selling seven different
+
+8
+00:00:27,859 --> 00:00:31,017
+items using VLOOKUP is definitely
+fine,
+
+9
+00:00:31,017 --> 00:00:35,417
+there's no problem at all. But suppose
+we're running a huge hardware store
+
+10
+00:00:35,420 --> 00:00:37,059
+with like six thousand different
+
+11
+00:00:37,059 --> 00:00:41,459
+items. Then, our nice little VLOOKUP
+function that you see here,
+
+12
+00:00:41,620 --> 00:00:44,780
+if I drag it down now, will take a long
+time. You see
+
+13
+00:00:44,860 --> 00:00:48,060
+calculating... one Mississippi... Yup, there it is.
+
+14
+00:00:48,064 --> 00:00:51,069
+It's pretty slow and it would be okay
+if it would
+
+15
+00:00:51,200 --> 00:00:54,920
+only be slow if I'm calculating
+the VLOOKUP function.
+
+16
+00:00:55,000 --> 00:00:58,035
+But the spreadsheet will now remain slow
+
+17
+00:00:58,035 --> 00:01:01,071
+because the VLOOKUPs will be
+calculated all the time.
+
+18
+00:01:01,071 --> 00:01:05,611
+For instance, probably you've noticed my typo
+here - I'm not selling a Clam Hammer,
+
+19
+00:01:05,869 --> 00:01:09,036
+I'm selling a Claw Hammer. So if I'm
+changing that
+
+20
+00:01:09,036 --> 00:01:12,856
+small typo, again everything has to be
+recalculated.
+
+21
+00:01:13,015 --> 00:01:16,096
+So, using a lot, like six thousand
+VLOOKUPs in the spreadsheet
+
+22
+00:01:16,096 --> 00:01:19,836
+is going to make my spreadsheet slow for
+every operation
+
+23
+00:01:20,095 --> 00:01:24,555
+that I have. So, the first reason
+VLOOKUPs can be cumbersome
+
+24
+00:01:24,759 --> 00:01:29,239
+is they're pretty slow for large datasets.
+The second reason,
+
+25
+00:01:29,439 --> 00:01:33,099
+suppose your boss comes into your office
+and she says "Hey, I want to offer a
+
+26
+00:01:33,259 --> 00:01:34,274
+discount today on
+
+27
+00:01:34,409 --> 00:01:38,989
+Claw Hammers and Rip Saws, and you need
+to give me the associated codes because
+
+28
+00:01:39,079 --> 00:01:40,419
+I need to put those codes
+
+29
+00:01:40,479 --> 00:01:43,899
+into the register system for the discounts". And
+you're like:
+
+30
+00:01:44,079 --> 00:01:47,319
+Oh, I know how to do that! I've been following
+this super cool
+
+31
+00:01:47,439 --> 00:01:51,034
+online Excel course, I can do it! I'll
+just put in the names,
+
+32
+00:01:51,034 --> 00:01:56,194
+that's easy - the Claw Hammer and the
+Rip Saw, I will type them up,
+
+33
+00:01:57,100 --> 00:02:00,180
+no problem, and I'll just use
+VLOOKUP
+
+34
+00:02:00,259 --> 00:02:04,002
+to look up the codes that with the name.
+VLOOKUP,
+
+35
+00:02:04,002 --> 00:02:07,009
+I know how to do it, look up the name, 
+go to the
+
+36
+00:02:07,027 --> 00:02:10,387
+information sheet... Oh...
+
+37
+00:02:10,460 --> 00:02:11,240
+What
+
+38
+00:02:11,400 --> 00:02:14,560
+column do I send back? -1?
+
+39
+00:02:14,680 --> 00:02:17,707
+I want to have a value that's back in
+the stream.
+
+40
+00:02:18,002 --> 00:02:21,460
+Unfortunately, there's no such thing as 
+a -1 column
+
+41
+00:02:21,460 --> 00:02:25,040
+in VLOOKUP. The only way you can
+use VLOOKUP
+
+42
+00:02:25,043 --> 00:02:29,079
+is this way - from the first column, and
+retrieve something that's
+
+43
+00:02:29,079 --> 00:02:32,639
+in a later column. There's no way that you
+can go back
+
+44
+00:02:33,000 --> 00:02:36,059
+in the stream with VLOOKUP function.
+It only works
+
+45
+00:02:36,059 --> 00:02:40,699
+one-way! So these are two reasons that
+VLOOKUP functions
+
+46
+00:02:40,980 --> 00:02:44,014
+aren't perfect. If you want to have speed
+
+47
+00:02:44,080 --> 00:02:47,920
+or if you want to have a two-way street,
+you want to look up
+
+48
+00:02:48,016 --> 00:02:51,058
+in both directions, then, unfortunately,
+
+49
+00:02:51,058 --> 00:02:55,718
+VLOOKUP function is not the right
+function. There's also good news -
+
+50
+00:02:55,840 --> 00:02:58,908
+in the next video I will show you what
+functions to use
+
+51
+00:02:59,064 --> 00:03:03,824
+as an alternative, if you're in one of
+those two scenarios. See you there!
+

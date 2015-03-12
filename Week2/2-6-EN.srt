@@ -1,0 +1,383 @@
+1
+00:00:01,062 --> 00:00:03,102
+Hi, in a previous video
+
+2
+00:00:03,340 --> 00:00:06,920
+I told you about two scenarios in which
+a VLOOKUP function is not the
+
+3
+00:00:07,043 --> 00:00:08,022
+perfect solution.
+
+4
+00:00:08,022 --> 00:00:12,024
+First, if you need speed, and second, if
+you want to have lookups
+
+5
+00:00:12,024 --> 00:00:16,544
+that go back stream, the strange direction
+for a VLOOKUP.
+
+6
+00:00:16,880 --> 00:00:19,904
+So, in this video I'm going to show you
+
+7
+00:00:20,015 --> 00:00:24,046
+how to resolve that situation, where I am going
+to teach you two new methods
+
+8
+00:00:24,200 --> 00:00:28,380
+to solve it. But first let's take a step
+back, let's take our time machine
+
+9
+00:00:28,580 --> 00:00:32,480
+and go back to the second video in which
+I talked about what the exact
+
+10
+00:00:32,480 --> 00:00:33,920
+ingredients are
+
+11
+00:00:34,019 --> 00:00:37,419
+for a lookup function. It was: what am I
+going to look for,
+
+12
+00:00:37,420 --> 00:00:41,960
+where am I looking it up, and what am I
+going to return.
+
+13
+00:00:42,760 --> 00:00:45,660
+Those three ingredients occur
+
+14
+00:00:45,760 --> 00:00:50,080
+in VLOOKUP function. For our new
+implementation using two new functions
+
+15
+00:00:50,084 --> 00:00:53,924
+we're going to split those two parts, so
+we use one function
+
+16
+00:00:54,069 --> 00:00:58,569
+for finding a value and one function for
+returning a value.
+
+17
+00:00:59,220 --> 00:01:02,239
+And for finding a value we're going to
+use the
+
+18
+00:01:02,239 --> 00:01:06,006
+MATCH function, and here, in this video
+I'll show you how it works.
+
+19
+00:01:06,006 --> 00:01:09,010
+So we type in 'MATCH', we use the MATCH
+function,
+
+20
+00:01:09,046 --> 00:01:13,065
+we input what are we going to look for,
+and the second parameter
+
+21
+00:01:13,065 --> 00:01:18,540
+is where am I going to find it. The third
+parameter is very similar to the fourth
+
+22
+00:01:18,540 --> 00:01:20,940
+parameter of the VLOOKUP, where I can
+say
+
+23
+00:01:21,013 --> 00:01:24,213
+I want to have a value that's higher,
+exact value,
+
+24
+00:01:24,220 --> 00:01:27,920
+or lower. And we pick the exact value here,
+much like
+
+25
+00:01:28,029 --> 00:01:31,009
+the FALSE option in VLOOKUP. So
+you see
+
+26
+00:01:31,009 --> 00:01:38,589
+Claw Hammer, A0, is on the second line. It's not that
+impressive so let me sort
+
+27
+00:01:38,759 --> 00:01:42,056
+the ProductInfo worksheet so then you can
+see exactly how the MATCH works. So we've
+
+28
+00:01:42,056 --> 00:01:43,436
+sorted it now,
+
+29
+00:01:43,619 --> 00:01:47,003
+A0 is now in the sixth line and our
+MATCH function
+
+30
+00:01:47,003 --> 00:01:50,035
+indeed returns A0 code is on
+
+31
+00:01:50,035 --> 00:01:53,755
+row 6. That's what the MATCH
+
+32
+00:01:54,027 --> 00:01:57,767
+function does - for a given range it tells
+you on what
+
+33
+00:01:58,007 --> 00:02:01,093
+row a given value is. So we have the first
+part of our
+
+34
+00:02:01,260 --> 00:02:06,000
+new scenario covered. What about the
+second part? For the second part we're
+
+35
+00:02:06,040 --> 00:02:07,000
+going to use the
+
+36
+00:02:07,001 --> 00:02:08,065
+INDEX function.
+
+37
+00:02:08,074 --> 00:02:11,934
+INDEX function is going to return us in
+a given range
+
+38
+00:02:12,054 --> 00:02:17,056
+this specific row and column. So here you
+can see how it looks.
+
+39
+00:02:17,056 --> 00:02:20,736
+Again, we know that A0 is on the
+sixth row,
+
+40
+00:02:21,014 --> 00:02:24,028
+but we want to have the name instead of
+the code.
+
+41
+00:02:24,028 --> 00:02:30,032
+So, we go back to our original formula,
+we remove the MATCH, we just put it with
+
+42
+00:02:30,032 --> 00:02:33,043
+"Ctrl X" on the clipboard. We put in the
+INDEX.
+
+43
+00:02:33,480 --> 00:02:37,015
+What are we going to return? We are going to
+return the B column.
+
+44
+00:02:37,380 --> 00:02:41,012
+That's the first parameter, what are we going
+to return, what
+
+45
+00:02:41,012 --> 00:02:44,038
+row. Well we know the row. The row where we
+have just
+
+46
+00:02:44,038 --> 00:02:48,079
+found our value. And what column?
+Well, B is only one column
+
+47
+00:02:48,079 --> 00:02:52,759
+so we're just inputting 1 there. So now
+you see we have the name
+
+48
+00:02:53,013 --> 00:02:56,072
+associated with the value, the line
+number,
+
+49
+00:02:56,072 --> 00:02:59,099
+on which we have just matched. And, as you
+can see,
+
+50
+00:02:59,099 --> 00:03:03,419
+you see me double-click and run this
+INDEX-MATCH
+
+51
+00:03:03,640 --> 00:03:06,960
+function for the entire, all thousands of
+lines.
+
+52
+00:03:07,065 --> 00:03:11,665
+You see the first benefit - speed! It's
+really a lot quicker.
+
+53
+00:03:11,880 --> 00:03:14,560
+But using INDEX-MATCH
+
+54
+00:03:14,660 --> 00:03:18,000
+over the VLOOKUP has another benefit.
+You remember this scenario
+
+55
+00:03:18,055 --> 00:03:21,077
+where our boss comes in and says "Hey, I
+want to have
+
+56
+00:03:21,077 --> 00:03:25,197
+these codes associated with these
+products, because I want to enter
+
+57
+00:03:25,300 --> 00:03:25,820
+them
+
+58
+00:03:26,011 --> 00:03:29,531
+in the register, because I want to enter
+a discount".
+
+59
+00:03:29,660 --> 00:03:33,722
+We can solve this problem now. We tried
+with a VLOOKUP with the -1.
+
+60
+00:03:34,016 --> 00:03:38,002
+Let's get rid of that and let's use
+an INDEX-MATCH here as well.
+
+61
+00:03:38,002 --> 00:03:41,622
+I like to start with the MATCH part
+because it's easier to debug,
+
+62
+00:03:41,780 --> 00:03:44,980
+it's easier to see what is being matched if
+it doesn't work.
+
+63
+00:03:45,004 --> 00:03:49,011
+So let's match. We're going to look for
+the Name in the B column
+
+64
+00:03:49,047 --> 00:03:52,547
+and return the exact match - there it is!
+
+65
+00:03:52,740 --> 00:03:57,220
+We know this by now, the Claw Hammer is
+on the sixth line. So we remove the MATCH,
+
+66
+00:03:57,220 --> 00:04:00,540
+we just cut it for a while, now we input
+the INDEX.
+
+67
+00:04:00,540 --> 00:04:03,920
+What are we going to return? Codes!
+
+68
+00:04:04,047 --> 00:04:08,007
+What row do we want to return? Well, we know
+this, we could have entered 6, because
+
+69
+00:04:08,007 --> 00:04:09,280
+we know the line,
+
+70
+00:04:09,280 --> 00:04:12,620
+but we enter the MATCH function there, and
+it's only one column,
+
+71
+00:04:12,680 --> 00:04:16,540
+so we use 1. So you see the second
+benefit
+
+72
+00:04:16,549 --> 00:04:20,014
+of using INDEX-MATCH over 
+VLOOKUP is
+
+73
+00:04:20,020 --> 00:04:21,440
+going back-stream.
+
+74
+00:04:21,440 --> 00:04:24,860
+It doesn't matter what we want to return, 
+in this case you want to return our 
+
+75
+00:04:25,023 --> 00:04:28,823
+next-door neighbour, but we can do anything!
+The INDEX-MATCH is very flexible,
+
+76
+00:04:29,005 --> 00:04:32,013
+we could also return, if we have match
+here, return
+
+77
+00:04:32,085 --> 00:04:36,325
+the cell below it, or the sell three
+to the right and one
+
+78
+00:04:36,500 --> 00:04:39,580
+on top, it doesn't matter! The INDEX-MATCH
+
+79
+00:04:39,680 --> 00:04:42,880
+lets you return anything you want. So for
+some scenarios
+
+80
+00:04:43,012 --> 00:04:47,352
+INDEX-MATCH is better than VLOOKUP.
+See you next week!
+

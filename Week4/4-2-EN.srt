@@ -1,0 +1,275 @@
+1
+00:00:00,660 --> 00:00:05,320
+In the previous video we've introduced a
+Named Range - for a certain column in our
+
+2
+00:00:05,320 --> 00:00:06,000
+spreadsheet.
+
+3
+00:00:06,001 --> 00:00:09,052
+But, of course, as you remember from one of
+the previous videos,
+
+4
+00:00:09,061 --> 00:00:13,381
+spreadsheets have a very long life-span,
+they can live up to five
+
+5
+00:00:13,559 --> 00:00:19,034
+years. So at one point, in our little dance
+studio we are going to hire a new teacher
+
+6
+00:00:19,034 --> 00:00:19,035
+
+7
+00:00:19,360 --> 00:00:23,032
+and if we do that, if we would just
+enter this new teacher
+
+8
+00:00:23,032 --> 00:00:27,068
+into our Teachers worksheet, let's say
+his name is Harry and he is 25,
+
+9
+00:00:27,420 --> 00:00:31,100
+we enter all his data, unfortunately
+
+10
+00:00:31,109 --> 00:00:34,077
+if we then go to our Planning worksheet
+the formulas
+
+11
+00:00:34,077 --> 00:00:37,086
+will not have been updated. We are still
+calculating
+
+12
+00:00:37,086 --> 00:00:41,986
+based on the old named range, you see
+there is no change
+
+13
+00:00:42,036 --> 00:00:45,956
+in the values here. And it is
+understandable - if you go back to
+
+14
+00:00:46,012 --> 00:00:48,069
+the Teachers worksheet and select the named
+range,
+
+15
+00:00:48,069 --> 00:00:52,609
+from the drop-down list you see that
+the Maximum Level
+
+16
+00:00:52,609 --> 00:00:56,001
+is not including the last line in
+our worksheet.
+
+17
+00:00:56,001 --> 00:01:01,019
+So if you want to update a given named
+range, you can use the name Manager as
+
+18
+00:01:01,028 --> 00:01:03,037
+you see here, so the names are not fixed,
+
+19
+00:01:03,289 --> 00:01:07,301
+you can always update them if your
+spreadsheet is changing. 
+
+20
+00:01:07,409 --> 00:01:11,300
+And now you see, if you select Max. Level again,
+all of the rows are included in the
+
+21
+00:01:11,300 --> 00:01:15,000
+named range and also our formulas are
+updated. So
+
+22
+00:01:15,006 --> 00:01:19,486
+you can update your named range every time you
+make a change to a spreadsheet.
+
+23
+00:01:19,960 --> 00:01:22,940
+However, this is dangerous, because I'm
+sure,
+
+24
+00:01:23,029 --> 00:01:26,036
+at one point, you will forget about
+
+25
+00:01:26,036 --> 00:01:29,976
+all of the named ranges you have in your
+worksheet and you'll forget to update one
+
+26
+00:01:30,032 --> 00:01:31,952
+of them if you enter new data.
+
+27
+00:01:32,120 --> 00:01:35,060
+So although it's possible with the named
+range Manager
+
+28
+00:01:35,259 --> 00:01:39,065
+to change your named ranges, this is not a
+preferred solution - you want to have your
+
+29
+00:01:39,065 --> 00:01:40,405
+spreadsheet
+
+30
+00:01:40,549 --> 00:01:44,949
+as automated as possible. An alternative
+solution
+
+31
+00:01:45,159 --> 00:01:48,045
+is using an entire column
+
+32
+00:01:48,045 --> 00:01:52,065
+for your named range. You can do that if
+we go back to the named
+
+33
+00:01:52,159 --> 00:01:55,025
+range manager. You don't need to use a
+fixed
+
+34
+00:01:55,025 --> 00:01:58,078
+column, you can say "all the rows in my
+column".
+
+35
+00:01:58,078 --> 00:02:01,082
+This is allowed syntax and now you'll see
+that
+
+36
+00:02:01,082 --> 00:02:05,360
+the whole column is indeed included in
+the named range.
+
+37
+00:02:05,360 --> 00:02:08,940
+And if you add another teacher now,
+let's say we add
+
+38
+00:02:09,069 --> 00:02:12,489
+a teacher called Shelly, the formulas will
+
+39
+00:02:12,579 --> 00:02:17,004
+be updated to include this new teacher,
+because, of course, it's calculating
+
+40
+00:02:17,004 --> 00:02:20,504
+the entire column. So this is a good
+solution,
+
+41
+00:02:20,689 --> 00:02:23,691
+however, there is also a downside to
+this solution,
+
+42
+00:02:23,709 --> 00:02:26,889
+because what happens now, if you want to
+do some analysis
+
+43
+00:02:27,109 --> 00:02:31,789
+on the Teachers worksheet, so let's say
+we want to calculate something like
+
+44
+00:02:31,939 --> 00:02:35,459
+the most common level we have in our
+group of teachers.
+
+45
+00:02:35,469 --> 00:02:40,859
+So we say "Most Common Level" and there's
+a formula for this in Excel called MODE,
+
+46
+00:02:40,859 --> 00:02:45,059
+really nice function that you can use to
+calculate the most common value
+
+47
+00:02:45,120 --> 00:02:51,019
+in a bunch of cells. So this works, we
+know now that the most common level
+
+48
+00:02:51,019 --> 00:02:55,459
+in our group of teachers is 3.
+However, because our named ranges
+
+49
+00:02:55,469 --> 00:02:57,504
+are covering the entire column
+
+50
+00:02:57,819 --> 00:03:02,379
+this MODE will now also be included in
+our calculation and that's not what
+
+51
+00:03:02,380 --> 00:03:03,140
+we want.
+
+52
+00:03:03,220 --> 00:03:06,225
+So, yes, you can use an entire column,
+
+53
+00:03:06,269 --> 00:03:10,709
+however, then all these cells underneath our
+little data table
+
+54
+00:03:10,889 --> 00:03:14,880
+are not usable anymore, they're sort of
+"blocked", because we cannot put
+
+55
+00:03:14,880 --> 00:03:16,209
+calculations in them
+
+56
+00:03:16,259 --> 00:03:20,000
+because the other calculations will use
+that data as well.
+
+57
+00:03:20,000 --> 00:03:23,959
+So, we are stuck here and in the next
+video I will show you
+
+58
+00:03:23,959 --> 00:03:25,479
+how to solve this problem.
+

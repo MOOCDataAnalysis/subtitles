@@ -1,0 +1,288 @@
+1
+00:00:00,037 --> 00:00:05,197
+Hi, welcome back! In the previous video we
+looked at how to use the VLOOKUP,
+
+2
+00:00:05,440 --> 00:00:08,820
+but we didn't yet look at the fourth
+parameter, as I promised to you.
+
+3
+00:00:09,013 --> 00:00:12,562
+So in this case we only use three
+parameters -
+
+4
+00:00:12,679 --> 00:00:16,319
+what to look, where to find it
+and what to return.
+
+5
+00:00:16,539 --> 00:00:20,025
+But, there is still room for a fourth parameter, 
+and maybe,
+
+6
+00:00:20,025 --> 00:00:24,785
+if you did the exercises in between, you
+saw that if you add an additional comma
+
+7
+00:00:24,880 --> 00:00:28,500
+then Excel is going to make suggestions
+for that fourth parameter.
+
+8
+00:00:28,660 --> 00:00:31,758
+Let's have a look at how that looks like.
+You click,
+
+9
+00:00:32,061 --> 00:00:36,064
+you add a comma, and then Excel says "Hey, I have these
+two choices for you".
+
+10
+00:00:36,091 --> 00:00:39,751
+Either you use TRUE, which is an 
+approximate match.
+
+11
+00:00:40,019 --> 00:00:43,061
+It's going to give you more or less what
+you're searching for.
+
+12
+00:00:43,061 --> 00:00:47,401
+Or, alternatively, we can use FALSE
+which is going to give you
+
+13
+00:00:47,720 --> 00:00:53,159
+an exact match, exactly what you're
+looking for. I would say this is only
+
+14
+00:00:53,399 --> 00:00:56,939
+a little bit helpful, so let's try to
+see the difference
+
+15
+00:00:57,059 --> 00:01:00,619
+in our example worksheet by putting
+FALSE into
+
+16
+00:01:00,859 --> 00:01:04,079
+one of the columns. Let's say we put
+FALSE into the selling price
+
+17
+00:01:04,180 --> 00:01:07,880
+and we are going to put TRUE into
+the lookup
+
+18
+00:01:08,040 --> 00:01:12,040
+of the name. Now we have, side by side,
+the TRUE and the FALSE version of the
+
+19
+00:01:12,045 --> 00:01:12,820
+VLOOKUP,
+
+20
+00:01:12,820 --> 00:01:16,280
+and that will allow us nicely to see
+what are the exact
+
+21
+00:01:16,280 --> 00:01:19,920
+differences between the different
+versions of the fourth parameter.
+
+22
+00:01:20,034 --> 00:01:24,674
+So imagine we're in this scenario: one of
+your colleagues comes into your office
+
+23
+00:01:24,680 --> 00:01:25,100
+ 
+
+24
+00:01:25,189 --> 00:01:29,228
+and he says "Hey, I noticed you've been
+doing this cool analysis of what turnover we
+
+25
+00:01:29,228 --> 00:01:30,288
+make for what product,
+
+26
+00:01:30,520 --> 00:01:33,522
+but I would like to know what turnover
+do we make for
+
+27
+00:01:33,700 --> 00:01:37,189
+my favourite product, X098.
+
+28
+00:01:37,369 --> 00:01:41,034
+Can you calculate that with your
+spreadsheet?" Of course!
+
+29
+00:01:41,034 --> 00:01:45,085
+You can do that with your spreadsheet! 
+So again, we have TRUE in one
+
+30
+00:01:45,085 --> 00:01:48,805
+column and FALSE in the other, and now we're
+going to input
+
+31
+00:01:48,979 --> 00:01:52,049
+X098, take the formulas that we have,
+
+32
+00:01:52,049 --> 00:01:56,749
+and drag them down. Now you can see what the
+difference is, because in column C in the
+
+33
+00:01:57,009 --> 00:01:57,998
+Selling Price
+
+34
+00:01:58,079 --> 00:02:01,043
+we have #N/A, "not found".
+
+35
+00:02:01,043 --> 00:02:05,022
+Excel says "Hey, that X098, I can't find it",
+
+36
+00:02:05,409 --> 00:02:09,027
+whereas, in the B column, Excel can still
+not find it,
+
+37
+00:02:09,027 --> 00:02:12,787
+but he says "Yes, the closest 
+I could find
+
+38
+00:02:13,014 --> 00:02:17,005
+is the Fountain", because alphabetically
+the H is closest to the X,
+
+39
+00:02:17,340 --> 00:02:21,240
+so it just returns whatever value
+is closest.
+
+40
+00:02:22,200 --> 00:02:26,020
+So, I guess from this you can understand
+what value you usually want.
+
+41
+00:02:26,060 --> 00:02:30,054
+You want to use FALSE, because if you
+have FALSE
+
+42
+00:02:30,320 --> 00:02:34,800
+then you get a warning sign if a value
+that you have searched for
+
+43
+00:02:35,027 --> 00:02:39,085
+has not been found. So, remember this, if
+you're using VLOOKUP,
+
+44
+00:02:39,085 --> 00:02:42,086
+to couple two worksheets together, 
+you're usually
+
+45
+00:02:42,086 --> 00:02:46,706
+going to want to use FALSE. This is like
+the basic setting
+
+46
+00:02:47,001 --> 00:02:50,036
+because if you use FALSE you get a
+warning if
+
+47
+00:02:50,036 --> 00:02:53,816
+your result isn't found. Unfortunately,
+
+48
+00:02:54,025 --> 00:02:57,027
+FALSE is not the default setting. If I
+remove
+
+49
+00:02:57,045 --> 00:03:01,059
+the parameter and restore my formulas
+as they originally were,
+
+50
+00:03:01,059 --> 00:03:05,079
+you see that the behaviour of the formulas
+is like when I input
+
+51
+00:03:05,269 --> 00:03:08,006
+TRUE - it always tries to find an
+approximate match.
+
+52
+00:03:08,006 --> 00:03:12,008
+This is a bit unfortunate, but yeah, this
+is the decision that was made by
+
+53
+00:03:12,008 --> 00:03:15,768
+the Excel team. Probably didn't really
+guess that
+
+54
+00:03:16,031 --> 00:03:20,043
+that connecting a worksheets was
+going to be the way
+
+55
+00:03:20,043 --> 00:03:24,087
+that people use VLOOKUP mostly.
+So we have to remember ourselves
+
+56
+00:03:24,087 --> 00:03:27,093
+to put in FALSE as the
+
+57
+00:03:27,093 --> 00:03:30,833
+preferred setting, it is, unfortunately,
+not the default.
+
+58
+00:03:31,079 --> 00:03:35,031
+Don't forget it, because forgetting to
+add FALSE is one of the reasons of
+
+59
+00:03:35,031 --> 00:03:35,851
+many many
+
+60
+00:03:36,013 --> 00:03:36,913
+spreadsheet errors.
+

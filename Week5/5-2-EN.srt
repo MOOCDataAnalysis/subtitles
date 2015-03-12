@@ -1,0 +1,246 @@
+1
+00:00:00,071 --> 00:00:04,051
+Array formulas. We've looked at how to
+analyze
+
+2
+00:00:04,062 --> 00:00:08,063
+the data for the quality of the
+exams, not necessarily looking at the
+
+3
+00:00:08,072 --> 00:00:11,972
+quality of students. We're looking at
+what questions in our exam
+
+4
+00:00:12,007 --> 00:00:15,007
+contribute towards the end marks. And I
+think we can
+
+5
+00:00:15,060 --> 00:00:19,680
+say that we've come to a conclusion that
+question 2 doesn't really help.
+
+6
+00:00:19,980 --> 00:00:23,057
+It's not different from question 1, so
+of course we can just
+
+7
+00:00:23,057 --> 00:00:26,697
+clear content, throw everything away. But
+
+8
+00:00:26,700 --> 00:00:30,739
+that's not what I want. I manually inputted
+everything, so I want to keep
+
+9
+00:00:30,740 --> 00:00:31,820
+the values
+
+10
+00:00:32,040 --> 00:00:34,880
+but still I want to have the ability to
+analyze.
+
+11
+00:00:35,560 --> 00:00:37,640
+So I could filter, but
+
+12
+00:00:37,829 --> 00:00:42,609
+the way the filtering works in Excel, is
+you can only filter in this direction
+
+13
+00:00:42,719 --> 00:00:46,119
+you can only filter on rows, and you
+can't filter on columns.
+
+14
+00:00:46,420 --> 00:00:50,000
+And that's exactly what I want, because I
+want to filter out one question and I
+
+15
+00:00:50,003 --> 00:00:51,283
+want to filter out
+
+16
+00:00:51,309 --> 00:00:54,800
+one student. So what I need to do
+
+17
+00:00:54,800 --> 00:00:59,960
+is change my data, transpose my data
+into being in a different direction.
+
+18
+00:00:59,969 --> 00:01:05,003
+So how to do that? What I can do is I
+made another worksheet,
+
+19
+00:01:05,309 --> 00:01:08,057
+called exam transposed where I want to transpose
+my data.
+
+20
+00:01:08,700 --> 00:01:11,714
+Excel has a function for that I can just
+say
+
+21
+00:01:11,720 --> 00:01:15,712
+TRANSPOSE() type it in the formula bar.
+There we go, 
+
+22
+00:01:15,720 --> 00:01:18,799
+TRANSPOSE() and I select the array of data
+
+23
+00:01:18,799 --> 00:01:22,839
+that I want you to transpose and then I
+hit control shift enter.
+
+24
+00:01:25,240 --> 00:01:26,760
+So what I get now is just
+
+25
+00:01:26,860 --> 00:01:31,420
+one cell because as we've seen in a
+previous video I haven't given Excel
+
+26
+00:01:31,520 --> 00:01:33,020
+the room, the space
+
+27
+00:01:33,021 --> 00:01:36,430
+to plot the entire array. So if I want to
+have
+
+28
+00:01:36,619 --> 00:01:40,979
+everything transposed, I need to make
+sure there's enough room in my worksheet
+
+29
+00:01:41,004 --> 00:01:44,544
+to plot everything. So how much room do we need?
+
+30
+00:01:44,640 --> 00:01:48,000
+Well we have 16 rows so that will be 16
+columns,
+
+31
+00:01:48,009 --> 00:01:52,218
+and we have 14 columns currently, so there
+will be 14
+
+32
+00:01:52,299 --> 00:01:56,519
+rows. So if we go back to our transpose
+worksheet we make sure that we make enough
+
+33
+00:01:56,520 --> 00:02:02,640
+room for everything, and then we can use the
+TRANSPOSE() function with control shift enter,
+
+34
+00:02:02,900 --> 00:02:06,900
+making it into an array formula and now we
+get the result of the entire array.
+
+35
+00:02:07,005 --> 00:02:11,845
+So what was previously one row is now in
+a transposed version
+
+36
+00:02:11,845 --> 00:02:13,100
+one column.
+
+37
+00:02:14,000 --> 00:02:16,000
+So why am I showing you this?
+
+38
+00:02:16,002 --> 00:02:19,008
+Well first of all, we want to have the
+results in a different direction
+
+39
+00:02:19,008 --> 00:02:23,004
+but I also want to point out an
+important difference in Excel functions.
+
+40
+00:02:23,004 --> 00:02:26,033
+Some functions are array functions
+
+41
+00:02:26,069 --> 00:02:31,001
+for instance, TRANSPOSE(). If you enter it
+you already see as an argument
+
+42
+00:02:31,001 --> 00:02:34,700
+you need to put in an array so the
+transpose is 
+
+43
+00:02:34,709 --> 00:02:38,025
+an array function in a sense. It always
+operates on an array,
+
+44
+00:02:38,025 --> 00:02:41,705
+there's no other way. You can't put in a
+number, it doesn't know how to transpose
+
+45
+00:02:41,705 --> 00:02:42,600
+a number.
+
+46
+00:02:42,709 --> 00:02:46,063
+However other functions like the
+subtract function
+
+47
+00:02:46,063 --> 00:02:49,703
+that we've seen in a previous video they
+not are
+
+48
+00:02:50,003 --> 00:02:54,004
+inherently array formulas, but you can
+make them into array formulas 
+
+49
+00:02:54,004 --> 00:02:57,006
+by giving them a range as an argument
+and then
+
+50
+00:02:57,006 --> 00:03:00,946
+they can be made to work on all the
+pairs. So some functions
+
+51
+00:03:01,034 --> 00:03:04,213
+are array and others can be made array
+
+52
+00:03:04,519 --> 00:03:07,759
+and that's also what the exercises of
+this video will be about.
+
