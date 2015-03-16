@@ -1,0 +1,381 @@
+1
+00:00:00,057 --> 00:00:03,032
+So we've calculated the Bacon number in
+the previous video
+
+2
+00:00:03,032 --> 00:00:07,112
+in Excel which is possible but takes us a
+lot.
+
+3
+00:00:07,149 --> 00:00:11,729
+I'm not afraid to admit that it took me
+about five hours to come up with this
+
+4
+00:00:11,729 --> 00:00:12,600
+solution,
+
+5
+00:00:12,600 --> 00:00:16,059
+and I am quite handy with Excel,
+
+6
+00:00:16,059 --> 00:00:20,025
+so this is not a solution you want. Actually,
+I hope that
+
+7
+00:00:20,025 --> 00:00:25,939
+in your mind you have something like
+this: WIIIIEEEEE, The No Excel alarm!
+
+8
+00:00:25,939 --> 00:00:29,003
+If in your daily life you're making a
+solution
+
+9
+00:00:29,003 --> 00:00:33,013
+that takes you more and 10 VLOOKUPs
+to put together,
+
+10
+00:00:33,013 --> 00:00:36,052
+then something is off. You should
+really be thinking:
+
+11
+00:00:36,052 --> 00:00:39,852
+am I using the right tool for the job,
+
+12
+00:00:39,980 --> 00:00:44,051
+is this still the best way to do it? So
+of course then the question arises -
+
+13
+00:00:44,057 --> 00:00:48,297
+what should we use? What is a better tool
+to use
+
+14
+00:00:48,309 --> 00:00:52,369
+then a spreadsheet? What about
+programming?
+
+15
+00:00:52,380 --> 00:00:57,000
+Isn't it easier if you use a programming
+language, because with programming you
+
+16
+00:00:57,007 --> 00:00:58,055
+are not limited to
+
+17
+00:00:58,055 --> 00:01:02,006
+the rows and columns of Excel, you can
+do anything you want.
+
+18
+00:01:02,006 --> 00:01:07,746
+This might be a good solution for a
+problem where Excel is not entirely fit.
+
+19
+00:01:07,900 --> 00:01:12,000
+However, I'm a little bit like a Hobbit,
+
+20
+00:01:12,000 --> 00:01:16,058
+I like to stay in my comfortable Shire,
+I don't want to leave my
+
+21
+00:01:16,058 --> 00:01:20,958
+comfortable Excel home, to go to a
+programming language that
+
+22
+00:01:21,049 --> 00:01:26,809
+I'm not familiar with. Of course we could
+use VB.
+
+23
+00:01:26,980 --> 00:01:30,980
+Visual Basic for Applications is a
+programming language that is embedded
+
+24
+00:01:30,980 --> 00:01:34,520
+right in Excel, maybe you've been working
+with it before,
+
+25
+00:01:34,520 --> 00:01:37,999
+and this you can use as a programming
+language to
+
+26
+00:01:38,009 --> 00:01:41,015
+automate your spreadsheets, to
+calculate things
+
+27
+00:01:41,015 --> 00:01:44,995
+that you cannot do with a formula. This is a
+possibility, if you have been working
+
+28
+00:01:45,007 --> 00:01:46,035
+with VBA before,
+
+29
+00:01:46,035 --> 00:01:49,079
+I challenge you again to try to solve
+the Bacon puzzle
+
+30
+00:01:49,079 --> 00:01:53,017
+with VBA, this should be a lot easier
+
+31
+00:01:53,017 --> 00:01:57,417
+than using formulas. However, that's not
+what we are going to use in this
+
+32
+00:01:57,420 --> 00:01:58,020
+course.
+
+33
+00:01:58,025 --> 00:02:01,805
+What we are going to use to automate
+our spreadsheet is a language called
+
+34
+00:02:01,805 --> 00:02:07,014
+Python. So, why Python? One of the reasons
+that I like to use Python is
+
+35
+00:02:07,014 --> 00:02:09,834
+that it's currently the number one
+programming language
+
+36
+00:02:09,849 --> 00:02:12,039
+taught at universities. So in a few years
+
+37
+00:02:12,039 --> 00:02:16,079
+there'll be lots of people around the
+world they're really know how to program
+
+38
+00:02:16,080 --> 00:02:17,000
+in Python.
+
+39
+00:02:17,000 --> 00:02:20,360
+It's also quite easy to learn, you'll see
+that in
+
+40
+00:02:20,380 --> 00:02:25,000
+examples in this video, that the syntax,
+the way you write in programming language,
+
+41
+00:02:25,003 --> 00:02:30,343
+is quite easy, and also there's a big
+ecosystem around Python, that means a lot of
+
+42
+00:02:30,343 --> 00:02:35,000
+small Python programs, called libraries,
+exist in the world
+
+43
+00:02:35,000 --> 00:02:38,000
+to solve problems, and if you have such a
+problem
+
+44
+00:02:38,000 --> 00:02:41,066
+you don't need to write in Python yourself,
+you can just use the programs
+
+45
+00:02:41,066 --> 00:02:45,012
+other people have already created. So
+these are all reasons
+
+46
+00:02:45,012 --> 00:02:50,013
+that I prefer Python over VBA, but VBA
+is also a good programming language that
+
+47
+00:02:50,013 --> 00:02:52,513
+you can certainly use for this type of
+problems.
+
+48
+00:02:54,200 --> 00:02:56,400
+But if I want to use Python,
+
+49
+00:02:56,400 --> 00:03:00,259
+do I have to go away from my spreadsheet
+home? You can.
+
+50
+00:03:00,269 --> 00:03:05,023
+You can use Python totally separate from Excel, 
+but then you have to do a lot of learning,
+
+51
+00:03:05,023 --> 00:03:10,663
+you have to migrate your data from a
+spreadsheet probably to a text file, so...
+
+52
+00:03:10,740 --> 00:03:14,814
+I don't want that, I want to have
+a Python and Excel,
+
+53
+00:03:14,820 --> 00:03:17,860
+both of them. Luckily, there is a solution.
+
+54
+00:03:17,860 --> 00:03:23,049
+There is a cool program that's called DataNitro
+that allows you to use Python
+
+55
+00:03:23,049 --> 00:03:28,649
+in Excel. Much like VBA, you can just
+script your spreadsheet with Python.
+
+56
+00:03:28,700 --> 00:03:32,020
+This solution unfortunately is only
+available for Windows,
+
+57
+00:03:32,026 --> 00:03:37,000
+but there are alternatives for Mac and for
+Linux, we'll put links to the alternatives
+
+58
+00:03:37,000 --> 00:03:40,299
+on the course page. So let's try to use
+
+59
+00:03:40,299 --> 00:03:44,015
+DataNitro, here you can see it, if
+you had a keen eye
+
+60
+00:03:44,015 --> 00:03:47,995
+you've seen that in the screenshots
+of one of the previous videos
+
+61
+00:03:48,000 --> 00:03:52,640
+there was a DataNitro plugin. So,
+it's right there in Excel,
+
+62
+00:03:52,640 --> 00:03:56,038
+and if you go there, if you go to the 
+worksheet, let's click it,
+
+63
+00:03:56,038 --> 00:04:01,778
+if you click Python Shell, you get something
+like a calculator where you
+
+64
+00:04:01,780 --> 00:04:03,800
+can type formulas, like 3 + 5,
+
+65
+00:04:03,800 --> 00:04:08,009
+much like you can type formulas in Excel,
+but you can also refer to
+
+66
+00:04:08,019 --> 00:04:12,419
+the spreadsheet. You can do something
+like C2 + 5,
+
+67
+00:04:12,420 --> 00:04:16,936
+but you don't do C2 as you do it in
+Excel, you have to directly call
+
+68
+00:04:16,940 --> 00:04:18,199
+the value. So you see,
+
+69
+00:04:18,209 --> 00:04:21,087
+say, give me the cell on C2, the value,
+
+70
+00:04:21,087 --> 00:04:24,960
+and add 5 to it. And it's not just
+reading,
+
+71
+00:04:24,960 --> 00:04:25,960
+you can also
+
+72
+00:04:25,960 --> 00:04:29,976
+write to the spreadsheet, as you see me 
+do here. Let's put "Hello!"
+
+73
+00:04:29,980 --> 00:04:33,048
+in A1 and then you see that not just
+A1 has changed,
+
+74
+00:04:33,055 --> 00:04:37,535
+but also all the values that depend on
+it. So you change a value and then
+
+75
+00:04:37,539 --> 00:04:41,065
+the spreadsheet calculation kicks in,
+and everything is recalculated.
+
+76
+00:04:41,065 --> 00:04:45,580
+But let's quickly put it back to Kevin Bacon
+because, otherwise, our nice
+
+77
+00:04:45,585 --> 00:04:46,960
+Bacon calculator is messed up.
+
+78
+00:04:46,980 --> 00:04:51,064
+So this seems to be a good solution that
+might help us
+
+79
+00:04:51,074 --> 00:04:56,414
+to solve our Bacon problem with Python,
+and that's what we're going to do
+
+80
+00:04:56,480 --> 00:04:58,080
+in the next video.
+

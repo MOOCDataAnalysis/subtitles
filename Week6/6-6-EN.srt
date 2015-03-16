@@ -1,0 +1,436 @@
+1
+00:00:02,070 --> 00:00:06,299
+So, in the previous video I showed you how
+to add test formulas to your spreadsheet
+
+2
+00:00:06,299 --> 00:00:10,639
+and also how to add overall tests that
+combine the input
+
+3
+00:00:10,639 --> 00:00:16,029
+of those tests together. However, there is a
+downside to this - if you look at
+
+4
+00:00:16,029 --> 00:00:17,000
+spreadsheet,
+
+5
+00:00:17,000 --> 00:00:20,640
+let me show it to you, you see an
+error here.
+
+6
+00:00:20,640 --> 00:00:24,470
+What do you have to do? You have to go up... Oh,
+there's an error in the margin.
+
+7
+00:00:24,470 --> 00:00:27,490
+You have to scroll to the tests, you have
+to scroll down.
+
+8
+00:00:27,490 --> 00:00:30,570
+"Oh, what row is the error on? Oh,
+it's there"
+
+9
+00:00:30,570 --> 00:00:34,579
+And then you have to trace all the steps
+to see what actually goes wrong.
+
+10
+00:00:34,579 --> 00:00:38,230
+So, in case of an error, there is a lot of
+work you have to do
+
+11
+00:00:38,230 --> 00:00:41,480
+to pinpoint the exact location of the
+error.
+
+12
+00:00:41,480 --> 00:00:44,770
+So, what can you do? Let me show you an easy
+trick
+
+13
+00:00:44,770 --> 00:00:48,039
+to more quickly pinpoint where errors are.
+
+14
+00:00:48,039 --> 00:00:52,489
+What you can do is add another column to
+your overall test set.
+
+15
+00:00:52,489 --> 00:00:55,770
+Let me zoom out a bit so we have some
+more room.
+
+16
+00:00:55,770 --> 00:00:59,420
+We add an additional column where we are
+going to
+
+17
+00:00:59,420 --> 00:01:02,500
+detect the location of the failing test.
+
+18
+00:01:02,500 --> 00:01:06,460
+We can use the good old MATCH function
+for that, I hope you remember it from
+
+19
+00:01:06,460 --> 00:01:11,200
+all the way back in like the second week
+of videos. We can use that to detect
+
+20
+00:01:11,200 --> 00:01:14,299
+what the line of the error is. So we add a
+MATCH
+
+21
+00:01:14,299 --> 00:01:17,759
+and we are looking for the value "Error".
+So in the first one
+
+22
+00:01:17,759 --> 00:01:21,259
+there is no error so we simply get #N/A,
+
+23
+00:01:21,259 --> 00:01:25,409
+Not Available (error). No problem, we're only
+interested in
+
+24
+00:01:25,409 --> 00:01:28,460
+this result for the situations where there
+actually
+
+25
+00:01:28,460 --> 00:01:32,659
+is an error. So if we add a MATCH there
+and you see that the result
+
+26
+00:01:32,659 --> 00:01:36,860
+of the MATCH function is the row on
+which we have the error,
+
+27
+00:01:36,860 --> 00:01:40,030
+row 9 - that's actually where a mistake
+is.
+
+28
+00:01:40,030 --> 00:01:43,250
+So, if you add a MATCH function like this, you
+don't have to search
+
+29
+00:01:43,250 --> 00:01:48,200
+manually for the erroneous lines, you get
+the result with the MATCH function,
+
+30
+00:01:48,200 --> 00:01:48,960
+and you can see:
+
+31
+00:01:48,960 --> 00:01:53,850
+"Hey, line 9 is the line with error". And this is
+especially useful if you have like
+
+32
+00:01:53,850 --> 00:01:55,560
+hundreds of lines,
+
+33
+00:01:55,560 --> 00:01:59,640
+then you want to know on what line error is.
+You don't want to scroll there
+
+34
+00:01:59,640 --> 00:02:03,880
+and maybe you also don't want to use a Filter 
+for the erroneous lines, you just want
+
+35
+00:02:03,880 --> 00:02:04,340
+to click
+
+36
+00:02:04,340 --> 00:02:08,100
+quickly: locate.
+
+37
+00:02:08,100 --> 00:02:11,060
+So, let's design our spreadsheet a bit
+better,
+
+38
+00:02:11,060 --> 00:02:15,680
+we add a border around all the test
+formulas, so that does really clear for
+
+39
+00:02:15,680 --> 00:02:17,450
+whoever is going to use this spreadsheet
+
+40
+00:02:17,450 --> 00:02:20,500
+after us that this is a special part of
+the spreadsheet.
+
+41
+00:02:20,500 --> 00:02:24,209
+And what I like to do is then - add a link
+
+42
+00:02:24,209 --> 00:02:27,390
+to the final test formula
+
+43
+00:02:27,390 --> 00:02:30,819
+on top of my worksheet. So I say this is
+"are all checks okay"
+
+44
+00:02:30,819 --> 00:02:34,430
+my overall check and I just link to
+
+45
+00:02:34,430 --> 00:02:38,610
+the error formula downstairs, so that I
+can see
+
+46
+00:02:38,610 --> 00:02:42,209
+immediately if I open the worksheet is
+everything okay?
+
+47
+00:02:42,209 --> 00:02:46,060
+Yes or No? And maybe I don't always have
+my test block
+
+48
+00:02:46,060 --> 00:02:51,320
+on the downside of my spreadsheet - if I have
+a very long worksheet maybe I place my
+
+49
+00:02:51,320 --> 00:02:51,930
+check box
+
+50
+00:02:51,930 --> 00:02:55,880
+somewhere to the left of my formulas, or
+somewhere to the right,
+
+51
+00:02:55,880 --> 00:03:00,300
+wherever there's a logical place in my
+worksheet. So it's very good idea
+
+52
+00:03:00,300 --> 00:03:04,680
+to link to the first line of your
+worksheet - if something is wrong,
+
+53
+00:03:04,680 --> 00:03:08,200
+you can see it immediately if you open
+it. And I
+
+54
+00:03:08,200 --> 00:03:11,600
+can repeat this trick for all of the
+other worksheets as well.
+
+55
+00:03:11,600 --> 00:03:15,190
+Let me zoom in again, and then go to the other
+worksheets.
+
+56
+00:03:15,190 --> 00:03:18,320
+In other worksheets we had some test
+formulas as well,
+
+57
+00:03:18,320 --> 00:03:22,400
+so if I add this test formula in all of
+the worksheets
+
+58
+00:03:22,400 --> 00:03:27,470
+on cell B1, on the first line it's very
+easy for whoever is going to use a
+
+59
+00:03:27,470 --> 00:03:28,070
+spreadsheet
+
+60
+00:03:28,070 --> 00:03:31,370
+to immediately see "Huh, is everything
+okay?".
+
+61
+00:03:31,370 --> 00:03:35,690
+And what I can do then if I have
+installed all of this test on all of the
+
+62
+00:03:35,690 --> 00:03:36,360
+worksheet,
+
+63
+00:03:36,360 --> 00:03:39,700
+is add an "All Checks" worksheet in which
+
+64
+00:03:39,700 --> 00:03:43,390
+I'm going to combine all those tests for
+all the worksheets
+
+65
+00:03:43,390 --> 00:03:46,489
+in one overall testing worksheet.
+
+66
+00:03:46,489 --> 00:03:50,299
+So I can use the INDIRECT function here,
+you remember that from the previous
+
+67
+00:03:50,299 --> 00:03:50,920
+lecture,
+
+68
+00:03:50,920 --> 00:03:55,489
+where I can input a string, a text, and
+it will evaluate the results. So
+
+69
+00:03:55,489 --> 00:03:58,859
+as a string I use the name of the
+worksheet and B1,
+
+70
+00:03:58,859 --> 00:04:02,019
+and then for all the worksheets I
+immediately
+
+71
+00:04:02,019 --> 00:04:06,620
+get the results without any additional
+formulas. And then, of course,
+
+72
+00:04:06,620 --> 00:04:10,560
+there's only one thing I can still do
+and I'm sure you have guessed
+
+73
+00:04:10,560 --> 00:04:15,459
+what my next move will be, is add one more
+test formula on top of those tests.
+
+74
+00:04:15,459 --> 00:04:18,859
+Again I'm going to count the number 
+of OKs
+
+75
+00:04:18,859 --> 00:04:22,090
+and compare the number of OKs with the
+total number
+
+76
+00:04:22,090 --> 00:04:26,689
+of lines, of rows, in my worksheet, and if
+there are the same
+
+77
+00:04:26,689 --> 00:04:29,889
+it's OK, and if not everything is OK
+
+78
+00:04:29,889 --> 00:04:33,659
+there is an error in my spreadsheet. So I've
+added tests
+
+79
+00:04:33,659 --> 00:04:37,439
+everywhere in my spreadsheet, I gather
+all of them together
+
+80
+00:04:37,439 --> 00:04:40,740
+and one value on one worksheet,
+
+81
+00:04:40,740 --> 00:04:43,909
+the one check, the one
+
+82
+00:04:43,909 --> 00:04:47,509
+test to rule them all, this test
+tells me is
+
+83
+00:04:47,509 --> 00:04:50,729
+everything in my spreadsheet as I
+
+84
+00:04:50,729 --> 00:04:55,669
+expect it to be. And in this way, if I
+send my spreadsheet to another
+
+85
+00:04:55,669 --> 00:04:56,560
+department,
+
+86
+00:04:56,560 --> 00:05:00,360
+another colleague, another company, maybe
+a customer,
+
+87
+00:05:00,360 --> 00:05:04,610
+if they mess something up, either in the
+formulas or in the input values,
+
+88
+00:05:04,610 --> 00:05:08,039
+and I get my spreadsheet back, I just
+simply have to go
+
+89
+00:05:08,039 --> 00:05:11,389
+to my one check formula and then I can
+see is
+
+90
+00:05:11,389 --> 00:05:15,069
+everything okay, is everything still as I
+expect it to be,
+
+91
+00:05:15,069 --> 00:05:19,009
+or is maybe something wrong. And that's
+a very good way
+
+92
+00:05:19,009 --> 00:05:20,360
+to keep your spreadsheet safe!
+

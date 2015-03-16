@@ -1,0 +1,437 @@
+1
+00:00:01,180 --> 00:00:04,150
+So you know about testing, you know why
+you should test and
+
+2
+00:00:04,150 --> 00:00:07,700
+you know what to test, but we didn't
+address yet
+
+3
+00:00:07,700 --> 00:00:11,710
+how to test, how are we going to express
+to the user of the
+
+4
+00:00:11,710 --> 00:00:15,130
+spreadsheet that a test is broken.
+Well, there are
+
+5
+00:00:15,130 --> 00:00:19,810
+two different ways that you can test in
+a given spreadsheet, as you see here.
+
+6
+00:00:19,810 --> 00:00:23,439
+The first thing you can use is Conditional
+formatting.
+
+7
+00:00:23,439 --> 00:00:27,880
+Maybe you've used it before - conditional
+formatting is a feature in Excel
+
+8
+00:00:27,880 --> 00:00:31,510
+where you can change the colour or format
+of a cell
+
+9
+00:00:31,510 --> 00:00:34,969
+based on specific rules. Here you see how
+it works.
+
+10
+00:00:34,969 --> 00:00:39,030
+So suppose you want to add conditional
+formatting on the Margin column.
+
+11
+00:00:39,030 --> 00:00:42,100
+We select the entire column and then we
+select
+
+12
+00:00:42,100 --> 00:00:45,789
+Conditional Formatting. We get a pop-up
+screen,
+
+13
+00:00:45,789 --> 00:00:49,309
+and in the screen we can select, there
+we go,
+
+14
+00:00:49,309 --> 00:00:53,770
+we can select, we want to have a rule
+for values that are below
+
+15
+00:00:53,770 --> 00:00:58,140
+a certain threshold. And then we can say
+below what threshold should it be,
+
+16
+00:00:58,140 --> 00:01:02,270
+and we say if it's below 0 we want to
+have it become red,
+
+17
+00:01:02,270 --> 00:01:06,369
+and then you see it becomes red for all
+the values below zero.
+
+18
+00:01:06,369 --> 00:01:11,260
+And immediately works for the entire
+column because we selected the entire
+
+19
+00:01:11,260 --> 00:01:14,060
+column when we added the rule. So if we add
+another
+
+20
+00:01:14,060 --> 00:01:17,070
+new item to our catalogue, can we make a
+mistake?
+
+21
+00:01:17,070 --> 00:01:20,580
+We immediately get the red value in
+
+22
+00:01:20,580 --> 00:01:24,299
+the cell. Conditional formatting is nice.
+
+23
+00:01:24,299 --> 00:01:28,540
+It works for you well because, as you can
+see, the erroneous values, they really
+
+24
+00:01:28,540 --> 00:01:32,780
+hit the eye. They attract your attention
+because they're really different
+
+25
+00:01:32,780 --> 00:01:37,380
+from the other values. However, this is not my
+preferred way of testing.
+
+26
+00:01:37,380 --> 00:01:41,770
+First of all, some colours can have a
+different meaning - you can use
+
+27
+00:01:41,770 --> 00:01:43,659
+conditional formatting, for instance,
+
+28
+00:01:43,659 --> 00:01:46,960
+as we do here where, where the red values do
+not
+
+29
+00:01:46,960 --> 00:01:50,310
+indicate an error - what they indicate here
+is
+
+30
+00:01:50,310 --> 00:01:54,009
+the percentage is below 10 percent. And
+that just means
+
+31
+00:01:54,009 --> 00:01:57,469
+the item isn't selling very well, only
+less than
+
+32
+00:01:57,469 --> 00:02:00,860
+10 percent of the profit is coming
+from this item.
+
+33
+00:02:00,860 --> 00:02:04,469
+So that doesn't mean there's a mistake
+in my formulas, that means that I
+
+34
+00:02:04,469 --> 00:02:07,090
+should do a good review of my product
+catalogue
+
+35
+00:02:07,090 --> 00:02:10,569
+to make a decision am I still going to
+sell this item.
+
+36
+00:02:10,569 --> 00:02:12,320
+So sometimes,
+
+37
+00:02:12,320 --> 00:02:17,200
+the colours red don't indicate wrong
+values, but they indicate
+
+38
+00:02:17,200 --> 00:02:21,670
+problematic values - a product or an
+account that just isn't selling so well.
+
+39
+00:02:21,670 --> 00:02:25,820
+That's one reason why you don't want to
+use conditional formatting,
+
+40
+00:02:25,820 --> 00:02:28,870
+and another reason is that if you do it
+in a different way,
+
+41
+00:02:28,870 --> 00:02:32,750
+as I'm going to show you, you can build
+formulas on top
+
+42
+00:02:32,750 --> 00:02:36,240
+of the test formulas. So let me show you
+how
+
+43
+00:02:36,240 --> 00:02:40,110
+I prefer to do it. No more conditional
+formatting, so we're going to clear
+
+44
+00:02:40,110 --> 00:02:43,360
+all the conditional formatting rules and
+what we're going to do is
+
+45
+00:02:43,360 --> 00:02:47,410
+add a test formula. So, in another column,
+we say
+
+46
+00:02:47,410 --> 00:02:51,680
+"is the margin OK?" and there we add a
+formula that expresses
+
+47
+00:02:51,680 --> 00:02:54,790
+what we expect from the values. So we say:
+
+48
+00:02:54,790 --> 00:02:57,940
+"Hey, if this value is below zero, we say
+
+49
+00:02:57,940 --> 00:03:01,420
+error, this is too low!" and otherwise
+it's okay.
+
+50
+00:03:01,420 --> 00:03:04,660
+And if we drag the formula down, you see
+that those erroneous
+
+51
+00:03:04,660 --> 00:03:08,050
+values get a notification "Error,
+
+52
+00:03:08,050 --> 00:03:11,630
+too low!". And if you do it like this
+
+53
+00:03:11,630 --> 00:03:14,800
+you can build formulas on top of it,
+
+54
+00:03:14,800 --> 00:03:19,120
+as I said before. You can use this value
+because it's just a dollar cell
+
+55
+00:03:19,120 --> 00:03:22,820
+value, you can use it as the input for
+another formula.
+
+56
+00:03:22,820 --> 00:03:26,140
+And this might sound a little bit
+cryptic so let me show you
+
+57
+00:03:26,140 --> 00:03:29,610
+what I exactly mean with that. So what we can
+do here
+
+58
+00:03:29,610 --> 00:03:33,830
+is add an overall test formula where
+we're going to check
+
+59
+00:03:33,830 --> 00:03:37,270
+is there an error in the list of our
+
+60
+00:03:37,270 --> 00:03:40,320
+checks. So what we do is we count, we use
+a COUNTIF,
+
+61
+00:03:40,320 --> 00:03:43,860
+and we count the number of OKs in
+
+62
+00:03:43,860 --> 00:03:48,690
+the whole margin column. And from the
+number of OKs we subtract
+
+63
+00:03:48,690 --> 00:03:51,760
+the general number, with the
+COUNTA,
+
+64
+00:03:51,760 --> 00:03:55,370
+the number of all items in the list. And
+now we see
+
+65
+00:03:55,370 --> 00:03:58,870
+that this is not 0, it is -2, which means
+
+66
+00:03:58,870 --> 00:04:03,520
+we don't have the same number of OKs
+as the total number of values that we
+
+67
+00:04:03,520 --> 00:04:03,930
+have.
+
+68
+00:04:03,930 --> 00:04:07,390
+That means not everything is OK, so
+
+69
+00:04:07,390 --> 00:04:11,480
+there is an error. We can add that
+
+70
+00:04:11,480 --> 00:04:15,050
+we don't want -2 as the value, we want again
+
+71
+00:04:15,050 --> 00:04:19,020
+to make this into a test formula, so
+we say: if it's -2
+
+72
+00:04:19,020 --> 00:04:23,060
+then it's an error. If it's any value 
+below 0,
+
+73
+00:04:23,060 --> 00:04:25,230
+then there's an error and otherwise
+
+74
+00:04:25,230 --> 00:04:28,740
+it's OK. So now we've build a test 
+formula on
+
+75
+00:04:28,740 --> 00:04:33,560
+top of all the test formulas that we
+already had. And we can repeat this
+
+76
+00:04:33,560 --> 00:04:34,290
+process,
+
+77
+00:04:34,290 --> 00:04:38,930
+we can add a number of columns next to it,
+and say for all of the columns
+
+78
+00:04:38,930 --> 00:04:42,680
+add another test formula. And we can
+repeat this trick
+
+79
+00:04:42,680 --> 00:04:46,340
+at the higher level where those four
+column tests,
+
+80
+00:04:46,340 --> 00:04:49,370
+again we're going to combine them into
+one test
+
+81
+00:04:49,370 --> 00:04:53,120
+where we count the number of OKs, and the
+number of OKs
+
+82
+00:04:53,120 --> 00:04:56,280
+should be equal to the number
+
+83
+00:04:56,280 --> 00:05:00,070
+of items, test cells in our list.
+
+84
+00:05:00,070 --> 00:05:04,310
+So now we can have one big test at the
+end of the
+
+85
+00:05:04,310 --> 00:05:09,190
+worksheet, where all the test columns and
+all the overall tests come together.
+
+86
+00:05:09,190 --> 00:05:14,100
+And then this is a formula again where we
+want to add conditional formatting,
+
+87
+00:05:14,100 --> 00:05:18,990
+because in this error there's no way this can
+mean anything else. If a cell that says
+
+88
+00:05:18,990 --> 00:05:20,170
+Error is red,
+
+89
+00:05:20,170 --> 00:05:24,630
+probably something is up there. There's no other
+meaning that this could have. So for such
+
+90
+00:05:24,630 --> 00:05:24,910
+a
+
+91
+00:05:24,910 --> 00:05:28,170
+final test formula add a conditional
+formatting
+
+92
+00:05:28,170 --> 00:05:29,350
+is a really good idea!
+

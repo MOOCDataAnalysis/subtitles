@@ -1,0 +1,1056 @@
+1
+00:00:00,084 --> 00:00:02,884
+So let's see how we can use Python
+
+2
+00:00:03,026 --> 00:00:06,666
+to solve our Bacon example. Let's go back
+to our spreadsheet
+
+3
+00:00:06,666 --> 00:00:10,886
+and let's have a look at the parts that
+we like, like this simple VLOOKUP(). It's
+
+4
+00:00:10,886 --> 00:00:11,746
+pretty okay.
+
+5
+00:00:11,780 --> 00:00:15,960
+However this is problematic it has two
+lines and also it depends 
+
+6
+00:00:15,960 --> 00:00:19,199
+on those ugly SUMIF() in the other worksheet,
+
+7
+00:00:19,199 --> 00:00:23,279
+so we want to get rid of that and
+replace that with Python
+
+8
+00:00:23,580 --> 00:00:26,520
+So let's take this column, select it
+
+9
+00:00:26,680 --> 00:00:31,000
+and let's copy it back as values.
+It's like a test, so we can see if our
+
+10
+00:00:31,007 --> 00:00:33,009
+Python will do the exact same thing
+
+11
+00:00:33,027 --> 00:00:37,031
+as the original formulas. And we get rid
+of that and make some room
+
+12
+00:00:37,067 --> 00:00:40,867
+for our python code. [Column Header] Steps
+
+13
+00:00:40,920 --> 00:00:46,039
+in Python. So the question is now, what
+
+14
+00:00:46,039 --> 00:00:49,879
+are we going to do here? What actually
+are we calculating?
+
+15
+00:00:49,980 --> 00:00:53,005
+And if we think about it, what we're going
+to calculate here
+
+16
+00:00:53,005 --> 00:00:56,044
+is for each of the movies is there an
+actor
+
+17
+00:00:56,044 --> 00:01:00,016
+in it, that has a Bacon number that is
+unequal to
+
+18
+00:01:00,016 --> 00:01:03,356
+a dash, that has a defined Bacon
+number.
+
+19
+00:01:03,760 --> 00:01:07,013
+And in order for us to figure out what
+to place their in Python,
+
+20
+00:01:07,013 --> 00:01:11,853
+we're going to need the theory glasses.
+
+21
+00:01:11,860 --> 00:01:16,620
+So let's go to the blackboard and have a look
+at what exactly we are calculating. So what we 
+
+22
+00:01:16,640 --> 00:01:17,980
+would like to have
+
+23
+00:01:17,980 --> 00:01:22,991
+is a function like SUM(), that calculates
+based on the name of the movie
+
+24
+00:01:23,000 --> 00:01:26,002
+[for] the list of actors that are in it, their
+
+25
+00:01:26,080 --> 00:01:29,380
+Bacon numbers. So what
+
+26
+00:01:29,620 --> 00:01:33,000
+is the type of that function?
+
+27
+00:01:33,000 --> 00:01:36,004
+So let's say all of the steps for a given
+movie,
+
+28
+00:01:36,004 --> 00:01:41,059
+we put in a movie, and what we want to
+get
+
+29
+00:01:41,095 --> 00:01:45,435
+out, is a list of Bacon numbers for
+that movie.
+
+30
+00:01:45,439 --> 00:01:48,072
+So for instance for 'Crazy Stupid Love'
+this list would be
+
+31
+00:01:48,072 --> 00:01:51,072
+one-dash-dash [1--], these are the first three
+
+32
+00:01:51,072 --> 00:01:55,012
+rows currently in the spreadsheet. So what we
+get is a list
+
+33
+00:01:55,014 --> 00:01:58,423
+of things. So what is
+
+34
+00:01:58,549 --> 00:02:01,071
+in this list? It's
+
+35
+00:02:01,071 --> 00:02:06,451
+either a dash, either it's undefined
+
+36
+00:02:06,469 --> 00:02:09,909
+or it will be a value.
+
+37
+00:02:11,040 --> 00:02:13,051
+And if you remember from the previous
+types,
+
+38
+00:02:13,051 --> 00:02:16,059
+lists are quite hard to work with in
+
+39
+00:02:16,059 --> 00:02:19,659
+spreadsheets. You have to use array
+formulas for that.
+
+40
+00:02:19,700 --> 00:02:23,880
+But in Python lists are very easy,
+they're one of the built-in types
+
+41
+00:02:23,980 --> 00:02:28,300
+and a very easy to manipulate. So
+something like this: will be easily done
+
+42
+00:02:28,300 --> 00:02:29,500
+in Python.
+
+43
+00:02:29,500 --> 00:02:33,989
+If we have that list one-dash-dash [1--] we need to
+calculate
+
+44
+00:02:33,989 --> 00:02:40,429
+is the Bacon number of that list. So
+let's call that function NextStep,
+
+45
+00:02:44,020 --> 00:02:45,560
+what we put in here
+
+46
+00:02:45,569 --> 00:02:49,042
+is this list. So we put in the list
+
+47
+00:02:49,042 --> 00:02:52,980
+of the Bacon numbers of the actors and what
+we will get out
+
+48
+00:02:52,980 --> 00:02:58,579
+is a value. So these are the things that
+we're going to program
+
+49
+00:02:58,579 --> 00:03:02,719
+in Python. Gve me a movie and I will
+give you a list of the Bacon numbers of
+
+50
+00:03:02,720 --> 00:03:03,789
+the actors in it,
+
+51
+00:03:03,799 --> 00:03:06,827
+And give me that list and I will give you
+the Bacon number of
+
+52
+00:03:07,079 --> 00:03:11,559
+everyone that is in this movie. So we
+don't need the theory glasses anymore,
+
+53
+00:03:11,560 --> 00:03:15,060
+let's go back to Excel and have a look
+at how function defining works in Python.
+
+54
+00:03:15,073 --> 00:03:19,073
+So let's power up a shell, we click Python
+Shell
+
+55
+00:03:19,073 --> 00:03:23,073
+in DataNitro and now we can define
+functions.
+
+56
+00:03:23,319 --> 00:03:27,659
+So let's start with an easy one, we say we
+wanna have a function plusone(),
+
+57
+00:03:27,769 --> 00:03:32,269
+where we put in something and the result
+is that something
+
+58
+00:03:32,409 --> 00:03:36,076
+plus one. So this is very much like
+defining our own SUM() function or our own
+
+59
+00:03:36,076 --> 00:03:40,336
+MINUS() function. We can put something in,
+and we get a result.
+
+60
+00:03:40,349 --> 00:03:43,363
+For example now if we ask Python
+what is this,
+
+61
+00:03:43,489 --> 00:03:47,960
+it knows that plusone() is a function and
+if we put something in, for instance we get the
+
+62
+00:03:47,960 --> 00:03:49,159
+the plusone() of five
+
+63
+00:03:49,169 --> 00:03:53,589
+the result is six. So it's a bit cryptic maybe,
+
+64
+00:03:53,609 --> 00:03:57,099
+but the idea is that if you define your own
+functions
+
+65
+00:03:57,099 --> 00:04:00,022
+and you can say what do I take in? The
+number
+
+66
+00:04:00,022 --> 00:04:03,026
+x. And what do I return? That number x
+
+67
+00:04:03,026 --> 00:04:06,005
+plus one. And this is the exact same
+thing, the
+
+68
+00:04:06,005 --> 00:04:10,239
+function defining, that we're going to
+use to address our Bacon issue.
+
+69
+00:04:10,239 --> 00:04:14,025
+So let's make another shell and let's
+make another function.
+
+70
+00:04:14,025 --> 00:04:18,039
+And you know what function, the functions
+that we defined on the black board.
+
+71
+00:04:18,039 --> 00:04:22,023
+We start with AllSteps(). AllSteps() is a
+function that takes in
+
+72
+00:04:22,023 --> 00:04:24,943
+the name of a movie and it returns
+
+73
+00:04:25,002 --> 00:04:28,023
+all the Bacon numbers of people in that
+movie.
+
+74
+00:04:28,041 --> 00:04:33,043
+So for example for 'Crazy Stupid Love' the
+result of this function would be one
+
+75
+00:04:33,043 --> 00:04:37,723
+and a dash and another dash [1--]. So we're going to
+traverse
+
+76
+00:04:38,000 --> 00:04:42,002
+all the lines in our spreadsheet and see
+if we have a match for our movie.
+
+77
+00:04:42,008 --> 00:04:45,035
+Initially, if we start with the first line
+of course we haven't found
+
+78
+00:04:45,035 --> 00:04:48,038
+any matches yet and then with the 'for'
+
+79
+00:04:48,038 --> 00:04:51,478
+syntax function, this is a Python thing
+
+80
+00:04:51,480 --> 00:04:55,000
+we can use everything; we can address
+every line.
+
+81
+00:04:55,032 --> 00:04:59,012
+So we start at the second line and we go
+until the twelfth line
+
+82
+00:04:59,018 --> 00:05:02,018
+and at every line we're going to look is
+
+83
+00:05:02,018 --> 00:05:05,041
+the value in the second column, so in
+
+84
+00:05:05,041 --> 00:05:08,046
+the row that we are in, which is i, our
+variable
+
+85
+00:05:08,046 --> 00:05:13,026
+for the loop, in the second column, is the
+value of that thing that we are
+
+86
+00:05:13,028 --> 00:05:14,025
+inspecting
+
+87
+00:05:14,025 --> 00:05:17,765
+equal to the movie we have put into our function. So
+
+88
+00:05:17,765 --> 00:05:21,000
+this should remind you of the SUMIF()
+function,
+
+89
+00:05:21,003 --> 00:05:24,006
+where we're summing a bunch of lines
+only if it matches
+
+90
+00:05:24,033 --> 00:05:28,065
+a certain value. Well here we are grabbing
+a piece of values together
+
+91
+00:05:28,065 --> 00:05:32,925
+only if it matches a certain value. So
+what are we adding to our list?
+
+92
+00:05:33,011 --> 00:05:36,098
+Not the name of the movie, but the
+column right next to it. So the 
+
+93
+00:05:36,098 --> 00:05:39,938
+cell on the row we are inspecting in
+the third column.
+
+94
+00:05:40,045 --> 00:05:44,083
+If we have a match, we add this to our
+list with the append() function
+
+95
+00:05:44,083 --> 00:05:49,343
+and if we're done if all of the rows have
+been inspected, then
+
+96
+00:05:49,460 --> 00:05:54,000
+we return the list of steps. So
+remind yourself of,
+
+97
+00:05:54,006 --> 00:05:57,760
+like the plusone(), we put in five we get
+back six, this is,
+
+98
+00:05:57,760 --> 00:06:02,360
+we put in a movie we get back a list. So
+we can put the result of this into a
+
+99
+00:06:02,360 --> 00:06:03,440
+variable.
+
+100
+00:06:04,160 --> 00:06:07,980
+Let's try that. For the movie 'Crazy
+Stupid Love'
+
+101
+00:06:07,980 --> 00:06:11,560
+we make a variable called Steps of
+Crazy Stupid Love [StepsCSL]
+
+102
+00:06:11,940 --> 00:06:14,976
+and what we're going to put in that
+variable
+
+103
+00:06:14,980 --> 00:06:18,029
+is the result of our function. The AllSteps()
+
+104
+00:06:18,031 --> 00:06:21,871
+applied on 'Crazy Stupid Love'. But here we
+should
+
+105
+00:06:21,880 --> 00:06:24,946
+add quotes ["], because it's a string, a text
+value.
+
+106
+00:06:25,600 --> 00:06:28,340
+So we hit enter and now the value is
+
+107
+00:06:28,440 --> 00:06:32,000
+saved in our variable and if we ask
+Python now what is in
+
+108
+00:06:32,002 --> 00:06:35,008
+this variable? The result will be one
+dash dash [1--],
+
+109
+00:06:35,008 --> 00:06:38,127
+and this is exactly what we wanted, right?
+The result
+
+110
+00:06:38,199 --> 00:06:41,379
+of 'Crazy Stupid Love' is the list one
+
+111
+00:06:41,409 --> 00:06:44,929
+dash dash [1--]. So the first part of our
+problem is solved,
+
+112
+00:06:45,960 --> 00:06:50,055
+but it is still solved in the Python world, so
+we would like to have this value back
+
+113
+00:06:50,055 --> 00:06:54,415
+in the spreadsheet world. So we can do
+that we've seen that before, we can edit
+
+114
+00:06:54,449 --> 00:06:55,689
+the spreadsheet from
+
+115
+00:06:55,720 --> 00:06:59,012
+Python, we can say this cell in the
+
+116
+00:06:59,012 --> 00:07:02,065
+second column in the fourth row. Oops I'm
+sorry,
+
+117
+00:07:02,065 --> 00:07:07,055
+second row in the fourth column should
+be the value that we have in our
+
+118
+00:07:07,055 --> 00:07:08,031
+variable.
+
+119
+00:07:08,031 --> 00:07:12,311
+And if we hit enter now, immediately
+the value has been updated.
+
+120
+00:07:12,320 --> 00:07:18,000
+And what you see here is that Python can
+put an entire list in a cell.
+
+121
+00:07:18,560 --> 00:07:22,340
+If you want to do that with Excel we
+have to use array formulas 
+
+122
+00:07:22,349 --> 00:07:27,469
+as we've seen in videos of previous
+weeks. Excel cannot put an array, a list 
+
+123
+00:07:27,569 --> 00:07:31,960
+in one cell you have to give it space to
+fill up all the cells.
+
+124
+00:07:31,960 --> 00:07:35,199
+This is not the case with Python, we can
+just take the whole list
+
+125
+00:07:35,199 --> 00:07:39,012
+and put it in a cell. Which is a lot
+more convenient,
+
+126
+00:07:39,012 --> 00:07:42,752
+if you are using a lot of list
+operations like we are.
+
+127
+00:07:43,620 --> 00:07:46,920
+So let us continue with the second half
+for problem I have cleared
+
+128
+00:07:46,920 --> 00:07:49,940
+the shell now, however we can still
+
+129
+00:07:49,940 --> 00:07:52,965
+see all the functions that are there
+python has  remembered them.
+
+130
+00:07:53,018 --> 00:07:57,021
+So we still have the AllSteps() function
+and we're going to make a new one.
+
+131
+00:07:57,021 --> 00:08:01,030
+We're going to make the function NextStep()
+as we saw on the blackboard this is
+
+132
+00:08:01,219 --> 00:08:03,025
+a function that takes in the list
+
+133
+00:08:03,025 --> 00:08:06,194
+that we have just created and returns
+
+134
+00:08:06,419 --> 00:08:10,009
+the next value. So we're going to
+traverse the steps
+
+135
+00:08:10,009 --> 00:08:13,027
+one dash dash [1--] in this case just as we
+have
+
+136
+00:08:13,027 --> 00:08:16,076
+traversed the rows in the previous example
+
+137
+00:08:16,319 --> 00:08:20,539
+So we use 'for' again a Python construct
+that is used for looping,
+
+138
+00:08:20,640 --> 00:08:24,480
+and we're inspecting all of the elements
+in our steps list.
+
+139
+00:08:24,820 --> 00:08:28,832
+So if we see something that is not a dash
+like a one
+
+140
+00:08:28,840 --> 00:08:32,500
+we know what the result is, right? Then
+the result should be that value
+
+141
+00:08:32,500 --> 00:08:35,720
+plus one. So if we see something
+
+142
+00:08:35,720 --> 00:08:39,040
+unequal to, that is the exclamation mark syntax
+
+143
+00:08:39,040 --> 00:08:42,780
+than we know that we have to return plus one.
+
+144
+00:08:42,780 --> 00:08:44,760
+But what if we see a dash?
+
+145
+00:08:44,760 --> 00:08:47,700
+we don't know what to return, because the
+next row
+
+146
+00:08:47,700 --> 00:08:51,920
+could be a dash or it could be a one,
+so if we see a dash we don't know
+
+147
+00:08:51,920 --> 00:08:52,520
+yet,
+
+148
+00:08:52,520 --> 00:08:56,000
+however if we've only see dashes and
+we haven't returned
+
+149
+00:08:56,001 --> 00:09:00,720
+anything yet, then we are going to return a
+dash, because that exactly expresses what
+
+150
+00:09:00,720 --> 00:09:01,640
+we want.
+
+151
+00:09:01,640 --> 00:09:04,480
+If everything is a dash the result will
+be a dash.
+
+152
+00:09:04,500 --> 00:09:09,440
+So we have a function it is defined and
+we still have our variable one dash 
+
+153
+00:09:09,440 --> 00:09:14,760
+dash [1--] but we've made in a previous slide. So
+now we can use that, we can call this 
+
+154
+00:09:14,760 --> 00:09:15,860
+function
+
+155
+00:09:15,860 --> 00:09:19,540
+on the variable and it goes like this:
+
+156
+00:09:19,540 --> 00:09:23,160
+like plusone(), we just put 
+the variable in
+
+157
+00:09:23,160 --> 00:09:27,840
+and we get the result. If we put this
+list in our result is two, which is
+
+158
+00:09:27,840 --> 00:09:29,380
+exactly what we wanted.
+
+159
+00:09:29,380 --> 00:09:33,740
+If we have a movie with three actors, one
+is Kevin Bacon
+
+160
+00:09:33,740 --> 00:09:38,040
+and the other two have an undefined
+bacon number then this movie will give
+
+161
+00:09:38,040 --> 00:09:39,380
+the Bacon number of
+
+162
+00:09:39,380 --> 00:09:42,240
+two to everyone that has played in . 
+
+163
+00:09:45,700 --> 00:09:49,320
+So, so far we've been using only the Python
+shell
+
+164
+00:09:49,320 --> 00:09:52,680
+option but what we can also do
+is use the editor.
+
+165
+00:09:52,680 --> 00:09:56,940
+Then we don't have to type in the
+function on the crazy little line thingy
+
+166
+00:09:56,940 --> 00:10:02,440
+we can just type them in a text file and
+save this just as you save a spreadsheet.
+
+167
+00:10:02,440 --> 00:10:06,960
+You can also save these python files
+and that's of course a lot easier
+
+168
+00:10:06,960 --> 00:10:10,320
+than typing them in, because once you've
+closed the shell
+
+169
+00:10:10,320 --> 00:10:15,180
+all the functions that you have typed in 
+are gone. So we put everything,
+
+170
+00:10:15,180 --> 00:10:18,580
+the same function definitions, now in a file.
+
+171
+00:10:18,580 --> 00:10:22,760
+And from that file we can run it
+and put it back into the spreadsheet, so
+
+172
+00:10:22,760 --> 00:10:25,160
+again we're going to use a for loop
+
+173
+00:10:25,960 --> 00:10:28,560
+and for all of the lines for going to
+
+174
+00:10:28,560 --> 00:10:32,880
+print, to make it easy, we're just going
+to print the number of the row.
+
+175
+00:10:32,880 --> 00:10:37,280
+Just so you can see how it goes. So we
+say the value of i
+
+176
+00:10:37,280 --> 00:10:40,260
+and 4 is going to be just i.
+
+177
+00:10:40,460 --> 00:10:44,720
+So if we made that we've saved the file
+and we hit run,
+
+178
+00:10:44,720 --> 00:10:48,240
+*whoop* you see at one go all 
+
+179
+00:10:48,240 --> 00:10:51,560
+the i's are there, but I've made a mistake
+
+180
+00:10:51,560 --> 00:10:55,300
+I was using 2, 12 all the time and I
+forgot that
+
+181
+00:10:55,300 --> 00:10:59,880
+its untill twelve and not until and
+including 12, and so this should actually be
+
+182
+00:10:59,880 --> 00:11:01,911
+thirteen and so has the function.
+
+183
+00:11:01,920 --> 00:11:06,180
+So now we've gone until 13 and you see all of the
+rows have been filled.
+
+184
+00:11:06,640 --> 00:11:09,920
+But of course we don't want i in there
+what we like to have
+
+185
+00:11:09,920 --> 00:11:13,580
+is the result of those two functions
+that we've just defined.
+
+186
+00:11:13,580 --> 00:11:17,840
+So let's start with the AllSteps() again,
+so we take the 
+
+187
+00:11:17,840 --> 00:11:21,360
+the value from the second column
+
+188
+00:11:21,500 --> 00:11:24,760
+so now we have the movies, that's the
+first step we need.
+
+189
+00:11:24,760 --> 00:11:28,400
+Because the name of the movie is what
+we're going to put into
+
+190
+00:11:28,400 --> 00:11:31,438
+the AllSteps() functions. So here we go, 
+AllSteps()
+
+191
+00:11:32,840 --> 00:11:38,260
+In it we're not using a string anymore, but
+we get the value from the spreadsheet.
+
+192
+00:11:38,500 --> 00:11:41,300
+It's nice right? So now for every movie
+
+193
+00:11:41,300 --> 00:11:46,060
+we have a list of all the actors that are
+in it and we just need to put that list
+
+194
+00:11:46,060 --> 00:11:47,520
+into the NextStep()
+
+195
+00:11:47,520 --> 00:11:50,320
+function. There we go, we put in the
+list
+
+196
+00:11:50,320 --> 00:11:53,580
+now we hit run. Look at that!
+
+197
+00:11:53,580 --> 00:11:58,160
+The result is exactly the same as 
+the result that we have obtained
+
+198
+00:11:58,160 --> 00:12:01,940
+with all the VLOOKUP() and the SUMIF(),
+but instead of using
+
+199
+00:12:01,940 --> 00:12:05,840
+a lot of formulas, we just used a
+little bit of code
+
+200
+00:12:05,840 --> 00:12:09,400
+to calculate the values. Why is this
+code
+
+201
+00:12:09,400 --> 00:12:13,740
+easier than VLOOKUP()? Because we
+use constructs like
+
+202
+00:12:13,740 --> 00:12:19,140
+a list and a loop that are not native, not
+natural to spreadsheets.
+
+203
+00:12:19,140 --> 00:12:23,260
+These are contracts that are very common
+in programming, however if you want to do
+
+204
+00:12:23,260 --> 00:12:24,260
+something like
+
+205
+00:12:24,260 --> 00:12:28,880
+inspect all the lines of my spreadsheet
+and do something in a certain case,
+
+206
+00:12:28,880 --> 00:12:32,840
+this is not something that spreadsheets
+are made for. They're made for calculation
+
+207
+00:12:32,840 --> 00:12:37,280
+and not really for inspecting values
+and then changing them
+
+208
+00:12:37,280 --> 00:12:41,880
+continuously. So these are scenarios
+where programming language are just
+
+209
+00:12:41,880 --> 00:12:48,560
+a little bit easier. So what we can do
+now, we can get rid of those,
+
+210
+00:12:48,560 --> 00:12:52,880
+we don't need those ugly SUMIF() 
+anymore. We can select them
+
+211
+00:12:53,000 --> 00:12:57,100
+and we're done with it, go away, we don't wanna see you anymore.
+
+212
+00:12:57,400 --> 00:13:02,560
+Notice how I put back those VLOOKUP()
+secretly while you weren't looking,
+
+213
+00:13:02,560 --> 00:13:07,040
+just to show you it one more time, before
+we get rid of it too. So we don't need
+
+214
+00:13:07,040 --> 00:13:11,780
+those values anymore. But we don't
+need to get rid of all of the
+
+215
+00:13:11,780 --> 00:13:14,540
+formulas. Some of them are still fine,
+
+216
+00:13:14,540 --> 00:13:17,551
+the VLOOKUP() for instance, the first
+one that we used,
+
+217
+00:13:17,560 --> 00:13:20,880
+it's fine, it's a simple function you can
+use it.
+
+218
+00:13:20,880 --> 00:13:24,960
+But some parts, the ugly parts, we have
+removed now
+
+219
+00:13:24,960 --> 00:13:28,360
+and replaced them by this short python
+code.
+
+220
+00:13:28,500 --> 00:13:31,640
+And you see me in this video I only did
+the second step,
+
+221
+00:13:31,640 --> 00:13:36,180
+so your challenge for the rest of the
+week is to extend this python program
+
+222
+00:13:36,180 --> 00:13:39,820
+so that it doesn't just work for two
+steps but it works for an
+
+223
+00:13:39,820 --> 00:13:44,520
+unlimited number of steps or let's say
+at least until 12 because thats the
+
+224
+00:13:44,520 --> 00:13:46,440
+highest bacon number there is.
+
+225
+00:13:46,440 --> 00:13:49,400
+So good luck with that homework and see
+you next week!
+

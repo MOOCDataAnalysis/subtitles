@@ -1,0 +1,250 @@
+1
+00:00:00,599 --> 00:00:03,579
+Maybe we were using the wrong tool all
+along,
+
+2
+00:00:03,580 --> 00:00:06,819
+so let me show you an other tool to use,
+using
+
+3
+00:00:06,819 --> 00:00:10,071
+a fresh new example. What you see here
+is a map
+
+4
+00:00:10,071 --> 00:00:14,651
+of the Netherlands. This is where we are,  we are
+in Delft.
+
+5
+00:00:14,660 --> 00:00:17,769
+Suppose I want to take the train
+
+6
+00:00:17,779 --> 00:00:21,759
+from Delft to Groningen, that's here.
+
+7
+00:00:21,760 --> 00:00:25,789
+So there's no direct train and we can
+see this on the map,
+
+8
+00:00:25,789 --> 00:00:29,000
+because the trains are the black lines
+on the map
+
+9
+00:00:29,000 --> 00:00:32,057
+and there's no direct train from Delft
+to Grongingen.
+
+10
+00:00:32,057 --> 00:00:35,817
+So how am I going to make this travel? I
+have two different options,
+
+11
+00:00:35,829 --> 00:00:39,189
+either I take the train to Leiden and
+that's here
+
+12
+00:00:39,460 --> 00:00:43,000
+or I take the train to Rotterdam that's 
+there
+
+13
+00:00:43,002 --> 00:00:46,960
+and from there I can take a direct train
+
+14
+00:00:46,960 --> 00:00:50,380
+to Groningen, so either I go this way or
+
+15
+00:00:50,380 --> 00:00:54,720
+I go that way. And if I want to calculate
+what the best
+
+16
+00:00:54,720 --> 00:00:58,040
+option is, I also need to add weights to my
+arrows.
+
+17
+00:00:58,048 --> 00:01:01,648
+So this one from Delft to Leiden will take
+me
+
+18
+00:01:01,649 --> 00:01:04,809
+21 minutes, from Delft to Rotterdam,
+
+19
+00:01:04,909 --> 00:01:08,009
+will take me twelve and then from 
+
+20
+00:01:08,009 --> 00:01:11,969
+Rotterdam to Groningen is two hours and
+
+21
+00:01:11,980 --> 00:01:15,620
+39 minutes and this one
+
+22
+00:01:15,680 --> 00:01:19,080
+is two hours and 28 minutes. So I can
+calculate
+
+23
+00:01:19,099 --> 00:01:23,119
+my total travel time by summing these
+two
+
+24
+00:01:23,119 --> 00:01:27,003
+and summing those two and for this
+representation
+
+25
+00:01:27,003 --> 00:01:31,009
+I don't even need the map anymore. If
+I have my graph
+
+26
+00:01:31,009 --> 00:01:34,043
+my lines and my nodes with all the
+numbers attached
+
+27
+00:01:34,043 --> 00:01:39,223
+I can just delete the whole map.
+There we go!
+
+28
+00:01:41,660 --> 00:01:44,980
+And this is now a correct representation
+of my problem.
+
+29
+00:01:44,980 --> 00:01:48,960
+I have a node Leiden, Rotterdam, Delft
+
+30
+00:01:48,960 --> 00:01:52,978
+and Groningen and I have arrows
+between them,
+
+31
+00:01:52,980 --> 00:01:56,001
+this one, that one and those two and
+those arrows.
+
+32
+00:01:56,003 --> 00:02:00,912
+have weigths. And this is called a graph,
+a representation of the problem
+
+33
+00:02:00,940 --> 00:02:04,029
+in terms of nodes and arrows
+
+34
+00:02:04,029 --> 00:02:07,980
+and of course you have imagined that we
+can use this same
+
+35
+00:02:07,980 --> 00:02:12,380
+scenario the same method to analyze our
+Bacon problem.
+
+36
+00:02:12,380 --> 00:02:16,280
+Let's have a look at the bacon problem,
+how it looks like in a spreadsheet
+
+37
+00:02:16,300 --> 00:02:19,319
+we have actors and movies and actors
+
+38
+00:02:19,319 --> 00:02:22,999
+that have played in movies and I can
+draw this problem
+
+39
+00:02:23,000 --> 00:02:26,002
+like a graph too, like I did it with the map
+of the Netherlands.
+
+40
+00:02:26,009 --> 00:02:29,036
+I can say here's Kevin Bacon and he has
+played
+
+41
+00:02:29,036 --> 00:02:32,816
+in the movie 'Crazy Stupid Love'. I just
+draw a line
+
+42
+00:02:32,819 --> 00:02:36,219
+between the actor and the movie and I can
+repeat this,
+
+43
+00:02:36,220 --> 00:02:39,600
+I can add Emma Stone and Julianne Moore
+
+44
+00:02:39,600 --> 00:02:44,000
+because they have played in 'Crazy Stupid
+Love' too and I can continue this process
+
+45
+00:02:44,003 --> 00:02:48,069
+and make an entire graph of the problem
+that we are analyzing:
+
+46
+00:02:48,069 --> 00:02:52,200
+Who has played in which movie? And
+because we're representing it like a 
+
+47
+00:02:52,200 --> 00:02:52,960
+graph,
+
+48
+00:02:52,960 --> 00:02:56,240
+you see that immediately your view on
+the problem changes,
+
+49
+00:02:56,240 --> 00:02:59,540
+because it gets really easy now to
+calculate the
+
+50
+00:02:59,540 --> 00:03:04,115
+Bacon distance from Bacon to
+another actor, because we can just
+
+51
+00:03:04,120 --> 00:03:05,020
+traverse
+
+52
+00:03:05,020 --> 00:03:08,340
+the lines in the graph and that's what
+we're going to explore
+
+53
+00:03:08,360 --> 00:03:09,760
+in the next video.
+

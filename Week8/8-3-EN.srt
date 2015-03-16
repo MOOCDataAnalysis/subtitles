@@ -1,0 +1,1119 @@
+1
+00:00:01,160 --> 00:00:04,200
+Now that we have a problem in the form
+of a graph,
+
+2
+00:00:04,200 --> 00:00:07,490
+we can also start to use different tools.
+So we don't need
+
+3
+00:00:07,490 --> 00:00:13,099
+generic tools anymore. A spreadsheet or
+Python are like a Swiss Army knife.
+
+4
+00:00:13,099 --> 00:00:17,750
+They can do anything you want, you can
+use them for budgeting and planning,
+
+5
+00:00:17,750 --> 00:00:22,970
+or for doing a Bacon-like problem. But
+now we can use a very specialized tool
+
+6
+00:00:22,970 --> 00:00:24,810
+for graphs, very much
+
+7
+00:00:24,810 --> 00:00:27,740
+like the tongs you use to eat snails.
+They're
+
+8
+00:00:27,740 --> 00:00:31,539
+very very useful if you're eating snails,
+but they're pretty useless for
+
+9
+00:00:31,539 --> 00:00:35,649
+anything else like eating pasta, or
+eating rice
+
+10
+00:00:35,649 --> 00:00:40,850
+they're a very specialized tool. And this
+is also what the graph tool is about,
+
+11
+00:00:40,850 --> 00:00:44,420
+and the graph tool that we are going to
+use, is called Neo4j
+
+12
+00:00:44,420 --> 00:00:48,079
+and this is a graph database,
+the word already says it,
+
+13
+00:00:48,079 --> 00:00:51,670
+is really used to store and analyze graphs.
+up
+
+14
+00:00:51,670 --> 00:00:54,989
+So if you download Neo4J, this is a
+freely available tool, you can just
+
+15
+00:00:54,989 --> 00:00:57,340
+download it for many different platforms.
+
+16
+00:00:57,340 --> 00:01:00,890
+And if you do that and if you start it,
+this is what you will see.
+
+17
+00:01:00,890 --> 00:01:04,360
+Just this little box, what do we do?
+
+18
+00:01:04,360 --> 00:01:07,790
+So the first thing that we have to do is
+select a folder
+
+19
+00:01:07,790 --> 00:01:12,950
+on our filesystem, where we're going to
+save the data in, just an empty folder, no
+
+20
+00:01:12,950 --> 00:01:13,260
+magic,
+
+21
+00:01:13,260 --> 00:01:18,800
+you just select a folder, and you hit start
+and this is what you get: the green box
+
+22
+00:01:18,800 --> 00:01:22,820
+with a link. And if you click it, you'll
+be taken to your web browser just a
+
+23
+00:01:22,820 --> 00:01:25,220
+normal browser like Firefox or Chrome
+
+24
+00:01:25,220 --> 00:01:32,220
+will start (your normal browser) and you'll
+see this. That's it, this is Neo4j.
+
+25
+00:01:32,530 --> 00:01:33,820
+So it is not immediately clear
+
+26
+00:01:33,820 --> 00:01:38,000
+what you have to do here. First let's
+start with getting our bacon data
+
+27
+00:01:38,000 --> 00:01:41,250
+into the database, so we go back to our
+spreadsheet
+
+28
+00:01:41,250 --> 00:01:45,040
+and we have to save our spreadsheet as
+CSV file,
+
+29
+00:01:45,040 --> 00:01:50,380
+a comma separated value file. This is a
+format that Neo4j and many other tools
+
+30
+00:01:50,380 --> 00:01:54,360
+can easily read. Maybe you've done this
+before you just click 'Save As' and you
+
+31
+00:01:54,360 --> 00:01:56,850
+select a location where you want to save your
+
+32
+00:01:56,850 --> 00:02:01,280
+CSV file, enter the file name and then from
+the dropdownlist
+
+33
+00:02:01,280 --> 00:02:04,990
+the 'Save As' one, you select CSV, there
+
+34
+00:02:04,990 --> 00:02:09,600
+we go, comma separated value. We haven't
+a dot too many,
+
+35
+00:02:09,600 --> 00:02:12,220
+we remove the dot and we click 'Save'.
+
+36
+00:02:12,220 --> 00:02:15,230
+And now we save only this worksheet, [we]
+can
+
+37
+00:02:15,230 --> 00:02:18,060
+save as a CSV. Excel warns me, he says: I
+
+38
+00:02:18,060 --> 00:02:21,030
+can only save one worksheet, you lose
+pivot tables.
+
+39
+00:02:21,030 --> 00:02:25,250
+We know that, we are okay with it, we want
+to save it as a CSV file.
+
+40
+00:02:25,250 --> 00:02:27,700
+So what we have now if we open the CSV
+file,
+
+41
+00:02:27,700 --> 00:02:31,860
+is this. This is how the CSV file
+looks like if you open it with notepad
+
+42
+00:02:31,860 --> 00:02:32,590
+or
+
+43
+00:02:32,590 --> 00:02:35,730
+any other text editor. You have a first-line
+that
+
+44
+00:02:35,730 --> 00:02:38,850
+is the first column of the spreadsheet
+in this case movie
+
+45
+00:02:38,850 --> 00:02:42,310
+and then you get one line for all of the
+lines in the spreadsheet.
+
+46
+00:02:42,310 --> 00:02:45,990
+And columns are separated of course with
+a comma,
+
+47
+00:02:45,990 --> 00:02:50,460
+because it's a comma separated value format.
+So we have this date.
+
+48
+00:02:50,460 --> 00:02:54,090
+Now we have to get this data into Neo4J.
+
+49
+00:02:54,090 --> 00:02:58,450
+So let's go back to Neo4j, get our CSV
+file,
+
+50
+00:02:58,450 --> 00:03:02,840
+there it is and what we can not do is just
+select the data and put it in, we cannot
+
+51
+00:03:02,840 --> 00:03:03,040
+just
+
+52
+00:03:03,040 --> 00:03:07,819
+copy/paste. We have to use a special
+command called LOAD CSV.
+
+53
+00:03:07,819 --> 00:03:12,980
+So we type that into Neo4J, LOAD CSV
+
+54
+00:03:12,980 --> 00:03:15,150
+from the location where I have just
+
+55
+00:03:15,150 --> 00:03:19,410
+saved the CSV file
+
+56
+00:03:19,410 --> 00:03:22,810
+and then for every line in the CSV file
+
+57
+00:03:22,810 --> 00:03:26,810
+we're going to perform a certain
+operation. So here's the location of the
+
+58
+00:03:26,810 --> 00:03:27,680
+CSV file
+
+59
+00:03:27,680 --> 00:03:31,060
+and we're going to open it as row
+
+60
+00:03:31,060 --> 00:03:34,400
+and this means that we're going to get
+to iterate over the spreadsheet,
+
+61
+00:03:34,400 --> 00:03:37,950
+over the CSV file and every line is
+called
+
+62
+00:03:37,950 --> 00:03:41,540
+row. And this is very much like the for-loop
+him Python where we have an
+
+63
+00:03:41,540 --> 00:03:45,930
+iterator i that first has the value one
+and two and three
+
+64
+00:03:45,930 --> 00:03:49,430
+this is also what happens to the row. So
+what are we going to do
+
+65
+00:03:49,430 --> 00:03:53,770
+for each of the rows? We're going to
+create something that is a movie,
+
+66
+00:03:53,770 --> 00:03:57,069
+we will create a movie and the
+name of the movie
+
+67
+00:03:57,069 --> 00:04:01,880
+is row.movie that's the first
+column, in this case the only column of our
+
+68
+00:04:01,880 --> 00:04:04,540
+CSV file. So we can run this
+
+69
+00:04:04,540 --> 00:04:07,910
+by hitting the play button and then
+Neo4J says: okay,
+
+70
+00:04:07,910 --> 00:04:12,260
+I have created four nodes. We don't really
+know yet
+
+71
+00:04:12,260 --> 00:04:17,769
+what has happened, but something has
+happened, because we have created four nodes.
+
+72
+00:04:17,769 --> 00:04:20,310
+So what we can do now, is get the nodes
+
+73
+00:04:20,310 --> 00:04:24,190
+out. And I'm not going to explain the
+entire syntax of this language,
+
+74
+00:04:24,190 --> 00:04:27,520
+this language is called Cypher by
+the way, I'm just going to show you
+
+75
+00:04:27,520 --> 00:04:32,030
+a few things that you need to know for
+this example, but we'll put links online
+
+76
+00:04:32,030 --> 00:04:36,020
+to backup material, where you can learn
+all about Cypher.
+
+77
+00:04:36,020 --> 00:04:40,790
+So how are we going to get the nodes out?
+There is a special command called MATCH
+
+78
+00:04:40,790 --> 00:04:44,730
+and that's got means looking for all the
+nodes. So in this case we say
+
+79
+00:04:44,730 --> 00:04:48,680
+we match just a node, any type of node
+
+80
+00:04:48,680 --> 00:04:51,510
+and return that to us. And now we see the
+4
+
+81
+00:04:51,510 --> 00:04:53,700
+nodes that we have entered into the
+
+82
+00:04:53,700 --> 00:04:54,400
+database,
+
+83
+00:04:54,400 --> 00:04:59,260
+we see they are movies and they have the
+labels that were in the CSV file.
+
+84
+00:04:59,260 --> 00:05:03,000
+We can change the layout a little bit,
+we can say that the labels
+
+85
+00:05:03,000 --> 00:05:07,060
+need to be the name of the movie and
+we can play with the size of the noeds.
+
+86
+00:05:07,060 --> 00:05:10,600
+So know it is easy to see that we need
+have the 4 movies
+
+87
+00:05:10,600 --> 00:05:15,000
+in our Neo4j database that were
+in our CSV file.
+
+88
+00:05:15,000 --> 00:05:17,000
+They're right there, but what you can also
+see is that
+
+89
+00:05:17,000 --> 00:05:19,160
+this is a tool that's made for graphs.
+
+90
+00:05:19,160 --> 00:05:22,590
+If I just say give me everything that
+is in the database
+
+91
+00:05:22,590 --> 00:05:26,430
+the neutral, the normal form is not a list
+
+92
+00:05:26,430 --> 00:05:29,210
+as you would get in a normal database, no
+it
+
+93
+00:05:29,210 --> 00:05:30,440
+is our little dots,
+
+94
+00:05:30,440 --> 00:05:34,360
+the nodes in our database. And it shows us
+that we're really working with the graph
+
+95
+00:05:34,360 --> 00:05:35,780
+database here, something that's
+
+96
+00:05:35,780 --> 00:05:39,770
+optimized for thinking about nodes. Now what
+we
+
+97
+00:05:39,770 --> 00:05:41,680
+also need to do in addition to the
+
+98
+00:05:41,680 --> 00:05:42,860
+movies is get the actors.
+
+99
+00:05:42,860 --> 00:05:46,350
+And we can again use the LOAD CSV
+command for that
+
+100
+00:05:46,350 --> 00:05:50,070
+and now we're not creating a movie, we
+are creating an actor. And we do that
+
+101
+00:05:50,070 --> 00:05:54,240
+really by saying create an actor we're
+not going to add a label
+
+102
+00:05:54,240 --> 00:05:57,810
+this is a type actor, no we really
+say create an actor.
+
+103
+00:05:57,810 --> 00:06:01,530
+And this sounds a little bit cryptic maybe,
+but let me show you how that looks like,
+
+104
+00:06:01,530 --> 00:06:03,960
+if I show you all the nodes.
+
+105
+00:06:03,960 --> 00:06:06,820
+Initially, all of them look great and you
+see that
+
+106
+00:06:06,820 --> 00:06:09,280
+indeed some are an actor and some are
+
+107
+00:06:09,280 --> 00:06:09,479
+a movie
+
+108
+00:06:09,479 --> 00:06:13,699
+But what we can do, is again we can play with
+the layout. We can say
+
+109
+00:06:13,699 --> 00:06:17,000
+we want movies to be green and then you see
+
+110
+00:06:17,000 --> 00:06:21,979
+all the movie nodes are now green and
+we can do the same for actors.
+
+111
+00:06:21,979 --> 00:06:26,120
+Let's say we want actors to be pink,
+and now you can see that we really have
+
+112
+00:06:26,120 --> 00:06:29,949
+two different types of nodes in our
+database.
+
+113
+00:06:29,949 --> 00:06:30,210
+Movies
+
+114
+00:06:30,210 --> 00:06:34,960
+and actors. So of course the next step
+
+115
+00:06:34,960 --> 00:06:38,430
+that we need to perform, now we have the
+movies and the actors in our database
+
+116
+00:06:38,430 --> 00:06:42,050
+is make the connection. So again we have
+saved
+
+117
+00:06:42,050 --> 00:06:47,320
+the third worksheet of our spreadsheet
+as a CSV file, where we now have two
+
+118
+00:06:47,320 --> 00:06:47,900
+columns.
+
+119
+00:06:47,900 --> 00:06:52,270
+One that's called full name and one that
+is called movie.
+
+120
+00:06:52,270 --> 00:06:55,040
+And again we're using the MATCH command
+now
+
+121
+00:06:55,040 --> 00:07:00,430
+First we'll load the CSV file, we
+know this by now as a row from the CSV file,
+
+122
+00:07:00,430 --> 00:07:04,000
+but we're going to match each column the
+first item
+
+123
+00:07:04,000 --> 00:07:09,710
+with an actor and second item with a
+movie and this is how that looks like.
+
+124
+00:07:09,710 --> 00:07:12,509
+So we say MATCH,
+
+125
+00:07:12,509 --> 00:07:17,220
+yes we say MATCH,
+
+126
+00:07:17,220 --> 00:07:19,580
+there it is, we say MATCH, we are going to
+match
+
+127
+00:07:19,580 --> 00:07:23,690
+an a is an actor and what are we going
+to match it with?
+
+128
+00:07:23,690 --> 00:07:27,389
+Well the name, the full of the
+actor has to be equal
+
+129
+00:07:27,389 --> 00:07:32,740
+to the name that it in the row of our
+CSV file.
+
+130
+00:07:32,740 --> 00:07:36,680
+So that's also called full name, so in the
+first case the actor that we're going to
+
+131
+00:07:36,680 --> 00:07:39,280
+make a connection for first is Kevin
+Bacon
+
+132
+00:07:39,280 --> 00:07:42,840
+with the movie Crazy Stupid Love. So this
+first match line
+
+133
+00:07:42,840 --> 00:07:47,930
+is going to search for the actor in the
+first line and the second match that I'm
+
+134
+00:07:47,930 --> 00:07:49,139
+making now,
+
+135
+00:07:49,139 --> 00:07:54,740
+is saying I'm matching movie and the
+name of the movie has to be equal to the
+
+136
+00:07:54,740 --> 00:07:55,650
+movie column
+
+137
+00:07:55,650 --> 00:07:59,669
+in my CSV file, the second column, after
+the comma.
+
+138
+00:07:59,669 --> 00:08:03,020
+So what this first two things do is find
+an actor
+
+139
+00:08:03,020 --> 00:08:06,870
+and find a movie. So if I have those too
+what I need to do
+
+140
+00:08:06,870 --> 00:08:10,460
+is make a connection between them and I do
+that with a CREATE.
+
+141
+00:08:10,460 --> 00:08:13,550
+Just as I said create an actor and
+create a movie,
+
+142
+00:08:13,550 --> 00:08:17,919
+and now creating a link from a the actor
+
+143
+00:08:17,919 --> 00:08:20,820
+to m the movie and I'm giving that connection
+
+144
+00:08:20,820 --> 00:08:23,770
+a name. I'm naming it 'acted', so a
+
+145
+00:08:23,770 --> 00:08:27,380
+acted in m, Kevin Bacon acted in
+
+146
+00:08:27,380 --> 00:08:30,960
+Crazy Stupid Love. And if I execute this
+CREATE
+
+147
+00:08:30,960 --> 00:08:36,029
+then again Neo4J says okay I have created
+a bunch of relations.
+
+148
+00:08:36,029 --> 00:08:39,729
+So let's have a look at how it actually
+is visualised
+
+149
+00:08:39,729 --> 00:08:41,469
+If I just use the same
+
+150
+00:08:41,469 --> 00:08:43,879
+show me all nodes, then I get a graph
+
+151
+00:08:43,879 --> 00:08:47,389
+instantaneously. So if I just put my data
+in and I
+
+152
+00:08:47,389 --> 00:08:48,850
+say to Neo4j
+
+153
+00:08:48,850 --> 00:08:53,689
+give me the data, this is what I get. It's
+immediately visualized as a graph
+
+154
+00:08:53,689 --> 00:08:57,920
+and you can see of course we noticed by
+now Kevin Bacon has played in Crazy
+
+155
+00:08:57,920 --> 00:08:59,399
+Stupid Love with
+
+156
+00:08:59,399 --> 00:09:03,119
+Julianne Moore. It's all right there and
+very much looks like
+
+157
+00:09:03,119 --> 00:09:06,550
+the picture that we had in the previous
+video that we were drawing on the
+
+158
+00:09:06,550 --> 00:09:07,410
+spreadsheet,
+
+159
+00:09:07,410 --> 00:09:13,089
+we get a graph immediately. So we're almost
+there, we have the right representation
+
+160
+00:09:13,089 --> 00:09:13,670
+now,
+
+161
+00:09:13,670 --> 00:09:16,790
+but now of course we still want to
+perform the calculation
+
+162
+00:09:16,790 --> 00:09:22,550
+of the bacon number. So let me show you
+how that goes, if you use Neo4j.
+
+163
+00:09:22,550 --> 00:09:25,139
+So we want to do, is calculate
+
+164
+00:09:25,139 --> 00:09:29,189
+a path through the graph, a number of
+steps like we did
+
+165
+00:09:29,189 --> 00:09:31,600
+Delft, Rotterdam, Grongingen, now we want
+to
+
+166
+00:09:31,600 --> 00:09:33,209
+have Kevin Bacon
+
+167
+00:09:33,209 --> 00:09:37,769
+to Julianne Moore, so we're matching again,
+we're looking into database, but now
+
+168
+00:09:37,769 --> 00:09:40,100
+we're not looking for one node, we're
+looking for
+
+169
+00:09:40,100 --> 00:09:43,679
+a path through the nodes from an actor
+
+170
+00:09:43,679 --> 00:09:47,369
+with the name Kevin Bacon to another
+actor
+
+171
+00:09:47,369 --> 00:09:50,639
+with no specific name. We don't know the
+name and
+
+172
+00:09:50,639 --> 00:09:55,519
+how does the path have to look like?
+Well it has to be two hops,
+
+173
+00:09:55,519 --> 00:09:58,819
+an actor, a movie, another actor and what
+do
+
+174
+00:09:58,819 --> 00:09:59,899
+we want to return?
+
+175
+00:09:59,899 --> 00:10:03,929
+If we have found such a path from Kevin
+Bacon to another actor,
+
+176
+00:10:03,929 --> 00:10:08,139
+we would like to have the name of the
+other actor and if we execute this
+
+177
+00:10:08,139 --> 00:10:12,189
+indeed we get all the actors that have a
+bacon number of two,
+
+178
+00:10:12,189 --> 00:10:16,420
+that are one-hop away or in this
+visualization two hops away
+
+179
+00:10:16,420 --> 00:10:19,429
+from Kevin Bacon. We can do the same
+thing
+
+180
+00:10:19,429 --> 00:10:24,170
+for everyone who has bacon number three
+because then we need four hops.
+
+181
+00:10:24,170 --> 00:10:27,420
+It works. It's that easy to do it with
+Neo4j.
+
+182
+00:10:27,420 --> 00:10:31,369
+The only problem that we have here, is that
+Scarlett Johansson
+
+183
+00:10:31,369 --> 00:10:36,019
+occurs twice, because there are two ways
+that we can reach her from Kevin Bacon.
+
+184
+00:10:36,019 --> 00:10:37,279
+And we can solve this
+
+185
+00:10:37,279 --> 00:10:41,449
+with a very similar construct that we
+have used all the way back in the pivot
+
+186
+00:10:41,449 --> 00:10:42,410
+tabel video,
+
+187
+00:10:42,410 --> 00:10:46,249
+the DISTINCT. And if we add that, we get
+only two
+
+188
+00:10:46,249 --> 00:10:49,749
+actors with a bacon number of three. So
+you see it's just
+
+189
+00:10:49,749 --> 00:10:53,759
+one-line and then we get everyone with
+bacon number two,
+
+190
+00:10:53,759 --> 00:10:54,399
+everyone with bacon
+
+191
+00:10:54,399 --> 00:10:58,899
+number three, which is already pretty
+amazing, but we can do better than that.
+
+192
+00:10:58,899 --> 00:10:59,879
+We can calculate
+
+193
+00:10:59,879 --> 00:11:04,239
+all bacon number of everyone with just
+one line
+
+194
+00:11:04,239 --> 00:11:08,499
+of Cypher code. So what we are
+going to do, is we're going to say
+
+195
+00:11:08,499 --> 00:11:11,350
+give me the shortest path and the shortest
+path
+
+196
+00:11:11,350 --> 00:11:15,800
+is not a function that I have defined,
+this is just a built-in function in
+
+197
+00:11:15,800 --> 00:11:17,730
+Cypher. So we're going to say,
+
+198
+00:11:17,730 --> 00:11:22,660
+give me the shortest path from the node that
+matches Kevin Bacon, we've seen that in a
+
+199
+00:11:22,660 --> 00:11:24,629
+previous queries as well,
+
+200
+00:11:24,629 --> 00:11:30,360
+and what I want is only the star, so
+not two steps or four steps or
+
+201
+00:11:30,360 --> 00:11:34,759
+100 steps, any number of steps. We don't
+care that's what the little star
+
+202
+00:11:34,759 --> 00:11:36,069
+indicates
+
+203
+00:11:36,069 --> 00:11:40,079
+and what we want to have him return is
+again the name of the actor,
+
+204
+00:11:40,079 --> 00:11:43,959
+but we also want, because we have named
+this path
+
+205
+00:11:43,959 --> 00:11:47,550
+p, the length of the path. TADA!
+
+206
+00:11:47,550 --> 00:11:52,319
+And now indeed we get Kevin Bacon has 0,
+because the path
+
+207
+00:11:52,319 --> 00:11:57,670
+from him to him is zero and people with
+bacon number two
+
+208
+00:11:57,670 --> 00:12:00,059
+have two hops and bacon number three
+
+209
+00:12:00,059 --> 00:12:03,059
+have four hops. So we're almost there, we
+only want
+
+210
+00:12:03,059 --> 00:12:04,899
+Kevin Bacon to have one and all the
+
+211
+00:12:04,899 --> 00:12:06,179
+others to have
+
+212
+00:12:06,179 --> 00:12:10,639
+two steps as one step. So if we divide it
+by two and add one,
+
+213
+00:12:10,639 --> 00:12:14,059
+we have all bacon number for everyone
+
+214
+00:12:14,059 --> 00:12:16,999
+doesn't matter how long the path is, in
+
+215
+00:12:16,999 --> 00:12:21,279
+only one line of Cypher. Isn't that cool?
+Remember that last week, we needed
+
+216
+00:12:21,279 --> 00:12:25,879
+like 25 array formuls, for all of
+that actors and we still needed
+
+217
+00:12:25,879 --> 00:12:32,629
+20, to 25 lines of Python and here
+we can do it in just one line of Cypher.
+
+218
+00:12:32,629 --> 00:12:35,239
+So don't get me wrong, this is not a
+Neo4j
+
+219
+00:12:35,239 --> 00:12:39,230
+advertisement, I'm not saying that Neo4j
+is better than Python or is
+
+220
+00:12:39,230 --> 00:12:41,239
+better than Excel,
+
+221
+00:12:41,239 --> 00:12:43,779
+For some problems that are really
+graphy,
+
+222
+00:12:43,779 --> 00:12:47,220
+Neo4j is a very good solution,
+but
+
+223
+00:12:47,220 --> 00:12:50,449
+like the thongs for a snail, it's very specific.
+
+224
+00:12:50,449 --> 00:12:55,850
+You can't use it for planning or
+budgeting. It's for one specific tool only.
+
+225
+00:12:55,850 --> 00:12:59,410
+So what I hope you take away from this
+week and previous week's videos,
+
+226
+00:12:59,410 --> 00:13:02,819
+is that sometimes you shouldn't run
+
+227
+00:13:02,819 --> 00:13:05,319
+to your spreadsheet immediately. Of course
+in
+
+228
+00:13:05,319 --> 00:13:06,600
+the first six weeks
+
+229
+00:13:06,600 --> 00:13:07,360
+I showed you
+
+230
+00:13:07,360 --> 00:13:11,089
+everything there is to know about
+spreadsheets, you can do many many things
+
+231
+00:13:11,089 --> 00:13:11,980
+with them,
+
+232
+00:13:11,980 --> 00:13:15,540
+but sometimes is also very good strategy
+just to
+
+233
+00:13:15,540 --> 00:13:18,679
+step away from the spreadsheet. Don't go
+to your computer,
+
+234
+00:13:18,679 --> 00:13:23,259
+first think about a problem, go to the
+white board and sometimes you can a tool
+
+235
+00:13:23,259 --> 00:13:23,549
+that is
+
+236
+00:13:23,549 --> 00:13:27,470
+very suited for small part of your
+problem better.
+
+237
+00:13:27,470 --> 00:13:30,519
+So if you ever need to calculate
+a bacon number
+
+238
+00:13:30,519 --> 00:13:35,089
+now you know that Neo4J, or another graph
+database might be a better solution
+
+239
+00:13:35,089 --> 00:13:36,070
+than a spreadsheet.
+

@@ -1,0 +1,352 @@
+1
+00:00:00,320 --> 00:00:04,029
+So, I'm sure you're not convinced you
+have to test your spreadsheet in order
+
+2
+00:00:04,029 --> 00:00:04,940
+to avoid
+
+3
+00:00:04,940 --> 00:00:08,470
+horrible problems. But then, of course, a
+question is:
+
+4
+00:00:08,470 --> 00:00:12,590
+What to test if we look at a spreadsheet,
+where to start
+
+5
+00:00:12,590 --> 00:00:17,279
+and what are those typical situations,
+typical formulas, that could go wrong?
+
+6
+00:00:17,279 --> 00:00:20,289
+Let's have another look at our Hardware
+example.
+
+7
+00:00:20,289 --> 00:00:24,519
+If we look at this example, if you
+download it from the edX
+
+8
+00:00:24,519 --> 00:00:28,260
+website, then you can have a look with me
+at what could
+
+9
+00:00:28,260 --> 00:00:33,420
+exactly go wrong. For example, if you look
+at this Margin formula, what do we
+
+10
+00:00:33,420 --> 00:00:35,000
+know about a margin?
+
+11
+00:00:35,000 --> 00:00:38,379
+Are there specific rules that hold for
+margins?
+
+12
+00:00:38,379 --> 00:00:42,160
+Well, if you think about it a little bit,
+probably
+
+13
+00:00:42,160 --> 00:00:45,780
+this margin should be bigger than
+zero. Probably
+
+14
+00:00:45,780 --> 00:00:50,550
+we don't want to sell things for a lower price
+than we have bought them for.
+
+15
+00:00:50,550 --> 00:00:54,649
+There are some businesses that do that,
+maybe you have a super,
+
+16
+00:00:54,649 --> 00:00:59,539
+super special promotion, but I'm just
+going to guess: for normal company
+
+17
+00:00:59,539 --> 00:01:03,180
+the rule is: your margin has to be above
+zero.
+
+18
+00:01:03,180 --> 00:01:09,770
+So you try it! Download spreadsheet from
+the edX website and have a look at
+
+19
+00:01:09,770 --> 00:01:13,540
+what are typical testings. This is not
+
+20
+00:01:13,540 --> 00:01:17,479
+an exercise that you have to fill out, I
+just hope you're going to keep a list
+
+21
+00:01:17,479 --> 00:01:20,650
+on a piece of paper, and then, in this
+video,
+
+22
+00:01:20,650 --> 00:01:24,189
+maybe I will talk about some of the tests
+that you had also
+
+23
+00:01:24,189 --> 00:01:29,520
+thought about. So let's look at this
+margin. You could say that this margin,
+
+24
+00:01:29,520 --> 00:01:31,640
+the fact that it has to be above zero,
+
+25
+00:01:31,640 --> 00:01:36,090
+is some sort of a "sanity check" - does my
+spreadsheet make sense?
+
+26
+00:01:36,090 --> 00:01:40,619
+And these are common, this type of "sanity
+checks". You have knowledge about your
+
+27
+00:01:40,619 --> 00:01:41,759
+business domain
+
+28
+00:01:41,759 --> 00:01:44,840
+and you know what typical rules should
+hold.
+
+29
+00:01:44,840 --> 00:01:49,399
+And those rules help and those roles are
+exactly what you want to test.
+
+30
+00:01:49,399 --> 00:01:54,180
+So, what else could we test? If we look at
+this percentage here,
+
+31
+00:01:54,180 --> 00:01:57,490
+that's another thing where, if you see a
+percentage you think:
+
+32
+00:01:57,490 --> 00:02:01,409
+"Hey, I know something about a percentage!
+Probably the percentage that should be
+
+33
+00:02:01,409 --> 00:02:05,719
+between 0 and 100 percent, because that's
+how percentages work!"
+
+34
+00:02:05,719 --> 00:02:09,149
+So, if you see something like that,
+immediately your "Test",
+
+35
+00:02:09,149 --> 00:02:12,000
+your "Test sense" should go off in the back
+of your head,
+
+36
+00:02:12,000 --> 00:02:17,980
+and you think "Ha, a percentage! I know something
+about that! I know what boundaries
+
+37
+00:02:17,980 --> 00:02:21,220
+hold for a percentage!" And that's another
+type
+
+38
+00:02:21,220 --> 00:02:24,780
+of checking your data. If you see a
+specific value,
+
+39
+00:02:24,780 --> 00:02:28,560
+you think about: what are logical
+boundaries. For
+
+40
+00:02:28,560 --> 00:02:32,500
+currencies often 0 is a logical boundary,
+
+41
+00:02:32,500 --> 00:02:36,020
+because you don't want to sell less than
+zero, or if you're,
+
+42
+00:02:36,020 --> 00:02:39,370
+as we do here, you're counting a number
+of items,
+
+43
+00:02:39,370 --> 00:02:42,959
+0 might also be a good boundary because
+we don't want to sell,
+
+44
+00:02:42,959 --> 00:02:47,310
+we can't sell less than 0 items. Can you
+think of more?
+
+45
+00:02:47,310 --> 00:02:51,260
+Are there other tests on your list, on
+your sheet of paper where you were
+
+46
+00:02:51,260 --> 00:02:56,980
+taking notes? Do you have others? Here's
+another one that you could try.
+
+47
+00:02:56,980 --> 00:03:00,630
+The SUM of those percentages that
+we're calculating here
+
+48
+00:03:00,630 --> 00:03:04,730
+should be a hundred percent, because we
+divide all our profit
+
+49
+00:03:04,730 --> 00:03:08,780
+over different items that we're
+selling so if we group all of them
+
+50
+00:03:08,780 --> 00:03:09,489
+together,
+
+51
+00:03:09,489 --> 00:03:14,130
+it should add up to 100 percent, or
+something is wrong with our formulas
+
+52
+00:03:14,130 --> 00:03:17,570
+or input! And this is what we call a
+"totals check".
+
+53
+00:03:17,570 --> 00:03:21,180
+We add everything together and then the
+total should be
+
+54
+00:03:21,180 --> 00:03:24,400
+a hundred percent. That's usually a "totals
+check".
+
+55
+00:03:24,400 --> 00:03:28,500
+Or, the total should be equal to whatever
+we are selling
+
+56
+00:03:28,500 --> 00:03:32,959
+And there is something more we can do in
+this example
+
+57
+00:03:32,959 --> 00:03:36,720
+in addition to the "totals check". What we
+can do
+
+58
+00:03:36,720 --> 00:03:40,150
+is calculate the totals in a different
+way.
+
+59
+00:03:40,150 --> 00:03:44,430
+What we can do is: sum the values here,
+but we also sum
+
+60
+00:03:44,430 --> 00:03:49,250
+all the turnovers together, and that
+should also be a hundred percent.
+
+61
+00:03:49,250 --> 00:03:54,120
+So now we calculate our values in a
+different way and we see here
+
+62
+00:03:54,120 --> 00:03:58,040
+that we also get a 100 percent, and
+this is called a "cross-check",
+
+63
+00:03:58,040 --> 00:04:01,329
+where we calculate the same result in
+two ways.
+
+64
+00:04:01,329 --> 00:04:04,610
+And then if we make a mistake in one of
+them as you see here
+
+65
+00:04:04,610 --> 00:04:07,910
+we immediately see that those values
+don't add up any more -
+
+66
+00:04:07,910 --> 00:04:11,160
+one of them is 100 percent and the other
+is not.
+
+67
+00:04:11,160 --> 00:04:16,010
+This is called a "cross-check" and this is
+very common in financial statements,
+
+68
+00:04:16,010 --> 00:04:19,030
+where you calculate your values in
+this direction
+
+69
+00:04:19,030 --> 00:04:20,500
+and in this direction and then
+
+70
+00:04:20,500 --> 00:04:24,780
+you make sure, in the end, they
+actually calculate the same thing.
+
+71
+00:04:24,780 --> 00:04:28,810
+So these are a bunch of ways that you
+can test your spreadsheet:
+
+72
+00:04:28,810 --> 00:04:32,110
+"sanity checks", "boundary checks" and "total
+checks".
+

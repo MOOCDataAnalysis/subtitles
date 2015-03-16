@@ -1,0 +1,169 @@
+1
+00:00:00,659 --> 00:00:03,339
+Last week we worked on calculating Bacon
+numbers
+
+2
+00:00:03,460 --> 00:00:08,073
+and we did that both in Excel and in Python.
+And what I hope you took away from last
+
+3
+00:00:08,073 --> 00:00:11,074
+week's videos and also from last week's
+exercises,
+
+4
+00:00:11,074 --> 00:00:14,083
+is that the tool you use influences
+
+5
+00:00:14,083 --> 00:00:18,883
+what solution you can come up with. If
+you're working in Excel then typically
+
+6
+00:00:19,009 --> 00:00:19,858
+you think
+
+7
+00:00:19,939 --> 00:00:23,006
+in terms of cells and references between
+cells.
+
+8
+00:00:23,006 --> 00:00:26,033
+And if you have to work with lists in
+Excel you have to
+
+9
+00:00:26,033 --> 00:00:29,051
+use array formulas and it's possible,
+
+10
+00:00:29,051 --> 00:00:32,691
+but it's harder and this limits the way
+you can think.
+
+11
+00:00:32,759 --> 00:00:36,041
+Whereas if you solved the same problem in
+Python
+
+12
+00:00:36,041 --> 00:00:39,059
+it gets a lot easier, because lists are
+
+13
+00:00:39,059 --> 00:00:43,739
+first class citizens. You can just take
+any range in the spreadsheet
+
+14
+00:00:43,739 --> 00:00:47,919
+and put it into a list immediately and
+if you want to do some sort of operation
+
+15
+00:00:48,045 --> 00:00:51,825
+on your list, like a minimum you just
+have to use
+
+16
+00:00:52,016 --> 00:00:56,505
+minus and the list that you want to work
+on. You don't have to fiddle with array
+
+17
+00:00:56,505 --> 00:00:57,340
+formulas
+
+18
+00:00:57,340 --> 00:01:00,539
+so because you're using Python it's
+
+19
+00:01:00,539 --> 00:01:04,159
+easier to work with lists, because they
+are built-in in Python
+
+20
+00:01:04,159 --> 00:01:07,031
+and you don't have to go through a lot
+of trouble and 
+
+21
+00:01:07,031 --> 00:01:10,871
+exactly this idea holds in many cases, so
+if you use
+
+22
+00:01:11,022 --> 00:01:14,065
+the wrong tool for the job then
+
+23
+00:01:14,065 --> 00:01:18,845
+it is not only less efficient to hammer
+a screw in,
+
+24
+00:01:19,011 --> 00:01:23,013
+it is not just that. It gets harder and
+also limits your
+
+25
+00:01:23,031 --> 00:01:26,840
+imagination. If you always build stuff
+with a hammer,
+
+26
+00:01:27,119 --> 00:01:31,063
+then probably you're never going to come
+up with the dovetail connection,
+
+27
+00:01:31,063 --> 00:01:34,903
+because this is a connection where you 
+connect wood without using any nails.
+
+28
+00:01:35,053 --> 00:01:38,953
+So you don't need the hammer and if
+you're always grabbing for the hammer
+
+29
+00:01:39,060 --> 00:01:39,720
+first
+
+30
+00:01:39,720 --> 00:01:44,160
+you will never come up with this solution.
+And this exact same idea holds in data
+
+31
+00:01:44,160 --> 00:01:45,020
+problems,
+
+32
+00:01:45,028 --> 00:01:48,063
+if you always sit down at your
+spreadsheet immediately
+
+33
+00:01:48,063 --> 00:01:52,077
+there are some sort of solutions that
+you're just never going to come up with,
+
+34
+00:01:52,077 --> 00:01:56,017
+because they don't fit in the
+spreadsheet paradigm and that's what
+
+35
+00:01:56,140 --> 00:01:57,040
+this week's videos
+
+36
+00:01:57,040 --> 00:01:58,240
+are all about!
+
