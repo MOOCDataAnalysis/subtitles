@@ -4,7 +4,7 @@ Hi! In previous videos we look at the
 use of VLOOKUP,
 
 2
-00:00:04,047 --> 00:00:08,640
+00:00:04,047 --> 00:00:08,840
 when to use it, and, specifically, when to
 use the TRUE and FALSE parameters.
 
@@ -23,13 +23,13 @@ perfect. And in this video I'm going to
 show you two reasons
 
 6
-00:00:19,449 --> 00:00:24,014
+00:00:19,449 --> 00:00:22,969
 when you're not going to want to use
 VLOOKUP.
 
 7
-00:00:24,014 --> 00:00:27,854
-So if we're in a little hardware shop, but we're
+00:00:23,580 --> 00:00:27,859
+So, if we're in a little hardware shop, but we're
 only selling seven different
 
 8
@@ -80,7 +80,7 @@ because the VLOOKUPs will be
 calculated all the time.
 
 18
-00:01:01,071 --> 00:01:05,611
+00:01:01,071 --> 00:01:05,851
 For instance, probably you've noticed my typo
 here - I'm not selling a Clam Hammer,
 
@@ -95,32 +95,32 @@ small typo, again everything has to be
 recalculated.
 
 21
-00:01:13,015 --> 00:01:16,096
+00:01:13,015 --> 00:01:16,955
 So, using a lot, like six thousand
 VLOOKUPs in the spreadsheet
 
 22
-00:01:16,096 --> 00:01:19,836
+00:01:16,960 --> 00:01:20,940
 is going to make my spreadsheet slow for
 every operation
 
 23
-00:01:20,095 --> 00:01:24,555
+00:01:20,940 --> 00:01:24,759
 that I have. So, the first reason
 VLOOKUPs can be cumbersome
 
 24
-00:01:24,759 --> 00:01:29,239
+00:01:24,759 --> 00:01:29,339
 is they're pretty slow for large datasets.
 The second reason,
 
 25
-00:01:29,439 --> 00:01:33,099
+00:01:29,439 --> 00:01:33,239
 suppose your boss comes into your office
 and she says "Hey, I want to offer a
 
 26
-00:01:33,259 --> 00:01:34,274
+00:01:33,259 --> 00:01:34,399
 discount today on
 
 27
@@ -150,16 +150,16 @@ just put in the names,
 32
 00:01:51,034 --> 00:01:56,194
 that's easy - the Claw Hammer and the
-Rip Saw, I will type them up,
+Rip Saw, I will type them up.
 
 33
 00:01:57,100 --> 00:02:00,180
-no problem, and I'll just use
+No problem, and I'll just use
 VLOOKUP
 
 34
 00:02:00,259 --> 00:02:04,002
-to look up the codes that with the name.
+to look up the codes that go with the name.
 VLOOKUP,
 
 35
@@ -168,11 +168,11 @@ I know how to do it, look up the name,
 go to the
 
 36
-00:02:07,027 --> 00:02:10,387
+00:02:07,027 --> 00:02:10,607
 information sheet... Oh...
 
 37
-00:02:10,460 --> 00:02:11,240
+00:02:10,620 --> 00:02:11,400
 What
 
 38
@@ -180,7 +180,7 @@ What
 column do I send back? -1?
 
 39
-00:02:14,680 --> 00:02:17,707
+00:02:14,680 --> 00:02:17,920
 I want to have a value that's back in
 the stream.
 
@@ -200,17 +200,17 @@ is this way - from the first column, and
 retrieve something that's
 
 43
-00:02:29,079 --> 00:02:32,639
+00:02:29,079 --> 00:02:32,999
 in a later column. There's no way that you
 can go back
 
 44
-00:02:33,000 --> 00:02:36,059
+00:02:33,000 --> 00:02:36,500
 in the stream with VLOOKUP function.
 It only works
 
 45
-00:02:36,059 --> 00:02:40,699
+00:02:36,500 --> 00:02:40,840
 one-way! So these are two reasons that
 VLOOKUP functions
 

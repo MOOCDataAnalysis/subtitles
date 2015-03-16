@@ -1,39 +1,39 @@
 1
-00:00:01,016 --> 00:00:04,095
+00:00:01,016 --> 00:00:04,856
 Hi, welcome back! In the previous video I
 explained you
 
 2
-00:00:04,095 --> 00:00:07,097
+00:00:04,860 --> 00:00:08,000
 that usually, if you want to use the 
 VLOOKUP function,
 
 3
-00:00:07,097 --> 00:00:10,997
+00:00:08,000 --> 00:00:11,520
 you're going to want to use FALSE as the
 last parameter,
 
 4
-00:00:11,044 --> 00:00:14,067
+00:00:11,520 --> 00:00:14,760
 because you want to be warned if a
 certain value
 
 5
-00:00:14,340 --> 00:00:18,320
+00:00:14,760 --> 00:00:18,940
 isn't found when integrating two
 worksheets. However, there are scenarios,
 
 6
-00:00:18,320 --> 00:00:19,740
+00:00:18,940 --> 00:00:19,980
 though, where TRUE
 
 7
-00:00:19,800 --> 00:00:23,015
+00:00:19,980 --> 00:00:23,380
 is the good choice, and in this video I
 will explain you when
 
 8
-00:00:23,015 --> 00:00:27,895
+00:00:23,380 --> 00:00:27,900
 you have to use TRUE. So, for instance,
 when we're doing this analysis:
 
@@ -53,20 +53,20 @@ talk with your sales director and he
 said "Hey, I would like to know
 
 12
-00:00:39,037 --> 00:00:44,052
+00:00:39,037 --> 00:00:44,517
 for what product we have a good margin
 and for what other products our margin
 
 13
-00:00:44,052 --> 00:00:44,972
+00:00:44,520 --> 00:00:45,440
 could be
 
 14
-00:00:45,002 --> 00:00:48,039
+00:00:45,440 --> 00:00:48,039
 increased maybe?". So, first of all,
 
 15
-00:00:48,039 --> 00:00:51,839
+00:00:48,039 --> 00:00:52,039
 for each code we're going to look up the
 margin. And this is still just
 
@@ -76,7 +76,7 @@ an old fashioned VLOOKUP with
 the FALSE,
 
 17
-00:00:55,149 --> 00:00:58,589
+00:00:55,149 --> 00:00:58,729
 where we're going to the ProductInfo
 and we're returning the sixth column,
 
@@ -150,17 +150,17 @@ just drag the formula down,
 and we have it! Nothing wrong with it,
 
 33
-00:01:52,013 --> 00:01:56,039
+00:01:52,013 --> 00:01:56,573
 well, we are nesting conditions here and
 you should remember from previous videos
 
 34
-00:01:56,039 --> 00:02:00,359
+00:01:56,580 --> 00:02:00,360
 that if you're nesting a lot of
 conditionals then a formula can get
 
 35
-00:02:00,440 --> 00:02:01,690
+00:02:00,360 --> 00:02:01,610
 complicated.
 
 36
@@ -193,13 +193,13 @@ we add the classification.
 So we say: for margin of everything above
 
 42
-00:02:25,048 --> 00:02:28,768
+00:02:25,048 --> 00:02:29,328
 zero the classification is going to be
 bad,
 
 43
-00:02:29,038 --> 00:02:32,198
-everything between zero and 20
+00:02:29,580 --> 00:02:32,200
+everything between 0 and 20
 
 44
 00:02:32,300 --> 00:02:36,900
@@ -255,7 +255,7 @@ And you see that the functionality in
 this VLOOKUP
 
 55
-00:03:13,420 --> 00:03:16,660
+00:03:13,420 --> 00:03:16,800
 is exactly the same as the functionality
 of the IF.
 
@@ -265,13 +265,13 @@ And doing it this way you can see it's
 very easy, because if you want to change
 
 57
-00:03:21,000 --> 00:03:23,540
+00:03:21,000 --> 00:03:23,700
 something in my table you just saw me
 change
 
 58
 00:03:23,700 --> 00:03:26,777
-ok into uppercase OK. I can just do
+'ok' into uppercase 'OK'. I can just do
 that
 
 59
@@ -285,28 +285,28 @@ and all the formulas are updated.
 Even more so, 
 
 61
-00:03:34,026 --> 00:03:37,084
+00:03:34,026 --> 00:03:37,900
 if I want to add another classification,
 like 40 percent is
 
 62
-00:03:37,084 --> 00:03:41,089
+00:03:37,900 --> 00:03:41,980
 the best margin there is, I can just
 add it to my table
 
 63
-00:03:41,089 --> 00:03:45,809
+00:03:41,980 --> 00:03:45,800
 update the lookup table and then my
 condition is updated.
 
 64
 00:03:46,009 --> 00:03:49,438
-Whereas if I should I do that with an if,
+Whereas if I should I do that with an IF,
 then I would have gone on
 
 65
 00:03:49,519 --> 00:03:54,038
-another branch of the if and my formula
+another branch of the IF and my formula
 would get longer and longer and longer.
 
 66
@@ -341,7 +341,7 @@ you are dividing a certain value
 
 72
 00:04:17,018 --> 00:04:20,043
-into different categories using an if,
+into different categories using an IF,
 
 73
 00:04:20,043 --> 00:04:24,083

@@ -18,12 +18,12 @@ based on conditions. But
 this week,
 
 5
-00:00:14,073 --> 00:00:18,333
+00:00:14,073 --> 00:00:18,613
 we are going to look into lookup 
 functions - how to combine data
 
 6
-00:00:18,539 --> 00:00:22,299
+00:00:18,620 --> 00:00:22,380
 from this part of your spreadsheet and
 that part of your spreadsheet, and correctly
 
@@ -64,7 +64,7 @@ this week's example.
 Imagine you are running a hardware store. So, here you have
 
 15
-00:00:47,026 --> 00:00:50,866
+00:00:47,026 --> 00:00:51,079
 information that you export from your
 register - you can see
 
@@ -115,12 +115,12 @@ More specifically, we want to know what
 turnover do we make
 
 26
-00:01:25,500 --> 00:01:29,080
+00:01:25,500 --> 00:01:29,320
 for each of the items that we sell. So we 
 could do that
 
 27
-00:01:29,340 --> 00:01:32,740
+00:01:29,340 --> 00:01:33,035
 like this, where we have the codes and the 
 names, and then
 
@@ -167,16 +167,16 @@ that we need.
 There we have it. We have calculated
 
 37
-00:02:07,979 --> 00:02:11,699
-the turnover per product, so the first 
+00:02:07,979 --> 00:02:12,119
+the turnover per product. So, the first 
 thing that you see that's a little bit
 
 38
-00:02:11,959 --> 00:02:13,064
+00:02:12,120 --> 00:02:13,640
 strange about this formula
 
 39
-00:02:13,064 --> 00:02:16,243
+00:02:13,640 --> 00:02:16,819
 is that Excel inputs a link to
 
 40
@@ -200,26 +200,26 @@ get rid of that prefix - just remove it,
 because it's not necessary,
 
 44
-00:02:31,022 --> 00:02:34,003
+00:02:31,022 --> 00:02:34,382
 it just makes our spreadsheet more
 complex than is needed.
 
 45
-00:02:34,003 --> 00:02:39,143
+00:02:35,020 --> 00:02:39,140
 So the question is now - is our 
 spreadsheet now perfect? Are we in the
 
 46
-00:02:39,239 --> 00:02:40,013
+00:02:39,140 --> 00:02:40,013
 perfect state?
 
 47
-00:02:40,013 --> 00:02:43,097
+00:02:40,013 --> 00:02:44,013
 Maybe you have encountered this problem
 before, maybe you know
 
 48
-00:02:43,097 --> 00:02:48,697
+00:02:44,020 --> 00:02:48,900
 why this is a problem. If you don't, let 
 me take you through what's problematic
 
@@ -228,12 +228,12 @@ me take you through what's problematic
 about organizing your spreadsheet in this way.
 
 50
-00:02:55,920 --> 00:02:59,040
+00:02:55,700 --> 00:02:59,040
 To show you this, we're going to select 
 all data in our worksheet,
 
 51
-00:02:59,062 --> 00:03:02,602
+00:02:59,062 --> 00:03:02,959
 copy-paste it into a fresh worksheet,
 
 52
@@ -242,12 +242,12 @@ and we're going to copy-paste it as values,
 just so you can see
 
 53
-00:03:07,002 --> 00:03:11,064
+00:03:07,002 --> 00:03:11,820
 what the original value was, because, 
 maybe, some things are going to change
 
 54
-00:03:11,082 --> 00:03:14,471
+00:03:11,820 --> 00:03:15,209
 if I mess up my spreadsheet. So, just to be
 sure,
 
@@ -257,12 +257,12 @@ we make a copy of the original data. Now
 let's go back
 
 56
-00:03:19,004 --> 00:03:22,093
+00:03:19,004 --> 00:03:23,020
 to our ProductInfo worksheet and do
 something very innocent -
 
 57
-00:03:22,093 --> 00:03:25,793
+00:03:23,020 --> 00:03:26,011
 we're just going to sort our ProductInfo worksheet,
 
 58
@@ -270,14 +270,14 @@ we're just going to sort our ProductInfo worksheet,
 sorted based on the selling price. You can think:
 
 59
-00:03:30,489 --> 00:03:33,076
+00:03:30,489 --> 00:03:34,000
 "Well, sorting something is never going to
 mess up my worksheet"
 
 60
-00:03:33,076 --> 00:03:38,236
+00:03:34,000 --> 00:03:38,480
 However, if you look now at the Turnover
-PerProduct we see that our Bench
+per Product we see that our Bench
 
 61
 00:03:38,489 --> 00:03:41,089
@@ -285,25 +285,25 @@ is suddenly worth only 10 Euros where
 previously
 
 62
-00:03:41,089 --> 00:03:45,749
+00:03:41,089 --> 00:03:46,629
 it was worth 250. And this is because, as 
 you can see here,
 
 63
-00:03:46,059 --> 00:03:49,859
+00:03:46,860 --> 00:03:50,420
 the links are still pointing at the original values,
 
 64
-00:03:50,047 --> 00:03:53,787
+00:03:50,540 --> 00:03:54,340
 and even though we have sorted them, 
 the links haven't changed. So we are
 
 65
-00:03:54,042 --> 00:03:55,066
+00:03:54,340 --> 00:03:55,360
 pointing directly
 
 66
-00:03:55,066 --> 00:03:58,069
+00:03:55,360 --> 00:03:58,060
 at the wrong value. So what you
 should
 
@@ -313,17 +313,17 @@ remember from this example is that if
 you make a link
 
 68
-00:04:02,018 --> 00:04:05,081
+00:04:02,018 --> 00:04:05,698
 over worksheet it doesn't get sorted, if
 you sort
 
 69
-00:04:05,081 --> 00:04:08,082
+00:04:05,700 --> 00:04:08,980
 that worksheet with, you see in the 
 result here,
 
 70
-00:04:08,082 --> 00:04:12,722
+00:04:08,980 --> 00:04:13,000
 potential for error. So this is exactly
 the scenario
 
@@ -332,7 +332,7 @@ the scenario
 where instead of a direct link we want to use
 
 72
-00:04:16,739 --> 00:04:20,239
+00:04:16,580 --> 00:04:20,360
 a lookup function. You'll see that in the 
 next video.
 
