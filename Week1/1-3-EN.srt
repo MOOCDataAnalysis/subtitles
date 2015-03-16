@@ -1,30 +1,30 @@
 1
-00:00:00,071 --> 00:00:03,127
+00:00:00,071 --> 00:00:03,891
 So in this MOOC, in all of the weeks'
 videos we will use
 
 2
-00:00:04,027 --> 00:00:07,536
+00:00:03,900 --> 00:00:07,880
 one running example for all of the
 videos
 
 3
-00:00:07,779 --> 00:00:10,840
+00:00:07,880 --> 00:00:11,380
 that you'll also work on in the exercises.
 And for this week
 
 4
-00:00:11,389 --> 00:00:14,401
+00:00:11,389 --> 00:00:14,780
 we are going to think about the
 spreadsheet to handle
 
 5
-00:00:14,509 --> 00:00:19,300
+00:00:14,780 --> 00:00:19,300
 the Stock exchange. I don't make a lot
 of money as a professor, so
 
 6
-00:00:19,301 --> 00:00:22,078
+00:00:19,301 --> 00:00:23,001
 I have to do a little bit of investing
 on the side to make ends meet.
 
@@ -34,48 +34,48 @@ So I have this little spreadsheet where I have
 a bunch of companies that I own some
 
 8
-00:00:27,189 --> 00:00:28,198
+00:00:27,144 --> 00:00:28,279
 shares from,
 
 9
-00:00:28,279 --> 00:00:32,334
+00:00:28,279 --> 00:00:32,819
 and the number of shares that I own. And of
 course, now I want to know
 
 10
-00:00:32,829 --> 00:00:38,649
+00:00:32,829 --> 00:00:37,029
 how is my stock portfolio doing - am I
-making money on it? So what I need for
+making money on it? 
 
 11
-00:00:38,649 --> 00:00:39,160
-this, of course, is
+00:00:37,220 --> 00:00:39,160
+So what I need for this, of course, is
 
 12
-00:00:39,165 --> 00:00:44,071
+00:00:39,165 --> 00:00:44,460
 recent stock information. I need to know
 what the value of all the stocks is that
 
 13
-00:00:44,071 --> 00:00:46,087
+00:00:44,460 --> 00:00:46,540
 I have. So what I can do for that -
 
 14
-00:00:46,087 --> 00:00:49,587
+00:00:46,540 --> 00:00:50,420
 let me make a new worksheet and go to
 the DATA tab,
 
 15
-00:00:50,046 --> 00:00:53,626
+00:00:50,420 --> 00:00:54,440
 and there's a button right there, maybe
 you've never seen it or used it, it's
 
 16
-00:00:54,003 --> 00:00:55,563
+00:00:54,440 --> 00:00:56,020
 called "Get External Data".
 
 17
-00:00:56,009 --> 00:01:00,010
+00:00:56,020 --> 00:01:00,019
 And with this button I can get data
 into my spreadsheet
 
@@ -85,22 +85,22 @@ from virtually everywhere. Let me
 show you
 
 19
-00:01:03,037 --> 00:01:06,737
+00:01:03,037 --> 00:01:07,033
 how that works. So you click the button
 and you select
 
 20
-00:01:07,033 --> 00:01:11,057
+00:01:07,033 --> 00:01:11,453
 "From Web". And what happens is that Excel
 opens this little browser, just a normal
 
 21
-00:01:11,057 --> 00:01:12,597
+00:01:11,460 --> 00:01:13,000
 internet browser,
 
 22
 00:01:13,001 --> 00:01:17,930
-and I can go to any website I want. So
+and I can go to any website I want. So,
 here I go to Yahoo Finance for the
 
 23
@@ -116,29 +116,29 @@ browser
 25
 00:01:25,038 --> 00:01:29,958
 that I can use to select what data I
-want to have in my spreadsheet. So you
+want to have in my spreadsheet.
 
 26
-00:01:30,160 --> 00:01:30,820
-just click
+00:01:29,960 --> 00:01:31,060
+So you just click
 
 27
-00:01:30,821 --> 00:01:33,781
+00:01:31,060 --> 00:01:34,017
 the arrow and then you click OK, and what
 you get,
 
 28
 00:01:34,017 --> 00:01:38,017
-where do you want your data, well just in A1
+where do you want your data, well just in A1,
 and there
 
 29
-00:01:38,017 --> 00:01:41,074
+00:01:38,017 --> 00:01:41,617
 is the data - right from the web into your
 spreadsheet.
 
 30
-00:01:41,074 --> 00:01:45,634
+00:01:41,620 --> 00:01:45,939
 Isn't that cool? And this data is not a 
 copy-paste,
 
@@ -148,26 +148,26 @@ is not a static copy, because if you hit
 "Refresh" you'll actually get a new
 
 32
-00:01:50,461 --> 00:01:54,075
+00:01:50,461 --> 00:01:54,541
 version of the website in your
 spreadsheet. No coding required,
 
 33
-00:01:54,075 --> 00:01:57,099
+00:01:54,541 --> 00:01:57,940
 just getting the data in. So this is
 nice,
 
 34
-00:01:57,099 --> 00:02:01,719
+00:01:57,940 --> 00:02:02,520
 what I can do now is calculate how much
 money I can make on the shares that I
 
 35
-00:02:02,053 --> 00:02:06,613
+00:02:02,520 --> 00:02:05,660
 have in my portfolio, so let's continue.
 
 36
-00:02:07,073 --> 00:02:10,673
+00:02:07,400 --> 00:02:11,000
 I have the value right there, you see, this is
 what my
 
@@ -176,7 +176,7 @@ what my
 stocks are worth. However, I can't really
 
 38
-00:02:14,045 --> 00:02:18,685
+00:02:14,045 --> 00:02:19,042
 calculate with them yet. Let me first get
 the number of shares I have in.
 
@@ -186,214 +186,217 @@ So what I'll do now, I'll just copy it
 from the other worksheet,
 
 40
-00:02:22,088 --> 00:02:26,748
+00:02:22,088 --> 00:02:27,032
 in next videos we'll definitely work on
 how to connect worksheets in a better way,
 
 41
-00:02:27,032 --> 00:02:30,572
+00:02:27,032 --> 00:02:30,992
 but for now I'm just copying them. And
 what I would like to do is - I want to
 
 42
-00:02:31,006 --> 00:02:33,012
+00:02:31,006 --> 00:02:33,820
 multiply the number of shares that I
 have
 
 43
-00:02:33,066 --> 00:02:36,626
+00:02:33,820 --> 00:02:37,020
 with their value. But I can't do it, because
 
 44
-00:02:37,023 --> 00:02:40,075
+00:02:37,023 --> 00:02:40,623
 the Last Trade value that I get from the
 web
 
 45
-00:02:40,075 --> 00:02:43,091
+00:02:40,623 --> 00:02:43,700
 is just the text, it's a "String" as we
 call it,
 
 46
-00:02:43,091 --> 00:02:47,791
+00:02:43,700 --> 00:02:48,000
 and I cannot multiply it, because not
 just the value is in there, but also
 
 47
-00:02:48,004 --> 00:02:52,053
-the the time of the Last Trade.
+00:02:48,000 --> 00:02:52,500
+the time of the Last Trade.
 So I need to manipulate 
 
 48
-00:02:52,089 --> 00:02:52,935
+00:02:52,500 --> 00:02:53,480
 my data
 
 49
-00:02:53,035 --> 00:03:00,795
-into being able to be calculated with. So
-let me add another column
+00:02:53,480 --> 00:02:56,860
+into being able to be calculated with. 
 
 50
-00:03:01,099 --> 00:03:06,819
+00:03:00,000 --> 00:03:02,080
+So let me add another column
+
+51
+00:03:02,080 --> 00:03:07,020
 where I will try to obtain the real
 value - just the first part
 
-51
-00:03:07,024 --> 00:03:10,072
+52
+00:03:07,024 --> 00:03:10,544
 of the String and not the entire thing
 that I cannot do anything with.
 
-52
-00:03:10,072 --> 00:03:13,074
+53
+00:03:10,544 --> 00:03:13,780
 Well, what Excel has is a function called
 LEFT
 
-53
-00:03:13,074 --> 00:03:16,714
+54
+00:03:13,780 --> 00:03:17,000
 and that allows you for any text value
 to take
 
-54
-00:03:17,009 --> 00:03:21,058
+55
+00:03:17,009 --> 00:03:21,580
 a number of characters from the left. So,
 what I can do now is - here I want
 
-55
-00:03:21,058 --> 00:03:24,087
+56
+00:03:21,580 --> 00:03:25,180
 for this value just the first 4 characters.
 
-56
-00:03:24,087 --> 00:03:28,827
+57
+00:03:25,180 --> 00:03:29,035
 and then I get my value. However, I guess
 you maybe
 
-57
-00:03:29,035 --> 00:03:32,087
+58
+00:03:29,035 --> 00:03:32,975
 predicted this, for the second line this
 doesn't work,
 
-58
-00:03:32,087 --> 00:03:35,727
+59
+00:03:32,980 --> 00:03:36,340
 because there are 5 characters and
 not 4.
 
-59
-00:03:36,028 --> 00:03:41,056
+60
+00:03:36,840 --> 00:03:41,480
 So, I need a little bit trickery and I
 can use the FIND function for that.
 
-60
-00:03:41,056 --> 00:03:44,058
+61
+00:03:41,480 --> 00:03:44,300
 What the FIND function does is: in a
 given text
 
-61
-00:03:44,076 --> 00:03:48,016
+62
+00:03:44,300 --> 00:03:48,239
 it looks for specific value and it gives
 you the location
 
-62
-00:03:48,239 --> 00:03:51,979
+63
+00:03:48,239 --> 00:03:52,199
 of that String. So you see here the space
 is on the 5th
 
-63
-00:03:52,209 --> 00:03:55,749
+64
+00:03:52,209 --> 00:03:55,989
 position in our String, and we can use
 that in
 
-64
-00:03:55,989 --> 00:03:59,970
+65
+00:03:55,989 --> 00:04:00,049
 our LEFT function. So now I'm not going
 to take 4 or 5,
 
-65
-00:03:59,971 --> 00:04:02,791
+66
+00:04:00,049 --> 00:04:03,058
 what I'm going to take is the location
 of the space. 
 
-66
-00:04:03,058 --> 00:04:07,077
+67
+00:04:03,058 --> 00:04:07,838
 And then I need to deduct 1 because I
 don't want to include the space, I just
 
-67
-00:04:07,077 --> 00:04:08,557
+68
+00:04:07,840 --> 00:04:09,320
 want the first part.
 
-68
-00:04:08,740 --> 00:04:12,820
+69
+00:04:09,320 --> 00:04:13,012
 And if I drag this formula down, you 
 see nicely
 
-69
-00:04:13,012 --> 00:04:17,040
+70
+00:04:13,012 --> 00:04:17,272
 that I only have the value, and now I
 can calculate something!
 
-70
-00:04:17,041 --> 00:04:18,841
+71
+00:04:17,280 --> 00:04:19,720
 Now I can drag this cell reference
 
-71
-00:04:19,001 --> 00:04:22,066
+72
+00:04:19,720 --> 00:04:22,900
 to the right, or I could also
 just edit the text,
 
-72
-00:04:22,075 --> 00:04:25,735
+73
+00:04:22,900 --> 00:04:26,012
 and now I have the right value for my
 
-73
-00:04:26,012 --> 00:04:29,752
+74
+00:04:26,012 --> 00:04:30,352
 stock. So I know what profit I would make
 if I would sell
 
-74
-00:04:30,002 --> 00:04:34,044
+75
+00:04:30,360 --> 00:04:34,402
 all stocks I have for the current price
 taken from the web.
 
-75
-00:04:34,044 --> 00:04:38,784
+76
+00:04:36,300 --> 00:04:39,220
 So what you learn in this video is how
 to use
 
-76
-00:04:39,026 --> 00:04:42,826
+77
+00:04:39,220 --> 00:04:43,017
 String functions to prepare data
 and this is something
 
-77
-00:04:43,017 --> 00:04:46,035
+78
+00:04:43,017 --> 00:04:46,357
 you're going to encounter a lot in the
 following weeks.
 
-78
-00:04:46,035 --> 00:04:50,038
+79
+00:04:46,360 --> 00:04:50,400
 The data that you get from the web or
 data that you download within your
 
-79
-00:04:50,038 --> 00:04:50,878
+80
+00:04:50,400 --> 00:04:51,240
 company
 
-80
-00:04:51,001 --> 00:04:54,039
+81
+00:04:51,240 --> 00:04:54,380
 often will not have the right form.
 You get
 
-81
-00:04:54,039 --> 00:04:57,799
-a longer list, you get something in a
-string while you wanted a text file,
-
 82
-00:04:58,036 --> 00:05:01,596
+00:04:54,380 --> 00:04:58,520
+a longer list, you get something in a
+String while you wanted a text file,
+
+83
+00:04:58,520 --> 00:05:02,500
 so you have to do some data wrangling
 before you can actually start
 
-83
-00:05:02,035 --> 00:05:03,415
+84
+00:05:02,500 --> 00:05:03,880
 your calculation.
 
