@@ -28,7 +28,7 @@ this spreadsheet,
 
 7
 00:00:19,210 --> 00:00:23,150
-this Selling Price right here, it's an
+this 'Selling Price' right here, it's an
 input value.
 
 8
@@ -42,13 +42,13 @@ And we want to let the user know as
 early as possible
 
 10
-00:00:30,240 --> 00:00:34,590
+00:00:30,240 --> 00:00:34,320
 that he has made a mistake. For instance,
 if we enter new item here,
 
 11
-00:00:34,590 --> 00:00:35,180
-the Stone Table,
+00:00:34,320 --> 00:00:35,180
+the 'Stone Table',
 
 12
 00:00:35,180 --> 00:00:39,489
@@ -93,7 +93,7 @@ users
 20
 00:01:07,220 --> 00:01:10,580
 add their input, have some validation
-rule
+rules
 
 21
 00:01:10,580 --> 00:01:15,860
@@ -112,7 +112,7 @@ have been selling,
 
 24
 00:01:22,450 --> 00:01:26,030
-and this formula, the Category formula,
+and this formula, the 'Category' formula,
 
 25
 00:01:26,030 --> 00:01:29,340
@@ -121,12 +121,12 @@ first character of
 
 26
 00:01:29,340 --> 00:01:32,780
-the text and put it in a list. So
+the text and puts it in a list. So
 suppose
 
 27
 00:01:32,780 --> 00:01:36,310
-we add a Pivot Table on top of that data,
+we add a pivot table on top of that data,
 calculating
 
 28
@@ -178,7 +178,7 @@ How would you validate the user input in
 this spreadsheet?
 
 38
-00:02:15,060 --> 00:02:18,610
+00:02:16,640 --> 00:02:18,600
 What's important about
 
 39
@@ -192,16 +192,16 @@ have a manual.
 
 41
 00:02:24,930 --> 00:02:28,840
-And you might think: what this
+And you might think: what does
 documentation
 
 42
-00:02:28,840 --> 00:02:32,640
+00:02:28,840 --> 00:02:33,060
 have to do with testing? Those are two
 entirely different topics.
 
 43
-00:02:32,640 --> 00:02:35,950
+00:02:33,060 --> 00:02:35,940
 That's really not true! Tests
 
 44
@@ -281,6 +281,6 @@ in addition to, of course, their purpose
 as
 
 60
-00:03:36,459 --> 00:03:38,120
+00:03:36,459 --> 00:03:38,319
 actually checking for errors.
 

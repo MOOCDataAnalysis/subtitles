@@ -61,18 +61,18 @@ between the purchasing and the selling
 price,
 
 14
-00:00:45,010 --> 00:00:50,340
+00:00:45,010 --> 00:00:48,030
 and the same margin expressed in
-percentage. So this is really a very
+percentage.
 
 15
-00:00:50,340 --> 00:00:51,840
-small spreadsheet,
+00:00:48,800 --> 00:00:51,840
+So this is really a very small spreadsheet,
 
 16
 00:00:51,840 --> 00:00:56,070
 there's hardly anything that could go
-wrong which such a small example.
+wrong with such a small example.
 
 17
 00:00:56,070 --> 00:01:01,250
@@ -109,7 +109,7 @@ link to another worksheet,
 
 24
 00:01:20,400 --> 00:01:24,740
-if you start sorting the links
+if you start sorting the links,
 everything gets messed up.
 
 25
@@ -134,7 +134,7 @@ function
 29
 00:01:38,900 --> 00:01:42,100
 then nothing goes wrong; that even if
-you're sort the other part of your
+you sort the other part of your
 
 30
 00:01:42,100 --> 00:01:43,509
@@ -163,15 +163,15 @@ you input the wrong
 35
 00:01:57,560 --> 00:02:02,659
 value, maybe you used the wrong formula,
-maybe you miss copy/paste and you 
+maybe you miss copy-paste and you 
 
 36
 00:02:02,659 --> 00:02:03,649
-copy/paste your data
+copy-paste your data
 
 37
 00:02:03,649 --> 00:02:08,280
-in wrong part of the spreadsheet... And it's not
+in a wrong part of the spreadsheet... And it's not
 just you, you're not the only one working
 
 38
@@ -200,7 +200,7 @@ office in the spreadsheet?
 43
 00:02:21,830 --> 00:02:25,830
 If you send your spreadsheet to someone
-from Sales, well they also know what
+from Sales, will they also know what
 
 44
 00:02:25,830 --> 00:02:26,790
@@ -253,7 +253,7 @@ them. Other domains use testing
 
 54
 00:03:08,010 --> 00:03:11,299
-to make sure that whatever they bill is
+to make sure that whatever they build is
 really
 
 55
@@ -271,6 +271,6 @@ we're going to stress-test our
 spreadsheet and make sure
 
 58
-00:03:20,000 --> 00:03:21,090
+00:03:20,000 --> 00:03:21,480
 that nothing can go wrong!
 

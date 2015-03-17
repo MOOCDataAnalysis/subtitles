@@ -6,7 +6,7 @@ how to test your spreadsheet
 2
 00:00:03,470 --> 00:00:08,189
 using Excel, using formulas. And that's
-fine as a very good way to do it,
+fine, that's a very good way to do it,
 
 3
 00:00:08,189 --> 00:00:11,490
@@ -49,12 +49,12 @@ in the ribbon you see there is the
 Expector option now,
 
 11
-00:00:38,840 --> 00:00:43,180
+00:00:38,840 --> 00:00:42,900
 and that's how it looks if you install
 the plug-in as well. What we can do with
 
 12
-00:00:43,180 --> 00:00:43,879
+00:00:42,900 --> 00:00:43,879
 Expector is
 
 13
@@ -81,379 +81,374 @@ overall tests, they're really not
 necessary
 
 18
-00:01:00,730 --> 00:01:05,000
+00:01:00,730 --> 00:01:05,379
 anymore, because Expector
-is going to gather all spreadsheet cells for
+is going to gather all spreadsheet cells for us.
 
 19
-00:01:05,000 --> 00:01:05,379
-us.
-
-20
 00:01:05,379 --> 00:01:09,010
 So how does it work? If you enable
 
-21
+20
 00:01:09,010 --> 00:01:13,979
 Expector and you say: "I want to extract
 all the tests", you go here,
 
-22
+21
 00:01:13,979 --> 00:01:17,880
 you say Initialize. What Expector is
 going to do is: it's going to
 
-23
+22
 00:01:17,880 --> 00:01:21,610
 run through all the formulas of your
 spreadsheet, and it's going to look
 
-24
+23
 00:01:21,610 --> 00:01:25,270
 what looks like a test formula and you
 get a list here.
 
-25
+24
 00:01:25,270 --> 00:01:30,259
 So, for example, you see here that G4 is
-the test formula and it test whether
+the test formula and it tests whether
 
-26
-00:01:30,259 --> 00:01:31,350
-C4
-
-27
-00:01:31,350 --> 00:01:35,070
-is lower than 0. Expector knows
+25
+00:01:30,260 --> 00:01:35,060
+C4 is lower than 0. Expector knows
 that and adds
 
-28
+26
 00:01:35,070 --> 00:01:38,210
 all of those tests to this list of tests.
 
-29
+27
 00:01:38,210 --> 00:01:41,369
 And if you save them, you get an 
 
-30
+28
 00:01:41,369 --> 00:01:46,299
 additional worksheet in which all of the
 tests are located. So we hit "Save",
 
-31
+29
 00:01:46,299 --> 00:01:52,380
 let's do that. Yes, there it is! So now we
 have an additional worksheet
 
-32
+30
 00:01:52,380 --> 00:01:55,990
 in which all of the detected
 cells are listed.
 
-33
+31
 00:01:55,990 --> 00:02:00,270
 So, it extracts the test, only the part of the
 formula that's testing,
 
-34
+32
 00:02:00,270 --> 00:02:04,049
 and it shows you where the test comes
 from and what
 
-35
+33
 00:02:04,049 --> 00:02:07,200
 the part is, that is being tested. So, in
 this case
 
-36
+34
 00:02:07,200 --> 00:02:12,069
 the C4 is lower than 0, that's exactly
 the part that is extracted
 
-37
+35
 00:02:12,069 --> 00:02:13,260
 into the new
 
-38
+36
 00:02:13,260 --> 00:02:18,860
 worksheet. So, what Expector also does is: 
 it adds links - you see the blue guys
 
-39
+37
 00:02:18,860 --> 00:02:19,560
 over here.
 
-40
+38
 00:02:19,560 --> 00:02:23,610
 Those are the links to the original
 location of the formula. So, if you
 
-41
+39
 00:02:23,610 --> 00:02:24,540
 click the link,
 
-42
+40
 00:02:24,540 --> 00:02:29,010
 Excel takes you to the original location.
 
-43
+41
 00:02:29,010 --> 00:02:33,090
 So, we don't remove the test cells, we
 just add another worksheet,
 
-44
+42
 00:02:33,090 --> 00:02:37,620
 but you can still use your original
 tests, and even navigate there
 
-45
-00:02:37,620 --> 00:02:42,609
-from the Expector worksheet. So, with
-these tests you can now
+43
+00:02:37,620 --> 00:02:39,760
+from the Expector worksheet. 
 
-46
+44
+00:02:40,540 --> 00:02:42,600
+So, with these tests you can now
+
+45
 00:02:42,609 --> 00:02:47,810
 run them - you can hit Run in Expector,
 and you get an overview of all the tests,
 
-47
+46
 00:02:47,810 --> 00:02:51,500
 and it shows you which cells are failing
 
-48
+47
 00:02:51,500 --> 00:02:55,220
 and which cells are passing. So, the ones below 
 are failing,
 
-49
+48
 00:02:55,220 --> 00:02:59,480
 those are the ones where something is up.
 So, you don't have to add an additional
 
-50
+49
 00:02:59,480 --> 00:03:00,769
 formula to look
 
-51
+50
 00:03:00,769 --> 00:03:04,139
 for the erroneous value anymore, you can
 just scroll here,
 
-52
+51
 00:03:04,139 --> 00:03:08,980
 you say "Hey, this value is false". You hit
 the link and Expector directly
 
-53
+52
 00:03:08,980 --> 00:03:13,700
 takes you to wherever your spreadsheet
 is failing, it makes it easier
 
-54
+53
 00:03:13,700 --> 00:03:17,260
 to understand what's going wrong. So you
 see here,
 
-55
+54
 00:03:17,260 --> 00:03:20,389
 click the link and is easy to see where
 
-56
+55
 00:03:20,389 --> 00:03:24,500
 exactly the problem is located, because
 we know the test, we know what should
 
-57
+56
 00:03:24,500 --> 00:03:25,650
 hold, what should
 
-58
+57
 00:03:25,650 --> 00:03:28,919
 pass and what should fail, so we can
 just for
 
-59
+58
 00:03:28,919 --> 00:03:32,269
 failing tests click the link and we are
 taken to the formula.
 
-60
+59
 00:03:32,269 --> 00:03:35,780
 One more thing that Expector can
 
-61
+60
 00:03:35,780 --> 00:03:39,790
 do is to add colors to the test - if you
 don't like the long list, maybe you're
 
-62
+61
 00:03:39,790 --> 00:03:41,730
 more of a visual person, you can hit
 
-63
+62
 00:03:41,730 --> 00:03:46,139
 "Color Tests", and as you see here, all the 
 correct cells are marked in green,
 
-64
+63
 00:03:46,139 --> 00:03:49,879
 and all the erroneous cells are marked in red.
 And this just comes
 
-65
+64
 00:03:49,879 --> 00:03:54,699
 over conditional formatting. So suppose
 you already have conditional formatting
 
-66
+65
 00:03:54,699 --> 00:03:58,859
 or even a regular formatting in your
 spreadsheet. With Expector we just
 
-67
+66
 00:03:58,859 --> 00:04:03,419
 put an overlay on top of it, so there's no
 confusion anymore
 
-68
+67
 00:04:03,419 --> 00:04:07,290
 between what really means a green cell
 and a red cell,
 
-69
+68
 00:04:07,290 --> 00:04:11,930
 because the cells you see now are
 only based on passing
 
-70
-00:04:11,930 --> 00:04:15,580
+69
+00:04:11,930 --> 00:04:14,870
 and failing test formulas.
 
-71
-00:04:15,580 --> 00:04:20,470
-So what can Expector also do is: can help
+70
+00:04:15,420 --> 00:04:20,460
+So what can Expector also do is: it can help
 you understand which parts of your
 
-72
+71
 00:04:20,470 --> 00:04:21,359
 spreadsheet
 
-73
+72
 00:04:21,359 --> 00:04:25,090
 are already tested - if you click the
 
-74
+73
 00:04:25,090 --> 00:04:29,160
 Highlight Tested Cells button, everything
 that is currently
 
-75
+74
 00:04:29,160 --> 00:04:34,010
 involved in the test is marked yellow. So
 you see - this is a test cell
 
-76
+75
 00:04:34,010 --> 00:04:37,260
 and then, because that cell is linked to
 another cell,
 
-77
+76
 00:04:37,260 --> 00:04:40,290
 we say that cell is tested as well. So in
 this
 
-78
+77
 00:04:40,290 --> 00:04:44,260
 sense everything that is tested,
 from the test cell
 
-79
+78
 00:04:44,260 --> 00:04:49,260
 right to input, is marked yellow, so you
 can easily see which parts of my
 
-80
+79
 00:04:49,260 --> 00:04:50,060
 spreadsheet
 
-81
+80
 00:04:50,060 --> 00:04:54,240
 still need my testing attention.
 Let's do the same exercise for another
 
-82
+81
 00:04:54,240 --> 00:04:55,490
 worksheet - if we hit
 
-83
+82
 00:04:55,490 --> 00:04:59,820
 Highlight Tested Cells here, we see that
 this cell here,
 
-84
+83
 00:04:59,820 --> 00:05:02,930
 well, it's a very complicated lookup
-function.
+function,
 
-85
+84
 00:05:02,930 --> 00:05:07,419
-There's no test yet that makes sure that
+there's no test yet that makes sure that
 those names of the products
 
-86
+85
 00:05:07,419 --> 00:05:11,680
-are actually correct, and that's a weak
+are actually correct. And that's a weak
 spot in our spreadsheet, where we have a
 
-87
+86
 00:05:11,680 --> 00:05:13,130
 complicated formula,
 
-88
+87
 00:05:13,130 --> 00:05:18,030
 however nothing is yet being tested. So
 that's the Expector tool,
 
-89
+88
 00:05:18,030 --> 00:05:21,690
 it helps you find the tests, and helps
 you run
 
-90
+89
 00:05:21,690 --> 00:05:25,120
 all the tests and quickly see what is
 passing and
 
-91
+90
 00:05:25,120 --> 00:05:29,080
 what is failing, without manual effort in
 locating the tests,
 
-92
+91
 00:05:29,080 --> 00:05:33,770
 and also helps you to understand how
 well your spreadsheet is already being
 
-93
+92
 00:05:33,770 --> 00:05:34,560
 tested
 
-94
+93
 00:05:34,560 --> 00:05:38,860
 by highlighting what is tested and what
 is not yet tested.
 
-95
+94
 00:05:38,860 --> 00:05:41,950
 So that's spreadsheet testing with
 Expector,
 
-96
+95
 00:05:41,950 --> 00:05:45,990
 we'll add a link on edX for
 you to download Expector and to play
 
-97
-00:05:45,990 --> 00:05:47,520
+96
+00:05:45,990 --> 00:05:47,650
 with it yourself, if you want to.
 

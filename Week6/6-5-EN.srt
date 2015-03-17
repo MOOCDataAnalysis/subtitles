@@ -25,7 +25,7 @@ a given spreadsheet, as you see here.
 
 6
 00:00:19,810 --> 00:00:23,439
-The first thing you can use is Conditional
+The first thing you can use is conditional
 formatting.
 
 7
@@ -46,7 +46,7 @@ it works.
 10
 00:00:34,969 --> 00:00:39,030
 So suppose you want to add conditional
-formatting on the Margin column.
+formatting on the 'Margin' column.
 
 11
 00:00:39,030 --> 00:00:42,100
@@ -85,7 +85,7 @@ the values below zero.
 
 18
 00:01:06,369 --> 00:01:11,260
-And immediately works for the entire
+And it immediately works for the entire
 column because we selected the entire
 
 19
@@ -95,12 +95,12 @@ another
 
 20
 00:01:14,060 --> 00:01:17,070
-new item to our catalogue, can we make a
-mistake?
+new item to our catalogue and we make a
+mistake,
 
 21
 00:01:17,070 --> 00:01:20,580
-We immediately get the red value in
+we immediately get the red value in
 
 22
 00:01:20,580 --> 00:01:24,299
@@ -108,7 +108,7 @@ the cell. Conditional formatting is nice.
 
 23
 00:01:24,299 --> 00:01:28,540
-It works for you well because, as you can
+It works really well because, as you can
 see, the erroneous values, they really
 
 24
@@ -230,11 +230,11 @@ what we expect from the values. So we say:
 
 48
 00:02:54,790 --> 00:02:57,940
-"Hey, if this value is below zero, we say
+"Hey, if this value is below zero", we say
 
 49
 00:02:57,940 --> 00:03:01,420
-error, this is too low!" and otherwise
+"error, this is too low!" and otherwise
 it's okay.
 
 50
@@ -243,12 +243,12 @@ And if we drag the formula down, you see
 that those erroneous
 
 51
-00:03:04,660 --> 00:03:08,050
-values get a notification "Error,
+00:03:04,660 --> 00:03:09,000
+values get a notification "Error, too low!".
 
 52
-00:03:08,050 --> 00:03:11,630
-too low!". And if you do it like this
+00:03:09,540 --> 00:03:11,620
+And if you do it like this
 
 53
 00:03:11,630 --> 00:03:14,800
@@ -257,7 +257,7 @@ you can build formulas on top of it,
 54
 00:03:14,800 --> 00:03:19,120
 as I said before. You can use this value
-because it's just a dollar cell
+because it's just another cell
 
 55
 00:03:19,120 --> 00:03:22,820
@@ -267,7 +267,7 @@ another formula.
 56
 00:03:22,820 --> 00:03:26,140
 And this might sound a little bit
-cryptic so let me show you
+cryptic, so let me show you
 
 57
 00:03:26,140 --> 00:03:29,610
@@ -312,126 +312,118 @@ now we see
 that this is not 0, it is -2, which means
 
 66
-00:03:58,870 --> 00:04:03,520
+00:03:58,870 --> 00:04:03,310
 we don't have the same number of OKs
-as the total number of values that we
+as the total number of values
 
 67
-00:04:03,520 --> 00:04:03,930
-have.
+00:04:03,310 --> 00:04:07,380
+that we have. That means not everything is OK, so
 
 68
-00:04:03,930 --> 00:04:07,390
-That means not everything is OK, so
+00:04:07,390 --> 00:04:08,730
+there is an error. 
 
 69
-00:04:07,390 --> 00:04:11,480
-there is an error. We can add that
+00:04:10,080 --> 00:04:15,040
+We can add that we don't want -2 as the value, we want again
 
 70
-00:04:11,480 --> 00:04:15,050
-we don't want -2 as the value, we want again
-
-71
 00:04:15,050 --> 00:04:19,020
 to make this into a test formula, so
 we say: if it's -2
 
-72
+71
 00:04:19,020 --> 00:04:23,060
 then it's an error. If it's any value 
 below 0,
 
-73
+72
 00:04:23,060 --> 00:04:25,230
 then there's an error and otherwise
 
-74
+73
 00:04:25,230 --> 00:04:28,740
 it's OK. So now we've build a test 
 formula on
 
-75
+74
 00:04:28,740 --> 00:04:33,560
 top of all the test formulas that we
 already had. And we can repeat this
 
-76
+75
 00:04:33,560 --> 00:04:34,290
 process,
 
-77
+76
 00:04:34,290 --> 00:04:38,930
 we can add a number of columns next to it,
 and say for all of the columns
 
-78
+77
 00:04:38,930 --> 00:04:42,680
 add another test formula. And we can
 repeat this trick
 
-79
+78
 00:04:42,680 --> 00:04:46,340
 at the higher level where those four
 column tests,
 
-80
+79
 00:04:46,340 --> 00:04:49,370
 again we're going to combine them into
 one test
 
-81
+80
 00:04:49,370 --> 00:04:53,120
 where we count the number of OKs, and the
 number of OKs
 
-82
+81
 00:04:53,120 --> 00:04:56,280
 should be equal to the number
 
-83
+82
 00:04:56,280 --> 00:05:00,070
 of items, test cells in our list.
 
-84
+83
 00:05:00,070 --> 00:05:04,310
 So now we can have one big test at the
 end of the
 
-85
+84
 00:05:04,310 --> 00:05:09,190
 worksheet, where all the test columns and
 all the overall tests come together.
 
-86
+85
 00:05:09,190 --> 00:05:14,100
 And then this is a formula again where we
 want to add conditional formatting,
 
-87
+86
 00:05:14,100 --> 00:05:18,990
 because in this error there's no way this can
 mean anything else. If a cell that says
 
-88
+87
 00:05:18,990 --> 00:05:20,170
 Error is red,
 
-89
-00:05:20,170 --> 00:05:24,630
+88
+00:05:20,170 --> 00:05:24,910
 probably something is up there. There's no other
-meaning that this could have. So for such
+meaning that this could have. So for such a
 
-90
-00:05:24,630 --> 00:05:24,910
-a
-
-91
+89
 00:05:24,910 --> 00:05:28,170
-final test formula add a conditional
+final test formula, adding conditional
 formatting
 
-92
-00:05:28,170 --> 00:05:29,350
+90
+00:05:28,170 --> 00:05:29,790
 is a really good idea!
 
