@@ -1,6 +1,6 @@
 1
 00:00:00,480 --> 00:00:03,169
-So I'm sure you've got right now that
+So I'm sure you've got it by now that
 this week's
 
 2
@@ -10,7 +10,7 @@ what we have done so far is we've only
 
 3
 00:00:08,460 --> 00:00:09,740
-look at the analysis
+looked at the analysis
 
 4
 00:00:09,740 --> 00:00:13,210
@@ -19,12 +19,12 @@ into
 
 5
 00:00:13,210 --> 00:00:16,240
-this register log but there's more
+this register log, but there's more
 
 6
 00:00:16,240 --> 00:00:20,609
 in our spreadsheet, right? We have the
-list of beers in addition to the times
+list of beers. In addition to the times
 
 7
 00:00:20,609 --> 00:00:24,699
@@ -33,7 +33,7 @@ different beers and
 
 8
 00:00:24,699 --> 00:00:29,010
-they are related in a sense to be beers
+they are related in a sense to the beers
 in our beer list and we have more
 
 9
@@ -61,373 +61,361 @@ But we can't do that now, because we don't
 have that information in our pivot table.
 
 14
-00:00:48,140 --> 00:00:48,840
-
-15
-00:00:48,880 --> 00:00:52,860
+00:00:48,140 --> 00:00:53,379
 We only have the information of the
 register log. So this video is all
 
-16
-00:00:52,860 --> 00:00:53,379
-
-17
+15
 00:00:53,379 --> 00:00:57,160
 about how to combine multiple worksheets together
 into
 
-18
-00:00:57,160 --> 00:01:04,000
-an overview pivot table. What we could do of
+16
+00:00:57,160 --> 00:00:59,660
+an overview pivot table. 
+
+17
+00:01:01,660 --> 00:01:04,000
+What we could do of
 course,
 
-19
+18
 00:01:04,000 --> 00:01:07,010
 maybe you were yelling this again to
 your computer screen,
 
-20
+19
 00:01:07,010 --> 00:01:10,659
-is we could use a VLOOKUP(). So if you
+is we could use a VLOOKUP. So if you
 want to have the brewery associated with
 
-21
+20
 00:01:10,659 --> 00:01:11,369
-each beer
+each beer,
+
+21
+00:01:11,369 --> 00:01:16,909
+we can just use a VLOOKUP. We set, of
+course, the final parameter to FALSE, you
 
 22
-00:01:11,369 --> 00:01:16,909
-we can just use a VLOOKUP(). We set of
-course the final parameter to FALSE you
+00:01:16,909 --> 00:01:17,960
+know that by now,
 
 23
-00:01:16,909 --> 00:01:17,960
-know that by now.
-
-24
 00:01:17,960 --> 00:01:21,820
-And then we have the brewery for each
+and then we have the brewery for each
 beer. And now we could do an analysis
 
-25
+24
 00:01:21,820 --> 00:01:26,200
-on the breweries. However if we would
+on the breweries. However, if we would
 continue this
 
-26
+25
 00:01:26,200 --> 00:01:29,950
 we haul in the brewery but we also
 haul in 
 
-27
+26
 00:01:29,950 --> 00:01:33,290
-the alcohol percentage, the type, 
-and the category of beer
+the alcohol percentage, and the type, 
+and the category of beer,
 
-28
+27
 00:01:33,290 --> 00:01:38,020
 we get a lot of duplication. Basically
 we're going to repeat the entire beers
 
-29
+28
 00:01:38,020 --> 00:01:38,799
 worksheet
 
-30
+29
 00:01:38,799 --> 00:01:44,619
 in the register log worksheet. What I hope
 you take away from this course is that
 
-31
+30
 00:01:44,619 --> 00:01:46,149
 you should really be aware
 
-32
+31
 00:01:46,149 --> 00:01:49,340
-of duplication. If you're doing the same
+of duplication. If you are doing the same
 thing
 
-33
+32
 00:01:49,340 --> 00:01:53,759
-a lot of times probably you're not doing
+a lot of times, probably you are not doing
 things in the easiest way.
 
-34
+33
 00:01:53,759 --> 00:01:57,840
 Because I'm sure there is always a way to do
 things once,
 
-35
+34
 00:01:57,840 --> 00:02:02,079
 and to repeat the analysis from there. So I
-hope
+hope,
 
-36
+35
 00:02:02,079 --> 00:02:05,630
 maybe in a year or two and you're
 working on your spreadsheet
 
-37
+36
 00:02:05,630 --> 00:02:09,429
-and you think: Hey, I've done this before,
-an hour ago.
+and you think: "Hey, I've done this before,
+an hour ago".
 
-38
+37
 00:02:09,429 --> 00:02:11,039
 I hope you remember me:
 
-39
+38
 00:02:11,039 --> 00:02:15,450
-Duplication is not a good idea
+Duplication is not a good idea,
 there should be an easier way
 
-40
+39
 00:02:15,450 --> 00:02:19,549
 to do this. I'm going to present that easier way
 to you in this video.
 
-41
+40
 00:02:19,549 --> 00:02:24,310
-So I promised you all the way back
-like three videos ago that this
+So I promised you all the way back,
+like three videos ago, that this
 
-42
+41
 00:02:24,310 --> 00:02:28,629
 'adding things to the data model' is
 really important and I'm going to come back
 
-43
-00:02:28,629 --> 00:02:29,080
-
-44
-00:02:29,080 --> 00:02:33,040
+42
+00:02:28,629 --> 00:02:33,040
 to that promise right now. So we've added
 this data
 
-45
+43
 00:02:33,100 --> 00:02:36,120
 to the data model, it is stored somewhere.
 
-46
+44
 00:02:36,120 --> 00:02:39,379
 If we're going to do the same thing with
 our beers,
 
-47
+45
 00:02:39,379 --> 00:02:42,889
 we're making a pivot table of the
 beer list
 
-48
+46
 00:02:42,889 --> 00:02:46,370
-and again we're adding this data to the
+and, again, we're adding this data to the
 data model,
 
-49
+47
 00:02:46,370 --> 00:02:50,389
 we're putting it in another worksheet.
-I've made a worksheet called beers pivot.
+I've made a worksheet called BeersPivot,
 
-50
+48
 00:02:50,389 --> 00:02:54,049
 and this is where we place the pivot
 table for the beer list.
 
-51
+49
 00:02:54,049 --> 00:02:57,780
 So what you see here now, exactly as we
 saw
 
-52
+50
 00:02:57,780 --> 00:03:02,180
-in the previous pivot table we have all
+in the previous pivot table, we have all
 the fields from our worksheet there,
 
-53
+51
 00:03:02,180 --> 00:03:05,659
 we can do nice analysis on it like
 
-54
+52
 00:03:05,659 --> 00:03:09,599
 the brewery, what is the number of
 different beers from this brewery?
 
-55
+53
 00:03:09,599 --> 00:03:13,139
 We can sort and then we can see this
-first brewery
+first brewery,
 
-56
+54
 00:03:13,139 --> 00:03:17,699
-the Midnight Sun Brewing Company has 51
+the Midnight Sun Brewing Company, has 51
 different beers.
 
-57
+55
 00:03:17,699 --> 00:03:21,079
 But what we're actually calculating now
 
-58
+56
 00:03:21,079 --> 00:03:24,440
 is the number of beers in the beer list,
 
-59
+57
 00:03:24,440 --> 00:03:27,760
 in this worksheet there's no relation
 yet
 
-60
+58
 00:03:27,760 --> 00:03:31,590
 to the beers that we in our bar are
 actually selling.
 
-61
+59
 00:03:31,590 --> 00:03:34,620
 This is not the beers we're counting,
 
-62
+60
 00:03:34,620 --> 00:03:38,599
 we're counting the beers from the beer list. So
 
-63
+61
 00:03:38,599 --> 00:03:42,329
 now here's where the data model comes in.
 If we go to all data
 
-64
+62
 00:03:42,329 --> 00:03:45,979
 and we see that in addition to the data
-from this worksheet that we're analyzing
+from this worksheet that we are analysing
 
-65
+63
 00:03:45,979 --> 00:03:47,040
 right now,
 
-66
+64
 00:03:47,040 --> 00:03:51,250
 also the information from the register
-log is there.
+log is there,
 
-67
+65
 00:03:51,250 --> 00:03:55,040
 and this is because we have previously
 added this data
 
-68
+66
 00:03:55,040 --> 00:03:58,470
 to the data model. We can use the same data
 
-69
+67
 00:03:58,470 --> 00:04:01,959
 from the first pivot table in our second
 pivot table,
 
-70
+68
 00:04:01,959 --> 00:04:06,579
 because we previously added this to the data
 model that's what matters here.
 
-71
+69
 00:04:06,579 --> 00:04:10,579
 So now we can change our analysis we can
 say: Hey,
 
-72
+70
 00:04:10,579 --> 00:04:13,959
 we don't want to have the number of
 beers from
 
-73
+71
 00:04:13,959 --> 00:04:18,289
-the beer list, we want to have the
+the beer list. No, we want to have the
 number of beers from the register.
 
-74
+72
 00:04:18,289 --> 00:04:22,150
 That's the field that we want to add.
-Let's take that field
+Let's take that field,
 
-75
+73
 00:04:22,150 --> 00:04:23,380
-throw this away
+throw this away,
 
-76
+74
 00:04:23,380 --> 00:04:28,150
 and we drag in the number of beers.
 Now something interesting happens.
 
-77
+75
 00:04:28,150 --> 00:04:32,810
-Excel says: Hey I don't know how to do
+Excel says: Hey, I don't know how to do
 this.
 
-78
+76
 00:04:32,810 --> 00:04:37,350
 These two things aren't related. Basically
 what Excel is asking us is:
 
-79
-00:04:37,350 --> 00:04:41,100
-I don't know that VLOOKUP(), that VLOOKUP()
+77
+00:04:37,350 --> 00:04:42,560
+I don't know that VLOOKUP, that VLOOKUP
 that we manually made in the beginning.
 
-80
-00:04:41,100 --> 00:04:41,840
-
-81
-00:04:41,840 --> 00:04:46,110
-Excel doesn't know how to handle it so
+78
+00:04:42,560 --> 00:04:46,100
+Excel doesn't know how to handle it, so
 we have to tell him
 
-82
+79
 00:04:46,110 --> 00:04:49,330
 what the exact relation between those
 two fields is.
 
-83
-00:04:49,330 --> 00:04:53,560
+80
+00:04:49,330 --> 00:04:53,990
 And you can see here how we do that, the
-things we were coupling in the VLOOKUP()
+things we were coupling in the VLOOKUP
 
-84
-00:04:53,560 --> 00:04:53,990
- 
-
-85
+81
 00:04:53,990 --> 00:04:57,520
-we couple that together and if we do
-that now
+we couple them together again. And if we do
+that now,
 
-86
+82
 00:04:57,520 --> 00:05:00,760
-we sort our data then we can see what
+we sort our data, then we can see what
 
-87
+83
 00:05:00,760 --> 00:05:04,930
 brewery sells the most popular beer in
 our actual bar.
 
-88
+84
 00:05:04,930 --> 00:05:08,650
 So we've made that connection between
 those two worksheets by
 
-89
+85
 00:05:08,650 --> 00:05:12,090
 adding both of them to the data model
 and then telling Excel
 
-90
+86
 00:05:12,090 --> 00:05:17,070
 the beer field in our register log is
 related to the name field
 
-91
+87
 00:05:17,070 --> 00:05:20,630
 in our beer list and then we can make an
 analysis based on
 
-92
+88
 00:05:20,630 --> 00:05:24,200
-two different worksheets all with pivot
-tables.
+two different worksheets. All with pivot
+tables!
 
