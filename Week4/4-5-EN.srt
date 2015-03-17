@@ -1,203 +1,200 @@
 1
-00:00:00,047 --> 00:00:04,039
+00:00:00,539 --> 00:00:04,130
 So in this week's videos I've taught you
 about Named Ranges.
 
 2
-00:00:04,039 --> 00:00:07,419
+00:00:04,130 --> 00:00:07,549
 But, of course, we're still running our
 Dance studio and the
 
 3
-00:00:07,529 --> 00:00:12,000
+00:00:07,549 --> 00:00:12,130
 ultimate goal of this week's exercises is
 to actually complete a planning
 
 4
-00:00:12,000 --> 00:00:16,027
+00:00:12,130 --> 00:00:16,660
 for our Dance studio. So let's have a
 look at what we've done so far:
 
 5
-00:00:16,027 --> 00:00:20,400
+00:00:16,660 --> 00:00:21,730
 we have improved our formula with
 use of named range, we've made a data table
 
 6
-00:00:20,400 --> 00:00:21,040
-
-7
-00:00:21,049 --> 00:00:25,076
+00:00:21,730 --> 00:00:26,050
 out of the teachers, we have all the
 information. There's one thing
 
-8
-00:00:25,076 --> 00:00:28,836
-that we still need and that's the 
+7
+00:00:26,050 --> 00:00:28,800
+that we still need and that's the
 availability - what
 
-9
-00:00:28,949 --> 00:00:32,389
+8
+00:00:28,800 --> 00:00:32,670
 teacher can teach on what days of the
 week, because not all of them are
 
-10
-00:00:32,500 --> 00:00:33,300
+9
+00:00:32,670 --> 00:00:33,340
 available
 
-11
-00:00:33,309 --> 00:00:37,429
+10
+00:00:33,340 --> 00:00:37,730
 all the time. But we have an issue now
 here, because in this worksheet
 
-12
-00:00:37,640 --> 00:00:40,969
+11
+00:00:37,730 --> 00:00:41,050
 the days of the week are in this
 
-13
-00:00:41,079 --> 00:00:45,199
+12
+00:00:41,050 --> 00:00:45,420
 direction, whereas the availability
 is in the other direction.
 
-14
-00:00:45,309 --> 00:00:50,589
+13
+00:00:45,420 --> 00:00:50,810
 Well, we can fix that by selecting this
 data and copying it with Paste Special
 
-15
-00:00:50,660 --> 00:00:53,840
+14
+00:00:50,810 --> 00:00:54,829
 in a transposed way, so all of the data
 is flipped.
 
-16
-00:00:54,042 --> 00:01:00,022
+15
+00:00:54,829 --> 00:01:00,380
 And now we can copy it back to the original
 position. But what has happened now
 
-17
-00:01:00,109 --> 00:01:04,309
-is our worksheet has changed, but 
+16
+00:01:00,380 --> 00:01:04,760
+is our worksheet has changed, but
 the named
 
-18
-00:01:04,339 --> 00:01:08,092
+17
+00:01:04,760 --> 00:01:09,380
 ranges have not. So the name is still
-Horizontal levels,
+'Horizontal levels',
 
-19
-00:01:08,092 --> 00:01:11,852
+18
+00:01:09,380 --> 00:01:12,500
 but in the spreadsheet it doesn't mean
 Levels anymore,
 
-20
-00:01:12,005 --> 00:01:16,037
-it's actually days of the week now. And 
+19
+00:01:12,500 --> 00:01:17,000
+it's actually days of the week now. And
 this is one of the risks,
 
-21
-00:01:16,082 --> 00:01:20,902
+20
+00:01:17,000 --> 00:01:21,060
 unfortunately, of using named range that
 I would like to call
 
-22
-00:01:20,939 --> 00:01:25,065
+21
+00:01:21,060 --> 00:01:25,680
 the Basmati Effect. Often in your
 spreadsheet, but also in normal
 
-23
-00:01:25,065 --> 00:01:26,445
+22
+00:01:25,690 --> 00:01:26,830
 programming,
 
-24
-00:01:26,509 --> 00:01:30,034
+23
+00:01:26,830 --> 00:01:30,250
 it happens that your code changes, your
 spreadsheet changes,
 
-25
-00:01:30,034 --> 00:01:33,814
+24
+00:01:30,250 --> 00:01:34,140
 but the values and names you have
 given to them
 
-26
-00:01:34,002 --> 00:01:37,680
+25
+00:01:34,140 --> 00:01:38,010
 have not changed, and then you get things
 like this where you have a container
 
-27
-00:01:37,680 --> 00:01:38,400
+26
+00:01:38,010 --> 00:01:38,440
 saying
 
-28
-00:01:38,409 --> 00:01:42,081
+27
+00:01:38,440 --> 00:01:42,850
 "Rice" but actually it contains cookies. And
 this is what happens in spreadsheets as
 
-29
-00:01:42,081 --> 00:01:45,659
+28
+00:01:42,850 --> 00:01:46,170
 well, and this is what has happened now in
 our example,
 
-30
-00:01:45,659 --> 00:01:51,009
-where we have a name called Horizontal
-Levels, but it actually contains
+29
+00:01:46,170 --> 00:01:51,189
+where we have a name called 'Horizontal
+Levels', but it actually contains
 
-31
-00:01:51,009 --> 00:01:54,093
+30
+00:01:51,189 --> 00:01:54,920
 days of the week. So your exercise for
 this week, the first
 
-32
-00:01:54,093 --> 00:01:59,633
+31
+00:01:54,920 --> 00:01:59,920
 exercise, is to fix this. I would like
 you to use the Name Manager to change
 
-33
-00:01:59,700 --> 00:02:00,700
+32
+00:01:59,920 --> 00:02:00,720
 this name into
 
-34
-00:02:00,700 --> 00:02:01,929
-appropriate name
+33
+00:02:00,720 --> 00:02:01,979
+appropriate name,
 
-35
-00:02:01,939 --> 00:02:05,099
+34
+00:02:01,979 --> 00:02:06,119
 but also to fix the formulas in such a
 way that you are again
 
-36
-00:02:05,099 --> 00:02:08,859
+35
+00:02:06,119 --> 00:02:09,509
 retrieving data, so that you get Xs
 
-37
-00:02:09,042 --> 00:02:14,111
+36
+00:02:09,509 --> 00:02:14,549
 on the spots of the days and the levels.
 And the second assignment
 
-38
-00:02:14,489 --> 00:02:18,360
+37
+00:02:14,549 --> 00:02:18,919
 is to actually make the planning - so not
 just the crosses, but
 
-39
-00:02:18,360 --> 00:02:21,920
+38
+00:02:18,919 --> 00:02:22,430
 actual names for teachers that can teach
 
-40
-00:02:22,031 --> 00:02:27,291
+39
+00:02:22,430 --> 00:02:27,919
 at a given day for a given level. So that's
 your assignment, use named ranges but
 
-41
-00:02:27,300 --> 00:02:27,900
+40
+00:02:27,919 --> 00:02:28,370
 also
 
-42
-00:02:28,033 --> 00:02:33,013
+41
+00:02:28,370 --> 00:02:32,940
 all of the things we talked about in
 previous videos to complete this planning.
 
-43
-00:02:33,020 --> 00:02:34,200
+42
+00:02:32,940 --> 00:02:34,200
 Good luck!
 
