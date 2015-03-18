@@ -1,2 +1,2 @@
 # subtitles
-All subtitles for the ET101X MOOC can be found here
+All subtitles for the EX101x MOOC can be found here
