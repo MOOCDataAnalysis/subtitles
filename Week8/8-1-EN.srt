@@ -1,169 +1,161 @@
 1
-00:00:00,659 --> 00:00:03,339
-Last week we worked on calculating Bacon
-numbers
+00:00:00,710 --> 00:00:03,480
+Last week, we worked on calculating
+Bacon numbers
 
 2
-00:00:03,460 --> 00:00:08,073
+00:00:03,480 --> 00:00:08,780
 and we did that both in Excel and in Python.
 And what I hope you took away from last
 
 3
-00:00:08,073 --> 00:00:11,074
+00:00:08,780 --> 00:00:11,900
 week's videos and also from last week's
 exercises,
 
 4
-00:00:11,074 --> 00:00:14,083
+00:00:11,900 --> 00:00:14,960
 is that the tool you use influences
 
 5
-00:00:14,083 --> 00:00:18,883
+00:00:14,960 --> 00:00:19,169
 what solution you can come up with. If
 you're working in Excel then typically
 
 6
-00:00:19,009 --> 00:00:19,858
+00:00:19,169 --> 00:00:20,029
 you think
 
 7
-00:00:19,939 --> 00:00:23,006
+00:00:20,029 --> 00:00:23,589
 in terms of cells and references between
 cells.
 
 8
-00:00:23,006 --> 00:00:26,033
+00:00:23,589 --> 00:00:26,359
 And if you have to work with lists in
-Excel you have to
+Excel, you have to
 
 9
-00:00:26,033 --> 00:00:29,051
+00:00:26,359 --> 00:00:29,710
 use array formulas and it's possible,
 
 10
-00:00:29,051 --> 00:00:32,691
+00:00:29,710 --> 00:00:33,010
 but it's harder and this limits the way
 you can think.
 
 11
-00:00:32,759 --> 00:00:36,041
-Whereas if you solved the same problem in
-Python
+00:00:33,010 --> 00:00:36,690
+Whereas, if you solved the same problem in
+Python,
 
 12
-00:00:36,041 --> 00:00:39,059
+00:00:36,690 --> 00:00:39,429
 it gets a lot easier, because lists are
 
 13
-00:00:39,059 --> 00:00:43,739
+00:00:39,429 --> 00:00:44,100
 first class citizens. You can just take
 any range in the spreadsheet
 
 14
-00:00:43,739 --> 00:00:47,919
+00:00:44,100 --> 00:00:48,120
 and put it into a list immediately and
 if you want to do some sort of operation
 
 15
-00:00:48,045 --> 00:00:51,825
-on your list, like a minimum you just
+00:00:48,120 --> 00:00:52,329
+on your list, like a minimum, you just
 have to use
 
 16
-00:00:52,016 --> 00:00:56,505
-minus and the list that you want to work
-on. You don't have to fiddle with array
+00:00:52,329 --> 00:00:56,409
+MIN and the list that you want to work
+on. You don't have to fiddle with
 
 17
-00:00:56,505 --> 00:00:57,340
-formulas
+00:00:56,409 --> 00:00:57,800
+array formulas.
 
 18
-00:00:57,340 --> 00:01:00,539
-so because you're using Python it's
+00:00:57,800 --> 00:01:00,569
+So because you're using Python, it's
 
 19
-00:01:00,539 --> 00:01:04,159
+00:01:00,569 --> 00:01:04,239
 easier to work with lists, because they
 are built-in in Python
 
 20
-00:01:04,159 --> 00:01:07,031
+00:01:04,239 --> 00:01:07,199
 and you don't have to go through a lot
-of trouble and 
+of trouble.
 
 21
-00:01:07,031 --> 00:01:10,871
-exactly this idea holds in many cases, so
+00:01:07,200 --> 00:01:11,380
+And exactly this idea holds in many cases, so
 if you use
 
 22
-00:01:11,022 --> 00:01:14,065
-the wrong tool for the job then
+00:01:11,390 --> 00:01:14,890
+the wrong tool for the job, then
 
 23
-00:01:14,065 --> 00:01:18,845
-it is not only less efficient to hammer
+00:01:14,890 --> 00:01:19,040
+it's not only less efficient to hammer
 a screw in,
 
 24
-00:01:19,011 --> 00:01:23,013
+00:01:19,040 --> 00:01:23,340
 it is not just that. It gets harder and
 also limits your
 
 25
-00:01:23,031 --> 00:01:26,840
+00:01:23,340 --> 00:01:27,299
 imagination. If you always build stuff
 with a hammer,
 
 26
-00:01:27,119 --> 00:01:31,063
+00:01:27,299 --> 00:01:31,890
 then probably you're never going to come
 up with the dovetail connection,
 
 27
-00:01:31,063 --> 00:01:34,903
-because this is a connection where you 
-connect wood without using any nails.
+00:01:31,890 --> 00:01:35,969
+because this is a connection where you
+connect wood without using any nails,
 
 28
-00:01:35,053 --> 00:01:38,953
-So you don't need the hammer and if
+00:01:35,969 --> 00:01:39,369
+so you don't need the hammer. And if
 you're always grabbing for the hammer
 
 29
-00:01:39,060 --> 00:01:39,720
+00:01:39,369 --> 00:01:40,189
 first
 
 30
-00:01:39,720 --> 00:01:44,160
+00:01:40,189 --> 00:01:45,369
 you will never come up with this solution.
-And this exact same idea holds in data
+And this exact same idea holds in data problems,
 
 31
-00:01:44,160 --> 00:01:45,020
-problems,
+00:01:45,369 --> 00:01:48,750
+if you always sit down at your
+spreadsheet immediately,
 
 32
-00:01:45,028 --> 00:01:48,063
-if you always sit down at your
-spreadsheet immediately
-
-33
-00:01:48,063 --> 00:01:52,077
+00:01:48,750 --> 00:01:53,009
 there are some sort of solutions that
 you're just never going to come up with,
 
-34
-00:01:52,077 --> 00:01:56,017
+33
+00:01:53,009 --> 00:01:56,229
 because they don't fit in the
 spreadsheet paradigm and that's what
 
-35
-00:01:56,140 --> 00:01:57,040
-this week's videos
-
-36
-00:01:57,040 --> 00:01:58,240
-are all about!
+34
+00:01:56,229 --> 00:01:58,249
+this week's videos are all about!
 
