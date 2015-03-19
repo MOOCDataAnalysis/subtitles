@@ -1,891 +1,893 @@
 1
-00:00:00,669 --> 00:00:03,673
-Hi welcome to this week's video. Today
+00:00:00,750 --> 00:00:03,820
+Hi! Welcome to this week's video. Today
 
 2
-00:00:03,709 --> 00:00:07,940
-we're going to talk about array formulas. 
+00:00:03,820 --> 00:00:08,389
+we're going to talk about array formulas.
 And we have a brand new
 
 3
-00:00:07,940 --> 00:00:11,360
+00:00:08,389 --> 00:00:11,460
 example to work with array formulas. In
 this week's example
 
 4
-00:00:11,360 --> 00:00:14,429
+00:00:11,460 --> 00:00:14,549
 we are a teacher. And that's a nice
-coincidence, because of course
+coincidence, because, of course,
 
 5
-00:00:14,469 --> 00:00:17,088
+00:00:14,549 --> 00:00:17,980
 I'm a teacher and this is actually quite a
 real-life experience
 
 6
-00:00:17,088 --> 00:00:22,047
+00:00:17,980 --> 00:00:22,539
 of how I analyze exam results. So let's
 have a look at the spreadsheet that
 
 7
-00:00:22,047 --> 00:00:23,064
+00:00:22,539 --> 00:00:23,699
 we're going to work with
 
 8
-00:00:23,064 --> 00:00:27,344
+00:00:23,699 --> 00:00:27,490
 in this week's videos. It is about a
 bunch of students
 
 9
-00:00:27,349 --> 00:00:30,869
+00:00:27,490 --> 00:00:30,980
 that are in my class. I have their
 student numbers, their names
 
 10
-00:00:30,900 --> 00:00:33,360
+00:00:30,980 --> 00:00:33,090
 and the year in which they have started.
 
 11
-00:00:33,860 --> 00:00:38,000
-The names, then the ID's and the year that they
-started their studies.
+00:00:33,090 --> 00:00:37,010
+The names, then the IDs, and the year that
+they
 
 12
-00:00:38,003 --> 00:00:41,920
+00:00:37,010 --> 00:00:38,270
+started their studies.
+
+13
+00:00:38,270 --> 00:00:42,230
 And in addition to that, I have exam
 results, so you see I have a number of
 
-13
-00:00:41,920 --> 00:00:42,980
+14
+00:00:42,230 --> 00:00:44,060
 questions,
 
-14
-00:00:42,980 --> 00:00:47,039
-I have a list of students and then for
-all of the questions I have
-
 15
-00:00:47,041 --> 00:00:53,340
-the perfect score and the score for all
-of the students. And you might think that I
+00:00:44,070 --> 00:00:47,570
+I have a list of students and then, for
+all of the questions, I have
 
 16
-00:00:53,340 --> 00:00:54,229
-would use this
+00:00:47,570 --> 00:00:53,330
+the perfect score and the score for all
+of the students. And you might think that
 
 17
-00:00:54,239 --> 00:00:58,579
+00:00:53,330 --> 00:00:54,700
+I would use this
+
+18
+00:00:54,710 --> 00:00:58,829
 spreadsheet just to analyze the
 marks for the students,
 
-18
-00:00:58,640 --> 00:01:02,012
+19
+00:00:58,829 --> 00:01:02,260
 but that's not true. I also use the exam
 results as a means
 
-19
-00:01:02,012 --> 00:01:06,512
+20
+00:01:02,260 --> 00:01:06,630
 to analyze the quality of the exam. So
 I have a look at the results
 
-20
-00:01:06,520 --> 00:01:09,539
+21
+00:01:06,630 --> 00:01:09,689
 and I look at what question actually
 impacts
 
-21
-00:01:09,549 --> 00:01:13,031
+22
+00:01:09,689 --> 00:01:13,560
 the scores of the exams most. Let me
 give you an example of that.
 
-22
-00:01:13,031 --> 00:01:17,411
+23
+00:01:13,560 --> 00:01:17,650
 So if I look at this spreadsheet, I see
 that those questions 1 and 2,
 
-23
-00:01:17,760 --> 00:01:22,020
+24
+00:01:17,650 --> 00:01:22,259
 the answers are pretty similar. In many
 cases the same score is given
 
-24
-00:01:22,021 --> 00:01:26,460
-or a very similar score. So if I want to
-dig into that what I could do of
-
 25
-00:01:26,460 --> 00:01:27,860
-course, is take the SUM()
+00:01:22,259 --> 00:01:26,670
+or a very similar score. So if I want to
+dig into that, what I could do, of
 
 26
-00:01:27,869 --> 00:01:31,299
-of all the scores for one question and
-take the SUM()
+00:01:26,670 --> 00:01:28,040
+course, is take the SUM
 
 27
-00:01:31,299 --> 00:01:35,479
+00:01:28,040 --> 00:01:31,329
+of all the scores for one question and
+take the SUM
+
+28
+00:01:31,329 --> 00:01:35,299
 for all the scores of the other question
 and compare those two together. And I can
 
-28
-00:01:35,480 --> 00:01:36,020
+29
+00:01:35,299 --> 00:01:35,829
 see
 
-29
-00:01:36,020 --> 00:01:40,000
+30
+00:01:35,829 --> 00:01:39,990
 that indeed the difference isn't that big
 between question 1 and 2.
 
-30
-00:01:40,000 --> 00:01:42,680
-However that is a bit
+31
+00:01:39,990 --> 00:01:43,119
+However, that is a bit
 misleading,
 
-31
-00:01:42,689 --> 00:01:46,159
-because you see in this if I would just
-SUM() these cells
-
 32
-00:01:46,159 --> 00:01:50,014
+00:01:43,119 --> 00:01:46,350
+because you see in this, if I would just
+sum these cells,
+
+33
+00:01:46,350 --> 00:01:50,290
 the sums would be the same, yet the
 answers would be very different.
 
-33
-00:01:50,014 --> 00:01:53,814
-So the SUM() is not a good solution to
+34
+00:01:50,290 --> 00:01:53,909
+So, the SUM is not a good solution to
 really understand
 
-34
-00:01:53,829 --> 00:01:58,053
-how these two questions differ from each
-other. So what to do?
-
 35
-00:01:58,053 --> 00:02:01,085
+00:01:53,909 --> 00:01:58,840
+how these two questions differ from each
+other. So, what to do?
+
+36
+00:01:58,840 --> 00:02:01,890
 What I actually wanted to do, is take
 the difference between
 
-36
-00:02:01,085 --> 00:02:05,745
-all of the cells between all of the 
+37
+00:02:01,890 --> 00:02:06,219
+all of the cells between all of the
 results for those two questions.
 
-37
-00:02:05,860 --> 00:02:10,229
-Let me do that and unfortunately, double
+38
+00:02:06,219 --> 00:02:10,679
+Let me do that, and unfortunately, double
 clicking now doesn't work,
 
-38
-00:02:10,229 --> 00:02:13,026
-Because there's an empty column so have
+39
+00:02:10,679 --> 00:02:13,270
+because there's an empty column, so I have
 to really drag
 
-39
-00:02:13,026 --> 00:02:17,459
+40
+00:02:13,270 --> 00:02:17,930
 the formula down and then I can see
 the differences between all the cells.
 
-40
-00:02:17,459 --> 00:02:21,779
+41
+00:02:17,930 --> 00:02:21,989
 But as you can see, some differences are
 positive and others are negative,
 
-41
-00:02:21,800 --> 00:02:25,149
+42
+00:02:21,989 --> 00:02:25,260
 so we need to take the absolute value of the
 difference
 
-42
-00:02:25,159 --> 00:02:28,029
+43
+00:02:25,260 --> 00:02:28,599
 in order to get the real difference
 between
 
-43
-00:02:28,029 --> 00:02:31,037
+44
+00:02:28,599 --> 00:02:31,470
 the two questions. So we drag
 
-44
-00:02:31,037 --> 00:02:34,042
+45
+00:02:31,470 --> 00:02:34,540
 the absolute difference down and now we
 can see:
 
-45
-00:02:34,042 --> 00:02:37,882
-hey is there really a difference? If we
-sum these values together
-
 46
-00:02:38,018 --> 00:02:41,558
-we see that the difference is indeed
-between these two questions, is
+00:02:34,540 --> 00:02:38,250
+Hey, is there really a difference? If we
+sum these values together,
 
 47
-00:02:41,560 --> 00:02:44,080
-not that big. The difference is 21
+00:02:38,250 --> 00:02:41,879
+we see that the difference is, indeed,
+between those two questions,
 
 48
-00:02:44,081 --> 00:02:48,961
+00:02:41,879 --> 00:02:45,170
+not that big. The difference is 21
+
+49
+00:02:45,170 --> 00:02:49,500
 and we have 14 students so that's
 about 1.5 points
 
-49
-00:02:49,002 --> 00:02:53,261
+50
+00:02:49,500 --> 00:02:53,680
 per student difference between those
 questions. This helps me,
 
-50
-00:02:53,459 --> 00:02:57,012
+51
+00:02:53,680 --> 00:02:57,269
 this help me with the analysis because
 now I know how these two questions
 
-51
-00:02:57,012 --> 00:03:00,832
-relate to each other. However I don't
+52
+00:02:57,269 --> 00:03:01,239
+relate to each other. However, I don't
 have two questions, I have 12.
 
-52
-00:03:01,000 --> 00:03:04,006
-So if I would want to repeat this
-analysis for all of them
-
 53
-00:03:04,006 --> 00:03:07,746
-I would have to make a lot of auxilliary columns, here you see it,
+00:03:01,239 --> 00:03:04,170
+So if I would want to repeat this
+analysis for all of them,
 
 54
-00:03:07,980 --> 00:03:12,620
+00:03:04,170 --> 00:03:08,080
+I would have to make a lot of auxilliary columns,
+here you see it,
+
+55
+00:03:08,080 --> 00:03:12,560
 there's no end to it almost. That's not
 what I want.
 
-55
-00:03:12,780 --> 00:03:15,852
+56
+00:03:12,560 --> 00:03:16,300
 I hope you remember from previous
 lessons that duplication
 
-56
-00:03:16,023 --> 00:03:20,803
+57
+00:03:16,300 --> 00:03:20,730
 is not a good thing. If you're doing the
 same thing over and over, if you're
 
-57
-00:03:20,803 --> 00:03:22,001
-making a lot of columns,
-
 58
-00:03:22,001 --> 00:03:26,400
-or a lot of rows, that are very similar you
-have to think of me. Please think of me and think:
+00:03:20,730 --> 00:03:21,760
+making a lot of columns
 
 59
-00:03:26,400 --> 00:03:27,056
+00:03:21,760 --> 00:03:27,390
+or a lot of rows that are very similar, you
+have to think of me. Please, think of me and
 
 60
-00:03:27,056 --> 00:03:31,816
-"Oh no duplication! No good, I have to go
-back to the MOOC
+00:03:27,390 --> 00:03:27,980
+think:
 
 61
-00:03:31,819 --> 00:03:35,004
-and look at a smarter way to do this." So
+00:03:27,980 --> 00:03:31,950
+"Oh no, duplication! No good, I have to go
+back to the MOOC
 
 62
-00:03:35,004 --> 00:03:39,520
-how to this smart. Let me first remove
-all those duplicate columns
+00:03:31,950 --> 00:03:35,500
+and look at a smarter way to do this." So,
 
 63
-00:03:39,520 --> 00:03:42,980
+00:03:35,500 --> 00:03:39,620
+how to this smarter? Let me first remove
+all those duplicate columns,
+
+64
+00:03:39,620 --> 00:03:43,239
 we don't want them, we zoom out a little
 bit
 
-64
-00:03:42,980 --> 00:03:47,080
+65
+00:03:43,239 --> 00:03:47,069
 and we also remove this, because we're
 going to do this in a more compact,
 
-65
-00:03:47,080 --> 00:03:51,079
+66
+00:03:47,069 --> 00:03:51,269
 in a smarter way. So what we would like
 to do
 
-66
-00:03:51,079 --> 00:03:54,084
-is, at once subtract 
-
 67
-00:03:54,300 --> 00:03:57,580
-question 1 from question 2 
-without all those
+00:03:51,269 --> 00:03:55,049
+is, at once subtract
 
 68
-00:03:57,669 --> 00:04:02,031
-intermediate steps. So this is a good
-attempt, we just subtract
+00:03:55,049 --> 00:03:57,709
+question 1 from question 2
+without all those
 
 69
-00:04:02,031 --> 00:04:06,059
+00:03:57,709 --> 00:04:02,519
+intermediate cells. So this is a good
+attempt, we just subtract
+
+70
+00:04:02,519 --> 00:04:06,620
 a range from another range. And let's see
 with the evaluate function
 
-70
-00:04:06,059 --> 00:04:11,019
+71
+00:04:06,620 --> 00:04:11,799
 what exactly happened here now. We have
 the first column, if we evaluate it
 
-71
-00:04:11,019 --> 00:04:14,719
+72
+00:04:11,799 --> 00:04:14,939
 we get 8, which is the first item
 
-72
-00:04:14,720 --> 00:04:19,340
+73
+00:04:14,939 --> 00:04:19,609
 of the column. And this is because what
 Excel now calculates is the intersection,
 
-73
-00:04:19,349 --> 00:04:22,489
-we talked about that in previous 
+74
+00:04:19,609 --> 00:04:23,180
+we talked about that in previous
 lessons.
 
-74
-00:04:23,004 --> 00:04:27,264
-So this is close to what we want but not
+75
+00:04:23,180 --> 00:04:27,380
+So this is close to what we want, but not
 exactly what we want. We don't want Excel
 
-75
-00:04:27,340 --> 00:04:29,580
+76
+00:04:27,380 --> 00:04:29,940
 to calculate the intersection
 immediately,
 
-76
-00:04:29,700 --> 00:04:32,860
-what we want to have is all of the
+77
+00:04:29,940 --> 00:04:33,440
+what we would want to have is all of the
 differences.
 
-77
-00:04:32,980 --> 00:04:36,025
-And this is, you can guess this probably
-
 78
-00:04:36,025 --> 00:04:40,945
+00:04:33,440 --> 00:04:36,310
+And this is, you can guess this probably,
+
+79
+00:04:36,310 --> 00:04:41,220
 where array formulas come in, because
 Excel can evaluate this function
 
-79
-00:04:41,014 --> 00:04:44,394
+80
+00:04:41,220 --> 00:04:44,770
 in two different ways. Let me show you
 how
 
-80
-00:04:44,400 --> 00:04:47,940
+81
+00:04:44,770 --> 00:04:47,860
 the alternatives look like. So this is
 sort of the normal
 
-81
-00:04:48,008 --> 00:04:51,300
+82
+00:04:47,860 --> 00:04:51,530
 value, the normal way of doing it is what
 we just did.
 
-82
-00:04:51,300 --> 00:04:54,040
+83
+00:04:51,530 --> 00:04:54,770
 We paste this formula in
 
-83
-00:04:54,042 --> 00:04:57,920
-and now the alternative way, the array way of
-doing it,
-
 84
-00:04:57,920 --> 00:05:01,860
-we don't hit enter, we hit control
-shift enter.
+00:04:54,770 --> 00:04:57,360
+and now the alternative way, the array way
+of
 
 85
-00:05:02,160 --> 00:05:05,780
-And if we do that we get this nice curly
-braces
+00:04:57,360 --> 00:04:58,259
+doing it,
 
 86
-00:05:05,800 --> 00:05:08,720
-around for the formula and this is
+00:04:58,259 --> 00:05:02,550
+we don't hit Enter, we hit Control+Shift+Enter.
 
 87
-00:05:08,960 --> 00:05:12,035
-not good in the sense, because we got the
-same
+00:05:02,550 --> 00:05:05,600
+And if we do, that we get this nice curly
+braces
 
 88
-00:05:12,035 --> 00:05:16,035
+00:05:05,600 --> 00:05:08,880
+around for the formula, and this is
+
+89
+00:05:08,880 --> 00:05:11,979
+not good in a sense, because we get the
+same
+
+90
+00:05:11,979 --> 00:05:16,430
 result. So you might think there's no
 difference, the curly braces
 
-89
-00:05:16,035 --> 00:05:19,895
-don't do anything. However the way it's
+91
+00:05:16,430 --> 00:05:20,440
+don't do anything. However, the way it's
 calculated,
 
-90
-00:05:20,012 --> 00:05:23,712
-is really really different. 
+92
+00:05:20,440 --> 00:05:23,900
+is really really different.
 What's underneath
 
-91
-00:05:23,800 --> 00:05:27,920
+93
+00:05:23,900 --> 00:05:28,389
 is different. And in order for us to
 understand the difference between those two
 
-92
-00:05:27,920 --> 00:05:28,640
-
-93
-00:05:28,640 --> 00:05:32,640
+94
+00:05:28,389 --> 00:05:33,169
 ways of calculation, we need to use type
 theory.
 
-94
-00:05:38,460 --> 00:05:41,020
+95
+00:05:38,640 --> 00:05:41,300
 In the first version, in the normal
 version,
 
-95
-00:05:41,026 --> 00:05:45,686
+96
+00:05:41,300 --> 00:05:45,580
 of the minus function, this is what
 happens: We have the range
 
-96
-00:05:46,080 --> 00:05:49,640
+97
+00:05:45,580 --> 00:05:49,770
 B3 to B16
 
-97
-00:05:50,340 --> 00:05:52,960
+98
+00:05:49,770 --> 00:05:53,240
 and we subtract from that the
 range
 
-98
-00:05:52,960 --> 00:05:56,200
+99
+00:05:53,240 --> 00:05:57,700
 C3 to C16.
 
-99
-00:05:57,400 --> 00:05:59,820
+100
+00:05:57,710 --> 00:05:59,850
 So what happens here is the reduction,
 
-100
-00:05:59,820 --> 00:06:03,057
+101
+00:05:59,850 --> 00:06:03,780
 the intersection between the two ranges.
 This is what Excel
 
-101
-00:06:03,057 --> 00:06:07,917
+102
+00:06:03,780 --> 00:06:08,169
 returns for a range, so this is
 
-102
-00:06:08,340 --> 00:06:10,720
+103
+00:06:08,169 --> 00:06:12,370
 8, the first intersection
 
-103
-00:06:12,280 --> 00:06:15,080
-minus 10, the second intersection
-
 104
-00:06:17,380 --> 00:06:19,280
-which results
+00:06:12,370 --> 00:06:16,390
+minus 10, the second intersection,
 
 105
-00:06:19,280 --> 00:06:22,040
+00:06:17,320 --> 00:06:18,280
+which results
+
+106
+00:06:18,289 --> 00:06:22,680
 in -2, that's what we have seen. So what
 happens
 
-106
-00:06:22,045 --> 00:06:25,340
+107
+00:06:22,680 --> 00:06:25,919
 in the alternative version, the curly
 braces, the
 
-107
-00:06:25,340 --> 00:06:27,380
+108
+00:06:25,919 --> 00:06:27,859
 array version?
 
-108
-00:06:34,380 --> 00:06:35,460
+109
+00:06:34,480 --> 00:06:35,259
 It looks
 
-109
-00:06:35,460 --> 00:06:39,720
+110
+00:06:35,259 --> 00:06:40,579
 exactly the same, but what happens
 inside is really really different.
 
-110
-00:06:41,160 --> 00:06:43,319
+111
+00:06:41,040 --> 00:06:43,580
 So in this version, again
 
-111
-00:06:43,319 --> 00:06:47,119
+112
+00:06:43,580 --> 00:06:46,900
 B3 to B16 minus
 
-112
-00:06:47,380 --> 00:06:50,219
+113
+00:06:46,900 --> 00:06:51,680
 C3 to C16.
 
-113
-00:06:54,640 --> 00:06:55,960
+114
+00:06:54,720 --> 00:06:56,100
 In the array version,
 
-114
-00:06:55,960 --> 00:07:00,080
+115
+00:06:56,110 --> 00:07:00,139
 no reduction takes place. Excel
 calculates this subtraction
 
-115
-00:07:00,129 --> 00:07:03,329
+116
+00:07:00,139 --> 00:07:04,289
 on the entire range. So internally
 
-116
-00:07:04,100 --> 00:07:07,660
+117
+00:07:04,289 --> 00:07:09,470
 we have B3 minus C3
 
-117
-00:07:09,140 --> 00:07:10,800
+118
+00:07:09,470 --> 00:07:11,259
 and then B4
 
-118
-00:07:10,929 --> 00:07:14,909
+119
+00:07:11,259 --> 00:07:15,720
 minus C4 and then B5
 
-119
-00:07:15,380 --> 00:07:17,580
-minus C5 
-
 120
-00:07:19,640 --> 00:07:22,120
+00:07:15,720 --> 00:07:17,420
+minus C5
+
+121
+00:07:19,360 --> 00:07:22,700
 and I guess you can come up with the
 rest.
 
-121
-00:07:22,340 --> 00:07:25,346
+122
+00:07:22,710 --> 00:07:25,400
 And then all of this, the subtractions
 
-122
-00:07:25,349 --> 00:07:29,429
+123
+00:07:25,400 --> 00:07:29,889
 are calculated, all of them. So we get the
 list,
 
-123
-00:07:29,800 --> 00:07:34,460
-with, 8 minus 10, 0 minus 0
-
 124
-00:07:35,040 --> 00:07:39,400
-5 minus 5, etc. 
+00:07:29,889 --> 00:07:34,580
+with, 8 minus 10, 0 minus 0,
 
 125
-00:07:40,420 --> 00:07:41,700
-So the result
+00:07:34,580 --> 00:07:39,780
+5 minus 5, etc.
 
 126
-00:07:41,709 --> 00:07:44,715
-of this array, of this curly braces version
+00:07:40,640 --> 00:07:41,680
+So the result
 
 127
-00:07:44,769 --> 00:07:47,689
-of the formula is a list
+00:07:41,680 --> 00:07:44,979
+of this array, of this curly braces version
 
 128
-00:07:51,200 --> 00:07:55,900
-2, 0, 0 etc. 
+00:07:44,979 --> 00:07:48,079
+of the formula is a list:
 
 129
-00:07:56,180 --> 00:07:59,820
+00:07:51,300 --> 00:07:55,000
+2, 0, 0 etc.
+
+130
+00:07:56,460 --> 00:07:59,979
 But because there's no room for Excel to
 plot this entire list,
 
-130
-00:07:59,829 --> 00:08:02,870
+131
+00:07:59,979 --> 00:08:04,800
 we only have one cell, we only get the
 first
 
-131
-00:08:03,239 --> 00:08:06,244
+132
+00:08:04,800 --> 00:08:06,610
 number in the list.
 
-132
-00:08:06,289 --> 00:08:09,295
-But that doesn't mean that the result is
-a number
-
 133
-00:08:09,349 --> 00:08:12,829
-the result is actually a list. It looks
-the same
+00:08:06,610 --> 00:08:09,479
+But that doesn't mean that the result is
+a number,
 
 134
-00:08:12,829 --> 00:08:16,749
+00:08:09,479 --> 00:08:12,870
+the result is actually a list. It looks
+the same,
+
+135
+00:08:12,870 --> 00:08:16,740
 but internally it's really really
 different. So let's go back
 
-135
-00:08:16,749 --> 00:08:22,609
+136
+00:08:16,740 --> 00:08:22,780
 and see how this looks in Excell. We
 don't need the glasses anymore.
 
-136
-00:08:26,340 --> 00:08:27,360
+137
+00:08:26,300 --> 00:08:27,280
 So if we look
 
-137
-00:08:27,360 --> 00:08:30,460
+138
+00:08:27,280 --> 00:08:30,680
 in our spreadsheet, we see no difference.
 
-138
-00:08:30,469 --> 00:08:34,349
-However internally it's really really
+139
+00:08:30,680 --> 00:08:34,409
+However, internally it's really really
 different. The first version
 
-139
-00:08:34,349 --> 00:08:38,409
+140
+00:08:34,409 --> 00:08:38,509
 results in a number and the second
 version results in a list.
 
-140
-00:08:38,980 --> 00:08:42,980
+141
+00:08:39,289 --> 00:08:43,449
 So what can we do with the list? It is really
 nice that we have a list now, but what to do?
 
-141
-00:08:42,980 --> 00:08:43,540
-
 142
-00:08:43,540 --> 00:08:48,280
+00:08:43,450 --> 00:08:48,330
 How to show and work with this list? So the
 first thing we can do with an array
 
 143
-00:08:48,280 --> 00:08:49,011
+00:08:48,330 --> 00:08:49,149
 formula,
 
 144
-00:08:49,011 --> 00:08:53,360
+00:08:49,149 --> 00:08:53,600
 is give it space. Make room in the
 spreadsheet for Excel
 
 145
-00:08:53,459 --> 00:08:58,019
+00:08:53,600 --> 00:08:58,950
 not to plot the first number only, but to
 plot the entire resulting array.
 
 146
-00:08:58,019 --> 00:09:02,399
+00:08:58,950 --> 00:09:02,970
 So let's have a look at how that looks
 like. So we're going to remove the normal
 
 147
-00:09:02,400 --> 00:09:03,060
+00:09:02,970 --> 00:09:03,760
 version
 
 148
-00:09:03,069 --> 00:09:07,017
-and the array version so you can really
+00:09:03,760 --> 00:09:08,019
+and the array version, so you can really
 see the difference.
 
 149
-00:09:07,017 --> 00:09:10,806
+00:09:08,019 --> 00:09:11,000
 We throw them away. In the normal version
 
 150
-00:09:10,959 --> 00:09:14,439
+00:09:11,000 --> 00:09:14,019
 if we make room for the entire array
 
 151
-00:09:14,440 --> 00:09:18,329
-we put in a normal formula, nothing happens. We only get
+00:09:14,019 --> 00:09:18,380
+we put in a normal formula, nothing happens.
+We only get
 
 152
-00:09:18,329 --> 00:09:23,037
+00:09:18,380 --> 00:09:23,519
 one result. But for the array version, if
 we make room, if we give it space
 
 153
-00:09:23,037 --> 00:09:27,012
-and then we hit shift control enter, 
+00:09:23,519 --> 00:09:27,490
+and then we hit Shift+Control+Enter,
 what happens is we get
 
 154
-00:09:27,012 --> 00:09:31,003
+00:09:27,490 --> 00:09:31,589
 the entire resulting array. And now you
 see the list that we had on the
 
 155
-00:09:31,003 --> 00:09:32,000
+00:09:31,589 --> 00:09:32,750
 blackboard.
 
 156
-00:09:32,000 --> 00:09:36,000
+00:09:32,750 --> 00:09:36,060
 We have it now in a spreadsheet, because
 we gave Excel room
 
 157
-00:09:36,000 --> 00:09:39,149
-to show: I have this and I have this array of
-data
+00:09:36,060 --> 00:09:39,320
+to show: Hey, I have this entire array of data
 
 158
-00:09:39,149 --> 00:09:44,699
-to give you and not just the first. For
-an alternative,
+00:09:39,320 --> 00:09:45,000
+to give you and not just the first version. An alternative,
 
 159
-00:09:44,699 --> 00:09:49,037
-what we can do with an array formula is
-flatten the list.
+00:09:45,000 --> 00:09:49,720
+what we can do with an array formula, is
+flatten the list,
 
 160
-00:09:49,037 --> 00:09:52,977
-Making this entire list into one value
+00:09:49,720 --> 00:09:52,900
+make this entire list into one value
 
 161
-00:09:52,980 --> 00:09:57,023
+00:09:52,910 --> 00:09:57,519
 by adding a function around it. So we
 have a list
 
 162
-00:09:57,023 --> 00:10:00,072
-and what we can tell Excel is do
+00:09:57,519 --> 00:10:00,870
+and what we can tell Excel is: do
 something with that list.
 
 163
-00:10:00,072 --> 00:10:03,752
-For instance SUM() the list, so
+00:10:00,870 --> 00:10:04,310
+For instance, SUM the list. So,
 
 164
-00:10:03,889 --> 00:10:07,260
+00:10:04,310 --> 00:10:07,700
 in a normal version if we would
-SUM() the intersection of two
+SUM the intersection of two
 
 165
-00:10:07,260 --> 00:10:08,040
-ranges
+00:10:07,700 --> 00:10:08,959
+ranges,
 
 166
-00:10:08,048 --> 00:10:13,068
+00:10:08,959 --> 00:10:13,140
 we just get -2, because the result is
--2. We can add a SUM() around it, but it
+-2. We can add a SUM around it, but it
 
 167
-00:10:13,069 --> 00:10:14,460
+00:10:13,140 --> 00:10:14,769
 will still be -2.
 
 168
-00:10:14,460 --> 00:10:19,860
+00:10:14,769 --> 00:10:20,010
 In the array version we get a different
-result. Look at how that looks like,
+result. Look at how that looks like.
 
 169
-00:10:19,860 --> 00:10:23,440
-If we enter the SUM() around the array
+00:10:20,010 --> 00:10:23,610
+If we enter the SUM around the array
 
 170
-00:10:23,560 --> 00:10:26,649
+00:10:23,610 --> 00:10:27,130
 version of the formula, then we get -5.
 
 171
-00:10:26,649 --> 00:10:29,091
-Because what happens now is the SUM()
+00:10:27,130 --> 00:10:29,990
+Because what happens now is the SUM
 
 172
-00:10:29,091 --> 00:10:31,991
+00:10:29,990 --> 00:10:31,940
 has been calculated over this
 
 173
-00:10:32,004 --> 00:10:35,008
+00:10:31,940 --> 00:10:35,810
 entire list that has resulted from the
 array formula.
 
 174
-00:10:35,044 --> 00:10:39,984
+00:10:35,810 --> 00:10:40,450
 And here you see the comparison with all
 the separate subtractions
 
 175
-00:10:40,019 --> 00:10:44,579
-and if we add a SUM() around that we get
+00:10:40,450 --> 00:10:44,860
+and if we add a SUM around that, we get
 the exact same value.
 
 176
-00:10:44,589 --> 00:10:48,016
+00:10:44,860 --> 00:10:48,740
 So this, all the separate subtraction and
-a SUM(),
+a SUM,
 
 177
-00:10:48,016 --> 00:10:53,556
-result in the exact same thing as an
-array formula with a SUM() around it.
+00:10:48,740 --> 00:10:54,170
+results in the exact same thing as an
+array formula with a SUM around it.
 
 178
-00:10:53,960 --> 00:10:57,035
+00:10:54,170 --> 00:10:57,450
 And in this way, this is how we can solve
 our original problem
 
 179
-00:10:57,035 --> 00:11:00,675
+00:10:57,450 --> 00:11:00,709
 of wanting to compare all the questions
 with each other.
 
 180
-00:11:00,680 --> 00:11:03,736
+00:11:00,709 --> 00:11:04,180
 We don't need an auxiliary column and
-a SUM(),
+a SUM,
 
 181
-00:11:03,959 --> 00:11:07,439
+00:11:04,180 --> 00:11:07,700
 we can calculate the entire sum in one
 cell,
 
 182
-00:11:07,449 --> 00:11:11,189
+00:11:07,700 --> 00:11:11,660
 and this saves us a lot of space. Let's
 see how that looks like.
 
 183
-00:11:12,580 --> 00:11:14,054
+00:11:12,780 --> 00:11:14,480
 We don't need that anymore,
 
 184
-00:11:14,054 --> 00:11:17,974
+00:11:14,480 --> 00:11:18,570
 and we can use it now to calculate the
 difference between question 1
 
 185
-00:11:18,025 --> 00:11:22,625
+00:11:18,570 --> 00:11:22,769
 and question 2, in one cell only. So
-we take the SUM()
+we take the SUM
 
 186
-00:11:22,639 --> 00:11:25,651
+00:11:22,769 --> 00:11:26,149
 of the entire range, the entire B-range
 
 187
-00:11:25,759 --> 00:11:29,067
+00:11:26,149 --> 00:11:29,720
 minus the entire C-range, where we need
 the absolute
 
 188
-00:11:29,067 --> 00:11:33,207
+00:11:29,720 --> 00:11:33,370
 as we did in the beginning, and then
-control shift enter
+Control+Shift+Enter
 
 189
-00:11:33,209 --> 00:11:37,048
-gives us the result of 21 just as we had
+00:11:33,370 --> 00:11:37,839
+gives us the result of 21, just as we had
 in the beginning.
 
 190
-00:11:37,048 --> 00:11:40,699
+00:11:37,839 --> 00:11:40,760
 So with the use of array formulas, we
 have reduced
 
 191
-00:11:40,699 --> 00:11:43,959
-a column and a SUM() to one cell only.
+00:11:40,760 --> 00:11:44,529
+a column and a SUM to one cell only.
 
 192
-00:11:44,139 --> 00:11:46,259
+00:11:44,529 --> 00:11:46,469
 That's the power of array formulas.
 
