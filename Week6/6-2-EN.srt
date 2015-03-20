@@ -1,0 +1,276 @@
+1
+00:00:00,599 --> 00:00:04,830
+So, how to manage your spreadsheet? That
+is the central question
+
+2
+00:00:04,830 --> 00:00:09,340
+of this week's video - how to make sure
+that that cute little spreadsheet puppy is
+
+3
+00:00:09,340 --> 00:00:10,880
+not going to turn into
+
+4
+00:00:10,880 --> 00:00:15,349
+this huge monster, that everything remains
+clear and calm
+
+5
+00:00:15,349 --> 00:00:19,150
+and error-free. So in order for us to dive
+into
+
+6
+00:00:19,150 --> 00:00:23,630
+how to manage a spreadsheet, we're going to
+look again at the hardware store.
+
+7
+00:00:23,630 --> 00:00:28,130
+I hope you remember this example where
+we export data from a register
+
+8
+00:00:28,130 --> 00:00:31,949
+and analyse our sales in a spreadsheet.
+So, here's a recap
+
+9
+00:00:31,949 --> 00:00:34,950
+of the data that is in this spreadsheet - we
+have
+
+10
+00:00:34,950 --> 00:00:38,780
+a list of items that we're selling, we
+have their names, their selling and
+
+11
+00:00:38,780 --> 00:00:40,160
+purchasing price,
+
+12
+00:00:40,160 --> 00:00:44,340
+the margin, which is the difference
+between the purchasing and the selling
+
+13
+00:00:44,340 --> 00:00:45,010
+price,
+
+14
+00:00:45,010 --> 00:00:48,030
+and the same margin expressed in
+percentage.
+
+15
+00:00:48,800 --> 00:00:51,840
+So this is really a very small spreadsheet,
+
+16
+00:00:51,840 --> 00:00:56,070
+there's hardly anything that could go
+wrong with such a small example.
+
+17
+00:00:56,070 --> 00:01:01,250
+So in this sense, it is really useful as a
+running example, because it's really like the
+
+18
+00:01:01,250 --> 00:01:01,640
+puppy.
+
+19
+00:01:01,640 --> 00:01:05,580
+It's super small, so if we make sure that
+while it's still small
+
+20
+00:01:05,580 --> 00:01:09,420
+it behaves well, it might grow up to be
+a responsible
+
+21
+00:01:09,420 --> 00:01:12,820
+spreadsheet. So, remember also from
+
+22
+00:01:12,820 --> 00:01:16,390
+the second week's videos that if you
+use a link,
+
+23
+00:01:16,390 --> 00:01:20,400
+for example, in a spreadsheet, a direct
+link to another worksheet,
+
+24
+00:01:20,400 --> 00:01:24,740
+if you start sorting the links,
+everything gets messed up.
+
+25
+00:01:24,740 --> 00:01:29,700
+So this is a typical risk in a
+spreadsheet and our solution so far was
+
+26
+00:01:29,700 --> 00:01:30,740
+just to make sure
+
+27
+00:01:30,740 --> 00:01:34,710
+that we use right formulas. We know
+how to build the formulas, and we know
+
+28
+00:01:34,710 --> 00:01:38,900
+that if we use an INDEX-MATCH
+function
+
+29
+00:01:38,900 --> 00:01:42,100
+then nothing goes wrong; that even if
+you sort the other part of your
+
+30
+00:01:42,100 --> 00:01:43,509
+spreadsheet then
+
+31
+00:01:43,509 --> 00:01:47,320
+still you get the right results. However,
+remember that
+
+32
+00:01:47,320 --> 00:01:50,659
+many things in your spreadsheet can
+go wrong.
+
+33
+00:01:50,659 --> 00:01:54,220
+This is just one example, there are so
+many things
+
+34
+00:01:54,220 --> 00:01:57,560
+that could potentially go wrong - maybe
+you input the wrong
+
+35
+00:01:57,560 --> 00:02:02,659
+value, maybe you used the wrong formula,
+maybe you miss copy-paste and you 
+
+36
+00:02:02,659 --> 00:02:03,649
+copy-paste your data
+
+37
+00:02:03,649 --> 00:02:08,280
+in a wrong part of the spreadsheet... And it's not
+just you, you're not the only one working
+
+38
+00:02:08,280 --> 00:02:11,120
+with the spreadsheet - in a typical
+situation
+
+39
+00:02:11,120 --> 00:02:13,090
+12 different people are
+
+40
+00:02:13,090 --> 00:02:17,180
+working with one spreadsheet. So maybe
+you know what to do after you follow
+
+41
+00:02:17,180 --> 00:02:17,920
+this MOOC,
+
+42
+00:02:17,920 --> 00:02:21,830
+but does everyone else involved in your
+office in the spreadsheet?
+
+43
+00:02:21,830 --> 00:02:25,830
+If you send your spreadsheet to someone
+from Sales, will they also know what
+
+44
+00:02:25,830 --> 00:02:26,790
+formulas to use?
+
+45
+00:02:26,790 --> 00:02:32,319
+So everything in this week's videos is
+about how to keep our spreadsheet safe,
+
+46
+00:02:32,319 --> 00:02:36,420
+how to keep that spreadsheet safe and
+keep the
+
+47
+00:02:36,420 --> 00:02:40,500
+bad influences out. Wrong inputs,
+wrong formulas,
+
+48
+00:02:40,500 --> 00:02:44,680
+how are we going to protect
+ourselves from those bad inputs?
+
+49
+00:02:44,680 --> 00:02:49,640
+And remember, other disciplines have very
+similar problems,
+
+50
+00:02:49,640 --> 00:02:54,069
+like programming, but also hardware
+design, if you build a car,
+
+51
+00:02:54,069 --> 00:02:58,970
+this car is not going to go on the
+highway before it has been extensively
+
+52
+00:02:58,970 --> 00:03:02,280
+stress-tested. We do this type of
+things with cars
+
+53
+00:03:02,280 --> 00:03:08,010
+before we even allow someone to drive in
+them. Other domains use testing
+
+54
+00:03:08,010 --> 00:03:11,299
+to make sure that whatever they build is
+really
+
+55
+00:03:11,299 --> 00:03:15,269
+well-structured, and that is exactly the
+approach that we're going to take in
+
+56
+00:03:15,269 --> 00:03:16,410
+this week's video -
+
+57
+00:03:16,410 --> 00:03:20,000
+we're going to stress-test our
+spreadsheet and make sure
+
+58
+00:03:20,000 --> 00:03:21,480
+that nothing can go wrong!
+

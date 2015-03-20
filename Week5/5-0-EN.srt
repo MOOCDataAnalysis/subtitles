@@ -1,334 +1,339 @@
 1
-00:00:00,053 --> 00:00:03,133
+00:00:00,400 --> 00:00:03,440
 This week we're going to talk about
-array formulas,
+array formulas.
 
 2
-00:00:03,189 --> 00:00:06,039
-let's have a look at the example of this
+00:00:03,440 --> 00:00:06,560
+Let's have a look at the example of this
 week, where we
 
 3
-00:00:06,039 --> 00:00:09,399
+00:00:06,560 --> 00:00:09,860
 are looking at exam results for a teacher.
 
 4
-00:00:11,080 --> 00:00:15,020
-We interrupt this recording for an important message about Types
+00:00:11,080 --> 00:00:14,660
+We interrupt this recording for an important
+message about Types
 
 5
-00:00:15,220 --> 00:00:17,060
+00:00:15,460 --> 00:00:17,279
 Today we're going to talk about
 
 6
-00:00:17,060 --> 00:00:21,440
+00:00:17,279 --> 00:00:21,400
 type theory, because it's super important
 in order for us to be able to understand
 
 7
-00:00:21,440 --> 00:00:22,720
+00:00:21,400 --> 00:00:23,250
 this week's material.
 
 8
-00:00:22,720 --> 00:00:27,360
-So we're going to start really really
+00:00:23,250 --> 00:00:27,290
+So, we're going to start really really
 basic, so don't worry.
 
 9
-00:00:32,760 --> 00:00:33,920
+00:00:32,880 --> 00:00:34,060
 This is easy, right?
 
 10
-00:00:34,000 --> 00:00:39,100
+00:00:34,060 --> 00:00:39,030
 2 plus 3 is 5, but these are
 not just numbers. They also have the type
 
 11
-00:00:39,100 --> 00:00:40,940
+00:00:39,030 --> 00:00:40,970
 of being a number and I'm going to
 
 12
-00:00:40,940 --> 00:00:45,700
+00:00:40,970 --> 00:00:45,720
 annotate all types with a different
 colour. So what we're calculating here
 
 13
-00:00:45,700 --> 00:00:48,700
+00:00:45,720 --> 00:00:49,190
 is a number and a number
 
 14
-00:00:48,700 --> 00:00:55,700
+00:00:49,190 --> 00:00:55,920
 result in a number. But this is not how
 we write formulas in Excel, we can write
 
 15
-00:00:55,700 --> 00:00:56,540
+00:00:55,920 --> 00:00:56,620
 numbers
 
 16
-00:00:56,560 --> 00:01:00,040
+00:00:56,620 --> 00:00:59,980
 in a formula, but we can also use
 cells. So let's have a look
 
 17
-00:01:00,040 --> 00:01:05,040
-at how that looks. 
+00:00:59,980 --> 00:01:01,500
+at how that looks.
 
 18
-00:01:05,040 --> 00:01:10,820
+00:01:05,460 --> 00:01:11,100
 So we have these two cells in a
 spreadsheet and we can say A1
 
 19
-00:01:11,040 --> 00:01:14,980
-plus A2 in this case
+00:01:11,110 --> 00:01:16,170
+plus A2 in this case is also 5. 
 
 20
-00:01:14,980 --> 00:01:20,460
-is also 5. So what are the types
+00:01:18,240 --> 00:01:20,320
+So what are the types
 here?
 
 21
-00:01:20,460 --> 00:01:25,180
-Well 5 is a number, that's easy. But
+00:01:20,320 --> 00:01:25,490
+Well, 5 is a number, that's easy. But
 A1 is not a number,
 
 22
-00:01:25,180 --> 00:01:28,399
-it's a cell, it's a reference to a number
+00:01:25,490 --> 00:01:29,930
+it's a cell, it's a reference to a number.
 
 23
-00:01:29,600 --> 00:01:31,700
-so let's draw it like this
+00:01:29,930 --> 00:01:33,730
+So let's draw it like this
 
 24
-00:01:33,420 --> 00:01:35,980
-and say something that contains a number and 
+00:01:33,730 --> 00:01:36,050
+and say: something that contains a number and
 
 25
-00:01:35,980 --> 00:01:38,900
-something that contains a number -   we
+00:01:36,050 --> 00:01:39,050
+something that contains a number - we
 can add the numbers,
 
 26
-00:01:38,900 --> 00:01:43,760
+00:01:39,050 --> 00:01:43,870
 and then we can get a number. There are
-different types in Excel as well
+different types in Excel as well,
 
 27
-00:01:43,760 --> 00:01:51,660
-it's not just numbers. Suppose we have
-this in the cell
+00:01:43,870 --> 00:01:46,050
+it's not just numbers.
 
 28
-00:01:51,660 --> 00:01:55,080
+00:01:49,960 --> 00:01:51,660
+Suppose we have
+this in the cell,
+
+29
+00:01:51,670 --> 00:01:55,170
 a string, a piece of text. We can
 calculate on text
 
-29
-00:01:55,080 --> 00:01:56,400
+30
+00:01:55,170 --> 00:01:56,210
 as well.
 
-30
-00:02:04,440 --> 00:02:06,060
+31
+00:02:04,710 --> 00:02:06,280
 So what are the types here?
 
-31
-00:02:06,060 --> 00:02:10,120
+32
+00:02:06,280 --> 00:02:10,310
 We have again something that contains
 
-32
-00:02:10,120 --> 00:02:13,120
+33
+00:02:10,310 --> 00:02:13,010
 a text and the result of the function
 
-33
-00:02:13,120 --> 00:02:16,134
+34
+00:02:13,010 --> 00:02:16,310
 is a text. So these functions all
 
-34
-00:02:16,140 --> 00:02:19,920
-take in the same values a number
+35
+00:02:16,310 --> 00:02:20,150
+take in the same values, a number
 resulting in a number
 
-35
-00:02:20,140 --> 00:02:23,091
+36
+00:02:20,150 --> 00:02:23,480
 or text resulting in a text.
 
-36
-00:02:23,340 --> 00:02:27,400
-But there are also functions that can
-take in a certain type
-
 37
-00:02:27,400 --> 00:02:31,020
+00:02:23,480 --> 00:02:27,090
+But there are also functions that can
+take in a certain type,
+
+38
+00:02:27,090 --> 00:02:31,410
 but return a different type. Let's have a
 look at how that looks like.
 
-38
-00:02:35,600 --> 00:02:39,660
+39
+00:02:35,880 --> 00:02:39,500
 For instance if we are calculating with dates...
 
-39
-00:02:45,900 --> 00:02:49,860
-We have a date in our spreadsheet now and
+40
+00:02:46,100 --> 00:02:50,040
+We have a date in our spreadsheet now, and
 we can calculate with dates as well.
 
-40
-00:02:49,860 --> 00:02:51,340
+41
+00:02:50,040 --> 00:02:51,720
 We've seen that in the past.
 
-41
-00:02:51,500 --> 00:02:54,620
-We could for instance calculate
-
 42
-00:02:55,220 --> 00:02:59,960
+00:02:51,720 --> 00:02:55,170
+We could, for instance, calculate
+
+43
+00:02:55,170 --> 00:03:00,760
 the month of A1, which would result in
 1.
 
-43
-00:03:00,360 --> 00:03:03,340
+44
+00:03:00,760 --> 00:03:03,370
 So here you see an example of something
 that takes in
 
-44
-00:03:03,340 --> 00:03:07,720
+45
+00:03:03,370 --> 00:03:07,730
 a certain value, it takes in a container,
 
-45
-00:03:07,720 --> 00:03:10,660
+46
+00:03:07,730 --> 00:03:10,840
 something that contains a cell, containing
 a date,
 
-46
-00:03:10,660 --> 00:03:14,100
+47
+00:03:10,840 --> 00:03:14,190
 but it results in a number. So there
 
-47
-00:03:14,100 --> 00:03:17,920
-you take in a date, but you return a
-number. So sometimes the types of
-
 48
-00:03:17,920 --> 00:03:21,620
-inputs are different from the types of
-the output. They don't necessarily have
+00:03:14,190 --> 00:03:17,920
+you take in a date, but you return a
+number. So, sometimes, the types of
 
 49
-00:03:21,620 --> 00:03:22,560
-to match.
+00:03:17,920 --> 00:03:22,040
+input are different from the types of
+the output. They don't necessarily have
 
 50
-00:03:24,140 --> 00:03:25,900
-So now let's have a look at
+00:03:22,040 --> 00:03:23,220
+to match.
 
 51
-00:03:25,900 --> 00:03:29,620
+00:03:24,520 --> 00:03:25,840
+So now let's have a look at
+
+52
+00:03:25,849 --> 00:03:29,760
 the most complicated construction that we're
 going to look at
 
-52
-00:03:29,820 --> 00:03:34,240
-in these week's videos. It's still
+53
+00:03:29,760 --> 00:03:34,819
+in this week's videos. It's still
 pretty basic I hope.
 
-53
-00:03:34,900 --> 00:03:38,020
-Suppose we have a range we have 1,
-
 54
-00:03:38,200 --> 00:03:42,298
-2, 3 in a spreadsheet we can
-calculate on that. We know how to do that
+00:03:34,819 --> 00:03:37,580
+Suppose we have a range: we have 1,
 
 55
-00:03:42,440 --> 00:03:45,160
-so we can say something like the SUM()
-of
+00:03:37,580 --> 00:03:42,410
+2, 3 in a spreadsheet. We can
+calculate on that, we know how to do that.
 
 56
-00:03:45,220 --> 00:03:48,580
-A1 to A3
+00:03:42,410 --> 00:03:45,400
+So we can say something like the SUM
+of
 
 57
-00:03:49,900 --> 00:03:53,980
-which in this case is 6. So what are the
-types here?
+00:03:45,400 --> 00:03:50,010
+A1 to A3,
 
 58
-00:03:53,980 --> 00:03:57,720
-Let's start with 6 because that's
-super easy, 6 is a number,
+00:03:50,010 --> 00:03:54,160
+which is in this case 6. So what are the
+types here?
 
 59
-00:03:57,800 --> 00:04:01,900
+00:03:54,160 --> 00:03:57,739
+Let's start with 6, because that's
+super easy, 6 is a number,
+
+60
+00:03:57,739 --> 00:04:02,470
 we know that. But what do we have here?
 We could say
 
-60
-00:04:02,180 --> 00:04:03,920
+61
+00:04:02,470 --> 00:04:05,350
 we have three
 
-61
-00:04:04,880 --> 00:04:08,760
+62
+00:04:05,350 --> 00:04:09,440
 number containers, three values that have
 a number.
 
-62
-00:04:08,820 --> 00:04:11,846
-But of course it doesn't necessarily
+63
+00:04:09,440 --> 00:04:12,080
+But of course, it doesn't necessarily
 have to be three.
 
-63
-00:04:11,960 --> 00:04:17,620
-We can also say now we're summing 
+64
+00:04:12,080 --> 00:04:17,239
+We can also say: now we're summing
 until
 
-64
-00:04:17,620 --> 00:04:23,840
+65
+00:04:17,239 --> 00:04:23,759
 A5. Would that give the function a
 different type? It would have to add
 
-65
-00:04:23,840 --> 00:04:27,100
+66
+00:04:23,759 --> 00:04:27,359
 another container here and one here.
 
-66
-00:04:27,400 --> 00:04:31,080
+67
+00:04:27,360 --> 00:04:31,040
 So we're not going to do that, this is
 not the way that we are going to write
 
-67
-00:04:31,080 --> 00:04:32,000
+68
+00:04:31,050 --> 00:04:32,069
 this down.
 
-68
-00:04:32,000 --> 00:04:36,060
-What we are saying here is we're summing
+69
+00:04:32,069 --> 00:04:35,469
+What we are saying here is: we're summing
 over a list
 
-69
-00:04:36,060 --> 00:04:39,420
-of numbers so the type, as I will write
+70
+00:04:35,469 --> 00:04:39,219
+of numbers, so the type, as I will write
 that down
 
-70
-00:04:39,420 --> 00:04:43,440
-in subsequent videos is a list of
+71
+00:04:39,219 --> 00:04:43,139
+in subsequent videos, is a list of
 numbers
 
-71
-00:04:43,440 --> 00:04:46,440
+72
+00:04:43,139 --> 00:04:46,120
 and the result of the function is
 a number.
 
-72
-00:04:46,440 --> 00:04:50,400
-And this is very important to remember
-for the remainder of this week's videos,
-
 73
-00:04:50,400 --> 00:04:53,600
-that was the end of the typing
-secrets.
+00:04:46,120 --> 00:04:50,789
+And this is very important to remember
+for the remainder of this week's videos.
+
+74
+00:04:50,789 --> 00:04:53,329
+That was the end of the typing
+sequence.
 

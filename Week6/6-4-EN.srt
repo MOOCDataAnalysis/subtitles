@@ -1,0 +1,286 @@
+1
+00:00:00,799 --> 00:00:04,910
+So in the previous video we talked about
+how to test your formulas,
+
+2
+00:00:04,910 --> 00:00:09,000
+how to make sure that the results they
+deliver are within reasonable boundaries,
+
+3
+00:00:09,000 --> 00:00:10,120
+for example,
+
+4
+00:00:10,120 --> 00:00:13,910
+but there's another way we can test.
+What's also very important in
+
+5
+00:00:13,910 --> 00:00:15,009
+spreadsheet testing
+
+6
+00:00:15,009 --> 00:00:19,210
+is validating user input. If you look at
+this spreadsheet,
+
+7
+00:00:19,210 --> 00:00:23,150
+this 'Selling Price' right here, it's an
+input value.
+
+8
+00:00:23,150 --> 00:00:26,710
+A user puts in that input and he could
+make a mistake.
+
+9
+00:00:26,710 --> 00:00:30,240
+And we want to let the user know as
+early as possible
+
+10
+00:00:30,240 --> 00:00:34,320
+that he has made a mistake. For instance,
+if we enter new item here,
+
+11
+00:00:34,320 --> 00:00:35,180
+the 'Stone Table',
+
+12
+00:00:35,180 --> 00:00:39,489
+if I make a mistake and I accidentally
+input a negative number,
+
+13
+00:00:39,489 --> 00:00:43,800
+then, suppose we would have a check on
+the percentages,
+
+14
+00:00:43,800 --> 00:00:48,270
+we would know, because we see now that
+percentage is off the chart, so
+
+15
+00:00:48,270 --> 00:00:52,230
+that cannot be correct. But there are
+more subtle ways in which we could make
+
+16
+00:00:52,230 --> 00:00:55,030
+a mistake. Maybe we entered the same
+number twice,
+
+17
+00:00:55,030 --> 00:01:00,160
+and then this percentage is zero, which
+might be okay, that might still be
+
+18
+00:01:00,160 --> 00:01:03,710
+within the boundaries. So what we want to
+have is
+
+19
+00:01:03,710 --> 00:01:07,220
+for fields, for cells, where spreadsheet
+users
+
+20
+00:01:07,220 --> 00:01:10,580
+add their input, have some validation
+rules
+
+21
+00:01:10,580 --> 00:01:15,860
+right on top of that. Here is another
+example of validating user input.
+
+22
+00:01:15,860 --> 00:01:19,159
+If we look at this register import,
+we see
+
+23
+00:01:19,159 --> 00:01:22,450
+all the codes of the items that we
+have been selling,
+
+24
+00:01:22,450 --> 00:01:26,030
+and this formula, the 'Category' formula,
+
+25
+00:01:26,030 --> 00:01:29,340
+it just chops off the first item, the
+first character of
+
+26
+00:01:29,340 --> 00:01:32,780
+the text and puts it in a list. So
+suppose
+
+27
+00:01:32,780 --> 00:01:36,310
+we add a pivot table on top of that data,
+calculating
+
+28
+00:01:36,310 --> 00:01:41,079
+the profit per category, we need to be
+sure that that category is actually
+
+29
+00:01:41,079 --> 00:01:42,430
+an existing category,
+
+30
+00:01:42,430 --> 00:01:46,479
+that is actually in our list of
+categories, and we have another worksheet
+
+31
+00:01:46,479 --> 00:01:51,229
+where we keep track of the categories. We
+would want the user to know
+
+32
+00:01:51,229 --> 00:01:57,040
+if faulty input is provided, a code is given
+with no associated category,
+
+33
+00:01:57,040 --> 00:02:01,790
+we would like the user to have an
+error. And a lot more validation
+
+34
+00:02:01,790 --> 00:02:06,920
+is possible in this input worksheet - I'm
+not going to tell you how, because this
+
+35
+00:02:06,920 --> 00:02:07,969
+is one of this week's
+
+36
+00:02:07,969 --> 00:02:11,300
+exercises. So you can start thinking
+about it right now!
+
+37
+00:02:11,300 --> 00:02:15,060
+How would you validate the user input in
+this spreadsheet?
+
+38
+00:02:16,640 --> 00:02:18,600
+What's important about
+
+39
+00:02:18,610 --> 00:02:23,470
+tests is, you remember from the previous
+video, that spreadsheets only one in three
+
+40
+00:02:23,470 --> 00:02:24,930
+have a manual.
+
+41
+00:02:24,930 --> 00:02:28,840
+And you might think: what does
+documentation
+
+42
+00:02:28,840 --> 00:02:33,060
+have to do with testing? Those are two
+entirely different topics.
+
+43
+00:02:33,060 --> 00:02:35,940
+That's really not true! Tests
+
+44
+00:02:35,950 --> 00:02:39,380
+can serve as means of documentation.
+
+45
+00:02:39,380 --> 00:02:42,680
+If you put a test in your spreadsheet
+
+46
+00:02:42,680 --> 00:02:46,350
+the test tells a user of the spreadsheet
+something
+
+47
+00:02:46,350 --> 00:02:52,030
+about it. If I look at this formula here,
+so I have added a formula that checks
+
+48
+00:02:52,030 --> 00:02:56,250
+whether a given item has an existing
+category and if it doesn't,
+
+49
+00:02:56,250 --> 00:02:59,850
+here you have a code that starts with an X,
+
+50
+00:02:59,850 --> 00:03:03,370
+if there is no associated category, you
+get an error.
+
+51
+00:03:03,370 --> 00:03:07,790
+So this test tells a story, this test
+expresses
+
+52
+00:03:07,790 --> 00:03:11,900
+to the user that only existing
+categories
+
+53
+00:03:11,900 --> 00:03:15,410
+can be input. Otherwise, something is
+wrong.
+
+54
+00:03:15,410 --> 00:03:19,090
+So in this way you can use tests to
+communicate
+
+55
+00:03:19,090 --> 00:03:23,510
+information about your input to your
+future self,
+
+56
+00:03:23,510 --> 00:03:27,000
+if you still work with the
+spreadsheet in five years, or maybe one
+
+57
+00:03:27,000 --> 00:03:29,670
+of the 11 other people that are using a
+spreadsheet.
+
+58
+00:03:29,670 --> 00:03:33,459
+So tests are means of documentation,
+
+59
+00:03:33,459 --> 00:03:36,459
+in addition to, of course, their purpose
+as
+
+60
+00:03:36,459 --> 00:03:38,319
+actually checking for errors.
+

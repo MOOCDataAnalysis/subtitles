@@ -10,7 +10,7 @@ stem from?
 
 3
 00:00:07,500 --> 00:00:11,000
-But of course if we're talking about
+But of course, if we're talking about
 geographical data
 
 4
@@ -24,246 +24,236 @@ And in our worksheet we also have
 information
 
 6
-00:00:17,500 --> 00:00:22,310
+00:00:17,500 --> 00:00:22,960
 about latitude and longitude, so wouldn't
 it be cool if we would have a map of the world
 
 7
-00:00:22,310 --> 00:00:22,970
+00:00:22,970 --> 00:00:28,189
+that would show exactly where the breweries
+are, where our most popular beers come from.
 
 8
-00:00:22,970 --> 00:00:27,760
-that would show exactly where the breweries
-are where our most popular beers come from.
-
-9
-00:00:27,760 --> 00:00:28,189
-
-10
 00:00:28,189 --> 00:00:32,099
 Maybe we can plan a field trip to the
 closest most popular brewery.
 
-11
+9
 00:00:32,099 --> 00:00:37,670
-so luckily there's a super cool thing in
+So, luckily there's a super cool thing in
 Excel 2013 that's called
 
-12
+10
 00:00:37,670 --> 00:00:41,290
-PowerMap. We're going to use that to do
+PowerMap. We are going to use that to do
 exactly that, plot
 
-13
+11
 00:00:41,290 --> 00:00:44,579
 our beers on a map. So you just
 
-14
+12
 00:00:44,579 --> 00:00:47,660
-click power map when you have 
+click Power Map when you have 
 installed this plug-in,
 
-15
+13
 00:00:47,660 --> 00:00:51,570
 and then you get a map right there and
 all the data 
 
-16
+14
 00:00:51,570 --> 00:00:54,940
 from our data model from PowerPivot is
 right there.
 
-17
+15
 00:00:54,940 --> 00:00:59,379
-So what we can do is drag
-just the breweries on and
+So what we can do is select
+just the breweries and
 
-18
+16
 00:00:59,379 --> 00:01:04,180
-you get  little dots for all of the
+you get little dots for all of the
 breweries. But this is based on the entire
 
-19
+17
 00:01:04,180 --> 00:01:05,010
 list of breweries, 
 
-20
+18
 00:01:05,010 --> 00:01:08,760
 on the one worksheet. Not yet on the
-connected list
+connected list,
 
-21
+19
 00:01:08,760 --> 00:01:12,330
 connected to what we are selling.
 In order for us to do that,
 
-22
+20
 00:01:12,330 --> 00:01:16,110
 we need to drag the quantity in, very
 similar to how we would do it in a
 
-23
+21
 00:01:16,110 --> 00:01:17,350
 normal pivot table.
 
-24
+22
 00:01:17,350 --> 00:01:21,729
 And what we get then is all the
-brewery with the quantity that we
+breweries with the quantity that we
 
-25
+23
 00:01:21,729 --> 00:01:24,189
-are selling in our bar so we can see
+are selling in our bar. So we can see
 that this
 
-26
+24
 00:01:24,189 --> 00:01:28,720
-brewery right here this is the La Trappe
-brewery is kinda close to where our bar is.
+brewery right here, this is the La Trappe
+brewery, is kinda close to where our bar is.
 
-27
+25
 00:01:28,720 --> 00:01:32,040
 Let's assume our bar is in Delft, where this
 university is too.
 
-28
+26
 00:01:32,040 --> 00:01:35,290
 So we have a pretty popular brewery that is
 quite close 
 
-29
+27
 00:01:35,290 --> 00:01:40,540
 to Delft, that would be nice for a field trip.
 So what I've done now is, I have also added the
 
-30
-00:01:40,540 --> 00:01:41,250
-time
-
-31
-00:01:41,250 --> 00:01:44,659
-dimension and you get a little animation
+28
+00:01:40,540 --> 00:01:44,659
+time dimension and you get a little animation
 where you can see
 
-32
+29
 00:01:44,659 --> 00:01:47,869
 during that time, during the opening hours of
-our bar
+our bar,
 
-33
+30
 00:01:47,869 --> 00:01:51,640
 you see the beers basically being drunk
 by the people
 
-34
+31
 00:01:51,640 --> 00:01:55,640
 in the bar and you can play that time as an
 animation.
 
-35
+32
 00:01:55,640 --> 00:02:00,950
-What we can furthermore do, is add a
-category so you see what type of beers
+What we can furthermore do is add a
+category, so you see what type of beers
 
-36
+33
 00:02:00,950 --> 00:02:04,450
-stem from what brewery. So you see here
+stem from what brewery. So you see here,
 
-37
+34
 00:02:04,450 --> 00:02:08,119
 let me remove that, you see that blue is
 a certain type of beer,
 
-38
+35
 00:02:08,119 --> 00:02:11,580
 and orange is not our type of beer and
 you see a right on your map.
 
-39
+36
 00:02:11,580 --> 00:02:16,160
 No formulas needed. You just drag your data in,
 you say
 
-40
+37
 00:02:16,160 --> 00:02:19,930
 these are the breweries, the
 quantities and the categories
 
-41
+38
 00:02:19,930 --> 00:02:24,739
 and you get your visualisation right
 on the map. So let's have a look at the
 
-42
+39
 00:02:24,739 --> 00:02:27,670
 rest of the world we don't need to
 concentrate on Europe. If you look at the
 
-43
+40
 00:02:27,670 --> 00:02:29,739
 US we see another interesting
 
-44
+41
 00:02:29,739 --> 00:02:33,129
-visualization, we see that here the breweries
+visualization, we see that here's the brewery
 of which
 
-45
+42
 00:02:33,129 --> 00:02:37,110
 two of the beers that are being sold
-are really popular and here's an
+are really popular, and here's an
 
-46
+43
 00:02:37,110 --> 00:02:40,780
 area in the US where a lot of breweries
 are popular.
 
-47
+44
 00:02:40,780 --> 00:02:44,060
 So maybe if we want to have a field trip
-very far away
+very far away,
 
-48
+45
 00:02:44,060 --> 00:02:47,430
 this would be an interesting area
 of the US to actually go to.
 
-49
+46
 00:02:47,430 --> 00:02:51,010
-And again and I can't stress this enough we
-didn't use 
+And again and I can't stress this enough: 
+we didn't use 
 
-50
+47
 00:02:51,010 --> 00:02:55,840
-any formulas if we just load all our
+any formulas! If we just load all our
 data into the PowerPivot data model 
 
-51
+48
 00:02:55,840 --> 00:02:59,080
-we can then use PowerMap if it's
-geographical data
+we can then use PowerMap, if it's
+geographical data,
 
-52
+49
 00:02:59,080 --> 00:03:02,750
 to plot everything on a map just by
 selecting the fields
 
-53
+50
 00:03:02,750 --> 00:03:06,870
 that we want to use. And that closes the
 entire week
 
-54
+51
 00:03:06,870 --> 00:03:12,040
-to show you the power of pivot tables
+to show you the power of pivot tables:
 little use of formulas, you can just
 
-55
+52
 00:03:12,040 --> 00:03:14,790
-analyze your data by clicking and
-dragging
+analyse your data by clicking and
+dragging.
 
-56
+53
 00:03:14,790 --> 00:03:17,159
-isn't that nice? See you next week
+Isn't that nice? See you next week!
 

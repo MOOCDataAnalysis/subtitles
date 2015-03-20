@@ -1,0 +1,415 @@
+1
+00:00:00,220 --> 00:00:04,380
+In previous videos, we've talked about
+problems with spreadsheets and how to
+
+2
+00:00:04,390 --> 00:00:06,559
+address them with testing.
+
+3
+00:00:06,559 --> 00:00:10,220
+But spreadsheets just aren't always the
+right solutions -
+
+4
+00:00:10,220 --> 00:00:14,090
+there are problems that you can come up
+with in your
+
+5
+00:00:14,090 --> 00:00:17,990
+work that are just not solvable with a
+spreadsheet.
+
+6
+00:00:17,990 --> 00:00:21,349
+And those are the types of problems that
+we're going to talk about today -
+
+7
+00:00:21,349 --> 00:00:26,249
+when not to use a spreadsheet. So over
+the past few weeks you've learned a lot
+
+8
+00:00:26,249 --> 00:00:26,869
+about me
+
+9
+00:00:26,869 --> 00:00:29,999
+and the things I like, like teaching and crafts
+beer,
+
+10
+00:00:29,999 --> 00:00:33,789
+but there is one of my hobbies that we
+haven't talked about, and that's going to
+
+11
+00:00:33,789 --> 00:00:37,800
+the movies. I really like the movies!
+I even have a subscription
+
+12
+00:00:37,800 --> 00:00:41,250
+to the movie theater in my city that I can
+go to all movies
+
+13
+00:00:41,250 --> 00:00:45,079
+unlimited. So this week's exercises will be
+all about
+
+14
+00:00:45,079 --> 00:00:49,399
+a little movie database I've made in a
+spreadsheet, where we have movies,
+
+15
+00:00:49,399 --> 00:00:54,429
+the studios that made the movies, the
+rating of the movie, so when you can see it,
+
+16
+00:00:54,429 --> 00:00:57,620
+the year that the movie has been
+released in, and
+
+17
+00:00:57,620 --> 00:01:03,679
+the type of movie, the genre, so the
+action, adventure... And we have
+
+18
+00:01:03,679 --> 00:01:04,580
+a lot of data.
+
+19
+00:01:04,580 --> 00:01:08,620
+In addition to the movies in our
+database we also have actors
+
+20
+00:01:08,620 --> 00:01:12,580
+and movies that they have played in. So,
+here you can see that Andre 3000
+
+21
+00:01:12,580 --> 00:01:13,400
+has played
+
+22
+00:01:13,400 --> 00:01:18,280
+in a Volcano movie. So it is a nice
+little database for movie information
+
+23
+00:01:18,290 --> 00:01:20,180
+that we can analyse. So there are a lot
+
+24
+00:01:20,180 --> 00:01:24,960
+of analyses we can do on this data.
+For instance, we can analyse the
+
+25
+00:01:24,970 --> 00:01:27,250
+studios that actors have worked for.
+
+26
+00:01:27,250 --> 00:01:30,640
+We could be interested in the question:
+"what actor in our database
+
+27
+00:01:30,640 --> 00:01:35,720
+has worked for the most different, the
+the highest number of different studios?"
+
+28
+00:01:35,720 --> 00:01:39,730
+So we can get the information in
+from a studio with a VLOOKUP,
+
+29
+00:01:39,730 --> 00:01:43,560
+this should all be easy for you if
+you've watched all of the videos.
+
+30
+00:01:43,560 --> 00:01:46,700
+So we add a VLOOKUP, and we get the
+information of
+
+31
+00:01:46,700 --> 00:01:50,560
+every studio associated with a movie.
+And then we can select
+
+32
+00:01:50,560 --> 00:01:54,660
+all of that data, there it is, we can select
+all of this data
+
+33
+00:01:54,660 --> 00:01:57,820
+and add it to a pivot table. This
+should also
+
+34
+00:01:57,820 --> 00:02:01,420
+be a piece of cake if you've watched
+all videos. So,
+
+35
+00:02:01,420 --> 00:02:05,030
+we add our data to the data model,
+because we're going to want to use a
+
+36
+00:02:05,030 --> 00:02:06,880
+Distinct Count
+
+37
+00:02:06,880 --> 00:02:09,140
+to calculate the different
+number of studios
+
+38
+00:02:09,140 --> 00:02:13,280
+that people have worked for. So, here's
+our pivot table,
+
+39
+00:02:13,280 --> 00:02:17,760
+we drag in the name of the actor, there it
+is,
+
+40
+00:02:17,760 --> 00:02:19,840
+and then we drag in the studio,
+
+41
+00:02:19,840 --> 00:02:21,780
+and we get the number of studios that people
+have
+
+42
+00:02:21,780 --> 00:02:23,120
+worked for. And there's one little
+
+43
+00:02:23,120 --> 00:02:25,310
+thing that we still need to change, it's:
+
+44
+00:02:25,310 --> 00:02:28,890
+we need to go to pivot table
+properties and we say "we don't want to
+
+45
+00:02:28,890 --> 00:02:30,140
+have the count,
+
+46
+00:02:30,140 --> 00:02:33,670
+but we want to scroll down, we want to
+have the Distinct Count".
+
+47
+00:02:33,670 --> 00:02:38,280
+And if this is done calculating... Takes
+a while...
+
+48
+00:02:38,280 --> 00:02:42,340
+Now we can sort and then we can see that
+Christopher Lee has worked for the
+
+49
+00:02:42,340 --> 00:02:46,810
+highest number of different studios, I
+think it's 42.
+
+50
+00:02:46,810 --> 00:02:50,270
+Yes, there it is! It's 42!
+
+51
+00:02:50,270 --> 00:02:54,880
+So, we have a lot of data in our database
+and we can analyse it in different ways,
+
+52
+00:02:54,880 --> 00:02:59,319
+using VLOOKUP and using pivot table,
+we know that by now.
+
+53
+00:02:59,319 --> 00:03:02,340
+But let's try to ask ourself a different
+question:
+
+54
+00:03:02,340 --> 00:03:06,270
+we would like to know for all of the actors
+not the number of studios that they have
+
+55
+00:03:06,270 --> 00:03:08,970
+worked for, but we'd like to know for
+every actor
+
+56
+00:03:08,970 --> 00:03:15,400
+their Bacon number. I thought Bacon number
+was like a very familiar concept,
+
+57
+00:03:15,400 --> 00:03:19,850
+I did the same exercise in my class, here
+in Delft, for 40 students,
+
+58
+00:03:19,850 --> 00:03:23,270
+and I said: who knows what a Bacon number
+is? And, like
+
+59
+00:03:23,270 --> 00:03:27,599
+two hands went up... So apparently, it's a
+little bit of a movie-geek thing, so I'll
+
+60
+00:03:27,599 --> 00:03:29,319
+explain to you what it is.
+
+61
+00:03:29,319 --> 00:03:32,590
+An actor's Bacon number is the number of
+steps that an
+
+62
+00:03:32,590 --> 00:03:38,650
+actor is removed from Kevin Bacon. So
+Kevin Bacon himself has Bacon number 1,
+
+63
+00:03:38,650 --> 00:03:41,740
+and someone that has played in a movie
+with him, for instance,
+
+64
+00:03:41,740 --> 00:03:47,150
+Ed Harris in Apollo 13, he will
+have Bacon number 2.
+
+65
+00:03:47,150 --> 00:03:49,430
+Someone that has played in a movie with Ed
+Harris,
+
+66
+00:03:49,430 --> 00:03:53,250
+like Nicolas Cage in one of my favourite
+movies, The Rock,
+
+67
+00:03:53,250 --> 00:03:57,250
+will have Bacon number 3, because his
+distance to Kevin Bacon
+
+68
+00:03:57,250 --> 00:04:02,790
+is 2 hops via Ed Harris. So in this way
+we can chart everyone who has played in
+
+69
+00:04:02,790 --> 00:04:03,770
+movies
+
+70
+00:04:03,770 --> 00:04:09,239
+based on their distance to Kevin Bacon. So
+the number of hops, the number of steps
+
+71
+00:04:09,239 --> 00:04:10,430
+from Kevin Bacon
+
+72
+00:04:10,430 --> 00:04:15,650
+defines the Bacon number. We should be
+able to calculate this information in
+
+73
+00:04:15,650 --> 00:04:17,590
+our little movie database, right? Because
+we
+
+74
+00:04:17,590 --> 00:04:19,180
+have the information -
+
+75
+00:04:19,180 --> 00:04:22,289
+we know who has played in what movie,
+but
+
+76
+00:04:22,289 --> 00:04:23,629
+how to get this
+
+77
+00:04:23,629 --> 00:04:28,029
+out? How are we going to process the
+information in such a way that we get a
+
+78
+00:04:28,029 --> 00:04:29,120
+nice little list
+
+79
+00:04:29,120 --> 00:04:32,499
+of each actor with their Bacon number?
+
+80
+00:04:32,499 --> 00:04:36,219
+So I challenge you before you watch the
+rest of the videos
+
+81
+00:04:36,219 --> 00:04:39,990
+to try this. And don't try it on this huge
+database,
+
+82
+00:04:39,990 --> 00:04:43,870
+but try it on this little database. We
+will put this online,
+
+83
+00:04:43,870 --> 00:04:48,650
+in the course website, it's just easier
+to play with such a little spreadsheet
+
+84
+00:04:48,650 --> 00:04:50,539
+than with an entire list of
+
+85
+00:04:50,539 --> 00:04:55,729
+thousands and thousands of actors. So,
+please don't watch the next video yet,
+
+86
+00:04:55,729 --> 00:05:00,580
+download this, play with it, and try to
+see if you can come up with a way
+
+87
+00:05:00,580 --> 00:05:04,060
+to analyse the Bacon number for each
+actor. Good luck!
+

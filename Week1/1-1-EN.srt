@@ -1,5 +1,5 @@
 1
-00:00:00,071 --> 00:00:03,030
+00:00:00,660 --> 00:00:03,619
 Hello there! Welcome to EX101x,
 
 2
@@ -8,12 +8,12 @@ THE course for data analysis. My name is
 Felienne
 
 3
-00:00:06,993 --> 00:00:10,098
+00:00:06,993 --> 00:00:10,973
 and I will be your guide through
 this course. And I like to welcome you
 
 4
-00:00:10,098 --> 00:00:15,007
+00:00:10,980 --> 00:00:15,889
 not just to EX101x but also to Delft
 University of Technology!
 
@@ -23,30 +23,30 @@ Even though you're not here with us on
 campus, doing this MOOC will still make
 
 6
-00:00:20,000 --> 00:00:21,055
+00:00:20,000 --> 00:00:20,940
 you part
 
 7
-00:00:21,055 --> 00:00:25,117
+00:00:20,940 --> 00:00:26,017
 of the Delft family. In this building that I
 normally work on the 8th floor,
 
 8
-00:00:26,017 --> 00:00:29,058
+00:00:26,020 --> 00:00:29,420
 we have the Spreadsheet Lab. This is my
 research group
 
 9
-00:00:29,058 --> 00:00:32,061
+00:00:29,460 --> 00:00:32,940
 where we work with a bunch of people on
 making spreadsheets
 
 10
-00:00:32,061 --> 00:00:35,098
+00:00:32,940 --> 00:00:35,977
 easier and more fun. This week
 
 11
-00:00:35,098 --> 00:00:38,587
+00:00:35,980 --> 00:00:39,469
 it's all about getting to know each
 other - not just for you
 
@@ -56,26 +56,26 @@ to get to know me, but also for you to
 get to know
 
 13
-00:00:42,540 --> 00:00:46,643
+00:00:42,540 --> 00:00:46,500
 the edX platform. Maybe this is your first
-MOOC, so we will use the exercises of this
+MOOC, so we will use the exercises
 
 14
-00:00:47,000 --> 00:00:47,730
-week
+00:00:46,500 --> 00:00:48,000
+of this week
 
 15
-00:00:47,739 --> 00:00:51,803
+00:00:48,000 --> 00:00:52,379
 to get you familiar with the way of
 submitting exercises and homework to us.
 
 16
-00:00:52,379 --> 00:00:55,415
+00:00:52,700 --> 00:00:55,736
 But in addition for you to get to know
 me
 
 17
-00:00:55,739 --> 00:00:59,764
+00:00:55,739 --> 00:00:59,979
 and the edX platform, this week will also
 allow me an opportunity
 
@@ -84,40 +84,40 @@ allow me an opportunity
 to get to know you - I really want to know
 
 19
-00:01:03,161 --> 00:01:06,113
+00:01:03,161 --> 00:01:07,013
 what your current data analysis tools
 are. Is this you?
 
 20
-00:01:07,013 --> 00:01:10,106
+00:01:07,013 --> 00:01:10,993
 Are you printing out data sheets and
 colouring them with a marker in your office?
 
 21
-00:01:11,006 --> 00:01:15,070
+00:01:11,006 --> 00:01:15,686
 Or maybe you use spreadsheets recreationally
 and plan your vacation with it?
 
 22
-00:01:15,071 --> 00:01:19,895
+00:01:15,686 --> 00:01:20,500
 I want to know. Not just for me to be
 able to tailor the course towards your
 
 23
-00:01:20,058 --> 00:01:21,060
+00:01:20,500 --> 00:01:21,680
 specific needs,
 
 24
-00:01:21,061 --> 00:01:25,006
+00:01:21,680 --> 00:01:25,600
 but also for you to get to know each
 other. It's really nice if you are on the
 
 25
-00:01:25,006 --> 00:01:25,595
+00:01:25,600 --> 00:01:26,189
 forum
 
 26
-00:01:26,189 --> 00:01:29,600
+00:01:26,200 --> 00:01:29,601
 and you have some sense of the other
 people in the course.
 
@@ -127,12 +127,12 @@ This is why for this first week we are
 asking you
 
 28
-00:01:32,061 --> 00:01:36,530
+00:01:32,061 --> 00:01:37,021
 to take a picture of yourself and your
 computer screen with your favourite 
 
 29
-00:01:37,079 --> 00:01:38,083
+00:01:37,079 --> 00:01:38,479
 data analysis tool on it.
 
 30

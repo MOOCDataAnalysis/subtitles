@@ -9,7 +9,7 @@ analysis
 
 3
 00:00:05,080 --> 00:00:08,099
-and in the following videos we're going to
+and in the following videos we are going to
 
 4
 00:00:08,099 --> 00:00:12,809
@@ -28,7 +28,7 @@ now is
 7
 00:00:17,130 --> 00:00:21,039
 add another row field, for instance add
-the date and now we get a
+the date, and now we get a
 
 8
 00:00:21,039 --> 00:00:24,350
@@ -36,7 +36,7 @@ stacked list of rows. So we get
 
 9
 00:00:24,350 --> 00:00:27,570
-the type of beer and underneath it, all the 
+the type of beer and, underneath it, all the 
 dates
 
 10
@@ -56,7 +56,7 @@ date have we sold which beer.
 13
 00:00:37,309 --> 00:00:41,329
 And we can swap them too, so we can make
-date the highest level,
+dates the highest level,
 
 14
 00:00:41,329 --> 00:00:45,660
@@ -71,16 +71,16 @@ again
 16
 00:00:48,989 --> 00:00:53,180
 to really dive into the data and understand
-what are my customers doing
+what are my customers doing,
 
 17
-00:00:53,180 --> 00:01:00,180
+00:00:53,180 --> 00:00:56,740
 when are day drinking what type of
-drinks? So, so far we've
+drinks? 
 
 18
-00:01:01,180 --> 00:01:02,170
-only 
+00:00:59,280 --> 00:01:02,160
+So, so far we've only 
 
 19
 00:01:02,170 --> 00:01:07,260
@@ -89,7 +89,7 @@ of different functions there, we don't
 
 20
 00:01:07,260 --> 00:01:08,380
-need to use sums.
+need to use SUM.
 
 21
 00:01:08,380 --> 00:01:12,369
@@ -101,28 +101,28 @@ can use if we go to the value settings
 below.
 
 23
-00:01:12,979 --> 00:01:14,549
+00:01:12,979 --> 00:01:14,979
 If we click them... 
 
 24
-00:01:14,549 --> 00:01:19,040
-Yes there we go. If you click them you 
+00:01:16,640 --> 00:01:20,860
+Yes, there we go. If you click them, you 
 can select a lot of other fields.
 
 25
-00:01:19,040 --> 00:01:24,299
-So you see SUM(), but I can also use 
-COUNT() or MIN() or MAX().
+00:01:20,860 --> 00:01:24,299
+So you see SUM, but I can also use 
+COUNT or MIN or MAX.
 
 26
 00:01:24,299 --> 00:01:28,509
-So let's pick AVERAGE(), let's pick the
+So let's pick AVERAGE, let's pick the
 average amount
 
 27
 00:01:28,509 --> 00:01:33,360
-of quantity that has been sold and what
-does that exactly mean
+of quantity that has been sold. And what
+does that exactly mean,
 
 28
 00:01:33,360 --> 00:01:36,970
@@ -136,12 +136,12 @@ whatever is in that quantity column.
 
 30
 00:01:42,369 --> 00:01:45,979
-So you can see that if sort values, let's
+So, you can see that if we sort the values, let's
 sort them,
 
 31
 00:01:45,979 --> 00:01:52,380
-so we can really see what's going on. Yes
+so we can really see what's going on. Yes,
 there we go, we sort values and we see that some
 
 32
@@ -155,7 +155,7 @@ So we can say that the Chocolate Stout
 
 34
 00:01:57,930 --> 00:02:02,610
-is really a date beer, people buy it duo's.
+is really a date beer, people buy it in duos.
 Whereas a Bud Light is
 
 35
@@ -165,11 +165,11 @@ usually bought in bigger groups.
 36
 00:02:05,630 --> 00:02:10,070
 And that sort of makes sense I guess, you buy 
-couple of Bud Lights for your friends, but a
+a couple of Bud Lights for your friends, but a
 
 37
 00:02:10,070 --> 00:02:11,050
-Chocolate Stout
+Chocolate Stout,
 
 38
 00:02:11,050 --> 00:02:14,070
@@ -179,7 +179,7 @@ So when using an
 39
 00:02:14,070 --> 00:02:18,170
 average we look at the data in an
-entirely different way. We're not looking
+entirely different way. We are not looking
 
 40
 00:02:18,170 --> 00:02:19,210
@@ -188,7 +188,7 @@ at the total
 41
 00:02:19,210 --> 00:02:22,990
 but while flattening the data 
-we're taking the average
+we are taking the average
 
 42
 00:02:22,990 --> 00:02:28,600
@@ -197,8 +197,8 @@ this way pivot tables allow us
 
 43
 00:02:28,600 --> 00:02:32,860
-to really dive again I'm going to say
-there's multiple times in this series
+to really dive, again I'm going to say
+this multiple times in this series,
 
 44
 00:02:32,860 --> 00:02:35,980

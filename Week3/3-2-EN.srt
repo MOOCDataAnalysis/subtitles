@@ -1,6 +1,6 @@
 1
 00:00:00,260 --> 00:00:04,500
-So pivot tables. In the last video I showed
+So, pivot tables. In the last video I showed
 you that
 
 2
@@ -15,30 +15,30 @@ analysis of your data. So we can use
 4
 00:00:11,349 --> 00:00:15,820
 a pivot table for that and pivotting
-means turning around. Actually
+means turning around. Actually,
 
 5
 00:00:15,820 --> 00:00:19,039
 I'm not entirely sure why a pivot table
-is called that
+is called that,
 
 6
 00:00:19,039 --> 00:00:22,470
 I like to think of it more as a flatten
-table,
+tables,
 
 7
 00:00:22,470 --> 00:00:26,680
-because what a pivot table does, it
+because what a pivot table does is, it
 takes a whole bunch of data
 
 8
-00:00:26,680 --> 00:00:30,019
+00:00:26,680 --> 00:00:30,220
 and it flattens it given a certain
 dimension.
 
 9
-00:00:30,019 --> 00:00:36,489
+00:00:30,960 --> 00:00:36,480
 This might sound very cryptic to you
 so let's just go to our own data and
 
@@ -57,17 +57,17 @@ our entire register log and then
 
 13
 00:00:46,379 --> 00:00:51,010
-we're goint to insert a pivot table. So I've
+we are going to insert a pivot table. So, I've
 made a worksheet for you, you can select the
 
 14
 00:00:51,010 --> 00:00:53,829
 data that you want and then you can say
-where you want to have it,
+where you want to have it.
 
 15
 00:00:53,829 --> 00:00:57,920
-new worksheet is fine but I already made
+New worksheet is fine, but I already made
 a pivot table worksheet
 
 16
@@ -77,7 +77,7 @@ data to the data model.
 
 17
 00:01:01,949 --> 00:01:05,239
-I will talk about that later but for now
+I will talk about that later, but for now
 you just remember that this is
 
 18
@@ -88,11 +88,11 @@ calculating
 19
 00:01:08,830 --> 00:01:14,430
 and it has created a pivot table for us.
-So maybe you think now what?
+So maybe you think: now what?
 
 20
 00:01:14,430 --> 00:01:18,340
-Okay we have a pivot table but I
+Okay, we have a pivot table but I
 don't know what to do with it.
 
 21
@@ -127,7 +127,7 @@ placed them
 
 27
 00:01:40,689 --> 00:01:45,689
-in the pivot table for you. So you can pick
+in the pivot table for you. So, you can pick
 one and drag it down to the rows field
 
 28
@@ -153,34 +153,34 @@ these beers,
 32
 00:02:03,590 --> 00:02:07,080
 and what the pivot table has done
-is it has flattened into
+is: it has flattened into
 
 33
-00:02:07,090 --> 00:02:09,150
-only the beer names that are here.
+00:02:07,090 --> 00:02:09,950
+only the beer names that are there.
 
 34
-00:02:09,150 --> 00:02:12,800
-For example
+00:02:10,480 --> 00:02:12,800
+So, here, for example,
 
 35
 00:02:12,800 --> 00:02:17,380
-the Schlafly Oktoberfest occurs twice
+the Schlafly Oktoberfest occurs twice,
 but in the flattened pivot table
 
 36
 00:02:17,380 --> 00:02:20,750
 it only occurs once. Only the unique
-values remain.
+values remain,
 
 37
 00:02:20,750 --> 00:02:26,410
-As you can see here. But we're not really
+as you can see here. But we're not really
 analyzing yet, now we just have the list
 
 38
 00:02:26,410 --> 00:02:28,700
-of beers of course we want to do
+of beers, of course we want to do
 something with it.
 
 39
@@ -203,15 +203,15 @@ all the quantities that it encounters
 
 43
 00:02:42,510 --> 00:02:46,900
-are summed and if we sort it we get the
+are summed, and if we sort it we get the
 exact same result as we had
 
 44
-00:02:46,900 --> 00:02:50,820
-when we were using the SUMIF() function.
+00:02:46,900 --> 00:02:49,640
+when we were using the SUMIF function.
 
 45
-00:02:50,820 --> 00:02:54,050
+00:02:49,640 --> 00:02:54,040
 We get 170 items sold for the Schlafly
 Oktoberfest beer.
 
@@ -221,12 +221,12 @@ So now again
 
 47
 00:02:57,290 --> 00:03:00,630
-imagine that our boss comes in and says
-what beer
+imagine that our boss comes in and says:
+"What beer
 
 48
 00:03:00,630 --> 00:03:05,720
-sells best after 11 p.m.? This is super
+sells best after 11 p.m.?" This is super
 easy, because we can take the time field
 
 49
@@ -261,16 +261,16 @@ then we
 55
 00:03:30,000 --> 00:03:33,970
 see that the best sold beer after 11
-p.m. is this Schlafly October.
+p.m. is this Schlafly Oktoberfest.
 
 56
 00:03:33,970 --> 00:03:38,120
-We knew that from the SUMIF() function,
+We knew that from the SUMIF function,
 but now we've done it
 
 57
 00:03:38,120 --> 00:03:44,020
-without any formulas! So compare what I
+without any formulas! So, compare what I
 did in this video to what I did in the
 
 58
@@ -316,5 +316,5 @@ really allows us
 
 67
 00:04:11,150 --> 00:04:13,850
-to play with our data in easy fashion.
+to play with our data in an easy fashion.
 
