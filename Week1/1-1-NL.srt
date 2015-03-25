@@ -1,0 +1,135 @@
+1
+00:00:00,660 --> 00:00:03,619
+Hallo! Welkom bij EX101x,
+
+2
+00:00:03,669 --> 00:00:06,930
+DE cursus voor data-analyse. Ik ben 
+Felienne
+
+3
+00:00:06,993 --> 00:00:10,973
+en ben je gids in deze cursus. En ik heet je van harte welkom,
+
+4
+00:00:10,980 --> 00:00:15,889
+niet alleen bij EX101x maar ook bij de Technische Universiteit Delft!
+
+5
+00:00:15,889 --> 00:00:20,000
+Ook al ben je niet met ons op de campus, het doen van deze MOOC maakt je
+
+6
+00:00:20,000 --> 00:00:20,940
+onderdeel van
+
+7
+00:00:20,940 --> 00:00:26,017
+de Delftse familie. In dit gebouw, waar ik normaal werk op de 8e verdieping,
+
+8
+00:00:26,020 --> 00:00:29,420
+hebben we een Spreadsheet Lab. 
+Dit is mijn onderzoeksgroep
+
+9
+00:00:29,460 --> 00:00:32,94
+waarmee we het gebruik van spreadsheets 
+
+10
+00:00:32,940 --> 00:00:35,977
+leuker en makkelijker maken. Deze week
+
+11
+00:00:35,980 --> 00:00:39,469
+gaat het om elkaar leren kennen - niet alleen zodat jullie
+
+12
+00:00:39,469 --> 00:00:42,540
+mij leren kennen, maar ook het hele
+
+13
+00:00:42,540 --> 00:00:46,500
+edX platform. Misschien is dit je eerste 
+MOOC, dus we gebruiken de eerste oefeningen
+
+14
+00:00:46,500 --> 00:00:48,000
+van deze week
+
+15
+00:00:48,000 --> 00:00:52,379
+om vertrouwd te raken met het inleveren van oefeningen en huiswerk.
+
+16
+00:00:52,700 --> 00:00:55,736
+Maar naast het leren kennen van mij
+
+17
+00:00:55,739 --> 00:00:59,979
+en het edX platform, krijg ik deze week ook de mogelijkheid
+
+18
+00:00:59,989 --> 00:01:03,160
+om jou te leren kennen - ik wil graag weten
+
+19
+00:01:03,161 --> 00:01:07,013
+wat je huidige data-analyse gereedschap is. Ben jij dit?
+
+20
+00:01:07,013 --> 00:01:10,993
+Print je datasheets uit en kleur je ze met een marker in je kantoor?
+
+21
+00:01:11,006 --> 00:01:15,686
+Of misschien gebruik je spreadsheets recreatief en plan je er de vakantie mee?
+
+22
+00:01:15,686 --> 00:01:20,500
+Ik wil het weten. Niet alleen zodat ik de cursus kan aanpassen naar jullie
+
+23
+00:01:20,500 --> 00:01:21,680
+specifieke wensen,
+
+24
+00:01:21,680 --> 00:01:25,600
+maar ook zodat jullie elkaar leren kennen. Het is leuk als jullie op het
+
+25
+00:01:25,600 --> 00:01:26,189
+forum zijn
+
+26
+00:01:26,200 --> 00:01:29,601
+en een idee hebben wie de andere mensen in de cursus zijn.
+
+27
+00:01:29,601 --> 00:01:32,007
+Daarom vragen we je deze week
+
+28
+00:01:32,061 --> 00:01:37,021 
+om een foto te maken van jou samen met je computerscherm met je favoriete 
+
+29
+00:01:37,079 --> 00:01:38,479
+data-analyse gereedschap.
+
+30
+00:01:38,479 --> 00:01:42,493
+Open je favoriete spreadsheet 
+of database, pak je telefoon,
+
+31
+00:01:42,619 --> 00:01:46,590
+maak een foto van jezelf achter je bureau, ik zou het een "excelfie"
+
+32
+00:01:46,591 --> 00:01:49,952
+willen noemen, en stuur het naar ons zodat wij kunnen zien
+
+33
+00:01:50,052 --> 00:01:52,889
+wie mee is op deze reis. 

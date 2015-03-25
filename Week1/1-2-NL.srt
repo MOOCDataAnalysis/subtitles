@@ -1,0 +1,219 @@
+1
+00:00:00,599 --> 00:00:04,420
+In deze video geef ik je meer 
+inzicht in de syllabus
+
+2
+00:00:04,421 --> 00:00:07,151
+van EX101x - wat gaan we samen doen.
+
+3
+00:00:07,529 --> 00:00:11,840
+We gaan werken aan data-analyses
+- dat had je vast al door -
+
+4
+00:00:11,841 --> 00:00:14,961
+maar ik vertel je wat we gaan doen: 
+in de eerste
+
+5
+00:00:14,969 --> 00:00:19,140
+zes weken werken we alleen met spreadsheets.
+Ik zal jullie alles
+
+6
+00:00:19,141 --> 00:00:22,313
+leren wat je moet weten over 
+spreadsheets - we zullen het hebben over
+
+7
+00:00:22,439 --> 00:00:26,470
+draaitabellen, matrixformules, hoe je 
+een spreadsheet test,
+
+8
+00:00:26,471 --> 00:00:31,026
+HORIZ.ZOEKEN, alles wat je nodig hebt.
+En sommige mensen, toen ik deze MOOC
+
+9
+00:00:31,026 --> 00:00:32,446
+ontworp,
+
+10
+00:00:32,446 --> 00:00:37,014
+stelde de volgende vraag: waarom
+spreadsheets? Waarom besteed je
+
+11
+00:00:37,014 --> 00:00:38,794
+zes weken aan spreadsheets?
+
+12
+00:00:38,800 --> 00:00:44,000
+Vooral in het tijdperk van big data, moet je
+de mensen niet leren over
+
+
+13
+00:00:44,001 --> 00:00:47,561
+Hadoop clusters of 'R'? Nou, nee!
+
+14
+00:00:47,561 --> 00:00:51,660
+Spreadsheets zijn echt relevant!
+Eén van de redenen dat het heel belangrijk is
+
+
+15
+00:00:51,660 --> 00:00:53,340
+om te leren over spreadsheets
+
+16
+00:00:53,340 --> 00:00:56,760
+is dat het veel gebruikt wordt:
+95 procent
+
+17
+00:00:56,760 --> 00:01:01,000
+van alle Amerikaanse bedrijven gebruiken nog steeds
+spreadsheets voor financiële verslaggeving.
+
+18
+00:01:01,000 --> 00:01:04,420
+Dus als je het nog gebruikt, voel je
+niet slecht, want
+
+19
+00:01:04,420 --> 00:01:08,000
+iedereen gebruikt het. Werken met
+spreadsheets is
+
+20
+00:01:08,000 --> 00:01:11,008
+heel normaal - 64 procent van
+
+21
+00:01:11,008 --> 00:01:15,011
+werknemers gebruikt spreadsheets in hun dagelijks
+leven. Dit is een onderzoek 
+
+22
+00:01:15,038 --> 00:01:18,043
+van de Amerikaanse arbeidsstatistieken
+
+23
+00:01:18,044 --> 00:01:22,048
+uit 2003, dus een beetje oud, maar
+het zijn nog steeds
+
+24
+00:01:22,049 --> 00:01:25,890
+veel mensen. En een meer recent onderzoek,
+uit 2009,
+
+25
+00:01:25,891 --> 00:01:29,431
+laat zien dat spreadsheets de vierde meest
+voorkomende taak is
+
+26
+00:01:29,440 --> 00:01:32,640
+die mensen doen voor hun werk op de
+computer,
+
+27
+00:01:32,651 --> 00:01:36,351
+na het gebruik van Internet and Word, dus
+
+28
+00:01:36,360 --> 00:01:38,320
+het is echt heel gebruikelijk. 
+
+29
+00:01:39,040 --> 00:01:41,451
+En wat vaak
+gebeurd is dat spreadsheets zijn
+
+30
+00:01:41,460 --> 00:01:43,620
+ontworpen voor een eenmalige oplossing -
+
+31
+00:01:43,620 --> 00:01:46,680
+dus je denkt dat je een 
+spreadsheet gebruikt
+
+32
+00:01:46,680 --> 00:01:49,660
+voor één verslag. Je download 
+de data
+
+33
+00:01:49,660 --> 00:01:55,000
+maakt een grafiek and dit is waar het
+eindigt. En vaak is dat niet zo!
+
+34
+00:01:55,000 --> 00:01:59,067
+Weet je, je hebt die jongen op dat ene
+bureau, en die zegt "Oh, dit is een mooi verslag,
+
+35
+00:01:59,067 --> 00:02:03,078
+mag ik het ook hebben?" Natuurlijk, je bent
+een goede colega,
+
+36
+00:02:03,078 --> 00:02:06,978
+dus je e-mailt de spreadsheet naar hem, 
+en hij verandert wat data,
+
+37
+00:02:06,980 --> 00:02:11,420
+en hij voegt wat werkbladen toe, en de
+spreadsheet begint zijn eigen leven te leiden.
+
+38
+00:02:11,680 --> 00:02:15,000
+En ons onderzoek heeft laten zien dat dit
+erg gebruikelijk is - 
+
+39
+00:02:15,004 --> 00:02:18,006
+gemiddeld is de levensduur van een 
+spreadsheet vijf jaar, 
+
+40
+00:02:18,006 --> 00:02:22,005
+en ze worden gebruikt door 12
+verschillende mensen.
+
+41
+00:02:22,005 --> 00:02:25,051
+Daarom is het erg belangrijk om
+een spreadsheet goed
+
+42
+00:02:25,051 --> 00:02:28,991
+en foutloos te ontwerpen,
+want ook al denk je dat 
+
+43
+00:02:29,025 --> 00:02:32,029
+het alleen voor jezelf is, de kans is groot
+
+44
+00:02:32,060 --> 00:02:35,640
+dat de spreadsheet een lang
+leven heeft.
+
+45
+00:02:36,200 --> 00:02:38,140
+Dus, dit een antwoord op de vraag
+
+46
+00:02:38,140 --> 00:02:40,480
+waarom we deze cursus doen in spreadsheets.
+
