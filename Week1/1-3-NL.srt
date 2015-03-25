@@ -126,7 +126,7 @@ Dus je klikt gewoon
 
 27
 00:01:31,060 --> 00:01:34,017
-op het pijltje en dan klik OK, en
+op het pijltje en dan klik je op OK, en
 wat je dan krijgt, 
 
 28
@@ -200,7 +200,7 @@ wat ik nu wil doen is - ik wil
 
 42
 00:02:31,006 --> 00:02:33,820
-de aantal aandelen dat ik heb
+het aantal aandelen dat ik heb
 vermenigvuldigen
 
 43

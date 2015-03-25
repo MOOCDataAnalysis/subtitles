@@ -14,7 +14,7 @@ We gaan werken aan data-analyses
 
 4
 00:00:11,841 --> 00:00:14,961
-maar ik vertel je wat we gaan doen: 
+maar ik zal je vertellen wat we gaan doen: 
 in de eerste
 
 5
@@ -134,7 +134,7 @@ het is echt heel gebruikelijk.
 29
 00:01:39,040 --> 00:01:41,451
 En wat vaak
-gebeurd is dat spreadsheets zijn
+gebeurt, is dat spreadsheets zijn
 
 30
 00:01:41,460 --> 00:01:43,620
@@ -211,7 +211,7 @@ leven heeft.
 
 45
 00:02:36,200 --> 00:02:38,140
-Dus, dit een antwoord op de vraag
+Dus, dit is het antwoord op de vraag
 
 46
 00:02:38,140 --> 00:02:40,480

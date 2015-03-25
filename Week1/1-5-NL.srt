@@ -58,7 +58,7 @@ de kolom toevoegen "Bedrag te verkopen"
 
 13
 00:00:44,160 --> 00:00:46,900
-en dan hier gebruiken we
+en dan gebruiken we hier
 
 14
 00:00:47,000 --> 00:00:52,009
@@ -168,7 +168,7 @@ en iets verandert ondertussen,
 
 37
 00:02:13,625 --> 00:02:18,034
-alles in het werkblad verandert - dus
+dan verandert alles in het werkblad - dus
 de data, en de formules, en dan
 
 38
@@ -192,7 +192,7 @@ naar je computerscherm:
 
 42
 00:02:32,760 --> 00:02:34,220
-Weet je wat fout is?
+Weet je wat er fout is?
 
 43
 00:02:35,180 --> 00:02:38,000
@@ -206,11 +206,11 @@ op het aantal aandelen wat ik heb,
 45
 00:02:41,079 --> 00:02:46,037
 op ze allemaal. Maar, als ik ze niet 
-allen verkoop, natuurlijk
+allemaal verkoop, maak ik
 
 46
 00:02:46,037 --> 00:02:49,049
-maak ik ook geen winst op alle aandelen.
+natuurlijk ook geen winst op alle aandelen.
 
 47
 00:02:49,049 --> 00:02:53,091
@@ -219,13 +219,13 @@ updaten, zodat hij het niet baseert
 
 48
 00:02:53,091 --> 00:02:58,351
-om mijn aandelen, maar op aandelen
+om mijn aandelen, maar op de aandelen
 die ik verkoop
 
 49
 00:02:58,360 --> 00:03:02,000
 aan de hand van de trend. En wat
-hier nu gebeurd is
+hier nu gebeurt, is
 
 50
 00:03:02,003 --> 00:03:06,021
@@ -239,7 +239,7 @@ netjes - als we praten over
 
 52
 00:03:10,007 --> 00:03:14,700
-een goed georganiseerde werkblad, dan willen
+een goed georganiseerd werkblad, dan willen
 we dat de data netjes van 
 
 53
@@ -545,12 +545,11 @@ ieder type. Dus SOM.ALS
 117
 00:07:17,600 --> 00:07:20,400
 is een goede combinatie van de SOM
-en de ALS
+en de ALS,
 
 118
 00:07:20,400 --> 00:07:23,700
-dat minder ruimte inneemt en is
-meer flexibel
+die minder ruimte inneemt en meer flexibel is
 
 119
 00:07:23,700 --> 00:07:29,099
@@ -583,7 +582,7 @@ toe op de data van
 125
 00:07:43,660 --> 00:07:46,075
 internet. Dat is alles waar we
-het over wilde
+het over wilden
 
 126
 00:07:46,075 --> 00:07:49,855
