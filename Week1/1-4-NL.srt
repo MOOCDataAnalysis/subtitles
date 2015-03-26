@@ -1,0 +1,255 @@
+1
+00:00:00,081 --> 00:00:03,781
+Dit is waar we eindigde in de vorige
+videos, we gebruikte
+
+2
+00:00:03,781 --> 00:00:05,339
+de LINKS- en VIND-functies
+
+3
+00:00:05,339 --> 00:00:09,959
+om het deel van de data die we nodig
+hebben af te hakken, zodat we 
+
+4
+00:00:09,969 --> 00:00:13,082
+met de waarde kunnen rekenen. 
+En ondertussen, 
+
+5
+00:00:13,082 --> 00:00:18,000
+heb jij in de oefening, ook deze
+trend kolom toegevoegd,  
+
+6
+00:00:18,000 --> 00:00:21,027
+waar je het eerste deel afhakt van 
+de groeikolom.
+
+7
+00:00:21,027 --> 00:00:25,820
+En ik ga je niet de formule laten zien, 
+want als je de oefening niet hebt gedaan,
+
+8
+00:00:25,820 --> 00:00:30,679
+heb je nog een kans.
+Wat ik ondertussen ook heb gedaan:
+
+9
+00:00:30,679 --> 00:00:32,025
+Ik heb niet alleen de hoeveelheid
+
+10
+00:00:32,025 --> 00:00:35,005
+aandelen toegevoegd, voor de
+eerste rij,
+
+11
+00:00:35,005 --> 00:00:40,460
+maar ook voor de anderen. Dus ik ben
+teruggegaan naar het eerste werkblad
+
+12
+00:00:40,460 --> 00:00:45,580
+en heb alle data gekopieerd. En zoals
+ik al zei - ja, ik zal uitleggen
+
+13
+00:00:45,580 --> 00:00:46,900
+hoe je beter
+
+14
+00:00:46,900 --> 00:00:51,040
+werkbladen verbind. 
+Als je het al weet, geen zorgen,
+
+15
+00:00:51,040 --> 00:00:52,420
+ik denk niet dat het zo moet,
+
+16
+00:00:52,420 --> 00:00:56,680
+maar voor deze oefening is 
+kopieren makkelijker.
+
+17
+00:00:57,400 --> 00:01:00,880
+Dus dit is typisch het punt, als je
+veel kolommen hebt, 
+
+18
+00:01:01,003 --> 00:01:04,463
+waar je je werkblad wilt opruimen. 
+
+19
+00:01:04,479 --> 00:01:09,119
+Als het niet meer op het scherm past, 
+is het tijd om te reorganiseren. 
+
+20
+00:01:09,540 --> 00:01:12,439
+Dus we scrollen terug naar de eerste
+kolommen en deze
+
+21
+00:01:12,439 --> 00:01:15,779
+eerste 5 kolomen, die hebben een speciale
+rol, toch?
+
+22
+00:01:15,780 --> 00:01:20,000
+Ze zijn geïmporteerd van internet.
+Dat kunnen we aangeven voor toekomstige
+
+23
+00:01:20,001 --> 00:01:21,004
+gebruikers door het
+
+24
+00:01:21,013 --> 00:01:24,072
+toevoegen van een scheidingsteken.
+
+25
+00:01:24,072 --> 00:01:28,272
+En hier zijn twee andere kolommen 
+met een andere rol, 
+
+26
+00:01:28,280 --> 00:01:29,560
+want ze zijn opgebouwd vanuit
+
+27
+00:01:29,560 --> 00:01:33,380
+de internetdata en dan heb ik nog
+twee kolommen.
+
+28
+00:01:33,439 --> 00:01:37,034
+En als ik dit doe, heb ik de originele
+waarde niet echt nodig,
+
+29
+00:01:37,034 --> 00:01:41,374
+want door mijn string operatie heb ik
+de informatie die ik wil,
+
+30
+00:01:41,400 --> 00:01:45,340
+en kan ik de data vernieuwen, 
+ook al zijn de kolommen verborgen.
+
+31
+00:01:45,340 --> 00:01:49,760
+De berekeningen zijn nog steeds vernieuwd
+na het drukken op 'Vernieuwen'.
+
+32
+00:01:49,900 --> 00:01:53,119
+Dus dit ziet er al beter uit, nu 
+zie je direct
+
+33
+00:01:53,119 --> 00:01:57,259
+wat er gebeurt. Alleen de laatste
+kolom stoort me 
+
+34
+00:01:57,260 --> 00:01:58,420
+een klein beetje, 
+
+35
+00:01:58,420 --> 00:02:02,020
+omdat sommige waardes 2 en andere
+1 decimaal hebben.
+
+36
+00:02:02,100 --> 00:02:05,000
+Dus wat we kunnen doen, bij de 
+cell eigenschappen
+
+37
+00:02:05,000 --> 00:02:08,019
+pop-up als je drukt op Ctrl + 1,
+
+38
+00:02:08,019 --> 00:02:11,039
+kunnen we het aantal decimalen instellen.
+Maar er kan meer
+
+39
+00:02:11,044 --> 00:02:14,700
+we kunnen aangeven dat het 
+een valuta is
+
+
+40
+00:02:14,700 --> 00:02:18,800
+en het euroteken toevoegen. Dus
+het is een stuk duidelijker voor iemand
+
+41
+00:02:18,800 --> 00:02:21,014
+die hieraan gaat werken, 
+
+42
+00:02:21,014 --> 00:02:24,019
+en je herinnert je van de eerste video 
+waarschijnlijk dat dit
+
+43
+00:02:24,019 --> 00:02:28,043
+12 mensen zijn in de komende 4 jaren.
+Nu is het duidelijk
+
+44
+00:02:28,043 --> 00:02:31,340
+wat deze waarde is, want
+ze zien dat het 
+
+45
+00:02:31,340 --> 00:02:34,320
+om geld gaat.
+
+46
+00:02:34,320 --> 00:02:39,720
+Dus, organiseer je spreadsheet goed - 
+als je thuis bezoek krijgt
+
+47
+00:02:39,720 --> 00:02:42,980
+ruim je je huis op. Als mensen
+naar je spreadsheet kijken
+
+48
+00:02:42,980 --> 00:02:45,220
+ruim je je werkblad op. 
+
+49
+00:02:45,220 --> 00:02:48,820
+En bij de spreadsheet die je
+inlevert voor het huiswerk, 
+
+50
+00:02:48,820 --> 00:02:51,980
+kijken we naar je spreadsheet
+of jij gaat andermans
+
+51
+00:02:51,980 --> 00:02:53,000
+spreadsheet
+
+52
+00:02:53,002 --> 00:02:56,960
+toetsen en dit is iets waar we
+
+53
+00:02:56,960 --> 00:02:57,960
+op letten
+
+54
+00:02:57,960 --> 00:02:59,440
+in de beoordelingen. 
+
+

@@ -1,0 +1,606 @@
+1
+00:00:00,088 --> 00:00:03,980
+Hier eindigde we bij de vorige 
+video. We hebben ons werkblad
+
+2
+00:00:03,980 --> 00:00:05,099
+goed georganiseerd en we
+
+3
+00:00:05,099 --> 00:00:09,019
+berekenen de potentiële winst, 
+die we kunnen maken
+
+4
+00:00:09,023 --> 00:00:12,820
+door verkoop van onze aandelen. Maar 
+nu we deze
+
+5
+00:00:12,820 --> 00:00:17,000
+trendkolom hebben toegevoegd, willen 
+we er iets mee.
+
+6
+00:00:17,006 --> 00:00:20,007
+We willen niet onze aandelen verkopen
+
+7
+00:00:20,007 --> 00:00:23,907
+als de prijst stijgt, dus we willen
+een berekening maken,
+
+8
+00:00:24,000 --> 00:00:27,088
+gebaseerd op de trend, willen we
+beslissen, verkopen
+
+9
+00:00:27,088 --> 00:00:31,208
+of niet verkopen. Dus hoe ziet 
+dat eruit?
+
+10
+00:00:31,439 --> 00:00:35,139
+We voegen een kolom toe
+in het werkblad, 
+
+11
+00:00:35,149 --> 00:00:40,019
+die we nu noemen hoeveelheid
+te verkopen, 
+
+12
+00:00:40,020 --> 00:00:44,160
+gebaseerd op de trends. Dus laten we
+de kolom toevoegen "Bedrag te verkopen"
+
+13
+00:00:44,160 --> 00:00:46,900
+en dan gebruiken we hier
+
+14
+00:00:47,000 --> 00:00:52,009
+een voorwaardelijke formule, de ALS-functie, 
+en dat werkt al volgt:
+
+15
+00:00:52,009 --> 00:00:56,749
+het eerste deel van de ALS-formule zegt
+waar we naar kijken, 
+
+16
+00:00:56,749 --> 00:00:59,960
+dus we zeggen: als de trend, de G-kolom, 
+
+17
+00:01:00,034 --> 00:01:04,674
+is gelijk aan "stijgt", dan
+na de komma, zeggen we
+
+18
+00:01:04,689 --> 00:01:07,909
+wat we doen. Nou, als de trend stijgt,
+
+19
+00:01:08,040 --> 00:01:10,940
+verkopen we niks, we verkopen 
+0 aandelen.
+
+20
+00:01:11,080 --> 00:01:14,520
+Anders, als de trend daalt, 
+
+21
+00:01:14,520 --> 00:01:19,320
+laten we zeggen dat we de helft verkopen. 
+We houden de helft over, maar we willen
+
+22
+00:01:19,320 --> 00:01:21,560
+de helft verkopen voor de zekerheid, 
+
+23
+00:01:21,560 --> 00:01:25,720
+als iets fout gaat. En wat we nu zien
+op de eerste regel, 
+
+24
+00:01:25,720 --> 00:01:28,860
+verkopen we niks en in de
+volgende regels, 
+
+25
+00:01:29,060 --> 00:01:33,400
+als de trend daalt, ja, 
+we verkopen wat,
+
+26
+00:01:33,400 --> 00:01:36,080
+de helft van onze aandelen.
+
+27
+00:01:37,420 --> 00:01:40,160
+En wat ik nu kan doen voor afronding,
+
+28
+00:01:40,160 --> 00:01:44,540
+zoals in eerdere videos, ik
+stel het in op 0 decimalen,
+
+29
+00:01:44,540 --> 00:01:48,620
+want ik wil natuurlijk niet, 
+een halve aandeel verkopen, dat kan niet.
+
+30
+00:01:48,659 --> 00:01:54,039
+Maar wat ik ook kan doen, gebruik
+de AFRONDEN-functie, het heeft de zelfde
+
+31
+00:01:54,040 --> 00:01:58,120
+functie en werkt het zelfde. Sommige
+hebben voorkeur voor AFRONDEN, want
+
+32
+00:01:58,120 --> 00:01:59,259
+het is duidelijker
+
+33
+00:01:59,259 --> 00:02:03,439
+wat er gebeurd. Je ziet in de formule
+
+34
+00:02:03,440 --> 00:02:06,032
+dat iets is afgerond, 
+
+35
+00:02:06,032 --> 00:02:09,065
+en onze data is nog steeds gelinked
+naar de webfeed,
+
+36
+00:02:09,065 --> 00:02:13,625
+dus als we drukken op "Vernieuwen", 
+en iets verandert ondertussen, 
+
+37
+00:02:13,625 --> 00:02:18,034
+dan verandert alles in het werkblad - dus
+de data, en de formules, en dan
+
+38
+00:02:18,034 --> 00:02:22,514
+tenslotte ook, het besluit hoeveel
+aandelen we verkopen. 
+
+39
+00:02:23,480 --> 00:02:27,560
+Misschien merk je nu dat er 
+iets mis in in dit werkblad. 
+
+40
+00:02:27,560 --> 00:02:28,900
+Misschien schreeuw je 
+
+41
+00:02:28,900 --> 00:02:32,755
+naar je computerscherm:
+"Wacht, wacht, ik zie een fout!"
+
+42
+00:02:32,760 --> 00:02:34,220
+Weet je wat er fout is?
+
+43
+00:02:35,180 --> 00:02:38,000
+Deze winst kolom is nu
+gebaseerd
+
+44
+00:02:38,001 --> 00:02:41,079
+op het aantal aandelen wat ik heb,
+
+45
+00:02:41,079 --> 00:02:46,037
+op ze allemaal. Maar, als ik ze niet 
+allemaal verkoop, maak ik
+
+46
+00:02:46,037 --> 00:02:49,049
+natuurlijk ook geen winst op alle aandelen.
+
+47
+00:02:49,049 --> 00:02:53,091
+Dus wat ik moet doen is mijn formule
+updaten, zodat hij het niet baseert
+
+48
+00:02:53,091 --> 00:02:58,351
+om mijn aandelen, maar op de aandelen
+die ik verkoop
+
+49
+00:02:58,360 --> 00:03:02,000
+aan de hand van de trend. En wat
+hier nu gebeurt, is
+
+50
+00:03:02,003 --> 00:03:06,021
+dat de winst afhangt van de 
+kolom links
+
+51
+00:03:06,048 --> 00:03:10,007
+en rechts, en dat is niet
+netjes - als we praten over
+
+52
+00:03:10,007 --> 00:03:14,700
+een goed georganiseerd werkblad, dan willen
+we dat de data netjes van 
+
+53
+00:03:14,700 --> 00:03:19,820
+van links naar rechts gaat. Dus ik wissel
+deze twee kolommen en nu is de richting
+
+54
+00:03:19,820 --> 00:03:20,800
+logischer,
+
+55
+00:03:20,800 --> 00:03:24,920
+net zoals je leest, van links
+naar rechts. Dus dat is ook
+
+56
+00:03:24,920 --> 00:03:28,600
+een ordeningsfactor waar je
+rekening mee kan houden
+
+57
+00:03:28,640 --> 00:03:31,020
+als je een spreadsheet maakt. 
+
+58
+00:03:35,460 --> 00:03:40,000
+Er is nog één ding wat we willen
+doen - we willen berekenen
+
+59
+00:03:40,000 --> 00:03:44,460
+wat de toestand is van onze portefeuille. 
+Dus ik wil weten
+
+60
+00:03:44,460 --> 00:03:49,120
+heb ik veel stijgende en veel
+dalende aandelen, 
+
+61
+00:03:49,120 --> 00:03:52,760
+want als een groot deel daalt,
+
+62
+00:03:52,760 --> 00:03:57,000
+neem ik misschien een andere beslissing - 
+ik wil meer aandelen kopen
+
+63
+00:03:57,002 --> 00:04:00,702
+die stijgen. Dus wat ik 
+mogelijk kan doen:
+
+64
+00:04:00,709 --> 00:04:04,509
+Ik kan een andere voorwaardelijke formule
+gebruiken zoals je hier ziet.
+
+65
+00:04:04,520 --> 00:04:07,000
+Ik kan zeggen: als de aandelen stijgen dan
+
+66
+00:04:07,007 --> 00:04:11,920
+wil ik het zelfde aantal aandelen, en 
+anders wil ik 0. En dan, in één 
+
+67
+00:04:11,920 --> 00:04:12,700
+kolom,
+
+68
+00:04:12,720 --> 00:04:15,020
+krijg ik de lijst van alle aandelen
+
+69
+00:04:15,024 --> 00:04:20,004
+die stijgen. En ik kan hetzelfde doen
+voor dalen.
+
+70
+00:04:20,004 --> 00:04:23,760
+De zelfde functie: als de aandelen
+dalen, 
+
+71
+00:04:24,006 --> 00:04:27,025
+als de trend "Daalt", dan
+
+72
+00:04:27,025 --> 00:04:30,074
+neem ik het aantal aandelen, en 
+anders neem ik 0. 
+
+73
+00:04:30,080 --> 00:04:33,820
+En dan heb ik twee kolommen, 
+één met stijgende aandelen
+
+74
+00:04:33,820 --> 00:04:38,480
+en de andere met de dalende. En 
+dan, natuurlijk, dat zul je
+
+75
+00:04:38,480 --> 00:04:39,260
+begrijpen,
+
+76
+00:04:39,260 --> 00:04:42,340
+aan het einde van het werkblad
+voeg ik een SOM-functie toe
+
+77
+00:04:42,340 --> 00:04:46,860
+en krijg ik de stand van zaken
+van mijn portefeuille,
+
+78
+00:04:46,860 --> 00:04:50,000
+welk deel stijgt en welk deel daalt.
+
+79
+00:04:50,001 --> 00:04:53,440
+Laat ik kijken hoe dat er uit
+ziet - ik tel de hele
+
+80
+00:04:53,440 --> 00:04:56,200
+kolom op, daar gaat hij.
+
+81
+00:04:57,056 --> 00:05:03,061
+Dus 1800 aandelen stijgen, en als ik
+dit doortrek, dalen er ongeveer 700.
+
+82
+00:05:03,061 --> 00:05:07,841
+Dus, onze portefeuille ziet er goed uit, 
+want er stijgt meer
+
+83
+00:05:08,021 --> 00:05:12,720
+dan er daalt. Toch is deze berekening 
+fout - je hebt
+
+84
+00:05:12,720 --> 00:05:16,680
+twee extra kolommen en twee extra
+
+85
+00:05:16,680 --> 00:05:19,060
+SOM-fomules nodig, om een idee te krijgen
+
+86
+00:05:19,067 --> 00:05:23,001
+hoe het gaat. Dit kan makkelijke
+
+87
+00:05:23,001 --> 00:05:27,057
+en dat zal ik je laten zien.
+Dus laten we wat uitzoomen, 
+
+88
+00:05:27,057 --> 00:05:32,917
+dan zie je alle extra informatie, 
+alle extra ruimte die we nodig hebben, 
+
+89
+00:05:32,920 --> 00:05:36,040
+twee extra kolommen alleen voor de berekening
+
+90
+00:05:36,041 --> 00:05:40,063
+van 3 waardes, die stijgen en dalen. 
+Laten we dat niet doen,
+
+91
+00:05:40,063 --> 00:05:45,543
+we maken dit leeg, we doen het
+anders, we hebben het niet meer nodig.
+
+92
+00:05:45,543 --> 00:05:48,960
+Rechtermuisklik, "Inhoud wissen", zo
+
+93
+00:05:48,960 --> 00:05:52,680
+dit hebben we niet nodig. Ik laat je een 
+betere manier zien
+
+94
+00:05:52,680 --> 00:05:55,717
+en een compactere manier om
+de stand van de
+
+95
+00:05:55,900 --> 00:05:59,000
+portefeuille te analyseren. Wat we
+kunnen gebruiken
+
+96
+00:05:59,006 --> 00:06:03,004
+is een lijst van alle typen, dus we zeggen
+we zoeken voor
+
+97
+00:06:03,004 --> 00:06:08,240
+aandelen die stijgen en die dalen.
+En we gebruiken de SOM.ALS 
+
+98
+00:06:08,240 --> 00:06:11,012
+functie. Het is een combinatie van, 
+
+99
+00:06:11,012 --> 00:06:15,772
+uiteraard, de SOM en de ALS. En hoe 
+dit werkt is dat ik een deel van
+
+100
+00:06:15,780 --> 00:06:19,880
+van mijn spreadsheet pak, dus ik klik
+op één kolom
+
+101
+00:06:19,880 --> 00:06:23,700
+en ik zeg ik zoek iets
+dat overeenkomt in die
+
+102
+00:06:23,700 --> 00:06:27,680
+kolom. Dus waar ik zoek is het 
+eerste deel van de functie. 
+
+103
+00:06:27,940 --> 00:06:31,240
+In deze trendkolom kijk ik
+
+104
+00:06:31,240 --> 00:06:34,940
+of er iets is, zoals bij de normale
+ALS.
+
+105
+00:06:35,240 --> 00:06:37,940
+Goed, wat ik moet vergelijken
+
+106
+00:06:37,940 --> 00:06:40,800
+is precies hetzelfde als in de
+
+107
+00:06:41,039 --> 00:06:44,399
+ALS-functie - ik vergelijk:
+is de trend
+
+108
+00:06:44,400 --> 00:06:48,680
+gelijk aan "Stijgt" en ik heb een lijst
+van dit. En wat ik optel -
+
+109
+00:06:48,680 --> 00:06:51,759
+het aantal aandelen. En je ziet me 
+doortrekken, 
+
+110
+00:06:51,889 --> 00:06:54,889
+en hetzelfde resultaat verschijnt, 
+
+111
+00:06:54,889 --> 00:06:57,980
+als met de SOM van de gehele
+kolom.
+
+112
+00:06:57,980 --> 00:07:01,008
+Dus dit is een stuk beknopter
+en je kunt makkelijk
+
+113
+00:07:01,018 --> 00:07:05,034
+andere typen trends toevoegen -
+bijvoorbeeld een "gelijk" 
+
+114
+00:07:05,034 --> 00:07:08,673
+waarbij niks verandert, we kunnen 
+gewoon "gelijk" toevoegen 
+
+115
+00:07:08,979 --> 00:07:12,479
+en de formule doortrekken, terwijl
+we eerst 
+
+116
+00:07:12,479 --> 00:07:17,599
+een nieuwe kolom nodig hadden voor 
+ieder type. Dus SOM.ALS
+
+117
+00:07:17,600 --> 00:07:20,400
+is een goede combinatie van de SOM
+en de ALS,
+
+118
+00:07:20,400 --> 00:07:23,700
+die minder ruimte inneemt en meer flexibel is
+
+119
+00:07:23,700 --> 00:07:29,099
+als je je werkblad verandert.
+Dus, deze week hebben we een voorbeeld bekeken
+
+120
+00:07:29,099 --> 00:07:30,012
+van een spreadsheet
+
+121
+00:07:30,012 --> 00:07:34,592
+waar we de waarde van de aandelen berekenen,
+we hebben gekeken naar functies om strings
+
+122
+00:07:34,599 --> 00:07:35,459
+te manipuleren, 
+
+123
+00:07:35,480 --> 00:07:38,860
+tekstwaardes, we keken naar voorwaardelijke
+formules, the ALS
+
+124
+00:07:39,019 --> 00:07:43,659
+en de SOM.ALS, en paste alles  
+toe op de data van
+
+125
+00:07:43,660 --> 00:07:46,075
+internet. Dat is alles waar we
+het over wilden
+
+126
+00:07:46,075 --> 00:07:49,855
+hebben deze week, alleen nog één
+ding -
+
+127
+00:07:50,000 --> 00:07:53,039
+ik wil nog een keer vragen of je je 
+excelfie
+
+128
+00:07:53,039 --> 00:07:56,519
+wil posten op het forum, zodat we weten
+met wie we werken.
+
+129
+00:07:56,660 --> 00:07:58,040
+Tot volgende week!
+
+

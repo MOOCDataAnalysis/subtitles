@@ -1,0 +1,406 @@
+1
+00:00:00,071 --> 00:00:03,891
+In deze MOOC, gebruiken we 
+voor iedere week één
+
+2
+00:00:03,900 --> 00:00:07,880
+voorbeeld in alle 
+videos
+
+3
+00:00:07,880 --> 00:00:11,380
+waar je ook aan werkt in de opgaven.
+En deze week
+
+4
+00:00:11,389 --> 00:00:14,780
+gaan we werken aan een 
+spreadsheet om mee naar 
+
+5
+00:00:14,780 --> 00:00:19,300
+de beurs te gaan. Ik verdien niet veel
+geld als een professor, dus
+
+6
+00:00:19,301 --> 00:00:23,001
+ik moet wat extra investeren
+om het einde van de maand te halen.
+
+7
+00:00:23,005 --> 00:00:27,144
+Dus ik heb deze kleine spreadsheet 
+met bedrijven waarin ik 
+
+8
+00:00:27,144 --> 00:00:28,279
+een aandeel heb,
+
+9
+00:00:28,279 --> 00:00:32,819
+en de hoeveelheid aandelen. En natuurlijk
+wil ik weten hoe
+
+10
+00:00:32,829 --> 00:00:37,029
+mijn aandelenportefeuille het doet -
+maak ik winst?
+
+11
+00:00:37,220 --> 00:00:39,160
+Dus wat ik daar voor nodig heb, is natuurlijk
+
+12
+00:00:39,165 --> 00:00:44,460
+actuele beursinformatie. Ik moet weten
+wat de waarde is van de aandelen die
+
+
+13
+00:00:44,460 --> 00:00:46,540
+ik heb. Dus ik kan daarvoor het volgende doen -
+
+14
+00:00:46,540 --> 00:00:50,420
+ik maak een nieuw werkblad en ga naar 
+het DATA tabblad,
+
+15
+00:00:50,420 --> 00:00:54,440
+en daar is een knopje, misschien
+heb je het nooit gezien of gebruikt, het 
+
+16
+00:00:54,440 --> 00:00:56,020
+heet "Externe Data".
+
+17
+00:00:56,020 --> 00:01:00,019
+En met deze knop kan je externe data
+inladen in je spreadsheet
+
+18
+00:01:00,019 --> 00:01:03,037
+van vrijwel overal vandaan. 
+Kijk maar 
+
+19
+00:01:03,037 --> 00:01:07,033
+hoe het werkt. Je klikt op de knop
+en je selecteert
+
+20
+00:01:07,033 --> 00:01:11,453
+"Van internet". En dan opent Excel
+een kleine browser, gewoon zoals 
+
+
+21
+00:01:11,460 --> 00:01:13,000
+een normale internetbrowser,
+
+22
+00:01:13,001 --> 00:01:17,930
+en ik kan naar iedere website gaan. Dus, 
+hier ga ik naar Yahoo Financien voor de
+
+23
+00:01:17,939 --> 00:01:22,040
+AEX, de Amsterdamse beurskoers, en 
+wat je daar ziet
+
+24
+00:01:22,041 --> 00:01:25,038
+zijn kleine pijltjes in de
+browser
+
+25
+00:01:25,038 --> 00:01:29,958
+die ik kan gebruiken om de data te
+selecteren die ik in mijn spreadsheet wil.
+
+26
+00:01:29,960 --> 00:01:31,060
+Dus je klikt gewoon
+
+27
+00:01:31,060 --> 00:01:34,017
+op het pijltje en dan klik je op OK, en
+wat je dan krijgt, 
+
+28
+00:01:34,017 --> 00:01:38,017
+waar je je data wilt, nou gewoon in A1, 
+en daar
+
+29
+00:01:38,017 --> 00:01:41,617
+is de data - rechtstreeks van het web
+in je spreadsheet.
+
+30
+00:01:41,620 --> 00:01:45,939
+Is dat niet tof? En deze data is niet
+kopiëren-plakken, 
+
+31
+00:01:45,939 --> 00:01:50,460
+het is geen statische kopie, want als je
+klikt op "Vernieuwen" krijg je een nieuwe
+
+32
+00:01:50,461 --> 00:01:54,541
+versie van de website in je
+spreadsheet. Er is geen codering nodig, 
+
+33
+00:01:54,541 --> 00:01:57,940
+gewoon de data inladen. Dus dit is
+mooi, 
+
+34
+00:01:57,940 --> 00:02:02,520
+wat ik nu kan doen is uitrekeningen hoeveel
+geld ik verdien met de aandelen die ik
+
+35
+00:02:02,520 --> 00:02:05,660
+heb in mijn portefeuille, dus laten
+we doorgaan.
+
+36
+00:02:07,400 --> 00:02:11,000
+Ik heb de waarde hier staan, zie je, dit is
+wat mijn
+
+37
+00:02:11,004 --> 00:02:14,045
+aandelen waard zijn. Echter, ik kan niet echt
+
+38
+00:02:14,045 --> 00:02:19,042
+met ze rekenen. Laat ik eerst de hoeveelheid
+aandelen inladen.
+
+39
+00:02:19,042 --> 00:02:22,088
+Dus wat ik nu doe, ik kopieer het 
+vanuit het andere werkblad, 
+
+40
+00:02:22,088 --> 00:02:27,032
+in de volgende videos maak ik absoluut de 
+verbindingen tussen de werkbladen beter, 
+
+41
+00:02:27,032 --> 00:02:30,992
+maar nu kopieer ik gewoon. En
+wat ik nu wil doen is - ik wil
+
+42
+00:02:31,006 --> 00:02:33,820
+het aantal aandelen dat ik heb
+vermenigvuldigen
+
+43
+00:02:33,820 --> 00:02:37,020
+met hun waarde. Maar dit kan ik niet doen, want
+
+44
+00:02:37,023 --> 00:02:40,623
+de laatste beurswaarde die ik heb van
+internet
+
+45
+00:02:40,623 --> 00:02:43,700
+is een tekst, het is een "String" zoals
+we dat noemen,
+
+46
+00:02:43,700 --> 00:02:48,000
+en die kan ik niet vermenigvuldigen, want
+niet alleen de waarde staat er, maar ook
+
+
+47
+00:02:48,000 --> 00:02:52,500
+het tijdstip van de laatste beursgang.
+Dus ik moet mijn data
+
+48
+00:02:52,500 --> 00:02:53,480
+manipuleren
+
+49
+00:02:53,480 --> 00:02:56,860
+zodat ik er mee kan rekenen.
+
+50
+00:03:00,000 --> 00:03:02,080
+Dus ik voeg een extra kolom toe
+
+51
+00:03:02,080 --> 00:03:07,020
+waar ik probeer de echte waarde
+te krijgen - alleen het eerste deel
+
+52
+00:03:07,024 --> 00:03:10,544
+van de string en niet het hele ding, 
+daar kan ik niks mee. 
+
+53
+00:03:10,544 --> 00:03:13,780
+Nou, Excel heeft een functie die 
+LINKS heet
+
+54
+00:03:13,780 --> 00:03:17,000
+en die maakt het mogelijk om van 
+een tekst een aantal
+
+55
+00:03:17,009 --> 00:03:21,580
+karakters van links te nemen. Dus 
+wat ik nu kan doen - ik wil hier
+
+56
+00:03:21,580 --> 00:03:25,180
+van deze waarde de eerste 4 karakters
+
+57
+00:03:25,180 --> 00:03:29,035
+en dan heb ik mijn waarde, ik gok dat
+je dat 
+
+58
+00:03:29,035 --> 00:03:32,975
+al voorspelde, voor de tweede regel
+werkt dit niet, 
+
+59
+00:03:32,980 --> 00:03:36,340
+want daar zijn 5 karakters en
+niet 4.
+
+60
+00:03:36,840 --> 00:03:41,480
+Dus, ik moet een trucje doen en ik
+kan de functie VIND daarvoor gebruiken. 
+
+61
+00:03:41,480 --> 00:03:44,300
+De VIND-functie werkt als volgt: in 
+een tekst
+
+62
+00:03:44,300 --> 00:03:48,239
+zoekt hij naar een specifieke waarde en
+het geeft de locatie in
+
+63
+00:03:48,239 --> 00:03:52,199
+de string terug. Dus je ziet dat
+hier de spatie op de 5e
+
+64
+00:03:52,209 --> 00:03:55,989
+positie van de string zit, en we kunnen 
+dat gebruiken in
+
+65
+00:03:55,989 --> 00:04:00,049
+onze LINKS-functie. Dus nu neem ik 
+niet 4 of 5, 
+
+66
+00:04:00,049 --> 00:04:03,058
+maar ik neem de locatie van 
+de spatie.
+
+67
+00:04:03,058 --> 00:04:07,838
+En daar moet ik nog 1 van aftrekken
+want ik wil de spatie niet, ik wil
+
+68
+00:04:07,840 --> 00:04:09,320
+het eerste deel. 
+
+69
+00:04:09,320 --> 00:04:13,012
+En als ik de formule doortrek, zie
+je goed
+
+70
+00:04:13,012 --> 00:04:17,272
+dat ik alleen de waarde heb, en nu 
+kan ik iets berekenen.
+
+71
+00:04:17,280 --> 00:04:19,720
+Nu kan ik de celverwijzing doortrekken
+
+72
+00:04:19,720 --> 00:04:22,900
+naar rechts, of ik kon gewoon
+de tekst aanpassen, 
+
+73
+00:04:22,900 --> 00:04:26,012
+en nu heb ik de juiste waarde van mijn
+
+74
+00:04:26,012 --> 00:04:30,352
+aandelen. Dus nu weet ik hoeveel winst
+ik maak als ik al mijn 
+
+75
+00:04:30,360 --> 00:04:34,402
+aandelen verkoop voor de
+huidige prijs op internet.
+
+76
+00:04:36,300 --> 00:04:39,220
+Dus wat je leert van deze video is
+hoe je 
+
+77
+00:04:39,220 --> 00:04:43,017
+stringfuncties gebruikt om 
+data voor te bereiden en dat
+
+78
+00:04:43,017 --> 00:04:46,357
+ga je veel gebruiken
+de komende weken.
+
+79
+00:04:46,360 --> 00:04:50,400
+De data die je krijgt van het internet
+of die je download bij je
+
+80
+00:04:50,400 --> 00:04:51,240
+bedrijf
+
+81
+00:04:51,240 --> 00:04:54,380
+is vaak niet in de juist vorm. 
+Je krijgt 
+
+82
+00:04:54,380 --> 00:04:58,520
+een langere lijst, je krijgt het in
+een string, terwijl je een tekstbestand wilt,
+
+83
+00:04:58,520 --> 00:05:02,500
+dus je moet wat data gestoei doen
+voordat je echt kan beginnen
+
+84
+00:05:02,500 --> 00:05:03,880
+met rekenen. 
+
