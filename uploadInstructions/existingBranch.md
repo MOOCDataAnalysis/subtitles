@@ -1,4 +1,4 @@
-### Adding your work to an existing branch
+# Adding your work to an existing branch
 
 Assuming a branch exists, click the "branch button" at the top of the screen:
 
@@ -12,7 +12,7 @@ You have now changed to the correct branch.
 
 ![You are now in the correct branch](figures/branchswitch3.png)
 
-#### Uploading content in this branch
+## Uploading content in this branch
 
 Now go to the folder you want to upload your content in:
 

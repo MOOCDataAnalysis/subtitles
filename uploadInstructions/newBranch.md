@@ -1,4 +1,4 @@
-### Adding your work to a new branch 
+# Adding your work to a new branch 
 Go to the folder you want to upload your content in:
 
 ![Switch to the correct directory](figures/upload0.png)
