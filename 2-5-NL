@@ -1,0 +1,244 @@
+1
+00:00:00,660 --> 00:00:04,040
+Hoi! In vorige videos keken we naar het
+gebruik van HORIZ.ZOEKEN, 
+
+2
+00:00:04,047 --> 00:00:08,840
+wanneer het te gebruiken en vooral wanneer
+de WAAR- en ONWAAR-parameter te gebruiken.
+
+3
+00:00:08,840 --> 00:00:12,320
+Helaas, er zijn ook problemen in
+het paradijs -
+
+4
+00:00:12,429 --> 00:00:15,048
+de HORIZ.ZOEKEN functie is niet altijd
+
+5
+00:00:15,048 --> 00:00:19,328
+perfect. En in deze video laat ik 
+je twee redenen zien
+
+6
+00:00:19,449 --> 00:00:22,969
+wanneer je niet HORIZ.ZOEKEN wilt
+gebruiken.
+
+7
+00:00:23,580 --> 00:00:27,859
+Als we in een kleine ijzerhandel zijn
+en we maar zeven 
+
+8
+00:00:27,859 --> 00:00:31,017
+producten verkopen dan is HORIZ.ZOEKEN
+zeker fraai, 
+
+9
+00:00:31,017 --> 00:00:35,417
+er zijn er geen problemen. Maar stel je voor
+we hebben een enorme ijzerhandel
+
+10
+00:00:35,420 --> 00:00:37,059
+met zo'n zesduizend verschillende
+
+11
+00:00:37,059 --> 00:00:41,459
+items. Dan is onze kleine HORIZ.ZOEKEN
+functie die je hier ziet,
+
+12
+00:00:41,620 --> 00:00:44,780
+als ik het doortrek, duurt het heel 
+lang..zie je..
+
+13
+00:00:44,860 --> 00:00:48,060
+rekenen... één Mississippi... Jep, daar is hij.
+
+14
+00:00:48,064 --> 00:00:51,069
+Het is nogal langzaam en dat zou prima 
+zijn als het
+
+15
+00:00:51,200 --> 00:00:54,920
+alleen langzaam is bij het berekenen 
+van de HORIZ.ZOEK-functie.
+
+16
+00:00:55,000 --> 00:00:58,035
+Maar de spreadsheet blijft nu langzaam
+
+17
+00:00:58,035 --> 00:01:01,071
+want de HORIZ.ZOEKEN worden steeds
+opnieuw uitgerekend.
+
+18
+00:01:01,071 --> 00:01:05,851
+Bijvoorbeeld, waarschijnlijk zie je mijn
+typefout hier - ik verkoop geen 'Clam Hammer', 
+
+19
+00:01:05,869 --> 00:01:09,036
+Ik verkoop een 'Claw Hammer'(klauwhamer). Dus als ik 
+dit kleine foutje
+
+20
+00:01:09,036 --> 00:01:12,856
+verander, moet alles opnieuw
+worden berekend.
+
+21
+00:01:13,015 --> 00:01:16,955
+Dus, het gebruik van veel, zoals
+zesduizend HORIZ.ZOEKEN 
+
+22
+00:01:16,960 --> 00:01:20,940
+maakt mijn spreadsheets langzaam
+bij elke handeling.
+
+23
+00:01:20,940 --> 00:01:24,759
+Dus, de eerste reden dat HORIZ.ZOEKEN
+hinderdelijk kunnen zijn
+
+24
+00:01:24,759 --> 00:01:29,339
+is dat ze langzaam zijn bij grote datasets.
+De tweede reden, 
+
+25
+00:01:29,439 --> 00:01:33,239
+stel je baas komt je kamer binnen en
+zegt 'Hej, ik wil vandaag
+
+26
+00:01:33,259 --> 00:01:34,399
+korting aanbieden op de
+
+27
+00:01:34,409 --> 00:01:38,989
+klauwhamer en de handzaag, wil
+je me de bijbehorende nummers geven,
+
+28
+00:01:39,079 --> 00:01:40,419
+want ik moet deze nummers
+
+29
+00:01:40,479 --> 00:01:43,899
+in het register zetten voor de korting."
+En je denk:
+
+30
+00:01:44,079 --> 00:01:47,319
+Oh, ik weet hoe dat moet! Ik heb een 
+leuke online
+
+31
+00:01:47,439 --> 00:01:51,034
+Excelcursus gedaan, ik kan dat. Ik geef
+gewoon de namen, 
+
+32
+00:01:51,034 --> 00:01:56,194
+dat is makkelijk - de klauwhamer en 
+de handzaag, ik vraag ze op.
+
+33
+00:01:57,100 --> 00:02:00,180
+Geen probleem, en ik gebruik gewoon
+de HORIZ.ZOEKEN
+
+34
+00:02:00,259 --> 00:02:04,002
+om het nummer bij de naam te zoeken.
+HORIZ.ZOEKEN,
+
+35
+00:02:04,002 --> 00:02:07,009
+ik weet hoe dit moet, zoek de naam, 
+ga naar
+
+36
+00:02:07,027 --> 00:02:10,607
+het informatieblad...Oh...
+
+37
+00:02:10,620 --> 00:02:11,400
+Welke
+
+38
+00:02:11,400 --> 00:02:14,560
+kolom geef ik terug? -1?
+
+39
+00:02:14,680 --> 00:02:17,920
+Ik wil de waarde tegen de 
+stroomrichting in.
+
+40
+00:02:18,002 --> 00:02:21,460
+Helaas, er is niets zoals een 
+de -1e kolom
+	
+41
+00:02:21,460 --> 00:02:25,040
+in HORIZ.ZOEKEN. De enige manier om
+HORIZ.ZOEKEN te gebruiken is 
+
+42
+00:02:25,043 --> 00:02:29,079
+op deze manier - van de eerste kolom, 
+en ontvang iets uit een
+
+43
+00:02:29,079 --> 00:02:32,999
+latere kolom. Er is geen manier om
+terug te gaan
+
+44
+00:02:33,000 --> 00:02:36,500
+in de stroomrichting met HORIZ.ZOEKEN.
+Het werkt maar 
+
+45
+00:02:36,500 --> 00:02:40,840
+in één richting! Dus er zijn twee redenen
+dat HORIZ.ZOEKEN niet 
+
+46
+00:02:40,980 --> 00:02:44,014
+perfect is. Als je wilt versnellen
+
+47
+00:02:44,080 --> 00:02:47,920
+of je wilt tweerichtingsverkeer, 
+je wilt kijken in beide
+
+48
+00:02:48,016 --> 00:02:51,058
+richtingen, dan is, helaas, 
+
+49
+00:02:51,058 --> 00:02:55,718
+HORIZ.ZOEKEN niet de beste functie. 
+Maar er is ook goed nieuws -
+
+50
+00:02:55,840 --> 00:02:58,908
+in de volgende video laat ik je 
+alternatieve
+
+51
+00:02:59,064 --> 00:03:03,824
+functies zien, als je in een van deze
+twee situaties bent. Tot dan!
+
