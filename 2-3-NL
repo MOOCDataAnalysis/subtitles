@@ -1,0 +1,279 @@
+1
+00:00:00,037 --> 00:00:05,437
+Hoi, welkom terug! In de vorige video
+keken we naar HORIZ.ZOEKEN, 
+
+2
+00:00:05,440 --> 00:00:09,013
+maar we hebben nog niet gekeken naar
+de vierde parameter, zoals ik beloofde.
+
+3
+00:00:09,013 --> 00:00:12,562
+Dus in dit geval hadden we alleen
+drie parameters -
+
+4
+00:00:12,679 --> 00:00:16,319
+wat te zoeken, waar het te vinden, 
+en wat terug te geven.
+
+5
+00:00:16,539 --> 00:00:20,025
+Maar, er is ruimte voor een vierde parameter, 
+en misschien, 
+
+6
+00:00:20,025 --> 00:00:24,785
+als je de oefening hebt gedaan, zag je
+dat als je een extra komma toevoegd
+
+7
+00:00:24,880 --> 00:00:28,500
+Excel eeen vierde parameter
+suggereert.
+
+8
+00:00:28,660 --> 00:00:32,060
+Laten we kijken hoe dat gaat 
+Je klikt, 
+
+9
+00:00:32,061 --> 00:00:36,980
+je schrijft een komma en dan zegt Excel 
+"Hej, je heb deze twee opties".
+
+10
+00:00:36,980 --> 00:00:39,760
+Of je kiest WAAR, wat een
+benadering is.
+
+11
+00:00:40,019 --> 00:00:43,739
+Het geeft je ongeveer de waarde
+die je zocht.
+
+12
+00:00:43,740 --> 00:00:47,720
+Of, anders, gebruiken we ONWAAR
+die de exacte
+
+13
+00:00:47,720 --> 00:00:53,159
+overeenkomst geeft, exact wat 
+je zoekt. Ik denk dat dit slechts
+
+14
+00:00:53,399 --> 00:00:56,939
+een beetje helpt, dus laten we het
+verschil proberen
+
+15
+00:00:57,059 --> 00:01:00,619
+in ons werkblad door ONWAAR
+te schrijven
+
+16
+00:01:00,859 --> 00:01:04,079
+in een kolom. We zetten ONWAAR
+bij de verkoopprijs
+
+17
+00:01:04,180 --> 00:01:07,880
+en we zetten WAAR bij het zoeken
+
+18
+00:01:08,040 --> 00:01:12,040
+naar de naam. Nu hebben we, naast elkaar,
+de ONWAAR en WAAR versie van
+
+19
+00:01:12,045 --> 00:01:12,820
+HORIZ.ZOEKEN,
+
+20
+00:01:12,820 --> 00:01:16,280
+en kunnen we goed zien wat het 
+precieze
+
+21
+00:01:16,280 --> 00:01:19,920
+verschil is tussen de twee
+versies van de vierde parameter.
+
+22
+00:01:20,034 --> 00:01:25,174
+Dus stel je eens voor: een collega
+van je komt naar je bureau
+
+23
+00:01:25,189 --> 00:01:29,228
+en zegt "Hej, ik merkte dat je leuke
+analyses doet over de omzet
+
+24
+00:01:29,228 --> 00:01:30,520
+per product,
+
+25
+00:01:30,520 --> 00:01:33,522
+maar ik wil graag weten wat de
+omzet is op
+
+26
+00:01:33,700 --> 00:01:37,189
+mijn favoriete product, X098.
+
+27
+00:01:37,369 --> 00:01:41,034
+Kan je dat voor me berekenen
+met een spreadsheet?" Natuurlijk!
+
+28
+00:01:41,034 --> 00:01:45,085
+Dan kun je met je spreadsheet!
+Dus, we hebben WAAR in een
+
+29
+00:01:45,085 --> 00:01:48,805
+kolom en ONWAAR in de andere, en nu 
+gaan we X098
+
+30
+00:01:48,979 --> 00:01:52,049
+invoegen, neem de formules die we hebben, 
+
+31
+00:01:52,049 --> 00:01:56,909
+en trekken het door. Nu zien we wat het
+verschil is, want kolom C in de
+
+32
+00:01:56,909 --> 00:01:58,079
+verkoopprijs
+
+33
+00:01:58,079 --> 00:02:01,043
+heeft #N/B, "Niet Beschikbaar".
+
+34
+00:02:01,043 --> 00:02:05,403
+Excel zegt "Hej, die X098 kan ik niet vinden",
+
+35
+00:02:05,409 --> 00:02:09,027
+Terwijl in kolom B, Excel het nog 
+steeds niet kan vinden
+
+36
+00:02:09,027 --> 00:02:13,020
+maar hij zegt: "Ja, de dichtstbijzijnde
+die ik vind
+
+37
+00:02:13,020 --> 00:02:17,660
+is de Fontein". Want alfabetisch
+is H het meest dicht bij X,
+
+38
+00:02:17,660 --> 00:02:21,560
+dus ik geef de meest dichtstbijzijnde
+waarde. 
+
+39
+00:02:22,200 --> 00:02:26,020
+Dus, ik gok dat je hieruit begrijpt
+welke waarde je meestal wilt.
+
+40
+00:02:26,060 --> 00:02:30,420
+Je wilt ONWAAR gebruiken, want als je
+ONWAAR hebt
+
+41
+00:02:30,420 --> 00:02:34,800
+krijg je een waarschuwing als de waarde
+die je zoekt
+
+42
+00:02:35,027 --> 00:02:39,780
+niet is gevonden. Dus, onthoud dit, als
+je HORIZ.ZOEKEN gebruikt, 
+
+43
+00:02:39,780 --> 00:02:43,020
+om twee werkbladen te koppelen, 
+je meestal
+
+44
+00:02:43,020 --> 00:02:47,000
+ONWAAR wilt gebruiken. Dit is de
+de basisinstelling
+
+45
+00:02:47,001 --> 00:02:50,036
+want als je ONWAAR gebruikt krijg je
+een waarschuwing
+
+46
+00:02:50,036 --> 00:02:53,816
+als je antwoord niet is gevonden. Helaas,
+
+47
+00:02:54,025 --> 00:02:57,027
+is ONWAAR niet de standaardinstelling.
+Als ik de parameter
+
+48
+00:02:57,045 --> 00:03:01,059
+verwijder en mijn formule herstel
+zoals hij eerst was,
+
+49
+00:03:01,059 --> 00:03:05,079
+zie je dat de formule zich hetzelfde
+gedraagt als wanneer ik
+
+50
+00:03:05,269 --> 00:03:08,006
+WAAR geef - het probeert altijd de 
+benaderde overeenkomst te vinden. 
+
+51
+00:03:08,006 --> 00:03:12,008
+Dit is een beetje jammer, maar ach, deze
+keuze is gemaakt door het
+
+52
+00:03:12,008 --> 00:03:16,031
+het Excel-team. Waarschijnlijk dachten
+ze niet dat
+
+53
+00:03:16,031 --> 00:03:20,371
+het verbinden van werkbladen
+de manier zou zijn
+
+54
+00:03:20,380 --> 00:03:25,000
+dat mensen meestal HORIZ.ZOEKEN gebruiken.
+Dus we moeten onthouden
+
+55
+00:03:25,000 --> 00:03:27,660
+om ONWAAR te gebruiken als de
+
+56
+00:03:27,660 --> 00:03:31,079
+voorkeursinstelling, het is helaas niet de 
+standaardinstelling.
+
+57
+00:03:31,079 --> 00:03:35,031
+Vergeet het niet, want vergeten om ONWAAR
+toe te voegen is één van de redenen
+
+58
+00:03:35,040 --> 00:03:36,920
+van heel veel spreadsheets fouten.
+
