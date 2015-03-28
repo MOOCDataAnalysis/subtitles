@@ -195,7 +195,7 @@ US lost 2.4 million
 
 42
 00:02:21,190 --> 00:02:24,250
-dollars, because of a spreadhseet problem
+dollars, because of a spreadsheet problem
 and
 
 43
