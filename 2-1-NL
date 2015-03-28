@@ -1,0 +1,338 @@
+1
+00:00:01,500 --> 00:00:05,360
+Hallo, welkom bij deze week van "Data Analysis to the 
+MAX()"
+
+2
+00:00:05,360 --> 00:00:10,139
+In de vorige weken hebben we gekeken
+naar hoe te rekenen met formules en hoe
+
+3
+00:00:10,139 --> 00:00:11,419
+te werken met berekeningen
+
+4
+00:00:11,519 --> 00:00:14,073
+aan de hand van voorwaardes. Maar
+deze week,
+
+5
+00:00:14,073 --> 00:00:18,613
+gaan we kijken naar functies 
+met ZOEKEN - hoe combineer je data
+
+6
+00:00:18,620 --> 00:00:22,380
+van het ene deel van je spreadsheet
+en het andere deel, en voeg 
+
+7
+00:00:22,380 --> 00:00:22,960
+het goed samen. 
+
+8
+00:00:23,001 --> 00:00:27,023
+En HORIZ.ZOEKEN functies zijn heel, heel
+populair - je zou kunnen zeggen ze 
+
+9
+00:00:27,032 --> 00:00:28,033
+zijn de Taylor Swift
+
+10
+00:00:28,033 --> 00:00:31,065
+van Excel formulas. ZOEK-functies behoren
+
+11
+00:00:31,065 --> 00:00:35,066
+tot de top 5 van meest gebruikte
+Excel-functies, 
+
+12
+00:00:35,340 --> 00:00:39,140
+en daarom is het belangrijk om te weten
+hoe je het moet gebruiken
+
+13
+00:00:39,149 --> 00:00:43,689
+en wanneer. Dus, laten we naar dit
+voorbeeld kijken.
+
+14
+00:00:43,740 --> 00:00:46,920
+Stel je voor je runt een ijzerhandel. Dus je hebt
+
+15
+00:00:47,026 --> 00:00:51,079
+informatie die je exporteert uit je 
+register - je kan zien
+
+16
+00:00:51,079 --> 00:00:55,014
+welke artikelnummer je hebt verkocht,
+wanneer je het verkocht en voor hoeveel.
+
+17
+00:00:55,014 --> 00:00:58,073
+En, met die registerdata, 
+
+18
+00:00:58,199 --> 00:01:01,041
+doen we wat analyses - we willen
+weten welk
+
+19
+00:01:01,041 --> 00:01:04,068
+product we hebben verkocht. Dus we zien hier
+
+20
+00:01:04,068 --> 00:01:08,728
+het artikelnummer, de bijbehorende naam, 
+de verkoopprijs,
+
+21
+00:01:08,979 --> 00:01:13,139
+de inkoopprijs, de marge, 
+wat het verschil is tussen de 
+
+22
+00:01:13,180 --> 00:01:14,040
+twee prijzen, 
+
+23
+00:01:14,260 --> 00:01:17,560
+en de marge in procenten. 
+
+24
+00:01:18,800 --> 00:01:22,240
+Dus voor deze data willen we
+een analyse doen.
+
+25
+00:01:22,299 --> 00:01:25,339
+Meer specifiek, we willen de
+omzet weten
+
+26
+00:01:25,500 --> 00:01:29,320
+per product dat we verkopen. Dus we
+kunnen dat zo doen, 
+
+27
+00:01:29,340 --> 00:01:33,035
+waar we nummers en namen hebben, 
+en dan
+
+28
+00:01:33,035 --> 00:01:37,175
+van het ProductInfo-blad importeren -
+we linken direct
+
+29
+00:01:37,320 --> 00:01:41,500
+naar de verkoopprijs. En dan, met de
+SOM.ALS-functie 
+
+30
+00:01:41,619 --> 00:01:45,119
+kunnen we kijken naar de actuele 
+registerdata, we zien
+
+31
+00:01:45,399 --> 00:01:48,425
+wat, wanneer, en hoeveel items we verkochten
+
+32
+00:01:48,659 --> 00:01:52,001
+van dit specifieke type, en als
+we het aantal
+
+33
+00:01:52,001 --> 00:01:55,310
+verkochte producten vermenigvuldigen 
+met de
+
+34
+00:01:55,409 --> 00:01:59,043
+verkoopprijs, dan krijgen we
+de omzet per product 
+
+35
+00:01:59,043 --> 00:02:01,203
+wat we nodig hebben. 
+
+36
+00:02:05,500 --> 00:02:07,940
+Daar is het. We hebben de omzet
+
+37
+00:02:07,979 --> 00:02:12,119
+per product berekend. Het eerste wat
+je ziet dat een beetje raar is
+
+38
+00:02:12,120 --> 00:02:13,640
+aan deze formule,
+
+39
+00:02:13,640 --> 00:02:16,819
+is dat Excel een link zet naar 
+
+40
+00:02:16,819 --> 00:02:20,038
+dit werkblad in de formule. Dat 
+gebeurd omdat, 
+
+41
+00:02:20,038 --> 00:02:23,097
+toen we de formule maakte, we 
+wisselde tussen de werkbladen,
+
+42
+00:02:23,097 --> 00:02:26,877
+maar natuurlijk wil je dat niet. 
+Dus laten we eerst
+
+43
+00:02:27,016 --> 00:02:31,022
+dit voorvoegsel weghalen, 
+want het is niet nodig, 
+
+44
+00:02:31,022 --> 00:02:34,382
+het maakt onze spreadsheet complexer
+dan nodig.
+
+45
+00:02:35,020 --> 00:02:39,140
+Dus de vraag is nu - is onze 
+spreadsheet perfect? Zijn we in de
+
+46
+00:02:39,140 --> 00:02:40,013
+perfect staat?
+
+47
+00:02:40,013 --> 00:02:44,013
+Misschien heb je dit probleem eerder
+ondervonden en weet je 
+
+48
+00:02:44,020 --> 00:02:48,900
+waarom dit een probleem is, Zo niet, 
+ik laat je zien wat zo problematisch 
+
+49
+00:02:49,019 --> 00:02:52,519
+is om je spreadsheet zo te organiseren. 
+
+50
+00:02:55,700 --> 00:02:59,040
+Om dit te laten zien, selecteren we
+alle data in het werkblad, 
+
+51
+00:02:59,062 --> 00:03:02,959
+kopieren-plakken naar een nieuw werkblad, 
+
+52
+00:03:02,959 --> 00:03:07,002
+en we plakken het als waarde, 
+zodat je kan zien
+
+53
+00:03:07,002 --> 00:03:11,820
+wat de orginele waarde is, want 
+misschien veranderen er dingen
+
+54
+00:03:11,820 --> 00:03:15,209
+als ik mijn spreadsheet verknoei. Dus, 
+voor de zekerheid
+
+55
+00:03:15,209 --> 00:03:19,004
+kopieren we van de orginele data. 
+We gaan terug
+
+56
+00:03:19,004 --> 00:03:23,020
+naar ons ProductInfo-werkblad en 
+doen iets onschuldigs - 
+
+57
+00:03:23,020 --> 00:03:26,011
+we sorteren alleen ons ProductInfo-werkblad, 
+
+58
+00:03:26,011 --> 00:03:30,390
+gesorteerd op verkoopprijs. Je kan denken:
+
+59
+00:03:30,489 --> 00:03:34,000
+"Sorteren kan mijn werkblad 
+niet verpesten."
+
+60
+00:03:34,000 --> 00:03:38,480
+Echter als ik nu kijk naar de omzet
+per product zien we dat de bank
+
+61
+00:03:38,489 --> 00:03:41,089
+opeens maar 10 euro waarde is terwijl
+dit eerst
+
+62
+00:03:41,089 --> 00:03:46,629
+250 was. En dit is omdat, zoals
+je hier ziet, 
+
+63
+00:03:46,860 --> 00:03:50,420
+de links nog steeds gaan naar de originele waardes,
+
+64
+00:03:50,540 --> 00:03:54,340
+en ook al heb ik gesorteerd, de links
+veranderen niet. Dus we
+
+65
+00:03:54,340 --> 00:03:55,360
+wijzen naar
+
+66
+00:03:55,360 --> 00:03:58,060
+de verkeerde waarde. Dus wat we
+onthouden
+
+67
+00:03:58,069 --> 00:04:01,749
+van dit voorbeeld is dat als je 
+een link maakt
+
+68
+00:04:02,018 --> 00:04:05,698
+tussen werkbladen wordt het niet
+gesorteerd
+
+69
+00:04:05,700 --> 00:04:08,980
+als je een werkblad gesorteerd hebt.
+Zoals je ziet, 
+
+70
+00:04:08,980 --> 00:04:13,000
+kans op fouten. Dus dit is precies
+het scenario
+
+71
+00:04:13,002 --> 00:04:16,541
+waar we in plaats van een link
+
+72
+00:04:16,580 --> 00:04:20,360
+ZOEK-functies willen. Dat zie je in
+de volgende video.
+
