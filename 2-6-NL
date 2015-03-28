@@ -1,0 +1,379 @@
+1
+00:00:01,062 --> 00:00:03,340
+Hoi, in een vorige video
+
+2
+00:00:03,340 --> 00:00:06,920
+vertelde ik over twee scenarios waarbij
+HORIZ.ZOEKEN niet
+
+3
+00:00:07,043 --> 00:00:08,022
+perfect is.
+
+4
+00:00:08,022 --> 00:00:12,024
+Allereerst, als je snelheid wilt, en ten
+tweede als je tegen de richting in
+
+5
+00:00:12,024 --> 00:00:16,724
+wilt zoeken, de verkeerde richting
+voor HORIZ.ZOEKEN.
+
+6
+00:00:17,000 --> 00:00:20,015
+Dus, in deze video laat ik je zien
+
+7
+00:00:20,015 --> 00:00:24,395
+hoe je dat oplost, waarbij ik je twee
+nieuwe methodes leer om dit
+
+8
+00:00:24,400 --> 00:00:28,580
+op te lossen. Maar eerst een 
+stap terug, we nemen onze tijdmachine
+
+9
+00:00:28,580 --> 00:00:32,480
+en gaan terug naar de tweede video
+waarin ik sprak over de precieze
+
+10
+00:00:32,480 --> 00:00:33,920
+ingrediënten
+
+11
+00:00:34,019 --> 00:00:37,419
+van een ZOEK-funtie. Het was: wat 
+zoek ik, 
+
+12
+00:00:37,420 --> 00:00:42,560
+waarin zoek ik het en wat wil ik
+terug krijgen.
+
+13
+00:00:42,860 --> 00:00:45,760
+Deze drie ingrediënten zitten in
+
+14
+00:00:45,760 --> 00:00:50,080
+HORIZ.ZOEKEN. Voor onze nieuwe
+uitvoering met twee nieuwe functies,
+
+15
+00:00:50,084 --> 00:00:53,924
+splitsen we deze twee delen, dus
+we gebruiken een functie
+
+16
+00:00:54,069 --> 00:00:58,809
+voor het vinden een functie voor het 
+teruggeven van een waarde.
+
+17
+00:00:59,220 --> 00:01:02,239
+En voor het vinden van een waarde
+gebruiken we de
+
+18
+00:01:02,239 --> 00:01:06,006
+VERGELIJK-functie, en in deze video
+laat ik je zien hoe het werkt.
+
+19
+00:01:06,006 --> 00:01:09,600
+Dus we typen 'VERGELIJKEN', we gebruiken de 
+VERGELIJK-functie,
+
+20
+00:01:09,600 --> 00:01:13,700
+we voeren in wat we zoeken, 
+en de tweede parameter
+
+21
+00:01:13,700 --> 00:01:18,540
+is waar ik het vind. De derde
+parameter lijkt erg op de vierde
+
+22
+00:01:18,540 --> 00:01:20,940
+parameter uit HORIZ.ZOEKEN, waar ik
+zeg,
+
+23
+00:01:21,013 --> 00:01:24,413
+ik wil een waarde die hoger is, 
+exact
+
+24
+00:01:24,420 --> 00:01:28,240
+of lager. En we nemen hier de exacte
+waarde, zoals
+
+25
+00:01:28,260 --> 00:01:31,900
+de ONWAAR optie in HORIZ.ZOEEN
+Dus je ziet
+
+26
+00:01:31,900 --> 00:01:38,580
+klauwhamer, A0, is op de tweede regel. Het is 
+niet zo indrukwekkend dus ik sorteer
+
+27
+00:01:38,759 --> 00:01:42,339
+het ProductInfo werkblad zodat je precies
+ziet hoe de VERGELIJK-functie werkt. Dus
+
+28
+00:01:42,340 --> 00:01:43,440
+het is gesorteerd,
+
+29
+00:01:43,619 --> 00:01:47,003
+A0 is nu de zesde regel en onze 
+VERGELIJK-functie
+
+30
+00:01:47,003 --> 00:01:50,035
+geeft inderdaad AO is op de 
+
+31
+00:01:50,035 --> 00:01:54,015
+zesde rij. Dat is wat de VERGELIJK-
+
+32
+00:01:54,027 --> 00:01:57,987
+functie doet - for een bepaalde serie geeft het
+aan op welke rij
+
+33
+00:01:57,987 --> 00:02:02,087
+een waarde staat. Dus we hebben het eerste
+deel van ons
+
+34
+00:02:02,087 --> 00:02:06,420
+nieuwe scenarios gedekt. En het tweede 
+deel? Voor het tweede deel gebruiken 
+
+35
+00:02:06,420 --> 00:02:08,500
+we de INDEX-functie.
+
+36
+00:02:08,500 --> 00:02:12,740
+De INDEX geeft ons in een bepaalde
+reeks
+
+37
+00:02:12,740 --> 00:02:17,740
+deze specifieke rij en kolom. Dus hier
+zie je het.
+
+38
+00:02:17,740 --> 00:02:21,014
+Nogmaals, we weten dat A0 op de 
+zesde rij is, 
+
+39
+00:02:21,014 --> 00:02:24,028
+maar we willen de naam in plaats
+van de code.
+
+40
+00:02:24,028 --> 00:02:30,300
+Dus, we gaan terug naar de originele formule, 
+we verwijderen de VERGELIJK, we zetten het
+
+41
+00:02:30,300 --> 00:02:33,700
+met "Ctrl X" op het clipboard. We voeren 
+de INDEX in.
+
+42
+00:02:33,700 --> 00:02:37,560
+Wat geven we terug? We geven terug kolom
+B,
+
+43
+00:02:37,560 --> 00:02:41,012
+dat is de eerste parameter. Wat geven we 
+terug, welke
+
+44
+00:02:41,012 --> 00:02:44,038
+rij? We weten de rij, de rij waar we 
+zojuist de waarde
+
+45
+00:02:44,038 --> 00:02:48,079
+vonden. En welke kolom?
+Nou, B is slechts één kolom,
+
+46
+00:02:48,079 --> 00:02:53,079
+dus we schrijven daar een 1. Dus nu
+zie je dat we de naam
+
+47
+00:02:53,100 --> 00:02:56,680
+behorend bij de waarde hebben, de
+regelnummer, 
+
+48
+00:02:56,680 --> 00:03:00,040
+waarop we een match hebben. En zoals
+je ziet, 
+
+49
+00:03:00,040 --> 00:03:03,640
+ik dubbelklik en bereken deze
+INDEX-VERGELIJK
+
+50
+00:03:03,640 --> 00:03:06,960
+functie voor alle duizenden 
+rijen.
+
+51
+00:03:07,065 --> 00:03:11,805
+Je ziet het eerste voordeel - snelheid! 
+Het is veel sneller.
+
+52
+00:03:12,520 --> 00:03:14,560
+Maar het gebruik van INDEX-VERGELIJK
+
+53
+00:03:14,660 --> 00:03:18,000
+boven de HORIZ.ZOEKEN heeft nog een voordeel.
+Je herinnert je dit scenario
+
+54
+00:03:18,055 --> 00:03:21,077
+waarbij je baas binnenkomt en zegt "Hej, 
+ik wil de
+
+55
+00:03:21,077 --> 00:03:25,197
+codes behorend bij deze producten, 
+want ik wil ze
+
+56
+00:03:25,200 --> 00:03:26,011
+toevoegen
+
+57
+00:03:26,011 --> 00:03:29,951
+aan het register, om korting toe
+te voegen."
+
+58
+00:03:29,960 --> 00:03:34,016
+Dit probleem kunnen we nu oplossen. We 
+probeerde het met de HORIZ.ZOEKEN en de -1. 
+
+59
+00:03:34,016 --> 00:03:38,002
+Dat halen we weg en we gebruiken
+ook hier INDEX-VERGELIJK.
+
+60
+00:03:38,002 --> 00:03:41,622
+Ik begin graag met het VERGELIJK-deel, 
+dat is makkelijker om te debuggen,
+
+61
+00:03:41,780 --> 00:03:44,980
+het is makkelijk om te zien wat matcht
+als het niet werkt.
+
+62
+00:03:45,004 --> 00:03:49,011
+Dus, we vergelijken. We zoeken voor de 
+naam in kolom B
+
+63
+00:03:49,047 --> 00:03:52,547
+en geven de exacte overeenkomst terug - daar is het!
+
+64
+00:03:52,740 --> 00:03:57,220
+Nu weten we dit, de klauwhamer is op
+de zesde regel. Dus we verwijderen het VERGELIJKEN, 
+
+65
+00:03:57,220 --> 00:04:00,540
+we knippen het tijdelijk, nu voeren we
+INDEX in.
+
+66
+00:04:00,540 --> 00:04:03,920
+Wat geven we terug? Codes!
+
+67
+00:04:04,047 --> 00:04:08,007
+Welke rij willen we hebben? Nou, we weten
+het, we kunnen 6 invoeren, want
+
+68
+00:04:08,007 --> 00:04:09,280
+we weten de regel,
+
+69
+00:04:09,280 --> 00:04:12,620
+maar we geven hier de VERGELIJK-functie, en
+het is maar één kolom,
+
+70
+00:04:12,680 --> 00:04:16,540
+dus het is 1. Dus je ziet het tweede
+voordeel
+
+71
+00:04:16,549 --> 00:04:20,014
+van de INDEX-VERGELIJK boven de
+HORIZ.ZOEEN:
+
+72
+00:04:20,020 --> 00:04:21,440
+het kan tegen de richting in.
+
+73
+00:04:21,440 --> 00:04:24,860
+Het maakt niet uit wat we terug willen, 
+in dit geval wil je je buurman
+
+74
+00:04:25,023 --> 00:04:28,823
+terug, maar alles kan,
+de INDEX-VERGELIJK is heel flexibel.
+
+75
+00:04:29,005 --> 00:04:32,013
+We kunnen ook, als we hier een match hebben, 
+de cell eronder
+
+76
+00:04:32,085 --> 00:04:36,325
+terugvragen, of de cell drie naar 
+rechts en één omhoog, 
+
+77
+00:04:36,500 --> 00:04:39,580
+het maakt niet uit. De INDEX-VERGELIJK
+
+78
+00:04:39,680 --> 00:04:42,880
+geeft alles terug wat je wilt. Dus voor
+sommige situaties
+
+79
+00:04:43,012 --> 00:04:47,352
+is INDEX-VERGELIJK beter dan HORIZ.ZOEKEN.
+Tot volgende week!
+
