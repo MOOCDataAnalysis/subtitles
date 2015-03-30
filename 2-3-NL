@@ -15,7 +15,7 @@ drie parameters -
 
 4
 00:00:12,679 --> 00:00:16,319
-wat te zoeken, waar het te vinden, 
+wat te zoeken, waar het te vinden is, 
 en wat terug te geven.
 
 5
@@ -30,7 +30,7 @@ dat als je een extra komma toevoegd
 
 7
 00:00:24,880 --> 00:00:28,500
-Excel eeen vierde parameter
+Excel een vierde parameter
 suggereert.
 
 8
@@ -41,7 +41,7 @@ Je klikt,
 9
 00:00:32,061 --> 00:00:36,980
 je schrijft een komma en dan zegt Excel 
-"Hej, je heb deze twee opties".
+"Hey, je heb deze twee opties".
 
 10
 00:00:36,980 --> 00:00:39,760
@@ -104,11 +104,11 @@ versies van de vierde parameter.
 22
 00:01:20,034 --> 00:01:25,174
 Dus stel je eens voor: een collega
-van je komt naar je bureau
+komt naar je toe
 
 23
 00:01:25,189 --> 00:01:29,228
-en zegt "Hej, ik merkte dat je leuke
+en zegt "Hey, ik zie dat je leuke
 analyses doet over de omzet
 
 24
@@ -131,7 +131,7 @@ met een spreadsheet?" Natuurlijk!
 
 28
 00:01:41,034 --> 00:01:45,085
-Dan kun je met je spreadsheet!
+Dat kun je met je spreadsheet!
 Dus, we hebben WAAR in een
 
 29
@@ -145,8 +145,8 @@ invoegen, neem de formules die we hebben,
 
 31
 00:01:52,049 --> 00:01:56,909
-en trekken het door. Nu zien we wat het
-verschil is, want kolom C in de
+en we trekken ze door. Nu zien we wat het
+verschil is, want de kolom C met de
 
 32
 00:01:56,909 --> 00:01:58,079
@@ -154,15 +154,15 @@ verkoopprijs
 
 33
 00:01:58,079 --> 00:02:01,043
-heeft #N/B, "Niet Beschikbaar".
+geeft #N/B, "Niet Beschikbaar".
 
 34
 00:02:01,043 --> 00:02:05,403
-Excel zegt "Hej, die X098 kan ik niet vinden",
+Excel zegt "Hej, X098 kan ik niet vinden",
 
 35
 00:02:05,409 --> 00:02:09,027
-Terwijl in kolom B, Excel het nog 
+terwijl in kolom B, Excel het nog 
 steeds niet kan vinden
 
 36
