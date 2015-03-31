@@ -5,7 +5,7 @@ Hoi, in een vorige video
 2
 00:00:03,340 --> 00:00:06,920
 vertelde ik over twee scenarios waarbij
-HORIZ.ZOEKEN niet
+VERT.ZOEKEN niet
 
 3
 00:00:07,043 --> 00:00:08,022
@@ -19,7 +19,7 @@ tweede als je tegen de richting in
 5
 00:00:12,024 --> 00:00:16,724
 wilt zoeken, de verkeerde richting
-voor HORIZ.ZOEKEN.
+voor VERT.ZOEKEN.
 
 6
 00:00:17,000 --> 00:00:20,015
@@ -60,7 +60,7 @@ Deze drie ingrediënten zitten in
 
 14
 00:00:45,760 --> 00:00:50,080
-HORIZ.ZOEKEN. Voor onze nieuwe
+VERT.ZOEKEN. Voor onze nieuwe
 uitvoering met twee nieuwe functies,
 
 15
@@ -100,7 +100,7 @@ parameter lijkt erg op de vierde
 
 22
 00:01:18,540 --> 00:01:20,940
-parameter uit HORIZ.ZOEKEN, waar ik
+parameter uit VERT.ZOEKEN, waar ik
 zeg,
 
 23
@@ -115,7 +115,7 @@ waarde, zoals
 
 25
 00:01:28,260 --> 00:01:31,900
-de ONWAAR optie in HORIZ.ZOEEN
+de ONWAAR optie in VERT.ZOEEN
 Dus je ziet
 
 26
@@ -250,7 +250,7 @@ Maar het gebruik van INDEX-VERGELIJK
 
 53
 00:03:14,660 --> 00:03:18,000
-boven de HORIZ.ZOEKEN heeft nog een voordeel.
+boven de VERT.ZOEKEN heeft nog een voordeel.
 Je herinnert je dit scenario
 
 54
@@ -275,7 +275,7 @@ te voegen."
 58
 00:03:29,960 --> 00:03:34,016
 Dit probleem kunnen we nu oplossen. We 
-probeerde het met de HORIZ.ZOEKEN en de -1. 
+probeerde het met de VERT.ZOEKEN en de -1. 
 
 59
 00:03:34,016 --> 00:03:38,002
@@ -337,7 +337,7 @@ voordeel
 71
 00:04:16,549 --> 00:04:20,014
 van de INDEX-VERGELIJK boven de
-HORIZ.ZOEEN:
+VERT.ZOEkEN:
 
 72
 00:04:20,020 --> 00:04:21,440
@@ -374,6 +374,6 @@ sommige situaties
 
 79
 00:04:43,012 --> 00:04:47,352
-is INDEX-VERGELIJK beter dan HORIZ.ZOEKEN.
+is INDEX-VERGELIJK beter dan VERT.ZOEKEN.
 Tot volgende week!
 
