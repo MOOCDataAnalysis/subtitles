@@ -1,0 +1,383 @@
+1
+00:00:01,005 --> 00:00:03,785
+Welkom terug! In de vorige video keken 
+we naar
+
+2
+00:00:04,029 --> 00:00:08,005
+redenen waarom we ZOEK-functies willen
+gebruiken en dat was omdat
+
+3
+00:00:08,005 --> 00:00:11,534
+directe links in spreadsheets
+verpest worden
+
+4
+00:00:11,579 --> 00:00:15,479
+als je data verandert aan de
+andere kant, bijvoorbeeld door sorteren.
+
+5
+00:00:15,520 --> 00:00:19,500
+Ik hoop echt dat je dit ingebakken
+hebt in je spreadsheethersenen -
+
+6
+00:00:19,500 --> 00:00:23,540
+dat als je zo'n formule ziet, indien
+je een directe link ziet
+
+7
+00:00:23,540 --> 00:00:27,280
+in je eigen werkbladen of in een spreadsheet
+van je collega,
+
+8
+00:00:27,280 --> 00:00:28,100
+bijvoorbeeld, 
+
+9
+00:00:28,100 --> 00:00:31,980
+probeer te denken: is dit de beste manier
+om mijn spreadsheet te organiseren?
+
+10
+00:00:31,980 --> 00:00:36,080
+Weet ik zeker dat die C2 dezelfde
+waarde heeft 
+
+11
+00:00:36,084 --> 00:00:40,804
+als ik morgen naar m'n spreadsheet kijk?
+Dus wat kunnen we daaraan doen?
+
+12
+00:00:40,804 --> 00:00:44,484
+We kunnen ZOEK-functies gebruiken en die 
+worden uitgelegd
+
+13
+00:00:44,489 --> 00:00:47,096
+in de video's van deze week.
+
+14
+00:00:47,096 --> 00:00:51,576
+Maar we nemen eerst een stap terug, en praten
+voor 1 minuut niet over spreadsheets.
+
+15
+00:00:52,620 --> 00:00:54,820
+Wat betekent het eigenlijk
+
+16
+00:00:54,899 --> 00:00:58,009
+als je een waarde opzoekt?
+Laten we dat bekijken
+
+17
+00:00:58,009 --> 00:01:02,012
+vanuit een andere context,
+het sprekende voorbeeld
+
+18
+00:01:02,039 --> 00:01:07,319
+van opzoeken - het telefoonboek. Wat 
+zijn de drie ingredienten die je gebruikt
+
+19
+00:01:07,320 --> 00:01:09,035
+als je iets opzoekt in een telefoonboek?
+
+20
+00:01:09,035 --> 00:01:12,079
+Nou, allereerst, heb je een waarde
+die je zoekt,
+
+21
+00:01:12,079 --> 00:01:17,859
+in dit geval de naam Bauer. Dat is wat
+we opzoeken. Het tweede ingredient is
+
+22
+00:01:17,869 --> 00:01:19,002
+waar kijken we in,
+
+23
+00:01:19,002 --> 00:01:22,442
+in dit geval het telefoonboek van
+NamesandNumbers.com.
+
+24
+00:01:23,540 --> 00:01:27,960
+En het derder ingredient is eigenlijk
+onlogisch - het derde zoekingredient 
+
+25
+00:01:28,008 --> 00:01:32,047
+is wat krijg ik terug. In dit
+voorbeeld krijgen we
+
+26
+00:01:32,119 --> 00:01:38,051
+de stad waarin Bauer woont. En deze
+drie ingedrienten zijn er ook
+
+27
+00:01:38,051 --> 00:01:43,011
+in ZOEK-functies in spreadsheets.  
+Dus laten we kijken hoe dat gaat:
+
+28
+00:01:43,018 --> 00:01:46,998
+we gebruiken een formule. Allereerst, 
+verwijderen we 
+
+29
+00:01:47,008 --> 00:01:50,029
+deze directe links. We selecteren
+ze allemaal en zeggen:
+
+30
+00:01:50,029 --> 00:01:54,369
+rechtermuis, Inhoud Wissen. We willen
+deze directe links niet meer zien.
+
+31
+00:01:54,400 --> 00:01:57,052
+Nu hebben we voor een nieuwe
+formule, 
+
+32
+00:01:57,052 --> 00:02:00,952
+de VERT.ZOEKEN. Dus we typen VERT.ZOEKEN
+
+33
+00:02:00,960 --> 00:02:05,799
+in de formule en we geven de drie
+ingrediënten voor ZOEKEN:
+
+34
+00:02:05,799 --> 00:02:09,013
+als eerste - wat zoeken we.
+Dat is het artikelnummer.
+
+35
+00:02:09,013 --> 00:02:13,842
+Als tweede, waarin zoeken we -
+het ProductInfo-werkblad.
+
+36
+00:02:13,959 --> 00:02:16,319
+En als derde, wat willen we
+terug:
+
+37
+00:02:16,569 --> 00:02:20,011
+de derde kolom van het ProductInfo-
+werkblad.
+
+38
+00:02:20,100 --> 00:02:24,160
+En nu zie je, we hebben de prijs
+verbonden
+
+39
+00:02:24,220 --> 00:02:29,040
+met de Bank, in dit geval het
+artikelnummer B809.
+
+40
+00:02:29,040 --> 00:02:30,580
+Een snelle vraag: 
+
+41
+00:02:30,599 --> 00:02:34,610
+Is deze formule perfect? Los van
+het feit of je de VERT.ZOEKN-functie
+
+42
+00:02:34,610 --> 00:02:38,040
+kent, ontdek je wat er eigenlijk 
+mis is met 
+
+43
+00:02:38,047 --> 00:02:41,887
+deze formule? Ik geef je vijf seconde
+bedenktijd.
+
+44
+00:02:45,640 --> 00:02:49,420
+Het is niet perfect toch? Dat weet je
+omdat ik het dollarteken($) vergeet.
+
+45
+00:02:49,420 --> 00:02:53,960
+Als ik de formule doortrek, zie je
+dat de links zijn verpest
+
+46
+00:02:54,049 --> 00:02:57,469
+omdat ik niet het dollarteken had.
+Dus laten we dat veranderen.
+
+47
+00:02:57,620 --> 00:03:01,460
+Verwijder gewoon de originele verwijzing
+en schrijf een dollarteken.
+
+48
+00:03:01,500 --> 00:03:04,600
+Trouwens, dit hoeft niet handmatig
+zoals ik hier doe.
+
+49
+00:03:04,769 --> 00:03:07,081
+Je kunt ook de verwijzing selecteren
+en drukken op
+
+50
+00:03:07,081 --> 00:03:10,541
+F4, en dan komen de dollartekens
+vanzelf.
+
+51
+00:03:10,740 --> 00:03:12,740
+Dus we trekken de formule door
+
+52
+00:03:12,740 --> 00:03:15,820
+en nu zie je dat het goed is -
+we zoeken
+
+53
+00:03:15,829 --> 00:03:20,360
+de juiste waarde. Dus misschien miste
+je wat ik deed, want het ging
+
+54
+00:03:20,360 --> 00:03:21,240
+snel.
+
+55
+00:03:21,240 --> 00:03:24,240
+Laten we een stap terugnemen
+en alles stap
+
+56
+00:03:24,240 --> 00:03:28,780
+voor stap doen. Alle ZOEK-ingrediënten
+wijzen precies naar wat ze zijn.
+
+57
+00:03:29,300 --> 00:03:32,200
+Dus onthoudt de drie ingrediënten - 
+wat zoeken we, 
+
+58
+00:03:32,299 --> 00:03:36,059
+waar zoeken we in en wat willen 
+we terug. Die zie je ook 
+
+59
+00:03:36,059 --> 00:03:41,359
+in de VERT.ZOEKEN-functie. Het eerste
+deel is wat ik zoek,
+
+60
+00:03:41,360 --> 00:03:45,239
+dit is het artikelnummer. Het tweede 
+deel waarin zoek ik, 
+
+61
+00:03:45,239 --> 00:03:48,879
+dat is dit deel van het werkblad.
+
+
+62
+00:03:48,880 --> 00:03:52,040
+En de laatste waarde, ik zou zeggen, 
+de meeste lastige,
+
+63
+00:03:52,043 --> 00:03:55,783
+want het is geen nummer, het ziet er
+niet 'spreadsheet-achtig' uit
+
+64
+00:03:55,909 --> 00:03:59,149
+met een verwijzing, en het betekent
+welk
+
+65
+00:03:59,209 --> 00:04:03,609
+kolomnummer geef ik terug. 
+Dus in dit geval is het 3, 
+
+66
+00:04:03,609 --> 00:04:07,609
+wat betekent dat ik de derde kolom
+terugkrijg van de hele reeks
+
+67
+00:04:07,609 --> 00:04:11,389
+die ik selecteer. En dan zie je
+dat we de verkoopprijs
+
+68
+00:04:11,389 --> 00:04:12,740
+terugkrijgen
+
+69
+00:04:12,769 --> 00:04:16,007
+voor alle artikelnummers. We kunnen het
+zelfde doen als
+
+70
+00:04:16,007 --> 00:04:20,486
+als we de namen willen zoeken
+behorend bij een artikelnummer.
+
+71
+00:04:20,549 --> 00:04:24,013
+Het enige wat we moeten veranderen, 
+als we de naam willen,
+
+72
+00:04:24,013 --> 00:04:26,014
+de tweede kolom teruggeven.
+
+73
+00:04:26,014 --> 00:04:29,134
+De rest van de formule is hetzelfde -
+we zoeken dezelfde waarde
+
+74
+00:04:29,140 --> 00:04:33,440
+in dezelfde reeks. We krijgen alleen 
+een andere waarde terug.
+
+75
+00:04:33,440 --> 00:04:37,360
+Hiermee hebben we een perfecte
+verbinding tussen twee werkbladen
+
+76
+00:04:37,360 --> 00:04:40,540
+gebaseerd om de codes die in
+beide voorkomen.
+
+77
+00:04:41,080 --> 00:04:45,220
+In de volgende video kijken we naar de
+mysterieuze vierde parameter van de
+
+78
+00:04:45,220 --> 00:04:46,360
+VERT.ZOEKEN-functie
+
+79
+00:04:46,500 --> 00:04:50,200
+die ik hier nog niet heb gebruikt.
+Tot dan!
+
