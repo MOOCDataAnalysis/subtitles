@@ -115,7 +115,7 @@ Bijvoorbeeld,
 25
 00:01:29,390 --> 00:01:33,920
 we willen weten: wat is het land van
-herkomst van de populiaire bier
+herkomst van de populaire bier
 
 26
 00:01:33,920 --> 00:01:34,760
