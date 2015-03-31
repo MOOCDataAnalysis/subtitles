@@ -1,0 +1,322 @@
+1
+00:00:00,830 --> 00:00:06,350
+Hallo, welkom terug! Ik kan me voorstellen dat
+de laatste video je een beetje
+
+2
+00:00:06,350 --> 00:00:07,350
+heeft verward, want
+
+3
+00:00:07,350 --> 00:00:11,599
+ik deed hier wat magie, gewoon wat 
+velde bij elkaar klikken en plotseling
+
+4
+00:00:11,599 --> 00:00:12,719
+werkt alles. 
+
+5
+00:00:12,719 --> 00:00:16,980
+Misschien was je opnieuw naar je computerscherm
+aan het schreeuwen, zoals, wat gaat hier
+
+6
+00:00:16,980 --> 00:00:17,600
+fout? 
+
+7
+00:00:17,600 --> 00:00:20,580
+Daarom kijken we in deze video naar wat
+hier echt
+
+8
+00:00:20,580 --> 00:00:23,040
+gebeurd. 
+
+9
+00:00:25,820 --> 00:00:30,680
+We voegen geen draaitabellen
+meer toe. 
+
+10
+00:00:30,689 --> 00:00:33,810
+Eigenlijk, stiekem, dat wist je niet,
+maar stiekem
+
+11
+00:00:33,810 --> 00:00:38,410
+werkte we met PowerPivot. Dus laten
+we naar het PowerPivot-werkblad gaan en 
+
+12
+00:00:38,410 --> 00:00:39,760
+onze gegevens beheren. 
+
+13
+00:00:39,760 --> 00:00:43,440
+En wat je hier ziet, is dat PowerPivot
+al onze gegevens voor
+
+14
+00:00:43,440 --> 00:00:47,180
+ons opslaat. De gegevens die we hebben toegevoegd
+aan het gegevensmodel, het is
+
+15
+00:00:47,180 --> 00:00:50,460
+een beetje gek, want eigenlijk moest
+het zeggen:
+
+16
+00:00:50,460 --> 00:00:56,160
+'voeg de gegevens toe aan het PowerPivot-model',
+want PowerPivot slaat het voor ons op
+
+17
+00:00:56,170 --> 00:00:59,940
+en hier zie je de data in diagramvorm.
+En als ik op de link klik,
+
+18
+00:00:59,940 --> 00:01:03,350
+dan zie je dat dit de link is die
+ik heb gemaakt,
+
+19
+00:01:03,350 --> 00:01:07,330
+toen ik klikte. Ik zei: dit is 
+gerelateerd aan dat,
+
+20
+00:01:07,330 --> 00:01:12,030
+het bier is gerelateerd aan de naam. Laten we
+de namen wat verbeteren, want 'Reeks'
+
+21
+00:01:12,030 --> 00:01:15,940
+en 'Reeks1' zijn niet goed. Laten we ze
+hernoemen naar 'Register' en 'Bier'
+
+22
+00:01:15,940 --> 00:01:20,520
+zodat het overeenkomt met ons
+spreadsheetmodel.
+
+23
+00:01:23,040 --> 00:01:28,320
+Nu hebben we dus een beeld van onze data, dus
+kunnen we coole analyses doen.
+
+24
+00:01:28,320 --> 00:01:29,390
+Bijvoorbeeld, 
+
+25
+00:01:29,390 --> 00:01:33,920
+we willen weten: wat is het land van
+herkomst van de populiaire bier
+
+26
+00:01:33,920 --> 00:01:34,760
+uit onze bar?
+
+27
+00:01:34,760 --> 00:01:38,070
+Drinken we Amerikaans bier? Drinken
+
+28
+00:01:38,070 --> 00:01:42,640
+we Duits bier? Nederlands bier, misschien?
+Dat willen we weten.
+
+29
+00:01:42,640 --> 00:01:46,130
+Maar om dat te doen, hebben we meer 
+informatie nodig. 
+
+30
+00:01:46,130 --> 00:01:49,920
+We moeten naar het brouwerijwerkblad, 
+want daarin staat
+
+31
+00:01:49,920 --> 00:01:51,170
+informatie over 
+
+32
+00:01:51,170 --> 00:01:56,100
+welke brouwerij in welk land zit. Dus we
+maken een andere draaitabel, we
+
+33
+00:01:56,100 --> 00:01:58,960
+hoeven het niet meer toe te voegen
+aan het gegevensmodel.
+
+34
+00:01:58,960 --> 00:02:03,100
+Je weet dat we stiekem met PowerPivot
+werkte, dus je kan nu zeggen..
+
+35
+00:02:03,100 --> 00:02:04,159
+ik wil..
+
+36
+00:02:04,159 --> 00:02:07,650
+ga naar het PowerPivot-lint en voeg
+
+37
+00:02:07,650 --> 00:02:11,170
+direct de gegevens toe aan het gegevensmodel. Dus
+zoals je hier ziet
+
+38
+00:02:11,170 --> 00:02:14,410
+krijgen we de gegevens op dezelfde wijze
+als daarvoor,
+
+39
+00:02:14,410 --> 00:02:18,300
+alle kolomkoppen staan daar.
+We kunnen het direct hernoemen naar
+
+40
+00:02:18,300 --> 00:02:19,060
+'Brouwerijen'
+
+41
+00:02:19,060 --> 00:02:23,780
+en nu kunnen we een relatie creëren. We
+hoeven niet naar de draaitabel
+
+42
+00:02:23,780 --> 00:02:25,959
+te gaan waar Excel zegt: Ha,
+
+43
+00:02:25,959 --> 00:02:29,760
+ik heb een relatie nodig en dan maken we die.
+We creëren hem direct.
+
+44
+00:02:29,760 --> 00:02:34,060
+We zien dat de naam van de brouwer in
+het bier-werkblad gerelateerd is aan de
+
+45
+00:02:34,060 --> 00:02:38,810
+naamkolom in het brouwerij-werkblad.
+En als we die relatie maken, 
+
+46
+00:02:38,810 --> 00:02:43,760
+kunnen we die gebruiken om onze draaitabellen
+te maken. Dus als je nu naar een draaitabel
+
+47
+00:02:43,760 --> 00:02:46,720
+gaat, dan zie je dat naast het register
+en het bier, 
+
+48
+00:02:46,720 --> 00:02:49,830
+we ook een lijst van brouwers hebben. En dat
+kunnen we gebruiken voor 
+
+49
+00:02:49,830 --> 00:02:52,849
+onze landenanalyse, we kunnen de landen
+in slepen
+
+50
+00:02:52,849 --> 00:02:56,000
+en dan krijgen we het aantal
+bier dat is verkocht
+
+51
+00:02:56,000 --> 00:03:00,709
+voor ieder land. Wat er op de achtergrond
+gebeurd is: dit
+
+52
+00:03:00,709 --> 00:03:06,630
+land is gekoppeld aan het bier via
+de brouwerij en het bier is gekoppeld
+
+53
+00:03:06,630 --> 00:03:08,800
+aan de bierlijst, naar het register
+
+54
+00:03:08,800 --> 00:03:11,470
+met de naam van het bier. Dus PowerPivot
+doorkruist al
+
+55
+00:03:11,470 --> 00:03:12,720
+deze relaties
+
+56
+00:03:12,720 --> 00:03:16,660
+stiekem achter de schermen en maakt een
+soort VERT.ZOEKEN
+
+57
+00:03:16,660 --> 00:03:20,220
+om alle data binnen te halen en dan kan je een 
+draaitabel
+
+58
+00:03:20,220 --> 00:03:24,709
+daar bovenop maken. We hoeven niet echt
+de VERT.ZOEKEN te doen, 
+
+59
+00:03:24,709 --> 00:03:28,270
+als we alles toevoegen aan het gegevensmodel
+en de relaties creëren,
+
+60
+00:03:28,270 --> 00:03:31,170
+kunnen we daarbovenop een draaitabel maken.
+
+61
+00:03:32,200 --> 00:03:34,680
+Dus laten we nogmaals naar de data kijken, 
+
+62
+00:03:34,680 --> 00:03:38,349
+welk pad doorkruisen we?
+We gaan van het register 
+
+63
+00:03:38,349 --> 00:03:42,440
+via de naam naar de brouwerij, van deze naam
+naar de brouwer
+
+64
+00:03:42,440 --> 00:03:45,760
+en dan naar het land. Dus dat is hetzelfde
+pad dat ik eerder
+
+65
+00:03:45,760 --> 00:03:50,140
+maakte, maar nu deed ik het in de gegevens
+in plaats van het gegevensmodel.
+
+66
+00:03:51,170 --> 00:03:53,870
+We krijgen dan deze draaitabel
+waarin 
+
+67
+00:03:53,870 --> 00:03:57,470
+we kunnen zien welk bier is 
+verkocht
+
+68
+00:03:57,470 --> 00:03:59,210
+voor alle landen. 
+
