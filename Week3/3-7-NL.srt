@@ -1,0 +1,259 @@
+1
+00:00:00,799 --> 00:00:04,330
+In de vorige video deden we een analyse
+waarbij we keken 
+
+2
+00:00:04,330 --> 00:00:07,500
+uit welke land ons meest populiere
+bier komt.
+
+3
+00:00:07,500 --> 00:00:11,000
+Maar natuurlijk, als we het hebben over
+geografische data
+
+4
+00:00:11,000 --> 00:00:14,480
+zoals landen, kunnen we dit misschien 
+op een kaart weergeven. 
+
+5
+00:00:14,480 --> 00:00:17,500
+En in ons werkblad hebben we ook 
+informatie
+
+6
+00:00:17,500 --> 00:00:22,960
+over lengte- en breedtegraad, dus zou het
+niet gaaf zijn als we een werelkaakt hebben
+
+7
+00:00:22,970 --> 00:00:28,189
+die precies laat zien waar de brouwerijen
+zitten, waar ons meest populaire bier vandaan komt.
+
+8
+00:00:28,189 --> 00:00:32,099
+Misschien kunnen we een excursie doen
+naar de dichtstbijzijnde brouwerij.
+
+9
+00:00:32,099 --> 00:00:37,670
+Dus, gelukkig is er een super cool ding in Excel
+wat PowerMap
+
+10
+00:00:37,670 --> 00:00:41,290
+heet. We kunnen dit precies hiervoor
+gebruiken, voor het plotten
+
+11
+00:00:41,290 --> 00:00:44,579
+van ons bier op een kaart. Dus je klikt
+
+12
+00:00:44,579 --> 00:00:47,660
+PowerMap als je de plug-in
+hebt geïnstalleerd, 
+
+13
+00:00:47,660 --> 00:00:51,570
+en dan krijg je daar een kaart en alle
+gegevens
+
+14
+00:00:51,570 --> 00:00:54,940
+van het gegevensmodel van de PowerPivot
+staan daar.
+
+15
+00:00:54,940 --> 00:00:59,379
+Dus wat we kunnen doen is de brouwerijen
+in beeld brengen en
+
+16
+00:00:59,379 --> 00:01:04,180
+je krijgt kleine puntjes voor 
+iedere brouwer. Maar dit is gebaseerd op
+
+17
+00:01:04,180 --> 00:01:05,010
+de gehele lijst van brouwers, 
+
+18
+00:01:05,010 --> 00:01:08,760
+van het werkblad, nog niet op de 
+de gekoppelde lijst, 
+
+19
+00:01:08,760 --> 00:01:12,330
+gekoppeld aan wat we verkopen. 
+Om dat te doen, 
+
+20
+00:01:12,330 --> 00:01:16,110
+moeten we de hoeveelheid naar beneden slepen, 
+vergelijkbaar met een
+
+21
+00:01:16,110 --> 00:01:17,350
+normale draaitabel.
+
+22
+00:01:17,350 --> 00:01:21,729
+En wat we dan krijgen zijn alle
+brouwers met de hoeveelheden die
+
+23
+00:01:21,729 --> 00:01:24,189
+we verkopen aan de bar. Dus we zien
+dat deze
+
+24
+00:01:24,189 --> 00:01:28,720
+brouwer hier rechts, dat is de La Trappe
+brouwerij, is redelijk dicht bij onze bar.
+
+25
+00:01:28,720 --> 00:01:32,040
+Laten we aannemen dat onze bar in Delft is, 
+net als deze universiteit.
+
+26
+00:01:32,040 --> 00:01:35,290
+We hebben dus een vrij populair bier
+redelijk dichtbij 
+
+27
+00:01:35,290 --> 00:01:40,540
+Delft, dat zou mooi zijn voor een excursie. 
+Dus wat ik nu heb gedaan, ik heb ook de
+
+28
+00:01:40,540 --> 00:01:44,659
+dimensie tijd toegevoegd en dan krijg je
+een animatie waar je kunt zien
+
+29
+00:01:44,659 --> 00:01:47,869
+gedurende de tijd, gedurende de openingstijden
+van het cafe, 
+
+30
+00:01:47,869 --> 00:01:51,640
+zie je eigenlijk dat het bier gedronken
+wordt door de mensen
+
+31
+00:01:51,640 --> 00:01:55,640
+in het cafe en dat kan je afspelen als een
+animatie. 
+
+32
+00:01:55,640 --> 00:02:00,950
+Verder kunnen we een categorie
+toevoegen, dus je ziet welk type bier
+
+33
+00:02:00,950 --> 00:02:04,450
+van welke brouwer komt. Dus je ziet hier, 
+
+34
+00:02:04,450 --> 00:02:08,119
+laat ik dat verwijderen..je ziet dat
+blauw een bepaald biersoort is,
+
+35
+00:02:08,119 --> 00:02:11,580
+en oranje is een andere type bier en 
+je ziet het rechtsreeks op je kaart.
+
+36
+00:02:11,580 --> 00:02:16,160
+Geen formules nodig. Sleep gewoon je data binnen, 
+je zegt..
+
+37
+00:02:16,160 --> 00:02:19,930
+dit zijn de brouwerijen, de 
+hoeveelheden en de categorieën
+
+38
+00:02:19,930 --> 00:02:24,739
+en je hebt je visualisatie rechtstreek
+op de kaart. Laten we naar de rest 
+
+39
+00:02:24,739 --> 00:02:27,670
+van de wereld kijken, we hoeven niet
+op Europa te concentreren. Als we naar
+
+40
+00:02:27,670 --> 00:02:29,739
+Amerika kijken zien we een interessante
+
+41
+00:02:29,739 --> 00:02:33,129
+weergave, we zien hier een brouwer
+waarvan 
+
+42
+00:02:33,129 --> 00:02:37,110
+twee van de verkochte biersoorten
+populair is en hier is een 
+
+43
+00:02:37,110 --> 00:02:40,780
+gebied in Amerika waar veel brouwerijen
+populair zijn.
+
+44
+00:02:40,780 --> 00:02:44,060
+Dus als we misschien een excursie ver
+weg willen, 
+
+45
+00:02:44,060 --> 00:02:47,430
+zou dit een interessant gebied 
+van Amerika zijn om naar toe te gaan.
+
+46
+00:02:47,430 --> 00:02:51,010
+En nogmaals, ik kan het niet genoeg benadrukken:
+we hebben geen formules
+
+47
+00:02:51,010 --> 00:02:55,840
+gebruikt! Als we onze gegevens in het
+PowerPivot gegevensmodel laden,
+
+48
+00:02:55,840 --> 00:02:59,080
+kunnen we PowerMap gebruiken, als het
+geografische data is,
+
+49
+00:02:59,080 --> 00:03:02,750
+om alles te plotten om een kaart, 
+gewoon door het selecteren van velden
+
+50
+00:03:02,750 --> 00:03:06,870
+die we willen gebruiken. En dat sluit
+deze gehele week af, het laten zien
+
+51
+00:03:06,870 --> 00:03:12,040
+van de kracht van draaitabellen:
+weinig gebruik van formules, je kunt gewoon
+
+52
+00:03:12,040 --> 00:03:14,790
+je data analyseren door klikken
+en slepen.
+
+53
+00:03:14,790 --> 00:03:17,159
+Is dat niet leuk? Tot volgende week!
+
