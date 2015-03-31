@@ -1,7 +1,7 @@
 1
 00:00:00,660 --> 00:00:04,040
 Hoi! In vorige videos keken we naar het
-gebruik van HORIZ.ZOEKEN, 
+gebruik van VERT.ZOEKEN, 
 
 2
 00:00:04,047 --> 00:00:08,840
@@ -15,7 +15,7 @@ het paradijs -
 
 4
 00:00:12,429 --> 00:00:15,048
-de HORIZ.ZOEKEN functie is niet altijd
+de VERT.ZOEKEN functie is niet altijd
 
 5
 00:00:15,048 --> 00:00:19,328
@@ -24,7 +24,7 @@ je twee redenen zien
 
 6
 00:00:19,449 --> 00:00:22,969
-wanneer je niet HORIZ.ZOEKEN wilt
+wanneer je niet VERT.ZOEKEN wilt
 gebruiken.
 
 7
@@ -34,7 +34,7 @@ en we maar zeven
 
 8
 00:00:27,859 --> 00:00:31,017
-producten verkopen dan is HORIZ.ZOEKEN
+producten verkopen dan is VERT.ZOEKEN
 zeker fraai, 
 
 9
@@ -48,7 +48,7 @@ met zo'n zesduizend verschillende
 
 11
 00:00:37,059 --> 00:00:41,459
-items. Dan is onze kleine HORIZ.ZOEKEN
+items. Dan is onze kleine VERT.ZOEKEN
 functie die je hier ziet,
 
 12
@@ -68,7 +68,7 @@ zijn als het
 15
 00:00:51,200 --> 00:00:54,920
 alleen langzaam is bij het berekenen 
-van de HORIZ.ZOEK-functie.
+van de VERT.ZOEK-functie.
 
 16
 00:00:55,000 --> 00:00:58,035
@@ -76,7 +76,7 @@ Maar de spreadsheet blijft nu langzaam
 
 17
 00:00:58,035 --> 00:01:01,071
-want de HORIZ.ZOEKEN worden steeds
+want de VERT.ZOEKEN worden steeds
 opnieuw uitgerekend.
 
 18
@@ -97,7 +97,7 @@ worden berekend.
 21
 00:01:13,015 --> 00:01:16,955
 Dus, het gebruik van veel, zoals
-zesduizend HORIZ.ZOEKEN 
+zesduizend VERT.ZOEKEN 
 
 22
 00:01:16,960 --> 00:01:20,940
@@ -106,7 +106,7 @@ bij elke handeling.
 
 23
 00:01:20,940 --> 00:01:24,759
-Dus, de eerste reden dat HORIZ.ZOEKEN
+Dus, de eerste reden dat VERT.ZOEKEN
 hinderdelijk kunnen zijn
 
 24
@@ -155,12 +155,12 @@ de handzaag, ik vraag ze op.
 33
 00:01:57,100 --> 00:02:00,180
 Geen probleem, en ik gebruik gewoon
-de HORIZ.ZOEKEN
+de VERT.ZOEKEN
 
 34
 00:02:00,259 --> 00:02:04,002
 om het nummer bij de naam te zoeken.
-HORIZ.ZOEKEN,
+VERT.ZOEKEN,
 
 35
 00:02:04,002 --> 00:02:07,009
@@ -191,8 +191,8 @@ de -1e kolom
 	
 41
 00:02:21,460 --> 00:02:25,040
-in HORIZ.ZOEKEN. De enige manier om
-HORIZ.ZOEKEN te gebruiken is 
+in VERT.ZOEKEN. De enige manier om
+VERT.ZOEKEN te gebruiken is 
 
 42
 00:02:25,043 --> 00:02:29,079
@@ -206,13 +206,13 @@ terug te gaan
 
 44
 00:02:33,000 --> 00:02:36,500
-in de stroomrichting met HORIZ.ZOEKEN.
+in de stroomrichting met VERT.ZOEKEN.
 Het werkt maar 
 
 45
 00:02:36,500 --> 00:02:40,840
 in één richting! Dus er zijn twee redenen
-dat HORIZ.ZOEKEN niet 
+dat VERT.ZOEKEN niet 
 
 46
 00:02:40,980 --> 00:02:44,014
@@ -229,7 +229,7 @@ richtingen, dan is, helaas,
 
 49
 00:02:51,058 --> 00:02:55,718
-HORIZ.ZOEKEN niet de beste functie. 
+VERT.ZOEKEN niet de beste functie. 
 Maar er is ook goed nieuws -
 
 50
