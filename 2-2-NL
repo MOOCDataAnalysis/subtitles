@@ -150,7 +150,7 @@ formule,
 
 32
 00:01:57,052 --> 00:02:00,952
-de HORIZ.ZOEKEN. Dus we typen HORIZ.ZOEKEN
+de VERT.ZOEKEN. Dus we typen VERT.ZOEKEN
 
 33
 00:02:00,960 --> 00:02:05,799
@@ -194,7 +194,7 @@ Een snelle vraag:
 41
 00:02:30,599 --> 00:02:34,610
 Is deze formule perfect? Los van
-het feit of je de HORIZ.ZOEKN-functie
+het feit of je de VERT.ZOEKN-functie
 
 42
 00:02:34,610 --> 00:02:38,040
@@ -281,7 +281,7 @@ we terug. Die zie je ook
 
 59
 00:03:36,059 --> 00:03:41,359
-in de HORIZ.ZOEKEN-functie. Het eerste
+in de VERT.ZOEKEN-functie. Het eerste
 deel is wat ik zoek,
 
 60
@@ -374,7 +374,7 @@ mysterieuze vierde parameter van de
 
 78
 00:04:45,220 --> 00:04:46,360
-HORIZ.ZOEKEN-functie
+VERT.ZOEKEN-functie
 
 79
 00:04:46,500 --> 00:04:50,200
