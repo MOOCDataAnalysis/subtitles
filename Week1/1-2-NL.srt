@@ -34,7 +34,7 @@ een spreadsheet test,
 
 8
 00:00:26,471 --> 00:00:31,026
-HORIZ.ZOEKEN, alles wat je nodig hebt.
+VERT.ZOEKEN, alles wat je nodig hebt.
 En sommige mensen, toen ik deze MOOC
 
 9
