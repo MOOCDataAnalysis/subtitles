@@ -54,7 +54,7 @@ te verkopen,
 12
 00:00:40,020 --> 00:00:44,160
 gebaseerd op de trends. Dus laten we
-de kolom toevoegen "Bedrag te verkopen"
+de kolom toevoegen "Aantal te verkopen"
 
 13
 00:00:44,160 --> 00:00:46,900
@@ -385,7 +385,7 @@ want er stijgt meer
 83
 00:05:08,021 --> 00:05:12,720
 dan er daalt. Toch is deze berekening 
-fout - je hebt
+lang - je hebt
 
 84
 00:05:12,720 --> 00:05:16,680
