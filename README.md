@@ -4,7 +4,7 @@ All subtitles for the EX101x MOOC can be found here.
 ## Adding a translation to this repository
 If you are interested in adding a translation to this repository, please follow
 the steps below. If you are interested in proposing a fix to existing subtitles,
-please check the section on [fixes](./submittingFixes.md).
+please check the section on [fixes](./uploadInstructions/submittingFixes.md).
 
 To add a new translation to this repository, two situations are possible. Either
 we have already created branches for you to fill with the subtitles, or no such
