@@ -27,7 +27,7 @@ Click "Commit new file":
 
 ![Commit new file](figures/upload5.png)
 
-Congratsulations your changes have now been committed to a new branch! Future
+Congratulations your changes have now been committed to a new branch! Future
 additions in the same topic can be done [in the same branch](./existingBranch.md).
 In order for them to be reviewed and accepted you will have to [open a pull
 request](./pullRequest.md) to our master branch.
