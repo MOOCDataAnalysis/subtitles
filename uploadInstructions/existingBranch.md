@@ -25,6 +25,6 @@ Click "Commit new file":
 
 ![Commit new file](figures/upload5.png)
 
-Congratsulations your changes have now been committed to this branch! In order
+Congratulations your changes have now been committed to this branch! In order
 for them to be reviewed and accepted you will have to [open a pull
 request](./pullRequest.md).
