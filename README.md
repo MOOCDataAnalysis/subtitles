@@ -15,7 +15,7 @@ options like this:
 ![Existing branches in the repository](./uploadInstructions/figures/branchswitch2.png)
 
 If there is a branch called "WeekXYY" where X is the week number and YY is the
-abbreviation of the language you want to add (e.g. NL for Dutch) than a branch
+abbreviation of the language you want to add (e.g. NL for Dutch) then a branch
 already exists and you can [add your work
 there](./uploadInstructions/existingBranch.md) If no such branch exists, you
 will have to [create one yourself](./uploadInstructions/newBranch.md). If you
