@@ -6,7 +6,7 @@ Now [switch](switchinBranches.md) to this new branch and navigate to the correct
 
 Once there, click the edit button:
 
-![image][figures/edit.png]
+![image](figures/edit.png)
 
 Make your changes as you would when submitting [new files](existingBranch.md) and 
 create a [pull request](pullRequest.md) afterwards.
