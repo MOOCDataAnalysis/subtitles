@@ -132,7 +132,7 @@ we linken direct
 29
 00:01:37,320 --> 00:01:41,500
 naar de verkoopprijs. En dan, met de
-SOM.ALS-functie 
+AANTAL.ALS-functie 
 
 30
 00:01:41,619 --> 00:01:45,119
