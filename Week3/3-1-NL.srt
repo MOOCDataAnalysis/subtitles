@@ -135,7 +135,7 @@ je hier nu vertrouwd mee bent.
 29
 00:01:34,000 --> 00:01:37,180
 We kijken in het register hoevaak
-we een bier
+we een bepaald biertje
 
 30
 00:01:37,189 --> 00:01:39,949

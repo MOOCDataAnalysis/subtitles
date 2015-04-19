@@ -161,7 +161,7 @@ van welke brouwer komt. Dus je ziet hier,
 
 34
 00:02:04,450 --> 00:02:08,119
-laat ik dat verwijderen..je ziet dat
+laat ik dat verwijderen. Je ziet dat
 blauw een bepaald biersoort is,
 
 35

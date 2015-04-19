@@ -242,6 +242,6 @@ een beter begrip van wat
 
 51
 00:03:04,109 --> 00:03:05,989
-er in je data gebeurd. 
+er in je data gebeurt.
 
 
