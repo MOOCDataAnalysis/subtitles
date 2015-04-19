@@ -1,0 +1,321 @@
+1
+00:00:00,320 --> 00:00:03,860
+Hallo, welkom terug! Voor de oefeningen van deze week
+
+2
+00:00:03,860 --> 00:00:08,970
+gebruiken we als voorbeeld een dansstudio.
+We hebben een aantal leraren 
+
+3
+00:00:08,970 --> 00:00:13,059
+in onze dansstudio met namen, leeftijd, 
+tarief, 
+
+4
+00:00:13,059 --> 00:00:16,820
+wat ze kosten als we ze inhuren, het 
+maximale niveau waarop ze kunnen lesgeven
+
+5
+00:00:16,820 --> 00:00:21,300
+en hun gewenste niveau, het niveau waarop ze
+het liefst lesgeven. Bijvoorbeeld, Georgie
+
+6
+00:00:21,300 --> 00:00:21,720
+hier, 
+
+7
+00:00:21,720 --> 00:00:26,240
+ook al kan hij tot niveau 5 lesgeven, 
+zijn voorkeur gaat uit naar niveau 1.
+
+8
+00:00:26,240 --> 00:00:29,100
+Dus, natuurlijk willen we met deze 
+
+9
+00:00:29,100 --> 00:00:32,160
+gegevens een soort analyse doen. Dus
+laten we beginnen
+
+10
+00:00:32,160 --> 00:00:37,620
+met een analyse van alle niveaus,
+hoeveel van onze leraren
+
+11
+00:00:37,620 --> 00:00:40,850
+geven dat niveau. Dus we maken een lijst
+van alle niveaus
+
+12
+00:00:40,850 --> 00:00:44,450
+in onze dansschool '1,2,3,4,5' en 
+
+13
+00:00:44,450 --> 00:00:47,800
+het aantal leraren. En hiervoor kunnen
+we de AANTAL.ALS-functie
+
+14
+00:00:47,800 --> 00:00:50,690
+gebruiken, die zeer lijkt op
+de SOM.ALS
+
+15
+00:00:50,690 --> 00:00:54,250
+die we in eerdere video's gebruikte. Dus 
+we tellen
+
+16
+00:00:54,250 --> 00:00:58,250
+voor een bepaald bereik, in het
+'lerarenwerkblad',
+
+17
+00:00:58,250 --> 00:01:01,699
+hoeveel leraren er zijn voor een bepaald
+niveau.
+
+18
+00:01:01,699 --> 00:01:06,079
+Dus we klikken gewoon het niveau en wat
+dit eigenlijk betekent,
+
+19
+00:01:06,079 --> 00:01:10,899
+ook al is het niet echt duidelijk, is
+dat we het aantal leraren berekenen
+
+20
+00:01:10,899 --> 00:01:14,359
+dat gelijk is aan dit niveau in
+
+21
+00:01:14,359 --> 00:01:17,469
+de eerste kolom. En eigenlijk willen we
+dat niet, 
+
+22
+00:01:17,469 --> 00:01:21,420
+want we willen weten wie bevoegd is
+om niveau 1 te geven, 
+
+23
+00:01:21,420 --> 00:01:25,469
+dus iemand die niveau 3 les kan geven,
+kan natuurlijk, 
+
+24
+00:01:25,469 --> 00:01:29,520
+ook niveau 1 lesgeven. Dus wat we willen is 
+
+25
+00:01:29,520 --> 00:01:33,950
+in plaats van dit 'isgelijk teken' in de AANTAL.ALS, 
+willen we een
+
+26
+00:01:33,950 --> 00:01:37,079
+vergelijking, we willen het niveau 
+vergelijken
+
+27
+00:01:37,079 --> 00:01:40,310
+met het niveau in het lerarenwerkblad. 
+En we kunnen dit proberen, 
+
+28
+00:01:40,310 --> 00:01:43,479
+maar helaas, ook al ziet het er
+goed uit, 
+
+29
+00:01:43,479 --> 00:01:47,869
+mag dit niet in Excel. We moeten er
+een stukje tekst van maken, 
+
+30
+00:01:47,869 --> 00:01:51,729
+een string, door het toevoegen van
+aanhalingsteken en ampersand. 
+
+31
+00:01:51,729 --> 00:01:54,479
+En nu krijgen we in B de vergelijking van
+
+32
+00:01:54,479 --> 00:01:57,789
+hoeveel van onze leraren tot een bepaald
+niveau 
+
+33
+00:01:57,789 --> 00:02:02,409
+kunnen lesgeven, dus iedereen die kan
+lesgeven aan niveau 1 en hoger. 
+
+34
+00:02:02,409 --> 00:02:04,219
+En je kan zien dat dit eigenlijk is
+wat we willen, 
+
+35
+00:02:04,219 --> 00:02:08,890
+maar toch is er één klein foutje, in 
+de laatste kolom hier, hebben we
+
+36
+00:02:08,890 --> 00:02:12,319
+4 en 5. We verwachten 4,
+
+37
+00:02:12,319 --> 00:02:16,650
+maar we krijgen 3. En ik gok dat je 
+mijn fout ziet, want ik vergat
+
+38
+00:02:16,650 --> 00:02:20,840
+de dollartekens toen ik alles naar beneden
+sleepte.
+
+39
+00:02:20,840 --> 00:02:24,700
+Dus als ik het goed wil hebben, 
+moet ik deze dollartekens
+
+40
+00:02:24,700 --> 00:02:28,760
+niet vergeten. En wat hier ook een beetje
+omslachtig is,
+
+41
+00:02:28,760 --> 00:02:32,150
+is als ik per ongeluk een andere 
+kolom gebruik, bijvoorbeeld
+
+42
+00:02:32,150 --> 00:02:37,609
+ik typ per ongeluk 'E', dan
+het is moeilijk mijn fout te zien.
+
+43
+00:02:37,609 --> 00:02:39,379
+Want 'D' and 'E'
+
+44
+00:02:39,379 --> 00:02:42,969
+bevatten gelijkwaardige waarden, het is moeiljk
+om te zien waar
+
+45
+00:02:42,969 --> 00:02:47,579
+deze formule naar verwijst. Dus deze twee
+problemen,
+
+46
+00:02:47,579 --> 00:02:50,180
+vergeet het dollarteken
+niet
+
+47
+00:02:50,180 --> 00:02:54,019
+en het is moeilijk om te zien
+waar een cellreferentie naar verwijst, worden
+
+48
+00:02:54,019 --> 00:02:54,819
+aangepakt
+
+49
+00:02:54,819 --> 00:02:59,030
+met gebruik van bereiknamen, en dat is het onderwerp
+van deze week.
+
+50
+00:02:59,030 --> 00:03:02,109
+Dus laten we teruggaan naar ons voorbeeld
+en kijken wat we kunnen doen
+
+51
+00:03:02,109 --> 00:03:06,060
+als je de referentie wilt veranderen
+in een bereiknaam.
+
+52
+00:03:06,060 --> 00:03:09,810
+We gaan naar het lerarenwerkblad en selecteren
+een paar cellen
+
+53
+00:03:09,810 --> 00:03:13,349
+en typen de naam die we zouden willen
+geven aan dat
+
+54
+00:03:13,349 --> 00:03:17,859
+bereik van cellen. Heel gemakkelijk, je gaat 
+naar de linkerbovenhoek  
+
+55
+00:03:17,859 --> 00:03:22,859
+en typt de naam. En als je bent vergeten
+waarvan een bereiknaam is, dan
+
+56
+00:03:22,859 --> 00:03:24,629
+kan je dit kleine drop-down menu gebruiken
+
+57
+00:03:24,629 --> 00:03:28,090
+en die wijst automatisch naar
+de bereiknaam. 
+
+58
+00:03:28,090 --> 00:03:31,090
+En je kunt deze bereiknaam nu gebruiken in
+een functie
+
+59
+00:03:31,090 --> 00:03:34,560
+in plaats van een cellreferentie. Dus ik
+kan de 
+
+60
+00:03:34,560 --> 00:03:38,599
+bereiknaam selecteren, ik krijg hier
+zelfs een lijst met alle bereiknamen in mijn
+
+61
+00:03:38,599 --> 00:03:39,549
+spreadsheet,
+
+62
+00:03:39,549 --> 00:03:42,700
+en ik sleep het naar beneden. En zie je
+heel makkelijk
+
+63
+00:03:42,700 --> 00:03:46,299
+wat ik bereken.
+
+64
+00:03:46,299 --> 00:03:49,859
+Het is makkelijk, want ik kan het gewoon lezen, 
+zoals een boek of een zin.
+
+65
+00:03:49,859 --> 00:03:52,959
+Ik tel het maximale niveau van de
+leraren.
+
+66
+00:03:52,959 --> 00:03:56,709
+Ik hoef niet te achterhalen waar ik
+precies naar verwijs, 
+
+67
+00:03:56,709 --> 00:03:58,689
+en dat is de kracht van bereiknamen. 
+

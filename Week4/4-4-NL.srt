@@ -1,0 +1,436 @@
+1
+00:00:01,540 --> 00:00:05,260
+In de vorige video hebben we onze 
+data omgezet naar een data tabel
+
+2
+00:00:05,270 --> 00:00:09,240
+en hebben daar analyses mee gedaan. Dus wat 
+we nu willen doen is
+
+3
+00:00:09,240 --> 00:00:13,320
+een planning maken. We willen een planning 
+maken welke leraren welke cursussen
+
+4
+00:00:13,320 --> 00:00:15,120
+op welke dag van de week geven.
+
+5
+00:00:15,120 --> 00:00:18,750
+Dus uiteindelijk gaan we iets 
+doen zoals dit,
+
+6
+00:00:18,750 --> 00:00:22,320
+maar laten we beginnen met een 
+tussenstap.
+
+7
+00:00:22,320 --> 00:00:25,470
+We hebben hier een lijst met welke 
+cursussen er
+
+8
+00:00:25,470 --> 00:00:28,900
+op welke dag van de week zijn. Dus we willen 
+in onze planning,
+
+9
+00:00:28,900 --> 00:00:33,030
+waar we eerste instantie geen namen hebben,
+gewoon een X zetten
+
+10
+00:00:33,030 --> 00:00:37,219
+op de plekken waar we lessen hebben 
+en leeglaten of streepje zetten
+
+11
+00:00:37,219 --> 00:00:40,949
+op de plaatsen waar we geen lessen 
+hebben voor een gegeven niveau.
+
+12
+00:00:40,949 --> 00:00:44,699
+We kunnen dat doen met een functie, 
+dat hebben we al eerder gezien
+
+13
+00:00:44,699 --> 00:00:48,659
+namelijk de VIND.SPEC functie. 
+
+14
+00:00:51,170 --> 00:00:53,420
+We gebruiken de VIND.SPEC functie om
+te zoeken naar
+
+15
+00:00:53,420 --> 00:00:57,829
+een waarde in een string, net zoals we dat 
+eerder hebben gedaan. Dus we gaan zoeken
+
+16
+00:00:57,829 --> 00:01:02,530
+naar deze 1 in de lijst met alle 
+lessen die we aanbieden op maandag.
+
+17
+00:01:02,530 --> 00:01:05,750
+en die vinden we, als we deze 
+formule uitvoeren,
+
+18
+00:01:05,750 --> 00:01:08,540
+en inderdaad er is een 1 in deze string
+
+
+19
+00:01:08,540 --> 00:01:14,150
+op de eerste locatie, dus op positie 1. Hier moeten 
+we een dollarteken toevoegen natuurlijk, omdat
+
+20
+00:01:14,150 --> 00:01:16,610
+we deze functie naar beneden gaan doortrekken
+
+21
+00:01:16,610 --> 00:01:20,810
+we willen gefocused, gericht 
+blijven op de eerste regel.
+
+22
+00:01:20,810 --> 00:01:24,660
+Wat je nu ziet is dat we in dit geval niet 
+de 1 vinden, we vinden
+
+23
+00:01:24,660 --> 00:01:28,950
+een fout (error) waarde. We kunnen deze fout
+opvangen met de functie
+
+24
+00:01:28,950 --> 00:01:32,240
+ISFOUT. We vragen Excel 
+
+25
+00:01:32,240 --> 00:01:35,780
+resulteert deze formule in een fout, 
+ja of nee?
+
+26
+00:01:35,780 --> 00:01:39,630
+Ik moet eigelijk zeggen WAAR of ONWAAR, 
+omdat dat het resultaat van deze formule is.
+
+27
+00:01:39,630 --> 00:01:43,570
+Dus je ziet voor het geval waar we een 1
+hebben gevonden, we een ONWAAR krijgen
+
+28
+00:01:43,570 --> 00:01:46,990
+Nu kunnen we daarbovenop een ALS toepassen,
+we kunnen zeggen:
+
+29
+00:01:46,990 --> 00:01:52,770
+als we een fout krijgen, dan willen we een streepje, 
+en als we geen fout krijgen dan 
+
+30
+00:01:52,770 --> 00:01:54,030
+willen we een X.
+
+31
+00:01:54,030 --> 00:01:59,250
+Zo krijgen we X'en op alle plaatsen waar
+we inderdaad deze les geven
+
+32
+00:01:59,250 --> 00:02:01,880
+op deze dag.
+
+33
+00:02:01,880 --> 00:02:06,310
+Dus we zijn er bijna, we kunnen 
+deze formule naar rechts doortrekken
+
+34
+00:02:06,310 --> 00:02:07,510
+en dan krijgen we
+
+35
+00:02:07,510 --> 00:02:11,810
+onze formule. Helaas, we zijn één ding
+vergeten,
+
+36
+00:02:11,810 --> 00:02:16,790
+nog een extra dollarteken. Ze zijn zo
+vervelend en zomaar vergeten, toch?
+
+37
+00:02:17,200 --> 00:02:21,849
+Dus als we een dollarteken toevoegen aan 
+onze formule, en we trekken dit door naar rechts
+
+38
+00:02:21,849 --> 00:02:24,989
+dan hebben we inderdaad onze functie.
+
+39
+00:02:24,989 --> 00:02:29,249
+Echter, ik vind deze formule niet zo 
+zo goed ...
+
+40
+00:02:29,249 --> 00:02:30,870
+als je er naar kijkt,
+
+41
+00:02:30,870 --> 00:02:33,900
+dan heb je een dollarteken hier en 
+een ander dollarteken daar,
+
+42
+00:02:33,900 --> 00:02:38,510
+Ik weet vrij zeker dat als je deze formule 
+morgen of over een week of drie weer ziet
+
+43
+00:02:38,510 --> 00:02:44,159
+je denkt: "Ik weet niet meer precies wat hier
+gebeurd".
+
+44
+00:02:44,159 --> 00:02:47,099
+Dus we kunnen onze formule een stuk simpeler maken,
+
+45
+00:02:47,099 --> 00:02:50,730
+door ... Ik gok dat jullie het al raden ...
+
+46
+00:02:50,730 --> 00:02:54,230
+een bereiknaam. Dus als 
+
+47
+00:02:54,230 --> 00:02:57,329
+we de eerste regel van het werkblad nemen 
+
+48
+00:02:57,329 --> 00:03:00,230
+en veranderen naar een bereiknaam, laten 
+we dit 
+
+49
+00:03:00,230 --> 00:03:03,560
+'HorzLevels', Horizontale Niveaus noemen. 
+dan is er
+
+50
+00:03:03,560 --> 00:03:05,879
+een speciale truuk die we kunnen gebruiken,
+
+51
+00:03:05,879 --> 00:03:11,399
+wanneer we zo een bereiknaam toepassen.
+We kunnen namelijk refereren naar dat bereik. 
+
+52
+00:03:11,400 --> 00:03:15,560
+vanaf een onderliggende regel. Laten we eens 
+kijken hoe dat eruit ziet.
+
+53
+00:03:15,560 --> 00:03:18,469
+Als we in deze cel invullen: 
+
+54
+00:03:18,469 --> 00:03:21,590
+is gelijk aan bereiknaam, wat we 
+dan in feite krijgen is
+
+55
+00:03:21,590 --> 00:03:25,810
+de intersectie van de kolom van deze cel
+
+56
+00:03:25,810 --> 00:03:29,180
+met de regel die nu het bereiknaam is.
+
+57
+00:03:29,180 --> 00:03:33,349
+Dus, zonder iets te doen, geen celverwijzingen
+of berekeningen, kunnen we dus
+
+58
+00:03:33,349 --> 00:03:36,919
+verwijzen naar een bereiknaam en krijgen 
+we de waarde
+
+59
+00:03:36,919 --> 00:03:40,959
+van het kruispunt (intersectie). We trekken 
+dit naar beneden door. Zonder dollartekens.
+
+60
+00:03:40,959 --> 00:03:44,299
+en je ziet dat je de waarde krijgt van 
+het bereiknaam. Als je nu 
+
+61
+00:03:44,299 --> 00:03:45,709
+buiten dit bereik komt
+
+62
+00:03:45,709 --> 00:03:49,939
+dan krijg je een fout. We kunnen nu deze 
+truc gebruiken om
+
+63
+00:03:49,939 --> 00:03:55,760
+onze formule mooier te maken dan die was. 
+Laten we kijken hoe dat eruit ziet.
+
+64
+00:03:55,760 --> 00:03:58,639
+Dus opnieuw, in slow-motion
+
+65
+00:03:58,639 --> 00:04:03,359
+ik zal laten zien wat we hebben gedaan, want
+het kan even duren voordat je hersenen
+
+66
+00:04:03,359 --> 00:04:07,219
+echt begrijpen hoe intersectie werkt. 
+Dus als je refereert
+
+67
+00:04:07,219 --> 00:04:11,349
+vanuit een cel naar een gegeven 'benoemd 
+bereik' dan krijg je
+
+68
+00:04:11,349 --> 00:04:15,540
+als resultaat de intersectie (kruispunt) 
+tussen de kolom van de cel en 
+
+69
+00:04:15,540 --> 00:04:19,670
+de regel van het bereiknaam. 
+Dus we kunnen dat gebruiken in 
+
+70
+00:04:19,670 --> 00:04:23,530
+deze formule, dat gaat zo. Laten we 
+die lelijke dollartekens
+
+71
+00:04:23,530 --> 00:04:27,360
+weggooien, laten we dat meteen doen.
+en we kunnen
+
+
+72
+00:04:27,360 --> 00:04:31,230
+het vervangen door de naam van het bereiknaam.
+
+73
+00:04:31,230 --> 00:04:33,280
+Het is veel makkelijker om te lezen, je hoeft
+niet meer
+
+74
+00:04:33,280 --> 00:04:35,100
+na te denken over de dollartekens, en je
+hoeft niet meer na te denken
+
+75
+00:04:35,100 --> 00:04:36,350
+over doortrekken (kopiëren)
+
+76
+00:04:36,350 --> 00:04:39,480
+Je zegt simpelweg: "Ik kijk naar boven 
+
+77
+00:04:39,480 --> 00:04:43,320
+naar de 'HorzLevels' benoemd bereik". Meer 
+nog, deze truuk werkt niet alleen
+
+78
+00:04:43,320 --> 00:04:46,570
+binnen een werkblad, het werkt ook tussen
+
+79
+00:04:46,570 --> 00:04:49,510
+werkbladen. Dus als we teruggaan naar
+
+80
+00:04:49,510 --> 00:04:53,280
+het 'Lessons' werkblad en we noemen deze 
+kolom 'Levels', 
+
+81
+00:04:53,280 --> 00:04:57,880
+dan kunnen we dit ook gebruik vanaf dit 
+werkblad. Dus als we nu terugverwijzen 
+
+82
+00:04:57,880 --> 00:05:02,010
+naar het werkblad, hebben we geen formule, 
+geen functies meer nodig, alleen
+
+83
+00:05:02,010 --> 00:05:06,980
+maar een referentie. Je ziet, op dezelfde
+manier krijg je de intersectie
+
+84
+00:05:06,980 --> 00:05:12,010
+van het benoemde bereik in het ene werkblad
+met de regel waar je op dit moment in staat.
+
+85
+00:05:12,010 --> 00:05:15,790
+Dus we kunnen dit ook gebruiken. 
+Laten we zeggen dat ik 
+
+86
+00:05:15,790 --> 00:05:19,590
+'horizontal level' in 'Levels' wil vinden. 
+Dus onze formule
+
+
+87
+00:05:19,590 --> 00:05:22,750
+is nu veel leesbaarder, je kan simpelweg
+navigeren
+
+88
+00:05:22,750 --> 00:05:25,750
+naar de benoemde bereiken die je in je 
+werkblad hebt. Als je vergeten bent waar
+
+89
+00:05:25,750 --> 00:05:26,500
+ze zich bevinden,
+
+90
+00:05:26,500 --> 00:05:31,250
+gebruik naar beneden doortrekken en 
+selecteer bereiknaam binnen de formule. 
+
+
+91
+00:05:31,250 --> 00:05:34,210
+Dus van lelijke dollartekens naar leesbare
+
+92
+00:05:34,210 --> 00:05:36,990
+formules met bereiknamen.
+
