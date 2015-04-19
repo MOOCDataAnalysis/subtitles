@@ -1,0 +1,421 @@
+1
+00:00:00,480 --> 00:00:03,169
+Ik weet zeker dat je inmiddels wel doorhebt
+dat deze week
+
+2
+00:00:03,169 --> 00:00:08,460
+alle video's over draaitabellen gaan. Maar
+tot nu toe hebben we alleen gekeken
+
+3
+00:00:08,460 --> 00:00:09,740
+naar de analyse van
+
+4
+00:00:09,740 --> 00:00:13,210
+één werkblad. We zijn alleen maar
+in ons register
+
+5
+00:00:13,210 --> 00:00:16,240
+gedoken, maar er is meer
+
+6
+00:00:16,240 --> 00:00:20,609
+in ons spreadsheet, toch? We hebben de lijst
+van biersoorten. Naast de tijd
+
+7
+00:00:20,609 --> 00:00:24,699
+en hoeveelheden, hebben we ook de 
+verschillende biersoorten en
+
+8
+00:00:24,699 --> 00:00:29,010
+die zijn deels gerelateerd aan 
+onze bierlijst, met daarin
+
+9
+00:00:29,010 --> 00:00:29,970
+meer informatie.
+
+10
+00:00:29,970 --> 00:00:34,380
+Want we hebben hier een brouwerij, we weten
+het type bier, we weten het
+
+11
+00:00:34,380 --> 00:00:39,149
+alcohol percentage. Dus dat willen we 
+analyseren. Bijvoorbeeld
+
+12
+00:00:39,149 --> 00:00:43,600
+wat is het alcoholpercentage van het meest
+verkochte bier of zoiets. 
+
+13
+00:00:43,600 --> 00:00:48,140
+Maar dat kunnen we nu niet doen, want
+die informatie zit niet in onze draaitabel.
+
+14
+00:00:48,140 --> 00:00:53,379
+We hebben alleen de informatie van het 
+register. Dus deze video gaat helemaal
+
+15
+00:00:53,379 --> 00:00:57,160
+over het combineren van meerdere 
+werkbladen in
+
+16
+00:00:57,160 --> 00:00:59,660
+één overzichtsdraaitabel.
+
+17
+00:01:01,660 --> 00:01:04,000
+Wat we natuurlijk kunnen
+doen is, 
+
+18
+00:01:04,000 --> 00:01:07,010
+misschien schreeuwden je opnieuw naar je
+computerscherm,
+
+19
+00:01:07,010 --> 00:01:10,659
+we kunnen VERT.ZOEKEN gebruiken. Dus als je
+de brouwerij van ieder biersoort
+
+20
+00:01:10,659 --> 00:01:11,369
+wilt,
+
+21
+00:01:11,369 --> 00:01:16,909
+kunnen we VERT.ZOEKEN gebruiken. Natuurlijk
+zetten we dan de laatste parameter op ONWAAR,
+
+22
+00:01:16,909 --> 00:01:17,960
+dat weet je nu, 
+
+23
+00:01:17,960 --> 00:01:21,820
+en dan hebben we de brouwer van
+ieder bier. En nu kunnen we een analyse doen
+
+24
+00:01:21,820 --> 00:01:26,200
+over de brouwerijen. Echter als we 
+dit voortzetten, 
+
+25
+00:01:26,200 --> 00:01:29,950
+we halen de brouwerij binnen, maar
+ook 
+
+26
+00:01:29,950 --> 00:01:33,290
+het alcoholpercentage, en het type, 
+en de categorie van het bier, 
+
+27
+00:01:33,290 --> 00:01:38,020
+dan krijgen we veel dubbel. Eigenlijk
+herhalen we het gehele 
+
+28
+00:01:38,020 --> 00:01:38,799
+bierwerkblad
+
+29
+00:01:38,799 --> 00:01:44,619
+in het registerwerkblad. Wat ik hoop
+dat je meeneemt van deze cursus, is dat
+
+30
+00:01:44,619 --> 00:01:46,149
+je moet oppassen voor
+
+31
+00:01:46,149 --> 00:01:49,340
+herhaling. Als je hetzelfde meerdere 
+keren 
+
+32
+00:01:49,340 --> 00:01:53,759
+doet, doe je het waarschijnlijk niet
+op de makkelijkste manier. 
+
+33
+00:01:53,759 --> 00:01:57,840
+Want ik weet zeker dat er altijd een manier
+is om iets eenmaal
+
+34
+00:01:57,840 --> 00:02:02,079
+te doen en dan te herhalen. Dus ik 
+hoop, 
+
+35
+00:02:02,079 --> 00:02:05,630
+misschien over twee jaar werk je
+aan je spreadsheet
+
+36
+00:02:05,630 --> 00:02:09,429
+en denk je: "Hey, dit heb ik een uur
+geleden ook gedaan'.
+
+37
+00:02:09,429 --> 00:02:11,039
+Ik hoop dat je mij dan herinnert:
+
+38
+00:02:11,039 --> 00:02:15,450
+herhaling is geen goed idee, 
+er moet een makkelijkere manier zijn
+
+39
+00:02:15,450 --> 00:02:19,549
+om dit te doen. Deze makkelijke manier
+laat ik je in deze video zien. 
+
+40
+00:02:19,549 --> 00:02:24,310
+Ik beloofde jullie, ongeveer
+drie video's geleden, 
+
+41
+00:02:24,310 --> 00:02:28,629
+dat 'Deze gegevens toevoegen aan het gegevensmodel' 
+belangrijk is en dat zal ik nu
+
+42
+00:02:28,629 --> 00:02:33,040
+uitleggen. Dus we hebben deze data
+toegevoegd
+
+43
+00:02:33,100 --> 00:02:36,120
+aan het gegevensmodel, hij is ergens opgeslagen. 
+
+44
+00:02:36,120 --> 00:02:39,379
+Als we hetzelfde doen met ons
+bier, 
+
+45
+00:02:39,379 --> 00:02:42,889
+we maken een draaitabel van de
+bierlijst
+
+46
+00:02:42,889 --> 00:02:46,370
+en, nogmaals, we voegen het toe aan het
+gegevensmodel, 
+
+47
+00:02:46,370 --> 00:02:50,389
+we zetten het in een ander werkblad.
+Ik heb een werkblad gemaakt met de naam Bierdraaitabel, 
+
+48
+00:02:50,389 --> 00:02:54,049
+en daar zetten we de draaitabel
+voor de bierlijst. 
+
+49
+00:02:54,049 --> 00:02:57,780
+Dus wat je hier nu ziet, precies zoals je
+zag
+
+50
+00:02:57,780 --> 00:03:02,180
+bij de vorige draaitabellen, we hebben hier alle
+velden van ons werkblad. 
+
+51
+00:03:02,180 --> 00:03:05,659
+We kunnen hiermee mooie analyses doen zoals
+
+52
+00:03:05,659 --> 00:03:09,599
+de brouwerij, hoeveel biersoorten
+heeft deze brouwerij?
+
+53
+00:03:09,599 --> 00:03:13,139
+We sorteren en zien dat deze
+eerste brouwer, 
+
+54
+00:03:13,139 --> 00:03:17,699
+de Midnight Sun Brewing Company, 51 
+biersoorten heeft. 
+
+55
+00:03:17,699 --> 00:03:21,079
+Maar wat we nu eigenlijk berekenen
+
+56
+00:03:21,079 --> 00:03:24,440
+is het aantal bieren in de bierlijst,
+
+57
+00:03:24,440 --> 00:03:27,760
+in dit werkblad. Er is nog geen 
+verbinding
+
+58
+00:03:27,760 --> 00:03:31,590
+naar het bier dat we verkopen
+in onze bar. 
+
+59
+00:03:31,590 --> 00:03:34,620
+Dit is niet het bier wat we tellen, 
+
+60
+00:03:34,620 --> 00:03:38,599
+we tellen het bier uit de bierlijst. Dus
+
+61
+00:03:38,599 --> 00:03:42,329
+hier is het gegevensmodel belangrijk.
+Als we naar alle gegevens gaan
+
+62
+00:03:42,329 --> 00:03:45,979
+en zien dat, naast de gegevens van
+dit werkblad wat we nu
+
+63
+00:03:45,979 --> 00:03:47,040
+analyseren, 
+
+64
+00:03:47,040 --> 00:03:51,250
+dat daar ook informatie uit 
+het register staat.
+
+65
+00:03:51,250 --> 00:03:55,040
+En dit is omdat we eerder deze
+gegevens toe hebben gevoegd
+
+66
+00:03:55,040 --> 00:03:58,470
+aan het gegevensmodel. We kunnen dezelfde data
+
+67
+00:03:58,470 --> 00:04:01,959
+van onze eerste draaitabel in de tweede
+draaitabel gebruiken, 
+
+68
+00:04:01,959 --> 00:04:06,579
+want deze hebben we eerst toegevoegd
+aan ons gegevensmodel, dat maakt hierbij uit. 
+
+69
+00:04:06,579 --> 00:04:10,579
+Dus nu kunnen we onze analyse veranderen, 
+zeg: Hey, 
+
+70
+00:04:10,579 --> 00:04:13,959
+we willen niet het aantal bier
+van 
+
+71
+00:04:13,959 --> 00:04:18,289
+de bierlijst. Nee, we willen het aantal
+bier vanuit het register. 
+
+72
+00:04:18,289 --> 00:04:22,150
+Dat is het veld wat we willen toevoegen. 
+Laten we dat veld nemen,
+
+73
+00:04:22,150 --> 00:04:23,380
+verwijderen het, 
+
+74
+00:04:23,380 --> 00:04:28,150
+en we slepen het aantal bier in. 
+Nu gebeurd er iets interessants. 
+
+75
+00:04:28,150 --> 00:04:32,810
+Excel zegt: Hey, ik weet niet hoe ik dit
+moet doen.
+
+76
+00:04:32,810 --> 00:04:37,350
+Deze twee dingen zijn niet verwant. Wat Excel
+eigenlijk vraagt:
+
+77
+00:04:37,350 --> 00:04:42,560
+ik ken die VERT.ZOEKEN niet, die VERT.ZOEKEN
+die we handmatig hebben gemaakt aan het begin.
+
+78
+00:04:42,560 --> 00:04:46,100
+Excel weet niet hoe daarmee om te gaan, dus
+we moeten hem vertellen
+
+79
+00:04:46,110 --> 00:04:49,330
+wat de precieze relatie is tussen die
+twee velden. 
+
+80
+00:04:49,330 --> 00:04:53,990
+En hier zie je hoe we dat doen, de dingen
+die waren gekoppeld bij de VERT.ZOEKEN
+
+81
+00:04:53,990 --> 00:04:57,520
+koppelen we opnieuw. En als we dat nu 
+doen,
+
+82
+00:04:57,520 --> 00:05:00,760
+we sorteren de data, dan zien we welke
+
+83
+00:05:00,760 --> 00:05:04,930
+brouwer het meeste bier verkoopt in
+onze eigen café.
+
+84
+00:05:04,930 --> 00:05:08,650
+Dus we hebben de verbinding gemaakt tussen
+de twee werkbladen door
+
+85
+00:05:08,650 --> 00:05:12,090
+het ze beide toe te voegen aan het gegevensmodel
+en dan Excel verteld
+
+86
+00:05:12,090 --> 00:05:17,070
+dat het bierveld in ons register gerelateerd
+is aan de namenveld in
+
+87
+00:05:17,070 --> 00:05:20,630
+onze bierlijst. Dan kunnen we een analyse
+doen op basis van
+
+88
+00:05:20,630 --> 00:05:24,200
+twee verschillende werkbladen. Allemaal
+met draaitabellen. 
+

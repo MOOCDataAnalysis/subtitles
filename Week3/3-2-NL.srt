@@ -1,0 +1,320 @@
+1
+00:00:00,260 --> 00:00:04,500
+Draaitabellen dus. In de laatste video toonde ik
+je dat
+
+2
+00:00:04,509 --> 00:00:08,200
+formules echt bedoeld zijn voor
+berekening en niet voor gedetailleerde
+
+3
+00:00:08,200 --> 00:00:11,349
+analyses van je gegevens. Dus we kunnen
+
+4
+00:00:11,349 --> 00:00:15,820
+hiervoor een draaitabel gebruiken, en draaien
+betekent letterlijk draaien. Eigenlijk,
+
+5
+00:00:15,820 --> 00:00:19,039
+weet ik niet helemaal zeker waarom het een draaitabel
+wordt genoemd,
+
+6
+00:00:19,039 --> 00:00:22,470
+ik vind het meer een 
+platte tabel,
+
+7
+00:00:22,470 --> 00:00:26,680
+want wat een draaitabel doet is, het
+neemt een hele hoop gegevens
+
+8
+00:00:26,680 --> 00:00:30,220
+en het maakt het plat, aan de hand van een
+dimensie.
+
+9
+00:00:30,960 --> 00:00:36,480
+Dit klinkt misschien erg cryptisch,
+dus laten we naar onze eigen gegevens gaan en
+
+10
+00:00:36,489 --> 00:00:39,540
+een draaitabel maken, dus we hebben deze nare
+
+11
+00:00:39,540 --> 00:00:42,989
+berekening niet meer nodig, we selecteren 
+gewoon
+
+12
+00:00:42,989 --> 00:00:46,379
+ons hele register en voegen dan
+
+13
+00:00:46,379 --> 00:00:51,010
+een draaitabel toe. Dus, ik heb
+een werkblad voor je gemaakt, je kunt
+
+14
+00:00:51,010 --> 00:00:53,829
+de gegevens die je wilt selecteren en zeggen waar je
+ze wilt hebben.
+
+15
+00:00:53,829 --> 00:00:57,920
+Een nieuw werkblad is prima, maar ik heb al
+een draaitabel-werkblad gemaakt
+
+16
+00:00:57,920 --> 00:01:01,949
+en wat belangrijk is, is dat je deze
+gegevens aan het datamodel toevoegt. 
+
+17
+00:01:01,949 --> 00:01:05,239
+Daar zal ik het later over hebben, maar voor nu
+hoef je alleen te onthouden dat je
+
+18
+00:01:05,239 --> 00:01:08,830
+dit altijd wilt. Dus Excel
+rekent nu
+
+19
+00:01:08,830 --> 00:01:14,430
+en heeft voor ons een draaitabel gemaakt.
+Dus misschien denk je: wat nu?
+
+20
+00:01:14,430 --> 00:01:18,340
+Oke, we hebben een draaitabel maar ik
+weet niet wat ik er mee moet doen.
+
+21
+00:01:18,340 --> 00:01:23,170
+Ik zie mijn data niet,
+wat zal ik doen? Ik ben een beetje in de war.
+
+22
+00:01:23,170 --> 00:01:26,549
+Hier kun je zien dat alle velden 
+van ons
+
+23
+00:01:26,549 --> 00:01:30,189
+register beschikbaar zijn voor in
+onze draaitabel.	
+
+24
+00:01:30,189 --> 00:01:34,150
+Als we terug gaan naar het register, zien 
+we dat al die kolomkoppen
+
+25
+00:01:34,150 --> 00:01:37,400
+door Excel zijn waargenomen, hij keek naar de data 
+en
+
+26
+00:01:37,400 --> 00:01:40,689
+zag dat dit de kolomkoppen zijn en
+plaatste ze
+
+27
+00:01:40,689 --> 00:01:45,689
+in de draaitabel voor je. Dus, je kunt
+eentje kiezen en naar de rijlabels slepen
+
+28
+00:01:45,689 --> 00:01:49,600
+en nu gaat hij een aantal dingen berekenen.
+Je ziet dus alle bieren
+
+29
+00:01:49,600 --> 00:01:53,570
+uit ons register nu in onze 
+draaitabel.
+
+30
+00:01:53,570 --> 00:01:59,640
+En dit de reden dat ik sprak over een platte
+tabel, want wat er gebeurd is
+
+31
+00:01:59,640 --> 00:02:03,590
+dat we het hele register hadden, al
+deze bieren.
+
+32
+00:02:03,590 --> 00:02:07,080
+En wat de draaitabel heeft gedaan
+is, is het vereenvoudigen tot
+
+33
+00:02:07,090 --> 00:02:09,950
+alleen de biernamen.
+
+34
+00:02:10,480 --> 00:02:12,800
+Dus, hier bijvoorbeeld
+
+35
+00:02:12,800 --> 00:02:17,380
+de Schlafly Oktoberfest komt twee keer voor,
+maar in de platte draaitabel
+
+36
+00:02:17,380 --> 00:02:20,750
+komt hij slechts eenmaal voor. Alleen de unieke
+waarden blijven,
+
+37
+00:02:20,750 --> 00:02:26,410
+zoals je hier ziet. Maar we analyseren nog 
+niet echt, we hebben alleen de lijst van
+
+38
+00:02:26,410 --> 00:02:28,700
+bieren, natuurlijk willen we daar iets
+mee doen.
+
+39
+00:02:28,700 --> 00:02:33,430
+Dus we kunnen die hoeveelheid nemen
+en slepen naar het waardenveld.
+
+40
+00:02:33,430 --> 00:02:36,040
+En wat er nu is gebeurd, is het optellen van de hoeveelheid
+
+41
+00:02:36,040 --> 00:02:39,410
+per bier. Dus tijdens het plat maken van de
+data,
+
+42
+00:02:39,410 --> 00:02:42,510
+zijn alle hoeveelheden opgesteld, 
+
+43
+00:02:42,510 --> 00:02:46,900
+en als we het sorteren krijgen we
+hetzelfde resultaat als we eerst
+
+44
+00:02:46,900 --> 00:02:49,640
+hadden met de SOM.ALS-functie.
+
+45
+00:02:49,640 --> 00:02:54,040
+We krijgen 170 items verkocht voor het Schlafly
+Oktoberfest bier.
+
+46
+00:02:55,640 --> 00:02:57,280
+Dus stel dat
+
+47
+00:02:57,290 --> 00:03:00,630
+je baas weer binnenkomt en zegt:
+"Welk bier
+
+48
+00:03:00,630 --> 00:03:05,720
+verkoopt het beste na 23:00? "Dit is super
+makkelijk, omdat we het veld 'tijd' kunnen 
+
+49
+00:03:05,720 --> 00:03:09,660
+gebruiken om onze data te filteren. Dus we
+nemen 'tijd',
+
+50
+00:03:09,660 --> 00:03:14,820
+we slepen het naar beneden naar het filter en nu
+hebben we de lijst van alle tijden
+
+51
+00:03:14,820 --> 00:03:17,830
+in een dropdown functie. Dus we
+
+52
+00:03:17,830 --> 00:03:21,780
+zeggen gewoon dat we er een paar willen, we
+scrollen naar beneden en we
+
+53
+00:03:21,780 --> 00:03:26,810
+vinken alles aan wat na 23:00 is. Je
+kunt ook een formule gebruiken, maar 
+
+54
+00:03:26,810 --> 00:03:30,000
+klikken is ook super gemakkelijk. En
+dan kunnen we
+
+55
+00:03:30,000 --> 00:03:33,970
+zien dat het best verkochte bier na 23:00
+deze Schlafly Oktoberfest is.
+
+56
+00:03:33,970 --> 00:03:38,120
+We wisten dat van de functie SOM.ALS,
+maar nu hebben we het gedaan
+
+57
+00:03:38,120 --> 00:03:44,020
+zonder formules! Dus, vergelijk wat ik
+deed in deze video met wat ik heb gedaan in de
+
+58
+00:03:44,020 --> 00:03:45,190
+vorige video.
+
+59
+00:03:45,190 --> 00:03:48,370
+Ik heb geen formules gebruikt, het was slechts
+
+60
+00:03:48,370 --> 00:03:52,160
+het importeren van mijn gegevens in de
+draaitabel, het juiste veld selecteren,
+
+61
+00:03:52,160 --> 00:03:55,410
+toepassen van de juiste filter en
+de analyse is er.
+
+62
+00:03:55,410 --> 00:03:59,900
+En is nu is het super makkelijk om er
+achter te komen welk bier het best verkocht vóór
+
+63
+00:03:59,900 --> 00:04:00,920
+07:00.
+
+64
+00:04:00,920 --> 00:04:06,010
+Verander alleen het filter een beetje, geen
+formules nodig, geen wijziging aan formules
+
+65
+00:04:06,010 --> 00:04:06,660
+nodig,
+
+66
+00:04:06,660 --> 00:04:11,150
+en ik heb mijn analyse. Dus een 
+draaitabel
+
+67
+00:04:11,150 --> 00:04:13,850
+is een makkelijke manier om met onze data te spelen.
+

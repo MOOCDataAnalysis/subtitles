@@ -1,0 +1,210 @@
+1
+00:00:00,560 --> 00:00:04,250
+In de vorige video's hebben we dus gekeken hoe we
+draaitabellen gebruiken voor simpele
+
+2
+00:00:04,250 --> 00:00:05,080
+analyses
+
+3
+00:00:05,080 --> 00:00:08,099
+en in de volgende video's duiken we echt
+
+4
+00:00:08,099 --> 00:00:12,809
+in alle mogelijkheden die draaitabellen
+te bieden hebben. Dit is dus 
+
+5
+00:00:12,809 --> 00:00:13,820
+waar we uiteindelijk in vorige
+
+6
+00:00:13,820 --> 00:00:17,130
+video mee eindigde. We kunnen een 
+extra
+
+7
+00:00:17,130 --> 00:00:21,039
+rijlabel toevoegen, bijvoorbeeld de 
+datum, en nu krijgen we
+
+8
+00:00:21,039 --> 00:00:24,350
+een gestapelde lijst van rijen. Dus we
+
+9
+00:00:24,350 --> 00:00:27,570
+krijgen het type bier en daaronder
+alle data
+
+10
+00:00:27,570 --> 00:00:31,920
+waarop we de bieren verkochten.
+We kunnen ze openen en sluiten als een 
+
+11
+00:00:31,920 --> 00:00:32,579
+mappen structuur
+
+12
+00:00:32,579 --> 00:00:37,309
+en we kunnen precies onderzoeken
+op welke dag we welk bier verkochten. 
+
+13
+00:00:37,309 --> 00:00:41,329
+En we kunnen ze ook ruilen, zodat de 
+datum het hoogste level is, 
+
+14
+00:00:41,329 --> 00:00:45,660
+en dan krijgen we voor elke dag de bieren 
+die zijn verkocht
+
+15
+00:00:45,660 --> 00:00:48,989
+op die datum. En dat maakt het 
+makkelijk
+
+16
+00:00:48,989 --> 00:00:53,180
+om echt in de data te duiken en te begrijpen
+wat mijn klanten doen, 
+
+17
+00:00:53,180 --> 00:00:56,740
+wanneer drinken ze wat voor een soort
+bier?
+
+18
+00:00:59,280 --> 00:01:02,160
+Dus, tot nu toe hebben we alleen
+
+19
+00:01:02,170 --> 00:01:07,260
+gekeken naar SOMen, maar we kunnen alle verschillende
+soorten functie gebruiken, we hoeven
+
+20
+00:01:07,260 --> 00:01:08,380
+niet de som te gebruiken.
+
+21
+00:01:08,380 --> 00:01:12,369
+Er zijn veel andere functies die 
+we kunnen gebruiken onder de
+
+22
+00:01:12,369 --> 00:01:12,979
+waardeinstellingen.
+
+23
+00:01:12,979 --> 00:01:14,979
+Als we op deze klikken..
+
+24
+00:01:16,640 --> 00:01:20,860
+Ja, daar gaan we. Als je erop klikt
+kan je een heleboel andere velden selecteren. 
+
+25
+00:01:20,860 --> 00:01:24,299
+Dus je ziet SOM, maar je ook ook 
+AANTAL of MIN of MAX gebruiken. 
+
+26
+00:01:24,299 --> 00:01:28,509
+Dus laten we GEMIDDELD nemen, het 
+gemiddelde van
+
+27
+00:01:28,509 --> 00:01:33,360
+de aantalen die verkocht zijn. En wat
+betekent dat eigenlijk, 
+
+28
+00:01:33,360 --> 00:01:36,970
+het gemiddelde van de aantallen? Het is
+niet het gemiddelde van de gehele kolom, 
+
+29
+00:01:36,970 --> 00:01:42,369
+we krijgen het gemiddelde per bier, van 
+wat er ook in die 'aantallen'-kolom staat. 
+
+30
+00:01:42,369 --> 00:01:45,979
+Dus, je ziet dat als we sorteren op waarden, 
+laten we sorteren, 
+
+31
+00:01:45,979 --> 00:01:52,380
+zodat we echt kunnen zien wat er gaande is. Ja, 
+daar gaan we, we sorteren de waarden en zien dat sommige
+
+32
+00:01:52,380 --> 00:01:53,229
+bieren
+
+33
+00:01:53,229 --> 00:01:57,930
+gemiddeld per twee worden verkocht. 
+Dus we kunnen zeggen dat de Chocolate Stout
+
+34
+00:01:57,930 --> 00:02:02,610
+echt een date bier is, mensen kopen het in duo's. 
+Terwijl een Bud Light meestal 
+
+35
+00:02:02,610 --> 00:02:05,630
+wordt gekocht in grotere groepen. 
+
+36
+00:02:05,630 --> 00:02:10,070
+Dat is wel een soort logisch, je koopt
+wat Bud Light's voor je vrienden, maar
+
+37
+00:02:10,070 --> 00:02:11,050
+een Chocolate Stout,
+
+38
+00:02:11,050 --> 00:02:14,070
+koop je voor je date. 
+Dus als je het gemiddelde
+
+39
+00:02:14,070 --> 00:02:18,170
+gebruikt, kijk je naar de gegevens 
+op een andere manier. We zoek niet 
+
+40
+00:02:18,170 --> 00:02:19,210
+het totaal
+
+41
+00:02:19,210 --> 00:02:22,990
+maar terwijl we de data plat slaan,
+nemen we het gemiddelde 
+
+42
+00:02:22,990 --> 00:02:28,600
+van alle soorten bier die we verkopen. Dus 
+zo kan je met draaitabellen
+
+43
+00:02:28,600 --> 00:02:32,860
+echt in je data duiken, ik ga dit 
+vaak zeggen in deze reeks, 
+
+44
+00:02:32,860 --> 00:02:35,980
+in je data duiken en het help ons te begrijpen
+
+45
+00:02:35,980 --> 00:02:37,160
+wat het eigenlijk betekent. 
+

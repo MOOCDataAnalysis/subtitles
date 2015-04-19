@@ -1,0 +1,605 @@
+1
+00:00:00,440 --> 00:00:04,500
+Hoi, welkom bij de video van deze week!
+Deze week hebben we 
+
+2
+00:00:04,500 --> 00:00:09,020
+het alleen over draaitabellen en 
+ik denk dat dit een 
+
+3
+00:00:09,028 --> 00:00:10,041
+opluchting voor je is, 
+
+4
+00:00:10,041 --> 00:00:13,761
+want als je de oefening hebt gedaan 
+van deze week, ben
+
+5
+00:00:13,929 --> 00:00:18,420
+je waarschijnlijk hiermee geëindigd. Dus, 
+ik ga er vanuit dat je genoeg formules
+
+6
+00:00:18,420 --> 00:00:20,600
+hebt gezien voor een week.
+
+7
+00:00:20,619 --> 00:00:25,659
+Dus, deze week geen nieuwe formules, we
+gaan het hebben over het analyseren
+
+8
+00:00:25,660 --> 00:00:27,540
+van data met draaitabellen.
+
+9
+00:00:28,120 --> 00:00:31,200
+Daarnaast stoppen we met de 
+ijzerhandel.
+
+10
+00:00:31,200 --> 00:00:34,200
+Ik denk dat we even genoeg hebben
+gezien van de ijzerhandel,
+
+11
+00:00:34,200 --> 00:00:35,280
+dus deze week
+
+12
+00:00:35,300 --> 00:00:39,420
+gaan we een cafe runnen. De spreadsheet
+voor het cafe lijkt op die van 
+
+13
+00:00:39,429 --> 00:00:42,200
+de ijzerhandel, want we hebben
+weer een uitdraai
+
+14
+00:00:42,280 --> 00:00:46,860
+van een register, waar we bijhouden
+wat er verkocht wordt aan de bar. 
+
+15
+00:00:46,860 --> 00:00:51,017
+Maar we hebben wat meer informatie deze
+keer, want naast de datum
+
+16
+00:00:51,017 --> 00:00:54,617
+de tijd, het type bier wat we verkopen, 
+en de kwaliteit, 
+
+17
+00:00:54,699 --> 00:00:57,879
+houden we ook bij wie het bier
+koopt.
+
+18
+00:00:57,880 --> 00:01:01,320
+Dus, we gaan ervan uit dat iedere klant
+een soort klantenkaart heeft, 
+
+19
+00:01:01,329 --> 00:01:04,068
+dus we weten precies wie 
+wat koopt 
+
+20
+00:01:04,068 --> 00:01:07,868
+en daardoor kunnen we natuurlijk 
+mooie analyses doen.
+
+21
+00:01:09,320 --> 00:01:10,900
+Dus met deze data, 
+
+22
+00:01:10,900 --> 00:01:14,960
+hebben we ook in een ander werkblad een 
+lijst van alle bieren die we verkopen,
+
+23
+00:01:15,000 --> 00:01:18,000
+alle bieren die er zijn. Stel we
+hebben gegoogled
+
+24
+00:01:18,001 --> 00:01:21,321
+naar alle bieren en hebben hier een
+mooie lijst van.
+
+25
+00:01:21,321 --> 00:01:24,541
+Dus, natuurlijk, een vraag die 
+we onszelf kunnen stellen:
+
+26
+00:01:24,620 --> 00:01:28,320
+hoeveel van ieder biersoort
+is er verkocht?
+
+27
+00:01:28,480 --> 00:01:32,260
+Dus we kunnen hiervoor de functie AANTAL.ALS
+gebruiken, ik weet zeker dat
+
+28
+00:01:32,260 --> 00:01:34,000
+je hier nu vertrouwd mee bent.
+
+29
+00:01:34,000 --> 00:01:37,180
+We kijken in het register hoevaak
+we een bepaald biertje
+
+30
+00:01:37,189 --> 00:01:39,949
+hebben verkocht. 
+
+31
+00:01:40,059 --> 00:01:44,639
+Simpel toch? Dat weet je al.
+Een vraag: is deze formule
+
+32
+00:01:44,659 --> 00:01:50,219
+eigenlijk goed? Zie je iets dat
+fout zou kunnen zijn aan de formule?
+
+33
+00:01:50,360 --> 00:01:53,120
+Ik geef je één seconde bedenktijd.
+
+34
+00:01:55,074 --> 00:02:00,134
+Ik hoop dat je naar je computerscherm
+schreeuwde terwijl ik stopte, 
+
+35
+00:02:00,140 --> 00:02:02,560
+want natuurlijk zijn er een paar dingen
+
+36
+00:02:02,560 --> 00:02:06,939
+fout aan deze formule. Het eerste
+is dat bier voorvoegsel, 
+
+37
+00:02:06,939 --> 00:02:10,067
+die hebben we niet nodig. Excel voegt dat
+
+38
+00:02:10,067 --> 00:02:14,187
+toe als je van werkblad wisselt, maar het is 
+beter om het te verwijderen. 
+
+39
+00:02:14,187 --> 00:02:18,500
+Maar nog iets anders is mis met deze
+functie, ik vind de AANTAL.ALS niet
+
+40
+00:02:18,500 --> 00:02:22,079
+goed, want we hebben een hoeveelheid.
+
+41
+00:02:22,079 --> 00:02:25,479
+Wat we doen met de AANTAL.ALS is 
+het tellen
+
+42
+00:02:25,660 --> 00:02:28,940
+van alle rijen, maar dat willen
+we niet.
+
+43
+00:02:29,014 --> 00:02:32,774
+We willen SOM.ALS gebruiken, 
+want we willen de som
+
+44
+00:02:32,780 --> 00:02:37,580
+van alle aantallen die we verkopen. 
+Dus we moeten onze formule een klein
+
+45
+00:02:37,580 --> 00:02:38,760
+beetje veranderen, 
+
+46
+00:02:38,760 --> 00:02:42,300
+want we moeten Excel ook vertellen
+wat de kolom is
+
+47
+00:02:42,320 --> 00:02:45,020
+die we sommeren, en als we deze
+functie toevoegen
+
+48
+00:02:45,044 --> 00:02:48,444
+klopt de formule.
+
+49
+00:02:50,180 --> 00:02:53,020
+Echter, ook al klopt de formule, iets
+
+50
+00:02:53,029 --> 00:02:57,086
+is een beetje moeilijk hier, 
+want je ziet in deze
+
+51
+00:02:57,086 --> 00:02:58,640
+'aantal verkocht'-kolom
+
+52
+00:02:58,640 --> 00:03:02,032
+dat we hier nullen hebben. Want de 
+lijst met alle
+
+53
+00:03:02,032 --> 00:03:05,034
+mogelijke bieren die we kunnen verkopen 
+is zo lang,
+
+54
+00:03:05,040 --> 00:03:09,320
+dat de eerste überhaupt niet
+voorkomen. 
+
+55
+00:03:09,320 --> 00:03:12,000
+Dus, ik moet op sorteren drukken, ik ga naar
+
+56
+00:03:12,022 --> 00:03:15,029
+het lint, klik 'sorteren', stel ik wil
+
+57
+00:03:15,092 --> 00:03:19,972
+het hoogste nummer boven. En dan, 
+zoals je ziet, 
+
+58
+00:03:20,006 --> 00:03:24,360
+zien we welke bieren we hebben
+verkocht. Het is dus veel gedoe
+
+59
+00:03:24,360 --> 00:03:26,140
+om alles te doen.
+
+60
+00:03:26,340 --> 00:03:29,000
+En daarnaast zouden we nog moeilijkere
+
+61
+00:03:29,001 --> 00:03:33,038
+vragen kunnen stellen. Stel dat onze baas
+binnen komt, en ook al hebben we onze business
+
+62
+00:03:33,047 --> 00:03:37,807
+veranderd van ijzerhandel naar bier, we hebben 
+nog steeds de zelfde baas.
+
+63
+00:03:37,807 --> 00:03:39,280
+Vreemd he!
+
+64
+00:03:39,280 --> 00:03:42,340
+En ze vraagt erg interessante vragen
+zoals: welke bieren
+
+65
+00:03:42,519 --> 00:03:45,799
+zijn het meest verkocht na 23:00?
+
+66
+00:03:45,959 --> 00:03:49,419
+Dit is waarschijnlijk boeiend om te
+weten, want je wilt weten welk
+
+67
+00:03:49,420 --> 00:03:50,600
+bier populair
+
+68
+00:03:50,600 --> 00:03:54,016
+is in het begin en aan het einde
+van de avond.
+
+69
+00:03:54,016 --> 00:03:57,059
+Als we zo een dergelijke
+analyse moeten doen, 
+
+70
+00:03:57,059 --> 00:04:01,358
+wordt het een beetje onhandig.
+Want, allereerst, moeten we een
+
+71
+00:04:01,360 --> 00:04:02,800
+kolom toevoegen
+
+72
+00:04:02,800 --> 00:04:05,840
+met tijden na 23:00.
+
+73.
+00:04:05,840 --> 00:04:08,880
+En je eerste intuïtie zal een
+
+74
+00:04:08,880 --> 00:04:13,040
+ALS-functie zijn, maar dat is
+niet nodig. We kunnen gewoon
+
+75
+00:04:13,048 --> 00:04:13,968
+een vergelijkingsfunctie 
+
+76
+00:04:14,015 --> 00:04:18,784
+als EXCEL-functie gebruiken. Dus hier doen we 
+een eerste 
+
+77
+00:04:18,919 --> 00:04:23,033
+poging, we zeggen als de tijd
+groter is dan 23. 
+
+78
+00:04:23,033 --> 00:04:27,393
+Maar dat werkt niet echt, 
+want zoals je ziet hebben we in dit geval
+
+79
+00:04:27,400 --> 00:04:28,720
+23:00,
+
+80
+00:04:28,720 --> 00:04:34,280
+maar we krijgen toch ONWAAR. De reden hiervoor
+is de manier waarop EXCEL werkt met
+
+81
+00:04:34,280 --> 00:04:36,480
+tijden, is dat hij de tijd opslaat
+
+82
+00:04:36,600 --> 00:04:42,540
+als een fractie van de dag. Dus 17:00 is 
+hier ongeveer 0.7. 
+
+83
+00:04:42,780 --> 00:04:46,340
+Dat zie je als je de tijd verandert 
+naar een nummer.
+
+84
+00:04:46,340 --> 00:04:51,000
+Dus voor een goede vergelijking van tijden
+moeten we vergelijken met een tijd.
+
+85
+00:04:51,000 --> 00:04:55,220
+We hebben de tijd, 23 uur, 0 minuten en 0 seconden, 
+
+86
+00:04:55,280 --> 00:04:59,500
+en als we dit gebruiken als vergelijking
+krijgen we WAAR
+
+87
+00:04:59,599 --> 00:05:04,819
+als het later is dan 23:00.
+Dus ik speelde een beetje vals.
+
+88
+00:05:04,820 --> 00:05:08,580
+In zei aan het begin van de video dat ik 
+geen nieuwe formules zou behandelen. 
+
+89
+00:05:08,580 --> 00:05:12,800
+Dit is een nieuwe formule, maar ik hoop 
+dat je het door de vingers ziet, want
+
+90
+00:05:12,800 --> 00:05:14,040
+hij is makkelijk en alleen
+
+91
+00:05:14,040 --> 00:05:15,800
+voor vergelijking van de tijd.
+
+92
+00:05:16,300 --> 00:05:19,259
+Dus, voor deze functie kunnen
+we nu onze analyse toevoegen,
+
+93
+00:05:19,259 --> 00:05:20,399
+want we kunnen
+
+94
+00:05:20,400 --> 00:05:23,040
+onze 'Aantal verkocht' veranderen van
+
+95
+00:05:23,159 --> 00:05:27,459
+SOM.ALS naar SOMMEN.ALS, met
+meerdere condities erin. 
+
+96
+00:05:27,720 --> 00:05:31,540
+We moeten onze formule een beetje veranderen, 
+want hoe de SOMMEN.ALS werkt
+
+97
+00:05:31,540 --> 00:05:34,940
+is, we krijgen eerst de kolom die
+we sommeren, 
+
+98
+00:05:34,940 --> 00:05:38,940
+en dan een lijst van condities. Dus we nemen
+eerst de kolom met 'aantal', 
+
+99
+00:05:39,240 --> 00:05:42,580
+en dan zeggen we dat we de naam van het
+bier willen,
+
+100
+00:05:42,580 --> 00:05:46,660
+als eerste conditie. Het moet gelijk
+zijn aan de eerste kolom
+
+101
+00:05:46,669 --> 00:05:47,949
+van het werkblad 'bier',
+
+102
+00:05:47,949 --> 00:05:51,140
+en dan is onze tweede conditie
+tijd,
+
+103
+00:05:51,140 --> 00:05:55,020
+'na 23:00' moet WAAR zijn.
+
+104
+00:05:57,000 --> 00:06:01,940
+Het is dus een lange formule, maar
+het werkt. Maar zoals je hier ziet, 
+
+105
+00:06:02,038 --> 00:06:06,858
+de kolom is nog niet gesorteerd, 
+want het is nog steeds gesorteerd
+
+106
+00:06:07,008 --> 00:06:10,013
+in de oude volgorde. Dus als we
+opnieuw willen sorteren, 
+
+107
+00:06:10,013 --> 00:06:13,533
+moeten we klikken op 'sorteren'. Hier
+zie je
+
+108
+00:06:13,540 --> 00:06:18,000
+dat deze waardes nog niet goed zijn gesorteerd. 
+Dus als we nu sorteren, 
+
+109
+00:06:18,002 --> 00:06:21,037
+gebeurd er iets raars. Hier zie je:
+
+110
+00:06:21,037 --> 00:06:24,052
+Hej, dat is niet de goede waarde! De
+koppelingen
+
+111
+00:06:24,052 --> 00:06:29,053
+zijn weer vernieuwd. En dat is omdat
+we deze keer vergaten,
+
+112
+00:06:29,062 --> 00:06:33,920
+ik hoop dat je weer naar je computerscherm
+schreeuwt, we vergaten het 'bier' voorvoegsel
+
+113
+00:06:33,920 --> 00:06:35,909
+te verwijderen. Dus, we verwijderen dat, 
+
+114
+00:06:35,919 --> 00:06:41,119
+dan krijg je de goede waarde. Maar dat
+was veel werk vind je niet?
+
+115
+00:06:41,389 --> 00:06:45,769
+Een simpele vraag: welk bier verkoopt
+het beste na 23:00?
+
+116
+00:06:45,919 --> 00:06:48,941
+We moeten een nieuwe kolom toevoegen, 
+onze formule veranderen
+
+117
+00:06:49,139 --> 00:06:52,172
+en ervoor zorgen dat we die
+voorvoegsels verwijderen
+
+118
+00:06:52,340 --> 00:06:57,699
+en niet vergeten te sorteren. Ik hoop dus 
+dat je van deze video's onthoudt:
+
+119
+00:06:57,699 --> 00:07:02,059
+formules zijn bedoeld voor berekeningen. Als
+je een som of 
+
+120
+00:07:02,219 --> 00:07:05,027
+gemiddelde berekent is een formule prima.
+
+121
+00:07:05,027 --> 00:07:08,787
+Maar zodra je echt analyses gaat doen,
+als je in 
+
+122
+00:07:09,012 --> 00:07:12,421
+je data duikt, je jezelf vragen
+stelt als:
+
+123
+00:07:12,529 --> 00:07:15,083
+wat is het meest populaire bier
+op zaterdag
+
+124
+00:07:15,083 --> 00:07:19,012
+als het buiten vriest?
+Zoiets.
+
+125
+00:07:19,012 --> 00:07:23,992
+Als je data analyseert lopen formules
+snel uit de hand. En ik denk dat je in
+
+126
+00:07:24,001 --> 00:07:25,460
+dit voorbeeld zag
+
+127
+00:07:25,469 --> 00:07:30,005
+hoe snel dat gebeurd. Dus onthoudt:
+formules zijn niet voor analyses
+
+128
+00:07:30,005 --> 00:07:33,405
+en dan natuurlijk, wat is wel voor analyses?
+
+129
+00:07:33,580 --> 00:07:37,597
+Draaitabellen! Meer over draaitabellen 
+in de volgende videos.
+
