@@ -1,0 +1,269 @@
+1
+00:00:00,460 --> 00:00:06,240
+In de vorige video hebben we bereiknamen geïntroduceerd, 
+voor een bepaalde kolom in ons spreadsheet.
+
+2
+00:00:06,240 --> 00:00:09,920
+Maar, zoals je natuurlijk herinnert van een van 
+de vorige video's,
+
+3
+00:00:09,920 --> 00:00:13,420
+hebben spreadsheets een lange levensduur, 
+tot wel vijf jaar.
+
+4
+00:00:13,420 --> 00:00:20,109
+Dus op een gegeven moment, gaan we in onze
+kleine dansstudio nieuwe mensen inhuren
+
+5
+00:00:20,109 --> 00:00:23,539
+en als we dat doen, als we gewoon
+een nieuwe leraar toevoegen
+
+6
+00:00:23,539 --> 00:00:28,019
+in ons lerarenwerkblad, laten we zeggen
+dat hij Harry heet en 25 jaar is, 
+
+7
+00:00:28,019 --> 00:00:31,150
+we voeren al zijn gegevens in. Helaas, 
+
+8
+00:00:31,150 --> 00:00:34,769
+als we dan naar ons planningswerkblad gaan, 
+zijn de formules
+
+9
+00:00:34,769 --> 00:00:37,979
+niet vernieuwd. We berekenen
+
+10
+00:00:37,979 --> 00:00:42,519
+nog steeds aan de hand van de oude bereiknamen, je 
+ziet dat er niks verandert
+
+11
+00:00:42,519 --> 00:00:46,149
+in de waardes hier. En dit is 
+begrijpelijk, want als je teruggaat
+
+12
+00:00:46,149 --> 00:00:49,249
+naar het lerearenwerkblad en
+de bereiknaam selecteert
+
+13
+00:00:49,249 --> 00:00:52,859
+van het drop-down lijstje, zie je dat
+het maximale niveau
+
+14
+00:00:52,859 --> 00:00:56,659
+nog niet is inbegrepen in de laatste
+regel van het werkblad. 
+
+15
+00:00:56,659 --> 00:01:01,309
+Dus als je een bereiknaam wilt vernieuwen
+kan je de 'Namen Beheren' gebruiken, zoals
+
+16
+00:01:01,309 --> 00:01:03,600
+je hier ziet, de namen staan niet vast, 
+
+17
+00:01:03,600 --> 00:01:07,009
+je kunt ze altijd vernieuwen als je
+spreadsheet verandert. 
+
+18
+00:01:07,009 --> 00:01:09,630
+En nu zien we, als je 'Max. Niveau' 
+weer selecteert,
+
+19
+00:01:09,630 --> 00:01:11,880
+dat alle rijen zijn inbegrepen in de
+
+20
+00:01:11,880 --> 00:01:15,659
+de bereiknaam en onze formules zijn ook
+vernieuwd. Dus
+
+21
+00:01:15,659 --> 00:01:18,130
+je kan je bereiknaam steeds vernieuwen
+als je
+
+22
+00:01:18,130 --> 00:01:20,509
+iets verandert in je spreadsheet. 
+
+23
+00:01:20,509 --> 00:01:23,289
+Echter, dit is gevaarlijk, want ik 
+weet zeker
+
+24
+00:01:23,289 --> 00:01:26,409
+dat je op een gegeven moment vergeet
+
+25
+00:01:26,409 --> 00:01:30,369
+welke bereiknamen je hebt in je werkblad
+en je vergeet er één te vernieuwen
+
+26
+00:01:30,369 --> 00:01:32,399
+als je nieuwe gegevens invoert.
+
+27
+00:01:32,399 --> 00:01:35,340
+Dus ondanks de mogelijkheid om met
+je namen beheerder
+
+28
+00:01:35,340 --> 00:01:39,729
+bereiknamen te veranderen, is dit niet
+een gewenste oplossing, je wilt je 
+
+29
+00:01:39,729 --> 00:01:45,200
+spreadsheet zo automatisch mogelijk. Een andere oplossing
+
+30
+00:01:45,200 --> 00:01:48,450
+is het gebruik van een gehele kolom
+
+31
+00:01:48,450 --> 00:01:52,630
+voor je bereiknaam. Je kan dat doen als
+als we terug gaan naar
+
+32
+00:01:52,630 --> 00:01:55,140
+'namen beheren'. Je hoeft geen vaste
+kolom
+
+33
+00:01:55,140 --> 00:01:58,969
+te gebruiken, je kan 'alle rijen in mijn
+kolom' zeggen.
+
+34
+00:01:58,969 --> 00:02:01,850
+Deze syntax is toegestaan en nu zie je
+dat
+
+35
+00:02:01,850 --> 00:02:05,439
+de gehele kolom inderdaad in de
+bereiknaam staat.
+
+36
+00:02:05,439 --> 00:02:08,979
+En als je een andere leraar toevoegt, 
+bijvoorbeeld we voegen
+
+37
+00:02:08,979 --> 00:02:12,599
+een leraar Shelly toe, de formules worden
+
+38
+00:02:12,599 --> 00:02:17,480
+vernieuwd inclusief de nieuwe leraar, 
+want, natuurlijk, hij berekent
+
+39
+00:02:17,480 --> 00:02:20,370
+de gehele kolom. Dus dit is een 
+goede oplossing, 
+
+40
+00:02:20,370 --> 00:02:24,290
+maar er is ook een nadeel van deze
+oplossing.
+
+41
+00:02:24,290 --> 00:02:27,010
+Want wat gebeurt er als we een analyse 
+willen doen met
+
+42
+00:02:27,010 --> 00:02:32,209
+het lerarenwerkblad? Laten we zeggen
+we willen bereken wat het
+
+43
+00:02:32,209 --> 00:02:35,870
+meeste gebruikelijke niveau van
+onze groep leraren is. 
+
+44
+00:02:35,870 --> 00:02:40,939
+Dus we zeggen 'Meest gebruikelijke niveau' en
+daar is een formule voor in Excel genaamd MODUS,
+
+45
+00:02:40,939 --> 00:02:46,069
+een goede functie die je kunt gebruiken voor het
+bereken van de meest voorkomende waarde
+
+46
+00:02:46,069 --> 00:02:50,939
+in wat cellen. Dus dit werkt, we 
+weten nu dat het meest voorkomende niveau
+
+47
+00:02:50,939 --> 00:02:55,629
+in onze groep van leraren 3 is.
+Echter, omdat onze bereiknamen
+
+48
+00:02:55,629 --> 00:02:58,049
+de gehele kolom bedekken,
+
+49
+00:02:58,049 --> 00:03:02,449
+is deze MODUS nu ook opgenomen
+in onze berekeningen en dat willen
+
+50
+00:03:02,449 --> 00:03:03,379
+we niet. 
+
+51
+00:03:03,379 --> 00:03:06,269
+Dus, ja, je kunt een gehele kolom gebruiken,
+
+52
+00:03:06,269 --> 00:03:11,400
+maar vervolgens zijn alle cellen
+onder onze kleine datatabel
+
+53
+00:03:11,400 --> 00:03:14,959
+niet meer bruikbaar, ze zijn een soort van
+'geblokkeerd', want we kunnen er geen
+
+54
+00:03:14,959 --> 00:03:16,500
+berekeningen in
+
+55
+00:03:16,500 --> 00:03:20,439
+zetten, omdat andere berekeningen die gegevens
+ook gebruiken.
+
+56
+00:03:20,439 --> 00:03:24,000
+Dus, we zitten hier vast en in de volgende
+video laat ik je zien
+
+57
+00:03:24,000 --> 00:03:25,340
+hoe je dit probleem kunt oplossen.

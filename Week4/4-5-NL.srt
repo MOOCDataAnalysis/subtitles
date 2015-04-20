@@ -1,0 +1,199 @@
+1
+00:00:00,539 --> 00:00:04,130
+Deze week heb ik jullie lesgegeven over
+bereiknamen. 
+
+2
+00:00:04,130 --> 00:00:07,549
+Maar natuurlijk, we runnen nog steeds
+onze dansstudie en ons
+
+3
+00:00:07,549 --> 00:00:12,130
+uiteindelijke studiedoel voor deze week
+is om een planning te maken
+
+4
+00:00:12,130 --> 00:00:16,660
+voor onze dansstudio. Dus laten we eens
+kijken naar wat we tot nu toe hebben gedaan:
+
+5
+00:00:16,660 --> 00:00:21,730
+we hebben onze formule verbeterd door
+bereiknamen, we hebben een data tabel
+
+6
+00:00:21,730 --> 00:00:26,050
+van leraren, we hebben alle informatie. 
+Er is één ding
+
+7
+00:00:26,050 --> 00:00:28,800
+dat we nog steeds nodig hebben en dat is
+de beschikbaarheid 
+
+8
+00:00:28,800 --> 00:00:32,670
+welke leraar op welke dagen in de week kan, 
+want niet iedereen is elke dag 
+
+9
+00:00:32,670 --> 00:00:33,340
+beschikbaar
+
+10
+00:00:33,340 --> 00:00:37,730
+op elk moment. Maar nu hebben we een
+probleem, want in dit werkblad
+
+11
+00:00:37,730 --> 00:00:41,050
+zijn de weekdagen in deze 
+
+12
+00:00:41,050 --> 00:00:45,420.
+richting, terwijl de beschikbaarheid
+in de andere richting staat.
+
+13
+00:00:45,420 --> 00:00:50,810
+We kunnen dat oplossen door data te selecteren
+en te kopiëren met plakken speciaal
+
+14
+00:00:50,810 --> 00:00:54,829
+op een getransponeerde manier, dus alle 
+data is omgedraaid.
+
+15
+00:00:54,829 --> 00:01:00,380
+En we kunnen het terugkopiëren naar de 
+oorspronkelijke positie, maar wat nu gebeurd
+
+16
+00:01:00,380 --> 00:01:04,760
+is dat ons werkblad verandert, maar 
+de bereiknamen
+
+17
+00:01:04,760 --> 00:01:09,380
+niet. Dus de naam is nog steeds
+'HorzLevels',
+
+18
+00:01:09,380 --> 00:01:12,500
+maar in dit werkboek betekent het niet
+'Levels' meer.
+
+19
+00:01:12,500 --> 00:01:17,000
+Het bevat nu weekdagen. Dit is één van 
+de risico's
+
+20
+00:01:17,000 --> 00:01:21,060
+helaas, als we gebruik maken van 'benoemde
+bereiken'. Ik zou het 
+
+21
+00:01:21,060 --> 00:01:25,680
+het 'Basmati Effect' noemen. Het 
+gebeurd vaak in spreadsheets, maar ook
+
+22
+00:01:25,690 --> 00:01:26,830
+bij 'normaal' programmeren,
+
+23
+00:01:26,830 --> 00:01:30,250
+dat onze code verandert, ons werkblad 
+verandert,
+
+24
+00:01:30,250 --> 00:01:34,140
+maar de waarden en namen die je hebt
+toegekend
+
+25
+00:01:34,140 --> 00:01:38,010
+niet, en dan krijg je situaties zoals hier
+waar we een container hebben
+
+26
+00:01:38,010 --> 00:01:38,440
+die zegt
+
+27
+00:01:38,440 --> 00:01:42,850
+"Rijst" maar eigelijk koekjes bevat. Dit gebeurt
+in spreadsheets ook 
+
+28
+00:01:42,850 --> 00:01:46,170
+en dit is wat nu gebeurd is in ons voorbeeld,
+
+29
+00:01:46,170 --> 00:01:51,189
+waar we een bereiknaam 'HorzLevels'
+hebben, maar het bevat eigelijk
+
+30
+00:01:51,189 --> 00:01:54,920
+weekdagen. Dus onze eerste oefening voor
+deze week
+
+31
+00:01:54,920 --> 00:01:59,920
+is om dit te herstellen. I wil graag dat
+je de 'Namen beheren' knop gebruikt 
+
+32
+00:01:59,920 --> 00:02:00,720
+om deze naam te veranderen 
+
+33
+00:02:00,720 --> 00:02:01,979
+in een geschikte naam,
+
+34
+00:02:01,979 --> 00:02:06,119
+en ook om de formules te herstellen, zo 
+dat ze weer
+
+
+35
+00:02:06,119 --> 00:02:09,509
+de data ophalen, en we weer de X'en
+
+36
+00:02:09,509 --> 00:02:14,549
+krijgen op de kruizingen van dagen en niveaus.
+En de tweede oefening
+
+37
+00:02:14,549 --> 00:02:18,919
+is om daadwerkelijk een planning te maken
+- dus niet alleen kruisjes, maar
+
+38
+00:02:18,919 --> 00:02:22,430
+de namen van de leraren die lesgeven
+
+39
+00:02:22,430 --> 00:02:27,919
+op de gegeven dagen en niveaus. Dus de oefening 
+is, gebruik bereiknamen maar 
+
+40
+00:02:27,919 --> 00:02:28,370
+ook
+
+41
+00:02:28,370 --> 00:02:32,940
+al de dingen die we hebben besproken in vorige 
+lessen om de planning af te maken.
+
+42
+00:02:32,940 --> 00:02:34,200
+Succes!
