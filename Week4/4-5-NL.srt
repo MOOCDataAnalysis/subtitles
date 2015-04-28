@@ -26,7 +26,7 @@ bereiknamen, we hebben een data tabel
 6
 00:00:21,730 --> 00:00:26,050
 van leraren, we hebben alle informatie. 
-Er is ��n ding
+Er is ï¿½ï¿½n ding
 
 7
 00:00:26,050 --> 00:00:28,800
@@ -59,7 +59,7 @@ in de andere richting staat.
 13
 00:00:45,420 --> 00:00:50,810
 We kunnen dat oplossen door data te selecteren
-en te kopi�ren met plakken speciaal
+en te kopiï¿½ren met plakken speciaal
 
 14
 00:00:50,810 --> 00:00:54,829
@@ -68,7 +68,7 @@ data is omgedraaid.
 
 15
 00:00:54,829 --> 00:01:00,380
-En we kunnen het terugkopi�ren naar de 
+En we kunnen het terugkopiï¿½ren naar de 
 oorspronkelijke positie, maar wat nu gebeurd
 
 16
@@ -88,7 +88,7 @@ maar in dit werkboek betekent het niet
 
 19
 00:01:12,500 --> 00:01:17,000
-Het bevat nu weekdagen. Dit is ��n van 
+Het bevat nu weekdagen. Dit is ï¿½ï¿½n van 
 de risico's
 
 20
