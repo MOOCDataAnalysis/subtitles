@@ -162,7 +162,7 @@ en dan krijgen we
 
 35
 00:02:07,510 --> 00:02:11,810
-onze formule. Helaas, we zijn ï¿½ï¿½n ding
+onze formule. Helaas, we zijn één ding
 vergeten,
 
 36
@@ -350,7 +350,7 @@ hoeft niet meer na te denken
 
 75
 00:04:35,100 --> 00:04:36,350
-over doortrekken (kopiï¿½ren)
+over doortrekken (kopiëren)
 
 76
 00:04:36,350 --> 00:04:39,480
