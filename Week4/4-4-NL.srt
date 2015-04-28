@@ -85,7 +85,6 @@ formule uitvoeren,
 00:01:05,750 --> 00:01:08,540
 en inderdaad er is een 1 in deze string
 
-
 19
 00:01:08,540 --> 00:01:14,150
 op de eerste locatie, dus op positie 1. Hier moeten 
@@ -163,7 +162,7 @@ en dan krijgen we
 
 35
 00:02:07,510 --> 00:02:11,810
-onze formule. Helaas, we zijn ��n ding
+onze formule. Helaas, we zijn ï¿½ï¿½n ding
 vergeten,
 
 36
@@ -351,7 +350,7 @@ hoeft niet meer na te denken
 
 75
 00:04:35,100 --> 00:04:36,350
-over doortrekken (kopi�ren)
+over doortrekken (kopiï¿½ren)
 
 76
 00:04:36,350 --> 00:04:39,480
@@ -425,7 +424,6 @@ ze zich bevinden,
 gebruik naar beneden doortrekken en 
 selecteer bereiknaam binnen de formule. 
 
-
 91
 00:05:31,250 --> 00:05:34,210
 Dus van lelijke dollartekens naar leesbare
@@ -433,4 +431,3 @@ Dus van lelijke dollartekens naar leesbare
 92
 00:05:34,210 --> 00:05:36,990
 formules met bereiknamen.
-
