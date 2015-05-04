@@ -1,0 +1,343 @@
+1
+00:00:00,400 --> 00:00:03,440
+Esta semana vamos a hablar acerca de
+fórmulas de matriz.
+
+2
+00:00:03,440 --> 00:00:06,560
+Vamos a echar un vistazo al ejemplo de esta 
+
+3
+00:00:06,560 --> 00:00:09,860
+semana, en el que estamos viendo 
+
+3
+00:00:06,560 --> 00:00:09,860
+los resultados del examen para un profesor.
+
+4
+00:00:11,080 --> 00:00:14,660
+Interrumpimos esta grabación para dar un 
+importante mensaje sobre Tipos
+
+5
+00:00:15,460 --> 00:00:17,279
+Hoy vamos a hablar acerca de
+teoría de tipos,
+
+6
+00:00:17,279 --> 00:00:21,400
+porque es muy importante para que
+seamos capaces de entender
+
+7
+00:00:21,400 --> 00:00:23,250
+el material de esta semana.
+
+8
+00:00:23,250 --> 00:00:27,290
+No se preocupe, porque vamos a empezar
+con algo realmente básico.
+
+9
+00:00:32,880 --> 00:00:34,060
+Esto es fácil, ¿verdad?
+
+10
+00:00:34,060 --> 00:00:39,030
+2 mas 3 son 5, pero estos no solo son
+números. También tienen el tipo
+
+11
+00:00:39,030 --> 00:00:40,970
+de ser un número y me voy a anotar todos 
+los tipos con un color  diferente. 
+
+12
+00:00:40,970 --> 00:00:45,720
+Así que lo que estamos calculando aquí
+
+13
+00:00:45,720 --> 00:00:49,190
+es un número y un número y el resultado
+es otro número.
+
+14
+00:00:49,190 --> 00:00:55,920
+Pero esto no es como escribimos fórmulas
+en Excel, 
+
+15
+00:00:55,920 --> 00:00:56,620
+podemos escribir números
+
+16
+00:00:56,620 --> 00:00:59,980
+en una fórmula, pero también podemos 
+usar celdas
+
+17
+00:00:59,980 --> 00:01:01,500
+Así que vamos a echar un vistazo 
+a cómo se ve.
+
+18
+00:01:05,460 --> 00:01:11,100
+Tenemos estas dos celdas en una hoja 
+de datos y podemos decir A1
+
+19
+00:01:11,110 --> 00:01:16,170
+mas A2 en este caso son también 5.
+
+20
+00:01:18,240 --> 00:01:20,320
+Así que, ¿qué son los tipos aquí?
+
+21
+00:01:20,320 --> 00:01:25,490
+Bien, 5 es un número, esto es sencillo. 
+Pero A1 no es un número,
+
+22
+00:01:25,490 --> 00:01:29,930
+es una celda, es una referencia a un número.
+
+23
+00:01:29,930 --> 00:01:33,730
+Así que, vamos a dibujar cómo esta y decir:
+
+24
+00:01:33,730 --> 00:01:36,050
+algo que contiene un número y 
+
+25
+00:01:36,050 --> 00:01:39,050
+y algo que contiene un número - 
+puedo sumar los números,
+
+26
+00:01:39,050 --> 00:01:43,870
+y conseguir otro número. En Excel
+también hay diferentes tipos, 
+
+27
+00:01:43,870 --> 00:01:46,050
+de no sólo números.
+
+28
+00:01:49,960 --> 00:01:51,660
+Supongamos que tenemos esto en la celda,
+
+29
+00:01:51,670 --> 00:01:55,170
+una cadena, un trozo de texto. 
+También podemos 
+
+30
+00:01:55,170 --> 00:01:56,210
+calcular un texto.
+
+31
+00:02:04,710 --> 00:02:06,280
+¿Cuales son los tipos aquí?
+
+32
+00:02:06,280 --> 00:02:10,310
+Tenemos de nuevo algo que contiene
+
+33
+00:02:10,310 --> 00:02:13,010
+y el resultado de la función
+es un texto
+
+34
+00:02:13,010 --> 00:02:16,310
+Así pues, todas estas funciones
+
+35
+00:02:16,310 --> 00:02:20,150
+toman los mismos valores, un número 
+que da como resultado un número
+
+36
+00:02:20,150 --> 00:02:23,480
+o un texto que da como resultado
+un texto.
+
+37
+00:02:23,480 --> 00:02:27,090
+Pero también hay funciones que pueden 
+tomar un determinado tipo,
+
+38
+00:02:27,090 --> 00:02:31,410
+y devolver un tipo diferente. 
+Veamos como es esto.
+
+39
+00:02:35,880 --> 00:02:39,500
+Por ejemplo, si estamos calculando con fechas...
+
+40
+00:02:46,100 --> 00:02:50,040
+Ahora tenemos una fecha en nuestra hoja de cálculo, 
+y también podemos realizar cálculos con las fechas.
+
+41
+00:02:50,040 --> 00:02:51,720
+Esto lo hemos visto antes.
+
+42
+00:02:51,720 --> 00:02:55,170
+Podríamos, por ejemplo, calcular
+
+43
+00:02:55,170 --> 00:03:00,760
+el mes de A1, que podría ser un 1.
+
+44
+00:03:00,760 --> 00:03:03,370
+Este es un ejemplo de algo 
+que toma cierto valor, 
+
+45
+00:03:03,370 --> 00:03:07,730
+it takes in a container,
+
+46
+00:03:07,730 --> 00:03:10,840
+algo contenido en una celda, 
+una fecha,
+
+47
+00:03:10,840 --> 00:03:14,190
+pero el resultado es un número.
+Así que
+
+48
+00:03:14,190 --> 00:03:17,920
+tomamos un fecha, y devolvemos un número.
+Luego, algunas veces, los tipos de las entradas
+
+49
+00:03:17,920 --> 00:03:22,040
+son diferentes de los tipos de las salidas.
+No tienen por qué coincidir
+
+50
+00:03:22,040 --> 00:03:23,220
+necesariamente.
+
+51
+00:03:24,520 --> 00:03:25,840
+Así que, vamos a echar un vistazo a la
+construcción más complicada
+
+52
+00:03:25,849 --> 00:03:29,760
+que vamos a estudiar en los vídeos
+de esta semana. 
+
+53
+00:03:29,760 --> 00:03:34,819
+Espero que todavía sea bastante básico.
+
+54
+00:03:34,819 --> 00:03:37,580
+Supongamos que tenemos un rango: tenemos 1,
+
+55
+00:03:37,580 --> 00:03:42,410
+2, y 3 en una hoja de cálculo. Podemos calcular
+con eso, sabemos como hacerlo.
+
+56
+00:03:42,410 --> 00:03:45,400
+Luego podemos decir algo así como
+la SUM de 
+
+57
+00:03:45,400 --> 00:03:50,010
+A1 y A3,
+
+58
+00:03:50,010 --> 00:03:54,160
+que en este caso es 6. Así que,
+¿cuales son aquí los tipos?
+
+59
+00:03:54,160 --> 00:03:57,739
+Empecemos con 6, porque este es muy fácil,
+6 es un número,
+
+60
+00:03:57,739 --> 00:04:02,470
+esto lo sabemos. Pero ¿qué tenemos aquí?
+Podríamos decir
+
+61
+00:04:02,470 --> 00:04:05,350
+tenemos tres contenedores de números,
+
+62
+00:04:05,350 --> 00:04:09,440
+tres valores que tienen un número.
+
+63
+00:04:09,440 --> 00:04:12,080
+Pero, por supuesto no tienen por qué ser 
+necesariamente tres.
+
+64
+00:04:12,080 --> 00:04:17,239
+También podemos decir: ahora vamos 
+a sumar hasta A5
+
+65
+00:04:17,239 --> 00:04:23,759
+Podría esto darle un tipo diferente
+a la función? Habría que añadir 
+
+66
+00:04:23,759 --> 00:04:27,359
+otro contenedor aquí y otro aquí. 
+
+67
+00:04:27,360 --> 00:04:31,040
+Así que no vamos a hacer eso, esto no es
+la forma en que vamos a 
+
+68
+00:04:31,050 --> 00:04:32,069
+escribir esto.
+
+69
+00:04:32,069 --> 00:04:35,469
+Lo que estamos diciendo aquí es: estamos sumando
+a través de una lista
+
+70
+00:04:35,469 --> 00:04:39,219
+de números, por lo que el tipo, como 
+voy a describir en vídeos posteriores
+,
+
+71
+00:04:39,219 --> 00:04:43,139
+es una lista de números
+
+72
+00:04:43,139 --> 00:04:46,120
+y el resultado de la función es 
+un número.
+
+73
+00:04:46,120 --> 00:04:50,789
+Esto es algo muy importante a recordar
+para el resto de los vídeos de esta semana.
+
+74
+00:04:50,789 --> 00:04:53,329
+Ese fue el final de la secuencia escrita.
+
