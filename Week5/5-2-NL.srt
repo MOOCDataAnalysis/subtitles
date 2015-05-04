@@ -1,0 +1,247 @@
+1
+00:00:00,929 --> 00:00:04,830
+Array(bereik)formules, we hebben bekeken 
+hoe we hiermee 
+
+2
+00:00:04,830 --> 00:00:08,750
+de kwaliteit van de examens 
+kunnen analyseren. Dus we kijken niet naar de
+
+3
+00:00:08,750 --> 00:00:12,240
+kwaliteit van de studenten, we kijken 
+in welke mate vragen in ons examen
+
+4
+00:00:12,240 --> 00:00:15,710
+bijdragen aan het eindcijfer. En ik denk 
+dat we kunnen 
+
+5
+00:00:15,710 --> 00:00:20,200
+concluderen dat vraag 2 niet echt helpt,
+
+6
+00:00:20,200 --> 00:00:23,760
+het verschilt niet echt van vraag 1. 
+Natuurlijk, we kunnen gewoon
+
+7
+00:00:23,760 --> 00:00:26,900
+de inhoud wissen, alles weggooien, maar
+
+8
+00:00:26,900 --> 00:00:30,890
+dat is niet wat ik wil. Ik heb alles 
+handmatig ingetypt, dus ik wil de
+
+9
+00:00:30,890 --> 00:00:31,850
+waarden behouden,
+
+10
+00:00:31,850 --> 00:00:35,590
+maar ik wil nog steeds de mogelijkheid 
+houden om te analyseren.
+
+11
+00:00:35,590 --> 00:00:38,100
+Dus ik kan filteren, maar
+
+12
+00:00:38,100 --> 00:00:42,820
+hoe werkt filteren in Excel, je kunt
+alleen filteren in deze richting, 
+
+13
+00:00:42,820 --> 00:00:46,440
+je kan alleen filteren voor rijen, en 
+niet voor kolommen.
+
+14
+00:00:46,440 --> 00:00:50,340
+en dat is precies wat ik wil, omdat ik
+deze éne vraag eruit wil filteren en ik
+
+
+15
+00:00:50,340 --> 00:00:51,560
+wil niet één 
+
+16
+00:00:51,560 --> 00:00:54,940
+student eruit filteren. Dus ik moet
+
+17
+00:00:54,960 --> 00:01:00,780
+mijn data transponeren naar andere richting
+
+18
+00:01:00,780 --> 00:01:05,400
+Hoe moet ik dat doen? Wat ik kan doen: 
+Ik maak een ander werkblad,
+
+19
+00:01:05,400 --> 00:01:09,130
+Noem het ExamTransposed, waar ik mijn data 
+wil transponeren.
+
+20
+00:01:09,130 --> 00:01:11,810
+Excel heeft hier een functie voor, 
+ik kan gewoon zeggen:
+
+21
+00:01:11,810 --> 00:01:16,430
+TRANSPONEREN(), typ dit in de formulebalk
+en daar gaan we,
+
+22
+00:01:16,430 --> 00:01:19,189
+TRANSPONEREN, ik selecteer het databereik 
+
+23
+00:01:19,189 --> 00:01:23,389
+dat ik wil transponeren en ik druk
+Control+Shift+Enter.
+
+24
+00:01:25,260 --> 00:01:26,840
+Dus wat ik nu krijg is 
+
+25
+00:01:26,850 --> 00:01:31,509
+één cel, want, zoals we hebben gezien
+in een vorige video, ik heb Excel geen
+
+26
+00:01:31,509 --> 00:01:33,490
+ruimte gegeven, geen plaats
+
+27
+00:01:33,490 --> 00:01:36,740
+om dit bereik weer te geven. Dus als ik 
+alles wil
+
+28
+00:01:36,740 --> 00:01:40,909
+transponeren, dan moet ik zeker weten dat
+er genoeg ruimte is op mijn werkblad
+
+29
+00:01:40,909 --> 00:01:44,850
+om alles weer te geven. Hoeveel ruimte hebben
+we nodig?
+
+30
+00:01:44,850 --> 00:01:48,189
+Nou, we hebben 16 rijen dus dat zijn 16 
+kolommen.
+
+31
+00:01:48,189 --> 00:01:52,700
+en we hebben 14 kolommen, dus dat worden
+14 rijen.
+
+32
+00:01:52,700 --> 00:01:56,840
+Als we nu terug gaan naar ons ExamTransposed 
+werkblad en zorgen dat we genoeg
+
+33
+00:01:56,840 --> 00:02:03,119
+ruimte hebben voor alles, dan gebruiken we de
+TRANSPONEREN functie en drukken Ctrl+Shift+Enter.
+
+34
+00:02:03,119 --> 00:02:07,869
+Nu wordt het een bereikformule, en we krijgen
+nu het resultaat van het totale bereik.
+
+35
+00:02:07,869 --> 00:02:12,389
+Dus wat eerst een regel was, is in de 
+getransponeerde tabel
+
+
+36
+00:02:12,389 --> 00:02:14,739
+een kolom.
+
+37
+00:02:14,739 --> 00:02:16,120
+Waarom laat ik dit zien?
+
+38
+00:02:16,120 --> 00:02:19,150
+Ten eerste, we willen de resultaten in een
+andere richting hebben
+
+39
+00:02:19,150 --> 00:02:23,750
+maar ik wil ook een belangrijk verschil
+benadrukken tussen Excel functies.
+
+40
+00:02:23,750 --> 00:02:26,859
+Sommige functies zijn bereik formules
+
+41
+00:02:26,859 --> 00:02:31,239
+bijvoorbeeld, TRANSPONEREN. Als je het 
+intoetst, zie je al een argument
+
+42
+00:02:31,239 --> 00:02:34,620
+dat om een bereik vraagt, dus de 
+TRANSPONEREN functie is
+
+43
+00:02:34,620 --> 00:02:38,579
+zodoende een bereikformule. Hij werkt
+altijd met een bereik
+
+44
+00:02:38,579 --> 00:02:42,150
+er is geen andere manier. Je kan niet een nummer
+invoeren, want hij weet niet hoe hij een
+
+45
+00:02:42,150 --> 00:02:43,790
+nummer moet transponeren.
+
+46
+00:02:43,790 --> 00:02:46,779
+Maar, andere functies, zoals de 
+verschil functie,
+
+47
+00:02:46,779 --> 00:02:50,079
+die we al hebben gezien in de vorige video, 
+zijn geen 
+
+48
+00:02:50,079 --> 00:02:54,540
+bereikfuncties van zichzelf, maar je kan
+ze bereikfuncties maken.
+
+49
+00:02:54,540 --> 00:02:57,629
+door ze een bereik te geven als argument
+
+
+50
+00:02:57,629 --> 00:03:01,839
+zo kunnen ze werken op alle tweetallen.
+Dus sommige functies
+
+51
+00:03:01,839 --> 00:03:04,599
+ZIJN bereikfuncties, en andere kunnen zo GEMAAKT WORDEN.
+
+52
+00:03:04,599 --> 00:03:07,819
+En hier gaan ook de oefeningen van deze
+video over.
+
