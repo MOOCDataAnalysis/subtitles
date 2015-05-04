@@ -1,0 +1,899 @@
+1
+00:00:00,750 --> 00:00:03,820
+¡Hola! Bienvenidos a los vídeos
+de esta semana! Hoy
+
+2
+00:00:03,820 --> 00:00:08,389
+vamos a hablar de fórmulas de matriz. 
+Tenemos una nuevo ejemplo de marca
+
+3
+00:00:08,389 --> 00:00:11,460
+para trabajar con fórmulas de matriz.
+En el ejemplo de esta semana
+
+4
+00:00:11,460 --> 00:00:14,549
+somos un profesor. Esto es una agradable
+coincidencia, porque, de hecho, 
+
+5
+00:00:14,549 --> 00:00:17,980
+yo soy profesora y ésta es actualmente
+una experiencia real 
+
+6
+00:00:17,980 --> 00:00:22,539
+de cómo analizar resultados de exámenes. 
+Vamos a ver la hoja de cálculo 
+
+7
+00:00:22,539 --> 00:00:23,699
+con la que vamos a trabajar
+durante esta semana de vídeos. 
+
+8
+00:00:23,699 --> 00:00:27,490
+Se trata de un grupo de estudiantes
+
+9
+00:00:27,490 --> 00:00:30,980
+que están en mi clase. Tengo sus números
+de estudiantes, sus nombres
+
+10
+00:00:30,980 --> 00:00:33,090
+y el año en el que han comenzado
+los estudios.
+
+11
+00:00:33,090 --> 00:00:37,010
+Los nombres, los ID's, y el año 
+
+12
+00:00:37,010 --> 00:00:38,270
+en el que han comenzado sus estudios.
+
+13
+00:00:38,270 --> 00:00:42,230
+Además de esto, tengo el resultado de 
+los exámenes, Así que vereis que 
+
+14
+00:00:42,230 --> 00:00:44,060
+me hago una serie de preguntas, 
+
+15
+00:00:44,070 --> 00:00:47,570
+Tengo una lista de  estudiantes y luego
+,
+para todas las preguntas, tengo
+
+16
+00:00:47,57máxima y la puntuación conseguida 
+por cada estudiante. Quizás pienses que
+
+17
+00:00:53,330 --> 00:00:54,700
+yo podría utilizar esta hoja de cálculo 
+
+18
+00:00:54,710 --> 00:00:58,829
+solo para analizar las calificaciones 
+de los estudiantes, 
+
+19
+00:00:58,829 --> 00:01:02,260
+pero eso no es verdad. También utilizo
+el resultado de los exámenes como un medio
+
+20
+00:01:02,260 --> 00:01:06,630
+para analizar la calidad de los mismos. 
+Echo un vistazo a los resultados
+
+21
+00:01:06,630 --> 00:01:09,689
+y veo que pregunta tiene actualmente 
+un impacto mayor en las 
+
+22
+00:01:09,689 --> 00:01:13,560
+calificaciones de los exámenes. Permítanme 
+explicarlo con un ejemplo.
+
+23
+00:01:13,560 --> 00:01:17,650
+Si miro en esta hoja de cálculo, veo
+que para las preguntas 1 y 2,
+
+24
+00:01:17,650 --> 00:01:22,259
+las respuestas son muy parecidas. En
+muchas ocasiones, se da una puntuación
+
+25
+00:01:22,259 --> 00:01:26,670
+igual o muy similar. Así que, si 
+quiero profundizar en esto, lo que puedo hacer es,
+
+26
+00:01:26,670 --> 00:01:28,040
+de hecho, tomar la SUM de todas 
+las calificaciones de una pregunta
+
+27
+00:01:28,040 --> 00:01:31,329
+y la SUM de todas las calificaciones 
+
+28
+00:01:31,329 --> 00:01:35,299
+de la otra pregunta, y
+comparar ambas. De este modo
+
+29
+00:01:35,299 --> 00:01:35,829
+puedo ver
+
+30
+00:01:35,829 --> 00:01:39,990
+que, efectivamente, la diferencia no es
+tan grande  entre las preguntas 1 y 2.
+
+31
+00:01:39,990 --> 00:01:43,119
+Sin embargo, esto es un poco engañoso,
+
+32
+00:01:43,119 --> 00:01:46,350
+porque puedes ver aquí que, si 
+sumamos los valores en estas celdas, 
+
+33
+00:01:46,350 --> 00:01:50,290
+los resultados serían iguales, sin embargo,
+las respuestas serían muy diferentes.
+
+34
+00:01:50,290 --> 00:01:53,909
+Luego, la SUM no es una solución buena para
+entender realmente
+
+35
+00:01:53,909 --> 00:01:58,840
+cómo estas dos preguntas difieren
+una de la otra. Así que, Qué hacer?
+
+36
+00:01:58,840 --> 00:02:01,890
+Lo que quiero hacer ahora, es calcular
+la diferencia entre
+
+37
+00:02:01,890 --> 00:02:06,219
+todas las celdas, entre todas las puntuaciones
+de estas dos preguntas.
+
+38
+00:02:06,219 --> 00:02:10,679
+Voy a hacerlo y, desafortunadamente, doble
+click ahora, no trabaja, 
+
+39
+00:02:10,679 --> 00:02:13,270
+porque hay una columna vacía, Así que lo
+que hago realmente es arrastrar
+
+40
+00:02:13,270 --> 00:02:17,930
+la fórmula hacia abajo y entonces puedo
+ver las diferencias entre todas las celdas.
+
+41
+00:02:17,930 --> 00:02:21,989
+Pero, como puedes ver, unas diferencias 
+son positivas y otras negativas, 
+
+42
+00:02:21,989 --> 00:02:25,260
+por lo que necesito tomar el valor
+absoluto de la diferencia
+
+43
+00:02:25,260 --> 00:02:28,599
+para conseguir una diferencia 
+real entre
+
+44
+00:02:28,599 --> 00:02:31,470
+las dos preguntas. Arrastro el valor
+absoluto de la diferencia, 
+
+
+45
+00:02:31,470 --> 00:02:34,540
+hacia abajo y ahora podemos ver:
+
+46
+00:02:34,540 --> 00:02:38,250
+¡He!, ¿existe realmente una diferencia
+Si nos fijamos es estos valores,   
+
+47
+00:02:38,250 --> 00:02:41,879
+vemos que, en efecto, la diferencia 
+entre estas dos preguntas,
+
+48
+00:02:41,879 --> 00:02:45,170
+no es tan grande. La diferencia es 21
+
+49
+00:02:45,170 --> 00:02:49,500
+y tenemos 14 estudiantes, por lo que 
+la diferencia entre estas dos preguntas,
+
+50
+00:02:49,500 --> 00:02:53,680
+ es de alrededor 1.5 puntos 
+por estudiante. Esto me ayuda, 
+
+51
+00:02:53,680 --> 00:02:57,269
+esto me ayuda en el análisis porque
+ahora conozco como se relacionan 
+
+52
+00:02:57,269 --> 00:03:01,239
+estas dos preguntas, una con la otra.
+Sin embargo, no tengo solo dos preguntas
+tengo  un total de12 preguntas. 
+
+53
+00:03:01,239 --> 00:03:04,170
+Así que, si ahora quiero repetir este
+análisis para todas las preguntas, 
+
+54
+00:03:04,170 --> 00:03:08,080
+he de hacer un montón de columnas 
+auxiliares, aquí lo ves, 
+
+55
+00:03:08,080 --> 00:03:12,560
+Casi no hay final. Esto no es
+lo que yo quiero.
+
+56
+00:03:12,560 --> 00:03:16,300
+Espero que recuerdes de las lecciones
+anteriores, que la duplicación 
+
+57
+00:03:16,300 --> 00:03:20,730
+No es una cosa buena. Si usted está haciendo
+lo mismo una y otra vez, si usted está
+
+58
+00:03:20,730 --> 00:03:21,760
+haciendo muchas columnas o una gran
+
+59
+00:03:21,760 --> 00:03:27,390
+cantidad de filas, que es  lo mismo, 
+piense en mi. Por favor, acuérdese 
+
+60
+00:03:27,390 --> 00:03:27,980
+de mi y piense:
+
+61
+00:03:27,980 --> 00:03:31,950
+"¡Oh no, duplicación!". No está bien, 
+tengo que volver a MOOC
+
+62
+00:03:31,950 --> 00:03:35,500
+y mirar una forma mas inteligente
+de hacerlo." Luego, 
+
+63
+00:03:35,500 --> 00:03:39,620
+¿cómo ser más inteligente? Déjeme eliminar
+todas estas columnas duplicadas, 
+
+64
+00:03:39,620 --> 00:03:43,239
+no las queremos, nos acercamos un poco
+
+65
+00:03:43,239 --> 00:03:47,069
+y también eliminamos esto, porque vamos
+a hacerlo de un modo mas compacto, 
+
+66
+00:03:47,069 --> 00:03:51,269
+de forma mas inteligente. Lo 
+que nos gustaría hacer es
+
+67
+00:03:51,269 --> 00:03:55,049
+de una sola vez, restar las
+
+68
+00:03:55,049 --> 00:03:57,709
+preguntas 1 y 2 sin 
+necesidad de
+todas estas celdas intermedias.
+
+69
+00:03:57,709 --> 00:04:02,519
+Este es un intento bueno, justamente
+
+70
+00:04:02,519 --> 00:04:06,620
+un rango de otro rango. Vamos a ver
+con la función EVALUAR
+
+71
+00:04:06,620 --> 00:04:11,799
+qué sucedió exactamente aquí ahora.
+Tenemos la primera columna, si la evaluamos 
+
+72
+00:04:11,799 --> 00:04:14,939
+obtenemos 8, que es el primer elemento
+
+73
+00:04:14,939 --> 00:04:19,609
+de la columna. Esto es así porque, lo que Excel 
+calcula ahora es la intersección, 
+
+74
+00:04:19,609 --> 00:04:23,180
+En la lección anterior hemos hablado
+de esto.
+
+75
+00:04:23,180 --> 00:04:27,380
+Esto se aproxima más a lo que queremos, pero 
+no es exactamente lo que queremos. No queremos
+
+76
+00:04:27,380 --> 00:04:29,940
+que Excel calcule la intersección de forma inmediata, 
+
+77
+00:04:29,940 --> 00:04:33,440
+lo que nos gustaría tener son todas 
+las diferencias.
+
+78
+00:04:33,440 --> 00:04:36,310
+Y esto es, probablemente usted 
+lo ha adivinado,
+
+79
+00:04:36,310 --> 00:04:41,220
+donde entran las fórmulas de matriz, porque
+Excel puede evaluar esta función 
+
+80
+00:04:41,220 --> 00:04:44,770
+de dos formas diferentes. Déjeme que le 
+enseñe cómo son las alternativas
+
+81
+00:04:44,770 --> 00:04:47,860
+Esto es una forma de valor normal.
+
+82
+00:04:47,860 --> 00:04:51,530
+La forma habitual de hacerlo es como 
+lo acabamos de hacer.
+
+83
+00:04:51,530 --> 00:04:54,770
+Pegamos esta fórmula
+
+84
+00:04:54,770 --> 00:04:57,360
+y ahora, la forma alternativa, 
+la forma matriz 
+
+85
+00:04:57,360 --> 00:04:58,259
+de hacerlo,
+
+86
+00:04:58,259 --> 00:05:02,550
+No pulsamos Enter, pulsamos 
+Control+Shift+Enter.
+
+87
+00:05:02,550 --> 00:05:05,600
+Si lo hacemos, conseguimos estas
+bonitas llaves 
+
+88
+00:05:05,600 --> 00:05:08,880
+alrededor de la fórmula, y no es 
+
+89
+00:05:08,880 --> 00:05:11,979
+una sensación buena, porque 
+conseguimos el mismo resultado
+
+90
+00:05:11,979 --> 00:05:16,430
+Por ello, usted podría pensar que no 
+existen diferencias, que las llaves 
+
+91
+00:05:16,430 --> 00:05:20,440
+no hacen nada. Sin embargo, la forma 
+en que se calcula,
+
+92
+00:05:20,440 --> 00:05:23,900
+es real, realmente diferente.
+Lo que hay debajo
+
+93
+00:05:23,900 --> 00:05:28,389
+es diferente. Con el fin de entender 
+la diferencia entre estas dos
+
+94
+00:05:28,389 --> 00:05:33,169
+formas de calcular, necesitamos usar 
+la teoría de tipos.
+
+95
+00:05:38,640 --> 00:05:41,300
+En la primera versión, en la
+versión normal,
+
+96
+00:05:41,300 --> 00:05:45,580
+de la función restar, sucede esto:
+Tenemos el rango 
+
+97
+00:05:45,580 --> 00:05:49,770
+B3 a B16
+
+98
+00:05:49,770 --> 00:05:53,240
+Y le restamos el rango
+
+99
+00:05:53,240 --> 00:05:57,700
+C3 a C16.
+
+100
+00:05:57,710 --> 00:05:59,850
+Lo que sucede aquí es la reducción, 
+
+101
+00:05:59,850 --> 00:06:03,780
+la intersección entre los dos rangos.
+Esto es lo que Excel 
+
+102
+00:06:03,780 --> 00:06:08,169
+devuelve para un rango, esto es 8,
+
+103
+00:06:08,169 --> 00:06:12,370
+la primera intersección
+
+104
+00:06:12,370 --> 00:06:16,390
+menos 10, la segunda intersección,
+
+105
+00:06:17,320 --> 00:06:18,280
+cuyo resultado
+
+106
+00:06:18,289 --> 00:06:22,680
+es -2, esto es lo que hemos visto. 
+lo que sucede en la versión alternativa.
+
+
+107
+00:06:22,680 --> 00:06:25,919
+En la de las llaves, 
+
+108
+00:06:25,919 --> 00:06:27,859
+la versión de matriz, 
+
+109
+00:06:34,480 --> 00:06:35,259
+parece exactamente la misma, 
+
+110
+00:06:35,259 --> 00:06:40,579
+pero lo que sucede dentro es
+realmente diferente.
+
+111
+00:06:41,040 --> 00:06:43,580
+Así que, en esta versión 
+
+112
+00:06:43,580 --> 00:06:46,900
+otra vez B3 a B16 menos
+
+113
+00:06:46,900 --> 00:06:51,680
+C3 a C16.
+
+114
+00:06:54,720 --> 00:06:56,100
+En la versión de matriz,
+
+115
+00:06:56,110 --> 00:07:00,139
+no tiene lugar la reducción. Excel
+calcula esta resta en todo el rango
+.
+
+116
+00:07:00,139 --> 00:07:04,289
+Internamente
+
+117
+00:07:04,289 --> 00:07:09,470
+tenemos B3 menos C3
+
+118
+00:07:09,470 --> 00:07:11,259
+y luego B4
+
+119
+00:07:11,259 --> 00:07:15,720
+menos C4 y luego B5
+
+120
+00:07:15,720 --> 00:07:17,420
+menos C5
+
+121
+00:07:19,360 --> 00:07:22,700
+y supongo que usted puede continuar 
+con el resto.
+
+122
+00:07:22,710 --> 00:07:25,400
+Y entonces todo esto, las sustracciones
+son calculadas, todas ellas.
+
+123
+00:07:25,400 --> 00:07:29,889
+Así que conseguimos una lista
+
+124
+00:07:29,889 --> 00:07:34,580
+con 8 menos 10, 0 menos 0, 
+
+125
+00:07:34,580 --> 00:07:39,780
+5 menos 5, etc.
+
+126
+00:07:40,640 --> 00:07:41,680
+El resultado
+
+127
+00:07:41,680 --> 00:07:44,979
+de esta matriz, de esta versión de fórmula
+
+128
+00:07:44,979 --> 00:07:48,079
+con llaves, es una lista:
+
+129
+00:07:51,300 --> 00:07:55,000
+2, 0, 0 etc.
+
+130
+00:07:56,460 --> 00:07:59,979
+Pero debido a que no hay espacio para 
+que Excel represente la lista entera, 
+
+131
+00:07:59,979 --> 00:08:04,800
+solamente tenemos una celda, solamente
+nos muestra el primer
+
+132
+00:08:04,800 --> 00:08:06,610
+número de la lista.
+
+133
+00:08:06,610 --> 00:08:09,479
+Pero esto no quiere decir que el 
+resultado sea solo un número, 
+
+134
+00:08:09,479 --> 00:08:12,870
+el resultado es actualmente una lista.
+Parece lo mismo, 
+
+135
+00:08:12,870 --> 00:08:16,740
+pero internamente es realmente, realmente
+diferente. Déjeme volver  atrás 
+
+
+136
+00:08:16,740 --> 00:08:22,780
+y verás como se ve esto en Excel. No
+necesito más las gafas. 
+
+137
+00:08:26,300 --> 00:08:27,280
+Si miramos
+
+138
+00:08:27,280 --> 00:08:30,680
+en nuestra hoja de datos, 
+no vemos diferencias.
+
+139
+00:08:30,680 --> 00:08:34,409
+Sin embargo, internamente es muy, muy
+diferente. La primera versión
+
+140
+00:08:34,409 --> 00:08:38,509
+da como resultado un número y la segunda
+versión una lista.
+
+141
+00:08:39,289 --> 00:08:43,449
+¿Qué podemos hacer con la lista?  Es realmente
+agradable tener una lista ahora, pero ¿qué hacemos?
+
+142
+00:08:43,450 --> 00:08:48,330
+¿Cómo mostrarla y trabajar con esta lista? La
+primera cosa que podemos hacer con una  
+
+143
+00:08:48,330 --> 00:08:49,149
+fórmula matriz,
+
+144
+00:08:49,149 --> 00:08:53,600
+es darle espacio. Hacer sitio en la hoja 
+de cálculo de Excel, no para representar
+
+145
+00:08:53,600 --> 00:08:58,950
+solamente el primer número, sino para
+representar toda la matriz resultante.
+
+146
+00:08:58,950 --> 00:09:02,970
+Así que vamos a echar un vistazo a cómo parece
+Para ello voy a eliminar
+
+147
+00:09:02,970 --> 00:09:03,760
+la versión normal
+
+148
+00:09:03,760 --> 00:09:08,019
+y la versión matriz, por lo que puede
+ver realmente la diferencia.
+
+149
+00:09:08,019 --> 00:09:11,000
+Eliminamos ambas. En la versión normal
+
+150
+00:09:11,000 --> 00:09:14,019
+si hacemos sitio para toda la matriz
+
+151
+00:09:14,019 --> 00:09:18,380
+introducimos en la primera celda la fórmula
+normal, y no sucede nada. Solamente obtenemos
+
+152
+00:09:18,380 --> 00:09:23,519
+un resultado. Pero en la versión de matriz, si hacemos 
+sitio, si le damos espacio y a continuación
+
+153
+00:09:23,519 --> 00:09:27,490
+pulsamos Shift+Control+Enter,
+sucede que conseguimos
+
+154
+00:09:27,490 --> 00:09:31,589
+toda la matriz resultante. Y ahora 
+podemos ver la lista que teníamos
+
+155
+00:09:31,589 --> 00:09:32,750
+en la pizarra. 
+
+156
+00:09:32,750 --> 00:09:36,060
+La tenemos ahora en la hoja de datos, porque
+le hemos hecho sitio a Excel 
+
+157
+00:09:36,060 --> 00:09:39,320
+para mostrarla: ¡He!, tengo para darte todo 
+este rango de datos
+
+158
+00:09:39,320 --> 00:09:45,000
+y no solo la primera versión. 
+Para alternativa,
+
+159
+00:09:45,000 --> 00:09:49,720
+lo que puedo hacer con una fórmula de matriz,
+es aplanar la lista,  
+
+160
+00:09:49,720 --> 00:09:52,900
+hacer toda esta lista en un valor
+
+161
+00:09:52,910 --> 00:09:57,519
+añadiendo una función a su alrededor.
+Así que, tenemos una lista
+
+162
+00:09:57,519 --> 00:10:00,870
+y lo que podemos decirle a Excel es: 
+haz algo con esta lista.
+
+163
+00:10:00,870 --> 00:10:04,310
+por ejemplo, SUM la lista. 
+
+164
+00:10:04,310 --> 00:10:07,700
+En la versión normal, si queremos
+SUM la intersección de 
+
+165
+00:10:07,700 --> 00:10:08,959
+dos rangos,
+
+166
+00:10:08,959 --> 00:10:13,140
+obtenemos -2, porque el resultado es -2. 
+Podemos añadir SUM alrededor de ella, pero 
+
+167
+00:10:13,140 --> 00:10:14,769
+seguirá siendo -2.
+
+168
+00:10:14,769 --> 00:10:20,010
+En la versión de matriz, obtenemos resultados diferentes.
+Veamos como es esto.
+
+169
+00:10:20,010 --> 00:10:23,610
+Si introducimos SUM alrededor de 
+la versión matriz
+
+170
+00:10:23,610 --> 00:10:27,130
+de la fórmula, obtenemos -5.
+
+171
+00:10:27,130 --> 00:10:29,990
+Porque, lo que sucede ahora es 
+que la SUM
+
+172
+00:10:29,990 --> 00:10:31,940
+ha sido calculada sobre toda
+
+173
+00:10:31,940 --> 00:10:35,810
+esta lista que ha resultado de
+la fórmula de matriz.
+
+174
+00:10:35,810 --> 00:10:40,450
+Aquí se ve la comparación con todas
+las restas individuales
+
+175
+00:10:40,450 --> 00:10:44,860
+y si añadimos un SUM alrededor, conseguimos
+exactamente el mismo valor.
+
+176
+00:10:44,860 --> 00:10:48,740
+Así que, todas las sustracciones 
+individuales y SUM, 
+
+177
+00:10:48,740 --> 00:10:54,170
+dan el mismo resultado que una fórmula
+de matriz con SUM alrededor.
+
+178
+00:10:54,170 --> 00:10:57,450
+Y de esta manera, así es como podemos resolver
+nuestro problema original
+
+179
+00:10:57,450 --> 00:11:00,709
+de querer comparar todas las preguntas 
+unas con otras.
+
+180
+00:11:00,709 --> 00:11:04,180
+No necesitamos una columna auxiliar 
+y un SUM, 
+
+181
+00:11:04,180 --> 00:11:07,700
+calculamos la suma total en una sola celda,
+
+182
+00:11:07,700 --> 00:11:11,660
+y esto nos ahorra un poco de espacio. 
+Veamos como es esto. 
+
+183
+00:11:12,780 --> 00:11:14,480
+No necesitamos mas esto,  
+
+184
+00:11:14,480 --> 00:11:18,570
+y podemos usar esto ahora para calcular la
+diferencia entre la pregunta 1
+
+185
+00:11:18,570 --> 00:11:22,769
+y la 2, en una celda solamente. Para ello,
+tomamos la SUM
+
+186
+00:11:22,769 --> 00:11:26,149
+de todo el rango, todo el rango B
+
+187
+00:11:26,149 --> 00:11:29,720
+menos todo el rango C, donde 
+necesitamos el valor absoluto
+
+188
+00:11:29,720 --> 00:11:33,370
+como decíamos al principio, y a 
+continuación  Control+Shift+Enter
+
+189
+00:11:33,370 --> 00:11:37,839
+nos devuelve como resultado, 21, lo mismo 
+que habíamos hecho al principio.
+
+190
+00:11:37,839 --> 00:11:40,760
+Así que con el uso de fórmulas de matriz,
+hemos reducido
+
+191
+00:11:40,760 --> 00:11:44,529
+una columna y una SUM a una sola celda.
+
+192
+00:11:44,529 --> 00:11:46,469
+Este es el poder de las fórmulas de matriz.
