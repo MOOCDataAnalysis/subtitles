@@ -62,12 +62,12 @@ niet voor kolommen.
 14
 00:00:46,440 --> 00:00:50,340
 en dat is precies wat ik wil, omdat ik
-deze éne vraag eruit wil filteren en ik
+deze Ã©ne vraag eruit wil filteren en ik
 
 
 15
 00:00:50,340 --> 00:00:51,560
-wil niet één 
+wil niet Ã©Ã©n 
 
 16
 00:00:51,560 --> 00:00:54,940
@@ -112,7 +112,7 @@ Dus wat ik nu krijg is
 
 25
 00:01:26,850 --> 00:01:31,509
-één cel, want, zoals we hebben gezien
+Ã©Ã©n cel, want, zoals we hebben gezien
 in een vorige video, ik heb Excel geen
 
 26

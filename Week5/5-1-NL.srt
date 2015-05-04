@@ -100,7 +100,7 @@ en zie welke vraag de toetsuitslag
 
 22
 00:01:09,689 --> 00:01:13,560
-het meest beïnvloedt. Laat me een 
+het meest beÃ¯nvloedt. Laat me een 
 voorbeeld geven.
 
 23
@@ -124,7 +124,7 @@ dan kan ik de SOM() nemen
 
 27
 00:01:28,040 --> 00:01:31,329
-van alle uitkomsten bij één vraag
+van alle uitkomsten bij Ã©Ã©n vraag
 en ook de SOM()
 
 28
@@ -321,7 +321,7 @@ doen
 
 67
 00:03:51,269 --> 00:03:55,049
-is, in één handeling 
+is, in Ã©Ã©n handeling 
 
 68
 00:03:55,049 --> 00:03:57,709
@@ -604,7 +604,7 @@ om de gehele lijst te plotten,
 
 131
 00:07:59,979 --> 00:08:04,800
-krijgen we maar één cel, we krijgen alleen 
+krijgen we maar Ã©Ã©n cel, we krijgen alleen 
 het eerste 
 
 132
@@ -703,7 +703,7 @@ dan gebeurd er niets, we krijgen slechts
 
 152
 00:09:18,380 --> 00:09:23,519
-één resultaat. Maar in de bereikvariant, 
+Ã©Ã©n resultaat. Maar in de bereikvariant, 
 als we ruimte maken, een plaats geven,
 
 153
@@ -741,11 +741,11 @@ de lijst inkorten
 
 160
 00:09:49,720 --> 00:09:52,900
-en deze totale lijst weergeven in één getal
+en deze totale lijst weergeven in Ã©Ã©n getal
 
 161
 00:09:52,910 --> 00:09:57,519
-door één functie toe te voegen. 
+door Ã©Ã©n functie toe te voegen. 
 Dus we hebben een lijst
 
 162
@@ -839,7 +839,7 @@ SOM() meer nodig
 
 181
 00:11:04,180 --> 00:11:07,700
-we kunnen de totale som in één cel
+we kunnen de totale som in Ã©Ã©n cel
 berekenen.
 
 182
@@ -858,7 +858,7 @@ verschil te berekenen tussen vraag 1
 
 185
 00:11:18,570 --> 00:11:22,769
-en vraag 2, in slechts één cel.
+en vraag 2, in slechts Ã©Ã©n cel.
 We nemen de SOM()
 
 186
@@ -888,7 +888,7 @@ hebben we
 191
 00:11:40,760 --> 00:11:44,529
 een kolom en een SOM() gereduceert tot 
-slechts één cel.
+slechts Ã©Ã©n cel.
 
 192
 00:11:44,529 --> 00:11:46,469

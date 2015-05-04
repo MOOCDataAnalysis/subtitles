@@ -93,7 +93,7 @@ Dus wat we doen; we gebruik hetzelfde
 
 21
 00:01:09,880 --> 00:01:12,580
-gebied nog een keer, maar nu met één regel 
+gebied nog een keer, maar nu met Ã©Ã©n regel 
 minder en typen hier
 
 22
@@ -112,7 +112,7 @@ het dan weer
 
 25
 00:01:25,439 --> 00:01:28,630
-met één regel minder. Een beetje omslachtig.
+met Ã©Ã©n regel minder. Een beetje omslachtig.
 
 26
 00:01:28,630 --> 00:01:32,650
