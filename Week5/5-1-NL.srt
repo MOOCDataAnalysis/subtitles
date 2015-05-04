@@ -1,0 +1,896 @@
+1
+00:00:00,750 --> 00:00:03,820
+Hoi! Welkom bij deze video. Vandaag
+
+2
+00:00:03,820 --> 00:00:08,389
+gaat we praten over array (bereik) formules. 
+En we hebben een gloednieuw
+
+3
+00:00:08,389 --> 00:00:11,460
+voorbeeld waar we array formules op toepassen. 
+Deze week
+
+4
+00:00:11,460 --> 00:00:14,549
+zijn we een leraar. En dat is een leuke
+samenkomst, want, natuurlijk, 
+
+5
+00:00:14,549 --> 00:00:17,980
+ik ben een leraar en dit zijn  
+mijn ervaringen
+
+6
+00:00:17,980 --> 00:00:22,539
+hoe ik examenresultaten analyseer. Dus 
+laten we eens kijken naar het werkboek waar
+
+7
+00:00:22,539 --> 00:00:23,699
+we mee gaan werken
+
+8
+00:00:23,699 --> 00:00:27,490
+in deze week. Het gaat over een
+aantal studenten
+
+9
+00:00:27,490 --> 00:00:30,980
+die in mijn klas zitten. Ik heb hun
+studentnummers, hun namen
+
+10
+00:00:30,980 --> 00:00:33,090
+en hun startjaar.
+
+11
+00:00:33,090 --> 00:00:37,010
+De namen, dan hun ID's en het jaar dat
+ze
+
+
+12
+00:00:37,010 --> 00:00:38,270
+gestart zijn met hun studie.
+
+13
+00:00:38,270 --> 00:00:42,230
+En daarbovenop, heb ik de toetsresultaten,
+dus ik heb een aantal
+
+14
+00:00:42,230 --> 00:00:44,060
+vragen.
+
+15
+00:00:44,070 --> 00:00:47,570
+Ik heb een lijst met studenten en dan
+voor alle vragen, heb ik 
+
+16
+00:00:47,570 --> 00:00:53,330
+de maximale punten en de punten behaald door
+alle studenten. Je zou denken dat
+
+17
+00:00:53,330 --> 00:00:54,700
+ik dit werkblad gebruik
+
+18
+00:00:54,710 --> 00:00:58,829
+om de cijfers van de studenten
+te analyseren.
+
+19
+00:00:58,829 --> 00:01:02,260
+maar dat is niet waar. Ik gebruik de 
+toetsuitslagen ook als een middel
+
+20
+00:01:02,260 --> 00:01:06,630
+om de kwaliteit van de toets te analyseren.
+Dus ik kijk naar de resultaten
+
+21
+00:01:06,630 --> 00:01:09,689
+en zie welke vraag de toetsuitslag
+
+
+22
+00:01:09,689 --> 00:01:13,560
+het meest beïnvloedt. Laat me een 
+voorbeeld geven.
+
+23
+00:01:13,560 --> 00:01:17,650
+Als ik naar dit werkblad kijk, zie ik 
+dat vragen 1 en 2,  
+
+24
+00:01:17,650 --> 00:01:22,259
+redelijke gelijke uitkomsten geven. 
+In veel gevallen dezelfde uitkomst 
+
+25
+00:01:22,259 --> 00:01:26,670
+of een heel vergelijkbare uitkomst.
+Dus als ik hier in wil duiken, 
+
+26
+00:01:26,670 --> 00:01:28,040
+dan kan ik de SOM() nemen
+
+27
+00:01:28,040 --> 00:01:31,329
+van alle uitkomsten bij één vraag
+en ook de SOM()
+
+28
+00:01:31,329 --> 00:01:35,299
+nemen over alle uitkomsten van andere vragen
+en deze met elkaar vergelijken. 
+
+29
+00:01:35,299 --> 00:01:35,829
+En ik zie
+
+30
+00:01:35,829 --> 00:01:39,990
+dat het verschil tussen vraag 1 en 2
+inderdaad niet zo groot is 
+
+
+31
+00:01:39,990 --> 00:01:43,119
+Hoewel, dat is een beetje
+misleidend,
+
+32
+00:01:43,119 --> 00:01:46,350
+omdat je ziet dat, als ik gewoon
+de som neem van deze cellen,
+
+33
+00:01:46,350 --> 00:01:50,290
+de sommen gelijk zouden zijn, toch zijn
+de uitkomsten heel verschillend. 
+
+34
+00:01:50,290 --> 00:01:53,909
+Dus, de SOM() is geen goede oplossing
+om goed te begrijpen
+
+35
+00:01:53,909 --> 00:01:58,840
+hoe deze twee vragen van elkaar verschillen
+Dus, wat gaat we doen?
+
+36
+00:01:58,840 --> 00:02:01,890
+Wat ik eigelijk wil doen, is het 
+verschil nemen tussen
+
+37
+00:02:01,890 --> 00:02:06,219
+al de cellen tussen al de uitkomsten
+voor deze twee vragen.
+
+38
+00:02:06,219 --> 00:02:10,679
+laat ik dat doen, maar helaas, 
+dubbelklikken werkt niet,
+
+39
+00:02:10,679 --> 00:02:13,270
+omdat er een lege kolom tussen zit,
+dus ik moet de formule naar 
+
+40
+00:02:13,270 --> 00:02:17,930
+beneden doortrekken en nu zie ik
+de verschillen tussen al de cellen.
+
+41
+00:02:17,930 --> 00:02:21,989
+Maar, zoals je kan zien, sommige verschillen
+zijn positief en andere negatief,
+
+42
+00:02:21,989 --> 00:02:25,260
+dus ik neem de absolute waarde van het 
+verschil
+
+
+43
+00:02:25,260 --> 00:02:28,599
+om zo het daadwerkelijke verschil te 
+krijgen tussen
+
+44
+00:02:28,599 --> 00:02:31,470
+de twee vragen. Dus we trekken
+
+45
+00:02:31,470 --> 00:02:34,540
+het absolute verschil naar beneden en nu
+zien we:
+
+46
+00:02:34,540 --> 00:02:38,250
+Hey, is er echt een verschil? Als we de 
+waarden bij elkaar optellen
+
+47
+00:02:38,250 --> 00:02:41,879
+zien we dat het verschil, inderdaad, 
+tussen deze twee vragen,
+
+48
+00:02:41,879 --> 00:02:45,170
+niet zo groot is. Het verschil is 21
+
+49
+00:02:45,170 --> 00:02:49,500
+en we hebben 14 studenten, dus dat is
+ongeveer 1.5 punt
+
+50
+00:02:49,500 --> 00:02:53,680
+verschil per student tussen de vragen.
+dat helpt mij, 
+
+51
+00:02:53,680 --> 00:02:57,269
+met de analyse, omdat ik nu weet hoe deze
+twee vragen
+
+52
+00:02:57,269 --> 00:03:01,239
+zich tot elkaar verhouden. Maar, ik 
+heb niet twee vragen, ik heb er 12.
+
+53
+00:03:01,239 --> 00:03:04,170
+Dus als ik deze analyse wil herhalen
+voor alle vragen
+
+
+54
+00:03:04,170 --> 00:03:08,080
+Dan heb ik een hoop hulpkolommen nodig,
+hier zie je het,	
+
+55
+00:03:08,080 --> 00:03:12,560
+er komt bijna geen einde aan. Dat is niet
+wat ik wil.
+
+56
+00:03:12,560 --> 00:03:16,300
+Ik hoop dat je je herinnert van de vorige 
+lessen dat herhaling
+
+57
+00:03:16,300 --> 00:03:20,730
+niet goed is. Als je hetzelfde opnieuw
+en opnieuw aan het doen bent, als je 
+
+58
+00:03:20,730 --> 00:03:21,760
+een hoop kolommen aan het maken bent
+
+59
+00:03:21,760 --> 00:03:27,390
+of een hoop regels die heel erg op elkaar lijken,
+moet je aan me denken. Alstublief, denk aan mij
+
+60
+00:03:27,390 --> 00:03:27,980
+en denk:
+
+61
+00:03:27,980 --> 00:03:31,950
+Oh nee, herhaling! Niet goed, ik moet terug 
+naar de MOOC
+
+62
+00:03:31,950 --> 00:03:35,500
+en kijken of er een slimmere manier is om dit te doen.
+
+63
+00:03:35,500 --> 00:03:39,620
+Hoe kan het slimmer? Laat me eerst alle
+kolommen verwijderen
+
+64
+00:03:39,620 --> 00:03:43,239
+we willen ze niet hebben, we zoomen een
+beetje uit
+
+65
+00:03:43,239 --> 00:03:47,069
+we verwijderen dit ook, omdat we iets 
+gaan doen op een compactere manier,
+
+66
+00:03:47,069 --> 00:03:51,269
+op een slimmere manier. Dus wat we willen 
+doen
+
+67
+00:03:51,269 --> 00:03:55,049
+is, in één handeling 
+
+68
+00:03:55,049 --> 00:03:57,709
+vraag 1 aftrekken van vraag 2
+zonder al deze
+
+69
+00:03:57,709 --> 00:04:02,519
+hulpcellen. Dus dit is een goede 
+poging, we trekken eenvoudigweg
+
+70
+00:04:02,519 --> 00:04:06,620
+een bereik van een ander bereik af. 
+laten we eens kijken met "formule evalueren" 
+
+71
+00:04:06,620 --> 00:04:11,799
+wat er nu precies gebeurd. We hebben 
+de eerste kolom, als we dit evalueren
+
+72
+00:04:11,799 --> 00:04:14,939
+dan krijgen we 8, dat is de eerste waarde
+
+73
+00:04:14,939 --> 00:04:19,609
+in the kolom. En dit komt omdat Excel 
+nu de intersectie berekent.
+
+74
+00:04:19,609 --> 00:04:23,180
+We hebben het hier over gehad in 
+vorige lessen.
+
+75
+00:04:23,180 --> 00:04:27,380
+Dus dit komt dichtbij wat we willen, maar
+is het nog niet precies. We willen niet dat Excel
+
+76
+00:04:27,380 --> 00:04:29,940
+de intersectie direct berekent,
+
+77
+00:04:29,940 --> 00:04:33,440
+we willen al de verschillen hebben
+
+78
+00:04:33,440 --> 00:04:36,310
+en hiervoor gaan we, je raadt het al,
+
+79
+00:04:36,310 --> 00:04:41,220
+array (bereik) formules gebruiken. 
+Excel kan deze functie uitvoeren
+
+80
+00:04:41,220 --> 00:04:44,770
+op twee verschillende manieren. Ik zal je 
+laten zien hoe
+
+81
+00:04:44,770 --> 00:04:47,860
+het alternatief eruit ziet. Dit is een 
+soort van normale
+
+82
+00:04:47,860 --> 00:04:51,530
+waarde, de gewone methode is wat we net 
+hebben gedaan.
+
+83
+00:04:51,530 --> 00:04:54,770
+We plakken deze formule
+
+84
+00:04:54,770 --> 00:04:57,360
+en nu de alternatieve manier, de bereikmanier
+
+85
+00:04:57,360 --> 00:04:58,259
+om dit te doen, 
+
+86
+00:04:58,259 --> 00:05:02,550
+we drukken niet enter, we drukken control+shift+enter
+
+87
+00:05:02,550 --> 00:05:05,600
+en als we dat doen, dan krijgen we deze 
+gekromde haken (accolades)
+
+88
+00:05:05,600 --> 00:05:08,880
+aan beide zijden van onze formule.
+
+89
+00:05:08,880 --> 00:05:11,979
+Het antwoord is niet goed, omdat we 
+hetzelfde resultaat krijgen.
+
+90
+00:05:11,979 --> 00:05:16,430
+Dus je bent geneigd te denken dat 
+er geen verschil is, de accolades
+
+91
+00:05:16,430 --> 00:05:20,440
+doen niks. Maar, de manier waarop dit 
+berekend is
+
+92
+00:05:20,440 --> 00:05:23,900
+is echt heel anders. 
+De onderliggende methode
+
+93
+00:05:23,900 --> 00:05:28,389
+is anders. En om het verschil goed te begrijpen 
+tussen deze twee methodes
+
+94
+00:05:28,389 --> 00:05:33,169
+hebben we de typen theorie nodig.
+
+95
+00:05:38,640 --> 00:05:41,300
+Voor de eerste variant, de gewone 
+variant
+
+96
+00:05:41,300 --> 00:05:45,580
+van de verschil functie gebeurt er dit:
+we hebben een bereik
+
+97
+00:05:45,580 --> 00:05:49,770
+B3 tot B16
+
+98
+00:05:49,770 --> 00:05:53,240
+en we verminderen dat met het bereik
+
+99
+00:05:53,240 --> 00:05:57,700
+C3 tot C16. 
+
+100
+00:05:57,710 --> 00:05:59,850
+Dus wat hier gebeurd is vermindering
+
+101
+00:05:59,850 --> 00:06:03,780
+van de intersectie tussen de twee bereiken. 
+Dit is wat Excel	
+
+102
+00:06:03,780 --> 00:06:08,169
+teruggeeft voor een bereik, zo dit is 
+
+103
+00:06:08,169 --> 00:06:12,370
+8, de eerste intersectie
+
+104
+00:06:12,370 --> 00:06:16,390
+min 10, de tweede intersectie
+
+105
+00:06:17,320 --> 00:06:18,280
+dat resulteert in
+
+106
+00:06:18,289 --> 00:06:22,680
+-2, dat is wat hebben gezien.
+Dus wat gebeurt er	
+
+107
+00:06:22,680 --> 00:06:25,919
+bij de alternatieve methode? 
+De accolades, de 
+
+108
+00:06:25,919 --> 00:06:27,859
+array (bereik) variant?
+
+109
+00:06:34,480 --> 00:06:35,259
+Het ziet er 
+
+110
+00:06:35,259 --> 00:06:40,579
+exact hetzelfde uit, maar wat er 
+binnenin gebeurd is echt heel anders.
+
+111
+00:06:41,040 --> 00:06:43,580
+Dus in deze versie hebben we 
+
+112
+00:06:43,580 --> 00:06:46,900
+opnieuw B3 tot B16 
+
+113
+00:06:46,900 --> 00:06:51,680
+min C3 tot C16
+
+114
+00:06:54,720 --> 00:06:56,100
+In de bereikversie
+
+115
+00:06:56,110 --> 00:07:00,139
+vindt er geen reductie plaats.
+Excel berekent het verschil
+
+116
+00:07:00,139 --> 00:07:04,289
+voor het gehele bereik. Dus intern
+
+117
+00:07:04,289 --> 00:07:09,470
+hebben we B3 min C3
+
+118
+00:07:09,470 --> 00:07:11,259
+en dan B4
+
+119
+00:07:11,259 --> 00:07:15,720
+min C4 en dan B5
+
+120
+00:07:15,720 --> 00:07:17,420
+min C5
+
+121
+00:07:19,360 --> 00:07:22,700
+En ik gok dat je zelf de rest kunt
+bedenken.
+
+122
+00:07:22,710 --> 00:07:25,400
+En zo worden alle verschillen
+
+123
+00:07:25,400 --> 00:07:29,889
+berekend voor alle cellen. Dus we krijgen
+een lijst
+
+124
+00:07:29,889 --> 00:07:34,580
+met, 8 min 10, 0 min 0,
+
+125
+00:07:34,580 --> 00:07:39,780
+5 min 5, etc.
+
+126
+00:07:40,640 --> 00:07:41,680
+Dus het resultaat
+
+127
+00:07:41,680 --> 00:07:44,979
+van dit bereik, van de accolade versie
+
+128
+00:07:44,979 --> 00:07:48,079
+van deze formule is een lijst:
+
+129
+00:07:51,300 --> 00:07:55,000
+2, 0, 0 etc.
+
+130
+00:07:56,460 --> 00:07:59,979
+Maar omdat er geen ruimte in Excel is 
+om de gehele lijst te plotten,
+
+131
+00:07:59,979 --> 00:08:04,800
+krijgen we maar één cel, we krijgen alleen 
+het eerste 
+
+132
+00:08:04,800 --> 00:08:06,610
+nummer in de lijst.
+
+133
+00:08:06,610 --> 00:08:09,479
+Maar dat betekent niet dat het resultaat 
+een nummer is,
+
+134
+00:08:09,479 --> 00:08:12,870
+het resultaat is eigelijk een lijst. 
+Het ziet er hetzelfde uit,
+
+135
+00:08:12,870 --> 00:08:16,740
+maar intern is het echt heel erg
+anders. Dus laten we teruggaan
+
+136
+00:08:16,740 --> 00:08:22,780
+en kijken hoe dit er uitziet in Excel.
+We hebben deze bril niet meer nodig.
+
+137
+00:08:26,300 --> 00:08:27,280
+Dus als we naar
+
+138
+00:08:27,280 --> 00:08:30,680
+ons werkblad kijken, zien we geen verschil.
+
+139
+00:08:30,680 --> 00:08:34,409
+Maar, intern is het echt heel erg anders. 
+De eerste versie
+
+140
+00:08:34,409 --> 00:08:38,509
+resulteert in een nummer waar de tweede
+versie resulteert in een lijst.
+
+141
+00:08:39,289 --> 00:08:43,449
+Dus wat kunnen we met een lijst doen? Leuk dat 
+we een lijst hebben, maar wat moeten we ermee?
+
+142
+00:08:43,450 --> 00:08:48,330
+Hoe deze lijst weergeven en mee werken? 
+Het eerste wat we kunnen doen met een 
+
+143
+00:08:48,330 --> 00:08:49,149
+bereikformule,
+
+144
+00:08:49,149 --> 00:08:53,600
+is het ruimte geven. Maak ruimte in je
+werkblad voor Excel
+
+145
+00:08:53,600 --> 00:08:58,950
+zodat niet alleen de eerste waarde wordt 
+geprint, maar het gehele bereik.
+
+146
+00:08:58,950 --> 00:09:02,970
+Dus hoe ziet dat eruit?
+We verwijderen de gewone 
+
+147
+00:09:02,970 --> 00:09:03,760
+versie
+
+148
+00:09:03,760 --> 00:09:08,019
+en de bereikvariant, zodat we echt
+het verschil kunnen zien.
+
+149
+00:09:08,019 --> 00:09:11,000
+We gooien ze weg. Als we voor de gewone versie
+
+150
+00:09:11,000 --> 00:09:14,019
+ruimte maken voor het hele bereik
+
+
+151
+00:09:14,019 --> 00:09:18,380
+en we stoppen daar een gewone formule in, 
+dan gebeurd er niets, we krijgen slechts
+
+152
+00:09:18,380 --> 00:09:23,519
+één resultaat. Maar in de bereikvariant, 
+als we ruimte maken, een plaats geven,
+
+153
+00:09:23,519 --> 00:09:27,490
+en we drukken shift+control+enter, dan
+krijgen we
+
+154
+00:09:27,490 --> 00:09:31,589
+het complete bereik van het resultaat
+En nu zie je de lijst die we eerst hadden
+
+155
+00:09:31,589 --> 00:09:32,750
+op het bord.
+
+156
+00:09:32,750 --> 00:09:36,060
+We hebben deze nu in een werkblad, omdat
+we Excel de ruimte gaven
+
+157
+00:09:36,060 --> 00:09:39,320
+om het te tonen: Hee, ik heb dit totale bereik met data
+
+158
+00:09:39,320 --> 00:09:45,000
+om je te geven en niet alleen het eerste nummer. Een alternatief
+
+159
+00:09:45,000 --> 00:09:49,720
+wat je met een bereikformule kan doen, is 
+de lijst inkorten
+
+
+160
+00:09:49,720 --> 00:09:52,900
+en deze totale lijst weergeven in één getal
+
+161
+00:09:52,910 --> 00:09:57,519
+door één functie toe te voegen. 
+Dus we hebben een lijst
+
+162
+00:09:57,519 --> 00:10:00,870
+en wat we tegen Excel zeggen is:
+doe iets met die lijst.
+
+163
+00:10:00,870 --> 00:10:04,310
+bijvoorbeeld, SOM() de lijst. 
+
+164
+00:10:04,310 --> 00:10:07,700
+Dus in de gewone versie zouden we
+de intersectie tussen twee
+
+165
+00:10:07,700 --> 00:10:08,959
+bereiken sommeren,
+
+166
+00:10:08,959 --> 00:10:13,140
+dan krijgen we -2, omdat het resultaat 
+-2 is. We kunnen SOM() eromheen plaaten
+
+
+167
+00:10:13,140 --> 00:10:14,769
+maar dit blijft -2 (onveranderd)
+
+168
+00:10:14,769 --> 00:10:20,010
+In de bereikvariant krijgen we een ander 
+resultaat. Kijk hoe het eruit ziet.
+
+169
+00:10:20,010 --> 00:10:23,610
+Als we SOM() om de formule heen plaatsen
+
+170
+00:10:23,610 --> 00:10:27,130
+dan krijgen -5.
+
+171
+00:10:27,130 --> 00:10:29,990
+Want nu wordt de SOM() 
+
+172
+00:10:29,990 --> 00:10:31,940
+berekent over deze
+
+173
+00:10:31,940 --> 00:10:35,810
+totale lijst, die het resultaat is van 
+de bereikformule.
+
+174
+00:10:35,810 --> 00:10:40,450
+En hier zie je de vergelijking tussen
+alle afzonderlijke aftreksommen
+
+175
+00:10:40,450 --> 00:10:44,860
+en als we SOM() eromheen toevoegen, dan 
+krijgen exact hetzelfde resultaat.
+
+176
+00:10:44,860 --> 00:10:48,740
+Dus, alle afzonderlijke aftreksommen 
+sommeren
+
+177
+00:10:48,740 --> 00:10:54,170
+geeft exact hetzelfde als een bereikformule
+met een SOM() eromheen.
+
+178
+00:10:54,170 --> 00:10:57,450
+en op deze manier, kunnen we ons oorspronkelijke
+probleem oplossen
+
+179
+00:10:57,450 --> 00:11:00,709
+namelijk alle vragen met elkaar 
+vergelijken
+
+180
+00:11:00,709 --> 00:11:04,180
+We hebben geen hulpkolom en  
+SOM() meer nodig
+
+181
+00:11:04,180 --> 00:11:07,700
+we kunnen de totale som in één cel
+berekenen.
+
+182
+00:11:07,700 --> 00:11:11,660
+En dit spaart een hoop ruimte. 
+Kijk hoe dat er uitziet.
+
+183
+00:11:12,780 --> 00:11:14,480
+We hebben dat niet meer nodig.
+
+184
+00:11:14,480 --> 00:11:18,570
+We kunnen dit gebruiken om het 
+verschil te berekenen tussen vraag 1
+
+185
+00:11:18,570 --> 00:11:22,769
+en vraag 2, in slechts één cel.
+We nemen de SOM()
+
+186
+00:11:22,769 --> 00:11:26,149
+van het gehele bereik, het totale B-bereik
+
+187
+00:11:26,149 --> 00:11:29,720
+min het totale C-bereik, hier hebben we
+het absolute verschil nodig
+
+188
+00:11:29,720 --> 00:11:33,370
+zoals we deden in het begin, en dan
+Control+Shift+Enter
+
+189
+00:11:33,370 --> 00:11:37,839
+Dit geeft ons 21 als resultaat, net zoals
+we dat in het begin hadden
+
+190
+00:11:37,839 --> 00:11:40,760
+Dus door het gebruik van een bereikformule,
+hebben we 
+
+191
+00:11:40,760 --> 00:11:44,529
+een kolom en een SOM() gereduceert tot 
+slechts één cel.
+
+192
+00:11:44,529 --> 00:11:46,469
+Dat is de kracht van bereikformules.
+

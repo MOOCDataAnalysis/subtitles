@@ -1,0 +1,419 @@
+1
+00:00:00,440 --> 00:00:03,520
+In de vorige video hebben we gekeken
+naar bereikformules,
+
+2
+00:00:03,530 --> 00:00:07,330
+Specifieker, we hebben gekeken hoe we
+data kunnen transponeren
+
+3
+00:00:07,330 --> 00:00:12,700
+zodat we vragen uit ons examen 
+kunnen filteren.
+
+4
+00:00:12,700 --> 00:00:15,809
+Onze data is nu klaargezet, maar niet  
+op de juiste manier,
+
+5
+00:00:15,809 --> 00:00:19,820
+dus laten het filteren. We kunnen naar de 
+filterknop gaan, onze data selecteren
+
+6
+00:00:19,820 --> 00:00:24,010
+en zeggen: Hee, we hebben niet al deze data 
+nodig, we willen niet al deze vragen,
+
+7
+00:00:24,010 --> 00:00:27,410
+we willen alles hebben
+
+8
+00:00:27,410 --> 00:00:31,160
+behalve de tweede regel. Maar helaas,
+
+9
+00:00:31,160 --> 00:00:34,930
+we hebben nog steeds hetzelfde resultaat,
+omdat we alles hebben getransponeerd
+
+10
+00:00:34,930 --> 00:00:38,250
+inclusief de laatste kolom,
+
+11
+00:00:38,250 --> 00:00:41,440
+dat nu de laatste regel is. Dus je denkt 
+"dat komt goed, 
+
+12
+00:00:41,440 --> 00:00:45,070
+we gaan het gewoon weggooien". Maar dat werkt niet
+
+13
+00:00:45,070 --> 00:00:47,969
+je kan geen deel van een array formula weggooien
+
+14
+00:00:47,969 --> 00:00:50,789
+Dat is onmogelijk, als je eenmaal een 
+gebied hebt geselecteerd
+
+15
+00:00:50,789 --> 00:00:54,840
+dat is bedoeld voor een bereik, dan
+kun je daarbinnen geen cellen weggooien.
+
+16
+00:00:54,840 --> 00:00:58,590
+En dat is goed, want dan kun je niet per 
+ongeluk een deel van je
+
+17
+00:00:58,590 --> 00:00:59,359
+bereik overschrijven
+
+18
+00:00:59,359 --> 00:01:02,510
+doordat je je toetsenbord raakt met je elleboog.
+Maar in dit geval,
+
+19
+00:01:02,510 --> 00:01:07,030
+willen we de laatste kolom niet meer hebben
+We willen nieuwe berekeningen toevoegen.
+
+20
+00:01:07,030 --> 00:01:09,880
+Dus wat we doen; we gebruik hetzelfde
+
+21
+00:01:09,880 --> 00:01:12,580
+gebied nog een keer, maar nu met één regel 
+minder en typen hier
+
+22
+00:01:12,580 --> 00:01:16,060
+de bereikformule in. 
+
+23
+00:01:16,060 --> 00:01:20,810
+Dus de enige manier hoe we de waarden kunnen
+deleten is alles weggooien,
+
+24
+00:01:20,810 --> 00:01:25,439
+verwijder het totale bereik en gebruik
+het dan weer
+
+25
+00:01:25,439 --> 00:01:28,630
+met één regel minder. Een beetje omslachtig.
+
+26
+00:01:28,630 --> 00:01:32,650
+Dus als je een bereik wilt veranderen, moet je
+alles veranderen,
+
+27
+00:01:32,650 --> 00:01:37,590
+maar nu hebben we het. Dus we kunnen nu 
+zelf een SOM functie toevoegen
+
+28
+00:01:37,590 --> 00:01:41,390
+gebaseerd op de getransponeerde data.
+We voegen eenvoudig een SOM()
+
+29
+00:01:41,390 --> 00:01:45,509
+over de complete kolom toe. 
+
+30
+00:01:45,509 --> 00:01:47,040
+En we slepen dit naar beneden
+
+31
+00:01:48,500 --> 00:01:50,220
+Ja, daar hebben we het.
+
+32
+00:01:50,220 --> 00:01:54,500
+Dus nu kunnen we filteren, we zijn 
+helemaal voorbereid, filteren, we 
+
+33
+00:01:54,500 --> 00:01:58,140
+verwijderen de tweede vraag van de 
+vragenlijst
+
+34
+00:01:58,140 --> 00:01:59,920
+en het werkt.
+
+35
+00:02:00,500 --> 00:02:02,240
+of... nee blijkbaar niet.
+
+36
+00:02:02,240 --> 00:02:05,420
+De berekening, zelfs nu de regel 
+weggefilterd is,
+
+37
+00:02:05,420 --> 00:02:10,580
+gebruikt nog steeds de totale kolom.
+Dus we kunnen geen gebruik maken van 
+
+38
+00:02:10,580 --> 00:02:14,680
+een filter, want het zal nog steeds
+
+39
+00:02:14,680 --> 00:02:18,840
+de totale kolom gebruiken, helaas.
+
+40
+00:02:18,840 --> 00:02:21,730
+Ik hoop dat je nu staat te schreeuwen, 
+
+
+41
+00:02:21,730 --> 00:02:25,700
+aan de andere kant van de video en roept:
+
+42
+00:02:25,700 --> 00:02:29,739
+Hee, ik weet dat dit niet werkt, want 
+formules zijn niet 
+
+43
+00:02:29,739 --> 00:02:33,709
+geschikt voor analyse. Formules zijn
+voor berekeningen,
+
+44
+00:02:33,709 --> 00:02:37,160
+als je wilt analyseren dan moet
+je iets anders doen.
+
+45
+00:02:37,160 --> 00:02:40,390
+Bijvoorbeeld een draaitabel maken
+
+46
+00:02:40,390 --> 00:02:43,239
+Inderdaad. Oke, Oke, Oke, ik hoor jullie.
+
+47
+00:02:43,239 --> 00:02:48,640
+Laten we een draaitabel gebruiken voor onze
+analyse. We gooien de formules weg,
+
+48
+00:02:48,640 --> 00:02:52,959
+die zijn niet voor analyse. We gooien het 
+filter weg en we selecteren alle data 
+
+49
+00:02:52,959 --> 00:02:53,730
+en we stoppen het 
+
+50
+00:02:53,730 --> 00:02:57,430
+in een draaitabel. Verwijder 
+
+51
+00:02:57,430 --> 00:03:00,379
+het filter, we selecteren alle data.
+
+52
+00:03:00,379 --> 00:03:04,650
+Oh ja, ik heb de studentnummers verander in 
+1, 2, 3, 4, in plaats van 
+
+53
+00:03:04,650 --> 00:03:09,050
+die lange studentnummers, want dat maakt de 
+draaitabel te groot.
+
+54
+00:03:09,050 --> 00:03:16,050
+Oke, we voegen een draaitabel toe.
+
+55
+00:03:17,409 --> 00:03:20,569
+Selecteer een draaitabel en we plaatsen
+het in een nieuw werkblad dat ik net
+
+56
+00:03:20,569 --> 00:03:21,209
+heb gemaakt.
+
+57
+00:03:21,209 --> 00:03:24,599
+Selecteer de data en we hebben een draaitabel.
+
+58
+00:03:24,599 --> 00:03:28,959
+Dus nu kunnen we filteren, toch? We kunnen zeggen:
+we willen willen alle studenten, dat zijn de 
+
+59
+00:03:28,959 --> 00:03:30,200
+studentennummers nu,
+
+60
+00:03:30,200 --> 00:03:36,370
+dan de som van alle studenten
+klik, klik, klik
+
+61
+00:03:36,370 --> 00:03:38,440
+Ja, en nu kunnen we een filter toevoegen
+
+62
+00:03:38,440 --> 00:03:42,209
+voor de vragen die we willen hebben, 
+super makkelijk als je de video's 
+
+63
+00:03:42,209 --> 00:03:45,720
+van week 3 hebt gezien over draaitabellen,
+dan weet je dit. We selecteren 
+
+64
+00:03:45,720 --> 00:03:50,610
+welke vragen we willen. Maar, zoals je ziet, 
+het is nog steeds moeilijk om 
+
+65
+00:03:50,610 --> 00:03:52,549
+verschillende scenario's met elkaar te vergelijken.
+
+66
+00:03:52,549 --> 00:03:56,470
+Nu is dit 55, als ik een waarde verander
+
+67
+00:03:56,470 --> 00:03:59,659
+dan veranderd dit ook, maar wat ik wil 
+hebben is 
+
+68
+00:03:59,659 --> 00:04:03,049
+een rij scenario's naast elkaar. Een regel
+
+69
+00:04:03,049 --> 00:04:06,439
+met examenvraag 2 en een regel zonder 
+
+70
+00:04:06,439 --> 00:04:10,239
+examenvraag 2, zonder elke keer 
+
+71
+00:04:10,239 --> 00:04:13,299
+heen en weer te klikken. Als ik dat wil
+
+72
+00:04:13,299 --> 00:04:17,130
+dan kan ik alleen maar twee verschillende 
+draaitabellen maken met twee verschillende
+
+73
+00:04:17,130 --> 00:04:18,250
+filters.
+
+74
+00:04:18,250 --> 00:04:22,150
+en dan hebben we opnieuw het herhalings-
+probleem.
+
+75
+00:04:22,150 --> 00:04:26,080
+Er is nog een nadeel bij het gebruik
+van draaitabellen voor deze analyse.
+
+76
+00:04:26,080 --> 00:04:29,120
+Als we naar het veld waardeveldinstelling 
+gaan, hier beneden,
+
+
+77
+00:04:29,120 --> 00:04:32,560
+dan zijn er maar een beperkt aantal functies
+die we kunnen gebruiken.
+
+78
+00:04:32,560 --> 00:04:35,870
+We vinden SOM, GEMIDDELDE, MIN, MAX, maar niet
+
+79
+00:04:35,870 --> 00:04:41,250
+alle 350+ ingebouwde Excelfuncties
+
+80
+00:04:41,250 --> 00:04:45,240
+Er is een beperkte set functies die we kunnen
+gebruiken. Dus als we de examenresultaten 
+
+81
+00:04:45,240 --> 00:04:46,729
+sommeren, dan gaat het goed,
+
+82
+00:04:46,729 --> 00:04:48,979
+maar als we het verschillende kwartielen
+willen nemen bijvoorbeeld, 
+
+83
+00:04:48,979 --> 00:04:51,320
+of als we de MEDIAAN willen gebruiken
+
+84
+00:04:51,320 --> 00:04:55,460
+of als we de MODUS willen gebruiken, 
+dan kan dat niet 
+
+85
+00:04:55,460 --> 00:04:57,090
+in een draaitabel.
+
+86
+00:04:57,090 --> 00:05:02,449
+Concluderend, ja, formules zijn om te 
+rekenen en niet om te analyseren,
+
+87
+00:05:02,449 --> 00:05:05,780
+maar er zijn beperkingen aan het gebruik 
+
+88
+00:05:05,780 --> 00:05:09,880
+van draaitabellen, omdat ze niet alles 
+ondersteunen en daarnaast ondersteunen ze 
+
+89
+00:05:09,880 --> 00:05:10,889
+niet echt
+
+90
+00:05:10,889 --> 00:05:14,789
+scenarioberekeningen, voor het geval dat 
+ik twee verschillende filters met elkaar
+
+91
+00:05:14,789 --> 00:05:15,530
+wil vergelijken.
+
+92
+00:05:15,530 --> 00:05:18,280
+En dan gaan we array(bereik)formules 
+gebruiken.
+

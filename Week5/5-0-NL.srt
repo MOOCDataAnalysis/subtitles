@@ -1,0 +1,335 @@
+1
+00:00:00,400 --> 00:00:03,440
+Deze week gaan we het hebben over 
+array (bereik) formules.
+
+2
+00:00:03,440 --> 00:00:06,560
+Laten we eens een blik werpen op dit 
+voorbeeld. Hier
+
+3
+00:00:06,560 --> 00:00:09,860
+kijken we als een leraar naar de examenuitslagen.
+
+4
+00:00:11,080 --> 00:00:14,660
+We onderbreken deze opname voor een belangrijk
+bericht over Typen.
+
+5
+00:00:15,460 --> 00:00:17,279
+Vandaag gaan we praten over de
+
+6
+00:00:17,279 --> 00:00:21,400
+theorie van typen, omdat het erg belangrijk is
+om het oefenmateriaal van 
+
+7
+00:00:21,400 --> 00:00:23,250
+deze week te begrijpen.
+
+8
+00:00:23,250 --> 00:00:27,290
+We gaan heel, heel erg basaal beginnen
+dus maak je niet ongerust.
+
+9
+00:00:32,880 --> 00:00:34,060
+Dit is makkelijk, toch?
+
+10
+00:00:34,060 --> 00:00:39,030
+2 plus 3 is 5, maar dit zijn
+niet alleen nummers. Ze hebben ook 
+
+11
+00:00:39,030 --> 00:00:40,970
+het type 'nummer' en ik ga alle typen	
+
+12
+00:00:40,970 --> 00:00:45,720
+markeren met een verschillende kleur.
+Dus wat we hier berekenen
+
+13
+00:00:45,720 --> 00:00:49,190
+is een nummer plus een nummer en
+
+14
+00:00:49,190 --> 00:00:55,920
+dat resulteert in een nummer. Maar zo schrijven 
+we het niet in Excel formules, we schrijven
+
+15
+00:00:55,920 --> 00:00:56,620
+nummers
+
+16
+00:00:56,620 --> 00:00:59,980
+in een formule, maar we kunnen ze ook in
+cellen schrijven. Laten we eens kijken 
+
+17
+00:00:59,980 --> 00:01:01,500
+hoe dat eruit ziet.
+
+18
+00:01:05,460 --> 00:01:11,100
+Stel we hebben twee cellen in een 
+werkblad en stel dat A1 
+
+19
+00:01:11,110 --> 00:01:16,170
+plus A2 in dit geval ook 5 is.
+
+20
+00:01:18,240 --> 00:01:20,320
+Dus wat zijn de typen hier?
+
+21
+00:01:20,320 --> 00:01:25,490
+5 is een nummer, dat is makkelijk, maar
+A1 is niet een nummer,
+
+22
+00:01:25,490 --> 00:01:29,930
+het is een cel, een referentie naar een nummer.
+
+23
+00:01:29,930 --> 00:01:33,730
+Laten we dit als volgt tekenen
+
+24
+00:01:33,730 --> 00:01:36,050
+en zeggen: iets dat een nummer bevat en
+
+25
+00:01:36,050 --> 00:01:39,050
+iets dat een nummer bevat.
+We kunnen de nummers optellen
+
+26
+00:01:39,050 --> 00:01:43,870
+en dan krijgen we een nummer. Er zijn 
+verschillende typen in Excel,
+
+27
+00:01:43,870 --> 00:01:46,050
+er zijn niet alleen maar nummers.
+
+28
+00:01:49,960 --> 00:01:51,660
+stel dat we in deze cel 
+
+29
+00:01:51,670 --> 00:01:56,200
+een string, een stuk tekst hebben. 
+We kunnen ook rekenen met tekst
+
+30
+00:01:56,200 --> 00:01:56,210
+ 
+
+31
+00:02:04,710 --> 00:02:06,280
+Dus wat voor typen hebben we hier?
+
+32
+00:02:06,280 --> 00:02:10,310
+We hebben opnieuw iets dat een
+
+33
+00:02:10,310 --> 00:02:13,010
+tekst bevat en het resultaat van de functie
+
+34
+00:02:13,010 --> 00:02:16,310
+is een tekst. Dus deze functies gebruiken
+
+35
+00:02:16,310 --> 00:02:20,150
+allemaal dezelfde waarden, een nummer 
+resulteert in een nummer
+
+36
+00:02:20,150 --> 00:02:23,480
+en een tekst resulteert in een tekst.
+
+37
+00:02:23,480 --> 00:02:27,090
+Maar er zijn ook functies die een 
+bepaald type vragen
+
+38
+00:02:27,090 --> 00:02:31,410
+maar een ander type teruggeven. Laten we eens 
+kijken hoe dat er uitziet.
+
+39
+00:02:35,880 --> 00:02:39,500
+Bijvoorbeeld als we rekenen met datums...
+
+40
+00:02:46,100 --> 00:02:50,040
+Nu hebben we een datum in ons werkblad, en 
+we kunnen ook rekenen met datums.
+
+41
+00:02:50,040 --> 00:02:51,720
+We hebben dat eerder gezien.
+
+42
+00:02:51,720 --> 00:02:55,170
+We kunnen, bijvoorbeeld, berekenen
+
+43
+00:02:55,170 --> 00:03:00,760
+de maand van A1, dat is 1. 
+
+44
+00:03:00,760 --> 00:03:03,370
+Dus hier zien jullie een voorbeeld van iets
+dat een zekere waarde
+
+45
+00:03:03,370 --> 00:03:07,730
+vraagt, dat zit in een container, 
+
+46
+00:03:07,730 --> 00:03:10,840
+iets dat een cel bevat, dat weer een 
+datum bevat
+
+47
+00:03:10,840 --> 00:03:14,190
+maar het resulteert in een nummer. Dus hier
+
+48
+00:03:14,190 --> 00:03:17,920
+gebruik je een datum (als invoer), maar je 
+krijgt een nummer terug. Dus soms zijn
+
+49
+00:03:17,920 --> 00:03:22,040
+de invoertypen anders dan de uitvoertypen.
+Ze hoeven niet noodzakelijkerwijs
+
+50
+00:03:22,040 --> 00:03:23,220
+hetzelfde te zijn.
+
+51
+00:03:24,520 --> 00:03:25,840
+Laten we nu eens kijken naar
+
+52
+00:03:25,849 --> 00:03:29,760
+de meest gecompliceerde constructie waar we 
+deze week naar gaan kijken. 
+
+53
+00:03:29,760 --> 00:03:34,819
+Het is nog steeds heel basaal, 
+hoop ik. 
+
+54
+00:03:34,819 --> 00:03:37,580
+Stel we hebben een bereik: we hebben 1,
+
+55
+00:03:37,580 --> 00:03:42,410
+2,3, in een werkblad. We kunnen 
+hiermee berekeningen maken,
+ 
+56
+00:03:42,410 --> 00:03:45,400
+we kunnen de SOM() uitrekenen
+
+57
+00:03:45,400 --> 00:03:50,010
+van A1 tot en met A3,
+
+58
+00:03:50,010 --> 00:03:54,160
+wat in dit geval 6 is. Wat zijn de typen
+van de getallen?
+
+59
+00:03:54,160 --> 00:03:57,739
+Laten we beginnen met 6, want dat is 
+makkelijk: 6 is een nummer.
+
+60
+00:03:57,739 --> 00:04:02,470
+Dat weten we. Maar wat hebben we hier?
+we kunnen zeggen
+
+61
+00:04:02,470 --> 00:04:05,350
+dat we drie
+
+62
+00:04:05,350 --> 00:04:09,440
+nummercontainers hebben, drie waarden 
+die een nummer bevatten.
+
+63
+00:04:09,440 --> 00:04:12,080
+Natuurlijk, we hoeven er niet persee 
+drie te hebben
+
+64
+00:04:12,080 --> 00:04:17,239
+we kunnen ook zeggen dat we nu 
+sommeren tot
+
+65
+00:04:17,239 --> 00:04:23,759
+A5. Gaat dat de functie een ander 
+type geven? Het moet nu 
+
+66
+00:04:23,759 --> 00:04:27,359
+een extra container toevoegen, hier en hier.
+
+67
+00:04:27,360 --> 00:04:31,040
+Maar dat gaan we niet doen, dit is niet
+de juiste manier om dit op te 
+
+68
+00:04:31,050 --> 00:04:32,069
+schrijven.
+
+69
+00:04:32,069 --> 00:04:35,469
+Wat we hier zeggen is: laten we een som 
+nemen over een lijst
+
+
+70
+00:04:35,469 --> 00:04:39,219
+van nummers, dus het type, zoals ik 
+dat in 
+
+71
+00:04:39,219 --> 00:04:43,139
+volgende videos opschrijf,
+is een lijst van nummers
+
+72
+00:04:43,139 --> 00:04:46,120
+en het resultaat van de functie is 
+een nummer.
+
+73
+00:04:46,120 --> 00:04:50,789
+En dit is erg belangrijk om te onthouden
+voor de rest van de video's voor deze week.
+
+74
+00:04:50,789 --> 00:04:53,329
+Dit is het einde van het bericht
+over typen.
