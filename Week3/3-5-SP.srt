@@ -1,0 +1,428 @@
+1
+00:00:00,480 --> 00:00:03,169
+Estoy segura de que, por ahora, 
+
+2
+00:00:03,169 --> 00:00:08,460
+son acerca de las tablas dinámicas. 
+Pero, hasta ahora, solamente hemos
+
+3
+00:00:08,460 --> 00:00:09,740
+realizado el análisis
+
+4
+00:00:09,740 --> 00:00:13,210
+de una hoja de trabajo. 
+Solamente hemos profundizado
+dentro de
+
+5
+00:00:13,210 --> 00:00:16,240
+este registro de registros, pero, 
+sin embargo, hay más
+
+6
+00:00:16,240 --> 00:00:20,609
+en nuestra hoja. ¿de acuerdo? Tenemos
+la lista de cervezas. Además de la hora
+
+7
+00:00:20,609 --> 00:00:24,699
+y de las cantidades, también tenemos
+diferentes cervezas 
+
+8
+00:00:24,699 --> 00:00:29,010
+que están relacionadas de alguna manera con
+las cervezas de la lista de cervezas,
+
+9
+00:00:29,010 --> 00:00:29,970
+y ahí tenemos más información.
+
+10
+00:00:29,970 --> 00:00:34,380
+Debido a que podemos tener una cervecería,
+podemos conocer el tipo de cerveza, el
+
+11
+00:00:34,380 --> 00:00:39,149
+porcentaje de alcohol, y también podríamos
+analizar esto, por ejemplo.,
+
+12
+00:00:39,149 --> 00:00:43,600
+cual es el porcentaje de alcohol de la cerveza
+más vendida, o algo parecido.
+
+13
+00:00:43,600 --> 00:00:48,140
+Pero no podemos hacer esto ahora, porque 
+no tenemos esa información en la tabla
+dinámica.
+
+14
+00:00:48,140 --> 00:00:53,379
+Solamente tenemos la información que hay
+en el registro de registros. Así que
+
+15
+00:00:53,379 --> 00:00:57,160
+este vídeo trata de cómo combinar múltiples
+hojas de trabajo 
+
+16
+00:00:57,160 --> 00:00:59,660
+en una vista general de una 
+tabla dinámica.
+
+17
+00:01:01,660 --> 00:01:04,000
+Lo que, por supuesto, podríamos hacer es,
+
+18
+00:01:04,000 --> 00:01:07,010
+probablemente usted estaba gritando nuevamente
+a la pantalla del ordenador, 
+
+19
+00:01:07,010 --> 00:01:10,659
+¡podríamos usar VLOOKU!. . Así, si usted quiere
+tener asociada la cervecería con 
+
+20
+00:01:10,659 --> 00:01:11,369
+cada cerveza, 
+
+21
+00:01:11,369 --> 00:01:16,909
+podemos utilizar un VLOOKUP. Por supuesto, 
+establecemos como último parámetro FALSE
+
+22
+00:01:16,909 --> 00:01:17,960
+por ahora, esto usted ya lo conoce,
+
+23
+00:01:17,960 --> 00:01:21,820
+y luego tenemos la cervecería para cada 
+cerveza. Ahora podemos hacer un análisis
+
+24
+00:01:21,820 --> 00:01:26,200
+de las cervecerías. Sin embargo, 
+si queremos continuar con este análisis,
+
+25
+00:01:26,200 --> 00:01:29,950
+arrastramos la cervecería, pero también
+arrastramos
+
+26
+00:01:29,950 --> 00:01:33,290
+el porcentaje de alcohol, el tipo
+y la categoría de la cerveza,
+ con lo que
+
+27
+00:01:33,290 --> 00:01:38,020
+conseguimos una gran cantidad de duplicados.
+Básicamente vamos a repetir toda
+
+28
+00:01:38,020 --> 00:01:38,799
+la hoja de trabajo de cervezas
+
+29
+00:01:38,799 --> 00:01:44,619
+en la hoja del registro de registros. 
+Lo que yo espero que se lleve de este curso
+
+30
+00:01:44,619 --> 00:01:46,149
+es que debería ser consciente 
+de la duplicación
+
+31
+00:01:46,149 --> 00:01:49,340
+Si usted está haciendo la misma cosa
+
+32
+00:01:49,340 --> 00:01:53,759
+muchas veces, probablemente no lo
+está haciendo de la manera más fácil.
+
+33
+00:01:53,759 --> 00:01:57,840
+Porque, estoy segura de que siempre hay una 
+manera de hacer las cosas de una sola vez,
+
+34
+00:01:57,840 --> 00:02:02,079
+y repetir el análisis a partir de ahí.
+Por lo tanto, espero que
+
+35
+00:02:02,079 --> 00:02:05,630
+tal vez en un año o dos usted esté
+trabajando su hoja de cálculo
+
+36
+00:02:05,630 --> 00:02:09,429
+y piense: "¡He!, Yo he echo esto antes,
+hace una hora".
+
+37
+00:02:09,429 --> 00:02:11,039
+Espero que recuerde:
+
+38
+00:02:11,039 --> 00:02:15,450
+La duplicación no es una idea buena,
+debe de haber una manera más fácil
+
+39
+00:02:15,450 --> 00:02:19,549
+de hacerlo. En este vídeo, les voy a
+presentar esa manera más fácil. 
+
+40
+00:02:19,549 --> 00:02:24,310
+Le prometía todo este tiempo, cómo
+hace tres vídeos, que este
+
+41
+00:02:24,310 --> 00:02:28,629
+"añadir cosas al modelo" es realmente importante 
+así que voy a volver 
+
+42
+00:02:28,629 --> 00:02:33,040
+a esa promesa, ahora mismo. Así que
+hemos añadido estos datos
+
+43
+00:02:33,100 --> 00:02:36,120
+en el modelo de datos; se almacena 
+en algún sitio.
+
+44
+00:02:36,120 --> 00:02:39,379
+Si vamos a hacer lo mismo con 
+nuestras cervezas,
+
+45
+00:02:39,379 --> 00:02:42,889
+estamos haciendo una tabla dinámica
+de la lista de cervezas y, 
+
+46
+00:02:42,889 --> 00:02:46,370
+otra vez, estamos añadiendo estos 
+en el modelo de datos,
+
+47
+00:02:46,370 --> 00:02:50,389
+lo estamos poniendo en otra hoja de trabajo.
+He hecho una hoja de trabajo llamada BeersPivot,
+
+48
+00:02:50,389 --> 00:02:54,049
+y en ella es donde colocamos la tabla
+dinámica de la lista de cervezas.
+
+49
+00:02:54,049 --> 00:02:57,780
+Así que, lo que vemos aquí ahora, 
+es exactamente igual a cómo lo vimos 
+
+50
+00:02:57,780 --> 00:03:02,180
+en la tabla dinámica anterior, allí tenemos
+todos los campos de nuestra hoja de trabajo,
+
+51
+00:03:02,180 --> 00:03:05,659
+podemos hacer un buen análisis 
+sobre ella, como 
+
+52
+00:03:05,659 --> 00:03:09,599
+la cervecería, ¿Cuál es el número de
+cervezas diferentes en esta cervecería?.
+
+53
+00:03:09,599 --> 00:03:13,139
+Ordenamos y vemos esta primera cervecería,
+
+54
+00:03:13,139 --> 00:03:17,699
+la Midnight Sun Brewing Company, que
+tiene 51 cervezas diferentes. 
+
+55
+00:03:17,699 --> 00:03:21,079
+Pero lo que ahora estamos calculando
+
+56
+00:03:21,079 --> 00:03:24,440
+es el número de cervezas en la 
+lista de cervezas,
+
+57
+00:03:24,440 --> 00:03:27,760
+en esta hoja de trabajo todavía
+no hay una relación de las
+
+58
+00:03:27,760 --> 00:03:31,590
+cervezas que nosotros estamos 
+vendiendo actualmente.
+
+59
+00:03:31,590 --> 00:03:34,620
+No se trata de las cervezas que estamos contando,
+
+60
+00:03:34,620 --> 00:03:38,599
+estamos contando las cervezas en 
+la lista de cervezas. Así que, ahora
+
+61
+00:03:38,599 --> 00:03:42,329
+aquí es donde entra el modelo de datos.
+Si vamos a todos los datos
+
+62
+00:03:42,329 --> 00:03:45,979
+y vemos que, además de los datos 
+de esta hoja que estamos analizando
+
+63
+00:03:45,979 --> 00:03:47,040
+justamente ahora,
+
+64
+00:03:47,040 --> 00:03:51,250
+también está la información del
+registro de registros.
+
+65
+00:03:51,250 --> 00:03:55,040
+y esto es porque  previamente,
+habíamos añadido estos datos.
+
+66
+00:03:55,040 --> 00:03:58,470
+al modelo de datos. Podemos usar 
+los mismos datos
+
+67
+00:03:58,470 --> 00:04:01,959
+de la primera tabla dinámica en  nuestra 
+segunda tabla dinámica,
+
+68
+00:04:01,959 --> 00:04:06,579
+porque previamente los habíamos añadido
+al modelo de datos, que es lo importante aquí.
+
+69
+00:04:06,579 --> 00:04:10,579
+Luego, ahora podemos cambiar nuestro análisis,
+puedo decir: ¡He!,
+
+70
+00:04:10,579 --> 00:04:13,959
+no queremos tener el número de 
+cervezas en la lista de cervezas.
+
+71
+00:04:13,959 --> 00:04:18,289
+No, queremos tener el número de 
+cervezas del registro
+
+72
+00:04:18,289 --> 00:04:22,150
+Este es el campo que queremos añadir.
+Tomemos ese campo,
+
+73
+00:04:22,150 --> 00:04:23,380
+lanzo esto lejos,
+
+74
+00:04:23,380 --> 00:04:28,150
+y arrastro el número de cervezas.
+Ahora sucede algo interesante.
+
+75
+00:04:28,150 --> 00:04:32,810
+Excel dice: ¡He!, no se cómo hacer esto.
+
+76
+00:04:32,810 --> 00:04:37,350
+Estas dos cosas no están relacionadas. 
+Fundamentalmente, lo que Excel nos está pidiendo es: 
+
+
+77
+00:04:37,350 --> 00:04:42,560
+No conozco esta VLOOKUP, esta VLOOKUP
+ que hicimos manualmente al principio. 
+
+78
+00:04:42,560 --> 00:04:46,100
+Excel no sabe como manejarla, por lo que
+tenemos que decirle
+
+79
+00:04:46,110 --> 00:04:49,330
+cual es la relación exacta entre 
+estos dos campos.
+
+80
+00:04:49,330 --> 00:04:53,990
+Aquí puedes ver como hago esto, las cosas que
+estábamos acoplando en VLOOKUP
+
+81
+00:04:53,990 --> 00:04:57,520
+las acoplo juntas una vez más. 
+Y si hacemos esto ahora
+,
+
+82
+00:04:57,520 --> 00:05:00,760
+ordenamos nuestros datos, veremos que 
+
+83
+00:05:00,760 --> 00:05:04,930
+brewery vende la cerveza más popular
+en nuestro bar.
+
+84
+00:05:04,930 --> 00:05:08,650
+Así que hemos realizado esta conexión
+entre dos hojas de trabajo 
+
+85
+00:05:08,650 --> 00:05:12,090
+añadiendo ambas al modelo de datos
+y diciéndole a Excel
+
+86
+00:05:12,090 --> 00:05:17,070
+que el campo cerveza de nuestro registro de
+ registros está relacionado con el campo name
+
+87
+00:05:17,070 --> 00:05:20,630
+en nuestra lista de cervezas y a 
+continuación podemos hacer un análisis basado en
+
+88
+00:05:20,630 --> 00:05:24,200
+dos hojas de trabajo diferentes. ¡Todo 
+con tablas dinámicas!

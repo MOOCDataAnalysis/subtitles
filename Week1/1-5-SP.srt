@@ -1,0 +1,618 @@
+1
+00:00:00,088 --> 00:00:03,980
+Aquí es donde lo dejamos en el vídeo 
+anterior,tenemos muy bien organizada
+
+2
+00:00:03,980 --> 00:00:05,099
+nuestra hoja de trabajo y estamos
+
+3
+00:00:05,099 --> 00:00:09,019
+calculando la ganancia, el beneficio 
+potencial que podríamos
+
+4
+00:00:09,023 --> 00:00:12,820
+si vendiéramos todas las acciones. Pero, 
+por supuesto,ahora que hemos
+
+5
+00:00:12,820 --> 00:00:17,000
+añadido esta columna "Trend", 
+queremos hacer algo con ella.
+
+6
+00:00:17,006 --> 00:00:20,007
+No queremos vender todas nuestras 
+acciones
+
+7
+00:00:20,007 --> 00:00:23,907
+si el precio está subiendo, por lo que 
+tendremos que hacer un cálculo,
+
+8
+00:00:24,000 --> 00:00:27,088
+basado en una tendencia. Vamos a tomar una decisión,
+¿Vendemos
+
+9
+00:00:27,088 --> 00:00:31,208
+o no vendemos. Entonces, ¿cómo se ve esto?
+
+10
+00:00:31,439 --> 00:00:35,139
+Vamos a añadir otra columna en
+esta hoja de trabajo,
+
+11
+00:00:35,149 --> 00:00:40,019
+ahora vamos a llamarla "Number"
+o cantidad que vamos a vender,
+
+12
+00:00:40,020 --> 00:00:44,160
+teniendo en cuenta las tendencias. Así que
+Añadimos otra columna "Amount to sell"
+
+13
+00:00:44,160 --> 00:00:46,900
+y vamos a utilizar 
+
+14
+00:00:47,000 --> 00:00:52,009
+una fórmula condicional, la fórmula IF,
+que funciona de la siguiente manera: 
+
+15
+00:00:52,009 --> 00:00:56,749
+la primera parte de la fórmula IF nos dice,
+qué vamos a mirar,
+
+16
+00:00:56,749 --> 00:00:59,960
+por eso decimos: si la tendencia,la columna G(I),
+
+17
+00:01:00,034 --> 00:01:04,674
+es igual a "Up", en ese caso, 
+después de la coma, decimos
+
+18
+00:01:04,689 --> 00:01:07,909
+lo que vamos a hacer. Bueno, si la tendencia
+va hacia arriba,
+
+19
+00:01:08,040 --> 00:01:10,940
+no vamos a vender nada, venderemos 
+0 acciones.
+
+20
+00:01:11,080 --> 00:01:14,520
+En el otro caso, si la tendencia va hacia
+abajo,
+
+21
+00:01:14,520 --> 00:01:19,320
+digamos que vendemos la mitad de nuestras acciones. 
+Todavía nos quedamos con la mitad de ellas,
+
+22
+00:01:19,320 --> 00:01:21,560
+pero queremos vender la mitad 
+sólo para estar seguros,
+
+23
+00:01:21,560 --> 00:01:25,720
+por si las cosas van mal.Y ves ahora, 
+en la primera línea,
+
+24
+00:01:25,720 --> 00:01:28,860
+no estamos vendiendo nada y en 
+líneas posteriores, 
+
+25
+00:01:29,060 --> 00:01:33,400
+en caso de que las acciones están bajando, sí,
+estamos vendiendo algunas,
+
+26
+00:01:33,400 --> 00:01:36,080
+la mitad de las acciones que tenemos.
+
+27
+00:01:37,420 --> 00:01:40,160
+Y lo que puedo hacer ahora aquí para redondear, 
+
+28
+00:01:40,160 --> 00:01:44,540
+como lo hemos hecho en el vídeo anterior, 
+es configurarlo la celda para 0 decimales,
+
+29
+00:01:44,540 --> 00:01:48,620
+porque yo no quiero, por supuesto, vender 
+la mitad de una acción, eso no es posible.
+
+30
+00:01:48,659 --> 00:01:54,039
+Pero otra forma de hacer lo mismo sería utilizar
+la función ROUND,  
+
+31
+00:01:54,040 --> 00:01:58,120
+esta función hace lo mismo. Muchas personas
+prefieren usar la función ROUND
+
+32
+00:01:58,120 --> 00:01:59,259
+por que es mucho claro
+it is more clear
+
+33
+00:01:59,259 --> 00:02:03,439
+qué es lo que va a hacer. Se puede 
+ver en la fórmula
+
+34
+00:02:03,440 --> 00:02:06,032
+que algo está siendo redondeado,
+that something is being rounded,
+
+35
+00:02:06,032 --> 00:02:09,065
+y nuestros datos aún siguen conectados
+a la web de donde proceden.
+
+36
+00:02:09,065 --> 00:02:13,625
+Así que presionando Refresh, si alguna cotización
+hubiera cambiado desde entonces, 
+
+37
+00:02:13,625 --> 00:02:18,034
+todo cambia en la hoja de cálculo,
+los datos, las fórmulas y también,
+
+38
+00:02:18,034 --> 00:02:22,514
+en última instancia, la decisión de cuantas
+acciones vamos a vender.
+
+39
+00:02:23,480 --> 00:02:27,560
+Tal vez te des cuenta ahora de que algo 
+está mal en esta hoja de cálculo
+
+40
+00:02:27,560 --> 00:02:28,900
+Quizás estés gritando
+
+41
+00:02:28,900 --> 00:02:32,755
+a la pantalla del ordenador: "Espera, 
+espera, me encontré con un error!" 
+
+42
+00:02:32,760 --> 00:02:34,220
+Sabes cual? 
+
+43
+00:02:35,180 --> 00:02:38,000
+La columna beneficio se basa ahora en
+
+44
+00:02:38,001 --> 00:02:41,079
+el número de todas las acciones tengo.
+
+45
+00:02:41,079 --> 00:02:46,037
+Pero, si yo no las estoy vendiendo todas,
+por supuesto
+
+46
+00:02:46,037 --> 00:02:49,049
+que no voy a sacar provecho de todas ellas.
+
+47
+00:02:49,049 --> 00:02:53,091
+Entonces, lo que tengo que hacer es actualizar 
+mi fórmula que no debe calcularse basada
+
+48
+00:02:53,091 --> 00:02:58,351
+de las acciones que tengo, sino en
+las acciones que voy a vender
+
+49
+00:02:58,360 --> 00:03:02,000
+dependiendo de las tendencias.
+Lo que sucede ahora es que
+
+50
+00:03:02,003 --> 00:03:06,021
+este beneficio es en función de las columnas 
+que están a su izquierda
+
+51
+00:03:06,048 --> 00:03:10,007
+y a su derecha, y eso no es algo que no nos 
+gusta Si hablamos de
+
+52
+00:03:10,007 --> 00:03:14,700
+la organización de la hoja de trabajo, queremos
+que los datos fluyan bien a través de la misma
+
+53
+00:03:14,700 --> 00:03:19,820
+de izquierda a derecha. Así que intercambio esas 
+dos columnas y ahora el flujo es 
+
+54
+00:03:19,820 --> 00:03:20,800
+lógico,
+
+55
+00:03:20,800 --> 00:03:24,920
+tal y como lo leería normalmente, de izquierda 
+a derecha. Así que eso es también
+
+56
+00:03:24,920 --> 00:03:28,600
+un factor de organización que se puede tomar 
+en cuenta al diseñar nuestras propias hojas de cálculo.
+
+57
+00:03:28,640 --> 00:03:31,020
+nuestras propias hojas de cálculo.
+
+58
+00:03:35,460 --> 00:03:40,000
+Hay una cosa más que yo desearía hacer, 
+calcular
+
+59
+00:03:40,000 --> 00:03:44,460
+la salud de mi cartera de acciones.
+Así que quiero saber 
+
+60
+00:03:44,460 --> 00:03:49,120
+que tengo un montón de acciones que suben 
+y otra gran cantidad de acciones que bajan,
+
+61
+00:03:49,120 --> 00:03:52,760
+ya que si una gran parte de mi cartera 
+baja, 
+
+62
+00:03:52,760 --> 00:03:57,000
+tal vez quiera tomar algunas otras decisiones
+- por ejemplo, comprar acciones adicionales
+
+63
+00:03:57,002 --> 00:04:00,702
+que estén subiendo. Así que lo que
+potencialmente podría hacer es:
+
+64
+00:04:00,709 --> 00:04:04,509
+podría usar otra fórmula condicional 
+como la que ves aquí.
+
+65
+00:04:04,520 --> 00:04:07,000
+Podría decir: si las acciones están subiendo
+entonces
+
+66
+00:04:07,007 --> 00:04:11,920
+quiero mantener su número, y en caso 
+contrario tengo 0. Y luego, 
+
+67
+00:04:11,920 --> 00:04:12,700
+en una columna,
+
+68
+00:04:12,720 --> 00:04:15,020
+puedo obtener una lista de todas las acciones  
+I get a list of all the shares
+
+69
+00:04:15,024 --> 00:04:20,004
+que están subiendo, y podía hacer exactamente 
+lo mismo con las que bajan,
+
+70
+00:04:20,004 --> 00:04:23,760
+la misma función: 
+si las acciones están bajando
+
+71
+00:04:24,006 --> 00:04:27,025
+y si la tendencia es igual a "Down",
+entonces
+
+72
+00:04:27,025 --> 00:04:30,074
+cojo el número de acciones, 
+y en caso contrario cojo 0.
+
+73
+00:04:30,080 --> 00:04:33,820
+Y luego tendrán dos columnas en las que en 
+una estarán todas las acciones que están subiendo
+
+74
+00:04:33,820 --> 00:04:38,480
+y el en la otra todas las acciones que bajan.
+Y luego, por supuesto, supongo que usted entiende  
+
+75
+00:04:38,480 --> 00:04:39,260
+esto,
+
+76
+00:04:39,260 --> 00:04:42,340
+al final de la columna en la hoja de trabajo,
+puedo añadir una función SUM
+
+77
+00:04:42,340 --> 00:04:46,860
+que me da un panorama general de 
+la salud de mi cartera
+
+78
+00:04:46,860 --> 00:04:50,000
+qué parte de ellas están subiendo
+y que parte de ellas
+
+79
+00:04:50,001 --> 00:04:53,440
+están bajando. Vamos a ver queda-
+Voy a sumar 
+
+80
+00:04:53,440 --> 00:04:56,200
+toda la columna, ahí vamos. 
+
+81
+00:04:57,056 --> 00:05:03,061
+Así que 1,800 acciones están subiendo, y si 
+arrastro esto , alrededor de 700 acciones
+están bajando.
+
+82
+00:05:03,061 --> 00:05:07,841
+Así, nuestra cartera se ve bastante bien, porque
+hay muchas más acciones que están subiendo que
+
+83
+00:05:08,021 --> 00:05:12,720
+las que están bajando. Sin embargo, este 
+cálculo está mal - necesita
+
+84
+00:05:12,720 --> 00:05:16,680
+dos columnas y dos fórmulas SUM adicionales
+
+85
+00:05:16,680 --> 00:05:19,060
+sólo para tener una idea
+
+86
+00:05:19,067 --> 00:05:23,001
+de cómo van las cosas. Esto se puede hacer 
+
+87
+00:05:23,001 --> 00:05:27,057
+de una manera más fácil. Déjeme mostrarle cómo.
+Así que vamos a alejar un poco el foco
+
+88
+00:05:27,057 --> 00:05:32,917
+para ver toda la información extra, todo el
+espacio extra que necesitamos,
+
+89
+00:05:32,920 --> 00:05:36,040
+dos columnas extra sólo para el cálculo
+de estos tres
+
+90
+00:05:36,041 --> 00:05:40,063
+valores, que están subiendo y bajando. 
+Así que no lo haremos así,
+
+91
+00:05:40,063 --> 00:05:45,543
+vamos a aclarar esta sala, vamos a hacerlo de 
+otra manera y no las necesitaremos nunca más.
+
+92
+00:05:45,543 --> 00:05:48,960
+Haga clic con el botón derecho en "Borrar contenido",
+ ahí vamos,
+
+93
+00:05:48,960 --> 00:05:52,680
+no lo necesitamos más. Te voy a enseñar
+una manera mejor
+
+94
+00:05:52,680 --> 00:05:55,717
+y una forma más compacta para analizar realmente 
+
+95
+00:05:55,900 --> 00:05:59,000
+la salud de nuestra cartera. 
+Lo que podemos utilizar
+
+96
+00:05:59,006 --> 00:06:03,004
+es una lista de todos los tipos, por eso 
+decimos que estamos buscando
+
+97
+00:06:03,004 --> 00:06:08,240
+ acciones que vayan hacia arriba y acciones que 
+vayan hacia abajo. A continuación  
+
+98
+00:06:08,240 --> 00:06:11,012
+usamos la función de cálculo SUMIF
+Es una combinación de,f,
+
+99
+00:06:11,012 --> 00:06:15,772
+por supuesto, el SUM y el IF. La manera 
+cómo funciona esta función es que puedo 
+
+100
+00:06:15,780 --> 00:06:19,880
+tomar parte de mi hoja de cálculo, así que
+hago click en una columna
+
+101
+00:06:19,880 --> 00:06:23,700
+y digo que voy a mirar todo lo 
+que coincide en esa columna.
+
+102
+00:06:23,700 --> 00:06:27,680
+A continaución voy a mirar en la primera 
+parte de la función.
+
+103
+00:06:27,940 --> 00:06:31,240
+En la columna "Trend" voy a buscar si algo
+In the Trend column I'm going to look
+if
+
+104
+00:06:31,240 --> 00:06:34,940
+está pasando, al igual que con el SI normal.
+
+105
+00:06:35,240 --> 00:06:37,940
+Bueno, lo que necesito comparar es 
+
+106
+00:06:37,940 --> 00:06:40,800
+exactamente lo mismo que con 
+
+107
+00:06:41,039 --> 00:06:44,399
+la función IF Estoy comparando si 
+la tendencia es igual
+
+108
+00:06:44,400 --> 00:06:48,680
+a "Up" y justamente, solo he hecho una lista de esto.
+Y lo que voy a sumar es
+
+109
+00:06:48,680 --> 00:06:51,759
+el número de acciones. Y como ves arrastro
+hacia abajo
+
+110
+00:06:51,889 --> 00:06:54,889
+y está apareciendo el mismo resultado exacto,
+
+111
+00:06:54,889 --> 00:06:57,980
+como cuando teníamos toda la columna 
+con las sumas.
+
+112
+00:06:57,980 --> 00:07:01,008
+Así que es mucho considerar y también 
+nos permite
+
+113
+00:07:01,018 --> 00:07:05,034
+añadir fácilmente otros tipos de tendencias, 
+por ejemplo, tenemos una tendencia "plana"
+
+114
+00:07:05,034 --> 00:07:08,673
+en el que nada está cambiando, sólo tendremos 
+que añadir "plana" a la lista
+
+115
+00:07:08,979 --> 00:07:12,479
+y arrastrar la fórmula hacia abajo, 
+mientras que en el situación vieja
+
+116
+00:07:12,479 --> 00:07:17,599
+necesitábamos una columna adicional para 
+cada nuevo tipo de acciones.Así que la 
+función SUMIF
+
+117
+00:07:17,600 --> 00:07:20,400
+es una bonita combinación de la SUM y el IF 
+
+118
+00:07:20,400 --> 00:07:23,700
+que ocupa mucho menos espacio y es más flexible
+
+119
+00:07:23,700 --> 00:07:29,099
+Si usted quiere cambiar las hojas de cálculo, 
+esta semana hemos visto un ejemplo
+
+120
+00:07:29,099 --> 00:07:30,012
+de una hoja de cálculo
+
+121
+00:07:30,012 --> 00:07:34,592
+en el que estamos calculando el valor de las 
+acciones, en la que hemos visto funciones 
+
+122
+00:07:34,599 --> 00:07:35,459
+para manipular cadenas
+
+123
+00:07:35,480 --> 00:07:38,860
+valores de texto, hemos visto fórmulas 
+condicionales, el IF
+
+124
+00:07:39,019 --> 00:07:43,659
+y SUMIF, así como  un pedazo de todo 
+junto con los datos extraídos 
+
+125
+00:07:43,660 --> 00:07:46,075
+de la web. Esto era todo
+
+126
+00:07:46,075 --> 00:07:49,855
+lo que queríamos hablar esta semana. 
+Sólo una cosa más,
+
+127
+00:07:50,000 --> 00:07:53,039
+déjeme preguntarle una vez más acerca 
+de la publicación de sus excelfies
+
+128
+00:07:53,039 --> 00:07:56,519
+en el foro, para así tener una idea de 
+con quien estamos trabajando.
+
+129
+00:07:56,660 --> 00:07:58,040
+Nos vemos la próxima semana!
+See you next week!

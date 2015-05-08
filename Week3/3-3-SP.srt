@@ -1,0 +1,211 @@
+1
+00:00:00,560 --> 00:00:04,250
+En el vídeo anterior, hemos visto como
+utilizar tablas dinámicas para  
+
+2
+00:00:04,250 --> 00:00:05,080
+realizar análisis simples.
+
+3
+00:00:05,080 --> 00:00:08,099
+En los vídeos que vienen a continuación 
+vamos a
+
+4
+00:00:08,099 --> 00:00:12,809
+sumergirnos realmente en todas las posibilidades
+que nos ofrecen las tablas dinámicas. Así que  
+
+5
+00:00:12,809 --> 00:00:13,820
+esto es con lo que finalizamos 
+
+6
+00:00:13,820 --> 00:00:17,130
+en el vídeo anterior. Lo que podemos 
+hacer ahora es
+
+7
+00:00:17,130 --> 00:00:21,039
+añadir otro campo fila, por ejemplo
+añadir la fecha, y ahora tenemos una 
+
+8
+00:00:21,039 --> 00:00:24,350
+lista apilada de filas. En la primera, 
+
+9
+00:00:24,350 --> 00:00:27,570
+el tipo de cerveza y, por debajo de ella, 
+todas las fechas
+
+10
+00:00:27,570 --> 00:00:31,920
+en las que hemos vendido las cervezas.
+podemos abrirlas y cerrarlas como  
+
+11
+00:00:31,920 --> 00:00:32,579
+una estructura de carpetas,
+
+12
+00:00:32,579 --> 00:00:37,309
+y podemos investigar exactamente 
+en qué fecha vendimos una cerveza. 
+
+13
+00:00:37,309 --> 00:00:41,329
+Podemos intercambiarlas también, para poder
+hacer fechas de nivel superior,
+
+14
+00:00:41,329 --> 00:00:45,660
+y a continuación, conocer qué cervezas 
+hemos vendido cada día
+
+15
+00:00:45,660 --> 00:00:48,989
+Esto se hace de una manera muy fácil
+otra vez, bucear realmente en los datos
+
+16
+00:00:48,989 --> 00:00:53,180
+para entender qué están haciendo mis clientes, 
+
+17
+00:00:53,180 --> 00:00:56,740
+cuando están bebiendo, ¿Qué beben? 
+
+18
+00:00:59,280 --> 00:01:02,160
+Así que, hasta este momento 
+solamente hemos mirado SUMs
+
+19
+00:01:02,170 --> 00:01:07,260
+pero ahí podemos usar todos los tipos de 
+funciones diferentes, no necesitamos
+
+20
+00:01:07,260 --> 00:01:08,380
+usar SUM
+
+21
+00:01:08,380 --> 00:01:12,369
+Si nos vamos mas abajo, a los ajustes 
+de valor, hay otras muchas funciones  
+
+22
+00:01:12,369 --> 00:01:12,979
+que podemos usar
+
+23
+00:01:12,979 --> 00:01:14,979
+Si hacemos click entonces....
+
+24
+00:01:16,640 --> 00:01:20,860
+Si, allá vamos. Si hacemos click entonces,
+podemos seleccionar otros muchos campos. 
+
+25
+00:01:20,860 --> 00:01:24,299
+Así que puedes SUM, pero también puedo usar
+COUNT o MIN o MAX.
+
+26
+00:01:24,299 --> 00:01:28,509
+Vamos a elegir promedio. vamos a escoger
+la cantidad promedio
+
+27
+00:01:28,509 --> 00:01:33,360
+de las cantidades que han sido vendidas. 
+y ¿qué significa exactamente,
+
+28
+00:01:33,360 --> 00:01:36,970
+la cantidad media de la cantidad? ¿No es 
+el promedio de toda la columna?.
+
+
+29
+00:01:36,970 --> 00:01:42,369
+Lo que obtenemos es la media por cerveza, 
+de lo que hay en la columna cantidad.
+
+30
+00:01:42,369 --> 00:01:45,979
+Así que, puedes ver que, si ordenamos los valores,
+vamos a ordenarlos,
+
+31
+00:01:45,979 --> 00:01:52,380
+podemos ver realmente lo que está pasando. Si,
+ahí vamos, ordenamos los valores y vemos que 
+
+32
+00:01:52,380 --> 00:01:53,229
+de algunas cervezas
+
+33
+00:01:53,229 --> 00:01:57,930
+se vendían por término medio dos.
+Así que puedo decir que Chocolate Stout
+
+34
+00:01:57,930 --> 00:02:02,610
+es realmente una cerveza fecha, la gente compra de dos
+en dos, mientras que una Bud Light se
+
+35
+00:02:02,610 --> 00:02:05,630
+compra generalmente en grupos más grandes.
+
+36
+00:02:05,630 --> 00:02:10,070
+y esto supongo que tiene sentido, usted compra
+un par de Bud Lights para sus amigos, pero una
+
+37
+00:02:10,070 --> 00:02:11,050
+Chocolate Stout,
+
+38
+00:02:11,050 --> 00:02:14,070
+podría comprarla para su hora.
+Así que, cuando usamos una
+
+39
+00:02:14,070 --> 00:02:18,170
+media, miramos los datos de una forma
+totalmente diferente. No estamos buscando
+
+40
+00:02:18,170 --> 00:02:19,210
+en total
+
+41
+00:02:19,210 --> 00:02:22,990
+pero mientras que aplanamos los datos
+estamos tomando el promedio
+
+42
+00:02:22,990 --> 00:02:28,600
+para cada tipo de cerveza que vendemos. así que
+de este modo las tablas dinámicas nos permiten
+
+43
+00:02:28,600 --> 00:02:32,860
+sumergirnos, otra vez, voy a decir esto
+muchas veces en estas series,
+
+44
+00:02:32,860 --> 00:02:35,980
+sumergirnos en los datos y 
+ayudarnos a entender
+
+45
+00:02:35,980 --> 00:02:37,160
+lo que realmente significa

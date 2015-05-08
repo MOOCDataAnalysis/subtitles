@@ -1,0 +1,611 @@
+1
+00:00:00,440 --> 00:00:04,500
+¡Hola! bienvenidos a los vídeos de esta semana
+Esta semana solamente
+
+2
+00:00:04,500 --> 00:00:09,020
+vamos a hablar de Tablas Pivot y
+voy a suponer que esto será un poco
+
+3
+00:00:09,028 --> 00:00:10,041
+de alivio para usted, porque
+
+4
+00:00:10,041 --> 00:00:13,761
+si ha hecho los ejercicios de la semana pasada, 
+esto es probablemente
+
+5
+00:00:13,929 --> 00:00:18,420
+mas o menos con lo que terminó. Voy
+a asumir que ya ha visto suficientes 
+
+6
+00:00:18,420 --> 00:00:20,600
+fórmulas nuevas en una semana.
+
+7
+00:00:20,619 --> 00:00:25,659
+Así que, esta semana no habrá nuevas fórmulas.
+Solamente vamos a hablar acerca de como analizar
+
+8
+00:00:25,660 --> 00:00:27,540
+sus datos usando tablas dinámicas.  
+
+9
+00:00:28,120 --> 00:00:31,200
+Además, no haremos el ejemplo de
+la ferretería nunca más.
+
+10
+00:00:31,200 --> 00:00:34,200
+Creo que en este tiempo, hemos 
+visto suficiente de 
+la ferretería, 
+
+11
+00:00:34,200 --> 00:00:35,280
+luego esta semana
+
+12
+00:00:35,300 --> 00:00:39,420
+vamos a estar funcionando en un bar. La
+hoja de cálculo para un bar es un poco
+
+13
+00:00:39,429 --> 00:00:42,200
+similar al caso del hardward porque
+tenemos otra vez 
+una exportación
+
+14
+00:00:42,280 --> 00:00:46,860
+desde un sistema de registro, 
+en el que 
+controlamos todo lo que se vende 
+en el bar. 
+
+15
+00:00:46,860 --> 00:00:51,017
+Pero en este caso tenemos más información,
+porque además de la fecha, 
+
+16
+00:00:51,017 --> 00:00:54,617
+la hora, el tipo de cerveza que estamos 
+vendiendo y la cantidad, 
+
+17
+00:00:54,699 --> 00:00:57,879
+también registramos quién
+compra las cervezas. 
+
+18
+00:00:57,880 --> 00:01:01,320
+Vamos a sumir que todos nuestros clientes
+tienen una tarjeta de fidelidad, así
+
+19
+00:01:01,329 --> 00:01:04,068
+que sabemos exactamente quién compra, qué
+y en qué momento.
+
+20
+00:01:04,068 --> 00:01:07,868
+y esto ciertamente nos permite hacer
+un poco de análisis. 
+
+21
+00:01:09,320 --> 00:01:10,900
+Así que con estos datos, 
+
+22
+00:01:10,900 --> 00:01:14,960
+también tenemos, en otra hoja de trabajo, 
+una lista de todas las cervezas que
+estamos vendiendo,
+
+23
+00:01:15,000 --> 00:01:18,000
+todas las cervezas que están allí y
+supongamos que  buscamos en Googled
+
+24
+00:01:18,001 --> 00:01:21,321
+todas las cervezas y nos encontramos 
+una bonita lista de todas las cervezas..
+
+25
+00:01:21,321 --> 00:01:24,541
+Así que, por supuesto, una pregunta que podríamos
+hacernos es:
+
+26
+00:01:24,620 --> 00:01:28,320
+¿Cuántas cervezas hemos vendido
+de cada tipo?
+
+27
+00:01:28,480 --> 00:01:32,260
+Para esto, podemos usar la función COUNTIF
+Estoy seguro de que es una función
+
+28
+00:01:32,260 --> 00:01:34,000
+bastante familiar por ahora.
+
+29
+00:01:34,000 --> 00:01:37,180
+Miramos en el registro cuántas 
+veces hemos
+
+30
+00:01:37,189 --> 00:01:39,949
+vendido esta cerveza específica. 
+
+31
+00:01:40,059 --> 00:01:44,639
+Sencillo, ¿no? Usted ya lo sabe.
+La pregunta es: es realmente correcta
+
+32
+00:01:44,659 --> 00:01:50,219
+esta fórmula? 
+ Con esta fórmula, ¿puedes encontrar
+algo que pueda estar mal? 
+
+33
+00:01:50,360 --> 00:01:53,120
+Le daré un segundo para que piense
+acerca de ello.
+
+34
+00:01:55,074 --> 00:02:00,134
+Espero que hayas estado gritándole a la pantalla
+del ordenador, mientras yo hacía esta pausa,
+
+35
+00:02:00,140 --> 00:02:02,560
+porque obviamente hay unas pocas cosas 
+
+36
+00:02:02,560 --> 00:02:06,939
+equivocadas en esta fórmula. La
+primera es este prefijo de cervezas, 
+
+37
+00:02:06,939 --> 00:02:10,067
+no lo necesitamos. Excel lo añade siempre,
+
+38
+00:02:10,067 --> 00:02:14,187
+si cambia la hoja de trabajo, pero
+actualmente, es mejor eliminarlo.
+
+39
+00:02:14,187 --> 00:02:18,500
+Con esta función, algo mas que está equivocado,
+Pienso que COUNTIF no es la función
+
+
+40
+00:02:18,500 --> 00:02:22,079
+que se debe utilizar, porque tenemos 
+una cantidad allí.
+
+41
+00:02:22,079 --> 00:02:25,479
+Por lo tanto, lo que hacemos con COUNTIF
+es solamente contar 
+
+42
+00:02:25,660 --> 00:02:28,940
+todas las filas que están allí, 
+pero esto no es lo que queremos.
+
+43
+00:02:29,014 --> 00:02:32,774
+Queremos usar la función SUMIF, porque
+queremos tener la suma
+
+44
+00:02:32,780 --> 00:02:37,580
+de todas las cantidades que estamos vendiendo.
+Así que tenemos que cambiar un poco 
+
+45
+00:02:37,580 --> 00:02:38,760
+esta función,
+
+46
+00:02:38,760 --> 00:02:42,300
+porque ahora también necesitamos decirle a la Excel
+en qué columna está
+
+47
+00:02:42,320 --> 00:02:45,020
+lo que estamos sumando, y si añadimos 
+esta función, entonces
+
+48
+00:02:45,044 --> 00:02:48,444
+la fórmula es correcta.
+
+49
+00:02:50,180 --> 00:02:53,020
+En caso contrario, esta fórmula es incorrecta,.
+Pero algo 
+
+50
+00:02:53,029 --> 00:02:57,086
+es un poco incómodo aquí,
+porque puedes ver aquí, que en  
+
+51
+00:02:57,086 --> 00:02:58,640
+esta columna 'Times sold' 
+
+52
+00:02:58,640 --> 00:03:02,032
+en este momento, solamente tenemos ceros.
+Porque la lista de todas las cervezas
+
+53
+00:03:02,032 --> 00:03:05,034
+que podemos vender, es tan larga
+
+54
+00:03:05,040 --> 00:03:09,320
+que las primeras son las que no encuentra.
+
+55
+00:03:09,320 --> 00:03:12,000
+Así que, tengo que hacer click en Ordenar
+Tengo que ir a la cinta,
+
+56
+00:03:12,022 --> 00:03:15,029
+Hacer click en ordenar, decir que queremos
+tener en la parte superior 
+
+57
+00:03:15,092 --> 00:03:19,972
+solamente los números más grandes, y
+entonces, como puedes ver, podemos ver
+
+58
+00:03:20,006 --> 00:03:24,360
+qué cervezas hemos estado vendiendo exactamente
+Así que es bastante complicado
+
+59
+00:03:24,360 --> 00:03:26,140
+de conseguir
+
+60
+00:03:26,340 --> 00:03:29,000
+Además de esto, podemos hacer preguntas  
+
+61
+00:03:29,001 --> 00:03:33,038
+mas difíciles. Supongamos que entra nuestro jefe
+y aunque hemos cambiado nuestra ferretería
+
+62
+00:03:33,047 --> 00:03:37,807
+por una tienda de cervezas, todavía
+seguimos teniendo el mismo jefe.
+
+63
+00:03:37,807 --> 00:03:39,280
+¡No es interesante?
+
+64
+00:03:39,280 --> 00:03:42,340
+El pregunta cosas interesantes, como:
+¿Qué cervezas 
+
+65
+00:03:42,519 --> 00:03:45,799
+fueron las mas vendidas después de las 11 p.m.?
+
+66
+00:03:45,959 --> 00:03:49,419
+Esto probablemente sea interesante de conocer
+porque quieres saber que cervezas 
+
+
+67
+00:03:49,420 --> 00:03:50,600
+son populares, temprano, en la noche 
+
+68
+00:03:50,600 --> 00:03:54,016
+y que cervezas son mas populares más
+tarde, en la noche.
+
+69
+00:03:54,016 --> 00:03:57,059
+Así que, supongo que tenemos que añadir 
+un análisis como este,
+
+70
+00:03:57,059 --> 00:04:01,358
+que va a ser un poco engorroso,
+porque, en primer lugar, tenemos
+
+71
+00:04:01,360 --> 00:04:02,800
+que añadir otra columna que diga
+
+72
+00:04:02,800 --> 00:04:05,840
+qué horas son después de las 11.
+
+73
+00:04:05,840 --> 00:04:08,880
+Su primera intuición podría ser utilizar
+
+74
+00:04:08,880 --> 00:04:13,040
+allí una función IF, pero esto no es
+necesario actualmente. Puede utilizar 
+
+75
+00:04:13,048 --> 00:04:13,968
+una función de comparación
+
+76
+00:04:14,015 --> 00:04:18,784
+como una fórmula apropiada en Excel. 
+Probamos un primer intento
+
+77
+00:04:18,919 --> 00:04:23,033
+decimos, si la hora es mayor de 23.
+
+78
+00:04:23,033 --> 00:04:27,393
+Sin embargo, esto no está trabajando realmente
+porque como puedes ver aquí, en este caso, 
+79
+00:04:27,400 --> 00:04:28,720
+tenemos 11 p.m.
+
+80
+00:04:28,720 --> 00:04:34,280
+Sin embargo, todavía nos devuelve FALSE. La razón
+para ello es que, la manera en la que Excel trabaja con
+
+81
+00:04:34,280 --> 00:04:36,480
+horas, es que guarda la hora
+como una fracción del día
+
+82
+00:04:36,600 --> 00:04:42,540
+Así que, 5 p.m. es, más o menos como 0.7 aquí
+
+83
+00:04:42,780 --> 00:04:46,340
+Puedes verlo cambiando la hora a número. 
+
+84
+00:04:46,340 --> 00:04:51,000
+Luego, para una comparación correcta con horas
+tenemos que comparar con una hora.
+
+85
+00:04:51,000 --> 00:04:55,220
+tenemos la hora, 23 horas, 0 minutos y 0 segundos 
+
+86
+00:04:55,280 --> 00:04:59,500
+y si usamos esta para la comparación,
+obtenemos TRUE aquí
+
+87
+00:04:59,599 --> 00:05:04,819
+en este caso en el que la hora es mayor de 11.
+Me estaba engañando un poco. Les dije
+
+88
+00:05:04,820 --> 00:05:08,580
+al principio del vídeo que no
+les iba a mostrar fórmulas nuevas.
+
+89
+00:05:08,580 --> 00:05:12,800
+Esta es una fórmula nueva, pero espero que 
+la deje pasar, porque
+
+90
+00:05:12,800 --> 00:05:14,040
+es muy simple y es
+
+91
+00:05:14,040 --> 00:05:15,800
+solamente una comparación. 
+
+92
+00:05:16,300 --> 00:05:19,259
+Así que, con esta función
+podemos ahora realizar nuestro análisis,
+
+93
+00:05:19,259 --> 00:05:20,399
+porque podemos
+
+94
+00:05:20,400 --> 00:05:23,040
+modificar "Times sold" mediante SUMIF
+
+95
+00:05:23,159 --> 00:05:27,459
+en SUMIFS, donde utilizamos condiciones
+multiples para resumir condiciónes múltiple 
+
+96
+00:05:27,720 --> 00:05:31,540
+Tenemos que cambiar un poco nuestra fórmula,
+porque como trabaja SUMIFS es, 
+
+97
+00:05:31,540 --> 00:05:34,940
+obtenemos primero la columna que 
+estamos sumando, 
+
+98
+00:05:34,940 --> 00:05:38,940
+y después una lista de condiciones. Así que 
+elegimos primero la columna cantidad,
+
+99
+00:05:39,240 --> 00:05:42,580
+y después decimos, quiero tener
+el nombre de la cerveza, 
+
+100
+00:05:42,580 --> 00:05:46,660
+como primera condición. Esto tiene que ser igual
+a la primera columna de 
+
+101
+00:05:46,669 --> 00:05:47,949
+la hoja de trabajo de cervezas,
+
+102
+00:05:47,949 --> 00:05:51,140
+y después, la segunda condición
+es nuestra hora, 
+
+103
+00:05:51,140 --> 00:05:55,020
+'Después 11 p.m.' tiene que ser TRUE. 
+
+104
+00:05:57,000 --> 00:06:01,940
+Ciertamente, es una fórmula muy larga, pero 
+nos hace el trabajo. Sin embargo,como puedes
+ver aquí,
+
+105
+00:06:02,038 --> 00:06:06,858
+la columna todavía está ordenada
+
+106
+00:06:07,008 --> 00:06:10,013
+con el orden original. Si queremos 
+ordenarla otra vez
+
+107
+00:06:10,013 --> 00:06:13,533
+hacemos click en ordenar. Aquí puedes ver
+
+108
+00:06:13,540 --> 00:06:18,000
+que estos valores no están adecuadamente ordenados
+todavía. Si hago click en ordenar ahora, 
+
+109
+00:06:18,002 --> 00:06:21,037
+sucede algo extraño. Aquí lo ves:
+
+110
+00:06:21,037 --> 00:06:24,052
+He, este valor no es correcto! Los links
+
+111
+00:06:24,052 --> 00:06:29,053
+otra vez. han sido actualizados y esto es
+porque nos olvidamos de esta hora, 
+
+112
+00:06:29,062 --> 00:06:33,920
+Espero que estés nuevamente gritándole a la
+pantalla del ordenador. Nos olvidamos de eliminar
+
+113
+00:06:33,920 --> 00:06:35,909
+este prefijo de cervezas. Si lo eliminamos, 
+
+114
+00:06:35,919 --> 00:06:41,119
+conseguimos los resultados correctos. Pero
+esto fue un poco trabajoso, ¿no?
+
+115
+00:06:41,389 --> 00:06:45,769
+Una pregunta simple: ¿qué cerveza es la más
+vendida después de las 11 p.m.?
+
+116
+00:06:45,919 --> 00:06:48,941
+Tenemos que añadir otra columna, cambiar
+nuestra fórmula
+
+117
+00:06:49,139 --> 00:06:52,172
+y asegurarnos de que no nos hemos olvidado
+de eliminar los prefijos
+
+118
+00:06:52,340 --> 00:06:57,699
+y no olvidarnos de ordenar. Así que, son lo que
+espero que se quede de estos vídeos es:
+
+119
+00:06:57,699 --> 00:07:02,059
+las fórmulas están creadas para hacer cálculos.
+Si estamos calculando 
+
+120
+00:07:02,219 --> 00:07:05,027
+una suma o una media, una fórmula está bien.
+
+121
+00:07:05,027 --> 00:07:08,787
+Pero tan pronto como quiera  hacer 
+análisis, usted va a estar
+
+122
+00:07:09,012 --> 00:07:12,421
+buceando en sus datos, preguntándose 
+cuestiones como:
+
+123
+00:07:12,529 --> 00:07:15,083
+¿Cuál es la cerveza más popular en
+sábado
+
+124
+00:07:15,083 --> 00:07:19,012
+si la temperatura está por debajo de
+cero grados? Algo como esto.
+
+125
+00:07:19,012 --> 00:07:23,992
+Si usted está analizando sus datos con fórmulas
+pronto lo dejará. En este ejemplo
+
+126
+00:07:24,001 --> 00:07:25,460
+ha visto que
+
+127
+00:07:25,469 --> 00:07:30,005
+en él se hace muy rápido el análisis.
+Así que recuerde: Las fórmulas no son para analizar
+
+128
+00:07:30,005 --> 00:07:33,405
+pero entonces, ¿Que nos sirve para analizar??
+
+129
+00:07:33,580 --> 00:07:37,597
+¡Las tablas dinámicas! En los próximos vídeos
+vera mas acerca de las tablas dinámicas.
+

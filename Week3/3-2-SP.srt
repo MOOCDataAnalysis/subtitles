@@ -1,0 +1,327 @@
+1
+00:00:00,260 --> 00:00:04,500
+Tablas dinámicas. En el último vídeo
+les mostré
+
+2
+00:00:04,509 --> 00:00:08,200
+fórmulas que son apropiadas para realizar 
+cálculos, pero no para un análisis
+
+3
+00:00:08,200 --> 00:00:11,349
+detallado de sus datos. Para esto último,
+podemos utilizar
+
+4
+00:00:11,349 --> 00:00:15,820
+las tablas dinámicas; pivotar
+significa girar alrededor. Actualmente, 
+
+5
+00:00:15,820 --> 00:00:19,039
+no estoy completamente segura de por qué 
+se  llaman tablas dinámicas, 
+
+6
+00:00:19,039 --> 00:00:22,470
+Me gustaría pensar en ellas mas cómo
+tablas planas, 
+
+7
+00:00:22,470 --> 00:00:26,680
+porque, lo que un atabla dinámica hace es, 
+recoge un montón de datos 
+
+8
+00:00:26,680 --> 00:00:30,220
+y se aplana dada una cierta dimensión.
+
+9
+00:00:30,960 --> 00:00:36,480
+Esto podría parecerle como muy crítico
+así que vayamos a nuestros datos y 
+
+10
+00:00:36,489 --> 00:00:39,540
+hagamos una tabla dinámica, por lo que no 
+necesitaremos nunca más este
+
+11
+00:00:39,540 --> 00:00:42,989
+cálculo tan desagradable, vamos
+a seleccionar
+
+12
+00:00:42,989 --> 00:00:46,379
+todo nuestro registro de registros y 
+después
+
+13
+00:00:46,379 --> 00:00:51,010
+vamos a insertar una tabla dinámica. He
+hecho una hoja de trabajo para usted, en ella
+puede seleccionar los datos
+
+14
+00:00:51,010 --> 00:00:53,829
+que quiera y decir a continuación 
+donde quiere tenerlo
+
+15
+00:00:53,829 --> 00:00:57,920
+Una nueva hoja de trabajo está muy bien, pero 
+ya he hecho una hoja de tabla dinámica 
+
+16
+00:00:57,920 --> 00:01:01,949
+y lo importante es que usted añada estos 
+datos en el modelo.
+
+17
+00:01:01,949 --> 00:01:05,239
+Hablaré acerca de esto más tarde, pero, por ahora
+recuerde que esto es
+
+18
+00:01:05,239 --> 00:01:08,830
+siempre lo que usted quiere. De este modo, 
+Excel está ahora calculando
+
+19
+00:01:08,830 --> 00:01:14,430
+y ha creado una tabla dinámica para nosotros.
+Probablemente usted piense: ¿ahora qué?
+
+20
+00:01:14,430 --> 00:01:18,340
+De acuerdo, tenemos una tabla dinámica pero 
+no se que hacer con ella. 
+
+21
+00:01:18,340 --> 00:01:23,170
+No veo mis datos, ¿Qué debo hacer?
+Estoy un poco confundido.
+
+22
+00:01:23,170 --> 00:01:26,549
+Lo que podemos ver aquí es que todos
+los campos de nuestro registro de 
+
+23
+00:01:26,549 --> 00:01:30,189
+registros, están a nuestra disposición
+en la tabla dinámica.
+
+24
+00:01:30,189 --> 00:01:34,150
+Si volvemos atrás, al registro de registros,
+vemos que Excel ha detectado todas estas
+
+25
+00:01:34,150 --> 00:01:37,400
+cabeceras de columnas, ha analizado los datos
+y vio que estos
+
+26
+00:01:37,400 --> 00:01:40,689
+son los títulos de las columnas y
+los colocó en la tabla dinámica para usted.
+
+27
+00:01:40,689 --> 00:01:45,689
+Así que, puede elegir uno y arrastrarlo 
+acia abajo hasta el campo filas
+
+28
+00:01:45,689 --> 00:01:49,600
+y ahora, va a calcular alguna cosa.
+Vemos que todas las cervezas que 
+
+29
+00:01:49,600 --> 00:01:53,570
+está en nuestro registro de registros, 
+están ahora en nuestra tabla dinámica.
+
+30
+00:01:53,570 --> 00:01:59,640
+Y este es el sentido cuando me refería a un
+aplanamiento de la tabla, porque lo que sucede  
+
+31
+00:01:59,640 --> 00:02:03,590
+es que teníamos todo este registro de registros,
+todas estas cervezas,
+
+32
+00:02:03,590 --> 00:02:07,080
+y lo que ha hecho la tabla dinámica es,
+se ha aplanado en 
+
+33
+00:02:07,090 --> 00:02:09,950
+solamente los nombres de las cervezas que 
+están allí.
+
+34
+00:02:10,480 --> 00:02:12,800
+Así, aquí, por ejemplo,
+
+35
+00:02:12,800 --> 00:02:17,380
+la Schlafly Oktoberfest aparece dos veces
+pero en la tabla dinámica plana
+
+36
+00:02:17,380 --> 00:02:20,750
+solamente aparece una. Solamente permanecen 
+los valores únicos,
+
+37
+00:02:20,750 --> 00:02:26,410
+como puedes ver aquí. Pero, realmente, aún no estamos 
+analizando, en este momento solo tenemos la lista
+
+38
+00:02:26,410 --> 00:02:28,700
+de cervezas, con las que, de echo,
+queremos hacer alguna cosa.
+
+39
+00:02:28,700 --> 00:02:33,430
+Así que lo que podemos hacer es tomar esa 
+cantidad y arrastrarla al campo valor.
+
+40
+00:02:33,430 --> 00:02:36,040
+y lo que sucede ahora es que, está sumando
+la cantidad
+
+41
+00:02:36,040 --> 00:02:39,410
+por cerveza. Así que, durante el
+el aplanamiento de los datos, 
+
+42
+00:02:39,410 --> 00:02:42,510
+todos los datos que encuentra
+
+43
+00:02:42,510 --> 00:02:46,900
+son sumados, y si la ordenamos conseguimos
+el mismo resultado que teníamos
+
+44
+00:02:46,900 --> 00:02:49,640
+cuando usábamos la función SUMIF.
+
+45
+00:02:49,640 --> 00:02:54,040
+Obtenemos 170 unidades vendidas de 
+la cerveza Schlafly Oktoberfest.
+
+46
+00:02:55,640 --> 00:02:57,280
+Así que, imagine nuevamente 
+
+47
+00:02:57,290 --> 00:03:00,630
+que nuestro jefe entra y dice:
+"¿Qué cerveza
+
+48
+00:03:00,630 --> 00:03:05,720
+se vende mejor después de las 11 p.m.?" esto es 
+muy fácil. porque podemos coger el campo hora
+
+49
+00:03:05,720 --> 00:03:09,660
+y usarlo para filtrar los datos. Así
+que tomamos hora, 
+
+50
+00:03:09,660 --> 00:03:14,820
+lo arrastramos hacia el filtro y ahora 
+tenemos la lista de todas las horas
+
+51
+00:03:14,820 --> 00:03:17,830
+en una función desplegable. Así que
+solamente decimos que 
+
+52
+00:03:17,830 --> 00:03:21,780
+queremos seleccionar un grupo de ellas,
+desplazamos hacia abajo y marcamos
+
+53
+00:03:21,780 --> 00:03:26,810
+todas las cosas que aparecen después de las 11 p.m.
+También podría usar una fórmula para esto pero
+
+54
+00:03:26,810 --> 00:03:30,000
+seleccionado, es súper fácil. 
+A continuación vemos que
+
+
+55
+00:03:30,000 --> 00:03:33,970
+la cerveza más vendida después de las 11
+p.m .es esta Schlafly Oktoberfest.
+
+56
+00:03:33,970 --> 00:03:38,120
+Esto lo sabíamos con la función SUMIF,
+pero ahora lo hemos conseguido
+
+57
+00:03:38,120 --> 00:03:44,020
+¡sin fórmula alguna! Así que, compare lo que
+hemos hecho en este vídeo, con lo que 
+
+58
+00:03:44,020 --> 00:03:45,190
+hemos hecho en el vídeo anterior. 
+
+59
+00:03:45,190 --> 00:03:48,370
+No hemos usado fórmula alguna, solamente
+
+60
+00:03:48,370 --> 00:03:52,160
+importamos nuestros datos en una tabla dinámica, 
+seleccionamos los campos correctos,
+
+61
+00:03:52,160 --> 00:03:55,410
+aplicamos el filtro adecuado y
+aquí está el análisis. 
+
+62
+00:03:55,410 --> 00:03:59,900
+Y es súper fácil para nosotros ahora si queremos 
+conocer cual es la cerveza más vendida después  
+
+63
+00:03:59,900 --> 00:04:00,920
+de las 7 p.m.
+
+64
+00:04:00,920 --> 00:04:06,010
+Sólo cambiar un poco el filtro, no necesitamos 
+fórmulas, ni es necesario 
+
+65
+00:04:06,010 --> 00:04:06,660
+cambiar alguna fórmula,
+
+66
+00:04:06,660 --> 00:04:11,150
+y ya tenemos nuestro análisis. Por lo tanto,
+una tabla dinámica nos permite
+
+67
+00:04:11,150 --> 00:04:13,850
+jugar con nuestros datos de una manera fácil.
+

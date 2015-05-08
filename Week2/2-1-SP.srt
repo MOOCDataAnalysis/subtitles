@@ -1,0 +1,334 @@
+1
+00:00:01,500 --> 00:00:05,360
+Hola, Bienvenidos a esta semana de "Data Analysis
+to the MAX()"
+
+2
+00:00:05,360 --> 00:00:10,139
+En la semana anterior hemos visto como
+calcular con fórmulas y como
+
+3
+00:00:10,139 --> 00:00:11,419
+operar cálculos
+
+4
+00:00:11,519 --> 00:00:14,073
+basados en la condición. Pero
+esta semana,
+
+5
+00:00:14,073 --> 00:00:18,613
+Vamos a ver las funciones de búsqueda,
+cómo combinar 
+
+6
+00:00:18,620 --> 00:00:22,380
+desde esta parte de su hoja de cálculo y
+qué parte de la hoja de cálculo, para poderlo
+
+7
+00:00:22,380 --> 00:00:22,960
+todo junto, correctamente. 
+
+8
+00:00:23,001 --> 00:00:27,023
+La función VLOOKUP es muy, muy
+conocida, se puede decir que es como 
+
+9
+00:00:27,032 --> 00:00:28,033
+la Taylor Swift
+
+10
+00:00:28,033 --> 00:00:31,065
+de las fórmulas de Excel. La función Lookup es
+
+11
+00:00:31,065 --> 00:00:35,066
+una de las cinco funciones de Excel más usadas. 
+
+12
+00:00:35,340 --> 00:00:39,140
+Es por esta razón, que es muy importante
+saber usarla
+
+13
+00:00:39,149 --> 00:00:43,689
+y saber cuando debemos utilizarla. Así que
+echemos un vistazo a este ejemplo.
+
+14
+00:00:43,740 --> 00:00:46,920
+Imagine que está ejecutando un inventario
+de hardware. Aquí tenemos
+
+15
+00:00:47,026 --> 00:00:51,079
+información exportada de su registro, puede ver
+
+16
+00:00:51,079 --> 00:00:55,014
+que codigos de elementos se han vendido, cuando
+se han vendido y a que precio.
+
+17
+00:00:55,014 --> 00:00:58,073
+En la pste superior de este registro de datos,
+
+18
+00:00:58,199 --> 00:01:01,041
+vamos a hacer algún análisis. Quiero conocer
+
+19
+00:01:01,041 --> 00:01:04,068
+que códigos hemos vendido. Aquí 
+
+20
+00:01:04,068 --> 00:01:08,728
+puedes ver los códigos, los nombres asociados, y
+el precio al que han sido vendidos. 
+
+21
+00:01:08,979 --> 00:01:13,139
+el precio al que los habíamos comprado y
+el márgen, que es la diferencia entre estos 
+
+22
+00:01:13,180 --> 00:01:14,040
+dos precios,
+
+23
+00:01:14,260 --> 00:01:17,560
+así como el márgen expresado en porcentajes.
+
+24
+00:01:18,800 --> 00:01:22,240
+Ahora queremos hacer algún análisis 
+con estos datos. 
+
+25
+00:01:22,299 --> 00:01:25,339
+De forma más específica, saber que
+facturación tenemos 
+26
+00:01:25,500 --> 00:01:29,320
+en cada uno de los códigos que vendemos. 
+Así que podríamos hacerlo de esta manera
+
+27
+00:01:29,340 --> 00:01:33,035
+donde tenemos los códigos y los nombres, y después
+
+28
+00:01:33,035 --> 00:01:37,175
+desde la hoja de "ProductInfo" que importamos, 
+vinculamos directamentek
+
+29
+00:01:37,320 --> 00:01:41,500
+con el precio de venta, y a continuación 
+con la función COUNT
+
+30
+00:01:41,619 --> 00:01:45,119
+miramos en el registro actual de datos,
+y podemos ver
+
+31
+00:01:45,399 --> 00:01:48,425
+qué, cuándo y cuántos elementos hemos vendido
+
+32
+00:01:48,659 --> 00:01:52,001
+de este tipo específico. Si ahora 
+multiplicamos
+
+33
+00:01:52,001 --> 00:01:55,310
+el número de unidades vendidas de un código
+específico por 
+
+34
+00:01:55,409 --> 00:01:59,043
+su precio de venta, obtenemos
+la facturación que estamos buscando  de este producto
+
+
+35
+00:01:59,043 --> 00:02:01,203
+de este producto.
+
+36
+00:02:05,500 --> 00:02:07,940
+Ahí la tenemos. Hemos calculado
+
+37
+00:02:07,979 --> 00:02:12,119
+la facturación del producto. Lo primero que
+se ve y que resulta un poco
+
+38
+00:02:12,120 --> 00:02:13,640
+estraño en esta fórmula, 
+
+39
+00:02:13,640 --> 00:02:16,819
+es que Excel introduce dentro de
+la fórmula, un enlace. 
+
+40
+00:02:16,819 --> 00:02:20,038
+Esto sucede porque,
+
+41
+00:02:20,038 --> 00:02:23,097
+mientras estábamos construyendo la fórmula
+nos movimos a una hoja diferente
+
+42
+00:02:23,097 --> 00:02:26,877
+y retrocedimos. Pero, desde luego, esto
+no era lo que queríamos. Por lo tanto, en primer lugar
+
+43
+00:02:27,016 --> 00:02:31,022
+vamos a deshacernos de este prefijo, simplemente
+eliminarlo, porque no es necesario,
+
+44
+00:02:31,022 --> 00:02:34,382
+y hace nuestra hoja de cálculo 
+más complicada de lo necesario. 
+
+45
+00:02:35,020 --> 00:02:39,140
+Por lo tanto, la cuestión ahora es, 
+¿Es nuestra hoja de cálculo perfecta, ahora?.
+
+46
+00:02:39,140 --> 00:02:40,013
+¿Estamos en un estado perfecto?
+
+47
+00:02:40,013 --> 00:02:44,013
+Probablemente hayas encontrado este problema
+antes y probablemente sabes
+
+48
+00:02:44,020 --> 00:02:48,900
+por qué esto es un problema. Si no
+permítame que le explique qué es problemático
+
+49
+00:02:49,019 --> 00:02:52,519
+en la organización de una hoja de cálculo,
+como esta.
+
+50
+00:02:55,700 --> 00:02:59,040
+Para explicárselo, voy a seleccionar 
+todos los datos de la hoja, 
+
+51
+00:02:59,062 --> 00:03:02,959
+los copio y los pego en una nueva hoja,
+
+52
+00:03:02,959 --> 00:03:07,002
+los copio y los pego como valores.
+Puedes ver 
+
+53
+00:03:07,002 --> 00:03:11,820
+lo que era el valor original,porque,
+probablemente, algunas cosas van a cambiar. 
+
+54
+00:03:11,820 --> 00:03:15,209
+si cometo algún error en mi hoja.
+Así que, para estar seguros, 
+
+55
+00:03:15,209 --> 00:03:19,004
+hago una copia de los datos originales.
+Ahora volvamos atrás. 
+
+56
+00:03:19,004 --> 00:03:23,020
+a nuestra hoja ProductInfo y hagamos algo muy inocente, 
+
+57
+00:03:23,020 --> 00:03:2hoja 6,011
+vamos a ordenar nuestra ProductInfo,
+
+58
+00:03:26,011 --> 00:03:30,390
+basando el órden en el precio de venta. Usted puede pensar:
+
+59
+00:03:30,489 --> 00:03:34,000
+"Bueno, ordenar alguna cosa no tiene por
+ qué dañar los datos".
+
+60
+00:03:34,000 --> 00:03:38,480
+Por otro lado, si nos fijamos en la facturación
+de cada producto vemos que nuestro banco, 
+
+61
+00:03:38,489 --> 00:03:41,089
+repentinamente vale solo 10 euros, 
+cuando antes
+
+62
+00:03:41,089 --> 00:03:46,629
+su precio eran 250 euros. Esto sucede porque,
+como se puede ver aquí,  
+
+63
+00:03:46,860 --> 00:03:50,420
+los  enlaces todavía están apuntando a los
+valores originales
+
+64
+00:03:50,540 --> 00:03:54,340
+y a pesar de que los hemos ordenado, 
+los vínculos no han cambiado, por lo que 
+
+65
+00:03:54,340 --> 00:03:55,360
+estamos apuntando directamente 
+
+66
+00:03:55,360 --> 00:03:58,060
+al valor equivocado. En consecuencia,
+lo que usted debe recordar 
+
+67
+00:03:58,069 --> 00:04:01,749
+de este ejemplo es que si
+establece un vínculo en una hoja de cálculo
+
+68
+00:04:02,018 --> 00:04:05,698
+esta no debe ser ordenada. Si usted la ordena
+
+69
+00:04:05,700 --> 00:04:08,980
+como puee ver en este resultado, 
+
+70
+00:04:08,980 --> 00:04:13,000
+tenemos muchas probabilidades de error. 
+Este es el escenario exacto
+
+71
+00:04:13,002 --> 00:04:16,541
+en el que, en lugar de utilizar vínculos debemos usar  
+
+72
+00:04:16,580 --> 00:04:20,360
+la función lookup. La veremos en el vídeo siguiente. 
+.
+

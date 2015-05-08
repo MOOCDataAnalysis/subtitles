@@ -1,0 +1,201 @@
+1
+00:00:00,539 --> 00:00:04,130
+En los vídeos de esta semana, les he 
+enseñado como dar nombre a rangos.
+
+2
+00:00:04,130 --> 00:00:07,549
+pero, de hecho, todavía tenemos nuestro 
+estudio de baile,  y el último gol 
+
+3
+00:00:07,549 --> 00:00:12,130
+de los ejercicios de esta semana 
+es completar el planning
+
+4
+00:00:12,130 --> 00:00:16,660
+para el estudio de danza. Así que vamos a
+repasar lo que hemos hecho hasta ahora:
+
+5
+00:00:16,660 --> 00:00:21,730
+Hemos mejorado nuestra fórmula con
+el uso de rangos con nombre, Hemos hecho una
+
+6
+00:00:21,730 --> 00:00:26,050
+tabla con datos de los profesores, tenemos
+toda la información. Hay una cosa 
+
+7
+00:00:26,050 --> 00:00:28,800
+que todavía necesitamos que es la 
+disponibilidad,  qué profesor 
+
+8
+00:00:28,800 --> 00:00:32,670
+puede enseñar y en qué días de la semana
+porque no todos los profesores están
+
+9
+00:00:32,670 --> 00:00:33,340
+disponibles todo el tiempo
+
+10
+00:00:33,340 --> 00:00:37,730
+Pero, ahora tenemos un problema aquí,
+porque en esta hoja de trabajo
+
+11
+00:00:37,730 --> 00:00:41,050
+los días de la semana están en 
+
+12
+00:00:41,050 --> 00:00:45,420
+dirección vertical , mientras que la disponibilidad
+está en dirección horizontal.
+
+13
+00:00:45,420 --> 00:00:50,810
+Bien, podemos fijar esto, seleccionando estos
+datos y copiándolos con Pegado Especial
+
+14
+00:00:50,810 --> 00:00:54,829
+de manera transpuesta, por lo que 
+todos los datos se invierten.
+
+15
+00:00:54,829 --> 00:01:00,380
+y ahora podemos copiar  otra vez a la posición
+original. Lo que ha sucedido ahora
+
+16
+00:01:00,380 --> 00:01:04,760
+es que nuestra hoja de trabajo ha cambiado
+pero el rango con nombre, no
+
+17
+00:01:04,760 --> 00:01:09,380
+El nombre es todavía "Horizontal Lebels",
+
+18
+00:01:09,380 --> 00:01:12,500
+pero en la hoja de trabajo ya no significa
+Levels nunca más.
+
+19
+00:01:12,500 --> 00:01:17,000
+actualmente son días de la semana, y
+este es uno de los riesgos, desafortunadamente,
+
+20
+00:01:17,000 --> 00:01:21,060
+de usar rangos con nombre, que me 
+gustaría advertir, el Efecto
+
+21
+00:01:21,060 --> 00:01:25,680
+Basmati. Con frecuencia en su hoja de cálculo
+y también en la 
+
+22
+00:01:25,690 --> 00:01:26,830
+programación normal,
+
+23
+00:01:26,830 --> 00:01:30,250
+sucede que su código cambia, su hoja
+de cálculo cambia,
+
+24
+00:01:30,250 --> 00:01:34,140
+pero los valores y nombres 
+dados a ellos, no
+
+25
+00:01:34,140 --> 00:01:38,010
+por lo que conseguimos cosas como estas de
+aquí, donde usted tiene un contenedor
+
+26
+00:01:38,010 --> 00:01:38,440
+diciendo
+
+27
+00:01:38,440 --> 00:01:42,850
+"Rice" pero que en realidad contiene galletas.
+Esto sucede también en las hojas de cálculo,
+
+28
+00:01:42,850 --> 00:01:46,170
+y esto es lo que ha sucedido en 
+nuestro ejemplo,
+
+29
+00:01:46,170 --> 00:01:51,189
+en el que tenemos un nombre llamado "Horizontal
+Levels", el cual actualmente contiene
+
+30
+00:01:51,189 --> 00:01:54,920
+días de la semana. Así que, su ejercicio 
+para esta semana, el primer
+
+31
+00:01:54,920 --> 00:01:59,920
+ejercicio, es para fijar esto. Desearía que 
+utilizara el Gestor de Nombres 
+
+32
+00:01:59,920 --> 00:02:00,720
+para cambiar este nombre y darle 
+
+33
+00:02:00,720 --> 00:02:01,979
+otro mas apropiado, pero también
+
+34
+00:02:01,979 --> 00:02:06,119
+para fijar las fórmulas de manera que
+estés de nuevo 
+
+35
+00:02:06,119 --> 00:02:09,509
+recuperando datos, para obtener X's
+
+36
+00:02:09,509 --> 00:02:14,549
+en los puntos de días y niveles.
+La segunda tarea es hacer realidad
+
+37
+00:02:14,549 --> 00:02:18,919
+la planificación, no solo con cruces, 
+si no con
+
+38
+00:02:18,919 --> 00:02:22,430
+los nombres actuales de los
+profesores que pueden enseñar
+
+39
+00:02:22,430 --> 00:02:27,919
+un día dado, un nivel determinado. Así
+que esta es su tarea, usar nombres 
+
+40
+00:02:27,919 --> 00:02:28,370
+de rango y también
+
+41
+00:02:28,370 --> 00:02:32,940
+todas las cosas de las que hemos hablado en
+los vídeos anteriores para completar
+este planning
+
+
+42
+00:02:32,940 --> 00:02:34,200
+¡Suerte!

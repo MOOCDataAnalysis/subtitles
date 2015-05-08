@@ -1,0 +1,358 @@
+1
+00:00:01,016 --> 00:00:04,856
+Hola! Bienvenidos. En el vídeo anterior
+les he explicado
+
+2
+00:00:04,860 --> 00:00:08,000
+que normalmente, si  queremos usar 
+la función VLOOKUP,
+
+3
+00:00:08,000 --> 00:00:11,520
+vamos a querer usar FALSE como
+último parámetro,
+4
+00:00:11,520 --> 00:00:14,760
+porque queremos ser advertidos
+si un determinado valor
+
+5
+00:00:14,760 --> 00:00:18,940
+no se encuentra cuando integramos dos
+hojas de trabajo. Sin embargo, hay escenarios,
+
+6
+00:00:18,940 --> 00:00:19,980
+en los que, TRUE
+
+7
+00:00:19,980 --> 00:00:23,380
+es una opción buena, se lo vamos a 
+explicar en este vídeo.
+
+8
+00:00:23,380 --> 00:00:27,900
+ Así, por ejemplo
+cuando estamos haciendo este análisis:
+
+9
+00:00:28,008 --> 00:00:32,002
+En esta hoja de trabajo nueva que he creado, 
+vamos a tener una visión detallada
+
+10
+00:00:32,002 --> 00:00:35,008
+del uso de márgenes. Por ejemplo, 
+usted tiene que 
+
+11
+00:00:35,026 --> 00:00:39,037
+hablar con su director de ventas y el
+dice "He, desearía conocer 
+
+12
+00:00:39,037 --> 00:00:44,517
+en qué producto tenemos un buen margen
+y en cuales otros productos nuestro margen
+
+13
+00:00:44,520 --> 00:00:45,440
+puede ser incrementado.
+
+14
+00:00:45,440 --> 00:00:48,039
+Lo primero de todo, 
+será
+
+15
+00:00:48,039 --> 00:00:52,039
+mirar el margen de cada código.
+Esto sabemos que se hace con la vieja
+
+16
+00:00:52,039 --> 00:00:55,050
+función VLOOKUP con FALSE, 
+
+17
+00:00:55,149 --> 00:00:58,729
+en la que vamos a la hoja ProductInfo
+y  en la sexta columna devolvemos
+
+
+18
+00:00:58,880 --> 00:01:01,893
+el margen. Cambiamos esto,
+
+19
+00:01:02,005 --> 00:01:06,014
+otra vez, no olvidemos el signo de dolar, ¡es
+realmente importante que lo recuerde!
+
+20
+00:01:06,014 --> 00:01:09,674
+y a continuación, arrastramos la fórmula
+hacia abajo y tenemos todos los margenes.
+
+21
+00:01:09,780 --> 00:01:13,320
+Ahora queremos hacer el análisis en la parte
+superior de la misma. Por lo tanto quiero saber
+
+22
+00:01:13,500 --> 00:01:16,900
+si este es un margen bueno o malo,.
+Podemos introducir
+
+23
+00:01:17,046 --> 00:01:20,606
+una fórmula para ello, un fórmula condicional simple ,
+de la que hemos hablado en 
+
+24
+00:01:20,606 --> 00:01:21,740
+en los vídeos anteriores.
+
+25
+00:01:21,760 --> 00:01:24,760
+En ella, nos limitamos a decir: 
+si nuestro margen es, digamos,
+
+26
+00:01:24,760 --> 00:01:30,960
+inferior al 20%, es malo. En el caso 
+contrario, si es mayor del 20%, si es mayor del
+
+27
+00:01:30,960 --> 00:01:33,080
+20%, pero menor del 30%,
+
+28
+00:01:33,086 --> 00:01:37,986
+vamos a decir que el margen es OK, y
+en otros casos, si está por encima del 30%
+
+29
+00:01:38,039 --> 00:01:41,899
+diremos: ¡si, nuestro margen 
+del producto es bueno!
+
+30
+00:01:42,013 --> 00:01:45,006
+Así que, podemos hacer esto con 
+una fórmula condicional,
+
+31
+00:01:45,006 --> 00:01:48,526
+arrastrar la fórmula hacia abajo, 
+
+32
+00:01:48,729 --> 00:01:52,013
+y ¡ya lo tenemos! Todo está bien,
+
+33
+00:01:52,013 --> 00:01:56,573
+aquí tenemos una condición anidada y
+debemos recordar de vídeos anteriores
+
+34
+00:01:56,580 --> 00:02:00,360
+que si tenemos muchas condiciones anidadas, 
+la fórmula puede ser
+
+35
+00:02:00,360 --> 00:02:01,610
+muy complicada.
+
+36
+00:02:02,160 --> 00:02:06,020
+Es posible que no lo esperaras, pero este
+escenario actual, es muy bueno
+
+37
+00:02:06,038 --> 00:02:09,257
+para usar VLOOKUP . Es realmente diferente 
+a la búsqueda
+
+38
+00:02:09,400 --> 00:02:12,078
+de valores en dos tablas, pero actualmente
+
+39
+00:02:12,078 --> 00:02:16,998
+la función VLOOKUP es aplicable aquí. ¡Permítame mostrarle cómo!
+Lo que puedo hacer aquí
+
+40
+00:02:17,024 --> 00:02:21,524
+es añadir una tabla a la hoja de cálculo 
+en la que añado la clasificación.
+
+41
+00:02:21,700 --> 00:02:24,960
+Así que decimos: para márgenes en cualquier producto
+superiores a cero
+
+42
+00:02:25,048 --> 00:02:29,328
+la clasificación va a ser malo.
+
+43
+00:02:29,580 --> 00:02:32,200
+Cualquier margen entre 0 y 20
+
+44
+00:02:32,300 --> 00:02:36,900
+va a ser OK, y cualquier otro por encima de 20,
+entre 20 y 30, 
+
+45
+00:02:37,035 --> 00:02:41,335
+va a ser bueno. Exactamente la misma 
+clasificación que hemos puesto  dentro
+
+46
+00:02:41,500 --> 00:02:44,900
+de la fórmula condicional. Ahora podemos
+
+47
+00:02:45,022 --> 00:02:48,822
+deshacernos de todo el bucle anidado IF
+que realmente no nos gusta nada,
+
+48
+00:02:49,008 --> 00:02:52,019
+y poner VLOOKUP aquí. Vamos a buscar 
+el valor
+
+49
+00:02:52,019 --> 00:02:55,068
+del margen en esta tabla
+
+50
+00:02:55,160 --> 00:02:58,680
+nueva, en la que hemos devuelto la 
+segunda columna
+
+51
+00:02:58,709 --> 00:03:03,041
+y a continuación, vamos a añadir TRUE, 
+porque no queremos buscar 22,
+
+52
+00:03:03,041 --> 00:03:06,072
+sabemos que 22 no está en la tabla.
+Queremos buscar
+
+53
+00:03:06,072 --> 00:03:10,072
+el margen más próximo a 22
+que haya en la tabla. 
+
+54
+00:03:10,200 --> 00:03:13,420
+De este modo vemos que, la funcionalidad 
+
+55
+00:03:13,420 --> 00:03:16,800
+es exactamente la misma que la
+funcionalidad de IF.
+
+56
+00:03:17,140 --> 00:03:20,980
+Trabajando en esta dirección, podemos
+ver que esto es  muy sencillo, porque
+
+57
+00:03:21,000 --> 00:03:23,700
+si queremos cambiar algo en la tabla
+por ejemplo, 
+
+58
+00:03:23,700 --> 00:03:26,777
+"ok" por "OK" en mayúsculas, puedo hacerlo
+
+59
+00:03:27,011 --> 00:03:30,054
+sin necesidad de cambiar las fórmulas.
+Modifico  mi tabla
+
+60
+00:03:30,054 --> 00:03:33,894
+y todas las fórmulas se actualizan.
+Más aún,
+
+61
+00:03:34,026 --> 00:03:37,900
+si queremos añadir otra clasificación
+como establecer que el 40% es
+
+62
+00:03:37,900 --> 00:03:41,980
+el mejor margen que tenemos, Puedo 
+añadirlo a nuestra tabla
+
+63
+00:03:41,980 --> 00:03:45,800
+actualizar la tabla y a continuación
+la condición se actualiza.
+
+64
+00:03:46,009 --> 00:03:49,438
+Mientras que si quisiéramos hacer esto con IF,
+tendría que ir a otra 
+
+65
+00:03:49,519 --> 00:03:54,038
+rama del IF y nuestra fórmula
+se haría cada vez más larga. y más, y más...
+
+66
+00:03:54,038 --> 00:03:57,698
+Sin embargo, con esta solución VLOOKUP
+no importa cuantas clasificaciones tengamos
+
+67
+00:03:57,900 --> 00:04:01,719
+Si tenemos un centenar, esta fórmula
+seguirá siendo una 
+
+68
+00:04:01,769 --> 00:04:04,649
+VLOOKUP, mientras que si tenemos
+cien clasificaciones
+
+69
+00:04:04,740 --> 00:04:07,940
+en una fórmula condicional, 
+tendremos un centenar de IF.
+
+70
+00:04:08,022 --> 00:04:11,942
+O, en realidad, tendría noventa y nueve ,
+pero aún así,  todavía serían muchos..
+
+71
+00:04:11,980 --> 00:04:17,008
+Así que, si estamos clasificando cosas, si
+estamos dividiendo un valor determinado
+
+72
+00:04:17,018 --> 00:04:20,043
+en categorías diferentes usando IF, 
+
+73
+00:04:20,043 --> 00:04:24,083
+espero que recuerde este escenario -
+podemos usar VLOOKUP
+
+74
+00:04:24,083 --> 00:04:25,020
+con TRUE
+
+75
+00:04:25,021 --> 00:04:29,161
+para simplificar sustancialmente las fórmulas
+en ese escenario.
+
+

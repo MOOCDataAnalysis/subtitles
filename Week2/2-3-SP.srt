@@ -1,0 +1,281 @@
+1
+00:00:00,037 --> 00:00:05,437
+Hola, bienvenidos de nuevo! En el vídeo anterior
+hemos visto como usar VLOOKUP,
+
+2
+00:00:05,440 --> 00:00:09,013
+pero todavía no echamos un vistazo al cuarto parámetro,
+tal y como les había prometido. 
+
+3
+00:00:09,013 --> 00:00:12,562
+Así que, en este caso, solamente hemos utilizado 
+tres parámetros, 
+
+4
+00:00:12,679 --> 00:00:16,319
+lo que debe buscar, donde buscarlo
+y lo que tiene que devolver.
+
+5
+00:00:16,539 --> 00:00:20,025
+Pero, tenemos sitio suficiente para un cuarto 
+parámetro, y probablemente
+
+6
+00:00:20,025 --> 00:00:24,785
+si  has hecho los ejercicios en el intermedio, 
+verías que si se agrega una coma adicional
+
+7
+00:00:24,880 --> 00:00:28,500
+la Excel va a hacernos sugerencias sobre
+estos cuatro parámetros.
+
+8
+00:00:28,660 --> 00:00:32,060
+Veamos como es esto.
+Hago click, 
+
+9
+00:00:32,061 --> 00:00:36,980
+añado una coma, y la Excel dice "He, tengo estas dos opciones para usted"
+
+10
+00:00:36,980 --> 00:00:39,760
+Ya sea usando TRUE, que es una 
+coincidencia aproximada, 
+
+11
+00:00:40,019 --> 00:00:43,739
+va  a darnos mas o menos 
+lo que andamos buscando.  
+
+12
+00:00:43,740 --> 00:00:47,720
+o, alternativamente, podemos usar False
+que nos dará una coincidencia exacta,
+
+13
+00:00:47,720 --> 00:00:53,159
+exactamente lo que andamos buscando.
+Podría decir que ésta es solamente 
+
+14
+00:00:53,399 --> 00:00:56,939
+una ayuda pequeña, así que vamos a
+tratar de ver la diferencia
+
+15
+00:00:57,059 --> 00:01:00,619
+en nuestra hoja de trabajo de ejemplo, 
+poniendo FALSE dentro 
+
+16
+00:01:00,859 --> 00:01:04,079
+de una de las columnas. Digamos que ponemos
+FALSE en la columna del precio de venta
+
+17
+00:01:04,180 --> 00:01:07,880
+y vamos a poner TRUE en
+la búsqueda
+
+18
+00:01:08,040 --> 00:01:12,040
+del nombre. Ahora tenemos, uno al lado del otro
+la versión TRUE y la FALSE de
+
+19
+00:01:12,045 --> 00:01:12,820
+VLOOKUP,
+
+20
+00:01:12,820 --> 00:01:16,280
+y esto nos permitirá muy bien ver cuales son
+exactamente las diferencias  
+
+21
+00:01:16,280 --> 00:01:19,920
+entre las diferentes versiones
+de los cuatro parámetros.
+
+22
+00:01:20,034 --> 00:01:25,174
+Imagine que estamos en el siguiente escenario: uno de
+nuestros colegas entra en la oficina
+
+23
+00:01:25,189 --> 00:01:29,228
+y dice "He, me he dado cuenta de que has estado haciendo 
+este frío análisis de cual es la facturación 
+
+24
+00:01:29,228 --> 00:01:30,520
+hecha para los productos, 
+
+25
+00:01:30,520 --> 00:01:33,522
+pero a mi me gustaría conocer qué facturación 
+hacemos con
+
+26
+00:01:33,700 --> 00:01:37,189
+mi producto favorito, X098.
+
+27
+00:01:37,369 --> 00:01:41,034
+¿Puedes calcularlo con la hoja de cálculo?"
+¡Por supuesto!
+
+28
+00:01:41,034 --> 00:01:45,085
+Usted puede hacer eso con su hoja de cálculo!
+Así que de nuevo, tenemos TRUE en una
+
+29
+00:01:45,085 --> 00:01:48,805
+columna y FALSE en la otra, y ahora
+vamos a introducir 
+
+
+30
+00:01:48,979 --> 00:01:52,049
+X098, tomamos las fórmulas que tenemos,
+
+31
+00:01:52,049 --> 00:01:56,909
+y arrastramos hacia abajo. Ahora podemos ver
+cual es la diferencia, porque en la columna C en el
+
+32
+00:01:56,909 --> 00:01:58,079
+Precio de Venta
+
+33
+00:01:58,079 --> 00:02:01,043
+tenemos #N/A, "no encontrado".
+
+34
+00:02:01,043 --> 00:02:05,403
+Excel dice "He, este X098, no lo puedo encontrar,
+
+35
+00:02:05,409 --> 00:02:09,027
+mientras que, en la columna B, Excel puede 
+todavía no encontrarlo
+
+36
+00:02:09,027 --> 00:02:13,020
+pero dice "Si, lo más próximo 
+que he podido encontrar
+
+37
+00:02:13,020 --> 00:02:17,660
+es Fountain", porque alfabéticamente, 
+la H está más cerca de la X.
+
+38
+00:02:17,660 --> 00:02:21,560
+por lo que devuelve, el valor más cercano,
+cualquiera que este sea.  
+
+39
+00:02:22,200 --> 00:02:26,020
+Así que, de este modo podemos entender cual de los
+dos valores queremos normalmente. 
+
+40
+00:02:26,060 --> 00:02:30,420
+Debes usar FALSE, porque si tienes FALSE
+
+41
+00:02:30,420 --> 00:02:34,800
+se obtiene una señal de advertencia  si el valor
+que se está buscando
+
+42
+00:02:35,027 --> 00:02:39,780
+no ha sido encontrado. Por lo tanto, recuerde que
+si está usando VLOOKUP, 
+
+43
+00:02:39,780 --> 00:02:43,020
+para acoplar dos hojas de trabajo, 
+normalmente usted 
+
+44
+00:02:43,020 --> 00:02:47,000
+va a querer usar FALSE.  Esto debe ser 
+como la configuración básica
+
+45
+00:02:47,001 --> 00:02:50,036
+porque si usted usa FALSE obtendrá 
+una advertencia si desafortunadamente
+
+46
+00:02:50,036 --> 00:02:53,816
+el resultado no se encuentra.
+
+47
+00:02:54,025 --> 00:02:57,027
+FALSE no es la configuración por defecto. 
+Si quito
+
+48
+00:02:57,045 --> 00:03:01,059
+el parámetro y restauro las fórmulas a 
+como eran originalmente
+
+49
+00:03:01,059 --> 00:03:05,079
+veremos que el comportamiento de las fórmulas
+es como cuando introduzco
+
+50
+00:03:05,269 --> 00:03:08,006
+TRUE - en este caso, siempre intenta encontrar
+una coincidencia aproximada. 
+
+51
+00:03:08,006 --> 00:03:12,008
+Esto es un poco desafortunado, pero es
+una decisión que fue tomada por
+
+52
+00:03:12,008 --> 00:03:16,031
+el equipo de Excel. Probablemente ellos no 
+se dieron cuenta de que 
+
+53
+00:03:16,031 --> 00:03:20,371
+esta forma de conectar las hojas de trabajo 
+iba a ser la manera utilizada con más
+
+54
+00:03:20,380 --> 00:03:25,000
+frecuencia por las personas que usan VLOOKUP.
+Así que tenemos que recordarnos a nosotros mismos
+
+55
+00:03:25,000 --> 00:03:27,660
+que hay que poner FALSE como 
+
+56
+00:03:27,660 --> 00:03:31,079
+la configuración preferida, que por desgracia,
+no es la configuración predeterminada (por defecto). 
+
+
+57
+00:03:31,079 --> 00:03:35,031
+No olvide esto, porque olvidar añadir FALSE
+es una de las razones de 
+
+58
+00:03:35,040 --> 00:03:36,920
+muchos, muchos errores en las hojas de cálculo. 
+
+

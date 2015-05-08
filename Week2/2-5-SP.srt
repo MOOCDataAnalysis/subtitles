@@ -1,0 +1,244 @@
+1
+00:00:00,660 --> 00:00:04,040
+Hola!. En el vídeo anterior hemos
+visto la función VLOOKUP,
+
+2
+00:00:04,047 --> 00:00:08,840
+cuando usarla y, específicamente, cuando 
+utilizar los parámetros TRUE y FALSE.
+
+3
+00:00:08,840 --> 00:00:12,320
+Desafortunadamente, hay problemas en el paraiso. 
+
+4
+00:00:12,429 --> 00:00:15,048
+La función VLOOKUP no siempre es perfecta.
+
+5
+00:00:15,048 --> 00:00:19,328
+En este vídeo le vamos a mostrar 
+dos razones
+
+6
+00:00:19,449 --> 00:00:22,969
+por las que usted no va a querer usar
+VLOOKUP.
+
+7
+00:00:23,580 --> 00:00:27,859
+Si estamnos en una pequeña ferretería, en la
+que solamente vendemos siete artículos diferentes,
+
+8
+00:00:27,859 --> 00:00:31,017
+usar la función VLOOKUP es acertado, 
+
+9
+00:00:31,017 --> 00:00:35,417
+no hay ningún problema. Pero supongamos
+que gestionamos una ferretería enorme
+
+10
+00:00:35,420 --> 00:00:37,059
+con algo así como seiscientos artículos.
+
+11
+00:00:37,059 --> 00:00:41,459
+En este caso, nuestra pequeña función  
+VLOOKUP, que ves aquí,  
+
+12
+00:00:41,620 --> 00:00:44,780
+si la arrastro hacia abajo  me llevará
+mucho tiempo. Ves
+
+13
+00:00:44,860 --> 00:00:48,060
+Calculando.... one Mississippi.... Yup, 
+ahí está.
+
+14
+00:00:48,064 --> 00:00:51,069
+Es muy lento y estaría bien, si solamente
+
+15
+00:00:51,200 --> 00:00:54,920
+estoy calculando la función VLOOKUP.
+
+16
+00:00:55,000 --> 00:00:58,035
+Pero la hoja de cálculo se mantendrá lenta 
+
+17
+00:00:58,035 --> 00:01:01,071
+porque la función VLOOKUP va a seguir siendo 
+calculada  durante todo el tiempo.
+
+
+18
+00:01:01,071 --> 00:01:05,851
+Por ejemplo, probablemente habrá notado
+mi error tipográfico aquí, yo no vendo un 
+martillo almeja (Clam Hammer), 
+
+19
+00:01:05,869 --> 00:01:09,036
+Yo estoy vendiendo martillos de orejas (Claw Hammer)
+por lo que si corrijo este pequeño error
+
+20
+00:01:09,036 --> 00:01:12,856
+tipográfico, nuevamente tiene que ser 
+recalculado todo.
+
+21
+00:01:13,015 --> 00:01:16,955
+En consecuencia, usar un montón, como 600
+VLOOKUP's en la hoja de cálculo, 
+
+22
+00:01:16,960 --> 00:01:20,940
+va a ralentizarla en cada operación
+
+23
+00:01:20,940 --> 00:01:24,759
+que haga. Por lo que, la primera razón
+por la que VLOOKUP puede ser engorrosa
+
+24
+00:01:24,759 --> 00:01:29,339
+es por que es muy lenta en bases de datos grandes.
+La segunda razón,
+
+25
+00:01:29,439 --> 00:01:33,239
+supongamos que su jefe entra en la oficina
+y dice "He, hoy quiero ofrecer un descuento  
+
+26
+00:01:33,259 --> 00:01:34,399
+en martillos de orejas  
+
+27
+00:01:34,409 --> 00:01:38,989
+y en sierras, y necesito que me des los 
+códigos asociados, porque
+
+28
+00:01:39,079 --> 00:01:40,419
+necesito poner estos códigos
+
+29
+00:01:40,479 --> 00:01:43,899
+en el sistema de registro para los descuentos". Y
+usted dice: 
+
+30
+00:01:44,079 --> 00:01:47,319
+¡Oh, Sé cómo hacerlo! He estado siguiendo
+ese estupendo 
+
+31
+00:01:47,439 --> 00:01:51,034
+curso Excel on-line, y puedo hacerlo!
+Solamente hay que poner los nombres, 
+
+32
+00:01:51,034 --> 00:01:56,194
+esto es sencillo,  martillo de orejas y sierra.
+Voy a escribirlo. 
+
+33
+00:01:57,100 --> 00:02:00,180
+Sin problemas, y solo usaré VLOOKUP.
+
+34
+00:02:00,259 --> 00:02:04,002
+para buscar los códigos que van con los nombres,
+VLOOKUP.
+
+35
+00:02:04,002 --> 00:02:07,009
+Sé como hacerlo, buscar el nombre,
+ir a 
+
+36
+00:02:07,027 --> 00:02:10,607
+la hoja de información... Oh....
+information sheet... Oh...
+
+37
+00:02:10,620 --> 00:02:11,400
+¿Qué
+
+38
+00:02:11,400 --> 00:02:14,560
+columna tengo que devolver? ¿-1?
+
+39
+00:02:14,680 --> 00:02:17,920
+Quiero devolver un valor que está antes 
+en la corriente
+
+40
+00:02:18,002 --> 00:02:21,460
+Desafortunadamente, no existe algo como
+una columna -1
+
+41
+00:02:21,460 --> 00:02:25,040
+en VLOOKUP. La única manera en la 
+que puedes usar VLOOKUP
+
+42
+00:02:25,043 --> 00:02:29,079
+es, partir desde la primera columna 
+y recuperar algo que está
+
+43
+00:02:29,079 --> 00:02:32,999
+en una columna posterior. No hay ninguna 
+manera de poder volver atrás.
+
+44
+00:02:33,000 --> 00:02:36,500
+en la corriente con la función VLOOKUP.
+¡Esta función solamente trabaja
+
+45
+00:02:36,500 --> 00:02:40,840
+en una dirección! Así que ya tenemos dos razones
+por las que la función VLOOKUP
+
+46
+00:02:40,980 --> 00:02:44,014
+no es perfecta. Si queremos tener velocidad, 
+
+47
+00:02:44,080 --> 00:02:47,920
+o si queremos tener una calle de doble sentido
+tendría que buscar 
+
+48
+00:02:48,016 --> 00:02:51,058
+en ambas direcciones, por lo que, 
+desafortunadamente
+
+49
+00:02:51,058 --> 00:02:55,718
+la función VLOOKUP, no es la función correcta. 
+No obstante, también tengo buenas noticias, -
+
+50
+00:02:55,840 --> 00:02:58,908
+en el próximo vídeo le enseñaré qué función 
+puede utilizar 
+
+51
+00:02:59,064 --> 00:03:03,824
+como alternativa, si se encuentra en alguno 
+de estos escenarios. Nos vemos allí!
+
+
