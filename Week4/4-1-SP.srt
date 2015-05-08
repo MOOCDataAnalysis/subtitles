@@ -1,0 +1,325 @@
+1
+00:00:00,320 --> 00:00:03,860
+¡Hola!, ¡Bienvenidos!. Para los ejercicios
+de esta semana
+
+2
+00:00:03,860 --> 00:00:08,970
+usaremos como ejemplo un "Estudio de danza"
+Así que tenemos un número de profesores
+
+3
+00:00:08,970 --> 00:00:13,059
+en nuestro estudio, con nombres, edades, 
+tarifa,
+
+4
+00:00:13,059 --> 00:00:16,820
+lo que cuestan si los contratamos, el
+nivel máximo que pueden enseñar
+
+5
+00:00:16,820 --> 00:00:21,300
+y el nivel preferido, nivel en el que más les
+gusta enseñar. Por ejemplo, Georgie
+
+6
+00:00:21,300 --> 00:00:21,720
+aquí, aunque
+
+7
+00:00:21,720 --> 00:00:26,240
+puede enseñar hasta el nivel 5,
+prefiere enseñar en el nivel 1.
+
+8
+00:00:26,240 --> 00:00:29,100
+En estos datos disponibles
+
+9
+00:00:29,100 --> 00:00:32,160
+queremos realizar algún tipo de análisis.
+Así que vamos a empezar.
+
+10
+00:00:32,160 --> 00:00:37,620
+por analizar, cuantos profesores tenemos
+que puedan enseñar en cada uno de los
+
+11
+00:00:37,620 --> 00:00:40,850
+niveles disponibles.  Hacemos una lista de 
+todos los niveles
+
+12
+00:00:40,850 --> 00:00:44,450
+disponibles en nuestra escuela de danza. 
+1, 2, 3, 4, 5 y 
+
+13
+00:00:44,450 --> 00:00:47,800
+del número de profesores. Para esto podemos
+usar la función COUNTIF
+
+14
+00:00:47,800 --> 00:00:50,690
+la cual es muy parecida a la
+función SUMIF
+
+15
+00:00:50,690 --> 00:00:54,250
+que ya hemos visto en vídeos anteriores.
+Así que vamos a contar
+
+16
+00:00:54,250 --> 00:00:58,250
+en un rango dado en la hoja de trabajo
+"Teachers", 
+
+17
+00:00:58,250 --> 00:01:01,699
+cuantos profesores hay para impartir clases
+en un nivel dado.
+
+18
+00:01:01,699 --> 00:01:06,079
+Hacemos click en el campo "Level"
+y lo que esto quiere decir en realidad,
+ es que,
+
+19
+00:01:06,079 --> 00:01:10,899
+a pesar de que no esté muy claro, estamos
+calculando el número de profesores
+
+20
+00:01:10,899 --> 00:01:14,359
+que dan clases en un nivel igual a este
+
+21
+00:01:14,359 --> 00:01:17,469
+de la primera columna. Pero esto no es
+lo que realmente queremos, 
+
+22
+00:01:17,469 --> 00:01:21,420
+porque queremos calcular quien puede
+enseñar en el nivel 1, teniendo en cuenta
+
+23
+00:01:21,420 --> 00:01:25,469
+que, alguien que está capacitado 
+para enseñar en el nivel 3, ciertamente
+
+24
+00:01:25,469 --> 00:01:29,520
+también lo está para enseñar en el nivel 1.
+Así que lo que queremos es, 
+
+25
+00:01:29,520 --> 00:01:33,950
+en lugar de esta igualdad en COUNTIF, 
+nos gustaría una comparación, 
+
+26
+00:01:33,950 --> 00:01:37,079
+queremos comparar el nivel
+
+27
+00:01:37,079 --> 00:01:40,310
+con el nivel en el campo "Teachers" de la
+hoja de trabajo, y podemos probar esto,
+
+28
+00:01:40,310 --> 00:01:43,479
+pero desafortunadamente, aunque se 
+ve muy bien,
+
+29
+00:01:43,479 --> 00:01:47,869
+esto no está permitido en la sintaxis de Excel.
+Tendremos que escribir un poco de texto fuera de ella,
+
+30
+00:01:47,869 --> 00:01:51,729
+una cadena, añadiendo los signos de 
+comillas y ampersand (&).
+
+31
+00:01:51,729 --> 00:01:54,479
+Con esto ya tenemos en B la comparación
+de qué
+ número de profesores
+
+32
+00:01:54,479 --> 00:01:57,789
+tenemos que
+ pueden enseñar hasta 
+cierto nivel, 
+es decir, 
+
+33
+00:01:57,789 --> 00:02:02,409
+cada uno de los que pueden enseñar en el 
+nivel 1 o superior. 
+
+34
+00:02:02,409 --> 00:02:04,219
+Y esto sí que es lo que realmente
+queremos en este momento, 
+
+35
+00:02:04,219 --> 00:02:08,890
+Aunque hay un pequeño error. 
+En la columna final , aquí  tenemos
+
+36
+00:02:08,890 --> 00:02:12,319
+4 y 5, esperábamos conseguir 4.
+
+37
+00:02:12,319 --> 00:02:16,650
+Sin embargo, conseguimos 3.  Supongo que
+has visto mi error. Olvidé
+
+38
+00:02:16,650 --> 00:02:20,840
+insertar el signo del dolar ($) 
+antes de arrastrar hacia abajo.
+
+39
+00:02:20,840 --> 00:02:24,700
+Así que, si quieres que esto funciones
+correctamente, no debes olvidar
+
+40
+00:02:24,700 --> 00:02:28,760
+usar el símbolo del dolar. Algo que  
+también  
+es un poco engorroso aquí, 
+
+41
+00:02:28,760 --> 00:02:32,150
+es que, si accidentalmente usamos otra columna, 
+por ejemplo, cometo un 
+
+42
+00:02:32,150 --> 00:02:37,609
+pequeño error y escribo "E", es
+muy difícil ver que he cometido un 
+
+43
+00:02:37,609 --> 00:02:39,379
+error, porque "C" y "E"
+
+44
+00:02:39,379 --> 00:02:42,969
+contienen valores similares, es muy difícil
+para nosotros, ver hacia donde
+
+45
+00:02:42,969 --> 00:02:47,579
+apunta esta fórmula. Así que
+estos dos problemas, que no
+
+46
+00:02:47,579 --> 00:02:50,180
+deberías olvidar el símbolo 
+del dolar
+
+47
+00:02:50,180 --> 00:02:54,019 
+y que resulta difícil ver a donde está
+apuntando la referencia a una celda,
+
+48
+00:02:54,019 --> 00:02:54,819
+están muy bien abordados
+
+49
+00:02:54,819 --> 00:02:59,030
+mediante el uso de rangos con nombre, cosa esta
+que es un tópico en esta semana. 
+
+50
+00:02:59,030 --> 00:03:02,109
+Volvamos a atrás, a nuestro ejemplo para ver  que
+podemos hacer si queremos cambiar
+
+51
+00:03:02,109 --> 00:03:06,060
+esta referencia por un nombre de rango.
+
+52
+00:03:06,060 --> 00:03:09,810
+Vamos a la hoja de trabajo "Teachers", seleccionamos un conjunto de celdas
+
+53
+00:03:09,810 --> 00:03:13,349
+y escribimos el nombre que deseamos dar
+a ese rango de celdas.
+
+54
+00:03:13,349 --> 00:03:17,859
+Súper fácil, Solo es necesario ir a la esquina 
+izquierda superior
+
+55
+00:03:17,859 --> 00:03:22,859
+y escribir el nombre. Si has olvidado donde
+se encuentra cierto rango con nombre, puedes
+
+56
+00:03:22,859 --> 00:03:24,629
+usar este este pequeño cuadro desplegable
+
+57
+00:03:24,629 --> 00:03:28,090
+que automáticamente nos lleva al rango
+del nombre asociado. el nombre del rango
+
+58
+00:03:28,090 --> 00:03:31,090
+Este nombre de rango, se puede usar ahora 
+en las funciones
+
+59
+00:03:31,090 --> 00:03:34,560
+en lugar de las referencias a celdas. 
+Por lo tanto, podemos seleccionar
+
+60
+00:03:34,560 --> 00:03:38,599
+el nombre de un rango, incluso conseguir
+una lista, aquí, de todos los nombres  
+de
+
+61
+00:03:38,599 --> 00:03:39,549
+rangos asociados en la hoja de cálculo,
+
+62
+00:03:39,549 --> 00:03:42,700
+Lo arrastramos hacia abajo. Ahora es
+realmente fácil ver qué es lo que 
+
+63
+00:03:42,700 --> 00:03:46,299
+estamos calculando.
+
+64
+00:03:46,299 --> 00:03:49,859
+Es fácil porque podemos leerlo, como en un libro o como en una sentencia.
+
+65
+00:03:49,859 --> 00:03:52,959
+Estamos contando el máximo nivel de los profesores.
+
+66
+00:03:52,959 --> 00:03:56,709
+No es necesario que me de cuenta de a donde
+estamos haciendo referencia,
+
+67
+00:03:56,709 --> 00:03:58,689
+Este es el poder de los rangos con nombre.

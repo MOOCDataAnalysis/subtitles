@@ -1,0 +1,310 @@
+1
+00:00:01,000 --> 00:00:03,400
+En el vídeo anterior les he enseñado
+como usar los rangos con nombre
+
+2
+00:00:03,409 --> 00:00:07,339
+Son realmente agradables de usar,
+ya que hacen que sea más fácil,
+ 
+3
+00:00:07,339 --> 00:00:11,719
+leer las fórmulas. Sin embargo, todavía
+tenemos un reto abierto,
+
+4
+00:00:11,719 --> 00:00:15,639
+porque queremos ser capaces de añadir
+nuevos profesores a nuestra hoja de trabajo
+
+5
+00:00:15,639 --> 00:00:20,310
+sin tener que actualizar ni las fórmulas
+ni el rango con nombre. Así que quisiera
+
+6
+00:00:20,310 --> 00:00:24,020
+añadirme, por ejemplo, a mi misma. Voy a
+trabajar de noche como profesora de baile,
+
+7
+00:00:24,020 --> 00:00:27,040
+Quisiera que esas fórmulas se actualizaran 
+automáticamente
+
+8
+00:00:27,040 --> 00:00:30,680
+y la solución actual de utilizar toda la
+columna como rango con nombre, no es buena,
+
+9
+00:00:30,680 --> 00:00:33,920
+porque bloquea todas las celdas
+
+10
+00:00:33,920 --> 00:00:37,710
+debajo de los datos. En este vídeo les voy 
+a enseñar una solución  
+
+11
+00:00:37,710 --> 00:00:38,420
+alternativa
+
+12
+00:00:38,420 --> 00:00:43,149
+que aborda ambos problemas.
+Puedo seleccionar
+
+13
+00:00:43,149 --> 00:00:46,469
+nuestros datos. Permítanme eliminarme
+a mi misma. Me añadiré más tarde.
+
+14
+00:00:46,469 --> 00:00:50,829
+Ahora podemos seleccionar todos los datos
+de nuestra hoja de trabajo e insertar
+
+15
+00:00:50,829 --> 00:00:54,999
+una tabla de datos, justo ahí
+
+16
+00:00:54,999 --> 00:00:59,600
+Y a continuación, Excel nos pide que seleccionemos 
+los datos que nos gustaría en la tabla de datos 
+
+17
+00:00:59,600 --> 00:01:04,190
+y si los datos tienen o no cabecera,
+si la primera línea describe el significado
+
+18
+00:01:04,190 --> 00:01:08,830
+de los datos. Y en primer lugar, obtenemos
+esta agradable visualización en l aparte superior
+
+19
+00:01:08,830 --> 00:01:09,970
+de nuestros datos,
+
+20
+00:01:09,970 --> 00:01:13,000
+pero también sucede que todas
+estas columnas son automáticamente
+
+21
+00:01:13,000 --> 00:01:16,740
+convertidas en algo como
+rangos con nombre,
+
+22
+00:01:16,740 --> 00:01:21,040
+etiquetados por la primera línea, por 
+las cabeceras,
+
+23
+00:01:21,040 --> 00:01:24,490
+por lo que los podremos usar en nuestras fórmulas
+podemos decir: queremos contar
+
+24
+00:01:24,490 --> 00:01:30,290
+'Table1' y conseguimos todas las columnas 
+de nuestra tabla, queremos tener, de "Table1"
+
+25
+00:01:30,290 --> 00:01:33,590
+'Maximum Level', y ahora vemos que
+nuestra fórmula funciona.
+
+26
+00:01:33,590 --> 00:01:38,770
+Y, si añadimos otro profesor a nuestra lista,
+
+27
+00:01:38,770 --> 00:01:42,600
+como profesora de danza, se ve una cosita
+pequeña, allá en la esquina
+
+28
+00:01:42,600 --> 00:01:46,870
+va hacia abajo con la tabla y muestra 
+dónde termina la tabla.
+
+29
+00:01:46,870 --> 00:01:50,320
+Así que, tan pronto como usted introduzca
+una fila nueva en la tabla, 
+
+30
+00:01:50,320 --> 00:01:54,520
+la tabla es ampliada y usted no tiene que
+actualizar el rango con nombre. Déjeme
+
+31
+00:01:54,520 --> 00:01:56,980
+añadir otro profesor para mostrarles
+
+32
+00:01:56,980 --> 00:02:02,220
+esa pequeña cosita de la tabla, el borde de la 
+esquina que se muestra dónde termina la tabla.
+
+33
+00:02:02,220 --> 00:02:06,530
+Así que, esta es una solución que parece realmente 
+agradable, con ella tenemos todos los beneficios
+
+34
+00:02:06,530 --> 00:02:09,879
+de los rangos con nombre. Sin embargo, 
+no tenemos que cambiar
+
+35
+00:02:09,879 --> 00:02:12,920
+ninguna cosa, en el supuesto de que
+añadamos profesores.
+
+36
+00:02:12,920 --> 00:02:17,629
+Pero hay una cosa que es muy fea,
+espero que actualmente usted haya estado
+
+37
+00:02:17,629 --> 00:02:22,599
+gritándole otra vez a la pantalla de  ordenador
+"Oh no, No me gusta el nombre de esta
+
+38
+00:02:22,599 --> 00:02:23,409
+tabla!
+
+39
+00:02:23,409 --> 00:02:27,040
+¿Cómo puedes tener un vídeo sobre rangos con nombre, 
+nombres 
+
+40
+00:02:27,040 --> 00:02:30,860
+con una tabla que se llama 'Tabla 1'? esto es 
+una locura! "
+
+41
+00:02:30,860 --> 00:02:34,740
+Tienes razón, amigo mío, es una locura.
+Permíteme cambiar inmediatamente el nombre de
+
+42
+00:02:34,740 --> 00:02:35,620
+la tabla, porque
+
+43
+00:02:35,620 --> 00:02:41,060
+esto es súper feo. Podemos hacerlo, tal y como
+les mostré en el vídeo anterior, con el 
+
+44
+00:02:41,069 --> 00:02:42,040
+gestor de nombre,
+
+45
+00:02:42,040 --> 00:02:44,950
+pero hay también otra solución, 
+para deshacerse de este feo "Table1"
+
+46
+00:02:44,950 --> 00:02:50,510
+Si volvemos atrás a la hoja "Teachers" y 
+seleccionamos la tabla de datos, 
+
+47
+00:02:50,510 --> 00:02:53,849
+obtenemos una pestaña adicional en la cinta.
+Y ahí,
+
+48
+00:02:53,849 --> 00:02:57,180
+podemos cambiar fácilmente nuestra tabla
+sin seleccionar nada
+
+49
+00:02:57,180 --> 00:03:00,579
+y ves que, dentro de las fórmulas
+ahora también tenemos la tabla
+
+50
+00:03:00,579 --> 00:03:03,870
+'Teachers' en lugar de la 'Table1'.  
+No tenemos que 
+
+51
+00:03:03,870 --> 00:03:07,069
+actualizar nada. Hay más que podemos hacer
+
+52
+00:03:07,069 --> 00:03:10,620
+en esta pestaña de la cinta. Por ejemplo, 
+podemos añadir
+
+53
+00:03:10,620 --> 00:03:15,810
+cortadoras, estas son realmente como un filtro,
+como ves el logo es similar al de un filtro
+
+54
+00:03:15,810 --> 00:03:17,529
+pero es más interactivo.
+
+55
+00:03:17,529 --> 00:03:20,909
+Puede hacer clic en todas las tarifas que deseas
+y la tabla de datos será
+
+56
+00:03:20,909 --> 00:03:24,069
+actualizada automáticamente. Así que
+esto es un poco más agradable,
+
+57
+00:03:24,069 --> 00:03:28,279
+si ha cambiado sus datos a una tabla de datos, 
+para jugar de forma interactiva con lo que
+
+58
+00:03:28,279 --> 00:03:31,290
+hay en el conjunto de datos.
+
+59
+00:03:31,290 --> 00:03:35,739
+Y le animo, esto no es realmente un ejercicio, 
+pero le animo
+
+60
+00:03:35,739 --> 00:03:39,659
+a descargar la hoja de cálculo de la página
+del curso y jugar con todo
+
+61
+00:03:39,659 --> 00:03:40,849
+lo que está allí.
+
+62
+00:03:40,849 --> 00:03:44,959
+debido a que , la tabla de datos permite una
+gran cantidad de juego: podemos cambiar el marcado
+
+63
+00:03:44,959 --> 00:03:49,510
+podemos añadir columnas o filas totales,
+así que descargue la hoja de cálculo y 
+
+64
+00:03:49,510 --> 00:03:50,419
+juegue con ella, porque es
+
+65
+00:03:50,419 --> 00:03:54,679
+realmente agradable trabajar con tablas de datos.
+¡Nos vemos en el próximo vídeo!

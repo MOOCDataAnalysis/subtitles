@@ -1,0 +1,262 @@
+1
+00:00:00,799 --> 00:00:04,330
+En el vídeo  anterior , hicimos 
+un análisis para ver 
+
+2
+00:00:04,330 --> 00:00:07,500
+de que país proceden nuestras  cervezas
+más populares.
+
+3
+00:00:07,500 --> 00:00:11,000
+Pero, de hecho, si hablamos de
+datos geográficos,
+
+4
+00:00:11,000 --> 00:00:14,480
+como países, probablemente podríamos
+señalarlos en un mapa..
+
+5
+00:00:14,480 --> 00:00:17,500
+En nuestra hoja de trabajo tenemos
+información 
+
+6
+00:00:17,500 --> 00:00:22,960
+como la latitud y la longitud, así que,
+¿no sería genial si tuviéramos un mapa del mundo
+
+7
+00:00:22,970 --> 00:00:28,189
+que pudiera mostrar de donde vienen  exactamente
+nuestras cervezas más populares?
+
+8
+00:00:28,189 --> 00:00:32,099
+Tal vez pudiéramos organizar un viaje
+a la fábrica de cerveza más popular, más próxima. 
+
+9
+00:00:32,099 --> 00:00:37,670
+Así que, por suerte hay una cosa estupenda 
+en Excel 2013 que se llama
+
+10
+00:00:37,670 --> 00:00:41,290
+PowerMap. Vamos a usarlo para hacer exactamente 
+ese gráfico
+
+11
+00:00:41,290 --> 00:00:44,579
+de nuestras cervezas en un mapa.
+
+Así que haga
+
+12
+00:00:44,579 --> 00:00:47,660
+click en PowerMap cuando haya 
+instalado este plug-in,
+
+13
+00:00:47,660 --> 00:00:51,570
+y entonces, obtendrá un mapa,
+justo ahí, y todos los datos 
+
+14
+00:00:51,570 --> 00:00:54,940
+de nuestro modelo traídos desde 
+la tabla dinámica, están justo ahí. 
+
+15
+00:00:54,940 --> 00:00:59,379
+Lo que podemos hacer es seleccionar 
+las fábricas de cerveza y
+ con ello
+
+16
+00:00:59,379 --> 00:01:04,180
+conseguimos pequeños puntos señalando
+todas las fábricas. Esto está basado en 
+
+17
+00:01:04,180 --> 00:01:05,010
+la lista de todas las fábricas de cerveza
+
+18
+00:01:05,010 --> 00:01:08,760
+de la hoja de trabajo. No basado en
+ a la lista,
+
+19
+00:01:08,760 --> 00:01:12,330
+de lo que estamos vendiendo.
+Para hacer esto último,
+
+20
+00:01:12,330 --> 00:01:16,110
+necesitamos arrastrar la cantidad, similar
+a como lo podemos hacer  en 
+
+
+21
+00:01:16,110 --> 00:01:17,350
+una tabla dinámica normal.
+
+22
+00:01:17,350 --> 00:01:21,729
+Y lo que entonces tenemos son todas las
+fábricas con las cantidades que nosotros
+
+23
+00:01:21,729 --> 00:01:24,189
+estamos vendiendo en nuestro bar. Así que 
+podemos ver que estas
+
+24
+00:01:24,189 --> 00:01:28,720
+fábricas de aquí, esta fábrica es La Trappe 
+está algo próxima a donde está nuestro bar.
+
+25
+00:01:28,720 --> 00:01:32,040
+Asumamos que nuestro bar está en Delft, donde 
+está la universidad.
+
+26
+00:01:32,040 --> 00:01:35,290
+Así que tenemos muy cerca de Delft una fábrica
+muy popular, 
+
+27
+00:01:35,290 --> 00:01:40,540
+que podría ser buena para un viaje de campo.
+Lo que he hecho ahora es, he añadido también
+
+28
+00:01:40,540 --> 00:01:44,659
+la dimensión hora con lo que  conseguimos una 
+pequeña animación en la que podemos ver
+
+29
+00:01:44,659 --> 00:01:47,869
+durante este tiempo,  durante las horas de 
+apertura de nuestro bar
+
+30
+00:01:47,869 --> 00:01:51,640
+las cervezas que están siendo bebidas por 
+la gente en el bar,
+
+31
+00:01:51,640 --> 00:01:55,640
+y podemos presentarlo como una animación.
+
+32
+00:01:55,640 --> 00:02:00,950
+Lo que podemos hacer, además, es añadir una 
+categoría, para ver qué tipo de cervezas
+
+33
+00:02:00,950 --> 00:02:04,450
+provienen de la fábrica. 
+Así que,vemos aquí,
+
+34
+00:02:04,450 --> 00:02:08,119
+déjeme eliminar esto, vemos que esta blue
+es un cierto tipo de cerveza, 
+
+35
+00:02:08,119 --> 00:02:11,580
+y orange no es nuestro tipo de cerveza y 
+ves a la derecha en nuestro mapa.
+
+36
+00:02:11,580 --> 00:02:16,160
+No se necesitan fórmulas. Solo tenemos que 
+arrastrar los datos, usted dice
+
+37
+00:02:16,160 --> 00:02:19,930
+estas son las fábricas, las cantidades 
+y las categorías
+
+38
+00:02:19,930 --> 00:02:24,739
+y consigue su visualización, a la derecha 
+del mapa. Vamos a mirar en el resto del mundo
+
+39
+00:02:24,739 --> 00:02:27,670
+No es necesario concentrarnos solamente en Europa.
+Si miramos en US
+
+40
+00:02:27,670 --> 00:02:29,739
+vemos otra visualización interesante,
+
+41
+00:02:29,739 --> 00:02:33,129
+vemos que aquí está la fábrica en la que
+dos de las cervezas que
+
+42
+00:02:33,129 --> 00:02:37,110
+están siendo vendidas, son realmente 
+populares, y aquí está
+
+43
+00:02:37,110 --> 00:02:40,780
+un área en US en la que muchas fábricas son
+populares.
+
+44
+00:02:40,780 --> 00:02:44,060
+Así que tal vez si queremos hacer una excursión 
+muy lejos,
+
+45
+00:02:44,060 --> 00:02:47,430
+esta podría ser a un área interesante
+de US a la que ir.
+
+46
+00:02:47,430 --> 00:02:51,010
+Y de nuevo y no puedo enfatizar esto lo suficiente:
+¡No hemos usado
+
+47
+00:02:51,010 --> 00:02:55,840
+ninguna fórmula! Si cargamos todos nuestros 
+datos en el modelo de datos de PowerPivot
+
+48
+00:02:55,840 --> 00:02:59,080
+podremos usar PowerMap, si estos son
+datos geográficos, 
+
+49
+00:02:59,080 --> 00:03:02,750
+para graficar todas las cosas en un mapa,
+seleccionando los campos
+
+50
+00:03:02,750 --> 00:03:06,870
+que queremos usar. Esto cierra 
+toda la semana en la que hemos
+
+51
+00:03:06,870 --> 00:03:12,040
+mostrado el poder de las tablas dinámicas:
+poco uso de fórmulas, poder analizar los datos
+
+52
+00:03:12,040 --> 00:03:14,790
+haciendo click y arrastrando.
+
+53
+00:03:14,790 --> 00:03:17,159
+¿No es esto bueno? Nos vemos la próxima semana
+

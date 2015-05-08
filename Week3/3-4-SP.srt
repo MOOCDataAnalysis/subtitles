@@ -1,0 +1,248 @@
+1
+00:00:00,760 --> 00:00:03,980
+¡Hola! ¡Bienvenidos de vuelta! en vídeos
+anteriores hemos visto ampliamente 
+
+2
+00:00:03,980 --> 00:00:07,040
+tablas dinámicas, y en vídeos anteriores
+
+3
+00:00:07,040 --> 00:00:10,380
+hemos visto como usar diferentes funciones,
+como la función AVERAGE
+
+4
+00:00:10,380 --> 00:00:11,500
+en vez de la función SUM.
+
+5
+00:00:11,500 --> 00:00:14,740
+Hay una función de la que realmente
+me gustaría hablar, 
+
+6
+00:00:14,740 --> 00:00:17,430
+llamada la Distinct Count.
+
+7
+00:00:17,430 --> 00:00:21,730
+Es diferente a COUNTIF o a la función
+normal COUNT, en la que solo se cuenta 
+
+
+8
+00:00:21,730 --> 00:00:26,100
+el número de líneas. Esta Distinct Count, 
+cuenta el número de 
+
+9
+00:00:26,100 --> 00:00:29,830
+clientes diferentes, en este caso, 
+que han comprado una cerveza específica.
+
+10
+00:00:29,830 --> 00:00:34,460
+Si usted usa una Disctinct Count, 
+puede ver 
+
+11
+00:00:34,460 --> 00:00:37,749
+qué cerveza es popular con una gran
+cantidad de personas diferentes.
+
+12
+00:00:37,749 --> 00:00:41,859
+y esta es realmente una medida diferente
+de COUNT. En los ejercicios
+
+
+13
+00:00:41,859 --> 00:00:45,420
+hablaremos un poco más, acerca de esta
+distinc count, por esto es por lo que 
+
+14
+00:00:45,420 --> 00:00:47,440
+quería mostrarles esto..
+
+15
+00:00:47,440 --> 00:00:50,100
+Pero hay una cosa en toda la vista
+de la tabla dinámica
+
+16
+00:00:50,100 --> 00:00:53,670
+que en realidad no hemos mirado todavía, y
+se trata de esta "Colums", justamente aquí.
+
+17
+00:00:53,670 --> 00:00:57,459
+Hemos filtrado, hemos usado diferentes
+funciones, diferentes valores, 
+
+18
+00:00:57,459 --> 00:01:01,869
+pero no hemos añadido columnas a la mezcla,
+y las columnas, en una tabla dinámica
+
+19
+00:01:01,869 --> 00:01:05,709
+literalmente dan otra dimensión a 
+su análisis de datos. 
+
+20
+00:01:05,709 --> 00:01:09,800
+porque, en vídeos anteriores, solamente 
+hemos mirado a esta dimensión de fila
+
+21
+00:01:09,800 --> 00:01:13,940
+y ahora también vamos a añadir columnas
+en nuestra tabla dinámica.
+
+22
+00:01:13,940 --> 00:01:17,370
+Así que echemos un vistazo a cómo va esto.
+No necesitamos el ID del huéspedes
+
+23
+00:01:17,370 --> 00:01:21,580
+ni count más veces. 
+Lo que vamos a añadir 
+
+24
+00:01:21,580 --> 00:01:25,250
+como filas, son todas las fechas diferentes
+y lo que vamos a añadir
+
+25
+00:01:25,250 --> 00:01:28,000
+cómo cálculo es
+
+26
+00:01:28,000 --> 00:01:33,350
+la suma de cantidades.
+Así que lo que vemos ahora, 
+
+27
+00:01:33,350 --> 00:01:37,700
+para cada hora del día: ¿Cuántas 
+cantidades hemos vendido?
+
+28
+00:01:37,700 --> 00:01:41,410
+y luego, nos arrastramos en columnas,  
+agregamos
+ los guest IDs
+
+29
+00:01:41,410 --> 00:01:44,600
+como columnas. Vamos a alejar un poco el zoom
+para poder ver mejor qué pasa.
+
+30
+00:01:44,600 --> 00:01:48,600
+Lo que vemos ahora es una vista general .
+
+31
+00:01:48,600 --> 00:01:51,950
+Por cliente, en cada hora del día, 
+qué esta siendo vendido. 
+
+32
+00:01:51,950 --> 00:01:55,890
+Puede ver el primer cliente justo aquí, 
+
+33
+00:01:55,890 --> 00:01:59,979
+él es un habitual. Compra cervezas desde las 5 p.m., 
+a las 7 p.m
+
+34
+00:01:59,979 --> 00:02:04,260
+Mientras que el segundo cliente es diferente,
+él también compra después de cenar
+
+35
+00:02:04,260 --> 00:02:09,099
+o antes de cenar, y el tercer cliente
+también es diferente, porque solamente viene 
+
+36
+00:02:09,099 --> 00:02:12,389
+tarde en la noche. Analizando los datos 
+de esta forma realmente conseguimos una 
+
+37
+00:02:12,389 --> 00:02:17,069
+visión general de qué sucede exactamente, 
+a qué horas,
+
+38
+00:02:17,069 --> 00:02:20,099
+qué clientes hacen esto. Así que, esto
+no sirve realmente  
+
+39
+00:02:20,099 --> 00:02:24,780
+para tener un análisis general,
+
+sirve para bucear realmente 
+
+40
+00:02:24,780 --> 00:02:26,549
+en los datos. De este modo, puede ver exactamente
+
+41
+00:02:26,549 --> 00:02:31,779
+quién está comprando, qué , y a qué hora.
+Permítame añadir otro ejemplo del
+
+42
+00:02:31,779 --> 00:02:35,590
+uso de columnas, En lugar de usar IDs 
+de huéspedes vamos a usar 
+
+
+43
+00:02:35,590 --> 00:02:36,739
+IDs de cervezas
+
+44
+00:02:36,739 --> 00:02:40,879
+pero mantenemos las filas de horas. Así
+ahora perfilamos las cervezas.
+
+45
+00:02:40,879 --> 00:02:44,260
+Vemos que esta primera cerveza de aquí, 
+es realmente una cerveza
+
+46
+00:02:44,260 --> 00:02:48,010
+para temprano, en la noche, mientras que
+esta segunda cerveza es una cerveza
+
+47
+00:02:48,010 --> 00:02:51,260
+que ha sido vendida a altas horas de
+la noche. En consecuencia, 
+
+48
+00:02:51,260 --> 00:02:55,499
+añadiendo columnas a nuestra tabla dinámica
+no estamos resumiendo más
+
+49
+00:02:55,499 --> 00:02:59,900
+es más cómo perfilar qué sucede
+
+50
+00:02:59,900 --> 00:03:04,109
+y esto, una vez más, nos permite realmente
+conseguir una comprensión más detallada 
+
+51
+00:03:04,109 --> 00:03:05,989
+de lo que sucede en los datos

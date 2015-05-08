@@ -1,0 +1,438 @@
+1
+00:00:01,540 --> 00:00:05,260
+En los vídeos anteriores hemos convertido
+nuestros datos en una tabla de datos
+
+2
+00:00:05,270 --> 00:00:09,240
+y hemos realizado un análisis por encima
+de ellos. Lo que queremos hacer ahora es 
+
+3
+00:00:09,240 --> 00:00:13,320
+hacer realidad nuestra planificación. Queremos
+hacer un calendario de lo que   
+
+4
+00:00:13,320 --> 00:00:15,120
+enseña el profesor: qué curso 
+y en qué día de la semana.
+
+5
+00:00:15,120 --> 00:00:18,750
+Así que, finalmente, vamos a querer 
+algo como esto, 
+
+6
+00:00:18,750 --> 00:00:22,320
+pero vamos a empezar con un primer paso
+intermedio. 
+
+7
+00:00:22,320 --> 00:00:25,470
+Tenemos aquí una lista de qué cursos
+se imparten y en qué día de la semana
+
+8
+00:00:25,470 --> 00:00:28,900
+Así que queremos tener inicialmente 
+en nuestro planning,
+
+9
+00:00:28,900 --> 00:00:33,030
+inicialmente no queremos tener los nombres,
+queremos tener X's
+
+10
+00:00:33,030 --> 00:00:37,219
+en los puntos en los que tenemos un curso y
+puntos vacíos o guiones
+
+11
+00:00:37,219 --> 00:00:40,949
+en los sitios donde no tenemos un 
+curso para un nivel dado.
+
+12
+00:00:40,949 --> 00:00:44,699
+Podemos hacer esto con una función 
+que ya hemos visto en el pasado,
+
+13
+00:00:44,699 --> 00:00:48,659
+denominada la función FIND. Allá vamos.
+
+14
+00:00:51,170 --> 00:00:53,420
+Podemos usar la función FIND para buscar
+por un valor 
+
+15
+00:00:53,420 --> 00:00:57,829
+en una cadena, como hemos visto antes.
+Así que vamos a encontrar
+
+16
+00:00:57,829 --> 00:01:02,530
+este 1 en la lista de todos los cursos
+que tenemos en lunes.
+
+17
+00:01:02,530 --> 00:01:05,750
+Y vemos que, si ejecutamos esta
+fórmula, 
+
+18
+00:01:05,750 --> 00:01:08,540
+se ve que, efectivamente, hay un 1 
+en esta cadena, 
+
+19
+00:01:08,540 --> 00:01:14,150
+en el primer lugar, por lo que aquí aparece un 1,
+Y aquí tenemos que añadir $, porque si
+
+20
+00:01:14,150 --> 00:01:16,610
+arrastramos la función hacia abajo, 
+
+21
+00:01:16,610 --> 00:01:20,810
+entonces, queremos mantenernos concentrados
+apuntando hacia la primera línea.
+
+22
+00:01:20,810 --> 00:01:24,660
+Pero, lo que vemos ahora es que, en el 
+caso de que no encuentre el 1, conseguimos
+
+23
+00:01:24,660 --> 00:01:28,950
+un aviso de error. Podemos atrapar este 
+valor de error con una función
+
+24
+00:01:28,950 --> 00:01:32,240
+llamada ISERROR, por lo que podemos
+preguntarle a Excel si
+
+25
+00:01:32,240 --> 00:01:35,780
+si esta fórmula da o no un error.
+
+26
+00:01:35,780 --> 00:01:39,630
+O debería decir verdadero o falso, porque
+ese será el resultado de la fórmula.
+
+27
+00:01:39,630 --> 00:01:43,570
+Como ves,  en el caso en que hemos encontrado 
+1 obtenemos un FALSO.
+
+28
+00:01:43,570 --> 00:01:46,990
+Ahora ponemos IF por delante de ISERROR,
+si conseguimos un error 
+
+29
+00:01:46,990 --> 00:01:52,770
+podemos decir, bien, queremos tener
+un guión, y si no lo conseguimos, entonces
+
+30
+00:01:52,770 --> 00:01:54,030
+queremos tener una X.
+
+31
+00:01:54,030 --> 00:01:59,250
+Así que obtenemos X en todos los lugares 
+donde tenemos, de hecho, el curso dado 
+
+32
+00:01:59,250 --> 00:02:01,880
+en el día dado.
+
+33
+00:02:01,880 --> 00:02:06,310
+También ahí, podemos arrastrar esta 
+fórmula hacia la derecha
+
+34
+00:02:06,310 --> 00:02:07,510
+y entonces tenemos
+
+35
+00:02:07,510 --> 00:02:11,810
+nuestra fórmula. Desafortunadamente, 
+hemos olvidado algo,
+
+36
+00:02:11,810 --> 00:02:16,790
+una vez más otro símbolo de dolar.
+¿Verdad que es molesto y fácil de olvidar?.
+
+37
+00:02:17,200 --> 00:02:21,849
+Luego, si añadimos el $ en nuestra fórmula, 
+funcionará y podremos arrastrarla hacia la derecha
+
+38
+00:02:21,849 --> 00:02:24,989
+y de hecho tenemos nuestra función.
+
+39
+00:02:24,989 --> 00:02:29,249
+Pero, no me gusta especialmente esta fórmula
+mucho ...
+
+40
+00:02:29,249 --> 00:02:30,870
+Si nos fijamos en ella,
+
+41
+00:02:30,870 --> 00:02:33,900
+Tenemos un dolar aquí y
+otro dolar aquí,
+
+42
+00:02:33,900 --> 00:02:38,510
+Estoy bastante segura de que si  miramos 
+esta fórmula mañana o tal vez dentro de una semana o
+
+43
+00:02:38,510 --> 00:02:44,159
+tres, miraremos pensando: "Realmente 
+no recuerdo lo que está pasando aquí".
+
+44
+00:02:44,159 --> 00:02:47,099
+Así que podemos hacer que esta fórmula sea 
+mucho más fácil,
+
+45
+00:02:47,099 --> 00:02:50,730
+usando...supongo que lo puedes adivinar...
+
+46
+00:02:50,730 --> 00:02:54,230
+un nombre de rango. Así que si seleccionamos
+esta primera fila
+
+47
+00:02:54,230 --> 00:02:57,329
+de la hoja de cálculo y  la cambiamos
+
+48
+00:02:57,329 --> 00:03:00,230
+a una rango con nombre, vamos 
+a llamarlo
+
+49
+00:03:00,230 --> 00:03:03,560
+'HorzLevels', Horizontal Levels. 
+Entonces hay un 
+
+50
+00:03:03,560 --> 00:03:05,879
+truco especial que podemos utilizar,
+
+51
+00:03:05,879 --> 00:03:11,399
+si usamos un nombre de rango como este, lo
+que podemos hacer es hacer referencia a ese 
+
+52
+00:03:11,400 --> 00:03:15,560
+nombre de rango desde una fila inferior.
+Vamos a ver como lo podemos hacer.
+
+53
+00:03:15,560 --> 00:03:18,469
+Si selecciono esta celda e introduzco 
+
+54
+00:03:18,469 --> 00:03:21,590
+igual al nombre del rango, lo que 
+consigo es
+
+
+55
+00:03:21,590 --> 00:03:25,810
+la intersección de la columna en la que 
+está esta celda
+
+56
+00:03:25,810 --> 00:03:29,180
+y de la fila que representa 
+el rango con nombre.
+
+57
+00:03:29,180 --> 00:03:33,349
+De este modo, sin hacer nada más, sin 
+referencias a celdas ni cálculos, estamos
+
+58
+00:03:33,349 --> 00:03:36,919
+apuntando al rango con nombre, conseguimos
+el valor en la intersección.
+
+59
+00:03:36,919 --> 00:03:40,959
+Podemos copiarlo hacia abajo, sin
+necesidad de símbolos $, 
+
+60
+00:03:40,959 --> 00:03:44,299
+y verás que se obtiene el valor
+del rango con nombre, 
+
+61
+00:03:44,299 --> 00:03:45,709
+y si te sales de él, consigues
+
+62
+00:03:45,709 --> 00:03:49,939
+un error. Podemos usar este pequeño truco
+
+63
+00:03:49,939 --> 00:03:55,760
+para embellecer la fórmula que teníamos.
+Veamos como quedaría.
+
+64
+00:03:55,760 --> 00:03:58,639
+Aquí, nuevamente, en movimiento lento,
+
+65
+00:03:58,639 --> 00:04:03,359
+voy a mostrarles lo que hemos hecho, porque
+esto podría llevarle un tiempo a su cerebro 
+
+66
+00:04:03,359 --> 00:04:07,219
+para entender realmente como trabaja la 
+intersección. Así que si usted se refiere
+
+67
+00:04:07,219 --> 00:04:11,349
+desde una celda al nombre de un rango 
+lo que usted consigue 
+
+68
+00:04:11,349 --> 00:04:15,540
+como resultado es una intersección de
+la columna donde está
+
+69
+00:04:15,540 --> 00:04:19,670
+y el rango con nombre. Por lo tanto,
+podemos usar esto en esta función
+
+70
+00:04:19,670 --> 00:04:23,530
+veamos como. Eliminemos estas cosas
+
+71
+00:04:23,530 --> 00:04:27,360
+fes como el $, vamos a quitarlas
+bien y ahora podemos reemplazarlas
+
+72
+00:04:27,360 --> 00:04:31,230
+por una referencia al nombre del rango. 
+
+73
+00:04:31,230 --> 00:04:33,280
+Es mucho más fácil de leer, no necesitamos
+
+74
+00:04:33,280 --> 00:04:35,100
+pensar en el dolar($), no necesitamos
+pensar  
+
+75
+00:04:35,100 --> 00:04:36,350
+en la copia,
+
+76
+00:04:36,350 --> 00:04:39,480
+usted puede decir, estoy apuntando al
+
+77
+00:04:39,480 --> 00:04:43,320
+rango de nombre "Horizontal Lebels". Y
+este truco, no solamente
+
+78
+00:04:43,320 --> 00:04:46,570
+trabaja con una hoja de trabajo, si no que  
+también trabaja
+
+79
+00:04:46,570 --> 00:04:49,510
+entre hojas de trabajo. De esta manera,
+si volvemos atrás a la hoja de trabajo 
+
+80
+00:04:49,510 --> 00:04:53,280
+'Lessons y escribimos en esta celda Igual a 
+"Levels", 
+
+81
+00:04:53,280 --> 00:04:57,880
+también la podemos usar desde esta hoja 
+de trabajo. Así que, si ahora nos referimos
+
+82
+00:04:57,880 --> 00:05:02,010
+a una hoja de trabajo anterior, 
+no necesitamos fórmulas ni funciones, solo
+
+83
+00:05:02,010 --> 00:05:06,980
+una referencia. Puede ver que, de la misma 
+manera se obtiene la intersección
+
+84
+00:05:06,980 --> 00:05:12,010
+del rango con nombre en la hoja de trabajo
+y de la fila en que actualmente se encuentra.
+
+85
+00:05:12,010 --> 00:05:15,790
+Podemos usar esto también aquí, vamos
+a decir que quiero encontrar
+
+86
+00:05:15,790 --> 00:05:19,590
+el nivel horizontal en los niveles. 
+Por lo tanto, su fórmula
+
+87
+00:05:19,590 --> 00:05:22,750
+es mucho mas fácil de leer, puede 
+navegar por
+
+88
+00:05:22,750 --> 00:05:25,750
+los rangos con nombre definidos en 
+la hoja de trabajo, si ha olvidado
+
+89
+00:05:25,750 --> 00:05:26,500
+donde se encuentran, 
+
+90
+00:05:26,500 --> 00:05:31,250
+usando la opción de arrastrar hacia abajo y
+seleccionando el nombre del rango dentro 
+de la fórmula.
+
+91
+00:05:31,250 --> 00:05:34,210
+Así que, desde dolares feos 
+
+92
+00:05:34,210 --> 00:05:36,990
+hasta funciones con nombres de rangos.

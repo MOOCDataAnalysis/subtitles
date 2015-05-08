@@ -1,0 +1,275 @@
+1
+00:00:00,460 --> 00:00:06,240
+En el vídeo anterior, hemos introducido rangos con nombre
+para una columna dada de nuestra hoja de cálculo.
+
+2
+00:00:06,240 --> 00:00:09,920
+Pero, de hecho, como recordarás de uno de los
+vídeos anteriores, 
+
+3
+00:00:09,920 --> 00:00:13,420
+Las hojas de cálculo tienen una larga vida útil,
+pueden vivir hasta cinco años, así que, 
+
+4
+00:00:13,420 --> 00:00:20,109
+en un momento dado, podemos contratar un profesor
+nuevo en nuestro estudio de danza
+
+5
+00:00:20,109 --> 00:00:23,539
+y si lo hacemos, introducimos su nombre
+
+6
+00:00:23,539 --> 00:00:28,019
+en el campo "Teachers" de la hoja de trabajo.
+Su nombre es Harry y tiene 25 años,
+
+7
+00:00:28,019 --> 00:00:31,150
+introducimos todos estos datos.
+Desafortunadamente, 
+
+8
+00:00:31,150 --> 00:00:34,769
+si ahora vamos a la hoja de trabajo "Planning", 
+las fórmulas
+
+9
+00:00:34,769 --> 00:00:37,979
+no han sido actualizadas. Todavía 
+estamos calculando
+
+10
+00:00:37,979 --> 00:00:42,519
+basados en el nombre del rango anterior,
+como puedes ver, no han cambiado 
+
+11
+00:00:42,519 --> 00:00:46,149
+los valores aquí. Esto es comprensible
+Si volvemos atrás, a la hoja de trabajo
+
+12
+00:00:46,149 --> 00:00:49,249
+"Teachers" y seleccionamos el nombre
+del rango, 
+
+13
+00:00:49,249 --> 00:00:52,859
+en el cuadro desplegable, verás 
+que el "Maximun Level"
+
+14
+00:00:52,859 --> 00:00:56,659
+no incluye la última línea de 
+nuestra hoja de trabajo.
+
+15
+00:00:56,659 --> 00:01:01,309
+Así que, si queremos actualizar un rango 
+con nombre, podemos usar el Administrador de Nombres
+
+16
+00:01:01,309 --> 00:01:03,600
+como ves aquí, así que, los nombres 
+no son fijos,
+
+17
+00:01:03,600 --> 00:01:07,009
+los podemos actualizar, a medida que 
+cambia la hoja de cálculo.
+
+18
+00:01:07,009 --> 00:01:09,630
+Ahora verás que, si seleccionas "Max. Level"
+una vez mas,
+
+19
+00:01:09,630 --> 00:01:11,880
+todas las filas se incluyen en el  rango con nombre
+
+20
+00:01:11,880 --> 00:01:15,659
+y también se actualizan nuestras fórmulas.
+Por lo tanto,
+
+21
+00:01:15,659 --> 00:01:18,130
+podemos actualizar los rangos con nombre 
+cada vez que 
+
+22
+00:01:18,130 --> 00:01:20,509
+hagamos una modificación en la hoja 
+de cálculo.
+
+23
+00:01:20,509 --> 00:01:23,289
+No obstante, esto es peligroso, porque 
+en este punto, estoy segura, 
+
+24
+00:01:23,289 --> 00:01:26,409
+de que olvidaremos todos los nombres
+
+25
+00:01:26,409 --> 00:01:30,369
+de rangos que hemos creado en la hoja
+de trabajo o de que no te acordarás de
+
+26
+00:01:30,369 --> 00:01:32,399
+actualizar alguno si has introducido 
+datos nuevos.
+
+27
+00:01:32,399 --> 00:01:35,340
+Así que, aunque es posible utilizando el 
+gestor de rangos con nombre,
+
+28
+00:01:35,340 --> 00:01:39,729
+modificar los rangos con nombre, esta no 
+es la solución preferida. Queremos tener
+
+29
+00:01:39,729 --> 00:01:45,200
+nuestra hoja de cálculo, lo más automatizada
+que sea posible. Una solución alternativa es
+
+30
+00:01:45,200 --> 00:01:48,450
+usar una columna entera en su 
+rango con nombre
+
+31
+00:01:48,450 --> 00:01:52,630
+Podemos hacer esto volviendo atrás,
+al gestor de nombres de rangos
+
+32
+00:01:52,630 --> 00:01:55,140
+No necesitamos usar una columna fija,
+
+33
+00:01:55,140 --> 00:01:58,969
+podemos decir, "todas las filas 
+de mi columna".
+
+34
+00:01:58,969 --> 00:02:01,850
+Esta es una sintaxis permitida y ahora
+verás que
+
+35
+00:02:01,850 --> 00:02:05,439
+toda la columna queda incluida en el 
+rango con nombre
+
+36
+00:02:05,439 --> 00:02:08,979
+Si ahora añadimos otro profesor, 
+por ejemplo, un profesor 
+
+37
+00:02:08,979 --> 00:02:12,599
+llamado Shelly, las fórmulas serán 
+
+38
+00:02:12,599 --> 00:02:17,480
+actualizadas e incluirán a este profesor nuevo,
+porque, de hecho, está calculando sobre
+
+39
+00:02:17,480 --> 00:02:20,370
+todas las filas de la columna. Por lo tanto,
+estas es una solución buena. 
+
+40
+00:02:20,370 --> 00:02:24,290
+Sin embargo, esta solución también 
+tiene una desventaja, porque
+
+41
+00:02:24,290 --> 00:02:27,010
+sucede ahora que, si queremos 
+hacer análisis
+
+42
+00:02:27,010 --> 00:02:32,209
+en la hoja de trabajo "Teachers", por ejemplo
+queremos calcular algo como 
+
+43
+00:02:32,209 --> 00:02:35,870
+el nivel más frecuente que tenemos en 
+nuestro grupo de profesores. 
+
+44
+00:02:35,870 --> 00:02:40,939
+Diremos "Nivel más común", y para esto disponemos 
+en Excel de una fórmula llamada MODE,
+
+45
+00:02:40,939 --> 00:02:46,069
+función esta realmente interesante que podemos
+usar para calcular el valor más común
+
+46
+00:02:46,069 --> 00:02:50,939
+en un grupo de celdas. Así que esto funciona. 
+Sabemos que el nivel mas común
+ en
+
+47
+00:02:50,939 --> 00:02:55,629
+el grupo de profesores es el 3.
+Sin embargo, dado que nuestro nombre de rango
+
+48
+00:02:55,629 --> 00:02:58,049
+abarca todas las filas de la columna
+
+49
+00:02:58,049 --> 00:03:02,449
+este MODE también va a ser incluido en 
+nuestros cálculos, y esto no es 
+
+50
+00:03:02,449 --> 00:03:03,379
+lo que queríamos.
+
+51
+00:03:03,379 --> 00:03:06,269
+Así que, sí, podemos usar toda la columna,
+
+52
+00:03:06,269 --> 00:03:11,400
+Sin embargo, entonces todas estas celdas de la
+parte de abajo de nuestra tabla
+
+53
+00:03:11,400 --> 00:03:14,959
+no son utilizables, son una especie de "blocked",
+no se puede realizar cálculos ni
+
+54
+00:03:14,959 --> 00:03:16,500
+escribir en ellas
+
+55
+00:03:16,500 --> 00:03:20,439
+porque lo otros datos usarán también 
+los datos que se pongan en ellas. 
+
+56
+00:03:20,439 --> 00:03:24,000
+Por lo tanto, estamos atrapados aquí y, 
+en el próximo vídeo, les enseñaré
+
+57
+00:03:24,000 --> 00:03:25,340
+como resolver este problema.

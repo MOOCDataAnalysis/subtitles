@@ -1,0 +1,251 @@
+1
+00:00:00,081 --> 00:00:03,781
+Aquí es donde lo hemos dejado en el vídeo
+anterior, en el que Usted ha utilizado
+
+2
+00:00:03,781 --> 00:00:05,339
+las funciones LEFT y FIND
+
+3
+00:00:05,339 --> 00:00:09,959
+para cortar esta parte de los datos que
+necesitamos para ser capaces
+
+4
+00:00:09,969 --> 00:00:13,082
+de usar el valor en cálculos. 
+Y mientras tanto,
+
+5
+00:00:13,082 --> 00:00:18,000
+Usted, en los ejercicios, también ha añadido
+Esta columna Trend.
+
+6
+00:00:18,000 --> 00:00:21,027
+En la que cortar la primera parte de
+la columna Change.
+
+7
+00:00:21,027 --> 00:00:25,820
+Yo no voy a mostrarle la fórmula,
+así que, si aún no ha realizado el ejercicio
+
+8
+00:00:25,820 --> 00:00:30,679
+todavía tiene una oportunidad para hacerlo.
+Lo que he hecho mientras tanto es: He
+
+9
+00:00:30,679 --> 00:00:32,025
+añadido, no solo en la primera fila,
+si no también en todas las demás, 
+
+10
+00:00:32,025 --> 00:00:35,005
+no solo el valor y número de
+las acciones que poseo,
+
+11
+00:00:35,005 --> 00:00:40,460
+Así que retrocedí a esta primera hoja de cálculo
+
+12
+00:00:40,460 --> 00:00:45,580
+y copié todos los datos uq hay en ella. Y 
+como hemos dicho en el vídeo anterior, 
+
+13
+00:00:45,580 --> 00:00:46,900
+voy a explicar una manera mejor de conectar
+
+14
+00:00:46,900 --> 00:00:51,040
+dos hojas de cálculo juntas. Si ya lo sabe
+no se preocupe, no es así como creo  
+
+15
+00:00:51,040 --> 00:00:52,420
+que usted lo ha hecho,
+
+16
+00:00:52,420 --> 00:00:56,680
+pero para este ejercicio nos resulta 
+más fácil copiar los datos en el.
+
+17
+00:00:57,400 --> 00:01:00,880
+Este es el normalmente el punto en el que
+si usted tiene muchas columnas, 
+
+18
+00:01:01,003 --> 00:01:04,463
+va a querer limpiar su hoja de cálculo.
+
+19
+00:01:04,479 --> 00:01:09,119
+Si en la pantalla no caben más columnas
+es el momento de reorganizarlo.
+
+20
+00:01:09,540 --> 00:01:12,439
+Así que vamos a volver a estas primeras 
+columnas. Estas 
+
+21
+00:01:12,439 --> 00:01:15,779
+cinco primeras columnas, juegan
+un papel especial, ¿Cierto?
+
+22
+00:01:15,780 --> 00:01:20,000
+Ellas son importadas de la Web. Así que
+podemos indicárselo a los futuros 
+
+23
+00:01:20,001 --> 00:01:21,004
+usuarios de la hoja de cálculo,
+
+24
+00:01:21,013 --> 00:01:24,072
+añadiendo una columna aquí, una
+frontera en el lado
+
+25
+00:01:24,072 --> 00:01:28,272
+de la columna. Aquí hay otras
+dos columnas que juegan un papel diferente, 
+
+26
+00:01:28,280 --> 00:01:29,560
+ya que se basan en los datos
+
+27
+00:01:29,560 --> 00:01:33,380
+de la Web. Tengo dos columnas más y
+
+28
+00:01:33,439 --> 00:01:37,034
+Si he hecho esto, no necesitaré los 
+valores originales, nunca más,
+
+29
+00:01:37,034 --> 00:01:41,374
+Porque con mi operación de cadena, he
+recuperado la información que necesito,
+
+30
+00:01:41,400 --> 00:01:45,340
+y todavía puedo refrescqr los datos A pesar   
+de que las columnas estén ocultas, 
+
+31
+00:01:45,340 --> 00:01:49,760
+el cálculo se actualiza después
+de presionar el botón Refresh.
+
+32
+00:01:49,900 --> 00:01:53,119
+Esto ya se ve de otra manera mejor,
+ahora, en un solo vistazo
+
+33
+00:01:53,119 --> 00:01:57,259
+se puede ver lo que está pasando. Sólo
+me molesta un poco la
+
+34
+00:01:57,260 --> 00:01:58,420
+última columna, debido a que
+
+35
+00:01:58,420 --> 00:02:02,020
+algunos de los valores tienen 2 
+y otros 1 decimal. 
+
+36
+00:02:02,100 --> 00:02:05,000
+Por ello, lo que aquí podemos hacer
+es ajustar el número de decimales
+
+37
+00:02:05,000 --> 00:02:08,019
+en este formato de celda emergente que
+aparece cuando presionamos Ctrl+1. 
+
+38
+00:02:08,019 --> 00:02:11,039
+Pero podemos ir más lejos aún, 
+
+39
+00:02:11,044 --> 00:02:14,700
+podemos indicar que el valor es una moneda
+
+40
+00:02:14,700 --> 00:02:18,800
+y añadir el símbolo del Euro después de él.
+Así estará mucho más claro para cualquiera
+
+41
+00:02:18,800 --> 00:02:21,014
+que vaya a trabajar con esta hoja de cálculo. 
+
+42
+00:02:21,014 --> 00:02:24,019
+Recuerde del primer vídeo 
+que con mucha probabilidad
+
+43
+00:02:24,019 --> 00:02:28,043
+la verán 12 personas en los próximos 5 años
+Así estará mucho más claro para ellos
+
+44
+00:02:28,043 --> 00:02:31,340
+que es este valor, porque pueden ver
+
+45
+00:02:31,340 --> 00:02:34,320
+que estamos hablando de dinero. 
+
+46
+00:02:34,320 --> 00:02:39,720
+En consecuencia, organice bien su hoja de cálculo
+Si va a recibir gente en su casa, 
+
+47
+00:02:39,720 --> 00:02:42,980
+antes, usted va y la limpia. Si otras
+personas van a mirar su hoja de cálculo
+
+48
+00:02:42,980 --> 00:02:45,220
+Organícela.
+
+49
+00:02:45,220 --> 00:02:48,820
+La hoja de cálculo que usted va a 
+enviar como tarea
+
+50
+00:02:48,820 --> 00:02:51,980
+va a ser mirada por nosotros 
+
+51
+00:02:51,980 --> 00:02:53,000
+o por otros alumnos 
+
+52
+00:02:53,002 --> 00:02:56,960
+Y esta es una de las cosas a las 
+que vamos a prestar
+
+53
+00:02:56,960 --> 00:02:57,960
+atención en
+
+54
+00:02:57,960 --> 00:02:59,440
+estas revisiones
+

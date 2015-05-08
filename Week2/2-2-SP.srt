@@ -1,0 +1,379 @@
+1
+00:00:01,005 --> 00:00:03,785
+Bienvenidos de vuelta. En el vídeo anterior hemos visto
+2
+00:00:04,029 --> 00:00:08,005
+la razón por la que queremos usar la función 
+lookup, y esta era por que
+
+3
+00:00:08,005 --> 00:00:11,534
+los enlaces directos en la hoja de trabajo 
+van a estar desordenados
+
+4
+00:00:11,579 --> 00:00:15,479
+si cambiamos lo datos del otro lado,
+por ejemplo, ordenándolo. 
+
+5
+00:00:15,520 --> 00:00:19,500
+Realmente espero que hayas  arraigado esto 
+en la hoja de cálculo de tu cerebro, 
+
+6
+00:00:19,500 --> 00:00:23,540
+de manera que,  si usted ve una fórmula como esta,
+si ve un enlace directo
+
+7
+00:00:23,540 --> 00:00:27,280
+en su hoja de trabajo o en la hoja de cálculo
+realizada por su amigo, 
+
+8
+00:00:27,280 --> 00:00:28,100
+por ejemplo,
+
+9
+00:00:28,100 --> 00:00:31,980
+se pregunte a si mismo: ¿es esta la mejor manera
+de organizar mi hoja de cálculo?.
+
+10
+00:00:31,980 --> 00:00:36,080
+Estoy realmente seguro de que C2 
+va a contener el mismo valor
+
+11
+00:00:36,084 --> 00:00:40,804
+cuando mire la hoja de cálculo, mañana?
+Así que, ¿qué puedo hacer en relación con esto
+
+12
+00:00:40,804 --> 00:00:44,484
+Podemos usar la función lookup y esto
+va ser explicado  
+
+13
+00:00:44,489 --> 00:00:47,096
+en los vídeos de esta semana.
+
+14
+00:00:47,096 --> 00:00:51,576
+Pero, en primer lugar, retrocedamos un paso y no
+hablemos de hojas de cálculo durante 1 minuto. 
+
+15
+00:00:52,620 --> 00:00:54,820
+¿Quiere esto decir 
+
+16
+00:00:54,899 --> 00:00:58,009
+que estamos buscando un valor?. 
+Miremos esto
+
+17
+00:00:58,009 --> 00:01:02,012
+fuera del contexto de la hoja de datos, 
+bien, el clásico ejemplo de buscar algo
+
+18
+00:01:02,039 --> 00:01:07,319
+-una guía telefónica-. ¿Cuales son los tres 
+ingredientes principales que utilizamos
+
+19
+00:01:07,320 --> 00:01:09,035
+cuando estamos buscando algo en una guía telefónica?. 
+
+20
+00:01:09,035 --> 00:01:12,079
+Bien, en primer lugar, tenemos un valor, 
+el que estamos buscando.
+
+21
+00:01:12,079 --> 00:01:17,859
+En este caso el nombre Bauer, que es lo que estamos
+buscando hacia arriba. El segundo ingrediente es
+
+22
+00:01:17,869 --> 00:01:19,002
+que estamos buscando en, 
+
+23
+00:01:19,002 --> 00:01:22,442
+en este caso, en la guía telefónica de
+NamesandNumbers.com.
+
+24
+00:01:23,540 --> 00:01:27,960
+Y el tercer ingrediente, que realidad no es 
+tan obvio, el tercer ingrediente de la búsqueda 
+
+25
+00:01:28,008 --> 00:01:32,047
+es qué voy a devolver. En este ejemplo
+estamos devolviendo
+
+26
+00:01:32,119 --> 00:01:38,051
+la ciudad en la que vive Bauer. Estos
+tres ingredientes también ocurren 
+27
+00:01:38,051 --> 00:01:43,011
+con la función lookup en la hoja de cálculo.
+Vamos a ver como es esto:
+
+28
+00:01:43,018 --> 00:01:46,998
+aquí usamos una fórmula. En primer lugar
+vamos a deshacernos de
+
+29
+00:01:47,008 --> 00:01:50,029
+esos vínculos a direcciones. Vamos a 
+seleccionarlos y decir: 
+
+30
+00:01:50,029 --> 00:01:54,369
+botón derecho, limpiar contenidos. No
+queremos volver a ver estos enlaces nuevamente. 
+
+31
+00:01:54,400 --> 00:01:57,052
+Ahora tenemos sitio para introducir 
+una fórmula nueva. 
+
+32
+00:01:57,052 --> 00:02:00,952
+la VLOOKUP. Así que escribimos VLOOKUP
+
+33
+00:02:00,960 --> 00:02:05,799
+en nuestra fórmula y ahora damos entrada a
+los tres ingredientes de la búsqueda:
+
+34
+00:02:05,799 --> 00:02:09,013
+en primer lugar, estamos buscando.
+Este es el código.
+
+35
+00:02:09,013 --> 00:02:13,842
+En segundo lugar, estamos buscando en:
+la hoja de cálculo ProductInfo. 
+
+
+36
+00:02:13,959 --> 00:02:16,319
+Y en tercer lugar, lo que vamos a devolver:
+
+
+37
+00:02:16,569 --> 00:02:20,011
+la tercera columna de la hoja de trabajo
+ProductInfo.
+
+38
+00:02:20,100 --> 00:02:24,160
+Ahora puedes ver que, hemos asociado el precio 
+
+39
+00:02:24,220 --> 00:02:29,040
+con el banco, en este caso con el 
+producto de código B809.
+
+40
+00:02:29,040 --> 00:02:30,580
+Pregunta rápida:
+
+41
+00:02:30,599 --> 00:02:34,610
+Es perfecta esta fórmula?. Independientemente
+de si usted conoce o no
+
+42
+00:02:34,610 --> 00:02:38,040
+la función Vlookup, ¿puede identificar qué
+está mal actualmente en
+
+43
+00:02:38,047 --> 00:02:41,887
+esta fórmula?. Le daré cinco segundos para pensarlo. 
+
+44
+00:02:45,640 --> 00:02:49,420
+No es perfecta, ¿verdad?. Usted sabe
+que olvidé el signo de dolar($).
+
+45
+00:02:49,420 --> 00:02:53,960
+Si arrastro esta fórmula hacia abajo,
+verá  que los enlaces se estropean 
+
+46
+00:02:54,049 --> 00:02:57,469
+por no haber puesto el signo de dolar.
+Así que en primer lugar, vamos a arreglar esto.
+
+47
+00:02:57,620 --> 00:03:01,460
+Borro la referencia original y añado el signo ($)..
+
+48
+00:03:01,500 --> 00:03:04,600
+No obstante, usted no tiene por qué hacer manualmente
+esta operación, como yo he hecho. 
+
+49
+00:03:04,769 --> 00:03:07,081
+Lo que usted puede hacer es seleccionar 
+la referencia y presionar F4
+
+50
+00:03:07,081 --> 00:03:10,541
+Entonces el signo del dolar será introducido.
+
+51
+00:03:10,740 --> 00:03:12,740
+Arrastro esta fórmula hacia abajo
+
+52
+00:03:12,740 --> 00:03:15,820
+y ahora podemos ver que es perfecto
+Estamos buscando hacia arriba
+
+53
+00:03:15,829 --> 00:03:20,360
+los valores correctos, Quizás ha perdido lo que
+hice antes. 
+
+54
+00:03:20,360 --> 00:03:21,240
+He ido un poco rápido.
+
+55
+00:03:21,240 --> 00:03:24,240
+Vamos a retroceder y volver a hacer
+todas las operaciones
+
+56
+00:03:24,240 --> 00:03:28,780
+paso a paso. Todos los ingredientes de la búsqueda
+apuntan exactamente a lo que son. 
+
+57
+00:03:29,300 --> 00:03:32,200
+Así que recuerde los tres ingredientes.
+Qué estamos buscando, 
+
+58
+00:03:32,299 --> 00:03:36,059
+Donde lo estamos buscando, y qué queremos 
+devolver. Puedes ver que esto también ocurre
+
+59
+00:03:36,059 --> 00:03:41,359
+en la función VLOOKUP. La primera
+parte es lo que estamos buscando, 
+
+60
+00:03:41,360 --> 00:03:45,239
+esto es, un código. La segunda parte es
+donde estoy buscando.
+ 
+61
+00:03:45,239 --> 00:03:48,879
+Esto es parte de la hoja de trabajo
+ProductInfo.
+
+62
+00:03:48,880 --> 00:03:52,040
+Y el argumento final, yo diría que es 
+el más complicado
+
+63
+00:03:52,043 --> 00:03:55,783
+porque justamente es un número, no busca 
+realmente una referencia en la hoja de cálculo
+
+64
+00:03:55,909 --> 00:03:59,149
+entendido esto como  el nombre de la columna 
+en la que vamos a devolver
+
+65
+00:03:59,209 --> 00:04:03,609
+sino el número de la columna, que en 
+este caso es la número 3.
+
+66
+00:04:03,609 --> 00:04:07,609
+esto significa que vamos a devolver 
+la tercera columna de todo el rango 
+
+
+67
+00:04:07,609 --> 00:04:11,389
+que hemos seleccionado. De esta manera
+podemos ver
+
+68
+00:04:11,389 --> 00:04:12,740
+el precio de venta
+
+69
+00:04:12,769 --> 00:04:16,007
+de cada uno de los códigos. Podemos 
+hacer exactamente lo mismo
+
+70
+00:04:16,007 --> 00:04:20,486
+si queremos buscar los nombres asociados
+con cierto código.
+
+71
+00:04:20,549 --> 00:04:24,013
+Lo único que tendremos que cambiar es,
+en el supuesto de búsqueda de los nombres,
+
+72
+00:04:24,013 --> 00:04:26,014
+la segunda columna para la devolución.
+
+73
+00:04:26,014 --> 00:04:29,134
+El resto de la fórmula permanece igual.
+Estamos buscando el mismo valor 
+
+74
+00:04:29,140 --> 00:04:33,440
+en el mismo rango. El valor que devolvemos
+es lo único diferente. 
+
+75
+00:04:33,440 --> 00:04:37,360
+De esta manera hemos hecho una conexión perfecta
+entre las dos hojas de trabajo,
+
+76
+00:04:37,360 --> 00:04:40,540
+basados en los códigos que se producen
+en ambas. 
+
+77
+00:04:41,080 --> 00:04:45,220
+En el vídeo siguiente vamos a ver el misterioso
+cuarto parámetro de la
+
+78
+00:04:45,220 --> 00:04:46,360
+función VLOOKUP
+
+79
+00:04:46,500 --> 00:04:50,200
+que todavía no hemos usado en este vídeo.
+Le veré allí!
+
+

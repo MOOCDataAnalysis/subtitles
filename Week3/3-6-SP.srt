@@ -1,0 +1,325 @@
+1
+00:00:00,830 --> 00:00:06,350
+¡Hola! ¡Bienvenidos! Me puedo imaginar que
+el último vídeo les dejó un poco
+
+2
+00:00:06,350 --> 00:00:07,350
+confusos, porque
+
+3
+00:00:07,350 --> 00:00:11,599
+hice algo mágico aquí, solo con hacer click
+en los campos juntos y repentinamente
+
+4
+00:00:11,599 --> 00:00:12,719
+todo funcionaba. 
+
+5
+00:00:12,719 --> 00:00:16,980
+Quizás estabas de nuevo gritándole a la pantalla
+de tu ordenador, algo cómo ¿Qué está 
+
+6
+00:00:16,980 --> 00:00:17,600
+pasando aquí?
+
+7
+00:00:17,600 --> 00:00:20,580
+Así que, en este vídeo, vamos a ver 
+realmente que 
+
+8
+00:00:20,580 --> 00:00:23,040
+estaba pasando allí.
+
+9
+00:00:25,820 --> 00:00:30,680
+No vamos a trabajar más con la adición 
+de un atabla dinámica.
+
+10
+00:00:30,689 --> 00:00:33,810
+Usted no lo sabía, pero la realidad es que,
+en secreto, 
+
+11
+00:00:33,810 --> 00:00:38,410
+estuvimos trabajando con tablas dinámicas. 
+Así que, vamos a la hoja de la tabla dinámica y 
+
+12
+00:00:38,410 --> 00:00:39,760
+a gestionar los datos.
+
+13
+00:00:39,760 --> 00:00:43,440
+Lo que vemos aquí, es que esta tabla dinámica
+ha almacenado todos estos datos
+
+14
+00:00:43,440 --> 00:00:47,180
+para nosotros. Los datos que hemos 
+añadido al modelo, esto es 
+
+15
+00:00:47,180 --> 00:00:50,460
+un poco complicado, en realidad, lo que
+debería haber dicho es
+
+16
+00:00:50,460 --> 00:00:56,160
+"añadir estos datos a un modelo de tabla 
+dinámica", porque PowerPivot está 
+almacenando esos datos para nosotros
+
+17
+00:00:56,170 --> 00:00:59,940
+y aquí vemos los datos en una vista 
+de diagrama, y si hago click en este enlace,
+
+18
+00:00:59,940 --> 00:01:03,350
+se ve que es el link que en 
+realidad yo he creado
+
+19
+00:01:03,350 --> 00:01:07,330
+cuando hice click. Yo dije: esto 
+está relacionado con eso, 
+
+20
+00:01:07,330 --> 00:01:12,030
+la cerveza está relacionada con el nombre. Así que
+vamos a mejorar esos nombres un poco, porque "Range"
+
+21
+00:01:12,030 --> 00:01:15,940
+y "Range1" no son nombres buenos. Vamos a
+renombrarlos poniéndo "Register" y "Beer"
+
+22
+00:01:15,940 --> 00:01:20,520
+por lo que queda en línea con lo que está
+en nuestro modelo de hoja de cálculo.
+
+23
+00:01:23,040 --> 00:01:28,320
+Ahora tenemos una vista de nuestros datos
+que nos permite hacer un análisis más fresco.
+
+24
+00:01:28,320 --> 00:01:29,390
+Por ejemplo,
+
+25
+00:01:29,390 --> 00:01:33,920
+nos gustaría conocer: en qué ciudades 
+se fabrican las cervezas más populares 
+
+
+26
+00:01:33,920 --> 00:01:34,760
+en nuestro bar?
+
+27
+00:01:34,760 --> 00:01:38,070
+¿Bebemos cervezas de EE.UU? ¿Bebemos
+
+28
+00:01:38,070 --> 00:01:42,640
+cervezas Alemanas? ¿Cervezas Holandesas, 
+probablemente? Queremos saberlo.? 
+
+29
+00:01:42,640 --> 00:01:46,130
+Pero para ello, necesitamos tener 
+más información.
+
+30
+00:01:46,130 --> 00:01:49,920
+Necistamos ir a la hoja de fabricantes, 
+porque en la hoja de fabricantes está la
+
+31
+00:01:49,920 --> 00:01:51,170
+información de qué 
+
+32
+00:01:51,170 --> 00:01:56,100
+fábrica está en qué ciudad. Así que no
+vamos a hacer otra tabla dinámica, no
+
+33
+00:01:56,100 --> 00:01:58,960
+necesitamos hacerlo para añadir esta 
+información al modelo.
+
+34
+00:01:58,960 --> 00:02:03,100
+Ya sabes que hemos estado trabajando en secretp
+con tablas dinámicas, así que ahora podemos decir
+
+35
+00:02:03,100 --> 00:02:04,159
+Quiero ir  a
+
+36
+00:02:04,159 --> 00:02:07,650
+la cinta de PowerPivot y añadir
+
+37
+00:02:07,650 --> 00:02:11,170
+directamente los datos al modelo de datos. 
+Así que, como puees ver aquí
+
+38
+00:02:11,170 --> 00:02:14,410
+obtenemos todos los datos de una forma similar
+a como lo hemos hecho anteriormente,
+
+39
+00:02:14,410 --> 00:02:18,300
+todas las cabeceras de columnas están aquí.
+Inmediatamente ppodemos renombrar esta a 
+
+40
+00:02:18,300 --> 00:02:19,060
+'Breweries'
+
+41
+00:02:19,060 --> 00:02:23,780
+y ahora podemos crear una relación. No
+necesitamos ir a la tabla dinámica
+
+42
+00:02:23,780 --> 00:02:25,959
+en la que Excel dice: He, 
+
+43
+00:02:25,959 --> 00:02:29,760
+Necesito una relación, y entonces la cramos.
+La creamos directamente.
+
+44
+00:02:29,760 --> 00:02:34,060
+Podemos decir que el nombre brevery en la
+hoja de trabajo está relacionado con el 
+
+45
+00:02:34,060 --> 00:02:38,810
+nombre de la columna en la hoja brevery. 
+Cuando establecemos esta relación,
+
+46
+00:02:38,810 --> 00:02:43,760
+la podemos utilizar para construir nuestra 
+tabla dinámica. Por eso, si usted va ahora 
+a la tabla dinámica
+
+47
+00:02:43,760 --> 00:02:46,720
+verá que, además del registro y de las cervezas, 
+48
+00:02:46,720 --> 00:02:49,830
+también tenemos una lista de cervecerias,
+y podemos usar esto para 
+
+49
+00:02:49,830 --> 00:02:52,849
+hacer nuestro análisis de paises. 
+Podemos arrastrar paises 
+
+50
+00:02:52,849 --> 00:02:56,000
+y obtenemos el número de cervezas
+que hemos vendido
+
+51
+00:02:56,000 --> 00:03:00,709
+por cada pais. Lo que sucede en el fondo es:
+este pais
+
+52
+00:03:00,709 --> 00:03:06,630
+esta vinculado a las cervezas a través del 
+nombre de las cervecerías y estas cervezas 
+
+53
+00:03:06,630 --> 00:03:08,800
+está vinculadas a la lista de cervezas, 
+en el registro de registros,  mediante
+
+54
+00:03:08,800 --> 00:03:11,470
+el nombre. Así que la tabla dinámica 
+atraviesa todas
+
+55
+00:03:11,470 --> 00:03:12,720
+estas relaciones
+
+56
+00:03:12,720 --> 00:03:16,660
+secretamente, en el fondo, haciendo
+algo como VLOOKUP
+
+57
+00:03:16,660 --> 00:03:20,220
+para trasladar todos los datos y entonces, usted
+puede construir la tabla dinámica
+
+58
+00:03:20,220 --> 00:03:24,709
+en la parte superior derecha. no necesitamos hacer
+VLOOKUP real,    
+
+59
+00:03:24,709 --> 00:03:28,270
+Si añadimos todas las cosas al modelo de
+datos y creamos las relaciones
+
+60
+00:03:28,270 --> 00:03:31,170
+podemos construir una tabla dinámica 
+por encima de esta de esta
+
+61
+00:03:32,200 --> 00:03:34,680
+Así que echemos un vistazo a los datos 
+de nuevo,
+
+62
+00:03:34,680 --> 00:03:38,349
+¿cuál es la transversal que cruzamos?
+Vamos desde el registro de registros
+
+63
+00:03:38,349 --> 00:03:42,440
+usando el nombre a través de las cerveceras, 
+desde el nombre de las cerveceras
+
+64
+00:03:42,440 --> 00:03:45,760
+y después, a través de los paises. Este es exactamente
+el recorrido transversal que hice. 
+
+65
+00:03:45,760 --> 00:03:50,140
+pero ahora, lo hice en los datos en lugar
+de en el modelo de datos.
+
+66
+00:03:51,170 --> 00:03:53,870
+Así que esto nos deja con esta tabla 
+dinámica
+
+67
+00:03:53,870 --> 00:03:57,470
+en la que podemos ver cuales son las cervezas 
+que hemos vendido
+
+68
+00:03:57,470 --> 00:03:59,210
+de cada país .
