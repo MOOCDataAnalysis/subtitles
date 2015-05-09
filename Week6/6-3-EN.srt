@@ -1,6 +1,6 @@
 1
 00:00:00,320 --> 00:00:04,029
-So, I'm sure you're not convinced you
+So, I'm sure you're now convinced you
 have to test your spreadsheet in order
 
 2
