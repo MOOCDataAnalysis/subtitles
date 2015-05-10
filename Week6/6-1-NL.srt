@@ -1,0 +1,357 @@
+1
+00:00:02,320 --> 00:00:05,970
+We hebben veel gesproken over spreadsheets
+de afgelopen weken,
+
+2
+00:00:05,970 --> 00:00:10,290
+het is tijd om te stoppen met om de 
+hete brij heen te draaien:  
+
+3
+00:00:10,290 --> 00:00:13,360
+namelijk problemen met spreadsheets,
+je moet ze ontdekt hebben
+
+
+4
+00:00:13,360 --> 00:00:16,880
+tijdens de oefeningen of misschien 
+tijdens je werk,
+
+5
+00:00:16,880 --> 00:00:22,000
+je loopt tegen problemen aan met spreadsheets.
+Dat is niet verrassend als je je 
+
+6
+00:00:22,000 --> 00:00:24,769
+het percentage van 95% van de eerste week
+herinnert
+
+7
+00:00:24,769 --> 00:00:30,240
+van alle bedrijven die nog steeds
+spreadsheets gebruiken en 50%
+
+8
+00:00:30,240 --> 00:00:34,210
+van de spreadsheets ondersteunen beleids-
+beslissingen. Dan is het niet zo
+
+9
+00:00:34,210 --> 00:00:35,520
+verrassend
+
+10
+00:00:35,520 --> 00:00:39,120
+dat er problemen ontstaan. Misschien herinner
+je je ook 
+
+11
+00:00:39,120 --> 00:00:43,850
+dat spreadsheets een lange levensduur
+hebben: gemiddeld 5 jaar,
+
+12
+00:00:43,850 --> 00:00:47,430
+waarin ze 12 verschillende gebruikers
+hebben.
+
+13
+00:00:47,430 --> 00:00:51,250
+De meeste spreadsheets hebben geen 
+duidelijke documentatie.
+
+14
+00:00:51,789 --> 00:00:54,449
+Dus dit kan eigelijk niet goed gaan
+
+15
+00:00:54,449 --> 00:00:59,059
+wanneer je er over nadenkt. Als het
+zo belangrijk is voor bedrijven
+
+16
+00:00:59,059 --> 00:01:02,600
+en er zoveel mensen bij betrokken zijn, 
+is het wachten tot dingen 
+
+17
+00:01:02,600 --> 00:01:04,880
+verkeerd gaan. En dat gebeurd.
+
+18
+00:01:05,320 --> 00:01:09,380
+Er is zelfs een Europese Spreadsheet Risk
+
+19
+00:01:09,390 --> 00:01:16,060
+Interest Group (EUSPRIG.org) die een 
+lijst bijhoud van spreadsheetdrama's.
+
+20
+00:01:16,060 --> 00:01:16,070
+ 
+
+21
+00:01:16,070 --> 00:01:19,979
+Het is best grappig, als je wat tijd hebt
+na de oefeningen van deze week.
+
+22
+00:01:19,979 --> 00:01:22,329
+Ik raad je aan om op de site te kijken
+
+23
+00:01:22,329 --> 00:01:25,450
+hoeveel bedrijven en organisaties
+
+24
+00:01:25,450 --> 00:01:30,150
+problemen hebben, van heel klein 
+tot heel groot,
+
+25
+00:01:30,150 --> 00:01:33,740
+door het gebruik van spreadsheets. 
+Ik heb hier de leukste
+
+26
+00:01:33,740 --> 00:01:37,220
+3 spreadsheetdrama's. Deze vind ik 
+
+27
+00:01:37,220 --> 00:01:38,450
+echt leuk, 
+
+28
+00:01:38,450 --> 00:01:41,970
+de Olympische Spelen in London in 2012.
+
+29
+00:01:41,970 --> 00:01:45,930
+Je zou verwachten dat de Olympische Spelen, 
+het grootste evenement van het jaar met
+
+30
+00:01:45,930 --> 00:01:48,219
+een triljoen pond budget,
+
+31
+00:01:48,219 --> 00:01:52,320
+een zeer geavanceerd boekingssysteem
+zou hebben.
+
+32
+00:01:52,700 --> 00:01:55,900
+Dat hebben ze niet, ze gebruikten spreadsheet
+om hun 
+
+33
+00:01:55,909 --> 00:01:58,390
+boekingen bij te houden. En ze hebben een 
+kleine 
+
+34
+00:01:58,390 --> 00:02:00,350
+fout gemaakt in één van hun spreadsheets
+
+35
+00:02:00,350 --> 00:02:03,469
+met als gevolg dat één van de stadiums 
+
+36
+00:02:03,469 --> 00:02:06,939
+overboekt was met 10.000 tickets. Dat is 
+niet echt
+
+37
+00:02:06,939 --> 00:02:08,899
+verlies, maar natuurlijk wel erg
+
+38
+00:02:08,899 --> 00:02:11,250
+beschamend. Mensen moesten naar het ticket
+bureau
+
+39
+00:02:11,250 --> 00:02:13,760
+komen om hun ticket om the zetten naar
+een andere dag...
+
+40
+00:02:13,760 --> 00:02:17,260
+Dit is een mooi voorbeeld van een 
+spreadsheetdrama.
+
+41
+00:02:17,260 --> 00:02:21,190
+Hier is een andere. Een universiteit in 
+de VS verloor 2,4 miljoen
+
+42
+00:02:21,190 --> 00:02:24,250
+dollar, vanwege een spreadsheet probleem
+en hier is
+
+43
+00:02:24,250 --> 00:02:26,910
+nog een andere: een Canadese energiemaatschappij
+
+44
+00:02:26,910 --> 00:02:32,550
+verloor 24 miljoen dollar, vanwege een 
+kopiëren-plakken fout in een spreadsheet.
+
+45
+00:02:34,240 --> 00:02:36,960
+Natuurlijk, het is makkelijk om spreadsheets
+de schuld te geven, je kunt zeggen
+
+46
+00:02:36,960 --> 00:02:40,980
+dat spreadsheets slecht zijn en daarom 
+hebben we fouten. Maar dat is echt 
+
+47
+00:02:40,980 --> 00:02:44,660
+niet eerlijk. Dit is niet een typisch
+spreadsheetprobleem. 
+
+48
+00:02:44,660 --> 00:02:48,680
+Als je naar andere werkvelden kijkt, bijvoorbeeld
+programmeren.
+
+49
+00:02:48,680 --> 00:02:51,170
+Programmeren heeft een vergelijkbare 
+foutgeschiedenis
+
+50
+00:02:51,170 --> 00:02:54,910
+als spreadsheetontwikkeling. Ongeveer 1 tot 5%
+
+51
+00:02:54,910 --> 00:02:59,060
+van alle programmaregels of formules
+bevatten een fout
+
+52
+00:02:59,060 --> 00:03:03,110
+en hetzelfde geldt voor andere 
+hoogwaardige ontwerp-
+
+53
+00:03:03,110 --> 00:03:05,700
+activiteiten, zoals bijvoorbeeld schrijven.
+
+54
+00:03:05,700 --> 00:03:09,600
+Ook bij het schrijven ben je geneigd 
+kleine foutjes te maken.
+
+55
+00:03:09,600 --> 00:03:12,780
+Het menselijke brien is niet beter dan
+1 tot 5%
+
+56
+00:03:12,780 --> 00:03:17,300
+foutmarge en dat is begrijpelijk.
+Als je kijkt naar
+
+57
+00:03:17,300 --> 00:03:21,060
+programmeerproblemen, die hebben 
+zeer vergelijkbare 
+
+58
+00:03:21,060 --> 00:03:24,960
+dramaverhalen. Recente dramaverhalen
+
+59
+00:03:24,960 --> 00:03:28,610
+van het programmeren, zijn bijvoorbeeld
+healthcare.gov. Daar waren
+
+60
+00:03:28,610 --> 00:03:29,700
+recent een paar 
+
+61
+00:03:29,700 --> 00:03:33,340
+zeer grote fouten zoals 'heartbleed' en de 'goto fail'.
+
+62
+00:03:33,340 --> 00:03:37,500
+Dus je kan niet de spreadsheet de schuld
+geven, omdat
+
+63
+00:03:37,500 --> 00:03:42,620
+ook andere programma's heel 
+vergelijkbare problemen hebben.
+
+64
+00:03:43,060 --> 00:03:44,530
+Hoe komt dat?
+
+65
+00:03:44,530 --> 00:03:49,980
+Net als alles, spreadsheets en programma's
+beginnen heel klein.
+
+66
+00:03:49,980 --> 00:03:53,060
+Ze starten als kleine, lieve puppies, 
+je kan ze 
+
+67
+00:03:53,060 --> 00:03:57,140
+makkelijk aan, want ze zijn nog klein en 
+eenvoudig.
+
+68
+00:03:57,140 --> 00:04:00,160
+Hetzelfde geldt voor spreadsheet: Je begint, één werkblad,
+
+69
+00:04:00,160 --> 00:04:04,570
+een paar formules, ziet er erg schattig uit, 
+niets problematisch.
+
+70
+00:04:04,570 --> 00:04:08,100
+Maar, ze worden allemaal net zo groot als deze 
+jongen, toch?
+
+71
+00:04:08,100 --> 00:04:11,120
+Als je je hond niet traint, 
+als je je 
+
+72
+00:04:11,130 --> 00:04:15,930
+spreadsheet niet beheert, of je software, 
+gaat alles fout.
+
+73
+00:04:15,930 --> 00:04:18,950
+Dat is precies waar de videos van deze week 
+
+74
+00:04:18,950 --> 00:04:23,630
+over gaan. We gaan bespreken hoe we
+onze spreadsheets beheren en ervoor 
+
+75
+00:04:23,630 --> 00:04:26,540
+kunnen zorgen dat het opgroeit tot een
+verantwoordelijke hond
+
+76
+00:04:26,540 --> 00:04:29,180
+en niet een banken-verscheurend monster.
+

@@ -1,0 +1,349 @@
+1
+00:00:00,320 --> 00:00:04,029
+Zo, jullie nu overtuigd zijn dat je 
+je spreadsheet moet controleren 
+
+2
+00:00:04,029 --> 00:00:04,940
+om grote problemen	
+
+3
+00:00:04,940 --> 00:00:08,470
+te voorkomen. Maar de vraag is natuurlijk:
+
+4
+00:00:08,470 --> 00:00:12,590
+Wat moeten we testen bij een spreadsheet
+waar moeten we starten
+
+5
+00:00:12,590 --> 00:00:17,279
+en hoe herkennen we die typische situaties,
+die typische formules, die fout kunnen gaan?
+
+6
+00:00:17,279 --> 00:00:20,289
+Laten we opnieuw kijken naar ons
+ijzerhandelvoorbeeld.
+
+7
+00:00:20,289 --> 00:00:24,519
+Als we naar dit voorbeeld kijken, 
+download het van de EdX website
+
+8
+00:00:24,519 --> 00:00:28,260
+dan kun je met mij kijken naar wat
+
+9
+00:00:28,260 --> 00:00:33,420
+fout kan gaan. Bijvoorbeeld, als je kijkt 
+naar deze 'Marge' formule, wat weten
+
+10
+00:00:33,420 --> 00:00:35,000
+we van een marge?
+
+11
+00:00:35,000 --> 00:00:38,379
+Zijn er speciale regels die gelden voor 
+marges?
+
+12
+00:00:38,379 --> 00:00:42,160
+Als je er een beetje over nadenkt; 
+waarschijnlijk
+
+13
+00:00:42,160 --> 00:00:45,780
+moet de marge groter dan nul zijn.
+Waarschijnlijk
+
+14
+00:00:45,780 --> 00:00:50,550
+willen we geen dingen onder de inkoopprijs
+verkopen. 
+
+15
+00:00:50,550 --> 00:00:54,649
+Er zijn bedrijven die dat doen,
+misschien heb je een super,
+
+16
+00:00:54,649 --> 00:00:59,539
+super speciale aanbieding, maar ik neem 
+aan dat bij een normaal bedrijf
+
+17
+00:00:59,539 --> 00:01:03,180
+deze regel geldt: de marge moet groter dan 
+nul zijn.
+
+18
+00:01:04,280 --> 00:01:09,760
+Probeer het zelf! Download de spreadsheet
+van de EdX website en bedenk  
+
+19
+00:01:09,770 --> 00:01:13,540
+typische controles. Dit is geen 
+
+20
+00:01:13,540 --> 00:01:17,479
+verplichte oefening, maar ik hoop dat je 
+je bevindingen opschrijft,
+
+21
+00:01:17,479 --> 00:01:20,650
+en dan komen we er in deze video op 
+terug,
+
+22
+00:01:20,650 --> 00:01:24,189
+misschien praat ik wel over een aantal 
+controles die jij ook 
+
+23
+00:01:24,189 --> 00:01:29,520
+had bedacht. Zo laat we kijken naar deze
+marge. Je kunt over deze marge zeggen,
+
+24
+00:01:29,520 --> 00:01:31,640
+het feit dat het groter dan nul moet zijn,
+
+25
+00:01:31,640 --> 00:01:36,090
+dat het een soort gezondheidstest is - klopt 
+mijn spreadsheet? 
+
+26
+00:01:36,090 --> 00:01:40,619
+Dit type gezondheidstesten zijn gebruikelijk.
+Je hebt kennis over je 
+
+
+27
+00:01:40,619 --> 00:01:41,759
+vakgebied
+
+28
+00:01:41,759 --> 00:01:44,840
+en je weet aan welke typische normen het 
+zou moeten voldoen.
+
+29
+00:01:44,840 --> 00:01:49,399
+Deze normen helpen en zijn precies
+datgene wat je wilt testen.
+
+30
+00:01:49,399 --> 00:01:54,180
+Wat kunnen we nog meer testen? Als we naar
+dit percentage kijken,
+
+31
+00:01:54,180 --> 00:01:57,490
+dat is een volgend punt, als je een 
+percentage ziet dan denk je:
+
+32
+00:01:57,490 --> 00:02:01,409
+"Hee, Ik weet iets over percentages. 
+Waarschijnlijk ligt het percentage 
+
+33
+00:02:01,409 --> 00:02:05,719
+tussen 0 en 100% zijn, want zo zijn
+percentages gedefinieerd!"
+
+34
+00:02:05,719 --> 00:02:09,149
+Dus, als je zoiets ziet, onmiddelijk moet je 
+"controle", 
+
+35
+00:02:09,149 --> 00:02:12,000
+je "controle belletje" rinkelen in je 
+achterhoofd,
+
+36
+00:02:12,000 --> 00:02:17,980
+en denken "Ha, een percentage! Ik weet daar iets van!
+Ik weet tussen welke grenzen de 
+
+37
+00:02:17,980 --> 00:02:21,220
+percentagewaarde moet vallen!"
+Dat is een andere manier
+
+38
+00:02:21,220 --> 00:02:24,780
+van gegevens controleren. Als je een 
+specifieke waarde ziet,
+
+39
+00:02:24,780 --> 00:02:28,560
+denk je: wat zijn logische grenzen.
+
+40
+00:02:28,560 --> 00:02:32,500
+Geldbedragen hebben vaak 0 als een logische 
+ondergrens.
+
+41
+00:02:32,500 --> 00:02:36,020
+omdat je niet met verlies wilt verkopen,
+of bijvoorbeeld, als je,
+
+42
+00:02:36,020 --> 00:02:39,370
+zoals hier, het aantal artikelen telt,
+
+43
+00:02:39,370 --> 00:02:42,959
+kan 0 alweer een goede ondergrens zijn,
+omdat we niet minder willen,
+
+44
+00:02:42,959 --> 00:02:47,310
+niet minder kunnen verkopen dan 0 artikelen.
+Kun jij er nog een aantal bedenken?
+
+45
+00:02:47,310 --> 00:02:51,260
+Zijn er nog andere checks op jouw lijst,
+op je aantekeningenblaadje?
+
+46
+00:02:51,260 --> 00:02:56,980
+Heb jij andere checks? Hier is er nog 
+één die je kunt proberen.
+
+47
+00:02:56,980 --> 00:03:00,630
+De SOM van de percentage, die we 
+hier berekenen,
+
+48
+00:03:00,630 --> 00:03:04,730
+moet 100% zijn, omdat we al onze winst 
+verdelen
+
+49
+00:03:04,730 --> 00:03:08,610
+over de verschillende artikelen die
+we verkopen, moeten ze, als we ze 
+
+50
+00:03:08,610 --> 00:03:09,480
+optellen,
+
+51
+00:03:09,489 --> 00:03:14,130
+samen uitkomen op 100%, anders is er 
+iets fout in onze formules
+
+52
+00:03:14,130 --> 00:03:17,570
+of invoergegevens! Dat noemen we een
+sub-/eindtotaal check.
+
+53
+00:03:17,570 --> 00:03:21,180
+We voegen alles samen en dan moet het 
+eindtotaal
+
+54
+00:03:21,180 --> 00:03:24,400
+100% zijn. Dat is normaal gesproken een 
+"Totaal Check".
+
+55
+00:03:24,400 --> 00:03:28,500
+Of, het totaal moet gelijk zijn aan wat we 
+we ook maar verkopen.
+
+56
+00:03:28,500 --> 00:03:32,959
+Er is nog iets dat we kunnen doen in dit
+voorbeeld,
+
+57
+00:03:32,959 --> 00:03:36,720
+in aanvulling op de "Totaal check". 
+We kunnen
+
+58
+00:03:36,720 --> 00:03:40,150
+de totalen op verschillende manieren
+berekenen.
+
+59
+00:03:40,150 --> 00:03:44,430
+Wat we kunnen doen: deze waarden sommeren,
+en ook alle
+
+
+60
+00:03:44,430 --> 00:03:49,450
+omzetten sommeren, dat zou ook 100%
+moeten zijn.
+
+61
+00:03:50,140 --> 00:03:54,120
+Dus we berekenen onze waarden op een 
+andere manier en we vinden
+
+62
+00:03:54,120 --> 00:03:58,040
+ook 100%, een zogenaamde
+"kruislingstest" (cross-check),
+
+63
+00:03:58,040 --> 00:04:01,329
+waarin we hetzelfde resultaat op 
+twee verschillende manieren berekenen.
+
+64
+00:04:01,329 --> 00:04:04,610
+Als we nu een fout maken in één van beiden, 
+zoals je hier ziet,
+
+65
+00:04:04,610 --> 00:04:07,910
+zien we onmiddelijk dat deze waarden
+niet meer kloppen -
+
+66
+00:04:07,910 --> 00:04:11,160
+de één is 100% de ander niet.
+
+67
+00:04:11,160 --> 00:04:16,010
+Dit noemen we een "kruislingstest"(cross-check)
+en is zeer gebruikelijk in jaarrekeningen,
+
+68
+00:04:16,010 --> 00:04:19,030
+waarin je de waarden in deze richting
+berekent
+
+69
+00:04:19,030 --> 00:04:20,500
+en in deze richting en dan 
+
+70
+00:04:20,500 --> 00:04:24,780
+zorg je ervoor, dat ze uiteindelijk
+hetzelfde vinden.
+
+71
+00:04:24,780 --> 00:04:28,810
+Dus dit zijn een aantal manieren waarop
+je je spreadsheet kunt testen:
+
+72
+00:04:28,810 --> 00:04:33,000
+"gezondheidstesten", "grenzen testen",
+"eind/subtotaal testen" (en "kruislingstesten")

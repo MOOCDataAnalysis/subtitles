@@ -1,0 +1,283 @@
+1
+00:00:00,799 --> 00:00:04,910
+De voorgaande videos gingen over het 
+controleren van je formules,
+
+2
+00:00:04,910 --> 00:00:09,000
+hoe weet je bijvoorbeeld zeker dat 
+resultaten binnen aannemelijke grenzen vallen?
+
+3
+00:00:09,000 --> 00:00:10,120
+
+
+4
+00:00:10,120 --> 00:00:13,910
+Maar er zijn andere controles.
+Wat ook erg belangrijk is bij
+
+5
+00:00:13,910 --> 00:00:15,009
+spreadsheets controleren
+
+6
+00:00:15,009 --> 00:00:19,210
+is de gebruikersinvoer valideren. Als 
+je deze spreadsheet beschouwd,
+
+7
+00:00:19,210 --> 00:00:23,150
+deze 'verkoopprijs' is een invoerwaarde.
+
+8
+00:00:23,150 --> 00:00:26,710
+Een gebruiker vult dit in en
+kan een fout maken.
+
+9
+00:00:26,710 --> 00:00:30,240
+We willen de gebruiker zo snel 
+mogelijk laten weten
+
+10
+00:00:30,240 --> 00:00:34,320
+dat hij een fout heeft gemaakt. Als we 
+een nieuw artikel toevoegen, bijvoorbeeld
+
+11
+00:00:34,320 --> 00:00:35,180
+een 'Stenen tafel', 
+
+12
+00:00:35,180 --> 00:00:39,489
+en ik maak een fout en voer
+per ongeluk een negatief getal in,
+
+13
+00:00:39,489 --> 00:00:43,800
+dan, als we een percentagecheck 
+uitvoeren,
+
+14
+00:00:43,800 --> 00:00:48,270
+ontdekken we dat, omdat het percentage
+buiten de grafiek valt,
+
+15
+00:00:48,270 --> 00:00:52,230
+dat kan niet goed zijn. Maar er zijn ook 
+subtielere manieren waarop we een fout
+
+16
+00:00:52,230 --> 00:00:55,030
+kunnen maken. Misschien voeren we 
+hetzelfde nummer twee keer in,
+
+17
+00:00:55,030 --> 00:01:00,160
+dan is dit percentage nul, wat goed zou
+kunnen zijn, want dat zou nog steeds 
+
+18
+00:01:00,160 --> 00:01:03,710
+binnen de grenzen vallen. Dus wat we willen
+hebben 
+
+19
+00:01:03,710 --> 00:01:07,220
+voor invoervelden, -cellen, daar waar 
+gebruikers 
+
+20
+00:01:07,220 --> 00:01:10,580
+waarden invoeren, zijn aanvullende 
+validatieregels.
+
+21
+00:01:10,580 --> 00:01:15,860
+Een ander voorbeeld 
+van gebruikersinvoer valideren.
+
+22
+00:01:15,860 --> 00:01:19,159
+Als we naar deze verkooplijst kijken,
+zien we
+
+23
+00:01:19,159 --> 00:01:22,450
+alle artikelnummers die we hebben
+verkocht,
+
+24
+00:01:22,450 --> 00:01:26,030
+en deze formule, de 'Categorie' formule,
+
+25
+00:01:26,030 --> 00:01:29,340
+hakt de eerste letter eraf, het
+eerste karakter van de 
+
+26
+00:01:29,340 --> 00:01:32,780
+code en stopt het in een lijst. 
+Stel 
+
+27
+00:01:32,780 --> 00:01:36,310
+dat we een draaitabel toevoegen bij deze
+data, die de 
+
+28
+00:01:36,310 --> 00:01:41,079
+winst per categorie berekent, moeten we
+zeker weten dat de categorie ook
+
+29
+00:01:41,079 --> 00:01:42,430
+echt bestaat,
+
+30
+00:01:42,430 --> 00:01:46,479
+dat het daadwerkelijk voorkomt in onze 
+lijst met categoriën. We hebben een 
+
+31
+00:01:46,479 --> 00:01:51,229
+ander werkblad waar we alle categoriën 
+bijhouden. We willen dat de gebruiker
+
+32
+00:01:51,229 --> 00:01:57,040
+merkt dat er foute invoerwaardn zijn, een code 
+zonder bijbehorende categorie,
+
+33
+00:01:57,040 --> 00:02:01,790
+we willen dat de gebruiker een foutmelding
+krijgt. Nog veel meer validatieregels
+
+34
+00:02:01,790 --> 00:02:06,920
+zijn mogelijk op dit invoerblad - ik ga 
+het niet verklappen, omdat dat één 
+
+35
+00:02:06,920 --> 00:02:07,969
+van deze weeks oefeningen is.
+
+36
+00:02:07,969 --> 00:02:11,300
+Dus begin maar vast met denken!
+
+37
+00:02:11,300 --> 00:02:15,060
+Hoe zou jij de gebruikersinvoer valideren
+voor deze spreadsheet?
+
+38
+00:02:16,640 --> 00:02:18,600
+Wat ook belangrijk is aangaande
+
+39
+00:02:18,610 --> 00:02:23,470
+controleren, herinner je van de vorige 
+video, dat slechts 1 op de 3 spreadsheets 
+
+40
+00:02:23,470 --> 00:02:24,930
+een handleiding heeft.
+
+41
+00:02:24,930 --> 00:02:28,840
+Misschien denk je: wat heeft
+documentatie 
+
+42
+00:02:28,840 --> 00:02:33,060
+met controleren te maken? Dat zijn twee 
+totaal verschillende onderwerpen.
+
+43
+00:02:33,060 --> 00:02:35,940
+Dat is niet waar! Controles
+
+44
+00:02:35,950 --> 00:02:39,380
+zijn een vorm van documentatie.
+
+45
+00:02:39,380 --> 00:02:42,680
+Als jij een controle in je spreadsheet
+
+46
+00:02:42,680 --> 00:02:46,350
+bouwt, vertelt het de gebruiker iets
+
+47
+00:02:46,350 --> 00:02:52,030
+over de spreadsheet. Kijk deze formule,
+ik heb een formule toegevoegd welk controleert
+
+48
+00:02:52,030 --> 00:02:56,250
+of een gegeven artikel wel / niet een 
+bestaande categorie heeft. 
+
+49
+00:02:56,250 --> 00:02:59,850
+Deze code begint met een X, 
+
+50
+00:02:59,850 --> 00:03:03,370
+als er geen bijbehorende categorie is, 
+dan krijg je een foutmelding.
+
+51
+00:03:03,370 --> 00:03:07,790
+Dus deze controle vertelt een verhaal, 
+het vertelt
+
+52
+00:03:07,790 --> 00:03:11,900
+de gebruiker dat alleen bestaande
+categoriën
+
+53
+00:03:11,900 --> 00:03:15,410
+ingevoerd kunnen worden, Anders gaat
+er iets fout.
+
+54
+00:03:15,410 --> 00:03:19,090
+Zodoende kun je controles gebruiken
+om informatie
+
+55
+00:03:19,090 --> 00:03:23,510
+te geven over de invoer aan je 
+toekomstige jij,
+
+56
+00:03:23,510 --> 00:03:27,000
+wanneer je over 5 jaar nog steeds met deze
+spreadsheet werkt, of misschien één 
+
+57
+00:03:27,000 --> 00:03:29,670
+van die andere 11 mensen die deze 
+spreadsheet gebruikt.
+
+58
+00:03:29,670 --> 00:03:33,459
+Dus controles zijn een vorm van 
+documentatie,
+
+59
+00:03:33,459 --> 00:03:36,459
+bovenop hun eigelijke doel
+
+60
+00:03:36,459 --> 00:03:38,319
+om te controleren op fouten, natuurlijk.
+
