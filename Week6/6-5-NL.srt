@@ -1,0 +1,413 @@
+1
+00:00:01,180 --> 00:00:04,150
+Dus je weet wat testen is, je weet
+waarom je zou moeten testen
+
+2
+00:00:04,150 --> 00:00:07,700
+en wat je moet teten, maar hebben nog
+niet besproken
+
+3
+00:00:07,700 --> 00:00:11,710
+hoe je moet testen, hoe we aan de gebruiker
+van de spreadsheet
+
+4
+00:00:11,710 --> 00:00:15,130
+duidelijk maken dat de test faalt.
+Er zijn
+
+5
+00:00:15,130 --> 00:00:19,810
+twee verschillende manieren waarop je kan testen
+in een spreadsheet, zoals je hier kan zien.
+
+6
+00:00:19,810 --> 00:00:23,439
+Het eerste wat je kan doen is
+voorwaardelijke opmaak (conditional formatting).
+
+7
+00:00:23,439 --> 00:00:27,880
+Misschien heb je het eerder gebruikt.
+Voorwaardelijke opmaak is een functie
+
+8
+00:00:27,880 --> 00:00:31,510
+waarmee je de kleur op opmaak
+van een cell 
+
+9
+00:00:31,510 --> 00:00:34,969
+kan veranderen gebaseerd op regeld. Hier
+kun je zien hoe het werkt.
+
+10
+00:00:34,969 --> 00:00:39,030
+Stel dat je voorwaardelijke opmaak
+wil toevoegen aan de "Margin" kolom.
+
+11
+00:00:39,030 --> 00:00:42,100
+Dan selecteren we de hele kolom en dan
+
+12
+00:00:42,100 --> 00:00:45,789
+voorwaardelijke opmaak. We krijgen een
+uitklap-scherm,
+
+13
+00:00:45,789 --> 00:00:49,309
+en in dat scherm kunnen we selecteren
+dat we,
+
+14
+00:00:49,309 --> 00:00:53,770
+een regel willen hebben voor waarden
+
+15
+00:00:53,770 --> 00:00:58,140
+onder een bepaalde grens. En dan kunnen we
+zeggen wat de grens moet zijn,
+
+16
+00:00:58,140 --> 00:01:02,270
+als het onder 0 is willen we dat het
+rood wordt,
+
+17
+00:01:02,270 --> 00:01:06,369
+en dan worden alle waarden onder
+nul rood.
+
+18
+00:01:06,369 --> 00:01:11,260
+En dat werkt voor de hele kolom
+omdat we de hele kolom hadden geselecteerd
+19
+00:01:11,260 --> 00:01:14,060
+toen we de regel toevoegden.
+Dus als we een extr artikel
+
+20
+00:01:14,060 --> 00:01:17,070
+aan onze catalogus toevoegen
+en een fout maken,
+
+21
+00:01:17,070 --> 00:01:20,580
+dan krijgen we direct een rode waarde in
+
+22
+00:01:20,580 --> 00:01:24,299
+de cell, dus voorwaardelijke opmaak is handig.
+
+23
+00:01:24,299 --> 00:01:28,540
+Het werkt erg goed omdat foutieve waarden
+
+24
+00:01:28,540 --> 00:01:32,780
+direct opvallen. Je eisen de focus omdat
+ze erg anders zijn dan
+
+25
+00:01:32,780 --> 00:01:37,380
+de andere waarden. Dit is echte niet
+de manier van testen die ik het fijnst vind.
+
+26
+00:01:37,380 --> 00:01:41,770
+Ten eerste kunnen sommige kleuren
+verschillende betekenissen hebben.
+
+27
+00:01:41,770 --> 00:01:43,659
+Je kunt voorwaardelijke opmaak bijvoorbeeld,
+
+28
+00:01:43,659 --> 00:01:46,960
+zoals we hier doen, waar rode waarden geen 
+fout aanduiden
+as we do here where, where the red values do
+not
+
+29
+00:01:46,960 --> 00:01:50,310
+wat ze aanduiden is dat
+
+30
+00:01:50,310 --> 00:01:54,009
+het percentage minder dan 10 procent is.
+En dat betekend gewoon
+
+31
+00:01:54,009 --> 00:01:57,469
+dat het artikel niet goed verkoopt,
+minder dan
+
+32
+00:01:57,469 --> 00:02:00,860
+10 procent van de winst komt
+van dit artikel.
+
+33
+00:02:00,860 --> 00:02:04,469
+Dus dat betekend niet dat er een fout
+in mijn formules is, dat betekend,
+34
+00:02:04,469 --> 00:02:07,090
+dat ik eens goed zou moeten kijken
+naar welke producten er in mijn catalogus
+
+35
+00:02:07,090 --> 00:02:10,569
+zitten en besluiten of ik dit artikel
+nog wil verkopen.
+
+36
+00:02:10,569 --> 00:02:12,320
+Dus soms,
+
+37
+00:02:12,320 --> 00:02:17,200
+duidt de rode kleur geen foutieve waardes
+aan, maar duidt het
+
+38
+00:02:17,200 --> 00:02:21,670
+probematiche waarden an, een artikel
+dat gewoon niet goed verkoopt.
+
+39
+00:02:21,670 --> 00:02:25,820
+Dat is een van de redenen waarom je
+voorwaardelijke opmaak niet wilt gebruiken,
+
+40
+00:02:25,820 --> 00:02:28,870
+een andere reden is dat als je het op een
+andere manier doet,
+
+41
+00:02:28,870 --> 00:02:32,750
+zoals ik je ga laten zien, dan kun
+je formules bouwen bovenop
+
+42
+00:02:32,750 --> 00:02:36,240
+de test formules. Dus laat me zien hoe
+
+43
+00:02:36,240 --> 00:02:40,110
+ik het liever doe.
+Geen voorwaardelijke opmaak meer
+
+44
+00:02:40,110 --> 00:02:43,360
+dus we halen dat allemaal weg
+en wat we gaan doen is
+
+45
+00:02:43,360 --> 00:02:47,410
+een test formue toevoegen. Dus, in een
+andere kolom zeggen we
+
+46
+00:02:47,410 --> 00:02:51,680
+"is de marge OK?" en dan voegen we
+een formule toe die
+
+47
+00:02:51,680 --> 00:02:54,790
+uitdrukt wat we verwachten van de waarden.
+Dus we zeggen:
+
+48
+00:02:54,790 --> 00:02:57,940
+"Als deze waarde onder nul is", dan zeggen we
+
+49
+00:02:57,940 --> 00:03:01,420
+"fout, deze is te lag!" en ander is het OK.
+
+50
+00:03:01,420 --> 00:03:04,660
+En als we deze formula naar beneden slepen,
+dan zien we dat deze foutieve
+
+51
+00:03:04,660 --> 00:03:09,000
+waarden een foutmelding krijgen.
+
+52
+00:03:09,540 --> 00:03:11,620
+En als je het zoals dit doet
+
+53
+00:03:11,630 --> 00:03:14,800
+dan kan je formules er boven op bouwen,
+
+54
+00:03:14,800 --> 00:03:19,120
+zoals ik eerder zei. Je kan deze waarde
+gebruiken omdat het gewoon een andere cel is,
+
+55
+00:03:19,120 --> 00:03:22,820
+due je als input voor een andere formule gebruiken.
+
+56
+00:03:22,820 --> 00:03:26,140
+En it klinkt misschien vreemd,
+dus kijk even mee
+
+57
+00:03:26,140 --> 00:03:29,610
+over wat ik precies bedoel. Dus wat we
+hier kunnen doen
+
+58
+00:03:29,610 --> 00:03:33,830
+is een algehele test formule waar
+we gaan controleren
+
+59
+00:03:33,830 --> 00:03:37,270
+of er een fout is in de lijst van onze controles.
+
+60
+00:03:37,270 --> 00:03:40,320
+Dus we kunnen tellen,
+met een TEL.ALS (COUNTIF)
+
+61
+00:03:40,320 --> 00:03:43,860
+en we tellen het aantal OK's in
+
+62
+00:03:43,860 --> 00:03:48,690
+de gehele kolom "margin". En van
+het aantal OKs trekken we
+
+63
+00:03:48,690 --> 00:03:51,760
+, via de AANTALARG (COUNTA) functie,
+
+64
+00:03:51,760 --> 00:03:55,370
+het totale aantal artikelen in onze lijst af.
+En nu kunnen we zien
+
+65
+00:03:55,370 --> 00:03:58,870
+dat dit geen 0 is, het is -2, wat betekend
+
+66
+00:03:58,870 --> 00:04:03,310
+dat we niet hetzelfde aantal OK's
+hebben als het totale aantal waarden
+
+67
+00:04:03,310 --> 00:04:07,380
+dat we hebben. Dit betekend dat niet alles OK is,
+
+68
+00:04:07,390 --> 00:04:08,730
+dus er is een fout.
+
+69
+00:04:10,080 --> 00:04:15,040
+We kunnen toevoegen dat we geen -2 als waarde willen, wat weer
+
+70
+00:04:15,050 --> 00:04:19,020
+een test formule is.
+Dus we zeggen: als het -2
+
+71
+00:04:19,020 --> 00:04:23,060
+is dan is het een fout.
+Als het een waarde onder 0 is,
+
+72
+00:04:23,060 --> 00:04:25,230
+dan is het een fout en anders,
+
+73
+00:04:25,230 --> 00:04:28,740
+is het OK. Dus nu hebben we een testformule
+
+74
+00:04:28,740 --> 00:04:33,560
+bovenop de bestaande testformules gebouwd.
+Dit kan je
+
+75
+00:04:33,560 --> 00:04:34,290
+herhalen,
+
+76
+00:04:34,290 --> 00:04:38,930
+we kunnen een aantal kolommen ernaast toevoegen,
+en voor al deze kolommen,
+
+77
+00:04:38,930 --> 00:04:42,680
+een testformule toevoegen. En dit kunnen
+we herhalen
+
+78
+00:04:42,680 --> 00:04:46,340
+op een hoger niveau met die 4 testkolommen,
+
+79
+00:04:46,340 --> 00:04:49,370
+die we opnieuw combineren naar één tet
+
+80
+00:04:49,370 --> 00:04:53,120
+waar we het aantal OKs tellen, en het
+aantal OKs
+
+81
+00:04:53,120 --> 00:04:56,280
+zou gelijk moeten zijn
+
+82
+00:04:56,280 --> 00:05:00,070
+aan het aantal artikelen.
+
+83
+00:05:00,070 --> 00:05:04,310
+Dus nu kunnen we één grote test aan het eind maken
+
+84
+00:05:04,310 --> 00:05:09,190
+waar al onze test kolommen en overkoepelende
+tests samenkomen.
+
+85
+00:05:09,190 --> 00:05:14,100
+En it is dan wel een formula waar we
+voorwaardelijke opmaak aan willen toevoegen,
+
+86
+00:05:14,100 --> 00:05:18,990
+omdat het hier niks anders kan betekenen.
+Als het een cel is die zegt
+
+87
+00:05:18,990 --> 00:05:20,170
+Fout is rood,
+
+88
+00:05:20,170 --> 00:05:24,910
+dan is er iets aan de hand. Er is geen
+andere betekenis dat dit kan hebben. Dus voor
+
+89
+00:05:24,910 --> 00:05:29,790
+zo'n uiteindelijke test formule,
+is voorwaardelijke opmaak een uitstekend idee!

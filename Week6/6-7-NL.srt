@@ -1,0 +1,451 @@
+﻿1
+00:00:00,210 --> 00:00:03,470
+In de vorige video heb ik het gehad
+over hoe je jouw spreadsheet moet testen
+
+2
+00:00:03,470 --> 00:00:08,189
+met Excel en formules. Dat is prima,
+dat is een goede manier om dat te doen.
+
+3
+00:00:08,189 --> 00:00:11,490
+testen met Excel formules is veel beter dan
+
+4
+00:00:11,490 --> 00:00:16,129
+helemaal niks, dus ga daarmee door!
+Maar in deze video wil ik het hebben over
+
+5
+00:00:16,129 --> 00:00:20,000
+een programma dat we hier ontwikkeld
+hebben bij het TU Delft Spreadsheet Lab,
+
+6
+00:00:20,000 --> 00:00:23,090
+dat je helpt om jouw spreadsheets
+makkelijker te testen.
+
+7
+00:00:23,090 --> 00:00:26,710
+Het programma heet Expector, en
+daar gaat deze video over:
+
+8
+00:00:26,710 --> 00:00:29,647
+jouw spreadsheets testen met Exceptor.
+
+9
+00:00:29,672 --> 00:00:35,469
+Dit is hoe Excel zoals gebruikelijk,
+alleen met de Expector plug-in,
+
+10
+00:00:35,469 --> 00:00:38,840
+dus in het ribbon is nu de Exceptor optie
+
+11
+00:00:38,840 --> 00:00:42,900
+en dat is hetzelfde als je
+zelf de plugin installeerd.
+
+12
+00:00:42,900 --> 00:00:45,100
+Wat Expector kan doen
+is ons helpen met onze tests.
+
+13
+00:00:45,125 --> 00:00:50,309
+Daardoor hebben we deze worksheet
+voor al het testen niet meer nodig,
+
+14
+00:00:50,309 --> 00:00:54,280
+want dat is precies wat Expector
+voor ons gaat doen.
+
+15
+00:00:54,280 --> 00:00:56,978
+Dus dat verwijderen we
+
+16
+00:00:57,503 --> 00:01:01,054
+en deze tests zijn ook niet meer nodig
+
+17
+00:01:01,060 --> 00:01:05,309
+want Expector verzamelt al
+deze cellen voor ons.
+
+18
+00:01:05,379 --> 00:01:09,510
+Dus hoe werkt dat?
+Als je Expector aanzet
+
+19
+00:01:09,510 --> 00:01:14,279
+en zegt: "Ik wil alle tests extraheren",
+dan ga je hierheen,
+
+20
+00:01:14,279 --> 00:01:18,780
+en klik je op Initialize.
+Expector gaat dan door alle formules
+
+21
+00:01:18,780 --> 00:01:21,610
+van jouw spreadsheet heen
+en het gaat kijken
+
+22
+00:01:21,610 --> 00:01:25,270
+wat er uit ziet als een test formule
+en heeft jou een lijst.
+
+23
+00:01:25,270 --> 00:01:30,259
+Hier bijvoorbeeld is G4 een test
+formule en het test of
+
+24
+00:01:30,260 --> 00:01:35,060
+C4 kleiner is dan 0.
+Expector weet dat en voegt
+
+25
+00:01:35,070 --> 00:01:37,810
+al deze tests toe aan de lijst van testen.
+
+26
+00:01:38,210 --> 00:01:40,010
+En als je die opslaat
+
+27
+00:01:40,019 --> 00:01:45,249
+dan krijg je een extra
+werkblad waar alle tests staan.
+
+28
+00:01:45,300 --> 00:01:48,299
+dus we klikken op "Opslaan"
+
+29
+00:01:49,300 --> 00:01:50,300
+Daar is ie!
+
+30
+00:01:50,384 --> 00:01:52,284
+Dus nu hebben we een extra werkblad
+
+31
+00:01:52,380 --> 00:01:55,990
+waar alle gedetecteerde
+cellen staan.
+
+32
+00:01:55,990 --> 00:02:00,270
+Dus het haalt de tests er uit, enkel
+het deel van de formule dat test,
+
+33
+00:02:00,270 --> 00:02:04,049
+en laat je zien waar de test vandaan komt
+en waar
+
+34
+00:02:04,049 --> 00:02:07,200
+het deel is dat getest wordt.
+Dus in het geval
+
+35
+00:02:07,200 --> 00:02:12,069
+dat C4 kleiner is dan 0, dat is precies
+het deel dat eruit gehaald is
+
+36
+00:02:12,069 --> 00:02:13,260
+naar een nieuw
+
+37
+00:02:13,260 --> 00:02:18,860
+werkblad. Dus wat Expector doet is:
+het voegt links toe, die blauwe dingen
+
+38
+00:02:18,860 --> 00:02:19,560
+hier
+
+39
+00:02:19,560 --> 00:02:23,610
+Dat zijn links naar de oorspronkelijke
+locatie van de formule. Dus als je
+
+40
+00:02:23,610 --> 00:02:24,540
+op die link klikt,
+
+41
+00:02:24,540 --> 00:02:29,010
+dan brengt Excel je naar de oorspronkelijke locatie.
+
+42
+00:02:29,010 --> 00:02:33,090
+Dus we verwijderen de test cellen niet,
+we voegen slechts een ander werkblad toe,
+
+43
+00:02:33,090 --> 00:02:37,620
+en je kan je oorspronkelijke tests nog steeds
+gebruiken en er zelfs naartoe gaan
+
+44
+00:02:37,620 --> 00:02:39,760
+vanuit het Expector werkblad.
+
+45
+00:02:40,540 --> 00:02:42,600
+Dus, je kunt nu deze tests
+So, with these tests you can now
+
+46
+00:02:42,609 --> 00:02:47,810
+uitvoeren door op "Run" te klikken in Expector,
+en dan krijg je een overzicht van alle tests,
+
+47
+00:02:47,810 --> 00:02:51,500
+en het laat je zien welke cellen falen
+
+48
+00:02:51,500 --> 00:02:55,220
+en welke slagen. Dus degene
+hieronder die falen,
+
+49
+00:02:55,220 --> 00:02:59,480
+dat zijn degene waar iets mee is.
+Dus je hebt geen extra formula meer
+
+50
+00:02:59,480 --> 00:03:00,769
+voor de
+
+51
+00:03:00,769 --> 00:03:04,139
+foutieve waarde, je kunt gewoon
+hier naartoe scrollen
+
+52
+00:03:04,139 --> 00:03:08,980
+en zien: "Hee, deze waarde is ONWAAR". Je klikt
+op de link en Expector
+
+53
+00:03:08,980 --> 00:03:13,700
+stuurt je direct naar waar jouw spreadsheet
+faalt. Dit maakt het makkelijker om te begrijpen
+
+54
+00:03:13,700 --> 00:03:17,260
+wat er fout gaat. Dus zoals je hier ziet,
+
+55
+00:03:17,260 --> 00:03:20,389
+klik de link en het is makkelijk om precies te zien
+
+56
+00:03:20,389 --> 00:03:24,500
+waar het probleem zich bevind, omdat
+we de test kennen en weten wat er waar
+
+57
+00:03:24,500 --> 00:03:25,650
+zou moeten zijn en wat zou moeten
+
+58
+00:03:25,650 --> 00:03:28,919
+slagen en wat zou moeten mislukken,
+dus voor
+
+59
+00:03:28,919 --> 00:03:32,269
+mislukkende test klikken we de link en dan
+gaan we direct naar de formule.
+
+60
+00:03:32,269 --> 00:03:35,780
+Iets anders wat Expector kan doen
+
+61
+00:03:35,780 --> 00:03:39,790
+is kleuren aan onze test toevoegen. Als de
+lange lijst je niet bevalt, misschien
+
+62
+00:03:39,790 --> 00:03:41,730
+ben je meer visiueel ingesteld, dan kan je
+
+63
+00:03:41,730 --> 00:03:46,139
+"Color Tests" aanklikken en zoals je hier kan
+zien worden alle correcte cellen groen
+
+64
+00:03:46,139 --> 00:03:49,879
+en alle foutieve cellen worden rood gemarkeerd.
+En dit is bovenop
+
+65
+00:03:49,879 --> 00:03:54,699
+voorwaardelijke opmaak. Dus stel je voor
+dat je al voorwaardelijke opmaak
+
+66
+00:03:54,699 --> 00:03:58,859
+of gewone opmaak in je spreadsheet hebt.
+Met Expector plaatsen we
+
+67
+00:03:58,859 --> 00:04:03,419
+dit er over heen, zodat er geen
+verwarring meer is
+
+68
+00:04:03,419 --> 00:04:07,290
+over wat een groene en een rode cell
+echt betekenen,
+
+69
+00:04:07,290 --> 00:04:11,930
+omdat de cellen die je hier ziet
+alleen gebaseerd zijn op slagende
+
+70
+00:04:11,930 --> 00:04:14,870
+en mislukkende testformules.
+
+71
+00:04:15,420 --> 00:04:20,460
+Wat Expector verder kan doen is: het kan je
+helper te begrijpen welke delen van jouw
+
+72
+00:04:20,470 --> 00:04:21,359
+spreadsheet
+
+73
+00:04:21,359 --> 00:04:25,090
+al getest zijn. Als je klikt op de
+
+74
+00:04:25,090 --> 00:04:29,160
+"Highlight Tested Cells" knop, dan wordt
+alles wat
+
+75
+00:04:29,160 --> 00:04:34,010
+te maken heeft met de tests geel gemarkeerd.
+Dus dan kan je zien, dit is een test cell
+
+76
+00:04:34,010 --> 00:04:37,260
+en dan, omdat deze cell verwijst naar een
+andere cell
+
+77
+00:04:37,260 --> 00:04:40,290
+dan kunnen we zeggen dat die cell ook getest wordt.
+
+78
+00:04:40,290 --> 00:04:44,260
+Dus op die manier is alles wat getest wordt
+vanuit de test cell
+
+79
+00:04:44,260 --> 00:04:49,260
+rechts van de invoer wordt geel, zodat je
+gemakkelijk kan zien welke delen van mijn
+
+80
+00:04:49,260 --> 00:04:50,060
+spreadsheet
+
+81
+00:04:50,060 --> 00:04:54,240
+nog getest moeten worden.
+Laten we hetzelfde doen voor een ander
+
+82
+00:04:54,240 --> 00:04:55,490
+werkblad. Als we klikken op
+
+83
+00:04:55,490 --> 00:04:59,820
+"Highlight Tested Cells" dan zien we dat deze
+cell hier,
+
+84
+00:04:59,820 --> 00:05:02,930
+een erg gecompliceerde lookup functie is,
+
+85
+00:05:02,930 --> 00:05:07,419
+er is nog geen test die ervoor zorgt dat
+de namen van de producten
+
+86
+00:05:07,419 --> 00:05:11,680
+correct zijn. Dat is een zwakheid
+in onze spreadsheet. We hebben een
+
+87
+00:05:11,680 --> 00:05:13,130
+ingewikkelde formule,
+
+88
+00:05:13,130 --> 00:05:18,030
+en niks wordt getest.
+Dus dat is Expector,
+
+89
+00:05:18,030 --> 00:05:21,690
+het helpt je testen te vinden,
+
+90
+00:05:21,690 --> 00:05:25,120
+en helpt je tests uit te voeren en
+snel te zien wat slaagt en
+
+91
+00:05:25,120 --> 00:05:29,080
+wat faalt, zonder dat je zelf
+de test moet zoeken,
+
+92
+00:05:29,080 --> 00:05:33,770
+en het helpt je ook begrijpen hoe
+goed je spreadsheet al wordt
+
+93
+00:05:33,770 --> 00:05:34,560
+getest
+
+94
+00:05:34,560 --> 00:05:38,860
+door te markeren wat al getest is en wat
+nog niet getest is.
+
+95
+00:05:38,860 --> 00:05:41,950
+Dus zo test je spreadsheets met Expector,
+
+96
+00:05:41,950 --> 00:05:45,990
+we zullen een link plaatsen op edX
+om Expector te downloaden en om er zelf
+
+97
+00:05:45,990 --> 00:05:47,650
+meet te experimenteren, als je dat wilt.
+
