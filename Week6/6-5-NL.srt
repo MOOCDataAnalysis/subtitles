@@ -363,7 +363,7 @@ op een hoger niveau met die 4 testkolommen,
 
 79
 00:04:46,340 --> 00:04:49,370
-die we opnieuw combineren naar één test
+die we opnieuw combineren naar Ã©Ã©n test
 
 80
 00:04:49,370 --> 00:04:53,120
@@ -380,7 +380,7 @@ aan het aantal artikelen.
 
 83
 00:05:00,070 --> 00:05:04,310
-Dus nu kunnen we één grote test aan het eind maken
+Dus nu kunnen we Ã©Ã©n grote test aan het eind maken
 
 84
 00:05:04,310 --> 00:05:09,190

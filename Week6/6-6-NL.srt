@@ -106,7 +106,7 @@ is geen fout, we krijgen simpelweg #N/A,
 23
 00:01:21,259 --> 00:01:25,409
 Niet Aanwezig (fout). Geen probleem, we zijn 
-alleen geïnteresseerd in
+alleen geÃ¯nteresseerd in
 
 24
 00:01:25,409 --> 00:01:28,460
@@ -281,7 +281,7 @@ om onmiddelijk te zien
 60
 00:03:31,370 --> 00:03:36,350
 En wat kan ik doen als ik alles heb 
-geïnstalleerd op alle werkbladen,
+geÃ¯nstalleerd op alle werkbladen,
 
 61
 00:03:36,350 --> 00:03:36,360
@@ -297,7 +297,7 @@ combineer
 
 64
 00:03:43,390 --> 00:03:46,489
-in één eindcontrolewerkblad.
+in Ã©Ã©n eindcontrolewerkblad.
 
 65
 00:03:46,489 --> 00:03:50,299
@@ -329,12 +329,12 @@ zonder extra formules. En dan
 
 71
 00:04:06,620 --> 00:04:10,560
-kan ik nog één ding doen. Ik weet zeker 
+kan ik nog Ã©Ã©n ding doen. Ik weet zeker 
 dat je mijn volgende zet al geraden hebt,
 
 72
 00:04:10,560 --> 00:04:15,459
-namelijk één controleformule toevoegen voor 
+namelijk Ã©Ã©n controleformule toevoegen voor 
 al deze controleformules.
 
 73
@@ -366,11 +366,11 @@ ik verzamel ze allemaal op mijn werkblad
 
 79
 00:04:37,439 --> 00:04:40,740
-en één waarde op één werkblad
+en Ã©Ã©n waarde op Ã©Ã©n werkblad
 
 80
 00:04:40,740 --> 00:04:43,909
-die éne check, die éne
+die Ã©ne check, die Ã©ne
 
 81
 00:04:43,909 --> 00:04:47,509

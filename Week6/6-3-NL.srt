@@ -218,7 +218,7 @@ op je aantekeningenblaadje?
 46
 00:02:51,260 --> 00:02:56,980
 Heb jij andere checks? Hier is er nog 
-één die je kunt proberen.
+Ã©Ã©n die je kunt proberen.
 
 47
 00:02:56,980 --> 00:03:00,630
@@ -307,7 +307,7 @@ twee verschillende manieren berekenen.
 
 64
 00:04:01,329 --> 00:04:04,610
-Als we nu een fout maken in één van beiden, 
+Als we nu een fout maken in Ã©Ã©n van beiden, 
 zoals je hier ziet,
 
 65
@@ -317,7 +317,7 @@ niet meer kloppen -
 
 66
 00:04:07,910 --> 00:04:11,160
-de één is 100% de ander niet.
+de Ã©Ã©n is 100% de ander niet.
 
 67
 00:04:11,160 --> 00:04:16,010

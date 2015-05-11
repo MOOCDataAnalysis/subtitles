@@ -1,4 +1,4 @@
-﻿1
+ï»¿1
 00:00:00,210 --> 00:00:03,470
 In de vorige video heb ik het gehad
 over hoe je jouw spreadsheet moet testen
