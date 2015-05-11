@@ -1,4 +1,4 @@
-﻿1
+ï»¿1
 00:00:00,210 --> 00:00:03,470
 In de vorige video heb ik het gehad
 over hoe je jouw spreadsheet moet testen
@@ -10,7 +10,7 @@ dat is een goede manier om dat te doen.
 
 3
 00:00:08,189 --> 00:00:11,490
-testen met Excel formules is veel beter dan
+Testen met Excel formules is veel beter dan
 
 4
 00:00:11,490 --> 00:00:16,129
@@ -43,7 +43,7 @@ alleen met de Expector plug-in,
 
 10
 00:00:35,469 --> 00:00:38,840
-dus in het ribbon is nu de Exceptor optie
+dus in het lint is nu de Exceptor optie
 
 11
 00:00:38,840 --> 00:00:42,900
@@ -101,7 +101,7 @@ en het gaat kijken
 22
 00:01:21,610 --> 00:01:25,270
 wat er uit ziet als een test formule
-en heeft jou een lijst.
+en geeft jou een lijst.
 
 23
 00:01:25,270 --> 00:01:30,259
@@ -206,7 +206,6 @@ vanuit het Expector werkblad.
 45
 00:02:40,540 --> 00:02:42,600
 Dus, je kunt nu deze tests
-So, with these tests you can now
 
 46
 00:02:42,609 --> 00:02:47,810
@@ -256,7 +255,7 @@ klik de link en het is makkelijk om precies te zien
 
 56
 00:03:20,389 --> 00:03:24,500
-waar het probleem zich bevind, omdat
+waar het probleem zich bevindt, omdat
 we de test kennen en weten wat er waar
 
 57
@@ -284,7 +283,7 @@ lange lijst je niet bevalt, misschien
 
 62
 00:03:39,790 --> 00:03:41,730
-ben je meer visiueel ingesteld, dan kan je
+ben je meer visueel ingesteld, dan kan je
 
 63
 00:03:41,730 --> 00:03:46,139
@@ -442,10 +441,10 @@ Dus zo test je spreadsheets met Expector,
 
 96
 00:05:41,950 --> 00:05:45,990
-we zullen een link plaatsen op edX
+we zullen een link plaatsen op EdX
 om Expector te downloaden en om er zelf
 
 97
 00:05:45,990 --> 00:05:47,650
-meet te experimenteren, als je dat wilt.
+mee te experimenteren, als je dat wilt.
 

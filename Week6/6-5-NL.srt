@@ -5,7 +5,7 @@ waarom je zou moeten testen
 
 2
 00:00:04,150 --> 00:00:07,700
-en wat je moet teten, maar hebben nog
+en wat je moet testen, maar hebben nog
 niet besproken
 
 3
@@ -35,12 +35,12 @@ Voorwaardelijke opmaak is een functie
 
 8
 00:00:27,880 --> 00:00:31,510
-waarmee je de kleur op opmaak
+waarmee je de kleur of opmaak
 van een cell 
 
 9
 00:00:31,510 --> 00:00:34,969
-kan veranderen gebaseerd op regeld. Hier
+kan veranderen gebaseerd op regels. Hier
 kun je zien hoe het werkt.
 
 10
@@ -60,7 +60,7 @@ uitklap-scherm,
 13
 00:00:45,789 --> 00:00:49,309
 en in dat scherm kunnen we selecteren
-dat we,
+dat we
 
 14
 00:00:49,309 --> 00:00:53,770
@@ -88,7 +88,7 @@ omdat we de hele kolom hadden geselecteerd
 19
 00:01:11,260 --> 00:01:14,060
 toen we de regel toevoegden.
-Dus als we een extr artikel
+Dus als we een extra artikel
 
 20
 00:01:14,060 --> 00:01:17,070
@@ -109,12 +109,12 @@ Het werkt erg goed omdat foutieve waarden
 
 24
 00:01:28,540 --> 00:01:32,780
-direct opvallen. Je eisen de focus omdat
+direct opvallen. Ze eisen de focus omdat
 ze erg anders zijn dan
 
 25
 00:01:32,780 --> 00:01:37,380
-de andere waarden. Dit is echte niet
+de andere waarden. Dit is echter niet
 de manier van testen die ik het fijnst vind.
 
 26
@@ -130,8 +130,6 @@ Je kunt voorwaardelijke opmaak bijvoorbeeld,
 00:01:43,659 --> 00:01:46,960
 zoals we hier doen, waar rode waarden geen 
 fout aanduiden
-as we do here where, where the red values do
-not
 
 29
 00:01:46,960 --> 00:01:50,310
@@ -140,7 +138,7 @@ wat ze aanduiden is dat
 30
 00:01:50,310 --> 00:01:54,009
 het percentage minder dan 10 procent is.
-En dat betekend gewoon
+En dat betekent gewoon
 
 31
 00:01:54,009 --> 00:01:57,469
@@ -154,8 +152,9 @@ van dit artikel.
 
 33
 00:02:00,860 --> 00:02:04,469
-Dus dat betekend niet dat er een fout
-in mijn formules is, dat betekend,
+Dus dat betekent niet dat er een fout
+in mijn formules zit, dat betekent
+
 34
 00:02:04,469 --> 00:02:07,090
 dat ik eens goed zou moeten kijken
@@ -177,7 +176,7 @@ aan, maar duidt het
 
 38
 00:02:17,200 --> 00:02:21,670
-probematiche waarden an, een artikel
+problematiche waarden aan, een artikel
 dat gewoon niet goed verkoopt.
 
 39
@@ -197,7 +196,7 @@ je formules bouwen bovenop
 
 42
 00:02:32,750 --> 00:02:36,240
-de test formules. Dus laat me zien hoe
+de testformules. Dus laat ik zien hoe
 
 43
 00:02:36,240 --> 00:02:40,110
@@ -211,7 +210,7 @@ en wat we gaan doen is
 
 45
 00:02:43,360 --> 00:02:47,410
-een test formue toevoegen. Dus, in een
+een testformule toevoegen. Dus, in een
 andere kolom zeggen we
 
 46
@@ -230,7 +229,7 @@ Dus we zeggen:
 
 49
 00:02:57,940 --> 00:03:01,420
-"fout, deze is te lag!" en ander is het OK.
+"fout, deze is te laag!" en anders is het OK.
 
 50
 00:03:01,420 --> 00:03:04,660
@@ -256,21 +255,21 @@ gebruiken omdat het gewoon een andere cel is,
 
 55
 00:03:19,120 --> 00:03:22,820
-due je als input voor een andere formule gebruiken.
+dus je kan deze als input voor een andere formule gebruiken.
 
 56
 00:03:22,820 --> 00:03:26,140
-En it klinkt misschien vreemd,
+En het klinkt misschien vreemd,
 dus kijk even mee
 
 57
 00:03:26,140 --> 00:03:29,610
-over wat ik precies bedoel. Dus wat we
+wat ik precies bedoel. Dus wat we
 hier kunnen doen
 
 58
 00:03:29,610 --> 00:03:33,830
-is een algehele test formule waar
+is een algehele testformule waar
 we gaan controleren
 
 59
@@ -280,7 +279,7 @@ of er een fout is in de lijst van onze controles.
 60
 00:03:37,270 --> 00:03:40,320
 Dus we kunnen tellen,
-met een TEL.ALS (COUNTIF)
+met een AANTAL.ALS (COUNTIF)
 
 61
 00:03:40,320 --> 00:03:43,860
@@ -302,7 +301,7 @@ En nu kunnen we zien
 
 65
 00:03:55,370 --> 00:03:58,870
-dat dit geen 0 is, het is -2, wat betekend
+dat dit geen 0 is, het is -2, wat betekent
 
 66
 00:03:58,870 --> 00:04:03,310
@@ -311,7 +310,7 @@ hebben als het totale aantal waarden
 
 67
 00:04:03,310 --> 00:04:07,380
-dat we hebben. Dit betekend dat niet alles OK is,
+dat we hebben. Dit betekent dat niet alles OK is,
 
 68
 00:04:07,390 --> 00:04:08,730
@@ -323,7 +322,7 @@ We kunnen toevoegen dat we geen -2 als waarde willen, wat weer
 
 70
 00:04:15,050 --> 00:04:19,020
-een test formule is.
+een testformule is.
 Dus we zeggen: als het -2
 
 71
@@ -364,7 +363,7 @@ op een hoger niveau met die 4 testkolommen,
 
 79
 00:04:46,340 --> 00:04:49,370
-die we opnieuw combineren naar één tet
+die we opnieuw combineren naar Ã©Ã©n test
 
 80
 00:04:49,370 --> 00:04:53,120
@@ -381,7 +380,7 @@ aan het aantal artikelen.
 
 83
 00:05:00,070 --> 00:05:04,310
-Dus nu kunnen we één grote test aan het eind maken
+Dus nu kunnen we Ã©Ã©n grote test aan het eind maken
 
 84
 00:05:04,310 --> 00:05:09,190
@@ -409,5 +408,5 @@ andere betekenis dat dit kan hebben. Dus voor
 
 89
 00:05:24,910 --> 00:05:29,790
-zo'n uiteindelijke test formule,
+zo'n uiteindelijke testformule,
 is voorwaardelijke opmaak een uitstekend idee!

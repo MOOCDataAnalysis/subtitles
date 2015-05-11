@@ -155,11 +155,11 @@ kleine
 
 34
 00:01:58,390 --> 00:02:00,350
-fout gemaakt in één van hun spreadsheets
+fout gemaakt in Ã©Ã©n van hun spreadsheets
 
 35
 00:02:00,350 --> 00:02:03,469
-met als gevolg dat één van de stadiums 
+met als gevolg dat Ã©Ã©n van de stadiums 
 
 36
 00:02:03,469 --> 00:02:06,939
@@ -202,7 +202,7 @@ nog een andere: een Canadese energiemaatschappij
 44
 00:02:26,910 --> 00:02:32,550
 verloor 24 miljoen dollar, vanwege een 
-kopiëren-plakken fout in een spreadsheet.
+kopiÃ«ren-plakken fout in een spreadsheet.
 
 45
 00:02:34,240 --> 00:02:36,960
@@ -315,7 +315,7 @@ eenvoudig.
 
 68
 00:03:57,140 --> 00:04:00,160
-Hetzelfde geldt voor spreadsheet: Je begint, één werkblad,
+Hetzelfde geldt voor spreadsheet: Je begint, Ã©Ã©n werkblad,
 
 69
 00:04:00,160 --> 00:04:04,570

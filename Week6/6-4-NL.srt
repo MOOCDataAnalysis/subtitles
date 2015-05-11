@@ -140,11 +140,11 @@ echt bestaat,
 30
 00:01:42,430 --> 00:01:46,479
 dat het daadwerkelijk voorkomt in onze 
-lijst met categoriën. We hebben een 
+lijst met categoriÃ«n. We hebben een 
 
 31
 00:01:46,479 --> 00:01:51,229
-ander werkblad waar we alle categoriën 
+ander werkblad waar we alle categoriÃ«n 
 bijhouden. We willen dat de gebruiker
 
 32
@@ -160,7 +160,7 @@ krijgt. Nog veel meer validatieregels
 34
 00:02:01,790 --> 00:02:06,920
 zijn mogelijk op dit invoerblad - ik ga 
-het niet verklappen, omdat dat één 
+het niet verklappen, omdat dat Ã©Ã©n 
 
 35
 00:02:06,920 --> 00:02:07,969
@@ -241,7 +241,7 @@ het vertelt
 52
 00:03:07,790 --> 00:03:11,900
 de gebruiker dat alleen bestaande
-categoriën
+categoriÃ«n
 
 53
 00:03:11,900 --> 00:03:15,410
@@ -261,7 +261,7 @@ toekomstige jij,
 56
 00:03:23,510 --> 00:03:27,000
 wanneer je over 5 jaar nog steeds met deze
-spreadsheet werkt, of misschien één 
+spreadsheet werkt, of misschien Ã©Ã©n 
 
 57
 00:03:27,000 --> 00:03:29,670

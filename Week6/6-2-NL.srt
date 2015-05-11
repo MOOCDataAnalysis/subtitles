@@ -150,7 +150,7 @@ kunnen gaan.
 
 33
 00:01:50,659 --> 00:01:54,220
-Dit is slecht één voorbeeld, er zijn 
+Dit is slecht Ã©Ã©n voorbeeld, er zijn 
 zoveel dingen 
 
 34
@@ -161,7 +161,7 @@ vul je de verkeerde
 35
 00:01:57,560 --> 00:02:02,659
 waarde in, of de verkeerde formule, 
-of een kopiëren-plakken fout 
+of een kopiÃ«ren-plakken fout 
 
 36
 00:02:02,659 --> 00:02:03,649
@@ -183,7 +183,7 @@ geval werken
 
 40
 00:02:13,090 --> 00:02:17,180
-met één spreadsheet. Dus misschien 
+met Ã©Ã©n spreadsheet. Dus misschien 
 weet jij wel wat je moet doen, nadat je
 
 41
