@@ -1,0 +1,426 @@
+1
+00:00:02,070 --> 00:00:06,299
+In de vorige video toonde ik hoe je
+controle formules moet toevoegen in je spreadsheet
+
+2
+00:00:06,299 --> 00:00:10,639
+en ook hoe je eindcontroles toe moet voegen
+die alle afzonderlijke  
+
+
+3
+00:00:10,639 --> 00:00:16,990
+controles combineren. Maar er is ook een keerzijde 
+- wanneer je naar deze spreadsheet kijkt.
+
+4
+00:00:16,990 --> 00:00:17,000
+
+5
+00:00:17,000 --> 00:00:20,640
+Ik laat het je zien, je ziet hier 
+een foutmelding.
+
+6
+00:00:20,640 --> 00:00:24,470
+Wat moet je doen? Je gaat naar boven ... oh,
+daar is een fout in de marge.
+
+7
+00:00:24,470 --> 00:00:27,490
+Je scrollt naar de controles, je scrollt
+naar beneden.
+
+8
+00:00:27,490 --> 00:00:30,570
+"Oh, op welke regel zit de fout? Ah,
+daar is het."
+
+9
+00:00:30,570 --> 00:00:34,579
+Vervolgens moet je alle stappen nagaan om 
+te zien wat er daadwerkelijk fout gaat.
+
+10
+00:00:34,579 --> 00:00:38,230
+Dus in het geval van een fout, moet je een 
+hoop werk verrichten
+
+11
+00:00:38,230 --> 00:00:41,480
+om de exacte fout vast te stellen.
+
+12
+00:00:41,480 --> 00:00:44,770
+Wat kun je doen? Laat me een eenvoudigere
+manier tonen
+
+13
+00:00:44,770 --> 00:00:48,039
+om sneller vast te stellen waar de fouten zijn.
+
+14
+00:00:48,039 --> 00:00:52,489
+Je kunt een extra kolom toevoegen aan 
+je totale controlevak.
+
+15
+00:00:52,489 --> 00:00:55,770
+Ik zal een beetje uitzoomen, dan hebben
+we wat meer ruimte.
+
+16
+00:00:55,770 --> 00:00:59,420
+We voegen een extra kolom toe waar we 
+de locatie
+
+17
+00:00:59,420 --> 00:01:02,500
+van de gefaalde test gaan vaststellen.
+
+18
+00:01:02,500 --> 00:01:06,460
+We kunnen daar onze vertrouwde VERGELIJK
+functie voor gebruiken, ik hoop dat je je
+
+19
+00:01:06,460 --> 00:01:11,200
+die herinnert van de tweede collegeweek. 
+We kunnen deze gebruiken 
+
+20
+00:01:11,200 --> 00:01:14,299
+om het regelnummer van de foutmelding vast te stellen. 
+Dus we voegen VERGELIJK toe.
+
+21
+00:01:14,299 --> 00:01:17,759
+en we zoeken naar de waarde "Error"
+dus in de eerste
+
+22
+00:01:17,759 --> 00:01:21,259
+is geen fout, we krijgen simpelweg #N/A,
+
+23
+00:01:21,259 --> 00:01:25,409
+Niet Aanwezig (fout). Geen probleem, we zijn 
+alleen geïnteresseerd in
+
+24
+00:01:25,409 --> 00:01:28,460
+het resultaat voor die situaties waar er
+daadwerkelijk een 
+
+25
+00:01:28,460 --> 00:01:32,659
+fout is. Dus als we VERGELIJK toevoegen, 
+zie je dat het resultaat van de 
+
+26
+00:01:32,659 --> 00:01:36,860
+VERGELIJK functie het rijnummer is waar
+we de fout zit,
+
+27
+00:01:36,860 --> 00:01:40,030
+regel 9 - dat is feitelijk waar de fout is.
+
+28
+00:01:40,030 --> 00:01:43,250
+Dus, als je een VERGELIJK functie toevoegd,
+hoef je niet handmatig te zoeken
+
+29
+00:01:43,250 --> 00:01:48,200
+naar de foute regels, VERGELIJK geeft 
+je het regelnummer,
+
+30
+00:01:48,200 --> 00:01:48,960
+en je ziet:
+
+31
+00:01:48,960 --> 00:01:53,850
+"Hee, regel 9 bevat een fout". En dat is enorm
+bruikbaar als je 
+
+32
+00:01:53,850 --> 00:01:55,560
+honderden regels hebt.
+
+33
+00:01:55,560 --> 00:01:59,640
+Dan wil je weten op welke regel de fout zit.
+Je wilt niet naar beneden scrollen
+
+34
+00:01:59,640 --> 00:02:04,340
+en misschien wil je ook geen Filter gebruiken
+om de foute regels te vinden, je wilt ze
+
+35
+00:02:04,340 --> 00:02:07,460
+gewoon snel localiseren.
+
+36
+00:02:08,100 --> 00:02:11,060
+Dus, laten we onze spreadsheet wat beter
+ontwerpen,
+
+37
+00:02:11,060 --> 00:02:15,680
+we voegen een rand toe rondom al de 
+controleformules, zodat het duidelijk is
+
+38
+00:02:15,680 --> 00:02:17,450
+voor hen die deze spreadsheet gaat gebruiken
+
+39
+00:02:17,450 --> 00:02:20,500
+na ons, dat dit een speciaal stukje is
+op deze spreadsheet.
+
+40
+00:02:20,500 --> 00:02:24,209
+Wat ik graag doe is een link toevoegen 
+
+41
+00:02:24,209 --> 00:02:27,390
+naar eindcontrole formule
+
+42
+00:02:27,390 --> 00:02:30,819
+voor deze spreadsheet. Dus ik zeg, dit is
+"zijn alle controles OK"
+
+43
+00:02:30,819 --> 00:02:34,430
+mijn eindcontrole en ik kan verwijzen
+
+44
+00:02:34,430 --> 00:02:38,610
+naar de onderliggende foutformule. Dus ik kan
+onmiddelijk
+
+45
+00:02:38,610 --> 00:02:42,209
+zien wanneer ik mijn spreadsheet open, 
+is alles OK?
+
+46
+00:02:42,209 --> 00:02:46,060
+Ja of nee? En misschien hoef ik niet altijd 
+mijn controlevak
+
+47
+00:02:46,060 --> 00:02:51,320
+onderaan mijn spreadsheet te plaatsen - als ik 
+een heel groot werkblad heb, misschien kan ik
+
+48
+00:02:51,320 --> 00:02:51,930
+mijn controlevak
+
+49
+00:02:51,930 --> 00:02:55,880
+ergens links of rechts van mijn formules
+plaatsen
+
+50
+00:02:55,880 --> 00:03:00,300
+daar waar een logische plaats is op mijn 
+werkblad. Dus het is een goed idee
+
+51
+00:03:00,300 --> 00:03:04,680
+om naar de eerste regel van je werkblad
+te verwijzen - als iets fout is
+
+52
+00:03:04,680 --> 00:03:08,200
+kun je dat onmiddelijk zien als je het 
+opent. En ik 
+
+53
+00:03:08,200 --> 00:03:11,600
+kan deze truuk herhalen voor alle andere
+werkbladen.
+
+54
+00:03:11,600 --> 00:03:15,190
+Laat me opnieuw inzoomen, en dan ga ik naar een
+ander werkblad.
+
+55
+00:03:15,190 --> 00:03:18,320
+In andere werkbladen hadden we ook
+controleformules,
+
+56
+00:03:18,320 --> 00:03:22,400
+dus als ik een controleformule toevoeg
+op alle werkbladen
+
+57
+00:03:22,400 --> 00:03:27,470
+in cel B1, op de eerste regel, dat is erg
+handig voor iedereen die deze spreadsheet 
+
+58
+00:03:27,470 --> 00:03:28,070
+gaat gebruiken
+
+59
+00:03:28,070 --> 00:03:31,370
+om onmiddelijk te zien
+"Is alles goed?".
+
+60
+00:03:31,370 --> 00:03:36,350
+En wat kan ik doen als ik alles heb 
+geïnstalleerd op alle werkbladen,
+
+61
+00:03:36,350 --> 00:03:36,360
+
+62
+00:03:36,360 --> 00:03:39,700
+is een "Alle controles" werkblad toevoegen waarin
+
+63
+00:03:39,700 --> 00:03:43,390
+ik al de controles van al de werkbladen
+combineer
+
+64
+00:03:43,390 --> 00:03:46,489
+in één eindcontrolewerkblad.
+
+65
+00:03:46,489 --> 00:03:50,299
+Ik kan de INDIRECT functie gebruiken,
+je herinnert je deze van vorige
+
+66
+00:03:50,299 --> 00:03:50,920
+lessen,
+
+67
+00:03:50,920 --> 00:03:55,489
+waar ik een string, tekst, kan invoeren, 
+en het de waarde van die cel zal teruggeven. 
+
+68
+00:03:55,489 --> 00:03:58,859
+Dus als string gebruik ik het werkbladnaam
+en B1,
+
+69
+00:03:58,859 --> 00:04:02,019
+en dan krijg ik voor alle werkbladen 
+onmiddelijk het resultaat 
+
+70
+00:04:02,019 --> 00:04:06,620
+zonder extra formules. En dan 
+
+71
+00:04:06,620 --> 00:04:10,560
+kan ik nog één ding doen. Ik weet zeker 
+dat je mijn volgende zet al geraden hebt,
+
+72
+00:04:10,560 --> 00:04:15,459
+namelijk één controleformule toevoegen voor 
+al deze controleformules.
+
+73
+00:04:15,459 --> 00:04:18,859
+Ik ga opnieuw het aantal OKs tellen
+
+74
+00:04:18,859 --> 00:04:22,090
+en vergelijk dit met het aantal regels
+
+75
+00:04:22,090 --> 00:04:26,689
+in mijn werkblad en als dat hetzelfde
+is,
+
+76
+00:04:26,689 --> 00:04:29,889
+dan is het OK, en als alles niet OK is,
+
+77
+00:04:29,889 --> 00:04:33,659
+dan zit er een fout in mijn spreadsheet.
+Dus ik heb extra controles toegevoegd
+
+78
+00:04:33,659 --> 00:04:37,439
+overal in mijn werkblad,
+ik verzamel ze allemaal op mijn werkblad
+
+79
+00:04:37,439 --> 00:04:40,740
+en één waarde op één werkblad
+
+80
+00:04:40,740 --> 00:04:43,909
+die éne check, die éne
+
+81
+00:04:43,909 --> 00:04:47,509
+controle die alles checkt, deze 
+controle vertelt me
+
+82
+00:04:47,509 --> 00:04:50,729
+of alles op mijn spreadsheet is
+
+83
+00:04:50,729 --> 00:04:55,669
+zoals ik verwacht. En op deze manier, 
+als ik mijn spreadsheet naar een
+
+
+84
+00:04:55,669 --> 00:04:56,560
+andere afdeling stuur, 
+
+85
+00:04:56,560 --> 00:05:00,360
+een andere college, een ander bedrijf, 
+misschien een klant,
+
+86
+00:05:00,360 --> 00:05:04,610
+als ze iets verprutsen, of in de formules,
+of in de invoerwaarden,
+
+87
+00:05:04,610 --> 00:05:08,039
+en ik krijg mijn spreadsheet terug, 
+kan ik eenvoudig naar mijn 
+
+88
+00:05:08,039 --> 00:05:11,389
+controleformule gaan en zien of alles 
+OK is
+
+89
+00:05:11,389 --> 00:05:15,069
+of alles is zoals ik verwacht,
+
+90
+00:05:15,069 --> 00:05:19,009
+of dat er misschien iets fout is. En dit 
+is een hele goede manier
+
+91
+00:05:19,009 --> 00:05:20,549
+om je spreadsheet betrouwbaar te houden!
+
