@@ -1,0 +1,412 @@
+1
+00:00:00,220 --> 00:00:04,380
+In de vorige videos hebben we gesproken
+over problemen met spreadsheets en hoe
+
+2
+00:00:04,390 --> 00:00:06,559
+deze op te lossen met controles.
+
+3
+00:00:06,559 --> 00:00:10,220
+Maar spreadsheets zijn niet altijd de 
+beste oplossing - 
+
+4
+00:00:10,220 --> 00:00:14,090
+je kunt problemen bedenken in je werk
+
+5
+00:00:14,090 --> 00:00:17,990
+die je niet eenvoudig kunt oplossen met
+een spreadsheet.
+
+6
+00:00:17,990 --> 00:00:21,349
+En over die problemen gaan we het vandaag
+hebben. 
+
+7
+00:00:21,349 --> 00:00:26,249
+Wanneer gebruik je geen spreadsheet?
+De laatste paar weken hebben jullie me
+
+8
+00:00:26,249 --> 00:00:26,869
+goed leren kennen
+
+9
+00:00:26,869 --> 00:00:29,999
+en weten wat ik leuk vind, zoals lesgeven
+en speciaalbiertjes,
+
+10
+00:00:29,999 --> 00:00:33,789
+maar er is nog een hobby waar we het nog 
+niet over hebben gehad, en dat zijn films.
+
+11
+00:00:33,789 --> 00:00:37,800
+Ik hou echt van films!
+Ik heb zelfs een abonnement 
+
+12
+00:00:37,800 --> 00:00:41,250
+voor de stadsbioscoop, zodat ik onbeperkt 
+naar alle films kan gaan.
+
+
+13
+00:00:41,250 --> 00:00:45,079
+Deze week gaan de oefeningen allemaal over
+
+
+14
+00:00:45,079 --> 00:00:49,399
+een kleine filmbestanden database die ik
+gemaakt heb in een spreadsheet, 
+
+15
+00:00:49,399 --> 00:00:54,429
+met de films, de studios, de waardering, 
+wanneer getoond,
+
+16
+00:00:54,429 --> 00:00:57,620
+het jaar van uitgave, 
+
+17
+00:00:57,620 --> 00:01:03,679
+type film, het genre, dus actie, 
+avontuur .. en we hebben heel 
+
+18
+00:01:03,679 --> 00:01:04,580
+veel data.
+
+19
+00:01:04,580 --> 00:01:08,620
+Bovenop de films hebben we ook acteurs
+
+20
+00:01:08,620 --> 00:01:12,580
+inclusief de films waarin ze hebben 
+gespeeld. Dus hier zie je dat Andre 3000
+
+21
+00:01:12,580 --> 00:01:13,400
+in een "Volcano movie"
+
+22
+00:01:13,400 --> 00:01:18,280
+heeft gespeeld. Kortom, het is een 
+leuke, kleine database vol filminformatie
+
+23
+00:01:18,290 --> 00:01:20,180
+die we kunnen analyseren. We kunnen heel
+
+24
+00:01:20,180 --> 00:01:24,960
+veel type analyses doen op deze data.
+Bijvoorbeeld, we kunnen analyseren
+
+25
+00:01:24,970 --> 00:01:27,250
+voor welke studio's acteurs hebben gewerkt.
+
+26
+00:01:27,250 --> 00:01:30,640
+We kunnen geinteresseerd zijn in de vraag:
+"Welke acteur in onze database
+
+27
+00:01:30,640 --> 00:01:35,720
+heeft voor de meeste verschillende, het 
+hoogste aantal verschillende studios gewerkt?"
+
+28
+00:01:35,720 --> 00:01:39,730
+We kunnen de informatie van een 
+studio ophalen met een VERT.ZOEKEN
+
+29
+00:01:39,730 --> 00:01:43,560
+dat is nu makkelijk voor jullie
+als jullie al de video's hebben gekeken.
+
+30
+00:01:43,560 --> 00:01:46,700
+Dus we voegen een VERT.ZOEKEN functie
+toe en we krijgen informatie
+
+31
+00:01:46,700 --> 00:01:50,560
+van elke studio die geassocieerd is 
+met een film. Nu kunnen 
+
+32
+00:01:50,560 --> 00:01:54,660
+al deze data selecteren, zo ja, we kunnen 
+al deze data selecteren
+
+33
+00:01:54,660 --> 00:01:57,820
+en in een draaitabel stoppen. Dat 
+moet nu ook 
+
+34
+00:01:57,820 --> 00:02:01,420
+een makkie zijn als je alle video's 
+bekeken hebt. Dus,
+
+35
+00:02:01,420 --> 00:02:05,030
+we voegen onze data toe aan een data model,
+omdat we een 
+
+36
+00:02:05,030 --> 00:02:06,880
+Uniek Aantal (Distinct Count)
+
+37
+00:02:06,880 --> 00:02:09,140
+gaan gebruiken om het unieke aantal 
+verschillende studios te tellen waar
+
+38
+00:02:09,140 --> 00:02:13,280
+acteurs voor hebben gewerkt. Hier is
+onze draaitabel.
+
+39
+00:02:13,280 --> 00:02:17,760
+We slepen de naam van de acteur erin, 
+zo,
+
+40
+00:02:17,760 --> 00:02:19,840
+en dan slepen we de studio erin,
+
+41
+00:02:19,840 --> 00:02:21,780
+en we vinden het aantal verschillende studio's
+waar mensen voor  
+
+42
+00:02:21,780 --> 00:02:23,120
+hebben gewerkt. En hier is ook nog iets
+
+43
+00:02:23,120 --> 00:02:25,310
+dat we moeten veranderen, namelijk:
+
+44
+00:02:25,310 --> 00:02:28,890
+ga naar de draaitabelopties en zeggen
+"we willen geen 
+
+45
+00:02:28,890 --> 00:02:30,140
+aantal, 
+
+46
+00:02:30,140 --> 00:02:33,670
+maar we willen naar beneden scrollen, 
+we willen het Unieke Aantal (Distinct Count)"
+
+47
+00:02:33,670 --> 00:02:38,280
+En als dit doorgerekend is.. duurt even
+
+48
+00:02:38,280 --> 00:02:42,340
+kunnen we de tabel sorteren, en zien we
+dat Christopher Lee gewerkt heeft voor 
+
+49
+00:02:42,340 --> 00:02:46,810
+de meeste verschillende studios, 
+ik denk dat het er 42 zijn.
+
+50
+00:02:46,810 --> 00:02:50,270
+Ja, daar staat het! 42!
+
+51
+00:02:50,270 --> 00:02:54,880
+We hebben dus een hoop data in onze database
+en we kunnen het op verschillende manieren analyseren
+
+52
+00:02:54,880 --> 00:02:59,319
+met een VERT.ZOEKEN en een draaitabel,
+we weten hoe we dat moeten doen.
+
+53
+00:02:59,319 --> 00:03:02,340
+Maar laten we onszelf een andere vraag 
+stellen:
+
+54
+00:03:02,340 --> 00:03:06,270
+we willen niet graag het aantal verschillende 
+studio's weten waar een acteur voor heeft 
+
+55
+00:03:06,270 --> 00:03:08,970
+gewerkt, maar we willen van elke acteur 
+zijn
+
+56
+00:03:08,970 --> 00:03:15,400
+Bacon getal weten. Ik dacht dat de 
+Bacon getal een heel bekend principe was.
+
+57
+00:03:15,400 --> 00:03:19,850
+Ik deed dezelfde oefening in mijn les in 
+Delft, voor 40 studenten,
+
+58
+00:03:19,850 --> 00:03:23,270
+en ik zei: Wie kent het Bacon getal?
+En, zo'n
+
+59
+00:03:23,270 --> 00:03:27,599
+twee opgestoken handen ... Dus blijkbaar,
+is het een beetje een filmfanaten ding,
+
+60
+00:03:27,599 --> 00:03:29,319
+dus ik zal het uitleggen.
+
+61
+00:03:29,319 --> 00:03:32,590
+Een acteurs Bacon getal is het aantal stappen
+dat een acteur 
+
+62
+00:03:32,590 --> 00:03:38,650
+is verwijderd van Kevin Bacon. Dus 
+Kevin Bacon zelf heeft Bacon getal 1,
+
+63
+00:03:38,650 --> 00:03:41,740
+en iemand die met hem in een film heeft
+gespeeld, bijvoorbeeld
+
+64
+00:03:41,740 --> 00:03:47,150
+Ed Harris in Apollo 13, krijgt 
+Bacon getal 2.
+
+65
+00:03:47,150 --> 00:03:49,430
+Iemand die in een film heeft gespeeld met 
+Ed Harris,
+
+66
+00:03:49,430 --> 00:03:53,250
+zoals Nicolas Cage in één van mijn favoriete
+films, The Rock,
+
+67
+00:03:53,250 --> 00:03:57,250
+krijgt Bacongetal 3, omdat zijn afstand
+naar Kevin Bacon
+
+68
+00:03:57,250 --> 00:04:02,790
+twee stappen is via Ed Harris. Zo kunnen we 
+iedereen in kaart brengen die in films
+
+69
+00:04:02,790 --> 00:04:03,770
+heeft gespeeld,
+
+70
+00:04:03,770 --> 00:04:09,239
+gebaseerd op hun afstand tot Kevin Bacon. 
+Dus het aantal stappen 
+
+71
+00:04:09,239 --> 00:04:10,430
+vanaf Kevin Bacon
+
+72
+00:04:10,430 --> 00:04:15,650
+definieert het Bacon getal. We moeten
+in staat zijn om deze informatie in 
+
+73
+00:04:15,650 --> 00:04:17,590
+onze kleine film database te berekenen, toch?
+Omdat we 
+
+74
+00:04:17,590 --> 00:04:19,180
+de informatie hebben - 
+
+75
+00:04:19,180 --> 00:04:22,289
+we weten wie gespeeld heeft in welke film,
+maar 
+
+76
+00:04:22,289 --> 00:04:23,629
+hoe krijgen we dit 
+
+77
+00:04:23,629 --> 00:04:28,029
+eruit? Hoe gaan we de informatie verwerken
+zodat we een mooie 
+
+78
+00:04:28,029 --> 00:04:29,120
+kleine lijst krijgen
+
+79
+00:04:29,120 --> 00:04:32,499
+van elke acteur met hun Bacon getal?
+
+80
+00:04:32,499 --> 00:04:36,219
+Ik daag je uit, om, voordat je de rest 
+van de video's bekijkt
+
+81
+00:04:36,219 --> 00:04:39,990
+dit zelf te proberen. En probeer het niet op 
+deze enorme databae,
+
+82
+00:04:39,990 --> 00:04:43,870
+maar probeer het op een kleine database. 
+We zullen deze online zetten, 
+
+83
+00:04:43,870 --> 00:04:48,650
+op onze leswebsite, het is gewoon 
+makkelijker om met een kleine spreadsheet
+
+84
+00:04:48,650 --> 00:04:50,539
+te spelen dan met de complete lijst
+
+85
+00:04:50,539 --> 00:04:55,729
+van duizenden en duizenden acteurs. 
+Dus bekijk aub nog niet de volgende video
+
+86
+00:04:55,729 --> 00:05:00,580
+download dit, speel ermee, kijk of je een 
+manier kunt vinden
+
+87
+00:05:00,580 --> 00:05:04,060
+om de Bacon getal voor elke acteur
+te berekenen. Succes!
+

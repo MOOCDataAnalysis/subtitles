@@ -1,0 +1,380 @@
+1
+00:00:00,659 --> 00:00:03,350
+In onze vorige video hebben we het 
+Bacon getal bepaald
+
+2
+00:00:03,350 --> 00:00:07,660
+met Excel, dat is mogelijk, maar waarschijnlijk 
+heeft het ons veel tijd gekost.
+
+3
+00:00:07,660 --> 00:00:11,660
+Ik durf wel te bekennen dat het me 
+ongeveer 5 uur heeft gekost om een antwoord
+
+4
+00:00:11,660 --> 00:00:15,620
+te vinden, en ik ben best handig met Excel,
+
+5
+00:00:15,620 --> 00:00:20,289
+dus dit is niet de oplossing die je wilt. 
+Eigelijk, hoop ik dat 
+
+6
+00:00:20,289 --> 00:00:26,039
+in je achterhoofd een alarm afgaat: 
+WIIIEEEE, het GEEN EXCEL alarm!
+
+7
+00:00:26,039 --> 00:00:29,420
+Als je in je dagelijkse leven een 
+oplossing bedenkt
+
+8
+00:00:29,420 --> 00:00:33,350
+dat meer dan 10 VERT.ZOEKEN functies
+vergt,
+
+9
+00:00:33,350 --> 00:00:36,820
+dan is dat een beetje gek. Je zou
+moeten denken:
+
+10
+00:00:36,820 --> 00:00:40,649
+Gebruik ik he juiste gereedschap 
+voor de juiste taak?
+
+11
+00:00:40,649 --> 00:00:44,660
+Is dit nog steeds de beste manier?
+Natuurlijk rijst dan de vraag - 
+
+12
+00:00:44,660 --> 00:00:48,559
+wat kunnen we gebruiken? Is er een beter
+programma om te 
+
+13
+00:00:48,559 --> 00:00:52,680
+gebruiken dan een spreadsheet? 
+Bijvoorbeeld programmeren?
+
+14
+00:00:52,680 --> 00:00:57,120
+Is het niet makkelijker als je een 
+programmeertaal gebruikt, omdat je 
+
+15
+00:00:57,120 --> 00:00:58,550
+met programmeren niet beperkt bent tot
+
+16
+00:00:58,550 --> 00:01:03,140
+het aantal rijen en kolommen van Excel,
+je kunt alles doen wat je wilt.
+
+17
+00:01:03,140 --> 00:01:08,500
+Dat kan een goede oplossing zijn voor
+een probleem waar Excel niet geschikt is.
+
+18
+00:01:08,500 --> 00:01:12,080
+Echter, ik ben een beetje een Hobbit,
+
+19
+00:01:12,080 --> 00:01:16,550
+Ik wil graag in mijn comfortabele Shire 
+blijven, ik wil niet mijn vertrouwde
+
+20
+00:01:16,550 --> 00:01:21,110
+Excel huisje verlaten, om naar een 
+programmeertaal te gaan die
+
+21
+00:01:21,110 --> 00:01:27,070
+ik niet ken. Natuurlijk kunnen we VB
+(Visual Basic) gebruiken.
+
+22
+00:01:27,070 --> 00:01:30,850
+Visual Basic voor Toepassingen (VBA) is een
+programmeertaal die is opgenomen
+
+23
+00:01:30,850 --> 00:01:35,380
+in Excel, misschien heb je er eerder 
+mee gewerkt,
+
+24
+00:01:35,380 --> 00:01:38,040
+en je kunt het gebruiken als een 
+programmeertaal om
+
+25
+00:01:38,040 --> 00:01:41,310
+je spreadsheet te automatiseren,
+om dingen te berekenen
+
+26
+00:01:41,310 --> 00:01:43,590
+die je niet kan doen met een formule. 
+Dit is een
+
+27
+00:01:43,590 --> 00:01:45,160
+mogelijkheid, als je eerder hebt gewerkt
+
+28
+00:01:45,160 --> 00:01:46,380
+met VBA.
+
+29
+00:01:46,380 --> 00:01:49,820
+Ik daag je opnieuw uit om de Bacon 
+puzzel op te lossen
+
+30
+00:01:49,820 --> 00:01:52,920
+met VBA, dat zou een stuk makkelijker 
+
+31
+00:01:52,920 --> 00:01:58,570
+moeten zijn dan met formules. Echter, 
+dat gaan we niet gebruiken in deze cursus.
+
+32
+00:01:58,570 --> 00:02:01,900
+We gaan onze spreadsheets automatiseren 
+met een taal genaamd
+
+33
+00:02:01,900 --> 00:02:07,180
+Python. Wat is Python? Een van de redenen 
+dat ik graag Python gebruik is
+
+34
+00:02:07,180 --> 00:02:09,850
+dat het momenteel de meest onderwezen
+programmeertaal
+
+35
+00:02:09,850 --> 00:02:12,410
+is op universiteiten. Binnen een paar jaar
+
+36
+00:02:12,410 --> 00:02:17,700
+zijn er wereldwijd veel mensen 
+die echt in Python kunnen programmeren 
+
+37
+00:02:17,700 --> 00:02:17,710
+
+38
+00:02:17,710 --> 00:02:21,130
+Het is ook vrij gemakkelijk te leren, 
+je zult ontdekken
+
+39
+00:02:21,130 --> 00:02:25,270
+in de oefeningen in deze video, dat de 
+syntax, de schrijfwijze van programmeertaal
+
+40
+00:02:25,270 --> 00:02:30,300
+vrij gemakkelijk is, en er is ook een hoop
+informatie rondom Python, dus
+
+41
+00:02:30,300 --> 00:02:30,630
+er 
+
+42
+00:02:30,630 --> 00:02:34,940
+bestaan hoop kleine python programmaatjes, 
+libraries (bibliotheken), 
+
+43
+00:02:34,940 --> 00:02:38,140
+om problemen op te lossen, en als je 
+zulke problemen hebt
+
+44
+00:02:38,140 --> 00:02:41,910
+dan hoef je het niet zelf in Python te schrijven,
+je kunt gewoon de programma's
+
+45
+00:02:41,910 --> 00:02:45,280
+van anderen gebruiken. Dus dit zijn 
+allemaal redenen
+
+46
+00:02:45,280 --> 00:02:50,370
+waarom ik Python prefereer boven VBA, 
+maar VBA is ook een goede taal
+
+47
+00:02:50,370 --> 00:02:53,530
+waarin je zeker dit type problemen kunt
+oplossen.
+
+48
+00:02:54,080 --> 00:02:56,460
+Maar, als ik Python wil gebruiken,
+
+49
+00:02:56,470 --> 00:03:00,520
+moet ik dan uit mijn vertrouwde spreadsheet- 
+huisje gaan? Dat kan.
+
+50
+00:03:00,520 --> 00:03:05,470
+Je kunt Python los van Excel gebruiken,
+maar dan moet je een hoop vaardigheden leren,
+
+51
+00:03:05,470 --> 00:03:11,340
+je moet je data van een spreadsheet naar
+een tekstfile verplaatsen, en... 
+
+52
+00:03:11,340 --> 00:03:14,490
+Dat wil ik niet. Ik wil Python 
+èn Excel,
+
+53
+00:03:14,490 --> 00:03:17,520
+allebei. Gelukkig, er is een oplossing.
+
+54
+00:03:17,520 --> 00:03:23,100
+Er is een tof programma; DataNitro. Waarmee
+we Python kunnen gebruiken  
+
+55
+00:03:23,100 --> 00:03:28,860
+binnen Excel. Vergelijkbaar met VBA, je kan
+gewoon je spreadsheet scripten met Python.
+
+56
+00:03:29,420 --> 00:03:32,560
+Helaas is deze oplossing alleen beschikbaar
+voor Windows,
+
+57
+00:03:32,560 --> 00:03:37,060
+maar er zijn alternatieven voor Mac en Linux. 
+We zullen verwijzingen naar de alternatieven
+
+58
+00:03:37,060 --> 00:03:40,069
+plaatsen op de website. Laten we eens kijken
+
+59
+00:03:40,069 --> 00:03:44,290
+naar DataNitro. Hier zie je het, 
+een scherpzinnig oog
+
+60
+00:03:44,290 --> 00:03:48,150
+heeft het al gezien in de screenshots
+in één van de vorige videos;
+
+61
+00:03:48,150 --> 00:03:53,400
+de DataNitro plugin. Dus het zit 
+precies daar in Excel,
+
+62
+00:03:53,400 --> 00:03:57,420
+en als je ernaar toe gaat, als je 
+naar het werkblad gaat, laten we het doen,
+
+63
+00:03:57,420 --> 00:04:01,790
+als je nu op de Python Shell klikt, krijg je
+een soort van rekenmachine waar je
+
+64
+00:04:01,790 --> 00:04:04,209
+formules kan invoeren, zoals 3 + 5
+
+65
+00:04:04,209 --> 00:04:08,250
+net als formules in Excel, maar
+je kunt ook verwijzen naar 
+
+66
+00:04:08,250 --> 00:04:12,160
+de spreadsheet. Je kunt bijvoorbeeld
+C2 + 5 uitrekenen.
+
+67
+00:04:12,160 --> 00:04:16,959
+maar je typt niet C2 zoals in Excel,
+je moet de waarde direct ophalen
+
+68
+00:04:16,959 --> 00:04:18,389
+Zoals je ziet,
+
+69
+00:04:18,389 --> 00:04:21,910
+zeg je, geef me de waarde van cell C2
+
+70
+00:04:21,910 --> 00:04:25,090
+tel er 5 bij op. En het is niet alleen
+uitlezen
+
+71
+00:04:25,090 --> 00:04:25,570
+je kunt ook
+
+72
+00:04:25,570 --> 00:04:29,950
+schrijven naar een spreadsheet, zoals
+je me hier ziet doen. Laten we "Hello!" schrijven
+
+73
+00:04:29,950 --> 00:04:33,870
+in A1 en dan zie je dat niet alleen 
+cel A1 is veranderd,
+
+74
+00:04:33,870 --> 00:04:37,600
+maar ook de waarden die daar afhankelijk
+van zijn. Dus je kan een waarde veranderen 
+
+75
+00:04:37,600 --> 00:04:41,540
+en dan rekent de spreadsheet weer, 
+en is alles herberekend.
+
+76
+00:04:41,540 --> 00:04:45,220
+Maar laten we het snel op het Kevin Bacon getal 
+toepassen, anders raakt onze mooie
+
+77
+00:04:45,220 --> 00:04:48,060
+Bacon calculator in de war.
+
+78
+00:04:48,060 --> 00:04:51,870
+Dus het lijkt een goede oplossing die
+ons kan helpen
+
+79
+00:04:51,870 --> 00:04:56,470
+om ons Bacon probleem op te lossen met Python, 
+en dat is wat we hier gaan doen
+
+80
+00:04:56,470 --> 00:04:57,690
+in de volgende video.

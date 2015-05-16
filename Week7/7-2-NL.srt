@@ -1,0 +1,586 @@
+1
+00:00:00,840 --> 00:00:03,080
+Dus we gaan het Bacon getal berekenen van 
+
+2
+00:00:03,080 --> 00:00:06,190
+een stel verschillende acteurs
+in onze spreadsheet, en om bij het 
+
+3
+00:00:06,190 --> 00:00:10,080
+onderwerp te blijven, ik waarschuw: 
+Groot voorzeg alarm!
+
+4
+00:00:10,080 --> 00:00:13,830
+Als je de rest van de video bekijkt, dan 
+weet je hoe je het moet doen. Dus als je het 
+
+5
+00:00:13,830 --> 00:00:14,550
+nog steeds wilt proberen,
+
+6
+00:00:14,550 --> 00:00:18,140
+dit is je tweede kans - stop nu met
+kijken,
+
+7
+00:00:18,140 --> 00:00:21,240
+download de spreadsheet en probeer
+of je het zelf kan!
+
+8
+00:00:21,240 --> 00:00:25,100
+Het is echt veel leuker dan naar mijn 
+uitleg te kijken.
+
+9
+00:00:26,220 --> 00:00:28,050
+Okee, je bent er nog steeds,
+
+10
+00:00:28,050 --> 00:00:32,179
+Ik neem aan dat je je huiswerk gedaan hebt. 
+Kijk hoe ik het probleem heb opgelost
+
+11
+00:00:32,189 --> 00:00:34,980
+met behulp van een spreadheet. Hier is 
+onze database, 
+
+12
+00:00:34,980 --> 00:00:36,270
+of onze spreadsheet,
+
+13
+00:00:36,270 --> 00:00:40,440
+de kleine versie waar we slechts een 
+aantal acteurs hebben. Dus het eerste 
+
+14
+00:00:40,440 --> 00:00:41,440
+dat we nodig hebben,
+
+15
+00:00:41,440 --> 00:00:45,600
+natuurlijk, is bepalen wie er in
+onze spreadsheet nu eigelijk
+
+16
+00:00:45,600 --> 00:00:50,129
+Bacon is. Nou, dat is makkelijk, we kunnen
+gewoon een conditionele formule gebruiken
+
+17
+00:00:50,129 --> 00:00:53,309
+waarin we zeggen: is deze acteur
+gelijk aan Kevin Bacon?
+
+18
+00:00:53,309 --> 00:00:57,280
+Zo ja, krijgt hij Bacon getal 1, 
+zo nee, 
+
+19
+00:00:57,280 --> 00:01:00,899
+dan zeggen we: dat heb je Bacon getal 0.
+Maar dat is niet 
+
+20
+00:01:00,899 --> 00:01:04,939
+geheel waar. Eigelijk geldt, het Bacon getal 
+van iemand 
+
+21
+00:01:04,939 --> 00:01:08,649
+in stap 1, wie niet is Kevin Bacon, is niet 
+0,
+
+22
+00:01:08,649 --> 00:01:10,229
+maar ongedefinieerd.
+
+23
+00:01:10,229 --> 00:01:13,189
+We kunnen de twee acteurs niet 
+koppelen. Dus we 
+
+24
+00:01:13,189 --> 00:01:16,359
+gebruiken een "-" (streepje), in plaats 
+van een 0, 
+
+25
+00:01:16,359 --> 00:01:18,780
+wat wiskundig nauwkeuriger is. 
+
+26
+00:01:18,780 --> 00:01:18,789
+
+27
+00:01:18,789 --> 00:01:22,200
+En het helpt ons ook, omdat we bij de rest 
+van de oplossing gebruik kunnen maken van 
+
+28
+00:01:22,200 --> 00:01:24,009
+wiskundige functies
+
+29
+00:01:24,009 --> 00:01:27,119
+zoals SOM en MIN en als we daar een 0
+
+30
+00:01:27,119 --> 00:01:30,289
+hebben, dan kan het dingen verstoren. Dus, 
+
+31
+00:01:30,289 --> 00:01:33,289
+in één enkele stap kunnen we alleen
+
+32
+00:01:33,289 --> 00:01:36,719
+Kevin Bacon vinden, dus hij is 
+Bacon getal 1,
+
+33
+00:01:36,719 --> 00:01:42,079
+en de rest weten we nog niet. Nu kunnen we 
+kijken hoever we kunnen gaan.
+
+34
+00:01:42,079 --> 00:01:47,359
+Laten we teruggaan naar onze lijst met films
+en het is vrij gemakkelijk om nu te bepalen
+
+35
+00:01:47,359 --> 00:01:52,020
+welke van de films een acteur heeft
+met een Bacon getal dat is niet
+
+36
+00:01:52,020 --> 00:01:56,459
+ongedefinieerd. We kunnen gewoon een
+VERT.ZOEKEN doen op de lijst van acteurs,
+
+37
+00:01:56,459 --> 00:01:57,759
+daar gaan we.
+
+38
+00:01:59,079 --> 00:02:03,329
+Natuurlijk gebruiken we ONWAAR,
+omdat we een directe verbinding gebruiken
+
+39
+00:02:03,329 --> 00:02:06,319
+Vergeet niet: selecteer dit en druk F4,
+
+40
+00:02:06,319 --> 00:02:10,420
+vervolgens trekken we de formule door,
+en de films met Kevin Bacon
+
+41
+00:02:10,420 --> 00:02:14,860
+hebben nu een 1 achter hun naam. 
+Bijvoorbeeld, Crazy Stupid Love
+
+42
+00:02:14,860 --> 00:02:20,280
+heeft Kevin Bacon, dus hij krijgt 1.
+Dus wat we nu willen doen is
+
+43
+00:02:20,280 --> 00:02:22,370
+deze ene doorzetten 
+
+44
+00:02:22,370 --> 00:02:25,730
+voor de gehele film, zodat we kunnen zien
+
+45
+00:02:25,730 --> 00:02:29,019
+wie nog meer in de film Bacon getal 2
+krijgen,
+
+46
+00:02:29,019 --> 00:02:32,290
+omdat Kevin Bacon hier in speelt. En wat
+we willen hebben 
+
+47
+00:02:32,290 --> 00:02:36,079
+in de filmworksheet is een Bacon getal niet 
+van een acteur,
+
+48
+00:02:36,079 --> 00:02:39,829
+maar van een film. En we kunnen natuurlijk
+dat opnieuw doen, met een VERT.ZOEKEN,
+
+49
+00:02:39,829 --> 00:02:44,069
+als we hier kijken, kunnen we zien wie er 
+in de film speelt.
+
+50
+00:02:44,069 --> 00:02:49,800
+en we passen een klein truukje toen,
+omdat we dan de SOM.ALS kunnen gebruiken
+
+51
+00:02:49,800 --> 00:02:49,810
+
+52
+00:02:49,810 --> 00:02:53,129
+We sommeren al de waarden
+
+53
+00:02:53,129 --> 00:02:58,819
+voor een gegeven film en we sommeren
+de stappen die we nu hebben. En als we 
+
+54
+00:02:58,819 --> 00:03:02,760
+een 1 en twee streepjes ("-") sommeren, 
+vinden we 1,
+
+55
+00:03:02,760 --> 00:03:07,260
+En als we alleen een stel streepjes
+sommeren is het resultaat 0.
+
+56
+00:03:07,260 --> 00:03:10,590
+Dus deze SOM.ALS zal uiteindelijk
+resulteren
+
+57
+00:03:10,590 --> 00:03:14,569
+in 1 als iemand in deze film een Bacon
+nummer heeft,
+
+58
+00:03:14,569 --> 00:03:17,739
+en geeft 0 als niemand in de 
+
+59
+00:03:17,739 --> 00:03:21,379
+film is verbonden met Kevin Bacon.
+Dus we trekken dit door naar beneden,
+
+60
+00:03:21,379 --> 00:03:24,230
+je ziet deze twee films, Crazy Stupid 
+Love
+
+61
+00:03:24,230 --> 00:03:28,109
+en Wild Things, hebben 1 en de 
+andere films hebben 0.
+
+62
+00:03:28,109 --> 00:03:30,579
+Dus we komen er langzaam maar zeker,
+
+63
+00:03:30,579 --> 00:03:34,829
+omdat we nu in één stap weten 
+welke acteur, 
+
+64
+00:03:34,829 --> 00:03:38,230
+Kevin Bacon, en op welke films dit invloed 
+heeft. 
+
+65
+00:03:38,230 --> 00:03:41,470
+Dus we kunnen hiermee doorgaan in de 
+tweede stap.
+
+66
+00:03:42,640 --> 00:03:45,220
+Nu willen het correcte getal hebben,
+
+67
+00:03:45,230 --> 00:03:50,439
+niet alleen voor de Kevin Bacon versie 
+van de film, maar voor alle andere
+
+68
+00:03:50,439 --> 00:03:54,439
+acteurs in die film. We kunnen dit opnieuw
+doen met een VERT.ZOEKEN - 
+
+69
+00:03:54,439 --> 00:03:58,219
+We gaan naar de film worksheet, 
+VERT.ZOEKEN,
+
+70
+00:03:58,219 --> 00:04:00,980
+en we vinden het bijbehorende Bacon getal
+
+71
+00:04:00,980 --> 00:04:05,209
+Voor de film, en we drukken F4
+
+72
+00:04:05,209 --> 00:04:10,430
+en dan trekken we dit naar beneden. Dus
+we zijn dichtbij, maar hier hebben we nullen,
+
+73
+00:04:10,430 --> 00:04:11,680
+omdat de VERT.ZOEKEN
+
+74
+00:04:11,680 --> 00:04:15,819
+in het andere werkblad, de SOM.ALS
+resulteert in 0, en dat willen we niet
+
+75
+00:04:15,819 --> 00:04:17,880
+we willen een streepje ["-"] hebben. 
+
+76
+00:04:17,880 --> 00:04:21,970
+Dus laten we eens kijken, als deze 
+VERT.ZOEKEN gelijk is aan een streepje,
+
+77
+00:04:21,970 --> 00:04:23,340
+dan zal het resultaat zijn
+
+78
+00:04:23,340 --> 00:04:26,830
+een ander streepje. Oh, het spijt me, 
+als
+
+79
+00:04:26,830 --> 00:04:30,890
+dit gelijk is aan 0, moet het een ander streepje
+zijn, anders moet het gelijk zijn aan de 
+
+80
+00:04:30,890 --> 00:04:35,540
+VLOOKUP plus 1, omdat Kevin Bacon's
+
+81
+00:04:35,550 --> 00:04:39,580
+Bacon getal 1 is en iedereen wie met
+hem in de film was
+
+82
+00:04:39,580 --> 00:04:44,220
+krijgt dat getal plus 1. Dus we hebben
+nu de juiste getallen
+
+83
+00:04:44,220 --> 00:04:47,470
+in de juiste regels voor alle acteurs, 
+en als we dit 
+
+84
+00:04:47,470 --> 00:04:52,020
+in het acteur werkblad krijgen, krijgen 
+we een correcte berekening.
+
+85
+00:04:52,020 --> 00:04:55,699
+Dus daar gaan we, Stap 2. Wat we kunnen
+doen
+
+86
+00:04:55,699 --> 00:04:59,139
+is een nieuwe VERT.ZOEKEN gebruiken 
+en zoeken naar de
+
+87
+00:04:59,139 --> 00:05:04,520
+acteur en we nemen nu de vierde kolom,
+de D kolom, want daar hebben we - 
+
+88
+00:05:04,520 --> 00:05:08,520
+iedereen die in de film was 
+met Kevin Bacon en getal 2 heeft,
+
+89
+00:05:08,520 --> 00:05:12,740
+en alle anderen hebben een streepje. 
+Dus dit is
+
+90
+00:05:12,740 --> 00:05:15,500
+bijna goed, we zien dat deze 
+
+91
+00:05:15,500 --> 00:05:17,759
+mensen die 2 hebben inderdaad  
+
+92
+00:05:17,759 --> 00:05:20,770
+degenen zijn die in de film waren 
+met Kevin Bacon.
+
+93
+00:05:20,770 --> 00:05:24,870
+Dus het werkt bijna. Er is nog één ding
+dat een klein beetje raar is, in de 
+
+94
+00:05:24,870 --> 00:05:28,360
+tweede step heeft Kevin Bacon ook 2
+
+95
+00:05:28,360 --> 00:05:31,160
+en dat is omdat we via hem 
+
+96
+00:05:31,160 --> 00:05:34,800
+Crazy Stupid Love vonden en terugkoppelden, maar 
+dat is niet echt eerlijk,
+
+97
+00:05:34,800 --> 00:05:39,289
+omdat hij al Bacon getal 1 heeft.
+Dus wat we moeten doen is - 
+
+98
+00:05:39,289 --> 00:05:41,569
+het minimum nemen
+
+99
+00:05:41,569 --> 00:05:45,400
+van alle berekende bacongetallen, dat 
+is gedaan in deze extra 
+
+100
+00:05:45,400 --> 00:05:49,190
+stap. En zoals je zag, in de vorige 
+video vergat ik F4 te drukken,
+
+101
+00:05:49,190 --> 00:05:54,560
+dus dat heb ik nu verbeterd. 
+Dus Kevin Bacon is nu 1, 
+
+102
+00:05:54,560 --> 00:05:57,860
+al de anderen 2, maar helaas, door
+het gebruik van de 
+
+103
+00:05:57,860 --> 00:06:01,889
+MIN operatie, krijgen we nu een error 
+waarde (#VALUE!).
+
+104
+00:06:01,889 --> 00:06:05,280
+Ik weet niet hoe dit komt, maar als je 2 
+MIN functies hebt, vanuit verschillende
+
+105
+00:06:05,280 --> 00:06:09,509
+worksheets, geeft Excel blijkbaar
+een fout. Dus we voegen daar
+
+106
+00:06:09,509 --> 00:06:12,789
+ALS.FOUT omheen, en we krijgen een 
+fout als we 
+
+107
+00:06:12,789 --> 00:06:15,960
+een streepje schrijven, en anders gebruiken 
+we de MIN.
+
+108
+00:06:15,960 --> 00:06:20,960
+Dus, dat hebben we nu gedaan. Voor één stap
+hebben we nu berekend:
+
+109
+00:06:20,960 --> 00:06:25,940
+1 - Kevin Bacon, en ieder ander die in de film
+was met Kevin Bacon heeft 
+
+110
+00:06:25,940 --> 00:06:27,270
+Bacon getal 2.
+
+111
+00:06:27,270 --> 00:06:30,210
+We moeten deze gehele stap doorzetten
+
+112
+00:06:30,210 --> 00:06:33,389
+als we dit voor de andere drie stappen willen
+doen en 
+
+113
+00:06:33,389 --> 00:06:35,710
+voor 4 stappen en 5 stappen.
+
+114
+00:06:35,710 --> 00:06:41,629
+Dus, kunnen we dit doen? Ja, dat kunnen we!
+Je hebt het me net zien doen.
+
+115
+00:06:41,629 --> 00:06:47,330
+Hoewel, als je doorgaat met deze berekening,
+en ik daag je uit om dat zelfstandig te doen
+
+116
+00:06:47,330 --> 00:06:47,340
+
+117
+00:06:47,349 --> 00:06:50,180
+dan zul je zien dat je voor drie stappen
+al 
+
+118
+00:06:50,180 --> 00:06:55,199
+8 hulpkolommen hebt, 8 conditionele formules,
+3 MIN's en
+
+119
+00:06:55,199 --> 00:07:00,099
+8 VERT.ZOEKEN. Dus misschien 
+willen we dat zo niet echt
+
+120
+00:07:00,099 --> 00:07:03,909
+en dan ben je pas op drie stappen. En ik heb 
+opgezocht dat blijkbaar het hoogste
+
+121
+00:07:03,909 --> 00:07:04,439
+getal dat
+
+122
+00:07:04,439 --> 00:07:09,370
+een Hollywood acteur heeft, 12 is, dus 
+als je deze berekening wilt doorzetten 
+
+123
+00:07:09,370 --> 00:07:10,169
+voor 12 stappen,
+
+124
+00:07:10,169 --> 00:07:12,889
+dan hebben we 25 VLOOKUPS nodig.
+
+125
+00:07:12,889 --> 00:07:16,930
+Dus waarschijnlijk zijn we hier niet echt
+op het juiste spoor,
+
+126
+00:07:16,930 --> 00:07:18,150
+maar het is mogelijk.
