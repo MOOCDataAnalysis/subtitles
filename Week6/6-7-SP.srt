@@ -1,0 +1,458 @@
+1
+00:00:00,210 --> 00:00:03,470
+Así que, en los vídeos anteriores hemos hablado
+acerca de cómo comprobar sus hojas de cálculo
+
+2
+00:00:03,470 --> 00:00:08,189
+usando Excel, usando fórmulas. Y eso está bien, 
+eso es una muy buena manera de hacerlo,
+
+3
+00:00:08,189 --> 00:00:11,490
+es mucho mejor tener fórmulas Excel
+y probar las hojas de cálculo
+
+4
+00:00:11,490 --> 00:00:16,129
+que no tener nada, así que, ¡continue haciéndolo!
+No obstante, en este vídeo quiero hablar de
+
+5
+00:00:16,129 --> 00:00:20,000
+una herramienta desarrollada aquí, en TU Delft, 
+en el Laboratorio de Hojas de Cálculo,
+
+6
+00:00:20,000 --> 00:00:23,090
+para ayudarle a comprobar sus hojas de cálculo,
+incluso más facilmente.
+
+7
+00:00:23,090 --> 00:00:26,710
+La herramienta se llama Expector, y es de lo
+que trata este vídeo.
+
+8
+00:00:26,710 --> 00:00:32,180
+de comprobar su hoja de datos con Expector. Así que, 
+aquí está la forma en que Excel se ve normalmente,
+
+9
+00:00:32,180 --> 00:00:35,469
+Hemos habilitado la extensión de Expector,
+por lo que vemos que en la cinta
+
+10
+00:00:35,469 --> 00:00:38,840
+tenemos ahora una opción, 
+
+11
+00:00:38,840 --> 00:00:42,900
+y es así como se verá si usted también 
+instala la extensión . Lo que podemos 
+
+12
+00:00:42,900 --> 00:00:43,879
+hacer con Expector es
+
+13
+00:00:43,879 --> 00:00:47,239
+ayudar a nuestras pruebas. Así que ya no 
+necesitamos esta hoja de trabajo extra
+
+14
+00:00:47,239 --> 00:00:50,309
+más durante todo el proceso 
+general de prueba,
+
+15
+00:00:50,309 --> 00:00:54,280
+porque eso es exactamente lo que Expector
+va a hacer para nostros.
+
+16
+00:00:54,280 --> 00:00:59,530
+Así que la eliminamos, también podemos eliminar 
+estas pruebas generales, 
+
+17
+00:00:59,530 --> 00:01:00,730
+realmente no son necesarias más
+
+18
+00:01:00,730 --> 00:01:05,379
+porque Expector va a recopilar todas las celdas
+de la hoja de cálculo, para nosotros.
+
+19
+00:01:05,379 --> 00:01:09,010
+Entonces, ¿cómo funciona? Si habilita
+
+20
+00:01:09,010 --> 00:01:13,979
+Expector y dice: "Quiero extraer todas las pruebas", 
+vienes aquí,
+
+21
+00:01:13,979 --> 00:01:17,880
+dices “Inicializa”. Lo que Expector va a hacer es: 
+va a recorrer todas las fórmulas 
+
+22
+00:01:17,880 --> 00:01:21,610
+de su hoja de cálculo, y va a mirar
+
+23
+00:01:21,610 --> 00:01:25,270
+cuales parecen fórmulas de pruebas, presentándonos
+una lista aquí.
+
+24
+00:01:25,270 --> 00:01:30,259
+Por ejemplo, vemos aquí que G4 es una fórmula
+de test que comprueba si
+
+25
+00:01:30,260 --> 00:01:35,060
+C4 es menor de 0. Expector conoce 
+esto y añade
+
+26
+00:01:35,070 --> 00:01:38,210
+todas estas otras pruebas a la 
+lista de tests,
+
+27
+00:01:38,210 --> 00:01:41,369
+Si la guardamos, conseguimos una
+hoja de trabajo adicional
+
+28
+00:01:41,369 --> 00:01:46,299
+en la que se encuentran todas las pruebas. 
+Así que pulsamos "Save",
+
+29
+00:01:46,299 --> 00:01:52,380
+vamos a hacelo. Sí, ahí está! Así que 
+ahora tenemos una hoja de cálculo adicional
+
+30
+00:01:52,380 --> 00:01:55,990
+en la que están listadas todas
+las celdas identificadas.
+
+31
+00:01:55,990 --> 00:02:00,270
+Así, extrae la prueba, sólo la parte de la 
+fórmula que es la prueba,
+
+32
+00:02:00,270 --> 00:02:04,049
+y muestra de donde viene la prueba y cual
+
+33
+00:02:04,049 --> 00:02:07,200
+es la parte que está siendo comprobada. Así
+que en este caso
+
+34
+00:02:07,200 --> 00:02:12,069
+C4 es menor de 0, ésta es exactamente 
+la parte que es extraída 
+
+35
+00:02:12,069 --> 00:02:13,260
+dentro de la hoja de trabajo nueva
+
+36
+00:02:13,260 --> 00:02:18,860
+Lo que Expector también hace es: 
+añade enlaces - los puedes   
+
+37
+00:02:18,860 --> 00:02:19,560
+resaltados de color azul.
+
+38
+00:02:19,560 --> 00:02:23,610
+Estos son los enlaces a la ubicación 
+original de la fórmula. Si hacemos 
+
+39
+00:02:23,610 --> 00:02:24,540
+click en el enlace,
+
+40
+00:02:24,540 --> 00:02:29,010
+Excel nos lleva a la ubicación original,
+
+41
+00:02:29,010 --> 00:02:33,090
+Por lo tanto, no eliminamos las celdas de prueba, 
+sólo añadimos otra hoja de cálculo,
+
+42
+00:02:33,090 --> 00:02:37,620
+pero todavía se pueden utilizar las pruebas 
+originales, e incluso navegar hasta allí
+
+43
+00:02:37,620 --> 00:02:39,760
+desde la hoja de trabajo de Expector.
+
+44
+00:02:40,540 --> 00:02:42,600
+Así, con estas pruebas ahora puede ejecutarlas 
+
+45
+00:02:42,609 --> 00:02:47,810
+- usted puede pulsar Ejecutar en Expector, 
+y obtendrá una visión general de todas 
+las pruebas,
+
+46
+00:02:47,810 --> 00:02:51,500
+y le indicará qué celdas están fallando
+y qué celdas están pasando la prueba
+
+47
+00:02:51,500 --> 00:02:55,220
+Así que, las de abajo están fallando, 
+
+48
+00:02:55,220 --> 00:02:59,480
+esas son las que están pasando.
+Por lo tanto, nunca más tendremos 
+
+49
+00:02:59,480 --> 00:03:00,769
+que añadir alguna fórmula adicional 
+para buscar
+
+50
+00:03:00,769 --> 00:03:04,139
+valores erróneos, puede desplazarse 
+hacia aquí
+
+51
+00:03:04,139 --> 00:03:08,980
+usted dice "He, este valor es falso". Pulsa
+el enlace y Expector le lleva directamente
+
+52
+00:03:08,980 --> 00:03:13,700
+a cualquer punto que esté fallando en la 
+hoja de cálculo. Hace que sea más fácil 
+de entender
+
+53
+00:03:13,700 --> 00:03:17,260
+qué está fallando. Así que usted ve aquí,
+
+54
+00:03:17,260 --> 00:03:20,389
+click en el enlace y es fácil ver donde
+está localizado el problema exactamente,
+
+55
+00:03:20,389 --> 00:03:24,500
+porque conocemos las pruebas, sabemos
+lo que se debe mantener,
+
+56
+00:03:24,500 --> 00:03:25,650
+lo que debería pasar y 
+
+57
+00:03:25,650 --> 00:03:28,919
+lo que debería fallar, simplemnete
+para comprobar fallos
+
+58
+00:03:28,919 --> 00:03:32,269
+click en el enlace y nos lleva
+a la fórmula.
+
+59
+00:03:32,269 --> 00:03:35,780
+Una cosa más que Expector puede hacer
+
+60
+00:03:35,780 --> 00:03:39,790
+es añadir colores al test - si no
+le gusta una lista larga, probablemente
+
+61
+00:03:39,790 --> 00:03:41,730
+usted es una persona más visual, 
+puede pulsar
+
+62
+00:03:41,730 --> 00:03:46,139
+"Color Tests", y cómo se ve aquí, todas 
+las celdas correctas son marcadas en verde,
+
+63
+00:03:46,139 --> 00:03:49,879 
+y todas las celdas con errores son marcadas
+en rojo. Y esto viene justamente
+
+64
+00:03:49,879 --> 00:03:54,699
+del formato condicional. Supongamos que
+ya tenemos un formato condicional
+
+65
+00:03:54,699 --> 00:03:58,859
+o incluso un formato regular en la hoja de 
+cálculo. Con Expector sólo hay que poner una
+
+
+66
+00:03:58,859 --> 00:04:03,419
+capa por encima de ellas, así que no hay 
+confusión posible
+
+67
+00:04:03,419 --> 00:04:07,290
+entre lo que significa un celda verde
+
+68
+00:04:07,290 --> 00:04:11,930
+porque las celdas que usted está viendo
+ahora, solamente están basadas en pasar
+
+69
+00:04:11,930 --> 00:04:14,870
+o fallar las fórmulas de pruebas.
+
+70
+00:04:15,420 --> 00:04:20,460
+Otra cosa que Expector puede hacer es:
+puede ayudarle a entender qué partes
+
+71
+00:04:20,470 --> 00:04:21,359
+de su hoja de datos
+
+72
+00:04:21,359 --> 00:04:25,090
+ya están probadas - si hacemos click en
+are already tested - if you click the
+
+73
+00:04:25,090 --> 00:04:29,160
+Highlight Tested Cells button, todo lo que 
+actualmente está involucrado
+
+74
+00:04:29,160 --> 00:04:34,010
+en la prueba, se marca de amarillo. Asi
+que vemos - esta es una celda de prueba
+
+75
+00:04:34,010 --> 00:04:37,260
+y entonces, como esta celda está enlazada 
+con otra,
+
+76
+00:04:37,260 --> 00:04:40,290
+decimos que esa celda también se prueba.
+En este sentido
+
+77
+00:04:40,290 --> 00:04:44,260
+cada cosa que es probada, partiendo
+de la celda de prueba 
+
+78
+00:04:44,260 --> 00:04:49,260
+right to input, es marcada de amarillo, 
+por lo que facilmente podemos ver qué
+
+79
+00:04:49,260 --> 00:04:50,060
+partes de nuestra hoja de datos
+
+80
+00:04:50,060 --> 00:04:54,240
+todavía necesitan nuestra atención de pruebas.
+Vamos a hacer el mismo ejercicio para
+
+81
+00:04:54,240 --> 00:04:55,490
+otra hoja de trabajo - si pulsamos
+
+82
+00:04:55,490 --> 00:04:59,820
+Highlight Tested Cells aquí, vemos que
+esta celda de aquí, 
+
+83
+00:04:59,820 --> 00:05:02,930
+bien, tiene una función lookup
+muy complicada, 
+
+84
+00:05:02,930 --> 00:05:07,419
+no hay ninguna prueba en este momento que
+asegure que todos etos nombres de productos
+
+85
+00:05:07,419 --> 00:05:11,680
+sean correctos. Este es
+un punto débil en nuestra hoja de cálculo,
+
+86
+00:05:11,680 --> 00:05:13,130
+donde tenemos una fórmula complicada,
+
+87
+00:05:13,130 --> 00:05:18,030
+sin embargo nada todavía está siendo probado. 
+Así que esa es la herramienta Expector,
+
+88
+00:05:18,030 --> 00:05:21,690
+ayuda a encontrar las pruebas, y ayuda a 
+ejecutar
+
+89
+00:05:21,690 --> 00:05:25,120
+todas las pruebas y a ver rápidamente
+qué está pasando y 
+
+90
+00:05:25,120 --> 00:05:29,080
+qué está fallando, sin hacer un esfuerzo
+manual para localizar las pruebas.
+
+91
+00:05:29,080 --> 00:05:33,770
+También nos ayuda a entender lo
+bien que la hoja de cálculo 
+
+92
+00:05:33,770 --> 00:05:34,560
+está siendo probada, 
+
+93
+00:05:34,560 --> 00:05:38,860
+resaltando lo que está probado y lo 
+que aún no se ha probado.
+
+94
+00:05:38,860 --> 00:05:41,950
+Así que esa esla prueba de la hoja 
+de cálculo con Expector,
+
+95
+00:05:41,950 --> 00:05:45,990
+!Vamos a añadir un enlace en edx para 
+que puedas descargar Expector y jugar
+
+96
+00:05:45,990 --> 00:05:47,650
+usted mismo con él, si usted quiere.

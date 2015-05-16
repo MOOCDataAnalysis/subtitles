@@ -1,0 +1,286 @@
+1
+00:00:00,799 --> 00:00:04,910
+En los vídeos anteriores hemos hablado de
+cómo probar sus fórmulas, 
+
+2
+00:00:04,910 --> 00:00:09,000
+Cómo asegurar que los resultados obtenidos con
+ellas, se encuentran, por ejemplo,  
+
+3
+00:00:09,000 --> 00:00:10,120
+dentro de límites razonables,
+
+4
+00:00:10,120 --> 00:00:13,910
+Pero hay otra manera de poder probar.
+Lo que también es muy importante en
+
+5
+00:00:13,910 --> 00:00:15,009
+las pruebas de las hojas de cálculo
+
+6
+00:00:15,009 --> 00:00:19,210
+es validar las entradas del usuario. 
+Si nos fijamos en esta hoja de cálculo, 
+
+7
+00:00:19,210 --> 00:00:23,150
+este "Selling Price", justo aquí, es 
+un valor de entrada.
+
+8
+00:00:23,150 --> 00:00:26,710
+Un usuario introdujo ese dato y pudo
+haber cometido un error.
+
+9
+00:00:26,710 --> 00:00:30,240
+Nosotros queremos hacerle saber al usuario,
+tan pronto como sea posible
+
+10
+00:00:30,240 --> 00:00:34,320
+que ha cometido un error. Por ejemplo,
+introducimos un ítem nuevo aquí,
+
+11
+00:00:34,320 --> 00:00:35,180
+de nombre 'Stone Table',
+
+12
+00:00:35,180 --> 00:00:39,489
+si cometemos un error y accidentalmente
+introducimos un número negativo,
+
+13
+00:00:39,489 --> 00:00:43,800
+en este caso, supongamos que tenemos un 
+control sobre los porcentajes,
+
+14
+00:00:43,800 --> 00:00:48,270
+sabríamos, porque vemos que este porcentaje
+está fuera de límites, que esto
+
+15
+00:00:48,270 --> 00:00:52,230
+no es correcto. Pero hay formas más sutiles 
+en las que podríamos cometer un error. 
+
+16
+00:00:52,230 --> 00:00:55,030
+Tal vez introdujimos  el mismo número dos veces,
+
+17
+00:00:55,030 --> 00:01:00,160
+y entonces este porcentaje es cero, lo cual
+podría ser correcto, esto todavía podría 
+
+18
+00:01:00,160 --> 00:01:03,710
+estar dentro de los límites. Así que, lo que
+queremos tener son, para campos,
+
+19
+00:01:03,710 --> 00:01:07,220
+para celdas ydonde los usuarios de hojas 
+de cálculo
+
+20
+00:01:07,220 --> 00:01:10,580
+añaden sus entradas, tener alguna regla 
+de validación
+
+21
+00:01:10,580 --> 00:01:15,860
+justo por encima de esto. He aquí otro ejemplo
+de validación de los datos introducidos por el 
+usuario.
+
+22
+00:01:15,860 --> 00:01:19,159
+Si nos fijamos en este registro de 
+importaciones, vemos
+
+23
+00:01:19,159 --> 00:01:22,450
+todos los códigos de los ítems
+que hemos estado vendiendo,
+
+24
+00:01:22,450 --> 00:01:26,030
+y esta fórmula, la fórmula "Categoría",
+
+25
+00:01:26,030 --> 00:01:29,340
+sólo extrae del primer ítem, 
+el primer carácter del
+
+26
+00:01:29,340 --> 00:01:32,780
+texto y lo pone en una lista. 
+Supongamos
+
+27
+00:01:32,780 --> 00:01:36,310
+que añadimos una tabla dinámica por encima
+de estos datos, calculando
+
+28
+00:01:36,310 --> 00:01:41,079
+el beneficio por categoría, necesitamos estar 
+seguros de que esa categoría es en realidad 
+
+29
+00:01:41,079 --> 00:01:42,430
+una categoría existente 
+actualmente en la tabla, 
+
+30
+00:01:42,430 --> 00:01:46,479
+que realmente está en nuestra lista de 
+categorías, y tenemos otra hoja de cálculo
+
+31
+00:01:46,479 --> 00:01:51,229
+en la que hacemos seguimiento de las categorías.
+Nosotros querríamos que el usuario conozca
+
+32
+00:01:51,229 --> 00:01:57,040
+si se proporciona una entrada defectuosa, si se 
+le da un código que no tiene una categoría asociada,
+
+33
+00:01:57,040 --> 00:02:01,790
+desearíamos que el usuario obtenga un error.
+Y mucha más validación es posible 
+
+34
+00:02:01,790 --> 00:02:06,920
+en esta hoja de trabajo de entrada - 
+No voy a decir cómo, porque este
+
+35
+00:02:06,920 --> 00:02:07,969
+es uno de los ejercicios de esta semana.
+
+36
+00:02:07,969 --> 00:02:11,300
+¡Así que usted puede empezar a pensar 
+en ello ahora mismo!
+
+37
+00:02:11,300 --> 00:02:15,060
+¿Cómo podríamos validar la entrada del usuario
+en esta hoja de cálculo?
+
+38
+00:02:16,640 --> 00:02:18,600
+Lo que es importante para las pruebas es que, 
+¿te acuerdas del vídeo anterior?, 
+
+39
+00:02:18,610 --> 00:02:23,470
+sólo una de cada tres hojas de cálculo
+
+40
+00:02:23,470 --> 00:02:24,930
+tiene un manual.
+
+41
+00:02:24,930 --> 00:02:28,840
+Y usted podría pensar: ¿que tendrá que ver
+la documentación con las pruebas
+
+42
+00:02:28,840 --> 00:02:33,060
+Ambos son dos tópicos completamente
+diferentes. 
+
+43
+00:02:33,060 --> 00:02:35,940
+Eso no es realmente cierto! 
+Las pruebas
+
+44
+00:02:35,950 --> 00:02:39,380
+pueden servir como medio de documentación.
+
+45
+00:02:39,380 --> 00:02:42,680
+Si usted coloca una prueba en su 
+hoja de cálculo,
+
+46
+00:02:42,680 --> 00:02:46,350
+la prueba le dice al usuario de la hoja
+de cálculo, algo acerca de ella.
+
+47
+00:02:46,350 --> 00:02:52,030
+Si miramos esta fórmula de aquí, veras
+que he añadido una fórmula que comprueba
+
+48
+00:02:52,030 --> 00:02:56,250
+si un ítem dado, tiene una categoría 
+asociada,
+
+49
+00:02:56,250 --> 00:02:59,850
+Aquí tienes un código que comienza
+con la letra X, 
+
+50
+00:02:59,850 --> 00:03:03,370
+si no existe una categoría asociada,
+obtendremos un error.
+
+51
+00:03:03,370 --> 00:03:07,790
+Así que esta prueba cuenta una historia,
+esta prueba le dice
+
+52
+00:03:07,790 --> 00:03:11,900
+al usuario que solamente pueden
+ser introducidas determinadas categorías,
+
+53
+00:03:11,900 --> 00:03:15,410
+porque si no, algo está mal.
+
+54
+00:03:15,410 --> 00:03:19,090
+Así que, de esta forma, usted puede utilizar 
+la prueba para comunicar información
+
+55
+00:03:19,090 --> 00:03:23,510
+acerca de sus entradas, para el futuro,
+
+56
+00:03:23,510 --> 00:03:27,000
+si usted todavía sigue trabajando con la hoja
+de cálculo dentro de cinco años, 
+
+57
+00:03:27,000 --> 00:03:29,670
+o alguna de las otros 11 personas
+que usan esa hoja de cálculo.
+
+58
+00:03:29,670 --> 00:03:33,459
+Así que las pruebas son medios de comunicación.
+
+59
+00:03:33,459 --> 00:03:36,459
+además de, por supuesto, su propósito
+
+60
+00:03:36,459 --> 00:03:38,319
+que es la comprobación de errores.

@@ -1,0 +1,872 @@
+1
+00:00:01,180 --> 00:00:04,150
+Así que ya sabes acerca de las pruebas, 
+ya sabes por qué debes probar y 
+
+2
+00:00:04,150 --> 00:00:07,700
+qué probar, pero no hemos abordado 
+todavía
+
+3
+00:00:07,700 --> 00:00:11,710
+cómo probar, cómo le vamos a decir
+al usuario de la hoja de datos
+
+4
+00:00:11,710 --> 00:00:15,130
+que un test está roto.
+Bien, hay dos maneras diferentes
+
+5
+00:00:15,130 --> 00:00:19,810
+de probar una hoja de cálculo
+determinada, como ves aquí.
+
+6
+00:00:19,810 --> 00:00:23,439
+La primera cosa que podemos utilizar
+es el formato condicional.
+
+7
+00:00:23,439 --> 00:00:27,880
+Probablemente ya los has usado antes, el formato
+condicional es una característica de Excel
+
+8
+00:00:27,880 --> 00:00:31,510
+con la que se puede cambiar el color o
+el formato de una celda
+
+9
+00:00:31,510 --> 00:00:34,969
+basados en reglas específicas. Aquí podemos
+ver cómo funciona.
+
+10
+00:00:34,969 --> 00:00:39,030
+Así que supongamos que desea agregar formato 
+condicional en la columna "Margen".
+
+11
+00:00:39,030 --> 00:00:42,100
+Seleccionamos toda la columna y
+a continuación seleccionamos
+
+12
+00:00:42,100 --> 00:00:45,789
+Formato Condicional y Conseguimos una
+ventana emergente.
+
+13
+00:00:45,789 --> 00:00:49,309
+En la ventana podemos seleccionar, 
+allí vamos,
+
+14
+00:00:49,309 --> 00:00:53,770
+podemos seleccionar, queremos tener una regla 
+para los valores que se encuentran por debajo
+
+15
+00:00:53,770 --> 00:00:58,140
+de cierto umbral. Y entonces podemos decir qué 
+debe ser por debajo del umbral,
+
+16
+00:00:58,140 --> 00:01:02,270
+y decimos que si está por debajo de 0
+queremos verlo en color rojo,
+
+17
+00:01:02,270 --> 00:01:06,369
+y entonces vemos como todas las celdas 
+con valores por debajo de 0 se presentan en rojo.
+
+18
+00:01:06,369 --> 00:01:11,260
+Y de forma inmediata, lo aplica a toda la
+columna, porque hemos seleccionado toda 
+
+19
+00:01:11,260 --> 00:01:14,060
+la columna cuando añadimos la regla. 
+Si añadimos otro
+
+20
+00:01:14,060 --> 00:01:17,070
+item nuevo a nuestro catálogo y cometemos 
+un error,
+
+21
+00:01:17,070 --> 00:01:20,580
+la celda se pone inmediatamente de 
+color rojo.
+
+22
+00:01:20,580 --> 00:01:24,299
+El formato condicional es agradable.
+
+23
+00:01:24,299 --> 00:01:28,540
+Funciona realmente bien porque, como puedes ver,
+los valores erróneos, realmente
+
+24
+00:01:28,540 --> 00:01:32,780
+saltan a la vista. Atraen nuestra atención
+porque son realmente diferentes
+
+25
+00:01:32,780 --> 00:01:37,380
+a los otros valores. Sin embargo, esta no
+es mi forma preferida de prueba.
+
+26
+00:01:37,380 --> 00:01:41,770
+En primer lugar, algunos colores pueden tener 
+un significado diferente - se puede utilizar
+
+27
+00:01:41,770 --> 00:01:43,659
+formato condicional, por ejemplo,
+
+28
+00:01:43,659 --> 00:01:46,960
+como lo hacemos aquí, donde el color rojo 
+no indica
+
+29
+00:01:46,960 --> 00:01:50,310
+un error, lo que indica aquí es
+
+30
+00:01:50,310 --> 00:01:54,009
+que el porcentaje es inferior al 10%
+y esto quiere decir justamente
+
+31
+00:01:54,009 --> 00:01:57,469
+que el ítem no se está vendiendo bien, 
+solamente aporta a los beneficios 
+
+32
+00:01:57,469 --> 00:02:00,860
+menos del 10%.
+
+33
+00:02:00,860 --> 00:02:04,469
+Luego, esto no quiere decir que hay un error
+en la fórmulas, significa que
+
+34
+00:02:04,469 --> 00:02:07,090
+tengo que hacer una buena revisión
+de mi catálogo de productos
+
+35
+00:02:07,090 --> 00:02:10,569
+para tomar una decisión y yo todavía voy
+a vender este ítem.
+
+36
+00:02:10,569 --> 00:02:12,320
+Algunas veces
+
+37
+00:02:12,320 --> 00:02:17,200
+el color rojo no indica valores equivocados,
+si no que indica valores con problemas,
+
+38
+00:02:17,200 --> 00:02:21,670
+un producto o una cuenta que no están
+vendiendo bien.
+
+39
+00:02:21,670 --> 00:02:25,820
+Esta es una de las razones por las que yo  no
+quiero usar formatos condicionales,
+
+40
+00:02:25,820 --> 00:02:28,870
+y otra razón es que si lo haces de una 
+manera diferente,
+
+41
+00:02:28,870 --> 00:02:32,750
+como le voy a mostrar a continuación, usted
+podrá construir fórmulas por encima
+
+42
+00:02:32,750 --> 00:02:36,240
+de las fórmulas de prueba. Así que
+déjeme mostrarle cómo
+
+43
+00:02:36,240 --> 00:02:40,110
+prefiero hacer esto. No mas formato 
+condicional. vamos a limpiar
+
+44
+00:02:40,110 --> 00:02:43,360
+todas las reglas de formato condicional y
+y vamos a añadir 
+
+45
+00:02:43,360 --> 00:02:47,410
+una fórmula de prueba. Así que, 
+en otra columna, decimos
+
+46
+00:02:47,410 --> 00:02:51,680
+¿"es el margen OK? y ahí añadimos una 
+fórmula que expresa
+
+47
+00:02:51,680 --> 00:02:54,790
+lo que esperamos de los valores. 
+Así que diremos:
+
+48
+00:02:54,790 --> 00:02:57,940
+"He, si este valor está por debajo de cero", 
+decimos 
+
+49
+00:02:57,940 --> 00:03:01,420
+"¡error, es demasiado bajo! y en caso contrario
+es correcto.
+
+50
+00:03:01,420 --> 00:03:04,660
+Si arrastramos la fórmula hacia abajo, 
+vemos que los valores erróneos
+
+51
+00:03:04,660 --> 00:03:09,000
+reciben un aviso "¡Error, demasiado bajo!".
+
+52
+00:03:09,540 --> 00:03:11,620
+Haciendo las cosas así
+
+53
+00:03:11,630 --> 00:03:14,800
+construimos fórmulas por encima de
+las fórmulas, tal y como les
+
+54
+00:03:14,800 --> 00:03:19,120
+he dicho antes. Puede utilizar este valor 
+porque es sólo otro valor de celda
+
+55
+00:03:19,120 --> 00:03:22,820
+lo podemos usar como input de
+otra fórmula.
+
+56
+00:03:22,820 --> 00:03:26,140
+Esto puede sonar un poco crítico, así
+que voy a explicar lo que exactamente
+
+57
+00:03:26,140 --> 00:03:29,610
+quiero decir con esto. Lo que quiero
+hacer aquí es
+
+58
+00:03:29,610 --> 00:03:33,830
+añadir una fórmula general para la prueba
+con la que vamos a comprobar 
+
+59
+00:03:33,830 --> 00:03:37,270
+si hay un error en la lista de
+nuestras comprobaciones.
+
+60
+00:03:37,270 --> 00:03:40,320
+Así que lo que hacemos es contar,
+utilizamos un CONTAR.SI,
+
+61
+00:03:40,320 --> 00:03:43,860
+para contar el número de OK's en toda
+
+62
+00:03:43,860 --> 00:03:48,690
+la columna Margin. Al número total de OK's
+le restamos
+
+63
+00:03:48,690 --> 00:03:51,760
+el número general obtenido con COUNTA, es decir,
+
+64
+00:03:51,760 --> 00:03:55,370
+el número de todos los ítem's en la lista.
+Y vemos que este número
+
+
+65
+00:03:55,370 --> 00:03:58,870
+no es cero, es -2, lo cual
+quiere decir que 
+
+66
+00:03:58,870 --> 00:04:03,310
+no tenemos el mismo número de OK's que
+el número total de valores
+
+67
+00:04:03,310 --> 00:04:07,380
+que tenemos. Esto significa que 
+no todo es OK, por lo que
+
+68
+00:04:07,390 --> 00:04:08,730
+hay un error.
+
+69
+00:04:10,080 --> 00:04:15,040
+Podemos añadir que no queremos -2 como valor, 
+queremos de nuevo
+
+70
+00:04:15,050 --> 00:04:19,020
+hacer esto con una fórmula de prueba, así
+que decimos: si esto es -2
+
+71
+00:04:19,020 --> 00:04:23,060
+entonces hay un error. Si algún valor
+está por debajo de 0, 
+
+72
+00:04:23,060 --> 00:04:25,230
+entonces hay un error y, en caso contrario,
+
+73
+00:04:25,230 --> 00:04:28,740
+esto está OK. Así que hemos construido
+una fórmula de prueba por encima de
+
+74
+00:04:28,740 --> 00:04:33,560
+todas las fórmulas de prueba que ya teníamos.
+Y podemos repetir este 
+
+75
+00:04:33,560 --> 00:04:34,290
+proceso,
+
+76
+00:04:34,290 --> 00:04:38,930
+al lado, podemos añadirle un número de columnas,
+y decir, para todas las columnas
+
+77
+00:04:38,930 --> 00:04:42,680
+añade otra fórmula de prueba.
+Podemos repetir este truco 
+
+78
+00:04:42,680 --> 00:04:46,340
+a un nivel superior a estas cuatro 
+columnas de pruebas,
+
+79
+00:04:46,340 --> 00:04:49,370
+de nuevo vamos a combinarlas en
+una prueba
+
+80
+00:04:49,370 --> 00:04:53,120
+nuevamente contamos el número de OK's,
+el cual deberá ser igual
+
+81
+00:04:53,120 --> 00:04:56,280
+al número de items,
+
+82
+00:04:56,280 --> 00:05:00,070
+en las celdas de pruebas de nuestra lista.
+
+83
+00:05:00,070 --> 00:05:04,310
+Así que, ahora podemos tener una gran
+prueba en el final de la hoja de cálculo,
+
+84
+00:05:04,310 --> 00:05:09,190
+donde todas las columnas a comprobar y
+todas las pruebas globales, estén juntas.
+
+85
+00:05:09,190 --> 00:05:14,100
+Entonces tenemos otra vez una fórmula
+a la que queremos añadir formato condicional,
+
+86
+00:05:14,100 --> 00:05:18,990
+porque en este error, no hay manera de 
+que pueda significar otra cosa. Si una celda
+
+87
+00:05:18,990 --> 00:05:20,170
+dice que Error es de color rojo, 
+probablemente algo está
+
+88
+00:05:20,170 --> 00:05:24,910
+mal ahí arriba. No puede tener otro
+sentido. Por lo tanto
+
+
+89
+00:05:24,910 --> 00:05:28,170
+¡una fórmula de prueba final, con formato
+condicional
+
+90
+00:05:28,170 --> 00:05:29,790
+es realmente una buena idea!1
+00:00:01,180 --> 00:00:04,150
+Así que ya sabes acerca de las pruebas, 
+ya sabes por qué debes probar y 
+
+2
+00:00:04,150 --> 00:00:07,700
+qué probar, pero no hemos abordado 
+todavía
+
+3
+00:00:07,700 --> 00:00:11,710
+cómo probar, cómo le vamos a decir
+al usuario de la hoja de datos
+
+4
+00:00:11,710 --> 00:00:15,130
+que un test está roto.
+Bien, hay dos maneras diferentes
+
+5
+00:00:15,130 --> 00:00:19,810
+de probar una hoja de cálculo
+determinada, como ves aquí.
+
+6
+00:00:19,810 --> 00:00:23,439
+La primera cosa que podemos utilizar
+es el formato condicional.
+
+7
+00:00:23,439 --> 00:00:27,880
+Probablemente ya los has usado antes, el formato
+condicional es una característica de Excel
+
+8
+00:00:27,880 --> 00:00:31,510
+con la que se puede cambiar el color o
+el formato de una celda
+
+9
+00:00:31,510 --> 00:00:34,969
+basados en reglas específicas. Aquí podemos
+ver cómo funciona.
+
+10
+00:00:34,969 --> 00:00:39,030
+Así que supongamos que desea agregar formato 
+condicional en la columna "Margen".
+
+11
+00:00:39,030 --> 00:00:42,100
+Seleccionamos toda la columna y
+a continuación seleccionamos
+
+12
+00:00:42,100 --> 00:00:45,789
+Formato Condicional y Conseguimos una
+ventana emergente.
+
+13
+00:00:45,789 --> 00:00:49,309
+En la ventana podemos seleccionar, 
+allí vamos,
+
+14
+00:00:49,309 --> 00:00:53,770
+podemos seleccionar, queremos tener una regla 
+para los valores que se encuentran por debajo
+
+15
+00:00:53,770 --> 00:00:58,140
+de cierto umbral. Y entonces podemos decir qué 
+debe ser por debajo del umbral,
+
+16
+00:00:58,140 --> 00:01:02,270
+y decimos que si está por debajo de 0
+queremos verlo en color rojo,
+
+17
+00:01:02,270 --> 00:01:06,369
+y entonces vemos como todas las celdas 
+con valores por debajo de 0 se presentan en rojo.
+
+18
+00:01:06,369 --> 00:01:11,260
+Y de forma inmediata, lo aplica a toda la
+columna, porque hemos seleccionado toda 
+
+19
+00:01:11,260 --> 00:01:14,060
+la columna cuando añadimos la regla. 
+Si añadimos otro
+
+20
+00:01:14,060 --> 00:01:17,070
+item nuevo a nuestro catálogo y cometemos 
+un error,
+
+21
+00:01:17,070 --> 00:01:20,580
+la celda se pone inmediatamente de 
+color rojo.
+
+22
+00:01:20,580 --> 00:01:24,299
+El formato condicional es agradable.
+
+23
+00:01:24,299 --> 00:01:28,540
+Funciona realmente bien porque, como puedes ver,
+los valores erróneos, realmente
+
+24
+00:01:28,540 --> 00:01:32,780
+saltan a la vista. Atraen nuestra atención
+porque son realmente diferentes
+
+25
+00:01:32,780 --> 00:01:37,380
+a los otros valores. Sin embargo, esta no
+es mi forma preferida de prueba.
+
+26
+00:01:37,380 --> 00:01:41,770
+En primer lugar, algunos colores pueden tener 
+un significado diferente - se puede utilizar
+
+27
+00:01:41,770 --> 00:01:43,659
+formato condicional, por ejemplo,
+
+28
+00:01:43,659 --> 00:01:46,960
+como lo hacemos aquí, donde el color rojo 
+no indica
+
+29
+00:01:46,960 --> 00:01:50,310
+un error, lo que indica aquí es
+
+30
+00:01:50,310 --> 00:01:54,009
+que el porcentaje es inferior al 10%
+y esto quiere decir justamente
+
+31
+00:01:54,009 --> 00:01:57,469
+que el ítem no se está vendiendo bien, 
+solamente aporta a los beneficios 
+
+32
+00:01:57,469 --> 00:02:00,860
+menos del 10%.
+
+33
+00:02:00,860 --> 00:02:04,469
+Luego, esto no quiere decir que hay un error
+en la fórmulas, significa que
+
+34
+00:02:04,469 --> 00:02:07,090
+tengo que hacer una buena revisión
+de mi catálogo de productos
+
+35
+00:02:07,090 --> 00:02:10,569
+para tomar una decisión y yo todavía voy
+a vender este ítem.
+
+36
+00:02:10,569 --> 00:02:12,320
+Algunas veces
+
+37
+00:02:12,320 --> 00:02:17,200
+el color rojo no indica valores equivocados,
+si no que indica valores con problemas,
+
+38
+00:02:17,200 --> 00:02:21,670
+un producto o una cuenta que no están
+vendiendo bien.
+
+39
+00:02:21,670 --> 00:02:25,820
+Esta es una de las razones por las que yo  no
+quiero usar formatos condicionales,
+
+40
+00:02:25,820 --> 00:02:28,870
+y otra razón es que si lo haces de una 
+manera diferente,
+
+41
+00:02:28,870 --> 00:02:32,750
+como le voy a mostrar a continuación, usted
+podrá construir fórmulas por encima
+
+42
+00:02:32,750 --> 00:02:36,240
+de las fórmulas de prueba. Así que
+déjeme mostrarle cómo
+
+43
+00:02:36,240 --> 00:02:40,110
+prefiero hacer esto. No mas formato 
+condicional. vamos a limpiar
+
+44
+00:02:40,110 --> 00:02:43,360
+todas las reglas de formato condicional y
+y vamos a añadir 
+
+45
+00:02:43,360 --> 00:02:47,410
+una fórmula de prueba. Así que, 
+en otra columna, decimos
+
+46
+00:02:47,410 --> 00:02:51,680
+¿"es el margen OK? y ahí añadimos una 
+fórmula que expresa
+
+47
+00:02:51,680 --> 00:02:54,790
+lo que esperamos de los valores. 
+Así que diremos:
+
+48
+00:02:54,790 --> 00:02:57,940
+"He, si este valor está por debajo de cero", 
+decimos 
+
+49
+00:02:57,940 --> 00:03:01,420
+"¡error, es demasiado bajo! y en caso contrario
+es correcto.
+
+50
+00:03:01,420 --> 00:03:04,660
+Si arrastramos la fórmula hacia abajo, 
+vemos que los valores erróneos
+
+51
+00:03:04,660 --> 00:03:09,000
+reciben un aviso "¡Error, demasiado bajo!".
+
+52
+00:03:09,540 --> 00:03:11,620
+Haciendo las cosas así
+
+53
+00:03:11,630 --> 00:03:14,800
+construimos fórmulas por encima de
+las fórmulas, tal y como les
+
+54
+00:03:14,800 --> 00:03:19,120
+he dicho antes. Puede utilizar este valor 
+porque es sólo otro valor de celda
+
+55
+00:03:19,120 --> 00:03:22,820
+lo podemos usar como input de
+otra fórmula.
+
+56
+00:03:22,820 --> 00:03:26,140
+Esto puede sonar un poco crítico, así
+que voy a explicar lo que exactamente
+
+57
+00:03:26,140 --> 00:03:29,610
+quiero decir con esto. Lo que quiero
+hacer aquí es
+
+58
+00:03:29,610 --> 00:03:33,830
+añadir una fórmula general para la prueba
+con la que vamos a comprobar 
+
+59
+00:03:33,830 --> 00:03:37,270
+si hay un error en la lista de
+nuestras comprobaciones.
+
+60
+00:03:37,270 --> 00:03:40,320
+Así que lo que hacemos es contar,
+utilizamos un CONTAR.SI,
+
+61
+00:03:40,320 --> 00:03:43,860
+para contar el número de OK's en toda
+
+62
+00:03:43,860 --> 00:03:48,690
+la columna Margin. Al número total de OK's
+le restamos
+
+63
+00:03:48,690 --> 00:03:51,760
+el número general obtenido con COUNTA, es decir,
+
+64
+00:03:51,760 --> 00:03:55,370
+el número de todos los ítem's en la lista.
+Y vemos que este número
+
+
+65
+00:03:55,370 --> 00:03:58,870
+no es cero, es -2, lo cual
+quiere decir que 
+
+66
+00:03:58,870 --> 00:04:03,310
+no tenemos el mismo número de OK's que
+el número total de valores
+
+67
+00:04:03,310 --> 00:04:07,380
+que tenemos. Esto significa que 
+no todo es OK, por lo que
+
+68
+00:04:07,390 --> 00:04:08,730
+hay un error.
+
+69
+00:04:10,080 --> 00:04:15,040
+Podemos añadir que no queremos -2 como valor, 
+queremos de nuevo
+
+70
+00:04:15,050 --> 00:04:19,020
+hacer esto con una fórmula de prueba, así
+que decimos: si esto es -2
+
+71
+00:04:19,020 --> 00:04:23,060
+entonces hay un error. Si algún valor
+está por debajo de 0, 
+
+72
+00:04:23,060 --> 00:04:25,230
+entonces hay un error y, en caso contrario,
+
+73
+00:04:25,230 --> 00:04:28,740
+esto está OK. Así que hemos construido
+una fórmula de prueba por encima de
+
+74
+00:04:28,740 --> 00:04:33,560
+todas las fórmulas de prueba que ya teníamos.
+Y podemos repetir este 
+
+75
+00:04:33,560 --> 00:04:34,290
+proceso,
+
+76
+00:04:34,290 --> 00:04:38,930
+al lado, podemos añadirle un número de columnas,
+y decir, para todas las columnas
+
+77
+00:04:38,930 --> 00:04:42,680
+añade otra fórmula de prueba.
+Podemos repetir este truco 
+
+78
+00:04:42,680 --> 00:04:46,340
+a un nivel superior a estas cuatro 
+columnas de pruebas,
+
+79
+00:04:46,340 --> 00:04:49,370
+de nuevo vamos a combinarlas en
+una prueba
+
+80
+00:04:49,370 --> 00:04:53,120
+nuevamente contamos el número de OK's,
+el cual deberá ser igual
+
+81
+00:04:53,120 --> 00:04:56,280
+al número de items,
+
+82
+00:04:56,280 --> 00:05:00,070
+en las celdas de pruebas de nuestra lista.
+
+83
+00:05:00,070 --> 00:05:04,310
+Así que, ahora podemos tener una gran
+prueba en el final de la hoja de cálculo,
+
+84
+00:05:04,310 --> 00:05:09,190
+donde todas las columnas a comprobar y
+todas las pruebas globales, estén juntas.
+
+85
+00:05:09,190 --> 00:05:14,100
+Entonces tenemos otra vez una fórmula
+a la que queremos añadir formato condicional,
+
+86
+00:05:14,100 --> 00:05:18,990
+porque en este error, no hay manera de 
+que pueda significar otra cosa. Si una celda
+
+87
+00:05:18,990 --> 00:05:20,170
+dice que Error es de color rojo, 
+probablemente algo está
+
+88
+00:05:20,170 --> 00:05:24,910
+mal ahí arriba. No puede tener otro
+sentido. Por lo tanto
+
+
+89
+00:05:24,910 --> 00:05:28,170
+¡una fórmula de prueba final, con formato
+condicional
+
+90
+00:05:28,170 --> 00:05:29,790
+es realmente una buena idea!
+

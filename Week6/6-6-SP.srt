@@ -1,0 +1,433 @@
+1
+00:00:02,070 --> 00:00:06,299
+En los vídeos anteriores les he mostrado como 
+añadir fórmulas de prueba para la hoja de cálculo
+
+2
+00:00:06,299 --> 00:00:10,639
+y también cómo añadir pruebas generales que
+combinen las entradas
+
+3
+00:00:10,639 --> 00:00:16,029
+de todos los demás test juntos. Sin embargo, 
+en esto hay una desventaja. Si nos fijamos en la 
+
+4
+00:00:16,029 --> 00:00:17,000
+hoja de cálculo,
+
+5
+00:00:17,000 --> 00:00:20,640
+déjeme indicarle, ves un error aquí
+
+6
+00:00:20,640 --> 00:00:24,470
+¿Qué tienes que hacer? Tienes que ir a ... Oh, 
+hay un error en margin.
+
+7
+00:00:24,470 --> 00:00:27,490
+Tendrá que desplazarse a las pruebas. Tendrá que
+desplazarse hacia abajo.
+
+8
+00:00:27,490 --> 00:00:30,570
+"Oh, en que línea se encuentra el error? oh,
+está aquí"
+
+9
+00:00:30,570 --> 00:00:34,579
+Y entonces usted tiene que rastrear las operaciones 
+para ver qué es lo que realmente está mal.
+
+10
+00:00:34,579 --> 00:00:38,230
+Así que, en caso de error, hay una 
+gran cantidad de trabajo a hacer
+
+11
+00:00:38,230 --> 00:00:41,480
+para determinar la ubicación del error.
+
+12
+00:00:41,480 --> 00:00:44,770
+Así que, ¿qué puedes hacer? 
+Te voy a enseñar una truco fácil 
+
+13
+00:00:44,770 --> 00:00:48,039
+para encontrar más rápidamente donde
+se encuentra el error.
+
+14
+00:00:48,039 --> 00:00:52,489
+Lo que podemos hacer es añadir otra columna 
+al conjunto general de pruebas.
+
+15
+00:00:52,489 --> 00:00:55,770
+Déjeme alejar un poco el foco, así tendremos 
+más espacio.
+
+16
+00:00:55,770 --> 00:00:59,420
+Vamos a añadir una columna adicional
+en la que vamos a 
+
+17
+00:00:59,420 --> 00:01:02,500
+detectar la localización de la prueba 
+fallida.
+
+18
+00:01:02,500 --> 00:01:06,460
+Para esto podemos utilizar la buena y vieja 
+función MATCH, espero que la recuerdes  
+
+19
+00:01:06,460 --> 00:01:11,200
+de todo el camino recorrido en la segunda
+semana de vídeos. Podemos usarla para detectar
+
+20
+00:01:11,200 --> 00:01:14,299
+en qué línea se encuentra el error. Así
+que añadimos MATCH
+
+21
+00:01:14,299 --> 00:01:17,759
+y estamos buscando el valor "Error".
+Como en la primera columna 
+
+22
+00:01:17,759 --> 00:01:21,259
+no hay error, simplemente obtenemos #N/A,
+
+23
+00:01:21,259 --> 00:01:25,409
+No disponible (error). No hay problema, sólo estamos
+interesado en
+
+24
+00:01:25,409 --> 00:01:28,460
+este resultado para las situaciones 
+en las que actualmente
+
+25
+00:01:28,460 --> 00:01:32,659
+hay un error. Así que si añadimos un MATCH
+allí,  usted ve que el resultado
+
+26
+00:01:32,659 --> 00:01:36,860
+de la función MATCH es la fila en la cual
+se encuentra el error, la fila 9,
+
+27
+00:01:36,860 --> 00:01:40,030
+es la fila en la que actualmente
+se encuentra el error.
+
+28
+00:01:40,030 --> 00:01:43,250
+Por lo tanto, si usted añade una función MATCH
+como ésta, no tendrá que buscar
+
+29
+00:01:43,250 --> 00:01:48,200
+manualmente las líneas con errores, porque
+el resultado se lo devuelve la función MATCH,
+
+30
+00:01:48,200 --> 00:01:48,960
+y puede ver:
+
+31
+00:01:48,960 --> 00:01:53,850
+"He, la línea 9 es la línea con un error". Esto es
+especialmente útil. Si tenemos 
+
+32
+00:01:53,850 --> 00:01:55,560
+cientos de líneas,
+
+33
+00:01:55,560 --> 00:01:59,640
+usted querrá conocer en qué línea se encuentra
+el error. Seguramente no querrá hacer scroll allí
+
+34
+00:01:59,640 --> 00:02:04,340
+y probablemente no querrá utilizar filtros
+para las líneas con errores, si no que querrá
+
+35
+00:02:04,340 --> 00:02:07,460
+localizarlas rápidamente.
+
+36
+00:02:08,100 --> 00:02:11,060
+Así que, vamos a diseñar nuestra hoja de cálculo
+un podo mejor,
+
+37
+00:02:11,060 --> 00:02:15,680
+Añadimos un borde alrededor de todas las fórmulas de test
+para que estén más claras para 
+
+38
+00:02:15,680 --> 00:02:17,450
+cualquiera que vaya a usar la hoja de cálculo
+
+39
+00:02:17,450 --> 00:02:20,500
+después de nosotros. esto es una parte
+especial de la hoja de datos.
+
+40
+00:02:20,500 --> 00:02:24,209
+Y lo que entonces me gusta hacer es - 
+añadir un enlace
+
+41
+00:02:24,209 --> 00:02:27,390
+a la fórmula de prueba final
+
+42
+00:02:27,390 --> 00:02:30,819
+en la parte superior de mi hoja de cálculo. 
+Así que digo que este es "están todos los chequeos bien"
+
+
+43
+00:02:30,819 --> 00:02:34,430
+mi comprobación general, y justamente
+enlazo con las fórmulas de error de abajo. 
+
+44
+00:02:34,430 --> 00:02:38,610
+Así que puedo ver
+
+45
+00:02:38,610 --> 00:02:42,209
+inmediatamente si abro la hoja de trabajo, 
+¿Todo está bien?
+
+46
+00:02:42,209 --> 00:02:46,060
+¿Sí o No? Probablemente yo no tenga siempre
+mi bloque de pruebas, en la parte inferior
+
+47
+00:02:46,060 --> 00:02:51,320
+de mi hoja de cálculo - si tengo 
+una hoja 
+de trabajo grande, probablemente coloque
+
+48
+00:02:51,320 --> 00:02:51,930
+el bloque de comprobaciones
+
+49
+00:02:51,930 --> 00:02:55,880
+en algún lugar a la izquierda de mis fórmulas, o 
+en algún lugar a la derecha, 
+
+50
+00:02:55,880 --> 00:03:00,300
+cualquiera de ambos que sea un sitio lógico en mi
+hoja de trabajo. Por lo tanto, es una buena idea
+
+51
+00:03:00,300 --> 00:03:04,680
+enlazar con la primera línea de la hoja de 
+trabajo. Si algo está mal
+
+52
+00:03:04,680 --> 00:03:08,200
+puede verlo inmediatamente al abrir
+la hoja. Este también truco se puede repetir
+
+53
+00:03:08,200 --> 00:03:11,600
+para  todas las demás hojas de trabajo.
+
+54
+00:03:11,600 --> 00:03:15,190
+Voy a alejar el foco otra vez, e ir a las otras 
+hojas de trabajo.
+
+55
+00:03:15,190 --> 00:03:18,320
+En las demás hojas de trabajo, también tenemos
+algunas formulas de prueba, por lo tanto,
+
+56
+00:03:18,320 --> 00:03:22,400
+si añadimos esta fórmula de prueba en
+todas las hojas de trabajo, 
+
+57
+00:03:22,400 --> 00:03:27,470
+en la celda B1 y en la primera línea, es muy
+fácil para cualquiera que vaya a usar la 
+
+58
+00:03:27,470 --> 00:03:28,070
+hoja de datos
+
+59
+00:03:28,070 --> 00:03:31,370
+ver de forma inmediata el
+"He, ¿Está todo correcto?.
+
+60
+00:03:31,370 --> 00:03:35,690
+Y lo que entonces podemos hacer si hemos 
+colocado todos esos test en todas
+
+61
+00:03:35,690 --> 00:03:36,360
+las hojas de trabajo,
+
+62
+00:03:36,360 --> 00:03:39,700
+es añadir una hoja de trabajo denominada
+"Todas las pruebas"  en la cual
+
+63
+00:03:39,700 --> 00:03:43,390
+vamos a combinar 
+
+64
+00:03:43,390 --> 00:03:46,489
+en una hoja todas las pruebas de todas
+las hojas.
+
+65
+00:03:46,489 --> 00:03:50,299
+Aquí podemos usar la función INDIRECT,
+Recordará de lecturas
+
+66
+00:03:50,299 --> 00:03:50,920
+anteriores,
+
+67
+00:03:50,920 --> 00:03:55,489
+donde puedo importar una cadena, un texto
+y evaluará los resultados. 
+
+68
+00:03:55,489 --> 00:03:58,859
+como cadena uso el nombre de la hoja 
+de trabajo y B1,
+
+69
+00:03:58,859 --> 00:04:02,019
+y entonces, para todas las demás hojas 
+de trabajo
+
+70
+00:04:02,019 --> 00:04:06,620
+obtengo los resultados, sin fórmulas adicionales.
+Entonces, de hecho, 
+
+71
+00:04:06,620 --> 00:04:10,560
+solamente hay una cosa que aún podamos hacer
+y que estoy segura usted ha adivinado,
+
+72
+00:04:10,560 --> 00:04:15,459
+ésta va a ser mi próximo movimiento, se trata de
+añadir una fórmula de prueba más por encima de
+
+73
+00:04:15,459 --> 00:04:18,859
+estas pruebas. Otra vez voy a contar 
+el número de OK's
+
+74
+00:04:18,859 --> 00:04:22,090
+y compararlo con el número total
+de líneas
+
+75
+00:04:22,090 --> 00:04:26,689
+de filas en mi hoja de trabajo, y si
+hay las mismas
+
+76
+00:04:26,689 --> 00:04:29,889
+esto está bien, si no estuviera todo bien
+
+77
+00:04:29,889 --> 00:04:33,659
+hay un error en mi hoja de calculo. 
+Así que  he añadido pruebas en todas 
+
+78
+00:04:33,659 --> 00:04:37,439
+partes en mi hoja de cálculo, las
+recojo todas juntas
+
+79
+00:04:37,439 --> 00:04:40,740
+en un valor, en una hoja de trabajo,
+
+80
+00:04:40,740 --> 00:04:43,909
+la de comprobación, un única prueba
+
+81
+00:04:43,909 --> 00:04:47,509
+para gobernarlas a todas, este prueba
+me dice
+
+82
+00:04:47,509 --> 00:04:50,729
+si todo está en mi hoja de cálculo
+
+83
+00:04:50,729 --> 00:04:55,669
+como yo esperaba. Y de este modo, 
+si envío mi hoja de cálculo a otro
+
+84
+00:04:55,669 --> 00:04:56,560
+departamento,
+
+85
+00:04:56,560 --> 00:05:00,360
+a otro compañero, otra empresa, 
+probablemente a un cliente,
+
+86
+00:05:00,360 --> 00:05:04,610
+si ellos fallan en algo, ya sea en las fórmulas o
+en los valores de entrada,
+
+87
+00:05:04,610 --> 00:05:08,039
+cuando recibo de vuelta mi hoja de cálculo,
+simplemente tengo que ir
+
+88
+00:05:08,039 --> 00:05:11,389
+a mi única fórmula de prueba para ver 
+
+89
+00:05:11,389 --> 00:05:15,069
+si todo está correcto, si todas las cosas
+continúan como yo esperaba, 
+
+90
+00:05:15,069 --> 00:05:19,009
+o si probablemente hay algo equivocado. ¡Esta es
+una buena manera de
+
+91
+00:05:19,009 --> 00:05:20,549
+mantener segura su hoja de cálculo!
