@@ -1,0 +1,349 @@
+1
+00:00:00,320 --> 00:00:04,029
+Así que, estoy seguro de que no estás convencido 
+de que tienes que probar la hoja de cálculo 
+
+2
+00:00:04,029 --> 00:00:04,940
+con el fin evitar
+
+3
+00:00:04,940 --> 00:00:08,470
+problemas horribles. Pero entonces, de hecho,
+una pregunta posible es:
+
+4
+00:00:08,470 --> 00:00:12,590
+Si nos fijamos en una hoja de cálculo, 
+¿qué hay que probar, por dónde empezar 
+
+5
+00:00:12,590 --> 00:00:17,279
+y cuáles son esas situaciones típicas, 
+fórmulas típicas, que podrían salir mal?
+
+6
+00:00:17,279 --> 00:00:20,289
+Vamos a echar otro vistazo a nuestro 
+ejemplo de ferretería. 
+
+7
+00:00:20,289 --> 00:00:24,519
+Si nos fijamos en este ejemplo, 
+si usted lo descarga de la web de EDX
+
+8
+00:00:24,519 --> 00:00:28,260
+entonces usted podrá mirar conmigo qué es 
+exactamente lo que podría salir mal. 
+
+9
+00:00:28,260 --> 00:00:33,420
+Por ejemplo, fijándonos en la fórmula 
+de la columna 'Margin', 
+
+10
+00:00:33,420 --> 00:00:35,000
+¿qué conocemos de Margin?
+
+11
+00:00:35,000 --> 00:00:38,379
+¿Disponemos de reglas específicas
+que valgan para Margin?
+
+12
+00:00:38,379 --> 00:00:42,160
+Bien, si usted piensa acerca de esto 
+un poco más, se dará cuenta de que
+
+13
+00:00:42,160 --> 00:00:45,780
+el margen deberá ser mayor de cero.
+Probablemente
+
+14
+00:00:45,780 --> 00:00:50,550
+no queramos vender cosas a un precio más bajo
+que el precio al que las hemos comprado.
+
+15
+00:00:50,550 --> 00:00:54,649
+Hay algunas empresas que hacen eso,
+tal vez usted tiene una promoción,
+
+16
+00:00:54,649 --> 00:00:59,539
+súper, súper especial, pero yo sólo
+voy a adivinar: para una empresa normal
+
+17
+00:00:59,539 --> 00:01:03,180
+la regla es: el margen tiene que ser 
+mayor que cero.
+
+18
+00:01:04,280 --> 00:01:09,760
+Así que pruebe! Descargue la hoja de cálculo 
+de la página web EDX y eche un vistazo a
+
+19
+00:01:09,770 --> 00:01:13,540
+cuales son las comprobaciones típicas.
+Este no es un ejercicio
+
+20
+00:01:13,540 --> 00:01:17,479
+que usted tenga que llenar, sólo espero
+que las plasme en  una lista
+
+21
+00:01:17,479 --> 00:01:20,650
+en un pedazo de papel, y entonces,
+en este vídeo, probablemente 
+
+22
+00:01:20,650 --> 00:01:24,189
+hablaré de algunas de las pruebas
+que usted también ha pensado.
+
+23
+00:01:24,189 --> 00:01:29,520
+Así que echemos un vistazo a este 
+margen. Usted puede decir que este margen, 
+
+24
+00:01:29,520 --> 00:01:31,640
+de hecho tiene que estar por encima de cero,
+
+25
+00:01:31,640 --> 00:01:36,090
+es una especie de prueba de sentido común.
+¿Tiene sentido mi hoja de cálculo?.
+
+26
+00:01:36,090 --> 00:01:40,619
+Este tipo de controles sensatos, son habituales. 
+Usted conoce el
+
+27
+00:01:40,619 --> 00:01:41,759
+dominio de su negocio
+
+28
+00:01:41,759 --> 00:01:44,840
+y sabe qué reglas típicas debe 
+sostener.
+
+29
+00:01:44,840 --> 00:01:49,399
+Y esas reglas ayudan y esos roles son
+exactamente lo que usted quiere comprobar.
+
+30
+00:01:49,399 --> 00:01:54,180
+Entonces, ¿qué otra cosa podíamos probar? 
+Si nos fijamos en este porcentaje aquí,
+
+31
+00:01:54,180 --> 00:01:57,490
+esa es otra cosa, donde, si usted 
+ve un porcentaje piensa:
+
+32
+00:01:57,490 --> 00:02:01,409
+"¡He, yo se algo de porcentajes.
+Probablemente el porcentaje debe de ser un valor
+
+33
+00:02:01,409 --> 00:02:05,719
+entre 0 y 100 por ciento, porque así
+es como funcionan los porcentajes!"
+
+34
+00:02:05,719 --> 00:02:09,149
+Por lo tanto, si usted ve algo así,
+inmediatamente su "Test",
+
+35
+00:02:09,149 --> 00:02:12,000
+su "sentido de prueba" debe encenderse en la
+parte de atrás de la cabeza,
+
+36
+00:02:12,000 --> 00:02:17,980
+y pensará "He, un porcentaje! ¡Sé lo que es!
+¡Conozco los límites de 
+
+37
+00:02:17,980 --> 00:02:21,220
+un porcentaje!" Esta es otra manera de 
+
+38
+00:02:21,220 --> 00:02:24,780
+chequear los datos. Si usted ve un 
+valor específico,
+
+39
+00:02:24,780 --> 00:02:28,560
+pensará al respecto: ¿qué límites son lógicos?
+
+40
+00:02:28,560 --> 00:02:32,500
+para las monedas a menudo 0 es un límite lógico,
+
+41
+00:02:32,500 --> 00:02:36,020
+porque usted no quiere vender por valor
+menor que cero, o si usted está, 
+
+42
+00:02:36,020 --> 00:02:39,370
+como yo estoy aquí, contando un número 
+de items, 
+
+43
+00:02:39,370 --> 00:02:42,959
+0 podría ser también un buen límite
+porque no queremos vender,
+
+44
+00:02:42,959 --> 00:02:47,310
+no queremos vender menos de cero.
+¿Puede usted pensar en más? 
+
+45
+00:02:47,310 --> 00:02:51,260
+¿Hay mas pruebas en su lista, en
+el pedazo de papel en el que
+
+46
+00:02:51,260 --> 00:02:56,980
+usted tomó las notas? ¿Tiene usted otras?
+Aquí tiene otra que usted puede probar. 
+
+47
+00:02:56,980 --> 00:03:00,630
+La SUM de estos porcentajes que
+estamos calculando aquí
+
+48
+00:03:00,630 --> 00:03:04,730
+debería ser 100%, porque hemos 
+dividido todos nuestro beneficio
+
+49
+00:03:04,730 --> 00:03:08,610
+entre los diferentes artículos que estamos
+vendiendo, así que si los agrupamos 
+
+50
+00:03:08,610 --> 00:03:09,480
+si los juntamos, 
+
+51
+00:03:09,489 --> 00:03:14,130
+deben sumar 100%, o en caso contrario
+algo está mal en las fórmulas
+
+52
+00:03:14,130 --> 00:03:17,570
+o en las entradas! Esto es lo que llamamos
+una "Comprobación total".
+
+53
+00:03:17,570 --> 00:03:21,180
+Añadimos todo junto y luego 
+el total deberá ser
+
+54
+00:03:21,180 --> 00:03:24,400
+el cien por cien. Esto es normalmente
+un "Chequeo total".
+
+55
+00:03:24,400 --> 00:03:28,500
+O, lo que es lo mismo, el total deberá 
+ser igual a lo que estamos vendiendo
+
+56
+00:03:28,500 --> 00:03:32,959
+En este ejemplo, podemos hacer algo más.
+
+57
+00:03:32,959 --> 00:03:36,720
+Además de comprobar los totales, 
+lo que podemos hacer es 
+
+58
+00:03:36,720 --> 00:03:40,150
+calcular los totales de una forma 
+diferente
+
+59
+00:03:40,150 --> 00:03:44,430
+Lo podemos hacer así: sumar los valores de aquí,
+sumar todos los valores de la columna Turnovers
+
+60
+00:03:44,430 --> 00:03:49,450
+y esto también tiene que ser el 100%.
+
+61
+00:03:50,140 --> 00:03:54,120
+Así que ahora, calculamos nuestros valores 
+de una forma diferente y aquí vemos
+
+62
+00:03:54,120 --> 00:03:58,040
+que también conseguimos el 100%. Esto
+se denomina un "control cruzado".
+
+63
+00:03:58,040 --> 00:04:01,329
+Donde se calcula el mismo resultado
+de dos maneras diferentes.
+
+64
+00:04:01,329 --> 00:04:04,610
+Y de esta manera, si cometemos algún error
+en alguno de estos cálculos, como ves aquí,
+
+65
+00:04:04,610 --> 00:04:07,910
+vemos inmediatamente que ambos valores
+son diferentes,
+
+66
+00:04:07,910 --> 00:04:11,160
+uno de ellos es 100% y el otro no.
+
+67
+00:04:11,160 --> 00:04:16,010
+Esto se denomina "cross-check" y es muy
+frecuente en los estados financieros,
+
+68
+00:04:16,010 --> 00:04:19,030
+donde usted calcula sus valores en
+esta dirección
+
+69
+00:04:19,030 --> 00:04:20,500
+y en esta otra dirección y entonces
+
+70
+00:04:20,500 --> 00:04:24,780
+usted asegura que, al final, ambos 
+calculan la misma cosa.
+
+71
+00:04:24,780 --> 00:04:28,810
+Así que estas son un montón de maneras en 
+las que usted puede probar la hoja de cálculo:
+
+72
+00:04:28,810 --> 00:04:32,410
+"sanity checks", "boundary checks" y "total
+checks".
+
+

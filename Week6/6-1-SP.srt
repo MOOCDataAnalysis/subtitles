@@ -1,0 +1,369 @@
+1
+00:00:02,320 --> 00:00:05,970
+Las dos últimas semanas, hemos hablado 
+mucho de hojas de cálculo,
+
+2
+00:00:05,970 --> 00:00:10,290
+así que es hora de hablar de un 
+elefante en la habitación:
+
+3
+00:00:10,290 --> 00:00:13,360
+Problemas con las hojas de cálculo, ya que 
+usted debe haberlos encontrado
+
+4
+00:00:13,360 --> 00:00:16,880
+en los ejercicios o tal vez en su
+trabajo diario con hojas de cálculo
+
+5
+00:00:16,880 --> 00:00:22,000
+ha llegado a tener problemas con las mismas.
+Esto no es tan sorprendente, si recuerda
+
+6
+00:00:22,000 --> 00:00:24,769
+los números de la primera semana en 
+los que un 95%
+
+7
+00:00:24,769 --> 00:00:30,240
+de todas las compañías todavía utilizan
+hojas de cálculo, y un 50% de
+
+8
+00:00:30,240 --> 00:00:34,210
+las hojas de cálculo son usadas en la toma
+de decisiones,
+
+9
+00:00:34,210 --> 00:00:35,520
+no es tan sorprendente que 
+
+10
+00:00:35,520 --> 00:00:39,120
+surjan problemas. Recuerde también que
+probablemente las hojas de
+
+11
+00:00:39,120 --> 00:00:43,850
+cálculo tengan una vida útil larga:
+cinco años de media,
+
+12
+00:00:43,850 --> 00:00:47,430
+durante la cual son usadas por 
+hasta 12 personas diferentes.
+
+13
+00:00:47,430 --> 00:00:51,250
+La mayoría de las hojas de cálculo, no
+tienen una documentación adecuada.
+
+14
+00:00:51,789 --> 00:00:54,449
+En realidad, si lo piensas, no 
+hay manera de que
+
+15
+00:00:54,449 --> 00:00:59,059
+esto sea correcto. Si son tan 
+importantes para las empresas
+
+16
+00:00:59,059 --> 00:01:02,600
+y muchas personas están involucradas, 
+es normal que se malinterpreten las 
+
+17
+00:01:02,600 --> 00:01:04,880
+cosas. Simplemente, se hace
+
+18
+00:01:05,320 --> 00:01:09,380
+Incluso existe European Spreadsheet Risk 
+
+19
+00:01:09,390 --> 00:01:14,890
+Interest Group (EUSPRIG.org) que mantiene una
+lista de historias de horror
+
+20
+00:01:14,890 --> 00:01:16,070
+de hojas de cálculo.
+
+21
+00:01:16,070 --> 00:01:19,979
+Es bastante divertido, si usted
+dispone de tiempo después de hacer 
+
+22
+00:01:19,979 --> 00:01:22,329
+los ejercicios de esta semana, navegar 
+a esa Web y echar un vistazo a
+
+23
+00:01:22,329 --> 00:01:25,450
+una gran cantidad de empresas
+y organizaciones que se han
+
+24
+00:01:25,450 --> 00:01:30,150
+topado con algún tipo de problemas
+muy pequeños y muy grandes
+
+25
+00:01:30,150 --> 00:01:33,740
+por culpa de las hojas de cálculo.  
+Y he compilado las tres  3 historias 
+
+26
+00:01:33,740 --> 00:01:37,220
+de horror más divertidas  de hojas 
+de cálculo. Aquí hay una que
+
+27
+00:01:37,220 --> 00:01:38,450
+realmente me gusta,
+
+28
+00:01:38,450 --> 00:01:41,970
+los Juegos Olímpicos de Londres en 2012.
+
+29
+00:01:41,970 --> 00:01:45,930
+Así que, uno podría esperar que los Juegos 
+Olímpicos de Londres, el mayor evento del 
+
+30
+00:01:45,930 --> 00:01:48,219
+año con unas presupuesto de tropecientas 
+libras,
+
+31
+00:01:48,219 --> 00:01:52,320
+tuviera un sistema de venta de entradas muy 
+sofisticado.
+
+32
+00:01:52,700 --> 00:01:55,900
+Pero no fue así. Ellos utilizaron hojas
+de cálculo para realizar un seguimiento
+
+33
+00:01:55,909 --> 00:01:58,390
+de la venta de entradas. Y cometieron
+un pequeño error
+
+34
+00:01:58,390 --> 00:02:00,350
+en una de sus hojas de cálculo
+
+35
+00:02:00,350 --> 00:02:03,469
+y esto acabó en overbooking en 
+uno de sus estadios, un overbooking
+
+
+36
+00:02:03,469 --> 00:02:06,939
+de 10,000 entradas. Aunque realmente no 
+fue una pérdida grande de dinero
+
+37
+00:02:06,939 --> 00:02:08,899
+fue una situación muy embarazosa.
+
+38
+00:02:08,899 --> 00:02:11,250
+Las personas querían entrar en la oficina 
+de  venta de entradas
+
+39
+00:02:11,250 --> 00:02:13,760
+para cambiar su entrada para otro
+día....
+
+40
+00:02:13,760 --> 00:02:17,260
+Este es realmente un buen ejemplo de una
+historia de horror de hojas de cálculo.
+
+41
+00:02:17,260 --> 00:02:21,190
+Esta es otra historia. Una universidad en
+US perdió 2,4 millones
+
+42
+00:02:21,190 --> 00:02:24,250
+de dolares, por un problema en 
+una hoja de cálculo.
+
+43
+00:02:24,250 --> 00:02:26,910
+He aquí otro problema: Una poderosa empresa
+Canadiense, perdió 24 millones de dólares,
+
+44
+00:02:26,910 --> 00:02:32,550
+por un error en la operación de copiar
+y pegar en una hoja de datos.
+
+45
+00:02:34,240 --> 00:02:36,960
+Por supuesto, es muy fácil echarle las culpas
+a las hojas de cálculo, se podría decir que
+
+46
+00:02:36,960 --> 00:02:40,980
+las hojas de cálculo son malas y que por
+eso cometemos errores. Pero esto no es
+
+47
+00:02:40,980 --> 00:02:44,660
+realmente cierto, este no es un problema
+típico de hojas de cálculo.
+
+48
+00:02:44,660 --> 00:02:48,680
+Si nos fijamos en otros ámbitos, por ejemplo,
+programación.
+
+49
+00:02:48,680 --> 00:02:51,170
+La programación tiene porcentajes de error
+muy parecidos a los de el desarrollo de
+
+50
+00:02:51,170 --> 00:02:54,910
+hojas de datos. Entre un uno y un cinco
+por ciento
+
+51
+00:02:54,910 --> 00:02:59,060
+de todas las líneas de código o de
+todas las fórmulas, tienen un error
+
+52
+00:02:59,060 --> 00:03:03,110
+y lo mismo sucede con otras actividades
+cognitivas de diseño
+
+53
+00:03:03,110 --> 00:03:05,700
+como la escritura creativa.
+
+54
+00:03:05,700 --> 00:03:09,600
+También, si usted está escribiendo, 
+se tiende a cometer pequeños errores.
+
+55
+00:03:09,600 --> 00:03:12,780
+Los cerebros humanos no están por
+debajo del 1 - 5 %
+
+56
+00:03:12,780 --> 00:03:17,300
+de tasa de error y esto es comprensible.
+Si nos fijamos en los problemas 
+
+57
+00:03:17,300 --> 00:03:21,060
+en la programación, son de un tipo
+muy, muy similar a las historias
+
+58
+00:03:21,060 --> 00:03:24,960
+de horrores existentes en Excel.
+Historias de horrores recientes en 
+
+59
+00:03:24,960 --> 00:03:28,610
+el dominio de la programación 
+se recogen en healthcare.gov, 
+
+60
+00:03:28,610 --> 00:03:29,700
+Hubo recientemente, un par de 
+
+61
+00:03:29,700 --> 00:03:33,340
+errores muy grandes como fueron
+'heartbleed' y el 'goto fail'
+
+62
+00:03:33,340 --> 00:03:37,500
+Así que realmente no se puede culpar a la hoja
+de cálculo de ser problemática, porque
+
+63
+00:03:37,500 --> 00:03:42,620
+otros tipos de programación, tienen 
+realmente problemas similares. 
+
+64
+00:03:43,060 --> 00:03:44,530
+¿Por qué es así?
+
+65
+00:03:44,530 --> 00:03:49,980
+Como todas las cosas, las hojas de cálculo y los 
+productos de software comienzan siendo 
+pequeños.
+
+66
+00:03:49,980 --> 00:03:53,060
+Comienzan siendo pequeños y lindos 
+cachorritos, que podemos manejar
+
+67
+00:03:53,060 --> 00:03:57,140
+fácilmente, porque son todavía
+jóvenes y simples.
+
+68
+00:03:57,140 --> 00:04:00,160
+Lo mismo sucede con las hojas de cálculo: 
+Usted comienza una hoja de cálculo,
+
+69
+00:04:00,160 --> 00:04:04,570
+con un montón de fórmulas, todo se ve 
+muy bonito, no hay ningún problema.
+
+70
+00:04:04,570 --> 00:04:08,100
+Sin embargo, todas ellas llegan a ser 
+este chico, ¿No?
+
+71
+00:04:08,100 --> 00:04:11,120
+Si usted no entrena a su perro 
+y si usted no
+
+72
+00:04:11,130 --> 00:04:15,930
+gestiona su hoja de datos o su software, 
+todo va a salir mal.
+
+73
+00:04:15,930 --> 00:04:18,950
+Así que eso es exactamente lo que los 
+vídeos de esta semana van a tratar.
+
+74
+00:04:18,950 --> 00:04:23,630
+Vamos a hablar de cómo administrar su 
+hoja de cálculo y cómo asegurarnos
+
+75
+00:04:23,630 --> 00:04:26,540
+de que crezca como un perro responsable
+
+76
+00:04:26,540 --> 00:04:29,180
+y no cómo un monstruo triturador de sofás.
+
