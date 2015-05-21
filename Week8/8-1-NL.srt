@@ -1,0 +1,160 @@
+1
+00:00:00,710 --> 00:00:03,480
+Afgelopen week hebben we het Bacon getal
+berekend
+
+2
+00:00:03,480 --> 00:00:08,780
+en we deden dat met Excel en Python. 
+En ik hoop dat je van afgelopen week meeneemt
+
+3
+00:00:08,780 --> 00:00:11,900
+en van de oefeningen van afgelopen week,
+
+4
+00:00:11,900 --> 00:00:14,960
+dat de gebruikte tool invloed heeft 
+
+5
+00:00:14,960 --> 00:00:18,800
+op de oplossing waar je mee komt. Als 
+je in Excel werkt  
+
+6
+00:00:18,800 --> 00:00:20,029
+dan denk je typisch
+
+7
+00:00:20,029 --> 00:00:23,589
+in termen van cellen en referenties tussen
+cellen.
+
+8
+00:00:23,589 --> 00:00:26,359
+En als je werkt met lijsten in Excel, 
+dan moet je 
+
+9
+00:00:26,359 --> 00:00:29,710
+Array formules gebruiken en dat is mogelijk,
+
+10
+00:00:29,710 --> 00:00:33,010
+maar het is moeilijker en dat beperkt je
+voorstellingsvermogen.
+
+11
+00:00:33,010 --> 00:00:36,690
+Terwijl, als je hetzelfde probleem in Python
+hebt opgelost,
+
+12
+00:00:36,690 --> 00:00:39,429
+het een stuk makkelijker is, omdat lijsten
+
+13
+00:00:39,429 --> 00:00:44,100
+een eersterangsburger zijn. Je kan elk 
+willekeurig bereik in de spreadsheet uitlezen
+
+14
+00:00:44,100 --> 00:00:48,120
+en dat direct in een lijst stoppen en als 
+je een willekeurige operatie wilt doen 
+
+15
+00:00:48,120 --> 00:00:52,329
+op je lijst, zoals een minimum, hoef je 
+alleen maar 
+
+16
+00:00:52,329 --> 00:00:56,409
+de MIN te nemen van de lijst waar je het 
+op toepast. je hoeft niet te prutsen met
+
+17
+00:00:56,409 --> 00:00:57,800
+array formules.
+
+18
+00:00:57,800 --> 00:01:00,569
+Omdat je Python gebruikt is het 
+
+19
+00:01:00,569 --> 00:01:04,239
+makkelijker om met lijsten te werken, 
+omdat het ingebouwde attributen zijn in Python
+
+20
+00:01:04,239 --> 00:01:07,199
+en je hoeft niet hemel en aarde te 
+bewegen.
+
+21
+00:01:07,200 --> 00:01:11,380
+En dit principe geldt voor veel gevallen, als
+je het verkeerde 
+
+22
+00:01:11,390 --> 00:01:14,890
+programma gebruikt voor een probleem, dan
+
+23
+00:01:14,890 --> 00:01:19,040
+is het niet alleen minder efficiënt
+om een schroef te spijkeren, 
+
+24
+00:01:19,040 --> 00:01:23,340
+niet alleen dat, het is ook moeilijker
+en het begrenst je 
+
+25
+00:01:23,340 --> 00:01:27,299
+voorstellingsvermogen. Als je altijd 
+bouwt met behulp van een hamer, 
+
+26
+00:01:27,299 --> 00:01:31,890
+dan ga je waarschijnlijk nooit een 
+zwaluwstaartverbinding bedenken, 
+
+27
+00:01:31,890 --> 00:01:35,969
+omdat deze verbinding hout verbindt 
+zonder spijkers, 
+
+28
+00:01:35,969 --> 00:01:40,1480
+dus je hebt geen hamer nodig. En als je
+altijd als eerste de hamer grijpt, 
+
+29
+00:01:40,180 --> 00:01:40,189
+
+
+30
+00:01:40,189 --> 00:01:45,369
+zul je deze oplossing nooit bedenken.
+Ditzelfde principe geldt ook voor data vraagstukken,
+
+31
+00:01:45,369 --> 00:01:48,750
+als je altijd direct achter je spreadsheet 
+kruipt,
+
+32
+00:01:48,750 --> 00:01:53,009
+dan zijn er oplossingen waar je nooit 
+op gaat komen, 
+
+
+33
+00:01:53,009 --> 00:01:56,229
+omdat ze niet passen binnen je 
+spreadsheetparadigma en dat is 
+
+34
+00:01:56,229 --> 00:01:58,249
+waar deze weeks videos over gaan!
