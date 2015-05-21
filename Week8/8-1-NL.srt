@@ -102,7 +102,7 @@ programma gebruikt voor een probleem, dan
 
 23
 00:01:14,890 --> 00:01:19,040
-is het niet alleen minder efficiënt
+is het niet alleen minder efficiÃ«nt
 om een schroef te spijkeren, 
 
 24
