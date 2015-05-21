@@ -1,0 +1,1094 @@
+1
+00:00:01,160 --> 00:00:04,200
+Nu we het probleem in de vorm van een
+graaf hebben gekregen,
+
+2
+00:00:04,200 --> 00:00:07,490
+kunnen we ook andere gereedschappen gaan gebruiken.
+We hoeven geen 
+
+3
+00:00:07,490 --> 00:00:13,099
+algemene programma's meer. Een spreadsheet of
+Python is als een Zwisters zakmes.
+
+4
+00:00:13,099 --> 00:00:17,750
+Ze kunnen wat je wilt, je kan 
+je budget er mee bijhouden of een planning mee maken,
+
+5
+00:00:17,750 --> 00:00:22,970
+of er een Bacon-achtig probleem mee oplossen. Maar
+nu kunnen we een heel gespecializeerd programma gebruiken
+
+6
+00:00:22,970 --> 00:00:24,810
+voor graafproblemen, net zoals
+
+7
+00:00:24,810 --> 00:00:27,740
+de tang die je gebruikt om slakken mee te eten.
+Ze zijn heel 
+
+8
+00:00:27,740 --> 00:00:32,730
+heel erg handig als je slakken eet, 
+maar zo'n beetje al het andere kan je er niet 
+
+9
+00:00:32,730 --> 00:00:35,649
+mee eten, zoals pasta of rijst.
+
+10
+00:00:35,649 --> 00:00:40,850
+Het is een gespecialiseerd stukje gereedschap. En dat is
+ook waar het met dit programma voor graafproblemen om gaat,
+
+11
+00:00:40,850 --> 00:00:44,420
+en het programma dat we gaan gebruiken heet Neo4j.
+
+12
+00:00:44,440 --> 00:00:48,079
+En dit is een "graafdatabase",
+het woord zegt het al,
+
+13
+00:00:48,079 --> 00:00:51,670
+het gaat echt om het opslaan en analyseren van grafen.
+
+14
+00:00:51,670 --> 00:00:54,989
+Dus als je Neo4J downloadt, dit is een gratis
+beschikbaar programma, je kan het gewoon
+
+15
+00:00:54,989 --> 00:00:57,340
+downloaden voor veel verschillende platformen.
+
+16
+00:00:57,340 --> 00:01:00,890
+En als je dat doet en als je het dan start,
+is dit wat je zult zien.
+
+17
+00:01:00,890 --> 00:01:04,360
+Alleen maar dit kleine schermpje. What doen we?
+
+18
+00:01:04,360 --> 00:01:07,790
+Dus het eerste wat we doen is het 
+kiezen van een map
+
+19
+00:01:07,790 --> 00:01:12,430
+in ons "bestandsystem", waar willen we de
+database opslaan? Gewoon een lege map,
+
+20
+00:01:12,430 --> 00:01:13,260
+geen magie,
+
+21
+00:01:13,260 --> 00:01:18,800
+je kan gewoon een map kiezen, en dan klik je Start.
+En dit is wat je krijgt: het groene scherm
+
+22
+00:01:18,800 --> 00:01:22,870
+met een link. En als je hierop klikt, wordt je 
+meegenomen naar je web browser, gewoon een
+
+23
+00:01:22,870 --> 00:01:25,220
+normale browser, zoals Firefox of Chrome,
+
+24
+00:01:25,220 --> 00:01:32,220
+zal opstarten (jouw normale browser) en je
+ziet dit. Dat is alles, dit is Neo4J.
+
+25
+00:01:32,530 --> 00:01:33,820
+Dus het is misschien niet direct duidelijk 
+
+26
+00:01:33,820 --> 00:01:38,000
+wat je hier moet doen. Alleereerst, 
+laten we onze bacon data inladen
+
+27
+00:01:38,000 --> 00:01:41,250
+in de database. Dus we gaan terug naar de 
+spreadsheet
+
+28
+00:01:41,250 --> 00:01:45,040
+en we moeten onze spreadsheet opslaan als
+CSV bestand,
+
+29
+00:01:45,040 --> 00:01:50,380
+een Comma Separated Value bestand. Dit is een
+formaat dat Neo4j en veel andere programma's
+
+30
+00:01:50,380 --> 00:01:54,360
+makkelijk kunnen lezen. Misschien heb je dit 
+eerder gedaan, je klikt gewoon 'Opslaan Als' en je
+
+31
+00:01:54,360 --> 00:01:56,850
+selecteert een lokatie waar je het CSV bestand 
+
+32
+00:01:56,850 --> 00:02:01,280
+op wilt slaan, je vult de bestandsnaam in, en in 
+de drop-down lijst,
+
+33
+00:02:01,280 --> 00:02:04,990
+die van 'Opslaan Als' en je selecteert CSV. 
+
+34
+00:02:04,990 --> 00:02:09,600
+Dat is hem, comma separated value. We hebben
+een put te veel,
+
+35
+00:02:09,600 --> 00:02:12,220
+we halen de punt weg en klickken 'Opslaan'.
+
+36
+00:02:12,220 --> 00:02:15,230
+En nu slaan we alleen dit werkblad op, [we]
+kunnen dit
+
+37
+00:02:15,230 --> 00:02:17,810
+opslaan als een CSV. Excel waarschuwt ons, hij zegt:
+
+38
+00:02:17,810 --> 00:02:21,030
+ik kan maar één werkblad opslaan, je verliest
+de draaitabellen.
+
+39
+00:02:21,030 --> 00:02:25,250
+Dat weten we, dat vinden we prima. We willen
+het opslaan als een CSV bestand.
+
+40
+00:02:25,250 --> 00:02:27,700
+Dus wat we nu hebben als we dit CSV bestand openen,
+
+41
+00:02:27,700 --> 00:02:31,860
+is dit. Dit is hoe een CSV bestand eruit
+ziet als je het opent met kladblok
+
+42
+00:02:31,860 --> 00:02:35,720
+of een andere teksteditor. Je hebt een eerste regel
+die
+
+43
+00:02:35,730 --> 00:02:38,850
+gelijk is aan de eerste kolom van de spreadsheet,
+in dit geval "movie",
+
+44
+00:02:38,850 --> 00:02:42,310
+en  dan krijg je één regel voor alle 
+rijen in de spreadsheet.
+
+45
+00:02:42,310 --> 00:02:45,990
+En de kolommen zijn gescheiden, natuurijk, 
+met een komma,
+
+46
+00:02:45,990 --> 00:02:50,460
+want het is een "comma separated value" formaat.
+Dus we hebben deze data.
+
+47
+00:02:50,460 --> 00:02:54,090
+Nu hebben we de data in Neo4J.
+
+48
+00:02:54,090 --> 00:02:58,450
+Dus terug naar Neo4j, pak ons CSV
+bestand,
+
+49
+00:02:58,450 --> 00:03:03,040
+daar is het, en wat we niet kunen doen is 
+gewoon de data selecteren en het erin zetten, we kunnen
+
+50
+00:03:03,040 --> 00:03:07,819
+niet gewoon kopiëren/plakken. We hebben een speciaal
+commando genaamd LOAD CSV.
+
+51
+00:03:07,819 --> 00:03:12,980
+Dus dat typen we in Neo4J, LOAD CSV
+
+52
+00:03:12,980 --> 00:03:15,150
+vanaf de lokatie waar ik net 
+
+53
+00:03:15,150 --> 00:03:19,410
+het CSV bestand heb opgeslagen
+
+54
+00:03:19,410 --> 00:03:22,810
+en dan gaan we voor elke regel in het bestand
+
+55
+00:03:22,810 --> 00:03:26,810
+een bepaald operatie uitvoeren.
+Dus hier is de lokatie van 
+
+56
+00:03:26,810 --> 00:03:27,680
+het CSV bestand,
+
+57
+00:03:27,680 --> 00:03:31,130
+en we gaan het openen als een rij
+
+58
+00:03:31,130 --> 00:03:34,400
+en dit betekent dat we gaan 
+itereren over de spreadsheet,
+
+59
+00:03:34,400 --> 00:03:37,950
+over het CSV bestand, en elke regel
+noemen we 'row'.
+
+60
+00:03:37,950 --> 00:03:41,540
+En dit is enorm zoals een for-loop
+in Python waar we een 
+
+61
+00:03:41,540 --> 00:03:45,930
+iterator 'i' hebben die eerst de waarde 1
+en dan 2 en dan 3 aanneemt,
+
+62
+00:03:45,930 --> 00:03:49,430
+dit is wat er gaat gebeuren met de rij.
+Dus wat gaan we doen met 
+
+63
+00:03:49,430 --> 00:03:53,770
+elke van deze rijen? We gaan iets 
+maken dat een film is,
+
+64
+00:03:53,770 --> 00:03:57,069
+we gaan een film maken en de naam van 
+deze film is
+
+65
+00:03:57,069 --> 00:04:02,209
+'row.movie'. Dat is de eerste 
+kolum, in dit geval alleen de eerste kolom
+
+66
+00:04:02,209 --> 00:04:04,540
+van het CSV bestand. Dus we kunnen dit
+
+67
+00:04:04,540 --> 00:04:07,910
+uitvoeren door op de "Play" knop te klikken
+en dan zegt Neo4J: okay,
+
+68
+00:04:07,910 --> 00:04:12,260
+ik heb vier nodes gemaakt. We weten nog niet
+echt 
+
+69
+00:04:12,260 --> 00:04:17,769
+wat er is gebeurd, maar er is iets gebeurd,
+want we hebben vier nodes gemaakt.
+
+70
+00:04:17,769 --> 00:04:20,310
+Dus wat we nu kunnen doen, is deze nodes
+
+71
+00:04:20,310 --> 00:04:24,190
+eruit halen. En ik ga niet uitleggen wat de 
+hele syntax is van deze taal, 
+
+72
+00:04:24,190 --> 00:04:27,520
+deze taal heet trouwens Cypher,
+ik ga gewoon wat simpele dingen laten zien
+
+73
+00:04:27,520 --> 00:04:32,030
+die je nodig zult hebben voor dit voorbeeld,
+maar online zullen we wat links zetten
+
+74
+00:04:32,030 --> 00:04:36,020
+naar de rest van het materiaal, waar je 
+alles kunt leren over Cypher.
+
+75
+00:04:36,020 --> 00:04:40,790
+Dus hoe halen we de nodes eruit?
+Er is een speciaal commando genaamd MATCH
+
+76
+00:04:40,790 --> 00:04:44,730
+en dat commando zoekt naar alle nodes
+Dus in dit geval zeggen we:
+
+77
+00:04:44,730 --> 00:04:48,680
+we matchen een node 'n', elk type nodes,
+
+78
+00:04:48,680 --> 00:04:51,510
+en geef dat aan ons terug. En nu zien we
+de vier
+
+79
+00:04:51,510 --> 00:04:53,700
+nodes die we hebben ingevoegd in de
+
+80
+00:04:53,700 --> 00:04:54,400
+database,
+
+81
+00:04:54,400 --> 00:04:59,260
+we zien dat het films zijn en dat ze 
+labels hebben die in het CSV bestand zaten.
+
+82
+00:04:59,260 --> 00:05:03,000
+We kunnen de layout een beetje aanpassen,
+we kunnen zeggen dat de labels
+
+83
+00:05:03,000 --> 00:05:07,060
+de naam van de film moeten zijn en 
+we kunnen spelene met de grootte van de nodes.
+
+84
+00:05:07,060 --> 00:05:10,440
+Dus nu is het makkelijker te zien dat we inderdaad
+de 4 films hebben 
+
+85
+00:05:10,440 --> 00:05:15,000
+in onze Neo4j database die ook zaten
+in onz CSV bestand.
+
+86
+00:05:15,000 --> 00:05:17,000
+Ze zijn hier, maar wat we ook kunnen zien
+
+87
+00:05:17,000 --> 00:05:19,160
+is dat dit een programma is voor grafen.
+
+88
+00:05:19,160 --> 00:05:22,590
+Als ik gewoon zeg: geef me alles dat in 
+deze database zit
+
+89
+00:05:22,590 --> 00:05:26,430
+dan is de neurale, de normale vorm geen lijst
+
+90
+00:05:26,430 --> 00:05:29,210
+zoals je zou verwachten in een normale database. Nee,
+het
+
+91
+00:05:29,210 --> 00:05:30,440
+zijn onze kleine cirkels,
+
+92
+00:05:30,440 --> 00:05:34,360
+de nodes in onze database. En dit toont ons
+dat we echt werken met een 
+
+93
+00:05:34,360 --> 00:05:35,780
+graafdatabase, iets dat 
+
+94
+00:05:35,780 --> 00:05:39,770
+geoptimaliseerd is voor denken over nodes. 
+Wat we nu 
+
+95
+00:05:39,770 --> 00:05:41,680
+ook moeten doen in aanvulling op de
+
+96
+00:05:41,680 --> 00:05:42,860
+films is de acteurs importeren.
+
+97
+00:05:42,860 --> 00:05:46,350
+En we kunnen opnieuw een LOAD CSV
+commando voor dat gebruiken
+
+98
+00:05:46,350 --> 00:05:50,070
+en nu maken we geen film, we maken een 
+acteur. En we doen dat echt
+
+99
+00:05:50,070 --> 00:05:54,240
+door te zeggen "maak een acteur", we gaan
+niet een label toevoegen
+
+100
+00:05:54,240 --> 00:05:57,810
+"dit is het type acteur", nee, we gaan echt
+zeggen "maak een acteur".
+
+101
+00:05:57,810 --> 00:06:01,530
+En dit klinkt misschien een beetje cryptisch,
+maat laat ik je laten zien hoe dat gaat,
+
+102
+00:06:01,530 --> 00:06:03,960
+als ik je alle nodes laat zien.
+
+103
+00:06:03,960 --> 00:06:06,820
+Aan het begin ziet alles er goed uit en je
+ziet dat
+
+104
+00:06:06,820 --> 00:06:09,479
+sommige inderdaad een acteur zijn en sommige een film.
+
+105
+00:06:09,479 --> 00:06:13,699
+Maar wat we kunnen doen, is opnieuw spelen met de
+layout. We kunnen zeggen:
+
+106
+00:06:13,699 --> 00:06:17,000
+we willen dat films groen zijn en dan zie je 
+
+107
+00:06:17,000 --> 00:06:21,979
+dat alle film nodes nu groen zijn, en
+we kunnen hetzelfde doen voor de acteurs.
+
+108
+00:06:21,979 --> 00:06:26,120
+Laten we zeggen dat we acteurs roze willen maken,
+En nu zien we dat we echt twee 
+
+109
+00:06:26,120 --> 00:06:29,690
+verschillende types nodes in onze
+database hebben,
+
+110
+00:06:29,690 --> 00:06:32,050
+films en acteurs.
+
+111
+00:06:33,260 --> 00:06:34,960
+Dus natuurlijk, de volgende stap
+
+112
+00:06:34,960 --> 00:06:38,430
+die we moeten uitvoeren, nu we de
+films en de acteurs in onze database hebben,
+
+113
+00:06:38,430 --> 00:06:42,050
+is het maken van een verbinding. Dus wederom, we
+slaan het
+
+114
+00:06:42,050 --> 00:06:47,320
+derde werkblad op in ons spreadsheet
+als een CSV bestand, waar we nu twee kolommen
+
+115
+00:06:47,320 --> 00:06:47,900
+hebben.
+
+116
+00:06:47,900 --> 00:06:52,270
+Eentje heet 'fullnaam' en eentje heet
+'movie'.
+
+117
+00:06:52,270 --> 00:06:55,040
+En wederom gebruiken we het MATCH commando.
+
+118
+00:06:55,040 --> 00:07:00,430
+Eerst laen we het CSV bestand, we
+weten dit nu, als een rij uit het CSV bestand,
+
+119
+00:07:00,430 --> 00:07:04,000
+maar we gaan nu matchen op elke kolom, het 
+eerste item
+
+120
+00:07:04,000 --> 00:07:08,780
+met een acteur en het tweede item met een
+film en dit is hoe dat er uit ziet.
+
+121
+00:07:09,080 --> 00:07:11,660
+En nu zeggen we MATCH...
+
+122
+00:07:12,509 --> 00:07:15,590
+Ja, we zeggen MATCH...
+
+123
+00:07:15,590 --> 00:07:19,580
+Daar is het, we zeggen MATCH, we gaan
+matchen
+
+124
+00:07:19,580 --> 00:07:23,690
+een 'a' is een acteur en waar gaan we
+het mee matchen?
+
+125
+00:07:23,690 --> 00:07:27,389
+Nou, de naam, de volledige naam van de
+acteur, moet gelijk zijn aan
+
+126
+00:07:27,389 --> 00:07:32,740
+de naam die in de rij van ons 
+CSV bestand staat.
+
+127
+00:07:32,740 --> 00:07:36,680
+Dus die heet ook "full naam", dus in het
+eerste geval de acteur waar we het 
+
+128
+00:07:36,680 --> 00:07:39,280
+eerst een verbinding voor maken is Kevin
+Bacon
+
+129
+00:07:39,280 --> 00:07:42,840
+en de film Crazy Stupid Love. Dus deze
+eerste match regel
+
+130
+00:07:42,840 --> 00:07:47,930
+gaat zoeken naar de acteur in de eerste 
+regel en de tweede match die
+
+131
+00:07:47,930 --> 00:07:49,139
+ik nu maak,
+
+132
+00:07:49,139 --> 00:07:54,740
+zegt: ik match een film en de naam
+van de film die gelijk moeten zijn aan de
+
+133
+00:07:54,740 --> 00:07:55,650
+movie kolom
+
+134
+00:07:55,650 --> 00:07:59,669
+in myn CSV bestand, de tweede kolom, na 
+de komma.
+
+135
+00:07:59,669 --> 00:08:03,020
+Dus wat de eerste twee dingen doen is het
+vinden van een acteur
+
+136
+00:08:03,020 --> 00:08:06,870
+en het vinden van een film. Dus als ik deze heb,
+is wat ik wil doen het volgende,
+
+137
+00:08:06,870 --> 00:08:10,460
+ik wil een connectie maken tussen deze twee en
+ik doe dit met een CREATE.
+
+138
+00:08:10,460 --> 00:08:13,550
+zoals ik zei 'maak een acteur' en 
+'maak een film',
+
+139
+00:08:13,550 --> 00:08:17,919
+maak ik nu een verbinding van 'a', de acteur,
+
+140
+00:08:17,919 --> 00:08:20,820
+naar 'm', de film, en ik geef die connectie
+
+141
+00:08:20,820 --> 00:08:23,440
+een naam. Ik noem hem 'acted', dus
+
+142
+00:08:23,440 --> 00:08:27,380
+'a speelde in m', Kevin Bacon speelde in
+
+143
+00:08:27,380 --> 00:08:30,960
+Crazy Stupid Love. En als ik deze
+CREATE uitvoer,
+
+144
+00:08:30,960 --> 00:08:36,029
+dan, zegt Neo4J opnieuw: okay, ik heb 
+een aantal verbindingen gemaakt.
+
+145
+00:08:36,029 --> 00:08:39,729
+Dus laten we eens kijken hoe dit 
+eigenlijk is gevisualiseerd.
+
+146
+00:08:39,729 --> 00:08:41,469
+Als ik gewoon hetzelfde
+
+147
+00:08:41,469 --> 00:08:43,879
+'toon me alle nodes', dan krijg ik een graaf
+
+148
+00:08:43,879 --> 00:08:47,389
+meteen. Dus als ik gewoon mijn data erin stop
+
+149
+00:08:47,389 --> 00:08:48,850
+en ik zeg tegen Neo4J
+
+150
+00:08:48,850 --> 00:08:53,689
+geef me de data, dit is what ik krijg. 
+Het is meteen gevisualiseerd als een graaf
+
+151
+00:08:53,689 --> 00:08:57,920
+en je kan zien, natuurlijk zien we het nu, 
+Kevin Bacon heeft gespeeld in Crazy
+
+152
+00:08:57,920 --> 00:08:59,399
+Stupid Love met
+
+153
+00:08:59,399 --> 00:09:03,119
+Julianne Moore. Het staat allemala hier en
+ziet er erg veel uit
+
+154
+00:09:03,119 --> 00:09:06,550
+als het plaatje dat we hadden in de vorige
+video dat we getekend hebben op het
+
+155
+00:09:06,550 --> 00:09:07,410
+schoolbord,
+
+156
+00:09:07,410 --> 00:09:13,089
+we hebben meteen een graaf. Dus we zijn er
+bijna, we hebben de goede representatie
+
+157
+00:09:13,089 --> 00:09:13,670
+nu,
+
+158
+00:09:13,670 --> 00:09:16,790
+maar nu, natuurlijk, we willen nu de 
+berekening uitvoeren
+
+159
+00:09:16,790 --> 00:09:22,550
+van het Bacon getal. Dus ik laat je zien
+hoe dat gaat, als je Neo4J gebruikt.
+
+160
+00:09:22,550 --> 00:09:25,139
+Dus wat we willen doen, is het berekenen
+
+161
+00:09:25,139 --> 00:09:29,189
+van een pad door de graaf, het aantal
+stappen zoals we eerder deden
+
+162
+00:09:29,189 --> 00:09:31,600
+Delft, Rotterdam, Groningen, nu willen we
+
+163
+00:09:31,600 --> 00:09:33,209
+van Kevin Bacon
+
+164
+00:09:33,209 --> 00:09:37,769
+naar Julianne Moore. Dus we gaan weer matchen,
+we zoeken in onze database, maar nu
+
+165
+00:09:37,769 --> 00:09:40,100
+zoeken we niet naar een node, we zoeken 
+
+166
+00:09:40,100 --> 00:09:43,679
+een pad door de nodes van een acteur
+
+167
+00:09:43,679 --> 00:09:47,369
+met de naam Kevin Bacon naar een andere
+acteur
+
+168
+00:09:47,369 --> 00:09:50,639
+met geen specifieke naam. We weten niet
+welke naam we zoeken en
+
+169
+00:09:50,639 --> 00:09:55,519
+hoe dat pad eruit ziet.
+Tja, het moeten twee sprongen zijn,
+
+170
+00:09:55,519 --> 00:09:58,819
+een actor, een film, een andere acteur. 
+En wat willen
+
+171
+00:09:58,819 --> 00:09:59,899
+daarvoor terug?
+
+172
+00:09:59,899 --> 00:10:03,929
+Als we een pad gevonden hebben van Kevin
+Bacon naar een andere acteur,
+
+173
+00:10:03,929 --> 00:10:08,139
+willen we graag de naam van de andere
+acteur en als we dit uitvoeren
+
+174
+00:10:08,139 --> 00:10:12,189
+krijgen we inderdaad alle acteurs die Bacon
+getal twee hebben,
+
+175
+00:10:12,189 --> 00:10:16,420
+die zijn één sprong weg of in deze
+visualisatie twee sprongen weg
+
+176
+00:10:16,420 --> 00:10:19,429
+van Kevin Bacon. We kunnen hetzelfde
+doen
+
+177
+00:10:19,429 --> 00:10:24,170
+foor iedereen met Bacon getal 3,
+want dan hebben we vier sprongen.
+
+178
+00:10:24,170 --> 00:10:27,129
+Het werkt. Het is makkelijk om te
+doen met Neo4j.
+
+179
+00:10:27,129 --> 00:10:31,369
+Het enige probleem dat we hier hebben, is
+dat Scarlett Johansson
+
+180
+00:10:31,369 --> 00:10:36,019
+twee keer voorkomt, omdat er twee manieren zijn
+dat we bij haar kunnen komen vanaf Kevin Bacon.
+
+181
+00:10:36,019 --> 00:10:37,279
+En dit kunnen we oplossen
+
+182
+00:10:37,279 --> 00:10:41,449
+met een zeer vergelijkbare constructie die we
+hebben gebruikt een tijd geleden in de 
+
+183
+00:10:41,449 --> 00:10:42,410
+draaitabellen video,
+
+184
+00:10:42,410 --> 00:10:46,249
+de DISTINCT. En als we dat toevoegen, krijgen we
+slechts twee
+
+185
+00:10:46,249 --> 00:10:49,749
+acteurs met een Bacon getal 3. Dus
+je ziet dat het gewoon
+
+186
+00:10:49,749 --> 00:10:53,759
+een regel is en dan krijgen we iedereen met
+Bacon getal 2,
+
+187
+00:10:53,759 --> 00:10:54,399
+iedereen met Bacon
+
+188
+00:10:54,399 --> 00:10:58,899
+getal 3, dit is al vrij bijzonder,
+maar we kunnen het nog beter doen dan dat.
+
+189
+00:10:58,899 --> 00:10:59,879
+We kunnen alle 
+
+190
+00:10:59,879 --> 00:11:03,420
+Bacon getallen berekenen van iederen met 
+maar één regel
+
+191
+00:11:03,420 --> 00:11:08,499
+Cypher code. Dus dit is wat we gaan
+doen, we zeggen dat we
+
+192
+00:11:08,499 --> 00:11:11,350
+het korste pad willen en het 
+kortste pad is 
+
+193
+00:11:11,350 --> 00:11:15,800
+is niet een functie die ik heb gemaakt,
+dit is een ingebouwde functie van 
+
+194
+00:11:15,800 --> 00:11:17,730
+Cypher. Dus we gaan zeggen:
+
+195
+00:11:17,730 --> 00:11:22,660
+geef me het korste pad vanaf die node die matched
+met Kevin Bacon, we hebben dat in 
+
+196
+00:11:22,660 --> 00:11:24,629
+eerdere vragen ook gezien,
+
+197
+00:11:24,629 --> 00:11:30,360
+en wat ik wil is alleen de ster, dus
+niet twee stappen of vier stappen of 
+
+198
+00:11:30,360 --> 00:11:34,759
+100 stappen, een aantal stappen. Het
+maakt ons niet uit, dat is wat de kleine
+
+199
+00:11:34,759 --> 00:11:36,069
+ster aangeeft,
+
+200
+00:11:36,069 --> 00:11:40,079
+en wat we terug willen krijgen is,
+wederom, de naam van de acteur,
+
+201
+00:11:40,079 --> 00:11:43,959
+maar wat we ook willen, omdat we dit
+pad een naam hebben gegeven
+
+202
+00:11:43,959 --> 00:11:47,550
+'p', de lengte van dit pad. TADA!
+
+203
+00:11:47,550 --> 00:11:52,319
+En nu krijgen we inderdaad: Kevin Bacon heeft 0,
+omdat het pad van
+
+204
+00:11:52,319 --> 00:11:57,670
+hem naar hem nul is en mensen met 
+Bacon getal 2
+
+205
+00:11:57,670 --> 00:12:00,059
+hebben twee sprongen en Bacon getal 3
+
+206
+00:12:00,059 --> 00:12:03,059
+hebben vier sprongen. Dus we zijn er bijna,
+we willen alleen dat
+
+207
+00:12:03,059 --> 00:12:04,899
+Kevin Bacon het getal 1 heeft en alle
+
+208
+00:12:04,899 --> 00:12:06,179
+anderen moeten 
+
+209
+00:12:06,179 --> 00:12:10,639
+twee stappen als een stap laten tellen. 
+Dus als we het door twee delen en één bij optellen,
+
+210
+00:12:10,639 --> 00:12:14,059
+hebben we alle Bacon getallen voor iedereen,
+
+211
+00:12:14,059 --> 00:12:16,999
+maakt niet uit hoe lang het pad is, in
+
+212
+00:12:16,999 --> 00:12:21,279
+maar één regel Cypher. Is dat niet cool?
+Herinner je dat we vorige week ongeveer
+
+213
+00:12:21,279 --> 00:12:25,879
+25 array formules nodig hadden, voor alle
+acteurs hadden we nog steeds 
+
+214
+00:12:25,879 --> 00:12:32,629
+20, 25 regels Python nodig en hier
+kunnen we het doen met één regel Cypher.
+
+215
+00:12:32,629 --> 00:12:35,239
+Dus begrijp me niet verkeerd, dit is niet een
+Neo4J
+
+216
+00:12:35,239 --> 00:12:39,230
+advertentie, ik zet niet dat Neo4j
+beter is dan Python of 
+
+217
+00:12:39,230 --> 00:12:41,239
+beter is dan Excel.
+
+218
+00:12:41,239 --> 00:12:43,899
+For sommige problemen die heel erg
+graaf-achtig zijn,
+
+219
+00:12:43,899 --> 00:12:47,220
+is Neo4j een hele goede oplossing,
+maar
+
+220
+00:12:47,220 --> 00:12:50,449
+zoals de tang voor slakken, is het heel specifiek.
+
+221
+00:12:50,449 --> 00:12:55,850
+Je kan het niet gebruiken voor plannen
+of budgetering. Het is voor één specifiek doel.
+
+222
+00:12:55,850 --> 00:12:59,410
+Dus wat ik hoop dat je meeneemt uit deze
+week en de video's van vorige weken,
+
+223
+00:12:59,410 --> 00:13:02,819
+is dat je some niet meteen moet rennen
+
+224
+00:13:02,819 --> 00:13:05,319
+naar onse spreadsheet. Natuurlijk
+in
+
+225
+00:13:05,319 --> 00:13:06,600
+de eerste zes weken
+
+226
+00:13:06,600 --> 00:13:07,360
+heb ik je alles laten
+
+227
+00:13:07,360 --> 00:13:11,089
+wat je moeten weten over 
+spreadsheets, en je kan zoveel, zoveel dingen
+
+228
+00:13:11,089 --> 00:13:11,980
+ermee doen.
+
+229
+00:13:11,980 --> 00:13:15,540
+Maar soms is het ook een goede strategie
+om gewoon
+
+230
+00:13:15,540 --> 00:13:18,679
+een stap weg te doen van de spreadsheet. Ga niet
+naar je computer,
+
+231
+00:13:18,679 --> 00:13:23,259
+denk eerst over het probleem, gaan naar
+een whiteboard en soms kun je een gereedschap
+
+232
+00:13:23,259 --> 00:13:27,470
+gebruiken die beter geschikt is voor een klein
+deel van ons probleem.
+
+233
+00:13:27,470 --> 00:13:30,519
+Dus als je ooit een Bacon getal moet
+uitrekenen,
+
+234
+00:13:30,519 --> 00:13:35,089
+weet je nu dat Neo4J, of een andere 
+graafdatabase, wellicht een betere oplossing
+
+235
+00:13:35,089 --> 00:13:36,070
+is dan een spreadsheet.
+

@@ -1,0 +1,243 @@
+1
+00:00:00,520 --> 00:00:04,000
+Misschien gebruiken we al die tijd al het
+verkeerde programma,
+
+2
+00:00:04,000 --> 00:00:06,670
+dus laat me een ander programma tonen met 
+
+3
+00:00:06,670 --> 00:00:10,809
+een nieuw voorbeeld. Wat je hier ziet
+is een kaart
+
+4
+00:00:10,809 --> 00:00:15,949
+van Nederland. Hier zijn wij, we zijn in 
+Delft.
+
+5
+00:00:15,949 --> 00:00:17,769
+Stel dat ik de trein wil nemen
+
+6
+00:00:17,769 --> 00:00:22,599
+van Delft naar Groningen, dat is hier.
+
+7
+00:00:22,599 --> 00:00:26,000
+En er is geen directe treinverbinding,
+dat kunnen we zien op de kaart,
+
+8
+00:00:26,000 --> 00:00:29,160
+want de treinen zijn de zwarte lijnen op 
+de kaart
+
+9
+00:00:29,160 --> 00:00:32,329
+en er is geen directe treinverbinding
+van Delft naar Groningen.
+
+10
+00:00:32,329 --> 00:00:36,270
+Dus hoe ga ik dan deze reis maken? 
+Ik heb twee verschillende opties:
+
+11
+00:00:36,270 --> 00:00:39,820
+Of ik ga naar Leiden treinen, 
+dat is hier, 
+
+12
+00:00:39,820 --> 00:00:44,020
+of ik neem de trein naar Rotterdam, dat
+is hier, 
+
+13
+00:00:44,020 --> 00:00:46,730
+en van daar neem ik de directe trein
+
+14
+00:00:46,730 --> 00:00:50,510
+naar Groningen, dus, of ik ga via deze weg
+
+15
+00:00:50,510 --> 00:00:54,710
+of ik ga via die weg. En ik wil berekenen 
+wat de beste 
+
+16
+00:00:54,710 --> 00:00:58,830
+optie is, ik moet ook gewichten aan mijn 
+pijlen toekennen. 
+
+17
+00:00:58,830 --> 00:01:01,370
+Dus deze van Delft naar Leiden kost me
+
+18
+00:01:01,370 --> 00:01:05,040
+21 minuten, van Delft naar Rotterdam, 
+
+19
+00:01:05,040 --> 00:01:08,080
+duurt 12 minuten. En dan van 
+
+20
+00:01:08,080 --> 00:01:12,430
+Rotterdam naar Groningen is twee uur en 
+
+21
+00:01:12,430 --> 00:01:15,830
+39 minuten en deze 
+
+22
+00:01:15,830 --> 00:01:20,100
+duurt twee uur en 28 minuten. Dus ik 
+kan 
+
+23
+00:01:20,100 --> 00:01:23,210
+mijn totale reistijd berekenen door 
+deze twee op te tellen
+
+24
+00:01:23,210 --> 00:01:27,370
+en deze twee en in deze weergave
+
+25
+00:01:27,370 --> 00:01:31,500
+heb ik zelfs geen kaart meer nodig. 
+Ik heb alleen mijn diagram (graph),
+
+26
+00:01:31,500 --> 00:01:34,580
+mijn lijnen en mijn knopen met al de 
+getallen daaraan verbonden,
+
+27
+00:01:34,580 --> 00:01:41,580
+Ik kan de hele kaart gewoon 
+weggooien. Daar gaan we!
+
+28
+00:01:42,030 --> 00:01:45,240
+En dit is een correcte weergave van 
+mijn probleem.
+
+29
+00:01:45,240 --> 00:01:49,659
+Ik heb een knoop Leiden, Rotterdam, Delft
+
+30
+00:01:49,659 --> 00:01:53,380
+en Groningen, en ik heb ze 
+verbonden met pijlen
+
+31
+00:01:53,380 --> 00:01:56,490
+deze, die en die twee en die pijlen
+
+32
+00:01:56,490 --> 00:02:00,979
+hebben gewichten. En dit noemen we een diagram 
+(graph), een representatie van het probleem
+
+33
+00:02:00,979 --> 00:02:04,510
+in termen van knopen en pijlen.
+
+34
+00:02:04,510 --> 00:02:07,920
+En natuurlijk heb je al bedacht dat we 
+ditzelfde scenario
+
+35
+00:02:07,920 --> 00:02:12,430
+ook kunnen gebruiken om ons Baconvraagstuk
+te analyseren.
+
+36
+00:02:12,430 --> 00:02:16,379
+Laten we eens naar het Baconvraagstuk kijken,
+hoe het eruit ziet in een spreadsheet.
+
+37
+00:02:16,379 --> 00:02:19,409
+We hebben acteurs en films en acteurs
+
+38
+00:02:19,409 --> 00:02:22,920
+die in films hebben gespeeld, en ik kan 
+dit probleem ook weergeven
+
+39
+00:02:22,920 --> 00:02:26,430
+in een diagram, net zoals ik dat deed
+met de kaart van Nederland.
+
+40
+00:02:26,430 --> 00:02:29,389
+Ik kan zeggen: Hier is Kevin Bacon en hij
+heeft gespeeld in
+
+41
+00:02:29,389 --> 00:02:32,900
+de film 'Crazy Stupid Love'. Ik teken 
+een lijn
+
+42
+00:02:32,900 --> 00:02:36,359
+tussen de acteur en de film. En ik kan dit
+herhalen.
+
+43
+00:02:36,359 --> 00:02:39,579
+Ik kan Emma Stone en Julianne Moore toevoegen
+
+44
+00:02:39,579 --> 00:02:44,340
+omdat zij ook gespeeld hebben in 'Crazy 
+Stupid Love'. En ik kan hiermee doorgaan
+
+45
+00:02:44,340 --> 00:02:48,790
+en ons hele vraagstuk in een diagram zetten: 
+
+46
+00:02:48,790 --> 00:02:52,319
+Wie heeft in welke film gespeeld? en 
+omdat we het weergeven als een 
+
+47
+00:02:52,319 --> 00:02:53,219
+diagram,
+
+48
+00:02:53,219 --> 00:02:56,379
+kun je onmiddelijk zien, dat ons beeld
+van het probleem veranderd,
+
+49
+00:02:56,379 --> 00:02:59,700
+omdat het nu heel makkelijk wordt om
+de Bacon afstand
+
+50
+00:02:59,700 --> 00:03:04,930
+te berekenen van Bacon naar een andere
+acteur, omdat we gewoon 
+
+51
+00:03:04,930 --> 00:03:04,939
+
+52
+00:03:04,939 --> 00:03:08,340
+de lijnen in het diagam (graph) gaan 
+doorlopen en dat gaan we ontdekken 
+
+53
+00:03:08,340 --> 00:03:09,269
+in de volgende video.
