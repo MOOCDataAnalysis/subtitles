@@ -14,7 +14,7 @@ weeks have been
 
 4
 00:00:10,349 --> 00:00:15,960
-as cool for you as they were for us we
+as cool for you as they were for us. We
 had almost 30,000 people joining us from
 
 5
@@ -23,7 +23,7 @@ had almost 30,000 people joining us from
 
 6
 00:00:18,470 --> 00:00:22,330
-it was amazing it was so great to see
+it was amazing, it was so great to see
 all of your Excelfies,
 
 7
@@ -34,7 +34,7 @@ right here in Delft, but also in Austria,
 8
 00:00:26,619 --> 00:00:31,650
 in Texas and even in Gotham City. We got
-so many Excelfies
+so many Excelfies,
 
 9
 00:00:31,650 --> 00:00:35,850
@@ -54,11 +54,11 @@ it out and
 12
 00:00:42,469 --> 00:00:46,480
 hang it on your wall or zoom in to see
-if your Excelfie is also on there
+if your Excelfie is also on there.
 
 13
 00:00:46,480 --> 00:00:49,860
-and even though not all homework deadlines
+And even though not all homework deadlines
 have passed
 
 14
@@ -72,12 +72,12 @@ assignments. It was so interesting for us
 
 16
 00:00:58,050 --> 00:01:00,460
-to see you working on the exercises
+to see you working on the exercises,
 
 17
 00:01:00,460 --> 00:01:04,019
 asking questions on the forum and
-submitting the results to us
+submitting the results to us,
 
 18
 00:01:04,019 --> 00:01:07,159
@@ -95,12 +95,12 @@ labs were like this
 21
 00:01:12,530 --> 00:01:17,740
 people mixing chemicals in the lab, but
-our spreadsheet lab actually is like this.
+our spreadsheet lab is actually like this.
 
 22
 00:01:17,740 --> 00:01:22,000
 We're just working on a computer, but
-we're still doing research and we were
+we're still doing research and we are
 
 23
 00:01:22,000 --> 00:01:25,240
@@ -109,7 +109,7 @@ that you submitted
 
 24
 00:01:25,240 --> 00:01:29,780
-to improve our spreadsheetanalysis algorithm.
+to improve our spreadsheet analysis algorithm.
 So a really big thank you for
 
 25
@@ -133,13 +133,13 @@ with that data,
 
 29
 00:01:43,040 --> 00:01:46,820
-please go to the web site we will post
-the link here below the video
+please go to the website, we will post
+the link here below the video,
 
 30
 00:01:46,820 --> 00:01:51,020
 you can register for the newsletter of the
-spreadsheet lab an we'll keep you posted
+spreadsheet lab and we'll keep you posted
 
 31
 00:01:51,020 --> 00:01:54,600
@@ -153,5 +153,5 @@ and I really hope to see you again
 
 33
 00:02:00,329 --> 00:02:03,040
-in an another MOOC on EdX.
+in an another MOOC on EdX. Bye!
 
