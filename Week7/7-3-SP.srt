@@ -1,0 +1,384 @@
+1
+00:00:00,659 --> 00:00:03,350
+En el vídeo anterior hemos calculado
+el número de Bacon, lo cual 
+
+2
+00:00:03,350 --> 00:00:07,660
+es posible en Excel, pero nos lleva
+mucho tiempo.
+
+3
+00:00:07,660 --> 00:00:11,660
+No me preocupa admitir que a mi me ha llevado
+cinco horas alcanzar esta 
+
+4
+00:00:11,660 --> 00:00:15,620
+solución, y eso que soy bastante 
+hábil con Excel,
+
+5
+00:00:15,620 --> 00:00:20,289
+Así que esta no es la solución que deseamos.
+En realidad, espero que 
+
+6
+00:00:20,289 --> 00:00:26,039
+en su mente tenga algo como
+esto: WIIIIEEEEE, ¡la alarma sin Excel!
+
+7
+00:00:26,039 --> 00:00:29,420
+si en su vida diaria, está
+construyendo una solución
+
+8
+00:00:29,420 --> 00:00:33,350
+que necesita más de 10 VLOOKUPs
+para funcionar, 
+
+9
+00:00:33,350 --> 00:00:36,820
+entonces, algo está apagado. En este caso, 
+realmente deberías estar pensando:
+
+10
+00:00:36,820 --> 00:00:40,649
+Estoy usando la herramienta adecuada 
+para el trabajo?, ¿todavía es ésta
+
+11
+00:00:40,649 --> 00:00:44,660
+la mejor manera de hacerlo? Así que, por
+supuesto, surge la pregunta
+
+12
+00:00:44,660 --> 00:00:48,559
+¿qué debemos utilizar? ¿Cual es la mejor 
+herramienta para usar?
+
+13
+00:00:48,559 --> 00:00:52,680
+¿Una hoja de cálculo? ¿y programación?
+
+14
+00:00:52,680 --> 00:00:57,120
+Si utiliza un lenguaje de programación no es
+más fácil, porque con la programación
+
+15
+00:00:57,120 --> 00:00:58,550
+no está limitado a las filas
+
+16
+00:00:58,550 --> 00:01:03,140
+y columnas de Excel, puedes hacer 
+lo que quieras.
+
+17
+00:01:03,140 --> 00:01:08,500
+Esta podría ser una buena solución para un problema 
+para el que Excel no sea del todo adecuado.
+
+18
+00:01:08,500 --> 00:01:12,080
+Sin embargo, soy un poco como un Hobbit,
+
+19
+00:01:12,080 --> 00:01:16,550
+Me gusta permanecer en mi cómoda Comarca,
+No quiero dejar mi confortable
+
+20
+00:01:16,550 --> 00:01:21,110
+hogar Excel, para ir a un lenguaje de 
+programación con el que no
+ estoy
+
+21
+00:01:21,110 --> 00:01:27,070
+familiarizado. De hecho, podríamos usar VB.
+
+22
+00:01:27,070 --> 00:01:30,850
+Visual Basic para aplicaciones, es un
+lenguaje de programación que se encuentra
+
+23
+00:01:30,850 --> 00:01:35,380
+directamente integrado en Excel, es probable
+que hayas trabajado con él antes, 
+
+24
+00:01:35,380 --> 00:01:38,040
+y lo puedes utilizar como un 
+lenguaje de programación para 
+
+25
+00:01:38,040 --> 00:01:41,310
+automatizar tu hoja de cálculo, 
+para calcular cosas 
+
+26
+00:01:41,310 --> 00:01:43,590
+que no puedes hacer con una fórmula.
+esta es una posibilidad,
+
+27
+00:01:43,590 --> 00:01:45,160
+si has estado trabajando con VB 
+
+28
+00:01:45,160 --> 00:01:46,380
+anteriormente.
+
+29
+00:01:46,380 --> 00:01:49,820
+Le reto otra vez, a intentar resolver
+el puzzle Bacon
+
+30
+00:01:49,820 --> 00:01:52,920
+con VB, esto debería ser mucho más fácil
+
+31
+00:01:52,920 --> 00:01:58,570
+que usando fórmulas normales. No obstante,
+este no es lo que vamos a usar en este curso.
+
+32
+00:01:58,570 --> 00:02:01,900
+Lo que vamos a usar para automatizar nuestra 
+hoja de cálculo, es un lenguaje llamado
+
+33
+00:02:01,900 --> 00:02:07,180
+Python, Así que, ¿por qué Python? Una de las 
+razones es por las que me gusta utilizar Python
+
+34
+00:02:07,180 --> 00:02:09,850
+es porque actualmente es el número uno
+de los lenguajes de programación
+
+35
+00:02:09,850 --> 00:02:12,410
+impartido en las universidades. 
+Así que, dentro de pocos años
+
+36
+00:02:12,410 --> 00:02:16,330
+habrá muchas personas en todo el mundo
+que sepan realmente cómo programar
+
+37
+00:02:16,330 --> 00:02:17,710
+en Python.
+
+38
+00:02:17,710 --> 00:02:21,130
+Es un lenguaje muy fácil de aprender,
+lo podrás ver en los ejemplos 
+
+39
+00:02:21,130 --> 00:02:25,270
+de este vídeo, su sintaxis, la forma en la
+que escribes en un lenguaje de programación,
+
+40
+00:02:25,270 --> 00:02:30,300
+es muy fácil, también hay un pequeño 
+ecosistema alrededor de Python, que significa 
+
+41
+00:02:30,300 --> 00:02:30,630
+que en el mundo, hay  una gran cantidad 
+de programas,
+
+42
+00:02:30,630 --> 00:02:34,940
+llamados librerías, 
+
+43
+00:02:34,940 --> 00:02:38,140
+para solucionar los problemas, y en el caso de
+que usted tenga esos problemas
+
+44
+00:02:38,140 --> 00:02:41,910
+no necesita escribir usted mismo en Python,
+solamente necesita usar los programas
+
+45
+00:02:41,910 --> 00:02:45,280
+que otras personas han desarrollado. 
+Todas estas son razones
+
+46
+00:02:45,280 --> 00:02:50,370
+por las que yo prefiero Python a VBA, pero VBA
+también es un buen lenguaje de programación
+
+47
+00:02:50,370 --> 00:02:53,530
+que ciertamente puedes usar en este 
+tipo de problemas.
+
+48
+00:02:54,080 --> 00:02:56,460
+No obstante, si quieres utilizar Python,
+
+49
+00:02:56,470 --> 00:03:00,520
+¿tengo que alejarme de mi hoja de hogar 
+de hoja de cálculo? Puedes.
+
+50
+00:03:00,520 --> 00:03:05,470
+Puedes usar Python totalmente separado de Excel,
+en cuyo caso, tendrás que aprender mucho, 
+
+51
+00:03:05,470 --> 00:03:11,340
+tienes que exportar los datos, desde la
+hoja de cálculo, a un fichero de texto, así que....
+
+52
+00:03:11,340 --> 00:03:14,490
+Yo no quiero hacerlo. Yo lo que quiero 
+es tener Python en Excel, 
+
+53
+00:03:14,490 --> 00:03:17,520
+ambos. Afortunadamente existe una solución.
+
+54
+00:03:17,520 --> 00:03:23,100
+Hay un programa guay que se llama DataNitro
+que le permite utilizar Python
+
+55
+00:03:23,100 --> 00:03:28,860
+en Excel. Al igual que BVA, simplemente puede
+programar su hoja de cálculo con Python.
+
+56
+00:03:29,420 --> 00:03:32,560
+Desafortunadamente, esta solución solamente
+está disponible para Windows, 
+
+57
+00:03:32,560 --> 00:03:37,060
+pero existen alternativas para Mac  y para
+Linux, pondré enlaces a las alternativas
+
+58
+00:03:37,060 --> 00:03:40,069
+en las páginas del curso. 
+Así que vamos a tratar de usar
+
+59
+00:03:40,069 --> 00:03:44,290
+DataNitro, aquí puedes ver, si 
+tienes buen ojo
+
+60
+00:03:44,290 --> 00:03:48,150
+en las imágenes de uno de los vídeos 
+anteriores, has visto que 
+
+61
+00:03:48,150 --> 00:03:53,400
+había un plugin DataNitro. Por lo tanto, 
+esta justo ahí en Excel,
+
+62
+00:03:53,400 --> 00:03:57,420
+y si vamos a él, si vamos a la
+hoja de trabajo, 
+
+63
+00:03:57,420 --> 00:04:01,790
+si hace click en el Python Shell, consigue
+algo así cómo un calculador en el que 
+
+64
+00:04:01,790 --> 00:04:04,209
+usted puede escribir fórmulas, como 
+3 + 5,
+
+65
+00:04:04,209 --> 00:04:08,250
+al igual que se pueden escribir fórmulas en 
+Excel, pero también se puede referir a
+
+66
+00:04:08,250 --> 00:04:12,160
+la hoja de datos. Podemos hacer algo
+como C2 + 5,
+
+67
+00:04:12,160 --> 00:04:16,959
+pero no hacemos C2 como la hacíamos en Excel,
+aquí tienes que llamar directamente 
+
+68
+00:04:16,959 --> 00:04:18,389
+al valor. Así que ya ves, 
+
+69
+00:04:18,389 --> 00:04:21,910
+digamos, dame el valor de la celda C",
+el valor, 
+
+70
+00:04:21,910 --> 00:04:25,090
+y añádele 5. Y no es sólo la lectura, 
+
+71
+00:04:25,090 --> 00:04:25,570
+también podemos
+
+72
+00:04:25,570 --> 00:04:29,950
+escribir en la hoja de datos, como me ves
+hacerlo a mi aquí. Vamos a poner "¡Hello!"
+
+73
+00:04:29,950 --> 00:04:33,870
+en A1 y entonces ves que, no solamente
+ha cambiado A1,
+
+74
+00:04:33,870 --> 00:04:37,600
+sino que también han cambiado todos los valores
+que dependen de ella. Si cambiamos un valor,
+
+75
+00:04:37,600 --> 00:04:41,540
+la hoja de cálculo entra en acción, y
+todo es recalculado.
+
+76
+00:04:41,540 --> 00:04:45,220
+Pero, vamos a volver rápidamente a Kevin
+Bacon, de lo contrario, nuestro agradable
+
+77
+00:04:45,220 --> 00:04:48,060
+calculador Bacon está estropeado.
+
+78
+00:04:48,060 --> 00:04:51,870
+Por lo tanto, esta podría ser una buena
+solución que nos podría  ayudar
+
+79
+00:04:51,870 --> 00:04:56,470
+a resolver el problema de Bacon con Python,
+y esto es lo que vamos a hacer
+
+80
+00:04:56,470 --> 00:04:57,690
+en el vídeo siguiente.
