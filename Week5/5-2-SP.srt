@@ -1,0 +1,253 @@
+1
+00:00:00,929 --> 00:00:04,830
+Fórmulas matriz. Hemos visto cómo analizar
+
+2
+00:00:04,830 --> 00:00:08,750
+la calidad de los exámenes. Así que
+no estamos mirando necesariamente a
+
+3
+00:00:08,750 --> 00:00:12,240
+la calidad de los estudiantes, estamos 
+mirando qué preguntas en nuestro examen
+
+4
+00:00:12,240 --> 00:00:15,710
+contribuyen a las marcas finales.
+Pienso que podemos decir 
+
+5
+00:00:15,710 --> 00:00:20,200
+que hemos llegado
+a la conclusión de que la pregunta
+2 no ayuda realmente a este fin, 
+
+6
+00:00:20,200 --> 00:00:23,760
+no difiere de la pregunta 1. Así que,
+podemos limpiar el contenido y
+
+7
+00:00:23,760 --> 00:00:26,900
+tirar todo por la borda. Pero
+
+8
+00:00:26,900 --> 00:00:30,890
+esto no es lo que yo quiero. manualmente
+introduje todos los valores, así que
+
+9
+00:00:30,890 --> 00:00:31,850
+quiero conservar los valores, 
+
+10
+00:00:31,850 --> 00:00:35,590
+pero todavía quiero tener la capacidad 
+de analizar.
+
+11
+00:00:35,590 --> 00:00:38,100
+Podría filtrar, pero
+
+12
+00:00:38,100 --> 00:00:42,820
+la forma en la que el filtrado funciona 
+en Excel es que, solo se puede filtrar en
+esta dirección,
+
+13
+00:00:42,820 --> 00:00:46,440
+solamente podemos filtrar filas, no
+podemos filtrar columnas.
+
+14
+00:00:46,440 --> 00:00:50,340
+Y eso es exactamente lo que quiero, porque
+quiero filtrar una pregunta y
+
+15
+00:00:50,340 --> 00:00:51,560
+no quiero filtrar un estudiante.
+
+16
+00:00:51,560 --> 00:00:54,940
+Así que lo que necesito hacer es
+
+17
+00:00:54,960 --> 00:01:00,780
+cambiar mis datos, transponer mis datos
+colocarlos en una dirección diferente.
+
+18
+00:01:00,780 --> 00:01:05,400
+Entonces, ¿cómo hacerlo? Lo que puedo 
+hacer es: abrir otra hoja de trabajo,
+
+19
+00:01:05,400 --> 00:01:09,130
+llamada “ExamTransposed”, 
+en la que 
+colocar 
+mis datos transpuestos.
+
+20
+00:01:09,130 --> 00:01:11,810
+Excel tiene una función para esto, 
+solo con decir:
+
+21
+00:01:11,810 --> 00:01:16,430
+TRANSPOSE, escríbalo en la barra 
+de fórmulas. Allá vamos,
+
+22
+00:01:16,430 --> 00:01:19,189
+TRANSPOSE, selecciono la matriz de datos
+
+23
+00:01:19,189 --> 00:01:23,389
+que queremos transponer y entonces pulsamos 
+Control+Shift+Enter.
+
+24
+00:01:25,260 --> 00:01:26,840
+Así que lo que obtengo ahora es sólo
+
+25
+00:01:26,850 --> 00:01:31,509
+una celda, porque, como hemos visto en 
+el vídeo anterior, no le hemos dado a Excel
+
+26
+00:01:31,509 --> 00:01:33,490
+el hueco, el espacio
+
+27
+00:01:33,490 --> 00:01:36,740
+para representar toda la matriz.
+Así que si quiero tenerlo todo 
+
+28
+00:01:36,740 --> 00:01:40,909
+transpuesto, necesito asegurar que hay 
+suficiente espacio en mi hoja de trabajo
+
+29
+00:01:40,909 --> 00:01:44,850
+para representarlo todo.  Entonces
+¿cuánto espacio necesitamos?
+
+30
+00:01:44,850 --> 00:01:48,189
+Bien, tenemos 16 filas por lo que 
+necesitaremos 16 columnas,
+
+31
+00:01:48,189 --> 00:01:52,700
+y actualmente tenemos 14 columnas, por lo
+que necesitaremos 14 filas.
+
+32
+00:01:52,700 --> 00:01:56,840
+Retrocedemos a nuestra hoja de trabajo
+“ExamTransposed” 
+y nos aseguramos de que tenemos
+suficiente 
+
+33
+00:01:56,840 --> 00:02:03,119
+sitio para cada cosa, y entonces podremos
+usar la función TRANSPOSE con Control+Shift+Enter,
+
+34
+00:02:03,119 --> 00:02:07,869
+lo que la convierte en una fórmula de matriz, 
+con lo que conseguimos el resultado de
+todo el rango. 
+
+35
+00:02:07,869 --> 00:02:12,389
+Vemos que, lo que previamente se encontraba
+en una fila, se encuentra ahora, en la
+
+36
+00:02:12,389 --> 00:02:14,739
+versión transpuestas, en una columna.
+
+37
+00:02:14,739 --> 00:02:16,120
+Así que, ¿por qué le estoy mostrando esto?
+
+38
+00:02:16,120 --> 00:02:19,150
+Bien, en primer lugar, queremos tener los
+resultados en una dirección diferente, 
+
+39
+00:02:19,150 --> 00:02:23,750
+pero también quiero destacar una diferencia 
+importante en las funciones de Excel.
+
+40
+00:02:23,750 --> 00:02:26,859
+Algunas funciones son funciones de matriz
+
+41
+00:02:26,859 --> 00:02:31,239
+por ejemplo, TRANSPOSE. Si la introduces, 
+veras que necesita un argumento
+
+42
+00:02:31,239 --> 00:02:34,620
+en el que poner una matriz (un rango), 
+así que TRANSPOSE es, en este sentido, 
+
+43
+00:02:34,620 --> 00:02:38,579
+una función de matriz.  Siempre
+opera sobre una matriz, 
+
+44
+00:02:38,579 --> 00:02:42,150
+no hay otra manera.  No se puede poner en ella 
+un número. No sabe transponer
+
+45
+00:02:42,150 --> 00:02:43,790
+un número.
+
+46
+00:02:43,790 --> 00:02:46,779
+Sin embargo, otras funciones, como 
+la función de restar,
+
+47
+00:02:46,779 --> 00:02:50,079
+que hemos visto en el vídeo anterior,
+no son fórmulas de matriz intrínsecamente, 
+
+48
+00:02:50,079 --> 00:02:54,540
+pero se pueden convertir en 
+fórmulas de matriz
+
+49
+00:02:54,540 --> 00:02:57,629
+dándoles un rango como argumento
+y entonces
+
+50
+00:02:57,629 --> 00:03:01,839
+se pueden hacer trabajar con todas
+las parejas. Resumiendo, algunas funciones
+
+51
+00:03:01,839 --> 00:03:04,599
+son matrices y otras se pueden hacer
+matrices
+
+52
+00:03:04,599 --> 00:03:07,819
+y esto es también de lo que tratan
+los ejercicios de este vídeo.

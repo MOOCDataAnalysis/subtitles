@@ -1,0 +1,429 @@
+1
+00:00:00,440 --> 00:00:03,520
+En los vídeos anteriores hemos visto
+las fórmulas de matriz.
+
+2
+00:00:03,530 --> 00:00:07,330
+Más específicamente, hemos visto cómo 
+transponer nuestros datos para poder
+
+3
+00:00:07,330 --> 00:00:12,700
+filtrar preguntas que no deseamos poner
+nunca mas en nuestros exámenes.
+
+4
+00:00:12,700 --> 00:00:15,809
+Nuestros datos están preparados, ahora 
+están en la forma correcta, así que
+
+5
+00:00:15,809 --> 00:00:19,820
+vamos a filtrarlos. Podemos ir al botón de
+filtrar, seleccionar nuestros datos y decir
+
+6
+00:00:19,820 --> 00:00:24,010
+¡He! no queremos todos los datos, no
+queremos todas las preguntas, 
+
+7
+00:00:24,010 --> 00:00:27,410
+solamente queremos tener todo 
+
+8
+00:00:27,410 --> 00:00:31,160
+al lado de la segunda fila. Pero,
+desafortunadamente, 
+
+9
+00:00:31,160 --> 00:00:34,930
+todavía obtenemos el mismo resultado,  
+porque hemos transpuesto todo
+
+10
+00:00:34,930 --> 00:00:38,250
+incluida la última columna
+
+11
+00:00:38,250 --> 00:00:41,440
+que es ahora la última fila. Así que
+usted piensa, "no se preocupe", 
+
+12
+00:00:41,440 --> 00:00:45,070
+la borro. Pero esto no funciona, 
+
+13
+00:00:45,070 --> 00:00:47,969
+usted no puede cambiar una parte de
+una fórmula de matriz.
+
+14
+00:00:47,969 --> 00:00:50,789
+Una vez seleccionada un área destinada
+
+15
+00:00:50,789 --> 00:00:54,840
+a una mtariz, es imposible borrar
+celdas en ella.
+
+16
+00:00:54,840 --> 00:00:58,590
+Esto es bueno, porque no queremos
+sobreescribir accidentalmente 
+
+17
+00:00:58,590 --> 00:00:59,359
+una parte de la matriz
+
+18
+00:00:59,359 --> 00:01:02,510
+pulsando el teclado con el codo. 
+Pero, en este caso,
+
+19
+00:01:02,510 --> 00:01:07,030
+no queremos tener la última columna más,
+queremos añadir nuevos cálculos.
+
+20
+00:01:07,030 --> 00:01:09,880
+Así que necesitamos usar la misma 
+área otra vez,
+
+21
+00:01:09,880 --> 00:01:12,580
+pero con una fila menos, y volver a 
+
+22
+00:01:12,580 --> 00:01:16,060
+introducir la fórmula de matriz 
+otra vez. Así que
+
+23
+00:01:16,060 --> 00:01:20,810
+la única forma de eliminar los valores es:
+eliminar todo, 
+
+24
+00:01:20,810 --> 00:01:25,439
+borrar toda la fórmula de matriz y
+después pegarla de nuevo
+
+25
+00:01:25,439 --> 00:01:28,630
+usando una fila menos. Esto
+es un poco engorroso.
+
+26
+00:01:28,630 --> 00:01:32,650
+Si usted quiere cambiar una matriz, 
+tiene que cambiarlo todo, 
+
+27
+00:01:32,650 --> 00:01:37,590
+pero, ahí lo tenenos. Ahora podemos 
+añadir la función SUM,
+
+28
+00:01:37,590 --> 00:01:41,390
+basados en los datos transpuestos. 
+Acabamos de añadir un SUM
+
+29
+00:01:41,390 --> 00:01:45,509
+de toda la columna. Ahí vamos,
+no se preocupe.
+
+30
+00:01:45,509 --> 00:01:47,040
+y lo arrastramos.
+
+31
+00:01:48,500 --> 00:01:50,220
+Sí, ahí está.
+
+32
+00:01:50,220 --> 00:01:54,500
+Ahora podemos filtrar, estamos totalmente
+preparados, vamos a filtrar, eliminamos
+
+33
+00:01:54,500 --> 00:01:58,140
+la segunda pregunta de la lista 
+de preguntas, 
+
+34
+00:01:58,140 --> 00:01:59,920
+y esto funciona, pero solo aparentemente, 
+
+35
+00:02:00,500 --> 00:02:02,240
+para mi no funciona.
+
+36
+00:02:02,240 --> 00:02:05,420
+Los cálculos, aunque la fila haya 
+sido filtrada,
+
+37
+00:02:05,420 --> 00:02:10,580
+se sigue haciendo sobre toda la columna.
+Así que no podemos usar una función 
+
+38
+00:02:10,580 --> 00:02:14,680
+si hemos filtrado, porque  desafortunadamente
+ellas sigue calculando sobre todas 
+
+39
+00:02:14,680 --> 00:02:18,840
+las filas de la columna.
+
+40
+00:02:18,840 --> 00:02:21,730
+Espero que en este momento estes 
+gritando, realmente espero que
+
+41
+00:02:21,730 --> 00:02:25,700
+al otro lado de este vídeo usted
+este diciendo esto:
+
+42
+00:02:25,700 --> 00:02:29,739
+¡He!, yo se por qué no funciona esto, 
+porque las fórmulas no sirven para 
+
+43
+00:02:29,739 --> 00:02:33,709
+hacer análisis. Las fórmulas son
+para hacer cálculos, 
+
+44
+00:02:33,709 --> 00:02:37,160
+Si usted quiere hacer análisis, 
+debe hacer algo más. 
+
+45
+00:02:37,160 --> 00:02:40,390
+Por ejemplo, una tabla dinámica, 
+
+46
+00:02:40,390 --> 00:02:43,239
+Cierto. Vale, vale, de acuerdo, te escucho.
+
+47
+00:02:43,239 --> 00:02:48,640
+Vamos a tratar de hacer nuestro análisis con una 
+tabla dinámica. Nos deshacemos de las fórmulas
+
+48
+00:02:48,640 --> 00:02:52,959
+no sirven para hacer análisis. Eliminamos
+el filtro, seleccionamos todos los datos
+
+49
+00:02:52,959 --> 00:02:53,730
+y los ponemos dentro de 
+
+50
+00:02:53,730 --> 00:02:57,430
+una tabla dinámica. Filtro fuera
+
+51
+00:02:57,430 --> 00:03:00,379
+seleccionamos todos los datos.
+
+52
+00:03:00,379 --> 00:03:04,650
+¡Oh yeah!, he cambiado los núemeros de cada 
+estudiante a 1, 2, 3, 4 en lugar de
+
+53
+00:03:04,650 --> 00:03:09,050
+verdaderos, que son muy largos, porque
+harian la tabla dinámica demasiado grande.
+
+54
+00:03:09,050 --> 00:03:16,050
+Sigamos, añadimos la tabla dinámica. Si,
+ahí vamos. 
+
+55
+00:03:17,409 --> 00:03:20,569
+Seleccionamos la tabla dinámica y la ponemos
+en una hoja de trabajo nueva 
+
+56
+00:03:20,569 --> 00:03:21,209
+que acabamos de abrir.
+
+57
+00:03:21,209 --> 00:03:24,599
+Seleccionamos los datos y tenemos 
+una tabla dinámica.
+
+58
+00:03:24,599 --> 00:03:28,959
+Ahora podemos filtrar, ¿correcto? podemos decir:
+queremos todos los estudiantes, 
+
+59
+00:03:28,959 --> 00:03:30,200
+ahora estos son los números de estudiante,
+
+60
+00:03:30,200 --> 00:03:36,370
+todas las sumas de todos los estudiantes.
+Click, click, click.
+
+61
+00:03:36,370 --> 00:03:38,440
+Sí, y podemos filtra qué preguntas
+
+62
+00:03:38,440 --> 00:03:42,209
+vamos a usar, super fácil, si usted ha
+estudiado el vídeo que trata de
+
+63
+00:03:42,209 --> 00:03:45,720
+las tablas dinámicas, sabe cómo hacerlo.
+Podemos seleccionar la pregunta 
+
+64
+00:03:45,720 --> 00:03:50,610
+que queremos. Sin embargo, como se ve, es
+bastante dificil  comparar los 
+
+65
+00:03:50,610 --> 00:03:52,549
+diferentes escenarios uno con otro. 
+
+66
+00:03:52,549 --> 00:03:56,470
+Ahora este es 55, si cambio un valor, 
+
+67
+00:03:56,470 --> 00:03:59,659
+el cambia, pero lo que me gustaría tener
+es tener los escenarios
+
+68
+00:03:59,659 --> 00:04:03,049
+uno al lado del otro. Una fila para
+
+69
+00:04:03,049 --> 00:04:06,439
+el examen con la pregunta 2 incluida y 
+una fila 
+
+70
+00:04:06,439 --> 00:04:10,239
+para el examen sin incluir la pregunta 2,
+without everything
+
+71
+00:04:10,239 --> 00:04:13,299
+swapping all the time. Si hago esto,
+
+72
+00:04:13,299 --> 00:04:17,130
+la única manera de poder hacerlo es con
+dos tablas dinámicas y con dos 
+
+73
+00:04:17,130 --> 00:04:18,250
+filtros diferentes.
+
+74
+00:04:18,250 --> 00:04:22,150
+Y luego, por supuesto, estamos trabajando de nuevo
+dentro del problema de la duplicación.
+
+75
+00:04:22,150 --> 00:04:26,080
+Hay otra desventaja de usar una
+tabla dinámica para este análisis.
+
+76
+00:04:26,080 --> 00:04:29,120
+Si vamos a la configuración de campos
+aquí abajo, 
+
+77
+00:04:29,120 --> 00:04:32,560
+hay un número limitado de funciones
+que podamos usar.
+
+78
+00:04:32,560 --> 00:04:35,870
+Hay SUM, AVERAGE, MIN, MAX, pero no
+
+79
+00:04:35,870 --> 00:04:41,250
+pero no todas las de Excel. Pienso que
+están ahí más de 150 funciones integradas.
+
+80
+00:04:41,250 --> 00:04:45,240
+Hay un conjunto limitado de funciones 
+que podamos usar. Así que, si estamos sumando
+
+81
+00:04:45,240 --> 00:04:46,729
+los resultados de los examenes, 
+esto es correcto,
+
+82
+00:04:46,729 --> 00:04:48,979
+pero si queremos tomar diferentes "quartals"
+por ejemplo, 
+
+83
+00:04:48,979 --> 00:04:51,320
+si queremos usar MEDIAN
+
+84
+00:04:51,320 --> 00:04:55,460
+o si queremos usar MOD, entonces
+no hay manera de que lo podamos hacer
+
+85
+00:04:55,460 --> 00:04:57,090
+con una tabla dinámica.
+
+86
+00:04:57,090 --> 00:05:02,449
+Como conclusión, sí, las fórmulas son para 
+calcular y no para analizar, 
+
+87
+00:05:02,449 --> 00:05:05,780
+sin embargo, hay algunas limitaciones 
+a lo que podemos hacer con tablas dinámicas
+
+88
+00:05:05,780 --> 00:05:09,880
+porque ellas no son compatibles con todo 
+
+89
+00:05:09,880 --> 00:05:10,889
+y tampoco soportan escenarios de
+
+90
+00:05:10,889 --> 00:05:14,789
+análisis en los que quiero comparar 
+dos filtros diferentes
+
+91
+00:05:14,789 --> 00:05:15,530
+uno con otro.
+
+92
+00:05:15,530 --> 00:05:18,280
+Ahí es donde vamos a necesitar 
+las fórmulas de matriz.
