@@ -1,0 +1,591 @@
+1
+00:00:00,840 --> 00:00:03,080
+Así que estamos calculando el número 
+de Bacon
+
+2
+00:00:03,080 --> 00:00:06,190
+de un montón de diferentes actores
+en nuestra hoja de cálculo. 
+
+3
+00:00:06,190 --> 00:00:10,080
+Para mantenernos en el tema, quiero
+decir: ¡Gran alerón alarma!
+
+4
+00:00:10,080 --> 00:00:13,830
+Si miras el resto de esta película, sabrás
+cómo hacerlo. Así que si todavía deseas
+
+5
+00:00:13,830 --> 00:00:14,550
+hacerlo,
+
+6
+00:00:14,550 --> 00:00:18,140
+esta es tu segunda oportunidad. 
+Deje de ver esto ahora, 
+
+7
+00:00:18,140 --> 00:00:21,240
+descargue la hoja de cálculo y ¡trate de ver
+si lo puede hacerlo por sí mismo!
+
+8
+00:00:21,240 --> 00:00:25,100
+Será mucho más divertido que verme 
+a mi simplemente explicándolo.
+
+9
+00:00:26,220 --> 00:00:28,050
+OK, todavía estas aquí,
+
+10
+00:00:28,050 --> 00:00:32,179
+Supongo que usted ha hecho su tarea, por lo que
+vamos a ver cómo resolví este problema
+
+11
+00:00:32,189 --> 00:00:34,980
+usando una hoja de cálculo. Aquí
+está nuestra base de datos, o
+
+12
+00:00:34,980 --> 00:00:36,270
+nuestra hoja de cálculo,
+
+13
+00:00:36,270 --> 00:00:40,440
+la pequeña versión en la que sólo tenemos 
+un número de actores. Así que lo primero
+
+14
+00:00:40,440 --> 00:00:41,440
+que necesitamos,
+
+15
+00:00:41,440 --> 00:00:45,600
+de hecho, es determinar quien es
+actualmente en nuestra hoja de datos
+
+16
+00:00:45,600 --> 00:00:50,129
+Bacon. Bien, esto es muy fácil, podemos
+usar una fórmula condicional
+
+17
+00:00:50,129 --> 00:00:53,309
+en la que diremos: ¿Es este actor 
+igual a Kevin Bacon?
+
+18
+00:00:53,309 --> 00:00:57,280
+Si lo es, él tendrá el número Bacon 1,
+
+19
+00:00:57,280 --> 00:01:00,899
+podemos decir: en este caso tienes
+el número Bacon 0, pero esto no es
+
+20
+00:01:00,899 --> 00:01:04,939
+totalmente exacto. En realidad, en el paso 1
+el número Bacon de alguien 
+
+21
+00:01:04,939 --> 00:01:08,649
+que no sea Kevin Bacon, no es 0, 
+
+
+22
+00:01:08,649 --> 00:01:10,229
+pero está indefinido.
+
+23
+00:01:10,229 --> 00:01:13,189
+No hay manera de conectar dos actores. 
+Así que
+
+24
+00:01:13,189 --> 00:01:16,359
+utilizo un pequeño "-" (guión) para esto,
+en lugar del 0,
+
+25
+00:01:16,359 --> 00:01:18,159
+lo cual es matemáticamente
+
+26
+00:01:18,159 --> 00:01:18,789
+más preciso,
+
+27
+00:01:18,789 --> 00:01:22,200
+y también nos ayudará porque en el resto
+de la solución vamos a usar
+
+28
+00:01:22,200 --> 00:01:24,009
+funciones matemáticas
+
+29
+00:01:24,009 --> 00:01:27,119
+como la SUM y MIN y si tenemos 0
+
+30
+00:01:27,119 --> 00:01:30,289
+en ella, tal vez  puedan ir bien  las cosas.
+Así que, 
+
+31
+00:01:30,289 --> 00:01:33,289
+en el primer paso, lo único que podemos
+alcanzar es Kevin Bacon
+
+32
+00:01:33,289 --> 00:01:36,719
+por lo que él tiene el número Bacon 1,
+y el de los demás, todavía no lo sabemos.
+
+33
+00:01:36,719 --> 00:01:42,079
+Basados en esto, podemos ver hasta dónde 
+podemos llegar.
+
+34
+00:01:42,079 --> 00:01:47,359
+Volvamos atrás a nuestra lista de películas,
+es muy fácil determinar ahora
+
+35
+00:01:47,359 --> 00:01:52,020
+en cuales de las películas hay alguien
+con un número Bacon que no sea indefinido
+
+36
+00:01:52,020 --> 00:01:56,459
+Simplemente podemos hacer VLOOKUP
+en la lista de actores, 
+
+37
+00:01:56,459 --> 00:01:57,759
+Allá vamos.
+
+38
+00:01:59,079 --> 00:02:03,329
+de hecho estamos usando FALSE, porque estamos 
+utilizando una conexión directa.
+
+39
+00:02:03,329 --> 00:02:06,319
+No olvides: selecciona esto y pulsa F4, 
+
+40
+00:02:06,319 --> 00:02:10,420
+y a continuación, arrastra esta fórmula hacia 
+abajo, con lo que las películas en las que 
+
+41
+00:02:10,420 --> 00:02:14,860
+trabajó Kevin Bacon,tendrán un 1 despues de 
+hacer esto. Por ejemplo Crazy Stupid Love
+
+42
+00:02:14,860 --> 00:02:20,280
+tiene a Kevin Bacon, por lo que consigue 
+un 1. Lo que podemos hacer ahora es 
+
+43
+00:02:20,280 --> 00:02:22,370
+extender este 1
+
+44
+00:02:22,370 --> 00:02:25,730
+a toda la película, para lo que podemos ver
+
+45
+00:02:25,730 --> 00:02:29,019
+quien más en la película consigue
+el número Bacon 2, 
+
+46
+00:02:29,019 --> 00:02:32,290
+dado que Kevin Bacon trabajó en ella. 
+Lo que desearíamos tener 
+
+47
+00:02:32,290 --> 00:02:36,079
+en la hoja de trabajo "movie" es un número
+Bacon no de un actor,
+
+48
+00:02:36,079 --> 00:02:39,829
+si no de una película. Nuevamente podemos
+hacer esto con VLOOKUP, 
+
+49
+00:02:39,829 --> 00:02:44,069
+Si miramos aquí, podemos ver quien trabaja
+en la película.
+
+50
+00:02:44,069 --> 00:02:48,540
+Para esto usamos un poco un truco sucio,
+porque podemos usar
+
+51
+00:02:48,540 --> 00:02:49,810
+la función SUMIF
+
+52
+00:02:49,810 --> 00:02:53,129
+Sumamos todos los valores de una película
+
+53
+00:02:53,129 --> 00:02:58,819
+determinada y sumamos los pasos que
+tenemos actualmente, Si a 1 y a 2 
+
+54
+00:02:58,819 --> 00:03:02,760
+les sumamos guiones ("-"), 
+el resultado será 1, 
+
+55
+00:03:02,760 --> 00:03:07,260
+y si lo que sumamos es un montón  de
+guiones, el resultado será 0.
+
+56
+00:03:07,260 --> 00:03:10,590
+De este modo, el resultado de este SUMIF
+
+57
+00:03:10,590 --> 00:03:14,569
+será 1 si alguien en la película 
+tiene un número Bacon, 
+
+58
+00:03:14,569 --> 00:03:17,739
+y 0 si no hay nadie en la película
+
+59
+00:03:17,739 --> 00:03:21,379
+relacionado con Kevin Bacon.
+Si arrastramos esto hacia abajo,
+
+60
+00:03:21,379 --> 00:03:24,230
+vemos que dos películas, 
+Crazy Stupid Love
+
+61
+00:03:24,230 --> 00:03:28,109
+y Wild Things, tienen 1 y que
+las otras películas tienen 0.
+
+62
+00:03:28,109 --> 00:03:30,579
+Así que poco a poco estamos llegando ahí
+
+63
+00:03:30,579 --> 00:03:34,829
+porque ahora conocemos en la columna
+Step1 qué actor, 
+
+64
+00:03:34,829 --> 00:03:38,230
+Kevin Bacon, y qué películas puedo alcanzar,
+
+65
+00:03:38,230 --> 00:03:41,470
+Así que podemos continuar con el
+segundo paso.
+
+66
+00:03:42,640 --> 00:03:45,220
+Ahora queremos tener el número correcto, 
+
+67
+00:03:45,230 --> 00:03:50,439
+no sólo para la versión Kevin Bacon de la
+película, si no para todos los demás
+
+68
+00:03:50,439 --> 00:03:54,439
+actores de la película. Nuevamente podemos
+hacer esto con VLOOKUP -
+
+69
+00:03:54,439 --> 00:03:58,219
+Vamos a la hoja de trabajo "movie",
+VOOKUP,
+
+70
+00:03:58,219 --> 00:04:00,980
+encontramos el número Bacon asociado
+
+71
+00:04:00,980 --> 00:04:05,209
+a la película, y pulsamos F4
+
+72
+00:04:05,209 --> 00:04:10,430
+y arrastramos hacia abajo. Así que estamos
+cerca, pero aquí tenemos ceros,
+
+73
+00:04:10,430 --> 00:04:11,680
+porque si vemos VLOOKUP en la otra hoja 
+de trabajo,
+
+74
+00:04:11,680 --> 00:04:15,819
+el resultado de SUMIF es cero,
+y esto no es lo que queremos,
+
+75
+00:04:15,819 --> 00:04:17,880
+queremos tener un guión.
+
+76
+00:04:17,880 --> 00:04:21,970
+Así que veamos, si este VOOKUP es igual
+a un guión, 
+
+77
+00:04:21,970 --> 00:04:23,340
+entonces el resultado debería ser
+
+78
+00:04:23,340 --> 00:04:26,830
+otro guión. Oh, Lo siento, si esto
+es igual a cero, 
+
+79
+00:04:26,830 --> 00:04:30,890
+debería ser otro guión, 
+y de lo contrario, debe ser igual a 
+
+80
+00:04:30,890 --> 00:04:35,540
+VLOOKUP pero más 1, porque Kevin Bacon's
+
+81
+00:04:35,550 --> 00:04:39,580
+número Bacon es 1 y todos los que han trabajado
+en una película con él
+
+82
+00:04:39,580 --> 00:04:44,220
+deberían tener su número más 1. Así que 
+ahora tenemos los números correctos
+
+83
+00:04:44,220 --> 00:04:47,470
+en la línea correcta para todos los actores,
+
+84
+00:04:47,470 --> 00:04:52,020
+y si conseguimos esto en la hoja de trabajo actor, 
+tendremos el cálculo correcto.
+
+85
+00:04:52,020 --> 00:04:55,699
+Así que hay que ir al paso 2. Lo que
+podemos hacer es
+
+86
+00:04:55,699 --> 00:04:59,139
+usar otro VLOOKUP y vamos
+a buscar al actor y 
+
+87
+00:04:59,139 --> 00:05:04,520
+tomamos esta cuarta columna, la columna D,
+porque ahí tenemos a cada 
+
+88
+00:05:04,520 --> 00:05:08,520
+actor que ha estado en una película con
+Kevin Bacon tendrá 2, 
+
+89
+00:05:08,520 --> 00:05:12,740
+y los demás,  tendrán un guión.
+Así que, esto está
+
+90
+00:05:12,740 --> 00:05:15,500
+casi correcto, vemos que estas
+
+91
+00:05:15,500 --> 00:05:17,759
+personas que tienen un 2 son de hecho
+
+92
+00:05:17,759 --> 00:05:20,770
+las que han estado en una película con 
+Kevin Bacon.
+
+93
+00:05:20,770 --> 00:05:24,870
+Por lo tanto, casi funciona. Sólo hay una cosa 
+que sigue siendo un poco extraña, es que
+
+94
+00:05:24,870 --> 00:05:28,360
+en la segunda etapa Kevin Bacon
+tiene ahora un 2,
+
+95
+00:05:28,360 --> 00:05:31,160
+y esto es porque fuimos desde él
+
+96
+00:05:31,160 --> 00:05:34,800
+hasta Crazy Stupid Love y volvimos, pero 
+esto no es realmente justo, 
+
+97
+00:05:34,800 --> 00:05:39,289
+porque el tiene realmente el número Bacon 1.
+Así que lo que realmente necesitamos hacer es
+
+98
+00:05:39,289 --> 00:05:41,569
+tomar el mínimo
+
+99
+00:05:41,569 --> 00:05:45,400
+de lo que realmente hemos calculado y
+lo que hay en este paso extra.
+
+100
+00:05:45,400 --> 00:05:49,190
+Y ves que en el vídeo anterior
+me olvidé de pulsar F4 ahí,
+
+101
+00:05:49,190 --> 00:05:54,560
+así que también he corregido ahora.
+Ahora vemos que Kevin Bacon tiene el número 1,
+
+102
+00:05:54,560 --> 00:05:57,860
+todos los demás tienen el 2, pero desafortunadamente,
+porque haber usado 
+
+103
+00:05:57,860 --> 00:06:01,889
+la operación MIN, conseguimos un error 
+value (#VALUE!).
+
+104
+00:06:01,889 --> 00:06:05,280
+No sé por qué, pero si tienes
+2 MIN's, si están en diferentes
+
+105
+00:06:05,280 --> 00:06:09,509
+hojas de trabajo, aparentemente Excel
+da un error. Así que añado
+
+106
+00:06:09,509 --> 00:06:12,789
+IFERROR alrededor de ella, si obtenemos 
+un error entonces escribe un guión, 
+
+107
+00:06:12,789 --> 00:06:15,960
+y si no, usamos MIN.
+
+108
+00:06:15,960 --> 00:06:20,960
+Por lo tanto, lo hemos hecho - ahora, en un paso,
+hemos calculado:
+
+109
+00:06:20,960 --> 00:06:25,940
+1 - Kevin Bacon, y todos los que han estado
+en una película con Kevin Bacon
+
+110
+00:06:25,940 --> 00:06:27,270
+tienen ahora el número Bacon 2.
+
+111
+00:06:27,270 --> 00:06:30,210
+Necesitaríamos repetir este paso 
+otra vez
+
+112
+00:06:30,210 --> 00:06:33,389
+si quisiéramos hacerlo para tres pasos
+y por cuatro
+
+113
+00:06:33,389 --> 00:06:35,710
+y por cinco.
+
+114
+00:06:35,710 --> 00:06:41,629
+Por lo tanto, podemos hacer esto? Si podemos! 
+acabas de verme hacerlo.
+
+115
+00:06:41,629 --> 00:06:45,889
+Sin embargo, si continúa este cálculo,
+
+
+116
+00:06:45,889 --> 00:06:47,340
+y os animo a que lo intentéis,
+
+117
+00:06:47,349 --> 00:06:50,180
+veréis que para tres etapas 
+necesitaréis
+
+118
+00:06:50,180 --> 00:06:55,199
+8 columnas auxiliares, 8 fórmulas
+condicionales, 3 MINs y 
+
+119
+00:06:55,199 --> 00:07:00,099
+8 VLOOKUPs. Así que esto, tal vez no es 
+realmente lo que quieres 
+
+120
+00:07:00,099 --> 00:07:03,909
+y entonces estás justo en tres pasos. 
+Y he mirado para arriba, 
+
+121
+00:07:03,909 --> 00:07:04,439
+y al parecer el número más alto que tiene
+un actor en Hollywood
+
+122
+00:07:04,439 --> 00:07:09,370
+es 12, por lo que, si quieres continuar
+con este cálculo
+
+123
+00:07:09,370 --> 00:07:10,169
+para 12 etapas,
+
+124
+00:07:10,169 --> 00:07:12,889
+necesitarás unos 25 VLOOKUPs.
+
+125
+00:07:12,889 --> 00:07:16,930
+Así que, probablemente, no estamos realmente 
+en el camino correcto aquí,
+
+126
+00:07:16,930 --> 00:07:18,150
+pero es posible.
