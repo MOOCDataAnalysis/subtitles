@@ -1,0 +1,249 @@
+1 
+00:00:00,520 --> 00:00:04,000 
+Probablemente hemos estado la herramienta 
+equivocada todo el tiempo, 
+
+2 
+00:00:04,000 --> 00:00:06,670 
+Así que permítame mostrarle otra 
+herramienta que se puede utilizar, 
+
+3 
+00:00:06,670 --> 00:00:10,809 
+con un ejemplo nuevo. Lo que vemos aquí 
+es un mapa 
+
+4 
+00:00:10,809 --> 00:00:15,949 
+de Netherlands. Esto es donde yo me 
+encuentro, nosotros estamos en Delft, 
+
+5 
+00:00:15,949 --> 00:00:17,769 
+Supongamos que quiero tomar un tren 
+
+6 
+00:00:17,769 --> 00:00:22,599 
+desde Delft hasta Groningen, Esto está aquí. 
+ 
+7 
+00:00:22,599 --> 00:00:26,000 
+Luego, no hay un tren directo, lo podemos 
+ver en el mapa,   
+
+8 
+00:00:26,000 --> 00:00:29,160 
+porque los trenes son las líneas 
+negras del mapa 
+
+9 
+00:00:29,160 --> 00:00:32,329 
+y no hay ningún tren directo desde 
+Delft hasta  Groningen. 
+
+10 
+00:00:32,329 --> 00:00:36,270 
+Entonces, ¿cómo voy a hacer este viaje? 
+Tengo dos opciones diferentes: 
+
+11 
+00:00:36,270 --> 00:00:39,820 
+bien tomo el tren a Leiden, 
+que está aquí, o bien 
+
+12 
+00:00:39,820 --> 00:00:44,020 
+tomo el tren a Rotterdam, que está aquí, 
+
+13 
+00:00:44,020 --> 00:00:46,730 
+y desde ahí, podré tomar 
+un tren directo 
+
+14 
+00:00:46,730 --> 00:00:50,510 
+hasta Groningen, por lo tanto, 
+con cualquiera de estas dos opciones 
+
+15 
+00:00:50,510 --> 00:00:54,710 
+alcanzo mi destino. Si ahora quiero 
+calcular cual es la mejor opción, 
+
+16 
+00:00:54,710 --> 00:00:58,830 
+necesito añadir peso a mis flechas. 
+
+17 
+00:00:58,830 --> 00:01:01,370 
+Esto es, este viaje, desde Delft hasta 
+Leiden me lleva 
+
+18 
+00:01:01,370 --> 00:01:05,040 
+21 minutos, este otro, desde 
+Delft hasta Rotterdam, 
+
+19 
+00:01:05,040 --> 00:01:08,080 
+me lleva 12. Y después, desde 
+
+20 
+00:01:08,080 --> 00:01:12,430 
+Rotterdam hasta Groningen, dos horas  
+
+21 
+00:01:12,430 --> 00:01:15,830 
+y 39 minutos, mientras que este 
+otro tarda 
+
+22 
+00:01:15,830 --> 00:01:20,100 
+dos horas y 28 minutos. Por lo tanto 
+puedo calcular el tiempo que tardaría 
+
+23 
+00:01:20,100 --> 00:01:23,210 
+en el recorrido total, sumando estos dos 
+
+24 
+00:01:23,210 --> 00:01:27,370 
+o sumando esos otros dos. Para 
+representar esto, ya no necesito 
+
+25 
+00:01:27,370 --> 00:01:31,500 
+utilizar este mapa. Si tengo mi gráfico 
+
+26 
+00:01:31,500 --> 00:01:34,580 
+mis líneas y mis nudos con todos 
+los números asociados, 
+
+27 
+00:01:34,580 --> 00:01:41,580 
+Puedo borrar el mapa ya. 
+¿Ahí vamos! 
+
+28 
+00:01:42,030 --> 00:01:45,240 
+Esta es ahora una correcta representación de 
+mi problema. 
+
+29 
+00:01:45,240 --> 00:01:49,659 
+Tengo un nudo en Leiden, Rotterdam, Delft 
+
+30 
+00:01:49,659 --> 00:01:53,380 
+y en Groningen, y tengo flechas 
+entre ellos, 
+
+31 
+00:01:53,380 --> 00:01:56,490 
+ésta, esa y esas dos y esas flechas. 
+
+32 
+00:01:56,490 --> 00:02:00,979 
+tienen pesos. Esto es lo que denominamos 
+un gráfico, una representación del problema 
+
+33 
+00:02:00,979 --> 00:02:04,510 
+en términos de nudos y flechas. 
+
+34 
+00:02:04,510 --> 00:02:07,920 
+Y, por supuesto, usted se ha imaginado 
+que podemos utilizar este misma 
+
+35 
+00:02:07,920 --> 00:02:12,430 
+escenario, el mismo método, para analizar 
+nuestro problema Bacon. 
+
+36 
+00:02:12,430 --> 00:02:16,379 
+Vamos a echar un vistazo al problema de Bacon, 
+a cómo se ve en una hoja de cálculo. 
+
+37 
+00:02:16,379 --> 00:02:19,409 
+Tenemos actores y películas y actores 
+
+38 
+00:02:19,409 --> 00:02:22,920 
+que han trabajado en películas. Este problema, 
+también lo podemos representar 
+
+
+39 
+00:02:22,920 --> 00:02:26,430 
+con un gráfico, del mismo modo que lo 
+hicimos con el mapa de  Netherlands. 
+
+40 
+00:02:26,430 --> 00:02:29,389 
+Puedes ver que aquí tenemos a Kevin Baton 
+y que él ha trabajado en 
+
+41 
+00:02:29,389 --> 00:02:32,900 
+la película 'Crazy Stupid Love', así 
+que trazamos una línea entre el 
+
+42 
+00:02:32,900 --> 00:02:36,359 
+actor y la película. Esto lo podemos 
+repetir, 
+
+43 
+00:02:36,359 --> 00:02:39,579 
+Podemos añadir a Emma Stone 
+y a Julianne Moore 
+
+44 
+00:02:39,579 --> 00:02:44,340 
+porque ellas también han trabajado en 'Crazy 
+Stupid Love'. Podemos continuar este proceso 
+ 
+45 
+00:02:44,340 --> 00:02:48,790 
+y construir un gráfico completo 
+del problema que estamos analizando: 
+
+46 
+00:02:48,790 --> 00:02:52,319 
+Quién ha trabajado y en qué película? 
+Y porque lo estamos representando 
+
+47 
+00:02:52,319 --> 00:02:53,219 
+como un gráfico, 
+
+48 
+00:02:53,219 --> 00:02:56,379 
+vemos esto, inmediatamente, su punto de 
+vista sobre los cambios del problema, 
+
+49 
+00:02:56,379 --> 00:02:59,700 
+ya que ahora es muy fácil calcular 
+
+50 
+00:02:59,700 --> 00:03:04,019 
+la distancia Bacon desde Bacon hasta 
+otro actor, dado que justamente 
+
+51 
+00:03:04,019 --> 00:03:04,939 
+atravesamos 
+
+52 
+00:03:04,939 --> 00:03:08,340 
+las líneas del gráfico y esto es lo que 
+vamos a explorar 
+
+53 
+00:03:08,340 --> 00:03:09,269 
+en el vídeo siguiente. 

@@ -1,0 +1,328 @@
+1
+00:00:00,710 --> 00:00:03,480
+La última semana, hemos trabajado 
+calculando números Bacon
+
+2
+00:00:03,480 --> 00:00:08,780
+e hicimos ambos cálculos, en Excel y en Python.
+Con lo que espero que se haya quedado 
+
+3
+00:00:08,780 --> 00:00:11,900
+de los ejercicios y vídeos de esta 
+última semana,
+
+4
+00:00:11,900 --> 00:00:14,960
+es que, la herramienta que utilices determina
+
+5
+00:00:14,960 --> 00:00:19,169
+el tipo de solución. Si estas trabajando en Excel,
+normalmente
+
+6
+00:00:19,169 --> 00:00:20,029
+piensas
+
+7
+00:00:20,029 --> 00:00:23,589
+en términos de celdas y de referencias
+entre celdas.
+
+8
+00:00:23,589 --> 00:00:26,359
+Si usted tiene que trabajar con listas
+en Excel, tendrá que utilizar 
+
+9
+00:00:26,359 --> 00:00:29,710
+fórmulas matriz. Esto es  posible,
+
+10
+00:00:29,710 --> 00:00:33,010
+pero es más difícil y limita la 
+solución que podamos imaginar.
+
+11
+00:00:33,010 --> 00:00:36,690
+Mientras que, si usted resuelve el 
+mismo problema en Python, 
+
+12
+00:00:36,690 --> 00:00:39,429
+se hace mucho más fácil, porque 
+las listas 
+son
+
+13
+00:00:39,429 --> 00:00:44,100
+ciudadanos de primera clase. Usted puede
+seleccionar cualquier rango en la hoja de datos
+
+14
+00:00:44,100 --> 00:00:48,120
+y poner en él inmediatamente una lista y 
+si quiere realizar algún tipo de operación
+
+15
+00:00:48,120 --> 00:00:52,329
+en la lista, cómo mínimo, solo tendrá 
+que utilizar
+
+16
+00:00:52,329 --> 00:00:56,409
+MIN y la lista en la que quiere trabajar. 
+No tendrá que jugar con 
+
+17
+00:00:56,409 --> 00:00:57,800
+fórmulas de matriz.
+
+18
+00:00:57,800 --> 00:01:00,569
+Luego, como estamos usando Python, es más
+
+19
+00:01:00,569 --> 00:01:04,239
+fácil trabajar con listas, porque las listas
+están integradas en Python
+
+20
+00:01:04,239 --> 00:01:07,199
+y no tendrás que pasar a través de un 
+montón de problemas.
+
+21
+00:01:07,200 --> 00:01:11,380
+Y precisamente esta idea se sostiene en muchos 
+casos, por lo que si usted utiliza
+
+22
+00:01:11,390 --> 00:01:14,890
+la herramienta equivocada para realizar
+el trabajo, entonces no sólo será
+
+23
+00:01:14,890 --> 00:01:19,040
+menos eficiente que si utiliza un 
+martillo con un tornillo,
+
+24
+00:01:19,040 --> 00:01:23,340
+no es sólo eso, sino que, se hace más
+difícil y limita su 
+
+25
+00:01:23,340 --> 00:01:27,299
+imaginación. Si siempre construye cosas
+con un martillo, 
+
+26
+00:01:27,299 --> 00:01:31,890
+probablemente nunca realizará ajustes
+como los ajustes en cola de milano,
+
+27
+00:01:31,890 --> 00:01:35,969
+porque el ajuste en cola de milano
+no necesita clavos, por lo tanto, 
+
+28
+00:01:35,969 --> 00:01:39,369
+usted no necesita el martillo para eso.
+Si siempre utilizas el martillo
+
+29
+00:01:39,369 --> 00:01:40,189
+en primer lugar
+
+30
+00:01:40,189 --> 00:01:45,369
+nunca llegarás a esta solución. Esta misma 
+idea es aplicable en problemas de datos,
+
+31
+00:01:45,369 --> 00:01:48,750
+si siempre se apoya en la hoja 
+de cálculo, inmediatamente,
+
+32
+00:01:48,750 --> 00:01:53,009
+hay algún tipo de solución a la que
+nunca va a llegar,
+
+33
+00:01:53,009 --> 00:01:56,229
+porque está fuera del paradigma de la
+hoja de cálculo. 
+
+34
+00:01:56,229 --> 00:01:58,249
+¡De esto tratan los 
+vídeos de esta semana! 1
+00:00:00,710 --> 00:00:03,480
+La última semana, hemos trabajado 
+calculando números Bacon
+
+2
+00:00:03,480 --> 00:00:08,780
+e hicimos ambos cálculos, en Excel y en Python.
+Con lo que espero que se haya quedado 
+
+3
+00:00:08,780 --> 00:00:11,900
+de los ejercicios y vídeos de esta 
+última semana,
+
+4
+00:00:11,900 --> 00:00:14,960
+es que, la herramienta que utilices determina
+
+5
+00:00:14,960 --> 00:00:19,169
+el tipo de solución. Si estas trabajando en Excel,
+normalmente
+
+6
+00:00:19,169 --> 00:00:20,029
+piensas
+
+7
+00:00:20,029 --> 00:00:23,589
+en términos de celdas y de referencias
+entre celdas.
+
+8
+00:00:23,589 --> 00:00:26,359
+Si usted tiene que trabajar con listas
+en Excel, tendrá que utilizar 
+
+9
+00:00:26,359 --> 00:00:29,710
+fórmulas matriz. Esto es  posible,
+
+10
+00:00:29,710 --> 00:00:33,010
+pero es más difícil y limita la 
+solución que podamos imaginar.
+
+11
+00:00:33,010 --> 00:00:36,690
+Mientras que, si usted resuelve el 
+mismo problema en Python, 
+
+12
+00:00:36,690 --> 00:00:39,429
+se hace mucho más fácil, porque 
+las listas 
+son
+
+13
+00:00:39,429 --> 00:00:44,100
+ciudadanos de primera clase. Usted puede
+seleccionar cualquier rango en la hoja de datos
+
+14
+00:00:44,100 --> 00:00:48,120
+y poner en él inmediatamente una lista y 
+si quiere realizar algún tipo de operación
+
+15
+00:00:48,120 --> 00:00:52,329
+en la lista, cómo mínimo, solo tendrá 
+que utilizar
+
+16
+00:00:52,329 --> 00:00:56,409
+MIN y la lista en la que quiere trabajar. 
+No tendrá que jugar con 
+
+17
+00:00:56,409 --> 00:00:57,800
+fórmulas de matriz.
+
+18
+00:00:57,800 --> 00:01:00,569
+Luego, como estamos usando Python, es más
+
+19
+00:01:00,569 --> 00:01:04,239
+fácil trabajar con listas, porque las listas
+están integradas en Python
+
+20
+00:01:04,239 --> 00:01:07,199
+y no tendrás que pasar a través de un 
+montón de problemas.
+
+21
+00:01:07,200 --> 00:01:11,380
+Y precisamente esta idea se sostiene en muchos 
+casos, por lo que si usted utiliza
+
+22
+00:01:11,390 --> 00:01:14,890
+la herramienta equivocada para realizar
+el trabajo, entonces no sólo será
+
+23
+00:01:14,890 --> 00:01:19,040
+menos eficiente que si utiliza un 
+martillo con un tornillo,
+
+24
+00:01:19,040 --> 00:01:23,340
+no es sólo eso, sino que, se hace más
+difícil y limita su 
+
+25
+00:01:23,340 --> 00:01:27,299
+imaginación. Si siempre construye cosas
+con un martillo, 
+
+26
+00:01:27,299 --> 00:01:31,890
+probablemente nunca realizará ajustes
+como los ajustes en cola de milano,
+
+27
+00:01:31,890 --> 00:01:35,969
+porque el ajuste en cola de milano
+no necesita clavos, por lo tanto, 
+
+28
+00:01:35,969 --> 00:01:39,369
+usted no necesita el martillo para eso.
+Si siempre utilizas el martillo
+
+29
+00:01:39,369 --> 00:01:40,189
+en primer lugar
+
+30
+00:01:40,189 --> 00:01:45,369
+nunca llegarás a esta solución. Esta misma 
+idea es aplicable en problemas de datos,
+
+31
+00:01:45,369 --> 00:01:48,750
+si siempre se apoya en la hoja 
+de cálculo, inmediatamente,
+
+32
+00:01:48,750 --> 00:01:53,009
+hay algún tipo de solución a la que
+nunca va a llegar,
+
+33
+00:01:53,009 --> 00:01:56,229
+porque está fuera del paradigma de la
+hoja de cálculo. 
+
+34
+00:01:56,229 --> 00:01:58,249
+¡De esto tratan los 
+vídeos de esta semana! 
+
