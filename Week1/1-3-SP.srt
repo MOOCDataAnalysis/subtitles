@@ -1,0 +1,403 @@
+1
+00:00:00,071 --> 00:00:03,891
+Así que en este MOOC, en todos los 
+vídeos que vamos a utilizar
+
+2
+00:00:03,900 --> 00:00:07,880
+a lo largo de las semanas, vamos a 
+utilizar un ejemplo con el que que usted
+
+3
+00:00:07,880 --> 00:00:11,380
+también trabajará haciendo los ejercicios.
+Para esta semana
+
+4
+00:00:11,389 --> 00:00:14,780
+vamos a pensar en  una hoja de cálculo 
+para la Bolsa de Valores.
+
+5
+00:00:14,780 --> 00:00:19,300
+Personalmente no gano mucho dinero 
+como profesor, así que tengo
+
+6
+00:00:19,301 --> 00:00:23,001
+que invertir un poco para llegar 
+a fin de mes.
+
+7
+00:00:23,005 --> 00:00:27,144
+Por ello tengo esta pequeña hoja de 
+cálculo en la que hay un montón de empresas  
+
+8
+00:00:27,144 --> 00:00:28,279
+de las que poseo algunas acciones,
+
+9
+00:00:28,279 --> 00:00:32,819
+así como el número de acciones que poseo, 
+y por supuesto, quiero saber cómo está mi
+
+10
+00:00:32,829 --> 00:00:37,029
+cartera de acciones en este momento.
+¿estoy ganando dinero con ella? 
+
+11
+00:00:37,220 --> 00:00:39,160
+Así que, lo que necesito, por supuesto, es
+
+12
+00:00:39,165 --> 00:00:44,460
+información bursátil actual. Necesito saber 
+cuál es el valor de todas las acciones que 
+
+13
+00:00:44,460 --> 00:00:46,540
+poseo. Entonces, ¿qué puedo hacer para ello?
+
+14
+00:00:46,540 --> 00:00:50,420
+Permítanme hacer una nueva hoja de trabajo 
+y desplegar la pestaña Datos;
+
+15
+00:00:50,420 --> 00:00:54,440
+hay un botón justo ahí, tal vez usted nunca 
+lo ha visto o lo utilizó,
+
+16
+00:00:54,440 --> 00:00:56,020
+se llama "Obtener datos externos".
+
+17
+00:00:56,020 --> 00:01:00,019
+Con este botón puedo introducir datos en 
+la hoja de cálculo
+
+18
+00:01:00,019 --> 00:01:03,037
+desde prácticamente todas partes.
+Le voy a enseñar cómo funciona.
+
+19
+00:01:03,037 --> 00:01:07,033
+Haga clic en el botón y seleccione 
+"Desde Web".
+
+20
+00:01:07,033 --> 00:01:11,453
+Excel abre este pequeño navegador, 
+sólo un navegador 
+
+21
+00:01:11,460 --> 00:01:13,000
+normal de internet,
+
+22
+00:01:13,001 --> 00:01:17,930
+y podemos ir a cualquier sitio web que queramos. 
+Así que, en este caso vamos a Yahoo Finanzas 
+
+23
+00:01:17,939 --> 00:01:22,040
+para el AEX, la Bolsa de Amsterdam,
+y lo que allí se ve
+
+24
+00:01:22,041 --> 00:01:25,038
+es que hay pequeñas flechas en el navegador
+
+25
+00:01:25,038 --> 00:01:29,958
+ue puedo usar para seleccionar los datos 
+que quiero tener en mi hoja de cálculo.
+
+26
+00:01:29,960 --> 00:01:31,060
+Así que basta con hacer clic 
+
+27
+00:01:31,060 --> 00:01:34,017
+en la flecha y luego hacer clic en Aceptar,
+y conseguimos 
+
+28
+00:01:34,017 --> 00:01:38,017
+que los datos se carguen donde queremos, 
+sólo en A1. Así ya tenemos
+
+29
+00:01:38,017 --> 00:01:41,617
+los datos en nuestra hoja, importados 
+directamente desde Internet.
+
+30
+00:01:41,620 --> 00:01:45,939
+¿No es genial? Y estos datos no son un 
+copiar-pegar, 
+
+31
+00:01:45,939 --> 00:01:50,460
+no es una copia estática, porque si se
+pulsa "Refresh" obtendremos una nueva
+
+32
+00:01:50,461 --> 00:01:54,541
+versión de la página web en la hoja de 
+cálculo. No se requiere codificación,
+
+33
+00:01:54,541 --> 00:01:57,940
+sólo conseguir los datos. Así que esto 
+es bueno,
+
+34
+00:01:57,940 --> 00:02:02,520
+lo que puedo hacer ahora es calcular la 
+cantidad de dinero que valen las acciones que
+
+35
+00:02:02,520 --> 00:02:05,660
+tengo en mi cartera, así que vamos a continuar.
+
+36
+00:02:07,400 --> 00:02:11,000
+Justamente ahí, Tengo el valor, se ve, 
+esto es lo que mis
+
+37
+00:02:11,004 --> 00:02:14,045
+acciones valen. Sin embargo, todavía 
+no puedo
+
+38
+00:02:14,045 --> 00:02:19,042
+hacer cálculos con ellos. Permítanme primero 
+conseguir el número de acciones que poseo.
+
+39
+00:02:19,042 --> 00:02:22,088
+Entonces, ¿qué voy a hacer ahora? Voy a 
+copiar este dato desde otra hoja de trabajo. 
+
+40
+00:02:22,088 --> 00:02:27,032
+En los próximos vídeos vamos a trabajar 
+definitivamente en cómo conectar las hojas 
+de trabajo de la mejor manera,
+
+41
+00:02:27,032 --> 00:02:30,992
+pero por ahora sólo voy a copiarlos.
+Lo que me gustaría hacer es -
+
+42
+00:02:31,006 --> 00:02:33,820
+Quiero multiplicar el número de acciones 
+que tengo por su valor.
+
+43
+00:02:33,820 --> 00:02:37,020
+Pero puedo hacerlo, porque
+
+44
+00:02:37,023 --> 00:02:40,623
+el el último valor que obtengo de la web
+
+45
+00:02:40,623 --> 00:02:43,700
+no es sólo el texto, es una "cadena" como 
+lo llamamos,
+
+46
+00:02:43,700 --> 00:02:48,000
+y no puedo multiplicar, porque no 
+sólo contiene el valor, si no
+
+47
+00:02:48,000 --> 00:02:52,500
+que también contiene la fecha de la última 
+cotización. Así que tengo que manipular 
+
+48
+00:02:52,500 --> 00:02:53,480
+los datos
+
+49
+00:02:53,480 --> 00:02:56,860
+para poder operar con ellos.
+
+50
+00:03:00,000 --> 00:03:02,080
+Permítanme añadir otra columna
+
+51
+00:03:02,080 --> 00:03:07,020
+en la que voy a tratar de obtener el valor 
+real, sólo la primera parte
+
+52
+00:03:07,024 --> 00:03:10,544
+de la cadena y no toda la cadena, 
+con la que no puedo hacer nada.
+
+53
+00:03:10,544 --> 00:03:13,780
+Bueno, lo que Excel tiene es una función 
+llamada LEFT
+
+54
+00:03:13,780 --> 00:03:17,000
+que nos permite tomar de cualquier  texto 
+una serie de caracteres,
+
+55
+00:03:17,009 --> 00:03:21,580
+desde la izquierda. Lo que puedo hacer ahora 
+es decir aquí que  lo que quiero
+
+56
+00:03:21,580 --> 00:03:25,180
+para este valor son sólo los primeros 
+4 caracteres,
+
+57
+00:03:25,180 --> 00:03:29,035
+y luego obtengo mi valor. However, I guess
+you maybe. Supongo que tal vez predijo esto,
+
+58
+00:03:29,035 --> 00:03:32,975
+para la segunda línea esto no funciona, 
+
+59
+00:03:32,980 --> 00:03:36,340
+porque hay 5 caracteres y no 4, 
+
+60
+00:03:36,840 --> 00:03:41,480
+Por lo tanto, necesito un pequeño truco, 
+para eso utilizamos la función FIND. 
+
+61
+00:03:41,480 --> 00:03:44,300
+Lo que la función FIND hace es: busca un 
+valor específico en un texto dado
+
+62
+00:03:44,300 --> 00:03:48,239
+y nos da la posición en esa cadena.
+Podemos ver que el espacio está en 
+
+63
+00:03:48,239 --> 00:03:52,199
+la quinta posición de nuestra cadena,
+
+
+64
+00:03:52,209 --> 00:03:55,989
+y podemos usar ese dato en nuestra 
+función LEFT. 
+
+65
+00:03:55,989 --> 00:04:00,049
+our LEFT function. Así que ahora no 
+voy a tener 4 o 5,
+
+66
+00:04:00,049 --> 00:04:03,058
+lo que vamos a tomar como referencia es 
+la ubicación del espacio, 
+
+67
+00:04:03,058 --> 00:04:07,838
+y luego la tenemos que deducir en 1, 
+porque no queremos incluir el espacio,
+
+68
+00:04:07,840 --> 00:04:09,320
+sólo queremos la primera parte de la cadena.
+
+69
+00:04:09,320 --> 00:04:13,012
+Si arrastro esta fórmula hacia abajo, 
+se ve muy bien
+
+70
+00:04:13,012 --> 00:04:17,272
+que sólo tengo el valor, y ahora con él, 
+sí puedo calcular algo!
+
+71
+00:04:17,280 --> 00:04:19,720
+Ahora podemos arrastrar esta referencia
+de celda
+
+72
+00:04:19,720 --> 00:04:22,900
+a la derecha,  simplemente también podríamos
+editar el texto, 
+
+73
+00:04:22,900 --> 00:04:26,012
+con lo que ahora ya tenemos el valor 
+correcto para mis acciones.
+
+74
+00:04:26,012 --> 00:04:30,352
+Así que ya sé qué beneficio podría obtener 
+si vendiera
+
+75
+00:04:30,360 --> 00:04:34,402
+todas las acciones que tengo al precio actual 
+de la cotización importada de la Web.
+
+76
+00:04:36,300 --> 00:04:39,220
+Lo que se aprende en este vídeo es 
+cómo utilizar
+
+77
+00:04:39,220 --> 00:04:43,017
+as funciones de cadena para preparar 
+datos y esto es algo
+
+78
+00:04:43,017 --> 00:04:46,357
+que vamos a tener que hacer en muchas 
+ocasiones en las semanas siguientes. 
+
+79
+00:04:46,360 --> 00:04:50,400
+Los datos que recibimos de la web o los 
+datos que se descargan de su  
+
+80
+00:04:50,400 --> 00:04:51,240
+empresa,
+
+81
+00:04:51,240 --> 00:04:54,380
+no tienen frecuentemente el formato correcto.
+Usted consigue una larga lista,
+
+82
+00:04:54,380 --> 00:04:58,520
+obtiene algo de una cadena, mientras que 
+deseaba un archivo de texto,
+
+83
+00:04:58,520 --> 00:05:02,500
+por lo que tiene que hacer algunos arreglos 
+en los datos antes de poder comenzar a .
+
+84
+00:05:02,500 --> 00:05:03,880
+realizar sus cálculos
+

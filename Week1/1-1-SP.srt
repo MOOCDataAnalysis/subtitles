@@ -1,0 +1,156 @@
+1
+00:00:00,660 --> 00:00:03,619
+Hola! Bienvenido a EX101x,
+
+2
+00:00:03,669 --> 00:00:06,930
+el curso para el análisis de datos. 
+Mi nombre es Felienne
+
+3
+00:00:06,993 --> 00:00:10,973
+y yo seré su guía a través de este curso. 
+Me gusta darle la bienvenida 
+
+4
+00:00:10,980 --> 00:00:15,889
+no sólo a EX101x sino también a Delft 
+University of Technology!
+
+5
+00:00:15,889 --> 00:00:20,000
+A pesar de que usted no está aquí con nosotros 
+en el campus, hacer este MOOC le hará ser 
+
+6
+00:00:20,000 --> 00:00:20,940
+parte de la familia de Delft.
+
+7
+00:00:20,940 --> 00:00:26,017
+En este edificio en el que normalmente 
+yo trabajo en la 8ª planta,
+
+8
+00:00:26,020 --> 00:00:29,420
+tenemos el Laboratorio de hojas de cálculo. 
+Este es mi grupo de investigación
+
+9
+00:00:29,460 --> 00:00:32,940
+en el que trabajamos con un grupo de gente 
+acerca de cómo hacer hojas de cálculo
+
+10
+00:00:32,940 --> 00:00:35,977
+más fáciles y divertidas. Esta semana
+
+11
+00:00:35,980 --> 00:00:39,469
+se trata de llegar a conocernos unos a otros,
+no sólo
+
+12
+00:00:39,469 --> 00:00:42,540
+para que me conozca a mi, si no también para 
+que usted pueda llegar a conocer
+
+13
+00:00:42,540 --> 00:00:46,500
+la plataforma de edX. Probablemente este sea
+su primer MOOC, por lo que usaremos los 
+
+14
+00:00:46,500 --> 00:00:48,000
+ejercicios de esta semana, para familiarizarle 
+con la manera de enviarnos 
+
+15
+00:00:48,000 --> 00:00:52,379
+los ejercicios y las tareas. 
+
+16
+00:00:52,700 --> 00:00:55,736
+Pero además de que consiga conocernos a mí
+
+17
+00:00:55,739 --> 00:00:59,979
+y a la plataforma edX, esta semana 
+también me dará la oportunidad
+
+18
+00:00:59,989 --> 00:01:03,160
+de conocerle a usted. Lo que realmente 
+quiero saber
+
+19
+00:01:03,161 --> 00:01:07,013
+es cuales son las herramientas de análisis 
+de datos que usted utiliza actualmente. Eres tú?
+
+20
+00:01:07,013 --> 00:01:10,993
+¿Esta imprimiendo las hojas de datos y 
+coloreándolas con un marcador en su oficina?
+
+21
+00:01:11,006 --> 00:01:15,686
+O tal vez usted utiliza hojas de cálculo de 
+forma recreativa y planea sus vacaciones con ellas?
+
+22
+00:01:15,686 --> 00:01:20,500
+Quiero saber, no sólo para ser capaz de 
+adaptar el curso a sus 
+
+23
+00:01:20,500 --> 00:01:21,680
+necesidades específicas, 
+
+24
+00:01:21,680 --> 00:01:25,600
+sino también para que podamos llegar a 
+conocernos. Deseamos que entres
+
+25
+00:01:25,600 --> 00:01:26,189
+en el foro 
+
+26
+00:01:26,200 --> 00:01:29,601
+y tengas cierta idea de las otras personas 
+que participan en el curso.
+
+27
+00:01:29,601 --> 00:01:32,007
+Esta es la razón por la que esta primera 
+semana le estamos pidiendo 
+
+28
+00:01:32,061 --> 00:01:37,021
+que se saque una foto en la que se le vea a 
+usted y a su pantalla de ordenador mostrando su 
+
+29
+00:01:37,079 --> 00:01:38,479
+herramienta preferida de análisis de datos.
+
+30
+00:01:38,479 --> 00:01:42,493
+Así que sólo tiene que abrir su hoja de cálculo 
+favorita o su base de datos, tomar el teléfono,
+
+31
+00:01:42,619 --> 00:01:46,590
+hacer una foto de si mismo en su escritorio, 
+o como me gusta llamarlo
+
+32
+00:01:46,591 --> 00:01:49,952
+un "archivo de Excel", y enviárnoslo para 
+que podamos conocer
+
+33
+00:01:50,052 --> 00:01:52,889
+a quienes nos acompañan en este viaje.
+

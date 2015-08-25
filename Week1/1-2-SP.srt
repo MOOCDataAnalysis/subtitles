@@ -1,0 +1,224 @@
+1
+00:00:00,599 --> 00:00:04,420
+En este video le introduciré un poco 
+más en el plan de estudios
+
+2
+00:00:04,421 --> 00:00:07,151
+de EX101x; qué vamos a hacer juntos.
+
+3
+00:00:07,529 --> 00:00:11,840
+Vamos a trabajar en el análisis de datos 
+- Supongo que usted entiende bastante - 
+
+4
+00:00:11,841 --> 00:00:14,961
+pero le diré lo que haremos: en las
+primeras 
+
+5
+00:00:14,969 --> 00:00:19,140
+seis semanas vamos a trabajar solamente 
+con hojas de cálculo. Le voy a enseñar
+
+6
+00:00:19,141 --> 00:00:22,313
+todas las cosas que hay que saber sobre 
+las hojas de cálculo, abordaremos s
+
+7
+00:00:22,439 --> 00:00:26,470
+tablas dinámicas, fórmulas de matriz, 
+cómo probar sus hojas de cálculo,
+
+8
+00:00:26,471 --> 00:00:31,026
+VLOOKUPs, todas las cosas que usted necesita.
+Alguna persona, mientras yo estaba diseñando
+
+9
+00:00:31,026 --> 00:00:32,446
+este MOOC,
+
+10
+00:00:32,446 --> 00:00:37,014
+me hizo la siguiente pregunta: ¿por qué 
+las hojas de cálculo? ¿Por qué vais a pasar 
+
+11
+00:00:37,014 --> 00:00:38,794
+seis semanas con hojas de cálculo.
+
+12
+00:00:38,800 --> 00:00:44,000
+Especialmente en la era de los grandes datos, 
+no se supone que debas estar enseñando a aquellas 
+ 
+
+13
+00:00:44,001 --> 00:00:47,561
+personas Hadoop clusters or 'R'? Well, no!
+
+14
+00:00:47,561 --> 00:00:51,660
+Las hojas de cálculo son realmente relevantes! 
+Una de las razones por las que es muy importante
+
+15
+00:00:51,660 --> 00:00:53,340
+enseñar a la gente el manejo de las hojas 
+de cálculo,
+
+16
+00:00:53,340 --> 00:00:56,760
+es por que son utilizadas con mucha frecuencia. 
+El 95 por ciento
+
+17
+00:00:56,760 --> 00:01:01,000
+de todas las empresas estadounidenses siguen 
+utilizando hojas de cálculo para la información 
+financiera.
+
+18
+00:01:01,000 --> 00:01:04,420
+Así que si usted todavía las está utilizando, 
+no tiene por que sentirse mal
+
+19
+00:01:04,420 --> 00:01:08,000
+ya que trabajar con hojas de cálculo es 
+muy común,lo hace casi todo el mundo 
+
+20
+00:01:08,000 --> 00:01:11,008
+el 64 por ciento de los trabajadores
+
+21
+00:01:11,008 --> 00:01:15,011
+utilizar hojas de cálculo en su vida diaria. 
+Esta es una encuesta
+
+22
+00:01:15,038 --> 00:01:18,043
+del "US Labor Statistics "
+
+23
+00:01:18,043 --> 00:01:22,043
+del año 2003. Es un poco vieja, pero todavía
+siguen  siendo utilizadas
+
+24
+00:01:22,049 --> 00:01:25,890
+a lot of people. And a more recent survey,
+from 2009,
+
+25
+00:01:25,891 --> 00:01:29,431
+demostró que las hojas de cálculo son 
+la cuarta tarea más común
+
+26
+00:01:29,440 --> 00:01:32,640
+de la gente que hace su trabajo con 
+el ordenador,
+
+27
+00:01:32,651 --> 00:01:36,351
+después de usar Internet y procesamiento 
+de texto,
+
+28
+00:01:36,360 --> 00:01:38,320
+por lo que su uso es muy, muy común.
+
+29
+00:01:39,040 --> 00:01:41,451
+Lo que sucede a menudo es que las hojas 
+de cálculos are 
+
+30
+00:01:41,460 --> 00:01:43,620
+se han diseñado como una solución 
+para una sola vez.
+
+31
+00:01:43,620 --> 00:01:46,680
+Pensamos que sólo se va a utilizar
+para hacer un informe,
+
+32
+00:01:46,680 --> 00:01:49,660
+que con solamente descargar los datos 
+y hacer un gráfico,
+
+33
+00:01:49,660 --> 00:01:55,000
+todo se termina, y sin embargo,  
+a menudo esto no es así!
+
+34
+00:01:55,000 --> 00:01:59,067
+Como sabe, usted tiene una persona en la mesa 
+de al lado, y ella le  dice "Oh, eso es un buen 
+informe,
+
+35
+00:01:59,067 --> 00:02:03,078
+puedo tenerlo yo también?" Claro, usted es 
+un buen colega,
+
+36
+00:02:03,078 --> 00:02:06,978
+por lo que le envía por correo electrónico la 
+hoja de cálculo. El cambia algunos datos, 
+
+37
+00:02:06,980 --> 00:02:11,420
+y le añade algunas hojas de trabajo, y la 
+hoja de cálculo comienza a liderar su propia vida.
+
+38
+00:02:11,680 --> 00:02:15,000
+Nuestra investigación ha demostrado que 
+esto es muy común.
+
+39
+00:02:15,004 --> 00:02:18,006
+El promedio de vida de las hojas de cálculo 
+es de cinco años,
+
+40
+00:02:18,006 --> 00:02:22,005
+y durante su vida son utilizadas por 12 
+personas diferentes.
+
+41
+00:02:22,005 --> 00:02:25,051
+Así que es por esto que es muy importante 
+ser capaz de diseñar
+
+42
+00:02:25,051 --> 00:02:28,991
+una buena hoja de cálculo sin errores, 
+porque a pesar de que usted piensa 
+
+43
+00:02:29,025 --> 00:02:32,029
+que es sólo para usted, lo más probable
+
+44
+00:02:32,060 --> 00:02:35,640
+es que esa hoja de cálculo tenga una larga
+ vida útil.
+
+45
+00:02:36,200 --> 00:02:38,140
+Por lo tanto, esa es la respuesta a la pregunta
+
+46
+00:02:38,140 --> 00:02:40,480
+de por qué estamos haciendo este curso 
+sobre las hojas de cálculo.
+

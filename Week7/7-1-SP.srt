@@ -1,0 +1,416 @@
+1
+00:00:00,220 --> 00:00:04,380
+En los vídeos anteriores hemos hablado de
+problemas con las hojas de cálculo y de
+
+2
+00:00:04,390 --> 00:00:06,559
+cómo abordarlos con las pruebas.
+
+3
+00:00:06,559 --> 00:00:10,220
+Pero las hojas de cálculo no son siempre 
+las soluciones adecuadas -
+
+4
+00:00:10,220 --> 00:00:14,090
+hay problemas con los que se 
+puede encontrar en su 
+trabajo
+
+5
+00:00:14,090 --> 00:00:17,990
+que sencillamente no se pueden s
+solucionar con una hoja de cálculo.
+
+6
+00:00:17,990 --> 00:00:21,349
+Y esos son los tipos de problemas 
+que vamos a abordar hoy,
+
+7
+00:00:21,349 --> 00:00:26,249
+cuando no utilizar una hoja de cálculo. Así que 
+a lo largo de las últimas semanas han 
+
+8
+00:00:26,249 --> 00:00:26,869
+aprendido mucho de mi
+
+9
+00:00:26,869 --> 00:00:29,999
+y de cosas que me gustan, como la enseñanza
+y la cerveza artesanal,
+
+10
+00:00:29,999 --> 00:00:33,789
+Pero tengo un hobbie del que aún
+no hemos hablado, este es ir la cine
+
+11
+00:00:33,789 --> 00:00:37,800
+Me gusta mucho el cine! 
+Incluso tengo una suscripción
+
+12
+00:00:37,800 --> 00:00:41,250
+a la sala de cine de mi ciudad con
+la que puedo ir a todas las películas,
+
+13
+00:00:41,250 --> 00:00:45,079
+sin límites. Esta semana todos los
+ejercicios tratarán de una pequeña base de
+
+14
+00:00:45,079 --> 00:00:49,399
+datos de películas que yo he hecho en una
+hoja de cálculo, donde tenemos películas, 
+
+15
+00:00:49,399 --> 00:00:54,429
+los estudios que hicieron las películas 
+la calificación de la película, 
+
+16
+00:00:54,429 --> 00:00:57,620
+cuando la pude ver,  o el año en que la 
+película ha sido liberada, y
+
+17
+00:00:57,620 --> 00:01:03,679
+el tipo de película, el género, la
+acción, aventura...y tenemos
+
+18
+00:01:03,679 --> 00:01:04,580
+muchos datos.
+
+19
+00:01:04,580 --> 00:01:08,620
+Además de las películas, en la base 
+de datos también tenemos los actores
+
+20
+00:01:08,620 --> 00:01:12,580
+y las películas que ellos han rodado. Así
+que, aquí puede ver cómo Andre 3000
+
+21
+00:01:12,580 --> 00:01:13,400
+ha participado en la película Volcano 
+
+22
+00:01:13,400 --> 00:01:18,280
+Así que esta es una bonita y pequeña base
+de datos de información de películas 
+
+23
+00:01:18,290 --> 00:01:20,180
+que podemos analizar. Hay muchos
+
+24
+00:01:20,180 --> 00:01:24,960
+análisis posibles de realizar con estos datos.
+Por ejemplo, podemos analizar los
+
+25
+00:01:24,970 --> 00:01:27,250
+estudios para los que ha trabajado un actor.
+
+26
+00:01:27,250 --> 00:01:30,640
+Podríamos estar interesado en esta pregunta:
+"¿Qué actor de nuestra base de datos
+
+27
+00:01:30,640 --> 00:01:35,720
+ha trabajado para el mayor número
+de estudios diferentes?"
+
+28
+00:01:35,720 --> 00:01:39,730
+Así que podemos obtener la información 
+de un estudio con un VLOOKUP, 
+
+29
+00:01:39,730 --> 00:01:43,560
+esto debería ser sencillo para usted,
+si ha visionado todos los vídeos.
+
+30
+00:01:43,560 --> 00:01:46,700
+Así que añadimos VLOOKUP, y conseguimos la
+información de
+
+31
+00:01:46,700 --> 00:01:50,560
+cada estudio asociado a una película.
+A continuación, podemos seleccionar
+
+32
+00:01:50,560 --> 00:01:54,660
+todos esos datos, esto es, podemos seleccionar
+todos estos datos
+
+33
+00:01:54,660 --> 00:01:57,820
+y añadirlos a una tabla dinámica. Esto
+también debería ser 
+
+34
+00:01:57,820 --> 00:02:01,420
+un pedazo de pastel, si usted ha 
+visto todos los vídeos, Así que
+
+35
+00:02:01,420 --> 00:02:05,030
+añadimos los datos al modelo de datos,
+porque vamos a querer usar una 
+
+36
+00:02:05,030 --> 00:02:06,880
+Distinct Count
+
+37
+00:02:06,880 --> 00:02:09,140
+para calcular el número diferente
+de estudios
+
+38
+00:02:09,140 --> 00:02:13,280
+para los que ha trabajado cada persona. 
+Así que, aquí tenemos nuestra tabla dinámica,
+
+39
+00:02:13,280 --> 00:02:17,760
+arrastramos el nombre del actor, ahí está,
+
+40
+00:02:17,760 --> 00:02:19,840
+y a continuación arrastramos studio,
+
+41
+00:02:19,840 --> 00:02:21,780
+y conseguimos el número de estudios 
+para los que ha trabajado esta persona.
+
+42
+00:02:21,780 --> 00:02:23,120
+Pero todavía hay una cosa pequeña
+
+43
+00:02:23,120 --> 00:02:25,310
+que necesitamos cambiar, ella es:
+
+44
+00:02:25,310 --> 00:02:28,890
+necesitamos ir a las propiedades de la
+tabla dinámica y decir "no queremos tener
+
+45
+00:02:28,890 --> 00:02:30,140
+la cuenta,
+
+46
+00:02:30,140 --> 00:02:33,670
+pero queremos desplazarnos hacia abajo,
+queremos tener Distinct Count.
+
+47
+00:02:33,670 --> 00:02:38,280
+Si hacemos esto, empieza a calcular...
+esperamos un momento....
+
+48
+00:02:38,280 --> 00:02:42,340
+Ahora podemos ordenar y veremos que
+Christopher Lee ha trabajado para 
+
+49
+00:02:42,340 --> 00:02:46,810
+la mayor cantidad de estudios diferentes,
+pienso que son 42
+
+50
+00:02:46,810 --> 00:02:50,270
+OK, ¡así es!, ¡son 42!.
+
+51
+00:02:50,270 --> 00:02:54,880
+Así que, tenemos muchos datos en nuestra base de
+datos, que podemos analizar de diferentes maneras,
+
+52
+00:02:54,880 --> 00:02:59,319
+usando VLOOKUP y usando tablas dinámicas,
+esto lo conocemos, por ahora.
+
+53
+00:02:59,319 --> 00:03:02,340
+Pero probemos a formularnos una pregunta 
+diferente:
+
+54
+00:03:02,340 --> 00:03:06,270
+Podríamos desear conocer, para todos los actores,
+no el número de estudios para los que han
+
+55
+00:03:06,270 --> 00:03:08,970
+trabajado, si no que nos gustaría conocer
+de cada actor
+
+56
+00:03:08,970 --> 00:03:15,400
+su número Bacon. Pensé que el número Bacon 
+era como un concepto muy familiar,
+
+57
+00:03:15,400 --> 00:03:19,850
+Hice este mismo ejercicio en mi clase, aquí 
+en Delfy, con 40 estudiantes,
+
+58
+00:03:19,850 --> 00:03:23,270
+y pregunté: ¿Quién sabe qué es el número Bacon?
+y se  levantaron como dos manos....
+
+59
+00:03:23,270 --> 00:03:27,599
+Así que al parecer, es un poco como una cosa de 
+la película-geek, así que voy a
+
+60
+00:03:27,599 --> 00:03:29,319
+a explicarles que es.
+
+61
+00:03:29,319 --> 00:03:32,590
+Número Bacon de un actor es el número 
+de pasos que un actor está alejado de
+
+62
+00:03:32,590 --> 00:03:38,650
+Kevin Bacon. Así mismo Kevin Bacon Tocino
+tiene el número 1,
+
+63
+00:03:38,650 --> 00:03:41,740
+y alguien que haya participado en una 
+película con él, por ejemplo,
+
+64
+00:03:41,740 --> 00:03:47,150
+Ed Harris in Apollo 13, tendrá
+número Bacon   2.
+
+65
+00:03:47,150 --> 00:03:49,430
+Alguien que haya participado en una película
+con Ed Harris.
+
+66
+00:03:49,430 --> 00:03:53,250
+como Nicolas Cage, en una de mis películas
+favoritas, The rock, 
+
+67
+00:03:53,250 --> 00:03:57,250
+tendrá el número Bacon 3, porque su 
+distancia a Kevin Bacon
+
+68
+00:03:57,250 --> 00:04:02,790
+es 2 saltos a través de Ed Harris. Así que 
+de esta manera podemos trazar todos los 
+
+69
+00:04:02,790 --> 00:04:03,770
+que han participado en películas
+
+70
+00:04:03,770 --> 00:04:09,239
+en base a su distancia a Kevin Bacon. Luego
+el número de saltos, el número de pasos
+
+71
+00:04:09,239 --> 00:04:10,430
+desde Kevin Bacon
+
+72
+00:04:10,430 --> 00:04:15,650
+determina el número de Bacon. ¿Seríamos 
+capaces de calcular esta información en
+
+73
+00:04:15,650 --> 00:04:17,590
+nuestra pequeña base de datos de películas?
+Porque, 
+
+74
+00:04:17,590 --> 00:04:19,180
+tenemos la información -
+
+75
+00:04:19,180 --> 00:04:22,289
+conocemos quien ha trabajado en cada película,
+pero
+
+76
+00:04:22,289 --> 00:04:23,629
+¿Cómo sacar esto?
+
+77
+00:04:23,629 --> 00:04:28,029
+¿Cómo vamos a procesar la información
+de manera que consigamos
+
+78
+00:04:28,029 --> 00:04:29,120
+una lista pequeña y agradable
+
+79
+00:04:29,120 --> 00:04:32,499
+de cada actor con su número Bacon?
+
+80
+00:04:32,499 --> 00:04:36,219
+Así que, antes de ver el resto de los vídeos,
+le reto a intentarlo.
+
+81
+00:04:36,219 --> 00:04:39,990
+No lo intente en esta gigantesca 
+base de datos,
+
+82
+00:04:39,990 --> 00:04:43,870
+hágalo en esta base de datos pequeña.
+La pondremos online, 
+
+83
+00:04:43,870 --> 00:04:48,650
+en el sitio web del curso, es sólo más fácil 
+jugar con una hoja de cálculo pequeña,
+
+
+84
+00:04:48,650 --> 00:04:50,539
+que con una lista completa de
+
+85
+00:04:50,539 --> 00:04:55,729
+cientos y cientos de actores. Por favor,
+no visione todavía el vídeo siguiente, 
+
+86
+00:04:55,729 --> 00:05:00,580
+descargue este, juegue con el, e intente ver 
+si es capaz de encontrar una manera
+
+87
+00:05:00,580 --> 00:05:04,060
+de analizar el número de Bacon, de cada actor.
+ ¡Suerte!
+
