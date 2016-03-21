@@ -1,0 +1,384 @@
+1
+00:00:02,490 --> 00:00:08,290
+In the previous video we've imported data.
+So we've gone from a data source to the raw
+
+2
+00:00:08,290 --> 00:00:12,040
+data.
+However, we need some data wrangling still.
+
+3
+00:00:12,040 --> 00:00:17,520
+And maybe you've noticed in the exercises
+that our data isn't exactly perfect.
+
+4
+00:00:17,520 --> 00:00:25,259
+Like crude oil it needs some refinement, in
+order to be processable for further data analysis.
+
+5
+00:00:25,259 --> 00:00:29,570
+So one of the things you might have noticed
+is here.
+
+6
+00:00:29,570 --> 00:00:35,910
+If we go to line 1578.
+Let's go there with 'goto', that you can bring
+
+7
+00:00:35,910 --> 00:00:41,450
+up with F5.
+You see that the headers are repeated.
+
+8
+00:00:41,450 --> 00:00:47,200
+Because we have merged the six CSV files into
+one, also the headers are replicated.
+
+9
+00:00:47,200 --> 00:00:51,890
+Do you know how to fix this?
+Maybe you have seen this in a previous MOOC
+
+10
+00:00:51,890 --> 00:00:55,120
+or somewhere else.
+There are a few techniques you can use to
+
+11
+00:00:55,120 --> 00:00:59,390
+get rid of this duplication.
+There will be a little quiz afterwards where
+
+12
+00:00:59,390 --> 00:01:03,850
+you can show us whether you know how to fix
+this.
+
+13
+00:01:03,850 --> 00:01:09,700
+Okay, welcome back.
+But there are some worse scenarios in our
+
+14
+00:01:09,700 --> 00:01:12,420
+data.
+For example, if we look at 'loyalty', some
+
+15
+00:01:12,420 --> 00:01:16,729
+of them have a loyalty number, and others
+have three dashes.
+
+16
+00:01:16,729 --> 00:01:20,450
+So if we add some analysis on top of that,
+naively,
+
+17
+00:01:20,450 --> 00:01:25,979
+let's calculate how many purchases there are
+without loyalty card.
+
+18
+00:01:25,979 --> 00:01:30,939
+If we would do that, just by looking at the
+first few rows, we would do a 'COUNTIF' on
+
+19
+00:01:30,939 --> 00:01:37,369
+column K, on all of the loyalties, and we
+would count everywhere where it is three dashes.
+
+20
+00:01:37,369 --> 00:01:42,289
+But unfortunately this is not the correct
+value, because if we look at 'loyalty', and
+
+21
+00:01:42,289 --> 00:01:47,560
+the easy way to find this is adding a filter.
+If we scroll back, if we look at 'loyalty'
+
+22
+00:01:47,560 --> 00:01:54,119
+here we see that some of the values are zero.
+So this is probably not loyalty card number
+
+23
+00:01:54,119 --> 00:01:59,810
+zero that is making all these purchases.
+In some of the branches they are saving loyalty
+
+24
+00:01:59,810 --> 00:02:06,829
+as zero instead of three dashes.
+So what we can do is we can use some calculation
+
+25
+00:02:06,829 --> 00:02:11,690
+to make the data look more consistent.
+What we can do is we go to 'loyalty'.
+
+26
+00:02:11,690 --> 00:02:14,430
+There we go.
+To 'loyalty'.
+
+27
+00:02:14,430 --> 00:02:20,470
+And we make a 'loyalty processed' column.
+Where we are going to say "okay, in one of
+
+28
+00:02:20,470 --> 00:02:28,420
+these three scenarios, either it is black,
+or it is zero, or it is three dashes.
+
+29
+00:02:28,420 --> 00:02:33,080
+In one of these three scenarios we are going
+to give back one value."
+
+30
+00:02:33,080 --> 00:02:36,760
+Doesn't really matter which one we pick.
+Let's here pick three dashes.
+
+31
+00:02:36,760 --> 00:02:39,670
+There we go.
+Three dashes in that scenario.
+
+32
+00:02:39,670 --> 00:02:43,190
+And otherwise, we are going to we are going
+to give the loyalty value.
+
+33
+00:02:43,190 --> 00:02:47,400
+So if we use that formula, we can drag it
+down.
+
+34
+00:02:47,400 --> 00:02:50,680
+There we go.
+And now you see that, everywhere, even if
+
+35
+00:02:50,680 --> 00:02:56,970
+the loyalty is zero, we get three dashes.
+And also if the loyalty is blank, in any case
+
+36
+00:02:56,970 --> 00:03:01,930
+we get three dashes.
+Nice and consistent.
+
+37
+00:03:01,930 --> 00:03:05,820
+Whatever is in column K, column L will look
+nice.
+
+38
+00:03:05,820 --> 00:03:10,100
+So one thing to notice here is that I'm now
+doing this in the input sheet.
+
+39
+00:03:10,100 --> 00:03:14,670
+I'm putting it right next to the input data.
+I'm just doing that because this is a video
+
+40
+00:03:14,670 --> 00:03:18,070
+and it's a lot of work to switch the worksheets
+all the time.
+
+41
+00:03:18,070 --> 00:03:22,040
+Normally, and this is what you are going to
+do in the exercises as well, you would put
+
+42
+00:03:22,040 --> 00:03:26,430
+it in a separate worksheet, because you want
+to separate input data and formulas.
+
+43
+00:03:26,430 --> 00:03:31,830
+This is just an example.
+This is not how you normally do it.
+
+44
+00:03:31,830 --> 00:03:36,400
+What you might also have noticed is that there
+are even worse things wrong with our data.
+
+45
+00:03:36,400 --> 00:03:41,380
+If we go here to the 'Sales Price', we select
+that, again we can easily use a filter to
+
+46
+00:03:41,380 --> 00:03:46,360
+see all the values that are there.
+Some of the values have a dollar sign, where
+
+47
+00:03:46,360 --> 00:03:51,260
+others do not have a dollar sign.
+And you might think "is this a problem or
+
+48
+00:03:51,260 --> 00:03:52,950
+not?"
+We can ask Excel.
+
+49
+00:03:52,950 --> 00:03:59,320
+So we can ask "are these two values the same?"
+And Excel says 'true', yes, both of them are
+
+50
+00:03:59,320 --> 00:04:01,710
+the same.
+So it's just a layout issue.
+
+51
+00:04:01,710 --> 00:04:07,150
+It's not really a problem.
+One thing though, is really a problem.
+
+52
+00:04:07,150 --> 00:04:13,510
+Some of these values have commas in them.
+Let's select one.
+
+53
+00:04:13,510 --> 00:04:17,060
+And we want to know: "is this a problem?"
+So one of the things you can always try, to
+
+54
+00:04:17,060 --> 00:04:20,949
+see if values are normal, is to do some calculation
+with them.
+
+55
+00:04:20,949 --> 00:04:25,889
+If we add these two values... huh? It is not
+working!
+
+56
+00:04:25,889 --> 00:04:30,379
+Why could that be?
+Well, one of the guesses we can take is that,
+
+57
+00:04:30,379 --> 00:04:34,509
+maybe this is a text value.
+And we can ask Excel "hey, is this a text?"
+
+58
+00:04:34,509 --> 00:04:37,680
+Do you also think this is text?
+"Yes!" says Excel.
+
+59
+00:04:37,680 --> 00:04:42,819
+It is true that this is text.
+And that means that at least we know what
+
+60
+00:04:42,819 --> 00:04:45,729
+is wrong.
+And I'll show you one formula that you can
+
+61
+00:04:45,729 --> 00:04:51,499
+use to convert text to numbers if Excel hasn't
+done it automatically.
+
+62
+00:04:51,499 --> 00:04:55,550
+Because sometimes it just goes naturally.
+Let me show you how that works.
+
+63
+00:04:55,550 --> 00:04:58,659
+So we're going to get rid of this text, we
+don't need that anymore.
+
+64
+00:04:58,659 --> 00:05:02,659
+Let's delete that.
+What we're going to do is the 'NUMBERVALUE'
+
+65
+00:05:02,659 --> 00:05:05,860
+function.
+Where you can put in a text, we know now that
+
+66
+00:05:05,860 --> 00:05:08,460
+this is text.
+So we can put it in.
+
+67
+00:05:08,460 --> 00:05:12,560
+And then we can say what is the decimal separator
+in this number.
+
+68
+00:05:12,560 --> 00:05:16,659
+So, in this case, of course you've seen that,
+it is a comma.
+
+69
+00:05:16,659 --> 00:05:20,879
+And if we close that formula off, we get a
+nice value.
+
+70
+00:05:20,879 --> 00:05:25,029
+100, a real value.
+And you can drag that down.
+
+71
+00:05:25,029 --> 00:05:29,020
+Here I'm just doing it over the filter, but
+of course you can do it over all of the rows.
+
+72
+00:05:29,020 --> 00:05:33,379
+And just to verify that we've done it correctly
+we can add a formula on top of it and then
+
+73
+00:05:33,379 --> 00:05:37,550
+we see, yes, it is real data.
+Because if we add a hundred to a hundred we
+
+74
+00:05:37,550 --> 00:05:41,699
+get two hundred, in stead of '#VALUE' like
+we got before.
+
+75
+00:05:41,699 --> 00:05:48,469
+So, your exercise to close of this week is
+to clean all of this data in order to prepare
+
+76
+00:05:48,469 --> 00:05:51,460
+for the data analysis that we will be doing
+next week.
+
+77
+00:05:51,460 --> 00:05:52,080
+Good luck!
+

@@ -1,0 +1,141 @@
+1
+00:00:03,129 --> 00:00:08,010
+In de vorige video heb je gezien hoe we zes verschillende CSV bestanden hebben gecombineerd, door
+
+2
+00:00:08,010 --> 00:00:13,450
+het 'copy' commando te gebruiken. Dus dit hebben we gedaan: we hebben zes bestanden in één genomen.
+
+3
+00:00:13,450 --> 00:00:16,939
+Dat is wat we in de vorige video gedaan hebben. In de tussentijd heb je, indien je de opgaven
+
+4
+00:00:16,939 --> 00:00:23,029
+gemaakt hebt, dat ene CSV bestand gebruikt om in Excel te importeren.
+
+5
+00:00:23,029 --> 00:00:27,179
+Maar, soms heb je geen zes CSV bestanden.
+
+6
+00:00:27,179 --> 00:00:30,019
+Soms heb je zes Excel bestanden. Of tien.
+
+7
+00:00:30,019 --> 00:00:34,770
+Of honderd. En helaas werkt 'copy' niet op Excel bestanden.
+
+8
+00:00:34,770 --> 00:00:37,710
+Trouwens, als je nu al weet dat je
+
+9
+00:00:37,710 --> 00:00:42,370
+nooit Excel bestanden gaat importeren omdat je altijd CSV bestanden importeert, voel je
+
+10
+00:00:42,370 --> 00:00:46,510
+vrij om deze video over te slaan. Het gaat alleen over de conversie van Excel naar
+
+11
+00:00:46,510 --> 00:00:49,750
+CSV. Maar sla niet de volgende video over.
+
+12
+00:00:49,750 --> 00:00:54,570
+Die gaat over data typen,  en dat moet je hoe dan ook weten.
+
+13
+00:00:54,570 --> 00:00:59,660
+Dus, als je hier nog bent ga ik er vanuit dat je wilt weten hoe je Excel bestanden transformeert
+
+14
+00:00:59,660 --> 00:01:05,369
+naar CSV bestanden zodat we 'copy' en 'importeren' kunnen gebruiken om allen in Excel te krijgen.
+
+15
+00:01:05,369 --> 00:01:10,270
+Dus, hoe moeten we dat doen. Natuurlijk, zoals je mij ook in vorige
+
+16
+00:01:10,270 --> 00:01:15,060
+video's hebt zien doen, kun je het handmatig doen. We kunnen elk bestand openen, 'opslaan als', 'CSV',
+
+17
+00:01:15,060 --> 00:01:18,020
+en dan zijn we klaar. Maar dat is veel werk.
+
+18
+00:01:18,020 --> 00:01:23,229
+Dus, om het wat makkelijker te maken heb ik een klein scriptje gemaakt. Een VBS script. Dit staat voor
+
+19
+00:01:23,229 --> 00:01:29,240
+'Visual Basic' script. En dit kunnen we gebruiken om automatisch alle Excel bestanden
+
+20
+00:01:29,240 --> 00:01:34,380
+naar CSV bestanden te converteren. Dat is wat ik zal laten zien in deze video.
+
+21
+00:01:34,380 --> 00:01:37,799
+Dus, hier zie je het script. We zullen een download link onder de video plaatsen.
+
+22
+00:01:37,799 --> 00:01:42,340
+Als je nu simpelweg op het script klikt begint het in de achtergrond uit te voeren.
+
+23
+00:01:42,340 --> 00:01:46,869
+We krijgen nu alle CSV bestanden. Nu we deze bestanden hebben, kunnen we opnieuw
+
+24
+00:01:46,869 --> 00:01:53,959
+dezelfde truck uitvoeren als die uit de vorige video.
+We kopiëren alle CSV bestanden in één.
+
+25
+00:01:53,959 --> 00:01:56,810
+Daar gaan we. Nu hebben we een 'input' bestand.
+
+26
+00:01:56,810 --> 00:02:02,639
+En omdat je de data connectie met dit bestand al hebt gemaakt kunnen we deze makkelijk openen.
+
+27
+00:02:02,639 --> 00:02:07,459
+Je klikt 'Verversen', en alle data is daar.
+
+28
+00:02:07,459 --> 00:02:09,830
+Erg gemakkelijk. Als laatste wil ik nog laten zien er
+
+29
+00:02:09,830 --> 00:02:15,510
+bij 'eigenschappen' een optie is genaamd 'verversen bij openen'. Dit is iets dat je
+
+30
+00:02:15,510 --> 00:02:18,980
+wilt inschakelen. Want dit betekent dat elke keer dat je het Excel bestand
+
+31
+00:02:18,980 --> 00:02:21,790
+opent, alle data connecties,
+
+32
+00:02:21,790 --> 00:02:25,510
+in ons geval maar één, automatisch verversen.
+
+33
+00:02:25,510 --> 00:02:32,000
+Zo kan je nooit vergeten om je data te verversen. Je kan simpelweg alles converteren, kopiëren, en dan
+
+34
+00:02:32,000 --> 00:02:35,470
+zodra je het bestand opent wordt de meest recente data geladen.
+
+35
+00:02:35,470 --> 00:02:36,890
+Is dat niet makkelijk?!
+

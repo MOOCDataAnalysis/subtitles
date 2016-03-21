@@ -1,0 +1,198 @@
+1
+00:00:00,000 --> 00:00:06,899
+We are going to import data, and the first
+thing we need to import data is to get
+
+2
+00:00:06,899 --> 00:00:14,660
+our data into a CSV format, a 'comma separated values' format. So you might think
+
+3
+00:00:14,660 --> 00:00:17,859
+"how am I going to get my data into a CSV
+file?"
+
+4
+00:00:18,390 --> 00:00:22,460
+Well, the easiest thing that you can do
+that maybe you haven't thought of is
+
+5
+00:00:22,460 --> 00:00:27,449
+ask your colleagues: the people that are
+now emailing you spreadsheets. Maybe they
+
+6
+00:00:27,449 --> 00:00:33,090
+can supply you with CSV files
+instead. Many database systems can easily
+
+7
+00:00:33,090 --> 00:00:37,629
+export also to CSV. It really
+won't be a silly question if you ask
+
+8
+00:00:37,629 --> 00:00:42,559
+your colleagues "hey, would it be possible
+to email me a CSV file instead?"
+
+9
+00:00:42,559 --> 00:00:47,940
+That is an option. If you cannot do that, then
+suppose you already have your data in
+
+10
+00:00:47,940 --> 00:00:52,289
+Excel, you can also do the transformation
+yourself. It's not that hard you just
+
+11
+00:00:52,289 --> 00:00:57,969
+open your spreadsheet and you save it
+as a CSV file. There we go, we save
+
+12
+00:00:57,969 --> 00:01:03,890
+and then we select, instead of XLSX file, we
+scroll down and we pick CSV. And then we get
+
+13
+00:01:03,890 --> 00:01:08,820
+our data in a CSV file. Excel gives us a
+warning: "hey! Be careful! Formulas
+
+14
+00:01:08,820 --> 00:01:13,680
+and pivot tables will be removed if you
+convert to CSV." But that is OK, we don't
+
+15
+00:01:13,680 --> 00:01:17,869
+need them. And now, like we did in the
+previous MOOC where we imported
+
+16
+00:01:17,869 --> 00:01:23,270
+data from the web, we can import data
+from the CSV file now. So we pick
+
+17
+00:01:23,270 --> 00:01:27,850
+"delimited", and we tell excel at our
+data has headers. Because the first row
+
+18
+00:01:27,850 --> 00:01:32,619
+is a header row. And even though it's
+called a CSV file, we still have to tell
+
+19
+00:01:32,619 --> 00:01:37,049
+Ecxel that commas are the separators
+between the columns. So we get a nice
+
+20
+00:01:37,049 --> 00:01:41,520
+little preview now, and here we can set
+the data types. So we say this is 'text' and
+
+21
+00:01:41,520 --> 00:01:45,500
+this is 'text'. All the other 'text' as well,
+but I guess you believe that.
+
+22
+00:01:46,200 --> 00:01:49,780
+And here we have a 'date'. So we have to
+tell Excel: "be careful, this is a 'date'!"
+
+23
+00:01:49,780 --> 00:01:55,840
+and we can also say that it is month-day-year.
+Then it knows how to interpret it.
+
+24
+00:01:55,840 --> 00:01:59,090
+Maybe you want to click OK now, but don't do
+that! We have to go to the properties
+
+25
+00:01:59,090 --> 00:02:03,829
+first, because there is one important
+property here that we need to remove.
+
+26
+00:02:03,829 --> 00:02:09,709
+We don't want Excel to ask for the file
+name upon refresh. If we would click that
+
+27
+00:02:09,709 --> 00:02:12,910
+then every time we click 'Refresh', Excel
+will ask us:
+
+28
+00:02:12,910 --> 00:02:19,490
+"What is the file name?" So we want to disable
+that. And there we go. Now we have all the data from
+
+29
+00:02:19,490 --> 00:02:26,050
+the CSV file into our Excel file at once.
+And suppose we have that annoying colleague
+
+30
+00:02:26,050 --> 00:02:31,680
+again that emailed us "here is a new updated version." That is no trouble for us anymore.
+
+31
+00:02:31,680 --> 00:02:36,800
+Because what we can just do is:
+we open the file... Oh, let me show you that we
+
+32
+00:02:36,800 --> 00:02:42,360
+have 753 rows now. That will be important
+later. ...we open the file, the second file
+
+33
+00:02:42,360 --> 00:02:47,090
+that our colleague sent us. And we can
+just save this file again as a CSV file.
+
+34
+00:02:47,090 --> 00:02:52,780
+There we go. We scroll down, we pick 'CSV',
+and now we pick the file that is
+
+35
+00:02:52,780 --> 00:02:57,250
+already there. we overwrite it. Yes Excel, we
+know. We are OK. We know what we are doing with the warning:
+
+36
+00:02:57,250 --> 00:03:03,070
+We can close it! And now
+the second file is saved as a CSV file.
+
+37
+00:03:03,070 --> 00:03:08,150
+So we just click 'Refresh', and the data is
+loaded. Let us scroll down, you can see
+
+38
+00:03:08,150 --> 00:03:13,950
+that we now got five extra rows. So,
+without any copy-pasting, without
+
+39
+00:03:13,950 --> 00:03:18,800
+deleting any data. We just make sure that
+we're pointing to the same filename we
+
+40
+00:03:18,800 --> 00:03:22,010
+click 'Refresh', and all the data is there.
+Isn't that nice?!
+

@@ -1,0 +1,133 @@
+1
+00:00:00,340 --> 00:00:04,920
+Dus, nieuwe MOOC, nieuwe winkel! Deze week zijn we de eigenaren van een sportwinkel.
+
+2
+00:00:04,920 --> 00:00:09,860
+Deze winkel verkoopt dingen zoals sokken, schoenen, Bh's, en broeken.
+
+3
+00:00:09,860 --> 00:00:16,059
+Wij gaan analyseren hoe het met de winkel gaat.
+Deze week praten we over het importeren van data.
+
+4
+00:00:16,059 --> 00:00:19,720
+Dus, we nemen aan dat we willekeurige data bron hebben,
+
+5
+00:00:19,720 --> 00:00:25,910
+zoals een ERP systeem of een database. Nu willen we de data hieruit in ons spreadsheet krijgen.
+
+6
+00:00:25,910 --> 00:00:31,019
+Ik gok dat jouw huidige methode om dit te doen er ongeveer zo uitziet:
+
+7
+00:00:31,019 --> 00:00:35,730
+Mensen sturen je meerdere emails met spreadsheets,
+En jij moet uitzoeken hoe deze samenhangen.
+
+8
+00:00:35,730 --> 00:00:40,190
+Uiteindelijk leidt dat tot iets dat er zo uit ziet.
+Je hebt een map op je harde schijf met
+
+9
+00:00:40,190 --> 00:00:45,879
+meerdere excel bestanden, en jij moet ze gezamenlijk analyseren.
+
+10
+00:00:45,879 --> 00:00:48,829
+Wat je waarschijnlijk zal doen is zoiets als dit.
+
+11
+00:00:48,829 --> 00:00:51,760
+Je importeert de data, en klikt op een van de bestanden.
+
+12
+00:00:51,760 --> 00:00:56,559
+Het bestand opent en je selecteerd alle data.
+Dit is erg gemakkelijk.
+
+13
+00:00:56,559 --> 00:01:00,270
+Nu ga je naar het werkblad waarin je de analyse wilt doen,
+en je plakt de data hier in.
+
+14
+00:01:00,270 --> 00:01:04,679
+En dit herhaal je voor een ander bestand.
+Je wilt ook de data van Japan importeren.
+
+15
+00:01:04,679 --> 00:01:09,789
+Dus, hier gaan we. We selecteren alle data.
+Control-C, Control-V,
+
+16
+00:01:09,789 --> 00:01:13,560
+en we plakken alle data. Stel dat we zes bestanden hebben,
+dan herhalen we
+
+17
+00:01:13,560 --> 00:01:16,639
+zes keer. Ik denk dat je snapt hoe dit in
+zijn werk gaat.
+
+18
+00:01:16,639 --> 00:01:19,639
+Dit is niet helemaal slecht.
+
+19
+00:01:19,639 --> 00:01:22,950
+Als we maar één bestand zouden hebben,
+is er geen probleem.
+
+20
+00:01:22,950 --> 00:01:26,849
+Stel echter de volgende situatie voor:
+
+21
+00:01:26,849 --> 00:01:32,340
+iemand stuurt je een email met
+"Het spijt me, ik heb het verkeerde bestand gestuurd.
+
+22
+00:01:32,340 --> 00:01:36,079
+Hier is het correcte bestand."
+En hier begint het lastig te worden.
+
+23
+00:01:36,079 --> 00:01:38,929
+Nu moeten we namelijk opnieuw het excel bestand openen,
+
+24
+00:01:38,929 --> 00:01:42,989
+alle data selecteren dat we willen vervangen,
+en die nieuwe data hier overheen plakken.
+
+25
+00:01:42,989 --> 00:01:46,909
+Dit is erg foutgevoelig.
+Misschien overschrijf je nu een bestaande rij.
+
+26
+00:01:46,909 --> 00:01:50,469
+Misschien verwijder je teveel data.
+Dit wil je voorkomen.
+
+27
+00:01:50,469 --> 00:01:54,889
+In zo'n situatie denk je: "Neem je me in de maling?
+Dit ga ik niet allemaal opnieuw doen."
+
+28
+00:01:54,889 --> 00:02:02,239
+Dus deze week ga ik je laten zien hoe je
+automatisch zo veel bestanden als je wilt kan importeren
+
+29
+00:02:02,239 --> 00:02:03,309
+in een bronbestand.
+

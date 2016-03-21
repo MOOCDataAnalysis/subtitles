@@ -1,0 +1,97 @@
+1
+00:00:02,060 --> 00:00:07,850
+Hier waren we gebleven in de vorige video. We hebben één CSV bestand gepakt, en deze
+
+2
+00:00:07,850 --> 00:00:15,529
+geimporteerd in Excel. Maar soms heb je meer dan één Excel bestand. In de video hebben we
+
+3
+00:00:15,529 --> 00:00:22,089
+zes verschillende XLSX bestanden, en we willen ze allemaal importeren. Laten we even aannemen
+
+4
+00:00:22,089 --> 00:00:26,939
+dat ik alle bestanden naar CSV heb geconverteerd. In de volgende video laat ik zien hoe je dat
+
+5
+00:00:26,939 --> 00:00:31,810
+automatisch kan doen. Maar laten we voor nu aannemen dat ik dit met de hand heb gedaan. Dan heb ik nu
+
+6
+00:00:31,810 --> 00:00:38,000
+zes CSV bestanden die ik graag in Excel zou importeren. Natuurlijk kan ik
+
+7
+00:00:38,000 --> 00:00:42,860
+opnieuw ''importeren' gebruiken, en zes verschillende data connecties maken naar de CSV bestanden.
+
+8
+00:00:42,860 --> 00:00:47,620
+Maar dat is veel werk. En we willen het zo makkelijk mogelijk maken. Dus wat ik ga
+
+9
+00:00:47,620 --> 00:00:52,420
+doen in deze video is misschien een beetje eng.
+Het is alsof je al jarenlang een auto bestuurd,
+
+10
+00:00:52,420 --> 00:00:57,740
+en je helemaal weet hoe het werk, en vandaag openen we de motorkap om
+
+11
+00:00:57,740 --> 00:01:03,190
+de olie te verversen. Het is misschien een beetje eng, omdat we een heel klein beetje
+
+12
+00:01:03,190 --> 00:01:07,960
+gaan programmeren. Maar wees niet bang, ik ben er de hele tijd bij.
+
+13
+00:01:07,960 --> 00:01:13,810
+Dus, hier hebben we de zes CSV bestanden in een map. En hier is wat we gaan doen. We gaan naar de adresbalk
+
+14
+00:01:13,810 --> 00:01:20,609
+en typen 'cmd'. Nu krijgen we een eng klein schermpje dat we kunnen gebruiken om
+
+15
+00:01:20,609 --> 00:01:26,369
+Windows te besturen. Het heet de 'command prompt', en hierin kunnen we kleine stukjes
+
+16
+00:01:26,369 --> 00:01:31,359
+code typen die iets uit zullen voeren op de computer. Normaal gesproken zou je bijvoorbeeld op een bestand klikken om
+
+17
+00:01:31,359 --> 00:01:36,880
+het to openen, maar hier kun je 'open' typen om het bestand te openen. En dit kunnen we gebruiken
+
+18
+00:01:36,880 --> 00:01:43,469
+om de zes CSV bestanden samen te voegen tot één bestand. Laten we kijken hoe dat werkt. We typen
+
+19
+00:01:43,469 --> 00:01:52,219
+'copy *.csv', zodat we alle CSV bestanden in deze map selecteren. En dan typen we 'input.csv',
+
+20
+00:01:52,219 --> 00:01:57,520
+en krijgen alle CSV bestanden in één nieuw bestand. En als we dit bestand in Excel openen zul je zien dat we
+
+21
+00:01:57,520 --> 00:02:04,959
+nu alle zes de CSV bestanden onder elkaar geplakt hebben. Dus, als we nu
+
+22
+00:02:04,959 --> 00:02:10,970
+naar beneden scrollen zie je Rotterdam, New York, en Tokio, en Rotterdam opnieuw.
+
+23
+00:02:10,970 --> 00:02:17,430
+Alle bestanden zijn er. En dit was slechts één klein commando: we typen 'copy' en
+
+24
+00:02:17,430 --> 00:02:20,930
+krijgen alle bestanden samen in één, klaar om geïmporteerd te worden.
+

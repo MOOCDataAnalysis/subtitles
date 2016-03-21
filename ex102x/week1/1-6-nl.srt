@@ -1,0 +1,324 @@
+1
+00:00:02,490 --> 00:00:08,290
+In de vorige video hebben we data geïmporteerd. Dus we zijn van een 'data source' naar 'raw data'
+
+2
+00:00:08,290 --> 00:00:12,040
+gegaan. Echter, nu hebben we nog wat 'data wrangling' nodig.
+
+3
+00:00:12,040 --> 00:00:17,520
+En misschien heb je in de opgaven wel gemerkt dat onze data nou niet helemaal perfect is.
+
+4
+00:00:17,520 --> 00:00:25,259
+Net als ruwe olie moet het verder verfijnd worden. voordat het bruikbaar is voor verdere data analyse.
+
+5
+00:00:25,259 --> 00:00:29,570
+Dus een van de dingen die je opgemerkt kunt hebben is hier.
+
+6
+00:00:29,570 --> 00:00:35,910
+Als we naar regel 1578 gaan. Dit doen we met 'ga naar', dat je kunt openen
+
+7
+00:00:35,910 --> 00:00:41,450
+met F5. Dan zie je dat de kopteksten herhaald worden.
+
+8
+00:00:41,450 --> 00:00:47,200
+Omdat we de zes CSV bestanden in één hebben gekopiëerd zijn ook de kopteksten herhaald.
+
+9
+00:00:47,200 --> 00:00:51,890
+Weet jij hoe je dit moet oplossen? Misschien heb je dit al gezien in een vorige MOOC
+
+10
+00:00:51,890 --> 00:00:55,120
+of ergens anders. Er zijn een aantal technieken die je kunt gebruiken
+
+11
+00:00:55,120 --> 00:00:59,390
+om deze duplicatie kwijt te raken. Na deze video zit een kleine quiz waar
+
+12
+00:00:59,390 --> 00:01:03,850
+je kunt laten zien of jij weet hoe je dit moet oplossen.
+
+13
+00:01:03,850 --> 00:01:09,700
+OK, welkom terug. Maar er zijn nog een aantal ergere scenarios in onze
+
+14
+00:01:09,700 --> 00:01:12,420
+data. Bijvoorbeeld, als we kijken naar 'loyalty', sommige
+
+15
+00:01:12,420 --> 00:01:16,729
+cellen hebben een leden nummer, en anderen hebben drie streepjes.
+
+16
+00:01:16,729 --> 00:01:20,450
+Dus, als we hier op naive wijze analyse op toepassen,
+
+17
+00:01:20,450 --> 00:01:25,979
+bijvoorbeeld het uitrekenen van de hoeveelheid aankopen door mensen zonder leden kaart.
+
+18
+00:01:25,979 --> 00:01:30,939
+Als we dit zouden doen gebaseerd op de eerste paar rijen zouden we een 'AANTAL.ALS' gebruiken
+
+19
+00:01:30,939 --> 00:01:37,369
+op kolom K, op alle nummers, en we zouden tellen hoeveel keer we drie streepjes tegenkomen.
+
+20
+00:01:37,369 --> 00:01:42,289
+Maar helaas geeft dit niet het goede resultaat. Want als we goed kijken naar de kolom, en
+
+21
+00:01:42,289 --> 00:01:47,560
+de makkelijkste manier om dit te doen is een filter toevoegen,
+
+22
+00:01:47,560 --> 00:01:54,119
+dan zien we dat sommige waarden nul zijn.
+Dit is waarschijnlijk niet een echt lidnummer '0'
+
+23
+00:01:54,119 --> 00:01:59,810
+die al deze aankopen doet. In sommige filialen slaan ze 'geen lidnummer'
+
+24
+00:01:59,810 --> 00:02:06,829
+op als nul, in plaats van drie streepjes. Dus wat we kunnen doen is wat rekenwerk
+
+25
+00:02:06,829 --> 00:02:11,690
+gebruiken om de data meer consistent te maken.
+We gaan nu naar de kolom
+
+26
+00:02:11,690 --> 00:02:14,430
+Zo, de 'loyalty' kolom.
+
+27
+00:02:14,430 --> 00:02:20,470
+En we voegen daarnaast een extra kolom toe genaamd 'lidnummer verwerkt'. En hier zeggen we "okay, in de
+
+28
+00:02:20,470 --> 00:02:28,420
+drie scenarios dat de cel leeg is, nul is, of drie streepjes bevat
+
+29
+00:02:28,420 --> 00:02:33,080
+geven we slechts één waarde terug."
+
+30
+00:02:33,080 --> 00:02:36,760
+Het maakt niet uit welke waarde we kiezen.
+Laten we gaan voor drie streepjes.
+
+31
+00:02:36,760 --> 00:02:39,670
+Zo. Dus drie streepjes bij afwezigheid van lidnummer.
+
+32
+00:02:39,670 --> 00:02:43,190
+En anders, geven de het echte lidnummer.
+
+33
+00:02:43,190 --> 00:02:47,400
+Dus als we deze formule gebruiken,
+en hem naar beneden doortrekken.
+
+34
+00:02:47,400 --> 00:02:50,680
+En nu zien we dat overal, zelfs als
+
+35
+00:02:50,680 --> 00:02:56,970
+het lidnummer nul is we drie streepjes krijgen.
+Idem voor een lege cel.
+
+36
+00:02:56,970 --> 00:03:01,930
+Mooi en consistent.
+
+37
+00:03:01,930 --> 00:03:05,820
+Wat er ook in kolom K staat, kolom L zien er goed uit.
+
+38
+00:03:05,820 --> 00:03:10,100
+Een ding dat hier opvalt is dat deze aanpassingen maak in het invoer werkblad.
+
+39
+00:03:10,100 --> 00:03:14,670
+Ik heb de kolom vlak naast de invoer data geplaatst. Ik doe dat alleen omdat dit een video is
+
+40
+00:03:14,670 --> 00:03:18,070
+en het veel werk is om telkens werkblad te wisselen.
+
+41
+00:03:18,070 --> 00:03:22,040
+Normaal gesproken, en dit ik ook hoe je het in de opgaven zult doen, plaats je
+
+42
+00:03:22,040 --> 00:03:26,430
+deze data in een apart werkblad, omdat je invoer data en formules gescheiden wilt houden.
+
+43
+00:03:26,430 --> 00:03:31,830
+Dit is slechts een voorbeeld, en niet hoe je het normaal gesproken zou doen.
+
+44
+00:03:31,830 --> 00:03:36,400
+Wat je misschien ook is opgevallen is dat er nog ergere dingen mis zijn met onze data.
+
+45
+00:03:36,400 --> 00:03:41,380
+Als we gaan naar de 'Sales Price' kolom, en we kiezen opnieuw een filter om
+
+46
+00:03:41,380 --> 00:03:46,360
+de waardes te bekijken. Dan zien we dat sommige waardes een dollar teken hebben,
+
+47
+00:03:46,360 --> 00:03:51,260
+en anderen niet. En je kunt je afvragen of dit een probleem is.
+
+48
+00:03:51,260 --> 00:03:52,950
+Deze vraag kunnen we aan Excel stellen.
+
+49
+00:03:52,950 --> 00:03:59,320
+We kunnen vragen "zijn deze waardes gelijk?"
+En Excel zegt "waar", ja, deze waardes zijn gelijk.
+
+50
+00:03:59,320 --> 00:04:01,710
+Dus het is slechts een probleem in de opmaak.
+
+51
+00:04:01,710 --> 00:04:07,150
+Het is niet écht een probleem. Iets anders is echter wel een écht een probleem.
+
+52
+00:04:07,150 --> 00:04:13,510
+En dat is dat sommige waardes komma's bevatten.
+Laten we er een selecteren.
+
+53
+00:04:13,510 --> 00:04:17,060
+En we willen weten of dit een probleem is.
+Een van de dingen die je altijd kan proberen om
+
+54
+00:04:17,060 --> 00:04:20,949
+te kijken of de waardes normaal zijn is
+proberen om er mee te rekenen.
+
+55
+00:04:20,949 --> 00:04:25,889
+Als we deze waardes bij elkaar optellen... huh?
+Het werkt niet!
+
+56
+00:04:25,889 --> 00:04:30,379
+Waarom zou dit zijn? Een van de mogelijkheden is dat
+
+57
+00:04:30,379 --> 00:04:34,509
+het een tekst waarde is. En dit kunnen we ook aan
+Excel vragen.
+
+58
+00:04:34,509 --> 00:04:37,680
+Denk jij dat dit een tekst is? "WAAR" zegt Excel.
+
+59
+00:04:37,680 --> 00:04:42,819
+Het is inderdaad een tekst waarde.
+En dat betekent dat we nu weten wat
+
+60
+00:04:42,819 --> 00:04:45,729
+er mis is. En ik zal nu een formule laten zien die je
+
+61
+00:04:45,729 --> 00:04:51,499
+kunt gebruiken om tekst in getallen om te zetten als Excel het niet automatisch doet.
+
+62
+00:04:51,499 --> 00:04:55,550
+Want soms doet Excel dat vanzelf.
+Ik zal laten zien hoe het werkt.
+
+63
+00:04:55,550 --> 00:04:58,659
+Eerst gooien we deze tekst weg, dat hebben we niet meer nodig.
+
+64
+00:04:58,659 --> 00:05:02,659
+We verwijderen deze cel. Wat we nu gaan gebruiken is de 'NUMERIEKE.WAARDE'
+
+65
+00:05:02,659 --> 00:05:05,860
+functie. Hier kunt je een tekst meegeven, en we weten nu dat deze waarde
+
+66
+00:05:05,860 --> 00:05:08,460
+een tekstwaarde is, dus die geven we mee.
+
+67
+00:05:08,460 --> 00:05:12,560
+En dan geven we aan welk teken de decimale punt aanduidt.
+
+68
+00:05:12,560 --> 00:05:16,659
+Dus, in dit geval, zoals je natuurlijk al weet,
+is dat een komma.
+
+69
+00:05:16,659 --> 00:05:20,879
+En als we deze formule nu afsluiten
+krijgen we de goede waarde:
+
+70
+00:05:20,879 --> 00:05:25,029
+100. Een echt getal. En ook deze formule kunnen we naar beneden doortrekken.
+
+71
+00:05:25,029 --> 00:05:29,020
+Hier pas ik het alleen toe op de filter, maar je kunt de formule natuurlijk ook over alle rijen doortrekken.
+
+72
+00:05:29,020 --> 00:05:33,379
+En om nu te verifiëren dat het correct is kunnen we er nog een formule overheen leggen
+
+73
+00:05:33,379 --> 00:05:37,550
+en dan zien we dat het inderdaad een getal is.
+Want als we honderd bij honderd optellen
+
+74
+00:05:37,550 --> 00:05:41,699
+krijgen we tweehonderd, in plaats van '#WAARDE', zoals voorheen.
+
+75
+00:05:41,699 --> 00:05:48,469
+Dus, jouw opdracht om deze week af te sluiten is om alle data in dit werkblad op te schonen, en daarmee voor te bereiden
+
+76
+00:05:48,469 --> 00:05:51,460
+op de data analyse van volgende week.
+
+77
+00:05:51,460 --> 00:05:52,080
+Veel succes!
+
