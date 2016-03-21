@@ -1,0 +1,174 @@
+1
+00:00:03,129 --> 00:00:08,010
+In the previous video you have seen that we
+have combined six different CSV files, using
+
+2
+00:00:08,010 --> 00:00:13,450
+the copy command, into one. So what we've
+done is: we have taken six files into one.
+
+3
+00:00:13,450 --> 00:00:16,939
+That is what we have done in the previous
+video. And in the mean time, if you've done
+
+4
+00:00:16,939 --> 00:00:23,029
+the exercises, you have used that one CSV
+file to import it into Excel.
+
+5
+00:00:23,029 --> 00:00:27,179
+However, sometimes you don't have six CSV
+files.
+
+6
+00:00:27,179 --> 00:00:30,019
+Sometimes you have six Excel files.
+Or ten.
+
+7
+00:00:30,019 --> 00:00:34,770
+Or a hundred.
+And unfortunately, copy does not work on Excel
+
+8
+00:00:34,770 --> 00:00:37,710
+files.
+By the way, if you already know that you are
+
+9
+00:00:37,710 --> 00:00:42,370
+not going to import Excel files because you
+are always going to import CSV files, feel
+
+10
+00:00:42,370 --> 00:00:46,510
+free to skip this video.
+It is just about the conversion of Excel to
+
+11
+00:00:46,510 --> 00:00:49,750
+CSV.
+However, don't skip the next video.
+
+12
+00:00:49,750 --> 00:00:54,570
+It's about data types, and you'll need to
+know about that in both of the scenarios.
+
+13
+00:00:54,570 --> 00:00:59,660
+So if you're still here I assume you want
+to know how to transform Excel files into
+
+14
+00:00:59,660 --> 00:01:05,369
+CSV files so that we can then use 'copy' and
+'import' and get everything into Excel.
+
+15
+00:01:05,369 --> 00:01:10,270
+So, how to do that.
+Of course, as you have seen me do in previous
+
+16
+00:01:10,270 --> 00:01:15,060
+videos, we can do it manually.
+We can open every file, 'save as', 'CSV',
+
+17
+00:01:15,060 --> 00:01:18,020
+and then we'll be there.
+But that is a lot of work.
+
+18
+00:01:18,020 --> 00:01:23,229
+So, to make it easier for you I have made
+a little script. A VBS script, that is: a
+
+19
+00:01:23,229 --> 00:01:29,240
+'Visual Basic' script.
+And we can use that to automatically transform
+
+20
+00:01:29,240 --> 00:01:34,380
+all of the Excel files to CSV files.
+That's what I will show you in this video.
+
+21
+00:01:34,380 --> 00:01:37,799
+So here you see the script.
+We will place a download link below.
+
+22
+00:01:37,799 --> 00:01:42,340
+And if you just click it, there it is running
+now in the background,
+
+23
+00:01:42,340 --> 00:01:46,869
+we get all of the CSV files.
+Now we have them, we can again repeat the
+
+24
+00:01:46,869 --> 00:01:53,959
+same trick that we did in the previous video.
+We just copy all the CSV files into one.
+
+25
+00:01:53,959 --> 00:01:56,810
+There we go.
+Now we have an input file.
+
+26
+00:01:56,810 --> 00:02:02,639
+Because you have already made the data connection
+to this input file, we can just open that.
+
+27
+00:02:02,639 --> 00:02:07,459
+We go here, click 'Refresh', and all the data
+is there.
+
+28
+00:02:07,459 --> 00:02:09,830
+Very easy.
+One more thing I want to show you.
+
+29
+00:02:09,830 --> 00:02:15,510
+If you click properties, there it says 'refresh
+on open', and that is something you really
+
+30
+00:02:15,510 --> 00:02:18,980
+want to enable.
+Because that means every time you open the
+
+31
+00:02:18,980 --> 00:02:21,790
+Excel file,
+all of the data connections,
+
+32
+00:02:21,790 --> 00:02:25,510
+in this case we just have one, our one data
+connection is refreshed.
+
+33
+00:02:25,510 --> 00:02:32,000
+So you can never forget to update anything.
+You just convert everything, copy, and then
+
+34
+00:02:32,000 --> 00:02:35,470
+always if you open the latest data will be
+loaded.
+
+35
+00:02:35,470 --> 00:02:36,890
+Isn't that easy?!
+

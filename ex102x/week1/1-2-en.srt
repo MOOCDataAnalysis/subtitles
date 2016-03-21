@@ -1,0 +1,141 @@
+1
+00:00:00,340 --> 00:00:04,920
+So, new MOOC, new shop!
+this week we are the owners of a shop that
+
+2
+00:00:04,920 --> 00:00:09,860
+sells running materials. So running socks,
+shoes, bra's, and pants.
+
+3
+00:00:09,860 --> 00:00:16,059
+We are going to analyze how we are doing.
+This week we are talking about how to import data.
+
+4
+00:00:16,059 --> 00:00:19,720
+So we assume we have some sort of data source,
+
+5
+00:00:19,720 --> 00:00:25,910
+an ERP system or a database, and we want to get the data into our spreadsheet.
+
+6
+00:00:25,910 --> 00:00:31,019
+So I am guessing that your current scenario
+for importing data is something like this.
+
+7
+00:00:31,019 --> 00:00:35,730
+People are just emailing you spreadsheets
+and you have to make sense of it.
+
+8
+00:00:35,730 --> 00:00:40,190
+Ultimately that leads to something like this.
+You have a folder on your hard drive with
+
+9
+00:00:40,190 --> 00:00:45,879
+a number of excel files and you have to analyze
+all of them together.
+
+10
+00:00:45,879 --> 00:00:48,829
+So what you probably will do is something
+like this.
+
+11
+00:00:48,829 --> 00:00:51,760
+You import the data. You click on one of the
+files.
+
+12
+00:00:51,760 --> 00:00:56,559
+It opens. You select all the data, which is
+very easy.
+
+13
+00:00:56,559 --> 00:01:00,270
+You go to the sheet that you want to do your
+analysis in, and you paste the data.
+
+14
+00:01:00,270 --> 00:01:04,679
+And you repeat this for another file.
+We want to have the data of Japan as well.
+
+15
+00:01:04,679 --> 00:01:09,789
+So there we go.
+We select all the data. Control-C, Control-V,
+
+16
+00:01:09,789 --> 00:01:13,560
+and we paste it in.
+So suppose we have six files, we will repeat
+
+17
+00:01:13,560 --> 00:01:16,639
+this six times.
+I guess you understand what that would look like.
+
+18
+00:01:16,639 --> 00:01:19,639
+This is not all that bad.
+
+19
+00:01:19,639 --> 00:01:22,950
+If we only had to do it once it would probably
+be okay.
+
+20
+00:01:22,950 --> 00:01:26,849
+But what you can also have is a situation
+like this.
+
+21
+00:01:26,849 --> 00:01:32,340
+Someone sends you an email saying: "Oh, I'm
+sorry, the file I sent was not the right file.
+
+22
+00:01:32,340 --> 00:01:36,079
+Here is the right file."
+And this is where it starts to get tricky.
+
+23
+00:01:36,079 --> 00:01:38,929
+Because you have to open your excel sheet
+again.
+
+24
+00:01:38,929 --> 00:01:42,989
+Select the data that you want to replace,
+delete it, and put in the new data.
+
+25
+00:01:42,989 --> 00:01:46,909
+That is very error prone.
+Maybe you will overwrite an existing row.
+
+26
+00:01:46,909 --> 00:01:50,469
+Maybe you will delete too much.
+That is not what you want.
+
+27
+00:01:50,469 --> 00:01:54,889
+You will be like: "R U kidding? I'm not going
+to do all of that again."
+
+28
+00:01:54,889 --> 00:02:02,239
+So this week I will show you how to automatically
+import as many excel files as you want into
+
+29
+00:02:02,239 --> 00:02:03,309
+one source file.
+
