@@ -1,0 +1,101 @@
+1
+00:00:00,580 --> 00:00:06,020
+Dus, we gaan onze gegevens onderzoeken, en dat zal ons helpen om zeer specifieke vragen te beantwoorden
+
+2
+00:00:06,020 --> 00:00:11,660
+zoals die over groene sokken in Tokyo, maar ook generieke vragen als "Doen we het goed?",
+
+3
+00:00:11,660 --> 00:00:16,059
+"Hoe staat het ons bedrijf ervoor?"
+Wat we hiervoor gaan gebruiken, is een techniek
+
+4
+00:00:16,060 --> 00:00:21,800
+gebaseerd op draaitabellen. Dus als je nog nooit hebt gezien een draaitabel hebt gezien.
+
+5
+00:00:21,800 --> 00:00:27,440
+Als je de vorige MOOC niet hebt gedaan of op een andere manier over draaitabellen hebt geleerd, stop dan met het bekijken van deze video!
+
+6
+00:00:27,440 --> 00:00:31,520
+We zullen een aantal links plaatsen onder deze video om je kennis te laten maken
+
+7
+00:00:31,520 --> 00:00:37,540
+met het idee van draaitabellen. Je hebt dat echt nodig voor de rest van het materiaal van deze week, want
+
+8
+00:00:37,580 --> 00:00:43,300
+we gaan een techniek gebruiken die zwaar gebaseerd is op het gebruik van draaitabellen, genaamd draaigrafieken.
+
+9
+00:00:43,300 --> 00:00:45,220
+En ik zal je laten zien hoe ze werken.
+
+10
+00:00:45,700 --> 00:00:48,160
+Hier hebben we onze data van afgelopen week.
+
+11
+00:00:48,160 --> 00:00:55,020
+We kunnen het eenvoudig selecteren met CTRL+SHIFT+DOWN, en dan gaan we een draaitabel én -grafiek invoegen.
+
+12
+00:00:55,140 --> 00:00:59,160
+Vergeet niet om het model toe te voegen aan het datamodel, want dat hebben we later nog nodig!
+
+13
+00:00:59,600 --> 00:01:05,240
+Wat we nu krijgen is een draaitabel én een draaigrafiek
+die met elkaar verbonden zijn.
+
+14
+00:01:05,540 --> 00:01:09,380
+Dus als je iets verandert in de draaitabel
+dan wordt de draaigrafiek automatisch bijgewerkt.
+
+15
+00:01:09,390 --> 00:01:13,870
+Zoals je hier kunt zien: we krijgen de verkoopcijfers
+van al onze drie vestigingen.
+
+16
+00:01:14,080 --> 00:01:19,260
+Meteen krijgen we een overzicht van de verschillende
+omzetcijfers van de verschillende winkels.
+
+17
+00:01:19,520 --> 00:01:23,940
+En we kunnen ook merken toevoegen en dat doen we
+door het toevoegen van een legenda.
+
+18
+00:01:23,940 --> 00:01:26,460
+Je krijgt leuke gekleurde balken die tonen
+
+19
+00:01:26,460 --> 00:01:32,360
+welk merk we verkopen in welke winkel.
+Dus je kunt zien dat Adidas niet echt populair is
+
+20
+00:01:32,360 --> 00:01:37,880
+in Rotterdam, want de balk is erg klein. Op deze manier
+kan je gemakkelijk gegevens analyseren.
+
+21
+00:01:38,040 --> 00:01:43,140
+Je voegt simpelweg een draaigrafiek in, selecteert
+de velden waarin je geïnteresseerd bent, en met
+
+22
+00:01:43,140 --> 00:01:49,680
+een paar klikken, zonder formules of moeilijk analyses, krijg je een overzicht van hoe je bedrijf het doet.
+
+23
+00:01:50,020 --> 00:01:50,940
+Is dat niet cool!
+

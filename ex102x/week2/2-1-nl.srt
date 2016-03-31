@@ -1,0 +1,73 @@
+1
+00:00:00,500 --> 00:00:07,040
+Hoi! Van harte welkom in week 2 van EX102x. Vorige week
+ging het over het importeren van gegevens.
+
+2
+00:00:07,380 --> 00:00:13,340
+Hoe kan je gegevens uit een CSV-bestand in Excel krijgen?
+Dat betekent dat we deze week kunnen praten over
+
+3
+00:00:13,340 --> 00:00:19,280
+het beantwoorden van vragen, vragen als:
+Hoeveel groene sokken verkocht Tokyo op woensdag?
+
+4
+00:00:19,390 --> 00:00:25,330
+Dat is wat we deze week gaan proberen uit te vinden.
+En dit is een typisch voorbeeld
+
+5
+00:00:25,330 --> 00:00:30,410
+van de behoeften van een bedrijven, waar het over hebben gehad. Er is een behoefte vanuit het bedrijfsleven om iets te weten
+
+6
+00:00:30,410 --> 00:00:35,109
+en die vragen moet worden beantwoord door een real-time rapport. Want natuurlijk wil je baas NU weten
+
+7
+00:00:35,109 --> 00:00:40,409
+hoeveel sokken er zijn verkocht in Tokyo, niet over vijf weken. Dit moet
+
+8
+00:00:40,409 --> 00:00:46,719
+een real-time verslag zijn. Het is dus onze taak om door de volgende stappen te gaan: het importeren van de data,
+
+9
+00:00:46,719 --> 00:00:51,939
+het ordenen en dan het analyseren van de data. Dat is waar het materiaal van deze week over gaat.
+
+10
+00:00:52,280 --> 00:00:58,760
+Niet alleen analyseren, maar een uitvoerige verkennende analyse, want niet alle vragen van je baas
+
+11
+00:00:58,760 --> 00:01:04,480
+zien er zo uit. Soms stelt ze vragen als "Staat het er goed voor?"
+
+12
+00:01:04,480 --> 00:01:10,340
+Een zeer algemene vraag die enigszins lastig is om te beantwoorden. Ehh... doen we het goed??
+
+13
+00:01:10,340 --> 00:01:16,020
+Het zou goed kunnen gaan in termen van omzet of groei, of specifieke producten die het goed doen.
+
+14
+00:01:16,020 --> 00:01:21,340
+Om goed voorbereid te zijn op dit soort generieke vragen, willen we
+
+15
+00:01:21,340 --> 00:01:24,460
+een dashboard setting die ons zal helpen ze te beantwoorden.
+
+16
+00:01:25,100 --> 00:01:28,340
+Dus, als we een dergelijke vraag willen beantwoorden, dan willen we
+
+17
+00:01:28,350 --> 00:01:32,470
+data-exploratie doen, en dat is wat we
+deze week gaan doen!
+

@@ -1,0 +1,196 @@
+1
+00:00:00,280 --> 00:00:04,080
+We are exploring our data today, and we are
+doing that around the question:
+
+2
+00:00:04,320 --> 00:00:08,660
+'How many green socks did Tokyo sell on Wednesdays?'
+
+3
+00:00:08,660 --> 00:00:13,820
+We were already getting close in the previous video.
+We had color, we had category.
+
+4
+00:00:14,380 --> 00:00:20,540
+One thing that is missing is the date: the Wednesdays.
+So, what we could do is add a slicer.
+
+5
+00:00:20,540 --> 00:00:25,000
+Here you see me do it through the ribbon.
+That is an alternative way to get a slicer in.
+
+6
+00:00:25,220 --> 00:00:32,180
+Add a slicer for date... But those are a lot of dates.
+Suppose we have to get our calendar out
+
+7
+00:00:32,180 --> 00:00:35,620
+and see which one of those are Wednesdays.
+
+8
+00:00:35,780 --> 00:00:39,460
+That seems like a lot of work.
+That is not something we want.
+
+9
+00:00:39,539 --> 00:00:43,399
+An important takeaway from this course is:
+If you see that something is going to take
+
+10
+00:00:43,399 --> 00:00:49,459
+a lot of work, if it is like an hour of manual labor,
+probably there is a smarter way to do it.
+
+11
+00:00:49,620 --> 00:00:51,840
+And that holds in this situation as well.
+
+12
+00:00:51,979 --> 00:00:55,679
+So let me show you a smarter way to select the Wednesdays.
+
+13
+00:00:56,289 --> 00:01:00,289
+This is not what we want. Let's delete this
+horrible slicer with all the dates
+
+14
+00:01:00,500 --> 00:01:05,440
+and look at alternative.
+So what we could do is add a formula, for weekdays.
+
+15
+00:01:05,440 --> 00:01:08,340
+Excel has a formula WEEKDAY, where you can
+
+16
+00:01:08,340 --> 00:01:13,860
+just input a date, and you get the number of
+weekdays from 1 on Sunday and on.
+
+17
+00:01:14,220 --> 00:01:19,760
+So, this works.
+However, now we are mixing formulas and data,
+
+18
+00:01:19,760 --> 00:01:23,580
+and that is never a good idea.
+And also this weekday column is not in the
+
+19
+00:01:23,590 --> 00:01:28,090
+data model yet, so we would have to make a
+new Pivot table including weekday.
+
+20
+00:01:28,440 --> 00:01:33,760
+This is no good, I don't like it.
+There has to be a better way to add a field.
+
+21
+00:01:33,869 --> 00:01:38,749
+Well let's change that sheet name as well
+because obviously 'Sheet4' is not a good name.
+
+22
+00:01:39,620 --> 00:01:43,960
+So what is a better way to do it?
+Let's use our superpowers!
+
+23
+00:01:44,480 --> 00:01:50,000
+If you have done the previous MOOC, you know
+about Power Pivot, which is like a Pivot table
+
+24
+00:01:50,000 --> 00:01:53,780
+but a lot more powerful.
+Like a Pivot table with superpowers.
+
+25
+00:01:53,920 --> 00:01:59,180
+If you have never seen Power Pivot before,
+again we will post a few links under this video.
+
+26
+00:01:59,189 --> 00:02:04,030
+Watch them first please, because otherwise
+it can be a bit too much to be introduced
+
+27
+00:02:04,030 --> 00:02:08,920
+to Power Pivot in a speedy way.
+So if you know it, feel free to move on with me
+
+28
+00:02:08,920 --> 00:02:13,260
+and have a look at how we can solve our
+date problem using Power Pivot.
+
+29
+00:02:13,580 --> 00:02:17,659
+We can click 'Manage' here in the ribbon and
+now we get the data model.
+
+30
+00:02:17,659 --> 00:02:22,040
+So what you see here is all our data.
+Here we can add a weekday column as well
+
+31
+00:02:22,040 --> 00:02:26,840
+in exactly the same way as we did in Excel:
+we just add a formula: =WEEKDAY.
+
+32
+00:02:26,840 --> 00:02:31,360
+We can use any formula out of Excel here,
+and there you have it.
+
+33
+00:02:31,360 --> 00:02:36,660
+And you don't have to even drag down.
+Power Pivot automatically updates it for all the records
+
+34
+00:02:36,860 --> 00:02:40,200
+ánd automatically adds it to your Pivot table.
+
+35
+00:02:40,209 --> 00:02:46,089
+So it is right there. You can add a slicer for it
+and now we can count: Sunday, Monday, Tuesday,
+
+36
+00:02:46,089 --> 00:02:52,709
+Wednesday, click. Tadaa!
+All the green socks in Tokyo with just three clicks.
+
+37
+00:02:52,980 --> 00:02:55,620
+And not only have we now calculated the green
+
+38
+00:02:55,620 --> 00:03:00,980
+socks in Tokyo on Wednesdays, but we have
+made an interface that allows us to analyze
+
+39
+00:03:00,980 --> 00:03:04,680
+any color, any category, on any day of the week.
+
+40
+00:03:04,819 --> 00:03:08,959
+So we have prepared our self for exploratory
+analysis of our data.
+
+41
+00:03:09,320 --> 00:03:10,360
+See you next week!
+

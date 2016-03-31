@@ -1,0 +1,61 @@
+1
+00:00:02,160 --> 00:00:07,360
+Welcome back to EX102X.
+Last week we talked about data exploration.
+
+2
+00:00:07,500 --> 00:00:12,640
+Looking at what happens inside your data.
+But the only thing we have done last week
+
+3
+00:00:12,650 --> 00:00:17,310
+is look back, look into the past of what
+happened to our data.
+
+4
+00:00:17,450 --> 00:00:22,630
+But of course using data,
+we can also look into the future.
+
+5
+00:00:22,880 --> 00:00:28,400
+We can determine using data: Where are we
+going? Are we on the right track, or should
+
+6
+00:00:28,400 --> 00:00:31,040
+we maybe switch and start doing something else?
+
+7
+00:00:31,260 --> 00:00:34,020
+And that is the topic of this week.
+
+8
+00:00:34,660 --> 00:00:38,240
+If you have done the exercises
+this is what you ended up with last week.
+
+9
+00:00:38,240 --> 00:00:40,979
+And, if you have not done them, then it is
+
+10
+00:00:40,979 --> 00:00:45,330
+really best that you stop watching this video
+right now and first do the exercise, because
+
+11
+00:00:45,330 --> 00:00:49,510
+it's a lot more fun if you work on data you
+prepared yourself.
+
+12
+00:00:49,830 --> 00:00:55,799
+So using the data that you have made in the
+exercise of last week, we together are going
+
+13
+00:00:55,800 --> 00:00:58,560
+to detect trends in the data.
+

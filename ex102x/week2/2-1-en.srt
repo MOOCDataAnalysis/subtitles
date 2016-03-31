@@ -1,0 +1,83 @@
+1
+00:00:00,500 --> 00:00:07,040
+Hi! Welcome to week 2 of EX102x. Last week
+we talked all about importing data.
+
+2
+00:00:07,380 --> 00:00:13,340
+How to get your data from a csv file in to your Excel.
+And that means this week we can talk about
+
+3
+00:00:13,340 --> 00:00:19,280
+answering questions, questions like this:
+How many green socks did Tokyo sell on Wednesdays?
+
+4
+00:00:19,390 --> 00:00:25,330
+That is what we are going to try to figure
+out this week. And that is a typical example
+
+5
+00:00:25,330 --> 00:00:30,410
+of business needs that we talked about. There
+is a need from the business to know something,
+
+6
+00:00:30,410 --> 00:00:35,109
+and that needs to be answered by a real-time
+report. Because obviously your boss wants
+
+7
+00:00:35,109 --> 00:00:40,409
+to know how many socks they sold in Tokyo
+right now, not in five weeks. This needs to
+
+8
+00:00:40,409 --> 00:00:46,719
+be a real time report. So it is our job to go
+through all the steps: importing the data,
+
+9
+00:00:46,719 --> 00:00:51,939
+wrangling it, and then analyzing it, and that
+it what this week's material is about.
+
+10
+00:00:52,280 --> 00:00:58,760
+Not just analyzing it, but doing exploratory analysis.
+Because not all the questions your boss can
+
+11
+00:00:58,760 --> 00:01:04,480
+ask will look like this. Sometimes she will
+ask questions like "Are we doing well?"
+
+12
+00:01:04,480 --> 00:01:10,340
+A very generic question that can be somewhat
+hard to answer. Ehh.. are we doing well?
+
+13
+00:01:10,340 --> 00:01:16,020
+It could be in terms of turnover, or growth,
+specific products that are doing well.
+
+14
+00:01:16,020 --> 00:01:21,340
+So these type of generic questions, to be prepared
+to answer them, we want to have
+
+15
+00:01:21,340 --> 00:01:24,460
+a dashboard setup that will help us to answer them.
+
+16
+00:01:25,100 --> 00:01:28,340
+So if we want to answer such a question, we want
+
+17
+00:01:28,350 --> 00:01:32,470
+to do data exploration, and that is what we
+are going to do this week!
+

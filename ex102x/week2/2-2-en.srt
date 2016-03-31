@@ -1,0 +1,106 @@
+1
+00:00:00,580 --> 00:00:06,020
+So we are going to explore our data, and that
+will help us to answer very specific questions
+
+2
+00:00:06,020 --> 00:00:11,660
+like the one about green socks in Tokyo, but
+also generic questions like "Are we doing well?",
+
+3
+00:00:11,660 --> 00:00:16,059
+"How is our company going?"
+And what we are going to use for that is a technique
+
+4
+00:00:16,060 --> 00:00:21,800
+based on Pivot tables. So if you have never
+seen a Pivot table before, if you have not done
+
+5
+00:00:21,800 --> 00:00:27,440
+the previous MOOC or learned about Pivot
+tables in a different way, stop watching this video!
+
+6
+00:00:27,440 --> 00:00:31,520
+We will post a few links underneath
+this video to help you get acquainted
+
+7
+00:00:31,520 --> 00:00:37,540
+with the idea of Pivot tables. You really need that for the
+remainder of this week's material, because
+
+8
+00:00:37,580 --> 00:00:43,300
+we are going to use a technique that is heavily
+based on Pivot tables, which is called Pivot charts.
+
+9
+00:00:43,300 --> 00:00:45,220
+And I will show you how they work.
+
+10
+00:00:45,700 --> 00:00:48,160
+Here we have our data from last week, and
+
+11
+00:00:48,160 --> 00:00:55,020
+we can easily select it using CTRL+SHIFT+DOWN, and what we are going to do is insert a Pivot table and chart
+
+12
+00:00:55,140 --> 00:00:59,160
+Don't forget to add your model to the data model, because we will need that later
+
+13
+00:00:59,600 --> 00:01:05,240
+What we get now is a Pivot table AND a chart, and the two of them are connected together
+
+14
+00:01:05,540 --> 00:01:09,380
+So if you change something in the
+Pivot table, the chart will automatically update
+
+15
+00:01:09,390 --> 00:01:13,870
+As you can see here: we get the sales
+for all our three branches.
+
+16
+00:01:14,080 --> 00:01:19,260
+Immediately we get an overview of the different turnovers for the different stores.
+
+17
+00:01:19,520 --> 00:01:23,940
+And we can add brands here too and we do that by adding a legend.
+
+18
+00:01:23,940 --> 00:01:26,460
+You get nice little colored bars that show
+
+19
+00:01:26,460 --> 00:01:32,360
+what brand we are selling in what store.
+So you can see that Adidas is not really popular
+
+20
+00:01:32,360 --> 00:01:37,880
+in Rotterdam, because the bar is really small.
+And in this way you can easily analyze your data.
+
+21
+00:01:38,040 --> 00:01:43,140
+You just add a Pivot chart, select the
+fields that you are interested in, and with
+
+22
+00:01:43,140 --> 00:01:49,680
+a few clicks, no formulas or difficult analysis needed
+you get an overview of how your company is doing.
+
+23
+00:01:50,020 --> 00:01:50,940
+Isn't that cool!
+

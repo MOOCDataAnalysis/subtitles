@@ -1,0 +1,87 @@
+1
+00:00:00,480 --> 00:00:06,060
+In de vorige video heb ik je draaigrafieken laten zien.
+In deze video duiken we nog een beetje dieper.
+
+2
+00:00:06,820 --> 00:00:12,340
+Wat je bijvoorbeeld kan doen, ik laat het hier zien, is het
+toevoegen van zo veel velden als je wilt aan de legenda.
+
+3
+00:00:12,460 --> 00:00:18,920
+Bijvoorbeeld als we 'Category' toevoegen dan krijgen we
+een kleur voor elke combinatie van product en categorie.
+
+4
+00:00:19,780 --> 00:00:22,060
+Maar stel dat we alleen in schoenen zijn geïnteresseerd.
+
+5
+00:00:22,060 --> 00:00:26,429
+We kunnen filteren met het gebruikelijke filter.
+"Oh nee, we zijn niet in geïnteresseerd in schoenen...
+
+6
+00:00:26,429 --> 00:00:31,200
+...we willen ook sokken." Je ziet dat we kunnen filteren,
+maar het is een beetje omslachtig.
+
+7
+00:00:31,200 --> 00:00:34,880
+Elke keer moeten we de categorie selecteren
+en vervolgens filteren.
+
+8
+00:00:35,250 --> 00:00:42,610
+We kunnen dat een stuk makkelijker maken met slicers,
+een hele leuke techniek voor exploratieve data-analyze.
+
+9
+00:00:43,000 --> 00:00:44,500
+Als je hier met mee mee kijkt:
+
+10
+00:00:44,920 --> 00:00:48,760
+Klik met de rechtermuisknop op 'Category'
+en kies 'Toevoegen als slicer'.
+
+11
+00:00:48,860 --> 00:00:52,780
+Dan krijg je een mooi paneeltje voor de categorie
+
+12
+00:00:52,780 --> 00:00:57,520
+waarin je alle categorieën waarin je bent geïnteresseerd
+kunt aanklikken: BH's, broeken, ...
+
+13
+00:00:57,520 --> 00:01:01,400
+Met behulp van de CTRL (of SHIFT) toets kun je zelfs
+meerdere categorieën kiezen .
+
+14
+00:01:01,410 --> 00:01:05,790
+Zo makkelijk is het.
+Laten we nog een slicer toevoegen voor kleur
+
+15
+00:01:05,790 --> 00:01:10,370
+want uiteindelijk willen we natuurlijk groene sokken.
+Dus we voegen 'Color' ook toe.
+
+16
+00:01:10,520 --> 00:01:16,460
+En dan: één klik voor groen, één klik voor sokken
+en we hebben een overzicht in onze slicers.
+
+17
+00:01:16,840 --> 00:01:22,360
+Dus zonder formules of ingewikkelde analyse, selecteer
+je gewoon de velden waarin je geïnteresseerd bent,
+
+18
+00:01:22,360 --> 00:01:27,680
+je voegt een slicer toe, combineer en vergelijk en zie
+welke interessante patronen ontstaan.
+

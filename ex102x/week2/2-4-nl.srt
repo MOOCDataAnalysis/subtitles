@@ -1,0 +1,207 @@
+1
+00:00:00,280 --> 00:00:04,080
+We zijn vandaag onze data aan het verkennen,
+en dat doen we rond de vraag:
+
+2
+00:00:04,320 --> 00:00:08,660
+'Hoeveel groene sokken heeft Tokyo verkocht
+op woensdagen?'
+
+3
+00:00:08,660 --> 00:00:13,820
+We waren al dichtbij in de vorige video.
+We hadden kleur, we hadden categorie.
+
+4
+00:00:14,380 --> 00:00:20,540
+Een ding dat ontbreekt is de datum: de woensdagen.
+Dus, wat we kunnen doen is een slicer toevoegen.
+
+5
+00:00:20,540 --> 00:00:24,720
+Hier zie je me dat doen via het lint.
+Dat is een andere manier om een ​​slicer te maken.
+
+6
+00:00:25,080 --> 00:00:27,560
+Voeg een slicer voor 'Date' toe.
+
+7
+00:00:27,960 --> 00:00:32,180
+Maar dat zijn wel erg veel datums.
+Stel je voor dat we een kalender moeten pakken
+
+8
+00:00:32,180 --> 00:00:35,620
+en nagaan welke dagen daarvan woensdagen zijn.
+
+9
+00:00:35,780 --> 00:00:39,360
+Dat lijkt me een hoop werk.
+Dat willen we niet.
+
+10
+00:00:39,360 --> 00:00:44,320
+Een belangrijk boodschap van dit vak is:
+Als je ziet dat iets veel werk gaat kosten
+
+11
+00:00:44,480 --> 00:00:49,460
+Als het bijvoorbeeld een uur handmatig werk is, dan is
+er waarschijnlijk een slimmere manier om het te doen.
+
+12
+00:00:49,620 --> 00:00:51,840
+En dat geldt in deze situatie ook.
+
+13
+00:00:51,979 --> 00:00:55,679
+Dus ik laat je een slimmere manier zien om
+de woensdagen te selecteren.
+
+14
+00:00:56,160 --> 00:01:00,280
+Dit is niet wat we willen. Laten we deze gruwelijke slicer
+met alle datums verwijderen
+
+15
+00:01:00,500 --> 00:01:05,440
+en kijken naar een alternatief.
+Wat we kunnen doen is een formule voor weekdagen toevoegen.
+
+16
+00:01:05,440 --> 00:01:09,480
+Excel heeft een formule WEEKDAG,
+waar je een datum aan geeft
+
+17
+00:01:09,480 --> 00:01:13,860
+dan krijg je de weekdag als getal,
+waarbij 1 staat voor zondag.
+
+18
+00:01:14,220 --> 00:01:21,500
+Dit werkt dus, maar nu zijn we formules en data
+aan het mengen en dat is nooit een goed idee.
+
+19
+00:01:21,680 --> 00:01:24,780
+Daarnaast zit de 'Weekday' kolom
+nog niet in het datamodel.
+
+20
+00:01:24,880 --> 00:01:28,080
+Dus we zouden een nieuwe draaitabel
+moeten maken mét 'Weekday'.
+
+21
+00:01:28,440 --> 00:01:33,900
+Dit is niet goed, ik hou er niet van. Er moet een
+betere manier zijn om een ​​veld toe te voegen.
+
+22
+00:01:34,040 --> 00:01:38,880
+Laten we de naam van het blad ook even veranderen,
+want 'Sheet4' is natuurlijk geen goede naam.
+
+23
+00:01:39,620 --> 00:01:43,960
+Dus wat is een betere manier om het te doen?
+Laten we gebruik maken van onze superkrachten!
+
+24
+00:01:44,480 --> 00:01:48,060
+Als je de vorige MOOC hebben gedaan,
+dan weet je af van Power Pivot.
+
+25
+00:01:48,060 --> 00:01:51,460
+Dat lijkt op een draaitabel, maar het is veel krachtiger.
+
+26
+00:01:51,460 --> 00:01:53,780
+Als een draaitabel met superkrachten.
+
+27
+00:01:53,920 --> 00:01:59,180
+Als je nog nooit iets van Power Pivot hebt gezien:
+we hebben een paar links onder deze video gezet.
+
+28
+00:01:59,189 --> 00:02:06,349
+Bekijk die eerst, want dit voorbeeld is te
+geavanceerd voor een introductie.
+
+29
+00:02:06,540 --> 00:02:09,000
+Maar als je het wel kent,
+voel je dan vrij om verder te gaan met me
+
+30
+00:02:09,000 --> 00:02:13,260
+en bekijk hoe we ons datumprobleem kunnen oplossen
+met behulp van Power Pivot.
+
+31
+00:02:13,580 --> 00:02:17,659
+We kunnen op 'Beheren' klikken in het lint,
+dan krijgen we het datamodel te zien.
+
+32
+00:02:17,659 --> 00:02:22,040
+Wat je hier ziet is al onze data.
+Hier kunnen we ook een kolom voor weekdag maken
+
+33
+00:02:22,040 --> 00:02:26,840
+op precies dezelfde manier als we deden in Excel:
+we voegen gewoon de formule toe: =WEEKDAG.
+
+34
+00:02:26,840 --> 00:02:31,360
+We kunnen hier elke formule van Excel gebruiken.
+En daar staat nu de nieuwe kolom.
+
+35
+00:02:31,360 --> 00:02:36,660
+En je hoeft de formule niet eens door te trekken.
+Power Pivot update automatisch alle records
+
+36
+00:02:36,860 --> 00:02:40,200
+én voegt het veld toe aan de draaitabel.
+
+37
+00:02:40,209 --> 00:02:46,009
+Daar is 'ie dus. Je kan er een slicer voor toevoegen
+en nu kunnen we tellen: zondag, maandag, dinsdag, ...
+
+38
+00:02:46,009 --> 00:02:52,700
+woensdag, klik. Tadaa!
+Alle groene sokken in Tokio met slechts drie klikken.
+
+39
+00:02:52,980 --> 00:02:57,360
+En nu hebben we niet alleen het aantal groene sokken
+in Tokyo op woensdagen weergegeven,
+
+40
+00:02:57,620 --> 00:03:02,800
+maar nu hebben we ook interface die ons
+in staat stelt om elke kleur, elke categorie
+
+41
+00:03:02,800 --> 00:03:04,620
+en elke dag van de week te analyseren.
+
+42
+00:03:04,819 --> 00:03:08,959
+Dus hebben we onszelf voorbereid
+op exploratieve analyse van onze data.
+
+43
+00:03:09,260 --> 00:03:10,400
+Tot volgende week!
+

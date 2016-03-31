@@ -1,0 +1,164 @@
+1
+00:00:01,800 --> 00:00:06,840
+Deze week zijn we dus trends aan het opsporen,
+en de eerste techniek ken je al
+
+2
+00:00:06,849 --> 00:00:10,649
+want dat is voorwaardelijke opmaak die
+we in de vorige MOOC ook gebruikten.
+
+3
+00:00:11,200 --> 00:00:15,120
+Wat we deden in de vorige MOOC, zoals ik hier doe,
+is het gebruiken van een enkele drempelwaarde
+
+4
+00:00:15,120 --> 00:00:20,120
+en visualiseren wat is erboven en eronder ligt.
+Hier is de drempelwaarde automatisch het gemiddelde.
+
+5
+00:00:20,360 --> 00:00:23,340
+Het laat íets zien, maar
+het is niet precies wat we willen.
+
+6
+00:00:23,350 --> 00:00:26,930
+We kunnen krachtigere dingen doen
+door het gebruik van kleurenschalen.
+
+7
+00:00:27,200 --> 00:00:32,740
+Dus zoals je hier ziet, krijg je een brede visualisatie
+met verschillende kleuren.
+
+8
+00:00:32,920 --> 00:00:35,120
+Echter, niet alle visualisaties zijn hetzelfde.
+
+9
+00:00:35,120 --> 00:00:37,820
+Bijvoorbeeld de tweede, gevisualiseerd
+
+10
+00:00:37,820 --> 00:00:41,380
+krijg je de hoge waarden in rood
+en lage waarden in groen.
+
+11
+00:00:41,380 --> 00:00:46,400
+Dus kies geen willekeurige schaal. Zorg ervoor dat de
+kleuren overeenkomen met wat je probeert te vertellen.
+
+12
+00:00:47,200 --> 00:00:50,020
+Dus dit geeft ons een indicatie van de gegevens.
+
+13
+00:00:50,030 --> 00:00:56,000
+Je ziet dat hoge waarden heel groen zijn, maar het is een beetje oneerlijk om broeken met sokken te vergelijken
+
+14
+00:00:56,000 --> 00:00:57,840
+omdat sokken een stuk goedkoper zijn.
+
+15
+00:00:58,200 --> 00:01:04,380
+Dus het zou eerlijker zijn als we een kleurenschaal
+zouden hebben per productcategorie, en dat kan.
+
+16
+00:01:04,390 --> 00:01:10,990
+Laten we dit te verwijderen en een nieuwe kleuring toevoegen. We selecteren één bereik en voegen een kleurenschaal toe.
+
+17
+00:01:10,990 --> 00:01:14,230
+Dat betekent dat de kleuren alleen
+op dat bereik worden geschaald.
+
+18
+00:01:14,520 --> 00:01:20,079
+Dus een waarde voor 'pants' kan een andere kleur
+krijgen dan dezelfde waarde voor 'socks'.
+
+19
+00:01:21,760 --> 00:01:24,520
+Dus dit geeft ons al een idee over de data.
+
+20
+00:01:24,520 --> 00:01:30,520
+Is dat niet leuk? We beginnen een aantal trends te zien.
+Bijvoorbeeld dat BH's goed verkochten
+
+21
+00:01:30,520 --> 00:01:36,540
+vroeg in het seizoen, en nu een beetje minder,
+terwijl sokken een trage start had, maar
+
+22
+00:01:36,549 --> 00:01:42,489
+nu groener en groener wordt.
+Met een paar klikken, een paar regels voor voorwaardelijke opmaak
+
+23
+00:01:42,640 --> 00:01:45,780
+krijgen we al een beeld over onze data.
+
+24
+00:01:46,260 --> 00:01:49,380
+Maar er zijn nog veel meer dingen die we
+kunnen doen met voorwaardelijke opmaak.
+
+25
+00:01:49,380 --> 00:01:54,860
+Een ding dat ik echt leuk vind is de Top 10-functie,
+waar je gewoon een visualisatie krijgt van
+
+26
+00:01:54,869 --> 00:01:59,069
+wat het het beste doet. Vooral als je veel
+verschillende producten hebt is dat handig.
+
+27
+00:01:59,440 --> 00:02:04,040
+Je kunt ook gegevensbalken toevoegen,
+dat zijn een soort mini-grafieken in je data.
+
+28
+00:02:04,369 --> 00:02:08,269
+En tot slot zijn er icon sets, waar je onder andere
+cirkels of stopborden kan aanklikken
+
+29
+00:02:08,269 --> 00:02:10,109
+in plaats van opvulkleuren voor de cellen.
+
+30
+00:02:10,660 --> 00:02:14,500
+Ik wil je aandacht nog even vestigen op deze pijlen.
+
+31
+00:02:14,820 --> 00:02:17,340
+Je zou kunnen denken dat ze een trend visualiseren,
+
+32
+00:02:17,340 --> 00:02:20,000
+maar dat doen ze niet!
+Ze zijn precies hetzelfde als de cirkels.
+
+33
+00:02:20,129 --> 00:02:25,129
+Ze tonen een pijl omhoog voor een hoge waarde
+en een pijl naar beneden voor een lage waarde.
+
+34
+00:02:25,129 --> 00:02:29,980
+Ze vertegenwoordigen dus geen trend.
+Dus wees gewaarschuwd: als we trend plotten,
+
+35
+00:02:29,980 --> 00:02:35,220
+niet per ongeluk deze pijlen gebruiken, tenzij je
+daadwerkelijk een verschil berekent.
+

@@ -1,0 +1,59 @@
+1
+00:00:02,160 --> 00:00:07,360
+Welkom terug bij EX102X.
+Vorige week ging het over data-exploratie.
+
+2
+00:00:07,500 --> 00:00:12,640
+Kijken naar wat er gebeurt in je data.
+Maar het enige wat we eigenlijk hebben gedaan
+
+3
+00:00:12,650 --> 00:00:17,310
+is terugkijken. Kijken naar wat er
+in het verleden is gebeurd met onze data.
+
+4
+00:00:17,450 --> 00:00:22,630
+Maar natuurlijk kunnen we met data
+ook kijken naar de toekomst!
+
+5
+00:00:22,880 --> 00:00:28,060
+We kunnen met behulp van data bepalen:
+Waar gaan we heen? Zijn we op de goede weg of
+
+6
+00:00:28,060 --> 00:00:31,040
+moeten we misschien iets anders gaan doen?
+
+7
+00:00:31,260 --> 00:00:34,020
+En dat is het onderwerp van deze week.
+
+8
+00:00:34,660 --> 00:00:38,240
+Als je de opdrachten hebt gedaan,
+dan is dit waar je vorige week mee eindigde.
+
+9
+00:00:38,240 --> 00:00:40,080
+En, als je ze niet hebt gedaan
+
+10
+00:00:40,080 --> 00:00:45,260
+dan is het echt het beste dat je stopt met het bekijken van deze video en eerst de opdracht maakt, want
+
+11
+00:00:45,260 --> 00:00:49,500
+het is een stuk leuker als je werkt met de data
+die je zelf hebt voorbereid.
+
+12
+00:00:49,830 --> 00:00:54,170
+Dus, met de data die je zelf hebt gemaakt in de oefeningen van vorige week
+
+13
+00:00:54,170 --> 00:00:58,810
+gaan we deze week samen trends ontdekken in de data!
+
