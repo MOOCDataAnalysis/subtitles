@@ -1,0 +1,237 @@
+1
+00:00:00,480 --> 00:00:04,080
+'What happens if?'
+That is the topic of this week's videos.
+
+2
+00:00:04,340 --> 00:00:08,880
+So we are looking at the data of the coffee
+shop and we are wondering: How are we doing?
+
+3
+00:00:08,880 --> 00:00:12,500
+How is our sales going? So, of course
+the first thing you are going to do:
+
+4
+00:00:12,500 --> 00:00:15,120
+You look at your data and you...
+
+5
+00:00:15,600 --> 00:00:17,859
+Insert a PivotTable, of course!
+
+6
+00:00:17,859 --> 00:00:24,470
+And what is important here is, this time we
+untick the 'Add data to the Data Model' checkbox.
+
+7
+00:00:24,470 --> 00:00:27,090
+I will explain to you later why we do that.
+
+8
+00:00:27,360 --> 00:00:30,220
+So we put in all the sales and we put in all the dates.
+
+9
+00:00:30,220 --> 00:00:33,260
+Let's make the sales look like a currency.
+
+10
+00:00:33,260 --> 00:00:36,640
+It looks a bit prettier and
+it is easier to see what is going on.
+
+11
+00:00:37,100 --> 00:00:42,660
+However, we now have all the sales per day,
+and it is quite hard to see what is happening.
+
+12
+00:00:42,910 --> 00:00:46,070
+So what you can do in a
+PivotTable is group the data.
+
+13
+00:00:46,070 --> 00:00:50,060
+In months, or in this case we
+want to have it in quarters.
+
+14
+00:00:50,420 --> 00:00:55,760
+We get a nice little overview of the quarters:
+Quarter one, quarter two, quarter three.
+
+15
+00:00:56,160 --> 00:01:02,040
+This is why we have to untick the checkbox
+for adding data to the data model.
+
+16
+00:01:02,280 --> 00:01:06,540
+For reasons I also don't understand
+this grouping feature only works...
+
+17
+00:01:06,540 --> 00:01:11,060
+if your data is not in the data model.
+So we have to deal with that.
+
+18
+00:01:11,760 --> 00:01:13,280
+What we are going to do now…
+
+19
+00:01:13,280 --> 00:01:17,000
+First let's rename this worksheet, because
+obviously 'Sheet2' is not a good name.
+
+20
+00:01:17,000 --> 00:01:20,820
+Let's call this 'Sales Target', because
+that is what we are going to calculate.
+
+21
+00:01:21,120 --> 00:01:25,120
+We have a goal for the sales
+we want to have per quarter.
+
+22
+00:01:25,120 --> 00:01:31,520
+We have set ourselves the goal to on average
+make $40,000. That is our goal.
+
+23
+00:01:31,680 --> 00:01:33,820
+So how are we doing towards this goal?
+
+24
+00:01:33,820 --> 00:01:38,600
+Are we getting close? In this quarter, Qtr4,
+we have not made any money yet...
+
+25
+00:01:38,600 --> 00:01:44,020
+so let's set it at zero for now.
+Now we can calculate the current average.
+
+26
+00:01:44,320 --> 00:01:47,660
+We take the average of the three
+quarters that we already have...
+
+27
+00:01:48,440 --> 00:01:52,280
+combined with the fourth quarter that is
+currently still zero.
+
+28
+00:01:52,640 --> 00:01:57,300
+So you can see, we are not there yet,
+with not any sales in the fourth quarter.
+
+29
+00:01:57,300 --> 00:01:59,520
+We are only at 28 thousand.
+
+30
+00:02:00,780 --> 00:02:06,360
+So the question is: What do we have to make
+in that fourth quarter in order to hit our average?
+
+31
+00:02:06,360 --> 00:02:09,860
+What do we have to do?
+What do we have to make up for to get it?
+
+32
+00:02:11,120 --> 00:02:14,880
+What we could do, of course, is
+calculate this with a formula.
+
+33
+00:02:14,880 --> 00:02:18,440
+We can say: well, I know
+I need 40 thousand every quarter
+
+34
+00:02:18,440 --> 00:02:22,980
+so 4 times 40,000 is what I
+have to make for the entire year.
+
+35
+00:02:23,360 --> 00:02:29,460
+Then I can deduct what I have already made by
+summing the three quarters and then we get the result.
+
+36
+00:02:30,160 --> 00:02:33,520
+46 thousand and something is what we have to make.
+
+37
+00:02:33,780 --> 00:02:35,040
+But this is a lot of work.
+
+38
+00:02:35,040 --> 00:02:40,760
+I have to think about all the formulas I need.
+I can let Excel do the thinking for me,
+
+39
+00:02:40,760 --> 00:02:44,080
+because Excel is a little bit better at
+doing calculations than I am.
+
+40
+00:02:44,320 --> 00:02:51,040
+We can use a function for that called 'Goal Seek'
+where we will have Excel find a goal for us.
+
+41
+00:02:51,040 --> 00:02:52,140
+This is how it looks like.
+
+42
+00:02:52,140 --> 00:02:55,040
+So we are going to delete these formulas,
+we don't need them anymore
+
+43
+00:02:55,040 --> 00:02:57,380
+because we will do it smarter and more efficient.
+
+44
+00:02:57,540 --> 00:03:01,180
+We go to the Data tab and
+we click 'What-If Analysis' -> 'Goal Seek...'
+
+45
+00:03:01,180 --> 00:03:04,880
+And then, Excel will let us pick a cell we want to set.
+
+46
+00:03:04,880 --> 00:03:11,840
+We want to have an average of 40,000 and
+we will achieve that by changing that cell.
+
+47
+00:03:12,140 --> 00:03:18,800
+We are going to change the Qtr4
+sales and there it goes... Tadaa!
+
+48
+00:03:19,030 --> 00:03:23,910
+The same value: 46 thousand.
+In this case we did not need any formulas.
+
+49
+00:03:24,159 --> 00:03:28,969
+We just have Excel calculate what we need
+to obtain a certain value.
+
+50
+00:03:28,969 --> 00:03:32,249
+We want to have Excel do
+the thinking for us.
+

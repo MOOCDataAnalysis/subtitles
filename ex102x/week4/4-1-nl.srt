@@ -1,0 +1,79 @@
+1
+00:00:00,440 --> 00:00:07,969
+Hoi! Welkom bij week 4 van EX102x!
+De eerste helft van de cursus ligt achter ons.
+
+2
+00:00:07,979 --> 00:00:11,859
+Dus als je tot hier bent gekomen: Gefeliciteerd!
+Geweldig!
+
+3
+00:00:11,860 --> 00:00:16,140
+Dus ik dacht: halverwege de cursus
+is het tijd voor een nieuw voorbeeld.
+
+4
+00:00:16,140 --> 00:00:18,780
+Dus deze week heb ik een coffeeshop.
+
+5
+00:00:19,200 --> 00:00:25,900
+We hebben weer gegevens uit een register, dus we
+hebben de datums, tijden, producten en verkoopprijzen
+
+6
+00:00:25,900 --> 00:00:30,420
+en we verkopen geweldige producten zoals
+vruchtensappen, koffie en wafels.
+
+7
+00:00:30,420 --> 00:00:33,520
+Alles wat je nodig hebt een ​​productieve burger te zijn!
+
+8
+00:00:34,020 --> 00:00:36,820
+Vorige week hebben we het gehad
+over het maken van voorspellingen.
+
+9
+00:00:36,830 --> 00:00:40,280
+Kijken naar je data en
+het onderscheiden van trendlijnen.
+
+10
+00:00:40,280 --> 00:00:44,580
+Dus als je de video's hebt bekeken en de opdrachten hebt gedaan, dan heb je zoiets gezien.
+
+11
+00:00:44,580 --> 00:00:47,400
+Een trend die zich afspeelt binnen het bedrijf.
+
+12
+00:00:47,690 --> 00:00:53,150
+Maar een bedrijf is natuurlijk geen statisch iets.
+We hebben invloed op het bedrijf.
+
+13
+00:00:53,150 --> 00:00:59,560
+We kunnen aan de knoppen van ons bedrijf draaien. We kunnen een promotie starten, nieuwe producten kopen
+
+14
+00:00:59,570 --> 00:01:04,090
+of een hele productlijn stopzetten.
+We kunnen dingen veranderen.
+
+15
+00:01:04,280 --> 00:01:08,620
+Het onderwerp van deze week is:
+Wat gebeurt er als we dingen veranderen?
+
+16
+00:01:08,820 --> 00:01:12,240
+'Wat als'-analyse.
+Wat is de invloed op het bedrijf
+
+17
+00:01:12,240 --> 00:01:14,120
+als we bepaalde veranderingen doorvoeren?
+

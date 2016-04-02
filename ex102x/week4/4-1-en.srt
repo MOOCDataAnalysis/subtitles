@@ -1,0 +1,79 @@
+1
+00:00:00,440 --> 00:00:07,969
+Hi! Welcome to week 4 of EX102x!
+We have the first half of the course past us.
+
+2
+00:00:07,979 --> 00:00:11,859
+So if you have made it so far: Congratulations!
+Awesome!
+
+3
+00:00:11,860 --> 00:00:16,140
+So I thought, halfway the course
+it is time for a new example.
+
+4
+00:00:16,140 --> 00:00:18,780
+So this week I am running a coffee shop.
+
+5
+00:00:19,200 --> 00:00:25,900
+Again, we have export data from a register.
+So we have dates, times, products and sales prices
+
+6
+00:00:25,900 --> 00:00:30,420
+and we are selling awesome products like
+juices, coffees and waffles.
+
+7
+00:00:30,420 --> 00:00:33,420
+All the things you need to be a productive citizen.
+
+8
+00:00:34,020 --> 00:00:36,820
+Last week we talked about making predictions.
+
+9
+00:00:36,830 --> 00:00:40,280
+Looking at your data and distinguishing trend lines.
+
+10
+00:00:40,280 --> 00:00:44,580
+So if you have watched the videos and done
+the exercises you have seen something like this:
+
+11
+00:00:44,580 --> 00:00:47,400
+A trend that is happening within the company.
+
+12
+00:00:47,690 --> 00:00:53,150
+But of course, a company is not a static thing.
+We actually have influence on the company.
+
+13
+00:00:53,150 --> 00:00:59,560
+We can turn the knobs of our business.
+We can start a promotion, or buy new products
+
+14
+00:00:59,570 --> 00:01:04,090
+or discontinue a whole line of products.
+We can change things.
+
+15
+00:01:04,280 --> 00:01:08,620
+This week's topic is:
+What happens if we change things?
+
+16
+00:01:08,820 --> 00:01:12,240
+What if analysis.
+What will be the influence on our business
+
+17
+00:01:12,240 --> 00:01:14,120
+if we make certain changes?
+

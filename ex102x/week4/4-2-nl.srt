@@ -1,0 +1,239 @@
+1
+00:00:00,480 --> 00:00:04,080
+'Wat gebeurt er als...?'
+Dat is het onderwerp van de video's deze week.
+
+2
+00:00:04,340 --> 00:00:08,880
+Dus we kijken naar de data van de koffieshop en
+we vragen ons af: Hoe doen we het?
+
+3
+00:00:08,880 --> 00:00:12,500
+Hoe gaat het met de verkoop?
+Dus, het eerst wat je natuurlijk gaat doen:
+
+4
+00:00:12,500 --> 00:00:15,120
+Je kijkt naar je data en je ...
+
+5
+00:00:15,600 --> 00:00:17,859
+voegt een draaitabel in, natuurlijk!
+
+6
+00:00:17,859 --> 00:00:24,819
+Deze keer is het belangrijk dat we 'Deze gegeven
+toevoegen aan het gegevensmodel' uitvinken.
+
+7
+00:00:24,820 --> 00:00:27,080
+Ik zal zo uitleggen waarom we dat doen.
+
+8
+00:00:27,360 --> 00:00:30,220
+Dus, nu voegen we alle verkoopprijzen en datums toe
+
+9
+00:00:30,220 --> 00:00:33,260
+en we laten de verkoopprijzen eruit zien als een valuta.
+
+10
+00:00:33,260 --> 00:00:36,740
+Het ziet er mooier uit en het is
+gemakkelijker om te zien wat er gaande is.
+
+11
+00:00:37,100 --> 00:00:42,660
+Echter, nu hebben we alle verkopen per dag en
+dat maakt het moeilijk om te zien wat er gebeurt.
+
+12
+00:00:42,910 --> 00:00:46,070
+Wat je kunt doen in een draaitabel is de data groeperen.
+
+13
+00:00:46,070 --> 00:00:50,050
+In maanden, of in dit geval willen we kwartalen.
+
+14
+00:00:50,420 --> 00:00:55,760
+We krijgen een mooi overzicht van de kwartalen:
+Kwartaal 1, kwartaal 2, kwartaal 3.
+
+15
+00:00:56,160 --> 00:01:02,040
+En dit is waarom we het vinkje voor het toevoegen
+aan het gegevensmodel moesten uitzetten.
+
+16
+00:01:02,280 --> 00:01:06,680
+Om redenen die ik ook niet begrijp,
+werkt deze groepeerfunctie alleen...
+
+17
+00:01:06,680 --> 00:01:11,340
+als je data niet in het gegevensmodel zitten.
+Dus daar moeten we het mee doen.
+
+18
+00:01:11,760 --> 00:01:13,280
+Wat we nu gaan doen...
+
+19
+00:01:13,280 --> 00:01:17,000
+Laten we eerst dit werkblad hernoemen, want
+'Sheet2' is uiteraard geen goede naam.
+
+20
+00:01:17,000 --> 00:01:20,820
+Laten we deze 'Sales Target' noemen,
+want dat is wat we gaan berekenen.
+
+21
+00:01:21,120 --> 00:01:25,120
+We hebben een doel voor de verkoop
+die we per kwartaal willen.
+
+22
+00:01:25,120 --> 00:01:31,520
+We hebben ons ten doel gesteld om gemiddeld
+$40,000 om te zetten. Dat is ons doel.
+
+23
+00:01:31,680 --> 00:01:33,820
+Dus hoe staan we ervoor richting dit doel?
+
+24
+00:01:33,820 --> 00:01:38,600
+Komen we in de buurt? In dit kwartaal, Qtr4,
+hebben we nog geen omzet gegenereerd
+
+25
+00:01:38,600 --> 00:01:44,020
+dus laten we die voorlopig instellen op nul.
+Nu kunnen we het huidige gemiddelde berekenen.
+
+26
+00:01:44,320 --> 00:01:47,800
+We nemen het gemiddelde van de drie
+kwartalen die we al hebben...
+
+27
+00:01:48,440 --> 00:01:52,280
+in combinatie met het vierde kwartaal,
+die staat momenteel nog op nul.
+
+28
+00:01:52,640 --> 00:01:57,300
+Je kunt dus zien dat we er nog lang niet zijn,
+zonder omzet in het vierde kwartaal.
+
+29
+00:01:57,300 --> 00:01:59,520
+Wij zitten op slechts 28 duizend.
+
+30
+00:02:00,780 --> 00:02:06,360
+Dus de vraag is: wat moeten we in het 4e kwartaal
+omzetten om ons gemiddelde te halen?
+
+31
+00:02:06,360 --> 00:02:09,860
+Wat moeten we doen?
+Wat moeten we voor elkaar krijgen, om het te halen?
+
+32
+00:02:11,120 --> 00:02:14,880
+Wat we natuurlijk kunnen doen
+is dit berekenen met een formule.
+
+33
+00:02:14,880 --> 00:02:18,440
+We kunnen zeggen: nou, ik weet
+dat ik elk kwartaal 40 duizend moet omzetten
+
+34
+00:02:18,440 --> 00:02:22,980
+dus 4 keer 40.000 is wat ik in het hele jaar moet halen.
+
+35
+00:02:23,360 --> 00:02:27,660
+Dan kan ik daarvan aftrekken wat ik al heb omgezet
+door de eerste drie kwartalen op te sommen
+
+36
+00:02:28,180 --> 00:02:33,520
+en dan krijgen we het resultaat:
+46 duizend en nog wat moeten we omzetten.
+
+37
+00:02:33,780 --> 00:02:35,040
+Maar dit is een hoop werk.
+
+38
+00:02:35,040 --> 00:02:40,760
+Ik moet nadenken over alle formules die ik nodig heb.
+Ik kan Excel het denkwerk voor me laten doen
+
+39
+00:02:40,760 --> 00:02:44,080
+want Excel is een beetje beter in
+het doen van berekeningen dan ik.
+
+40
+00:02:44,320 --> 00:02:47,320
+We kunnen hiervoor een functie
+gebruiken genaamd 'Doelzoeken'
+
+41
+00:02:47,320 --> 00:02:50,800
+waarmee Excel een doel voor ons gaat vinden.
+
+42
+00:02:51,040 --> 00:02:52,140
+Zo ziet het eruit.
+
+43
+00:02:52,140 --> 00:02:55,040
+Dus we verwijderen deze formules.
+We hebben ze niet meer nodig...
+
+44
+00:02:55,040 --> 00:02:57,380
+want we gaan het slimmer en efficiënter doen.
+
+45
+00:02:57,540 --> 00:03:01,180
+We gaan naar het tabblad 'Gegevens' en
+we klikken op 'Wat-als-analyse' -> 'Doelzoeken...'
+
+46
+00:03:01,180 --> 00:03:04,880
+Excel laat ons dan een cel kiezen
+die we in willen stellen.
+
+47
+00:03:04,880 --> 00:03:11,940
+We willen dus een gemiddelde van 40.000 en
+we zullen dat bereiken door deze cel te veranderen.
+
+48
+00:03:12,140 --> 00:03:18,800
+We gaan de Qtr4-verkoop veranderen
+ en daar gaat 'ie... Tadaa!
+
+49
+00:03:19,030 --> 00:03:23,910
+Dezelfde waarde: 46 duizend.
+In dit geval hebben we geen formules nodig.
+
+50
+00:03:24,159 --> 00:03:28,969
+We hebben Excel laten berekenen wat we
+nodig hebben om een bepaalde waarde te bereiken.
+
+51
+00:03:28,969 --> 00:03:32,309
+We willen dat Excel het denkwerk voor ons doet.
+
