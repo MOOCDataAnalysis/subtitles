@@ -1,0 +1,184 @@
+1
+00:00:01,160 --> 00:00:04,440
+This week we have been detecting trends.
+In the previous videos...
+
+2
+00:00:04,440 --> 00:00:08,820
+we have done that in two different ways:
+First using conditional formatting
+
+3
+00:00:08,820 --> 00:00:13,140
+and secondly with spark lines.
+But those techniques are a little bit like sketching.
+
+4
+00:00:13,380 --> 00:00:14,940
+You don't really know what's there yet.
+
+5
+00:00:14,949 --> 00:00:19,029
+We are just trying our hand,
+trying to understand what's in the data.
+
+6
+00:00:19,220 --> 00:00:23,520
+But I think you are ready for the real deal now:
+Make a real graph.
+
+7
+00:00:23,640 --> 00:00:27,120
+So let's go back to our spreadsheet
+and make a graph together.
+
+8
+00:00:27,220 --> 00:00:30,780
+So let's get rid of the spark lines.
+We don't need them anymore.
+
+9
+00:00:31,120 --> 00:00:36,600
+And if we look at the data, one of the results we got
+from the analysis, exploring it, ...
+
+10
+00:00:36,600 --> 00:00:40,520
+is that these first and last week,
+they are not real weeks.
+
+11
+00:00:40,520 --> 00:00:42,780
+They only have little amount of data.
+
+12
+00:00:42,780 --> 00:00:46,140
+This is why it is better to remove them,
+to filter them out at least...
+
+13
+00:00:46,140 --> 00:00:49,280
+to get a cleaner view of the trend in the data.
+
+14
+00:00:49,380 --> 00:00:51,720
+So we remove the conditional formatting as well
+
+15
+00:00:51,720 --> 00:00:55,340
+and we are now ready to add a real graph.
+Here we go.
+
+16
+00:00:55,350 --> 00:00:59,570
+We are going to add a PivotChart, because
+as you have seen last week
+
+17
+00:00:59,570 --> 00:01:04,019
+this is a nice interactive way and we can still
+play with our data if we want to.
+
+18
+00:01:04,019 --> 00:01:10,360
+Let's make it a bit bigger, there we go.
+So if we look at 'Pants', we thought the trend
+
+19
+00:01:10,360 --> 00:01:13,960
+was that there was a little top in the middle,
+but overall it was flat.
+
+20
+00:01:13,960 --> 00:01:19,060
+What Excel can do is add a trend line
+on the graph and then you see
+
+21
+00:01:19,060 --> 00:01:24,100
+Excel is helping us understand our data, because
+even though there are some fluctuations
+
+22
+00:01:24,100 --> 00:01:26,940
+the trend line seems to be flat.
+
+23
+00:01:27,180 --> 00:01:31,800
+So if we do the same for bras:
+we add a trend line there as well
+
+24
+00:01:32,140 --> 00:01:36,880
+unfortunately we see that
+there the trend is going down.
+
+25
+00:01:37,120 --> 00:01:42,880
+We are selling fewer and fewer bras every week,
+even though it seems a bit similar to pants.
+
+26
+00:01:42,880 --> 00:01:46,560
+There are some ups and downs.
+We can make it even more interesting, because
+
+27
+00:01:46,560 --> 00:01:54,420
+what we can also do is add a prediction.
+Now, the trend line continues even after our data.
+
+28
+00:01:54,580 --> 00:01:58,360
+So we get a prediction for where our trend is going.
+
+29
+00:01:58,660 --> 00:02:03,460
+We can use this trend line to
+make actual real predictions
+
+30
+00:02:03,460 --> 00:02:07,280
+about how many bras we will sell
+two weeks from now.
+
+31
+00:02:07,420 --> 00:02:09,980
+What you can do there, let me show you:
+
+32
+00:02:09,980 --> 00:02:12,520
+If you select a trend line and right click...
+[Format Trendline...]
+
+33
+00:02:12,520 --> 00:02:17,220
+you can change it. So you can make the
+prediction a little bit longer, let's say 5 weeks.
+
+34
+00:02:17,220 --> 00:02:22,780
+And what you can also do, that makes it really interesting, is add the equation on the chart.
+
+35
+00:02:22,780 --> 00:02:25,240
+So here Excel explains to you:
+
+36
+00:02:25,240 --> 00:02:31,860
+If you put in the week number, how much money
+will we make on bras in a few weeks.
+
+37
+00:02:31,860 --> 00:02:35,800
+And in the exercises you are going to
+make predictions on the data...
+
+38
+00:02:35,800 --> 00:02:38,540
+using this generated equation.
+
+39
+00:02:38,680 --> 00:02:40,120
+Good luck!
+

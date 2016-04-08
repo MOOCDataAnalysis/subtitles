@@ -1,0 +1,186 @@
+1
+00:00:01,160 --> 00:00:04,440
+Deze week zijn we bezig met het detecteren van trends.
+In de vorige video's...
+
+2
+00:00:04,440 --> 00:00:10,620
+hebben we dat gedaan op twee manieren: eerst
+met voorwaardelijke opmaak en daarna sparklines.
+
+3
+00:00:10,780 --> 00:00:13,220
+Maar deze technieken zijn een beetje zoals schetsen.
+
+4
+00:00:13,380 --> 00:00:15,160
+Je weet nog niet precies wat erin zit.
+
+5
+00:00:15,160 --> 00:00:19,020
+We proberen maar wat
+om te begrijpen wat er in de data zit.
+
+6
+00:00:19,220 --> 00:00:23,520
+Maar ik denk dat jullie nu klaar zijn voor het echte werk:
+Een echte grafiek maken!
+
+7
+00:00:23,640 --> 00:00:27,120
+Dus laten we teruggaan naar onze spreadsheet
+en samen een grafiek maken.
+
+8
+00:00:27,220 --> 00:00:30,780
+We verwijderen de sparklines.
+Die hebben we niet meer nodig.
+
+9
+00:00:31,120 --> 00:00:36,600
+Als we naar de data kijken... Een van de resultaten die we kregen uit de exploratieve analyse...
+
+10
+00:00:36,600 --> 00:00:40,520
+is dat de eerste en de laatste week
+eigenlijk geen hele weken zijn.
+
+11
+00:00:40,520 --> 00:00:42,780
+Ze bevatten maar weinig data.
+
+12
+00:00:42,780 --> 00:00:46,140
+Daarom is het beter om ze te verwijderen,
+of in ieder geval uit te filteren
+
+13
+00:00:46,140 --> 00:00:49,180
+voor een schoner beeld van de trend in de data.
+
+14
+00:00:49,380 --> 00:00:51,720
+We verwijderen dus ook de voorwaardelijke opmaak
+
+15
+00:00:51,720 --> 00:00:55,340
+en nu zijn we klaar om een ​​echte grafiek toe te voegen.
+Daar gaan we.
+
+16
+00:00:55,350 --> 00:00:59,570
+We voegen een draaigrafiek toe, want
+zoals je vorige week hebt gezien...
+
+17
+00:00:59,570 --> 00:01:04,019
+is dat een leuke interactieve manier en we kunnen nog
+steeds spelen met onze data als we willen.
+
+18
+00:01:04,019 --> 00:01:06,139
+Ik maak 'm iets groter.
+
+19
+00:01:06,880 --> 00:01:12,520
+Toen we naar 'Pants' keken, dachten we dat
+er in het midden van de trend een kleine piek zat...
+
+20
+00:01:12,520 --> 00:01:13,960
+...maar over het algemeen leek hij plat.
+
+21
+00:01:13,960 --> 00:01:19,060
+Wat je in Excel kan doen is het toevoegen
+van een trendlijn op de grafiek en dan zie je
+
+22
+00:01:19,060 --> 00:01:24,100
+dat Excel ons helpt met het begrijpen van de data.
+Want ondanks de schommelingen in de grafiek...
+
+23
+00:01:24,100 --> 00:01:26,940
+...lijkt de trendlijn plat.
+
+24
+00:01:27,180 --> 00:01:31,800
+Als we nu hetzelfde doen voor bh's:
+we voegen daar ook een trendlijn toe.
+
+25
+00:01:32,140 --> 00:01:36,820
+Zien we helaas dat die trend naar beneden gaat.
+
+26
+00:01:37,120 --> 00:01:42,880
+We verkopen elke week minder bh's, ondanks
+dat de grafiek lijkt op die voor broeken...
+
+27
+00:01:42,880 --> 00:01:46,560
+Er zijn wat up's en down's.
+We kunnen het nóg interessanter maken.
+
+28
+00:01:46,560 --> 00:01:54,420
+Wat we ook kunnen doen is een voorspelling toevoegen.
+Nu gaat de trendlijn door na de periode van de data.
+
+29
+00:01:54,580 --> 00:01:58,440
+Zo krijgen we een voorspelling
+voor waar onze trend naartoe gaat.
+
+30
+00:01:58,660 --> 00:02:03,460
+We kunnen deze trendlijn gebruiken om
+daadwerkelijke voorspellingen te doen...
+
+31
+00:02:03,460 --> 00:02:07,280
+...over hoeveel bh's we zullen
+verkopen over twee weken.
+
+32
+00:02:07,420 --> 00:02:09,980
+Wat je kan doen, ik zal het laten zien:
+
+33
+00:02:09,980 --> 00:02:13,600
+Als je een trendlijn selecteert en rechts-klikt
+[Trendlijn opmaken...] dan kan je hem aanpassen.
+
+34
+00:02:13,600 --> 00:02:17,220
+Je kunt de voorspelling wat langer maken:
+5 weken bijvoorbeeld.
+
+35
+00:02:17,220 --> 00:02:22,720
+En wat je ook kan doen, dat maakt het heel interessant,
+is het toevoegen van de vergelijking op de grafiek.
+
+36
+00:02:22,720 --> 00:02:25,240
+Dus hier legt Excel uit:
+
+37
+00:02:25,240 --> 00:02:31,860
+Als je het weeknummer invult, hoeveel
+geld verdienen we dan aan bh's?
+
+38
+00:02:31,860 --> 00:02:35,800
+In de opdrachten ga je voorspellingen
+doen over deze data...
+
+39
+00:02:35,800 --> 00:02:38,540
+...met behulp van deze gegenereerde vergelijking.
+
+40
+00:02:38,680 --> 00:02:40,120
+Succes!
+
