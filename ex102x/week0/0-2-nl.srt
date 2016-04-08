@@ -1,0 +1,53 @@
+1
+00:00:01,160 --> 00:00:08,720
+[TYPEN OP TOETSENBORD]
+
+2
+00:00:09,840 --> 00:00:13,640
+Ah, dat is het!
+Ik heb het best verkopende product gevonden!
+
+3
+00:00:15,180 --> 00:00:18,080
+[TELEFOON GAAT OVER]
+
+4
+00:00:18,840 --> 00:00:20,480
+Hallo, met Felienne.
+
+5
+00:00:22,000 --> 00:00:24,640
+Oh, het was een oude versie van de data...
+
+6
+00:00:25,600 --> 00:00:27,760
+En ik moet het rapport opnieuw doen.
+
+7
+00:00:28,130 --> 00:00:31,770
+Nee nee, dat is geen probleem.
+Dat lukt me wel.
+
+8
+00:00:32,500 --> 00:00:37,320
+Binnen een uur? Zeker zeker, geen probleem.
+Ik bel u straks terug.
+
+9
+00:00:39,640 --> 00:00:42,220
+Misschien kan jij me helpen
+het rapport opnieuw te maken?
+
+10
+00:00:42,220 --> 00:00:44,260
+We zullen je een nieuwe versie van de data geven...
+
+11
+00:00:44,260 --> 00:00:48,300
+en nu kan je testen hoe robuust het
+dashboard dat je hebt gemaakt écht is!
+
+12
+00:00:48,480 --> 00:00:49,600
+Dankjewel!
+

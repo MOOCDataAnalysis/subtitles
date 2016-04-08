@@ -1,0 +1,62 @@
+1
+00:00:00,400 --> 00:00:05,520
+Hoi! Welkom bij EX102x.
+Mijn naam is Felienne en ik heb een leuke...
+
+2
+00:00:05,520 --> 00:00:09,020
+uitdaging voor je om je klaar te stomen voor dit vak.
+
+3
+00:00:09,480 --> 00:00:14,080
+Stel, je runt een coffeeshop.
+Je bent de eigenaar van een prachtige winkel...
+
+4
+00:00:14,080 --> 00:00:19,960
+en je wilt natuurlijk data-analyse doen!
+Ik zal je een spreadsheet geven die als volgt uitziet.
+
+5
+00:00:20,220 --> 00:00:25,740
+Hij heeft datums, tijden, producten en
+de prijs waarvoor de producten zijn verkocht.
+
+6
+00:00:25,740 --> 00:00:30,060
+Je verkoopt heerlijke dingen
+zoals sapjes, latté's en brownies.
+
+7
+00:00:30,060 --> 00:00:37,640
+Mijn vraag aan jou is: Wat is het product dat
+het beste werd verkocht in de afgelopen periode?
+
+8
+00:00:37,640 --> 00:00:40,940
+Dus van alle gegevens, wat is
+het best verkopende product?
+
+9
+00:00:41,120 --> 00:00:42,580
+En hier is de uitdaging:
+
+10
+00:00:42,580 --> 00:00:48,100
+Ik wil dat je het doet met zo weinig mogelijk
+muisklikken en toetsenbordaanslagen.
+
+11
+00:00:48,460 --> 00:00:52,460
+Post alsjeblieft je uitkomsten op het forum:
+Het antwoord, maar ook...
+
+12
+00:00:52,460 --> 00:00:56,280
+...hoeveel muisklikken het kostte en
+hoe heb je het antwoord hebt verkregen?
+
+13
+00:00:56,280 --> 00:00:58,660
+Succes!
+

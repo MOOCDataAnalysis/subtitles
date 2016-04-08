@@ -1,0 +1,51 @@
+1
+00:00:01,160 --> 00:00:08,720
+[TYPING ON KEYBOARD]
+
+2
+00:00:09,840 --> 00:00:13,640
+Ah, that's it! I found the best-selling product.
+
+3
+00:00:15,180 --> 00:00:18,080
+[PHONE RINGING]
+
+4
+00:00:18,840 --> 00:00:20,480
+Hello, this is Felienne.
+
+5
+00:00:22,000 --> 00:00:24,640
+Oh, it was an old version of the data...
+
+6
+00:00:25,600 --> 00:00:27,760
+And I have to do the report again.
+
+7
+00:00:28,130 --> 00:00:31,770
+No no, that's not a problem at all.
+I can do that.
+
+8
+00:00:32,500 --> 00:00:37,320
+Within the hour? Sure sure, no problem.
+I will get back to you.
+
+9
+00:00:39,640 --> 00:00:42,220
+Maybe you can help me do the report again?
+
+10
+00:00:42,220 --> 00:00:44,260
+We will give you a new version of the data...
+
+11
+00:00:44,260 --> 00:00:48,160
+and now you can test how robust
+the dashboard you made really is.
+
+12
+00:00:48,480 --> 00:00:49,600
+Thank you!
+

@@ -1,0 +1,62 @@
+1
+00:00:00,400 --> 00:00:05,640
+Hi! Welcome to EX102x.
+My name is Felienne and I have a nice little
+
+2
+00:00:05,650 --> 00:00:09,150
+warmup challenge for you to
+get ready for our course.
+
+3
+00:00:09,500 --> 00:00:14,280
+Imagine you are running a coffee shop.
+You are the owner of a wonderful shop and
+
+4
+00:00:14,280 --> 00:00:19,960
+you want to do of course... some data analysis.
+So I will give you a spreadsheet that looks like this.
+
+5
+00:00:20,220 --> 00:00:25,740
+It has dates, times, products, and 
+the price for which you sell the products.
+
+6
+00:00:25,740 --> 00:00:30,060
+And you are selling wonderful things
+like juices and lattés and brownies.
+
+7
+00:00:30,060 --> 00:00:37,640
+And my question for you is:
+What is product that was sold best in the last period?
+
+8
+00:00:37,640 --> 00:00:40,940
+So of all the data, what is the best-selling product?
+
+9
+00:00:41,120 --> 00:00:42,580
+And here is the challenge:
+
+10
+00:00:42,580 --> 00:00:48,220
+I want you to do it with as few clicks
+and keyboard types as possible.
+
+11
+00:00:48,460 --> 00:00:52,000
+So please, post your solutions on the forum:
+What is the answer?
+
+12
+00:00:52,000 --> 00:00:56,060
+But also, how many clicks did it take
+and how did you obtain the answer?
+
+13
+00:00:56,060 --> 00:00:58,660
+Good luck!
+
