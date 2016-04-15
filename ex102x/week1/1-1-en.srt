@@ -1,0 +1,145 @@
+1
+00:00:00,510 --> 00:00:06,180
+Hi, welcome to EX102x.
+My name if Felienne Hermans, and I'll be guiding you
+
+2
+00:00:06,180 --> 00:00:11,270
+through this course.
+And I want to say welcome, not just to EX102x,
+
+3
+00:00:11,270 --> 00:00:15,250
+but also to Delft University of Technology.
+Because by taking this MOOC you'll become
+
+4
+00:00:15,250 --> 00:00:20,390
+part of the Delft family.
+The building you see here is the EWI building
+
+5
+00:00:20,390 --> 00:00:24,080
+on a very sunny day.
+And in this building is the 'Spreadsheet Lab'.
+
+6
+00:00:24,080 --> 00:00:28,500
+That's my research group, where with a bunch
+of graduate students I research all the things
+
+7
+00:00:28,500 --> 00:00:32,099
+Excel.
+"What is this course about?" you may ask.
+
+8
+00:00:32,099 --> 00:00:35,769
+Well, this course is about working with data
+effectively.
+
+9
+00:00:35,769 --> 00:00:41,019
+Some people might be still doing it this way.
+They print all their Excel sheets, and they
+
+10
+00:00:41,019 --> 00:00:45,329
+go through it and circle all the good accounts
+or the nice products.
+
+11
+00:00:45,329 --> 00:00:50,940
+Which might work, but is not very effective.
+So what we are going to do is: we'll help
+
+12
+00:00:50,940 --> 00:00:56,920
+you transform 'business need' into 'real-time
+reports'.
+
+13
+00:00:56,920 --> 00:01:00,940
+So suppose you have a question like "what
+is the best product?", "what product have
+
+14
+00:01:00,940 --> 00:01:05,760
+we sold most this week?".
+We will help you create dashboards that immediately
+
+15
+00:01:05,760 --> 00:01:10,390
+give an answer.
+Like 'Brownies' was the most successful product.
+
+16
+00:01:10,390 --> 00:01:14,940
+Of course, it's not that direct.
+There are lots of steps in the middle, and
+
+17
+00:01:14,940 --> 00:01:17,630
+all these steps will have their place in our
+course.
+
+18
+00:01:17,630 --> 00:01:21,960
+So, suppose you have a business need, probably
+you'll start with a data source.
+
+19
+00:01:21,960 --> 00:01:27,680
+Which can be a database, or an export from
+a register system, something like this.
+
+20
+00:01:27,680 --> 00:01:33,140
+From a data source, we will teach you how
+to import that data into Excel.
+
+21
+00:01:33,140 --> 00:01:38,930
+How to wrangle that data.
+So, how to go from raw data to data that is
+
+22
+00:01:38,930 --> 00:01:41,260
+easily processable.
+We'll take the next step.
+
+23
+00:01:41,260 --> 00:01:45,600
+We'll help you do analysis such that you get
+nice view on the data.
+
+24
+00:01:45,600 --> 00:01:50,250
+Because if you have a large dataset, like
+the one in the picture, you want to make sure
+
+25
+00:01:50,250 --> 00:01:55,070
+you're looking in the right place.
+Once we have a view, we'll teach you to put
+
+26
+00:01:55,070 --> 00:01:59,360
+graphs on top of it.
+Nice visualizations that make it easier for
+
+27
+00:01:59,360 --> 00:02:03,190
+you to see what's going on.
+And finally, in the last two weeks of this
+
+28
+00:02:03,190 --> 00:02:08,889
+course, we will glue everything together and
+work on how to design a dashboard.
+
+29
+00:02:08,889 --> 00:02:11,520
+Does that look good?
+See you in the rest of the course!
+

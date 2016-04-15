@@ -1,0 +1,132 @@
+1
+00:00:00,510 --> 00:00:06,180
+Hallo, welkom bij EX102x. Mijn naam is Felienne Hermans, en ik zal je begeleiden
+
+2
+00:00:06,180 --> 00:00:11,270
+tijdens dit vak. En ik wil je niet alleen welkom heten bij EX102x,
+
+3
+00:00:11,270 --> 00:00:15,250
+maar ook bij de TU Delft.
+Omdat bij het deelnemen aan deze MOOC je
+
+4
+00:00:15,250 --> 00:00:20,390
+deel wordt van de Delft familie.
+Het gebouw hierachter is het EWI gebouw
+
+5
+00:00:20,390 --> 00:00:24,080
+op een erg zonnige dag.
+En in dit gebouw zit het 'Spreadsheet Lab'.
+
+6
+00:00:24,080 --> 00:00:28,500
+Dat is mijn onderzoeksgroep, waar ik samen met een aantal master en PhD studenten onderzoek doe naar alles
+
+7
+00:00:28,500 --> 00:00:32,099
+Dat met Excel te maken heeft.
+"Waar gaat dit vak over?" Zou je je af kunnen vragen.
+
+8
+00:00:32,099 --> 00:00:35,769
+Nou, dit vak gaat over het effectief werken met data.
+
+9
+00:00:35,769 --> 00:00:41,019
+Sommige mensen doen het misschien nog op deze manier.
+Ze printen al hun Excel bestanden, en
+
+10
+00:00:41,019 --> 00:00:45,329
+gaan er doorheen terwijl ze belangrijke zaken omcirkelen.
+
+11
+00:00:45,329 --> 00:00:50,940
+Dit kan werken, maar het is niet erg effectief.
+Dus wat wij gaan doen jou helpen met
+
+12
+00:00:50,940 --> 00:00:56,920
+het transformeren van bedrijfsbehoefte naar actuele verslagen.
+
+13
+00:00:56,920 --> 00:01:00,940
+Stel je hebt een vraag zoals "wat is het beste product?", of "welk product hebben we deze week het meest verkocht?"
+
+14
+00:01:00,940 --> 00:01:05,760
+Wij gaan je helpen om een dashboard te creëren dat jou daar onmiddelijk
+
+15
+00:01:05,760 --> 00:01:10,390
+een antwoord op kan geven.
+Bijvoorbeeld: 'Brownies' was het best verkopende product!
+
+16
+00:01:10,390 --> 00:01:14,940
+Natuurlijk gebeurt dit niet in één keer.
+Dit proces bestaat uit meerdere stappen,
+
+17
+00:01:14,940 --> 00:01:17,630
+en al deze stappen hebben een plek in dit vak.
+
+18
+00:01:17,630 --> 00:01:21,960
+Dus, stel dat je een bedrijfsbehoefte hebt.
+Dan begin je waarschijnlijk met een data bron.
+
+19
+00:01:21,960 --> 00:01:27,680
+Dit kan een database zijn, of data geëxporteerd uit een register.
+
+20
+00:01:27,680 --> 00:01:33,140
+We zullen je leren hoe je zo'n data bron kan importeren in Excel.
+
+21
+00:01:33,140 --> 00:01:38,930
+Hoe de data omgevormd moet worden.
+Dus, hoe ga je van ruwe data naar
+
+22
+00:01:38,930 --> 00:01:41,260
+data dat makkelijk te verwerken is.
+Dan nemen we de volgende stap.
+
+23
+00:01:41,260 --> 00:01:45,600
+We gaan je helpen om analyse te doen zodat je een mooi overzicht van je data krijgt.
+
+24
+00:01:45,600 --> 00:01:50,250
+Omdat je waarschijnlijk een grote dataset hebt, zoals die in de foto, wil je zeken weten
+
+25
+00:01:50,250 --> 00:01:55,070
+dat je op de goede plek kijkt. Zodra we een overzicht hebben,
+gaan we je leren hoe je er
+
+26
+00:01:55,070 --> 00:01:59,360
+grafieken van kan maken.
+Mooie visualisaties maken het makkelijk
+
+27
+00:01:59,360 --> 00:02:03,190
+om te zien wat er gebeurt.
+En tenslotte, in de laatste twee weken van het vak,
+
+28
+00:02:03,190 --> 00:02:08,889
+lijmen we alles aan elkaar, en werken we aan
+het ontwerpen van een dashboard.
+
+29
+00:02:08,889 --> 00:02:11,520
+Klinkt dat goed?
+Tot ziens in de rest van het vak!
+
