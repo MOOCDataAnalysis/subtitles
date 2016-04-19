@@ -6,7 +6,7 @@ this week we are the owners of a shop that
 2
 00:00:04,920 --> 00:00:09,860
 sells running materials. So running socks,
-shoes, bra's, and pants.
+shoes, bras, and pants.
 
 3
 00:00:09,860 --> 00:00:16,059

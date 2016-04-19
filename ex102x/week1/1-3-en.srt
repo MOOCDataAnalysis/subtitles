@@ -45,7 +45,7 @@ suppose you already have your data in
 10
 00:00:47,940 --> 00:00:52,289
 Excel, you can also do the transformation
-yourself. It's not that hard you just
+yourself. It's not that hard. You just
 
 11
 00:00:52,289 --> 00:00:57,969
@@ -109,7 +109,7 @@ tell Excel: "be careful, this is a 'date'!"
 
 23
 00:01:49,780 --> 00:01:55,840
-and we can also say that it is month-day-year.
+and also say that it is month-day-year.
 Then it knows how to interpret it.
 
 24

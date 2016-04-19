@@ -5,11 +5,11 @@ en het eerste dat we daarvoor moeten doen is
 
 2
 00:00:06,899 --> 00:00:14,660
-onze data in een CSV formaat krijgen. Een 'komma-gescheiden waardes' formaat. Nu denk je misschien
+onze data in een CSV-formaat krijgen. Een 'komma-gescheiden waardes' formaat. Nu denk je misschien
 
 3
 00:00:14,660 --> 00:00:17,859
-"Hoe krijg ik mijn data in een CSV bestand?"
+"Hoe krijg ik mijn data in een CSV-bestand?"
 
 4
 00:00:18,390 --> 00:00:22,460
@@ -23,12 +23,12 @@ De mensen die je nu spreadsheets e-mailen.
 
 6
 00:00:27,449 --> 00:00:33,090
-Misschien kunnen zij jou van CSV bestanden voorzien.
+Misschien kunnen zij jou van CSV-bestanden voorzien.
 Veel database systemen kunnen gemakkelijk
 
 7
 00:00:33,090 --> 00:00:37,629
-data exporteren naar CSV formaat.
+data exporteren naar CSV-formaat.
 Dus het is echt niet raar als je
 
 8
@@ -42,31 +42,31 @@ Dat is één optie. Als je dit niet kunt doen, dan nemen we aan dat je de data
 10
 00:00:47,940 --> 00:00:52,289
 in Excel hebt. Je kunt de transformatie ook vanuit Excel doen.
-Het is niet erg moeilijk,
+Het is niet erg moeilijk.
 
 11
 00:00:52,289 --> 00:00:57,969
-je opent de spreadsheet en slaat het bestand op als een CSV bestand. Dus, we klikken op 'opslaan',
+Je opent de spreadsheet en slaat het bestand op als een CSV-bestand. Dus, we klikken op 'opslaan',
 
 12
 00:00:57,969 --> 00:01:03,890
-en dan, in plaats van 'XLSX bestand', scrollen we naar beneden en selecteren 'CSV bestand'. En nu krijgen we
+en dan, in plaats van 'XLSX-bestand', scrollen we naar beneden en selecteren 'CSV'. En nu krijgen we
 
 13
 00:01:03,890 --> 00:01:08,820
-onze data in een CSV bestand. Excel geeft ons een waarschuwing: "hey! Pas op! Formules
+onze data in een CSV-bestand. Excel geeft ons een waarschuwing: "hey! Pas op! Formules
 
 14
 00:01:08,820 --> 00:01:13,680
-en draaitabellen zullen worden verwijderd als je opslaat als CSV bestand." Maar dat is niet erg,
+en draaitabellen zullen worden verwijderd als je opslaat als CSV-bestand." Maar dat is niet erg.
 
 15
 00:01:13,680 --> 00:01:17,869
-We hebben ze niet nodig. En nu, net zoals we in de vorige MOOC hebben gedaan waar we data importeerde
+We hebben ze niet nodig. En nu, zoals we in de vorige MOOC hebben gedaan waar we data importeerde
 
 16
 00:01:17,869 --> 00:01:23,270
-vanaf het web, kunnen we nu data importeren vanuit het CSVbestand. Dus we selecteren
+vanaf het web, kunnen we nu data importeren vanuit het CSV-bestand. Dus we selecteren
 
 17
 00:01:23,270 --> 00:01:27,850
@@ -74,7 +74,7 @@ vanaf het web, kunnen we nu data importeren vanuit het CSVbestand. Dus we select
 
 18
 00:01:27,850 --> 00:01:32,619
-is een kopteksten rij. En ondanks dat we een 'komma-gescheiden-waardes' bestand gebruiken, moeten we Excel vertellen
+bevat kopteksten. En ondanks dat we een 'komma-gescheiden-waardes' bestand gebruiken, moeten we Excel vertellen
 
 19
 00:01:32,619 --> 00:01:37,049
@@ -82,7 +82,7 @@ dat we komma's gebruiken om de kolommen te scheiden. Nu krijgen we
 
 20
 00:01:37,049 --> 00:01:41,520
-een voorbeeld van hoe het eruit komt te zien. Nu kunnen we de data types opgeven. Dus we geven aan dat dit 'tekst' is,
+een voorbeeld van hoe het eruit komt te zien. Nu kunnen we de datatypes opgeven. Dus we geven aan dat dit 'tekst' is,
 
 21
 00:01:41,520 --> 00:01:45,500
@@ -94,7 +94,7 @@ Hier hebben we een 'datum'. Nu moeten we Excel vertellen: "wees voorzichtig, dit
 
 23
 00:01:49,780 --> 00:01:55,840
-We kunnen Excel ook vertellen dat het een 'maand-dag-jaar' datum is, zodat Excel de datum goed kan interpreteren.
+En we geven ook aan dat het een 'maand-dag-jaar' datum is, zodat Excel de datum goed kan interpreteren.
 
 24
 00:01:55,840 --> 00:01:59,090
@@ -115,28 +115,28 @@ dan vraagt Excel opniew naar de bestandsnaam
 
 28
 00:02:12,910 --> 00:02:19,490
-elke keer dat we 'Verversen' klikken. Dus dit willen we uitschakelen. Zo, dat is gedaan. Nu hebben we alle data vanuit
+elke keer dat we op 'Verversen' klikken. Dus dit willen we uitschakelen. Zo, dat is gedaan. Nu hebben we alle data vanuit
 
 29
 00:02:19,490 --> 00:02:26,050
-het CSV bestand in een keer in ons Excel bestand geladen. En stel dat nu onze vervelende collega
+het CSV-bestand in een keer in ons Excelbestand geladen. En stel dat onze vervelende collega
 
 30
 00:02:26,050 --> 00:02:31,680
-ons opnieuw e-mailt met "hier is een nieuwe, meer recente, versie." Dan is dat niet langer een probleem voor ons.
+ons nu opnieuw e-mailt met "hier is een nieuwe, recentere versie" dan is dat niet langer een probleem voor ons
 
 31
 00:02:31,680 --> 00:02:36,800
-Omdat we nu simpelweg het bestand kunnen openenen... Oh, voordat we verder gaan wil ik laten zien dat
+omdat we nu simpelweg het bestand kunnen openenen... Oh, voordat we verder gaan wil ik laten zien dat
 
 32
 00:02:36,800 --> 00:02:42,360
-we nu 753 rijen hebben. Dat is zodadelijk belangrijk. ...dus we openen het bestand, het tweede bestand
+we nu 753 rijen hebben. Dat is zodadelijk belangrijk. Dus we openen het bestand, het tweede bestand
 
 33
 00:02:42,360 --> 00:02:47,090
 dat onze collaga ons heeft toegestuurd.
-Nu kunnen we opnieuw dit bestand opslaan als CSV bestand.
+Nu kunnen we opnieuw dit bestand opslaan als CSV-bestand.
 
 34
 00:02:47,090 --> 00:02:52,780
@@ -144,20 +144,22 @@ We scrollen weer naar beneden, selecteren 'CSV', en nu selecteren we
 
 35
 00:02:52,780 --> 00:02:57,250
-het oorspronkelijke CSV bestand. We gaan het overschrijven.
+het oorspronkelijke CSV-bestand. We gaan het overschrijven.
 Ja Excel, we snappen het. We weten waar we mee bezig zijn.
 
 36
 00:02:57,250 --> 00:03:03,070
-We sluiten de waarschuwing. Nu is het nieuwe bestand opgeslagen als CSV bestand.
+We sluiten de waarschuwing. Nu is het nieuwe bestand opgeslagen als CSV-bestand.
 
 37
 00:03:03,070 --> 00:03:08,150
-Dus we klikken simpelweg 'Verversen', en de data wordt opnieuw geladen. Nu scrollen we naar beneden, en je kunt zien
+Dus we klikken simpelweg 'Verversen', en de data wordt opnieuw geladen.
+Nu scrollen we naar beneden, en je kunt zien
 
 38
 00:03:08,150 --> 00:03:13,950
-dat we nu vijf extra rijen hebben. En dit zonder te kopiëren en te plakken, en zonder
+dat we nu vijf extra rijen hebben.
+En dit zonder te kopiëren en te plakken, en zonder
 
 39
 00:03:13,950 --> 00:03:18,800

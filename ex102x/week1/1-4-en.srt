@@ -16,11 +16,11 @@ to import all of them. So imagine for a minute
 4
 00:00:22,089 --> 00:00:26,939
 that I've converted all of them to CSV. In
-the next video I'll show you how to do that
+the next video I'll show you how to do that automatically.
 
 5
 00:00:26,939 --> 00:00:31,810
-automatically. But now let's assume I've just
+But now let's assume I've just
 converted all of them by hand. And I now have
 
 6

@@ -4,7 +4,7 @@ Dus, nieuwe MOOC, nieuwe winkel! Deze week zijn we de eigenaren van een sportwin
 
 2
 00:00:04,920 --> 00:00:09,860
-Deze winkel verkoopt dingen zoals sokken, schoenen, Bh's, en broeken.
+Deze winkel verkoopt dingen zoals sokken, schoenen, bh's, en broeken.
 
 3
 00:00:09,860 --> 00:00:16,059
@@ -35,7 +35,7 @@ Je hebt een map op je harde schijf met
 
 9
 00:00:40,190 --> 00:00:45,879
-meerdere excel bestanden, en jij moet ze gezamenlijk analyseren.
+meerdere Excelbestanden, en jij moet ze gezamenlijk analyseren.
 
 10
 00:00:45,879 --> 00:00:48,829
@@ -100,7 +100,7 @@ En hier begint het lastig te worden.
 
 23
 00:01:36,079 --> 00:01:38,929
-Nu moeten we namelijk opnieuw het excel bestand openen,
+Nu moeten we namelijk opnieuw het Excelbestand openen,
 
 24
 00:01:38,929 --> 00:01:42,989
