@@ -38,7 +38,7 @@ You have a folder on your hard drive with
 
 9
 00:00:40,190 --> 00:00:45,879
-a number of excel files and you have to analyze
+a number of Excel files and you have to analyze
 all of them together.
 
 10
@@ -107,7 +107,7 @@ And this is where it starts to get tricky.
 
 23
 00:01:36,079 --> 00:01:38,929
-Because you have to open your excel sheet
+Because you have to open your Excel sheet
 again.
 
 24
@@ -133,7 +133,7 @@ to do all of that again."
 28
 00:01:54,889 --> 00:02:02,239
 So this week I will show you how to automatically
-import as many excel files as you want into
+import as many Excel files as you want into
 
 29
 00:02:02,239 --> 00:02:03,309
