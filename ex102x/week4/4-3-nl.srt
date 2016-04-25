@@ -1,0 +1,190 @@
+1
+00:00:00,560 --> 00:00:04,940
+In de vorige video liet ik zien hoe je Excel
+het denkwerk voor je kan laten doen
+
+2
+00:00:04,940 --> 00:00:11,240
+en in deze video zal ik een ander voorbeeld laten
+zien hoe Excel het zware werk voor je kan doen.
+
+3
+00:00:11,560 --> 00:00:14,920
+Als je de spreadsheet hebt gedownload,
+dan heb je gezien dat er een werkblad is
+
+4
+00:00:14,920 --> 00:00:18,940
+met alle recepten.
+Alle dingen die we verkopen in onze kleine winkel
+
+5
+00:00:18,960 --> 00:00:20,440
+en hoe ze gemaakt worden.
+
+6
+00:00:20,620 --> 00:00:30,980
+Bijvoorbeeld: voor 4 porties limonade hebben we
+200 mg suiker, 750 ml water en 6 citroenen nodig.
+
+7
+00:00:31,340 --> 00:00:33,460
+Natuurlijk kunnen we hier een beetje mee spelen.
+
+8
+00:00:33,460 --> 00:00:38,380
+We kunnen onze recepten aanpassen en zien
+wat de invloed daarvan is op ons bedrijf.
+
+9
+00:00:38,650 --> 00:00:43,370
+Hier heb ik een 'Experimentele Recepten' werkblad
+waar ik de recepten heb opgeschreven
+
+10
+00:00:43,370 --> 00:00:48,750
+maar ik heb ze een beetje veranderd zodat de
+ingrediënten waarden zijn waarmee we kunnen rekenen.
+
+11
+00:00:48,960 --> 00:00:53,889
+Ik heb ook een kostprijs voor elk item.
+Als ik wil weten wat de kostprijs van één...
+
+12
+00:00:53,900 --> 00:01:00,360
+glas limonade is, moet ik de waarden paarsgewijs
+vermenigvuldigen en daarna optellen.
+
+13
+00:01:00,700 --> 00:01:04,980
+Gelukkig heeft Excel daar een ingebouwde
+functie voor genaamd SOMPRODUCT.
+
+14
+00:01:05,220 --> 00:01:11,620
+Ik selecteer de eerste reeks en de tweede reeks en
+Excel zal automatisch vermenigvuldigen en optellen.
+
+15
+00:01:11,980 --> 00:01:18,720
+Natuurlijk is dit nog steeds de prijs voor 4 glazen
+limonade, dus ik moet delen door het aantal porties.
+
+16
+00:01:18,940 --> 00:01:24,640
+We kunnen zien: een glas limonade kost $1,05.
+
+17
+00:01:25,980 --> 00:01:29,260
+Wat is de verkoopprijs?
+Dit heb je al vaker gezien:
+
+18
+00:01:29,260 --> 00:01:33,160
+We kunnen het intypen, het is $2,50, maar we
+willen natuurlijk een dynamische dashboard...
+
+19
+00:01:33,160 --> 00:01:34,700
+dus we gaan VERT.ZOEKEN gebruiken.
+
+20
+00:01:34,700 --> 00:01:39,420
+We gaan naar het 'Sales Prices'-werkblad
+en kiezen de tweede kolom.
+
+21
+00:01:39,420 --> 00:01:41,880
+En natuurlijk weet je dit van de vorige MOOC:
+
+22
+00:01:41,880 --> 00:01:47,980
+We moeten ONWAAR toevoegen om ervoor te zorgen
+dat we de juiste waarde krijgen, ook als we gaan sorteren.
+
+23
+00:01:48,380 --> 00:01:55,100
+Nu kunnen we de winst te berekenen
+- dit is simpele economie - door de kostprijs...
+
+24
+00:01:55,100 --> 00:01:56,800
+van de verkoopprijs af te trekken.
+
+25
+00:01:56,800 --> 00:02:02,680
+En dan weten we dat de winst op
+één glas limonade $1,45 is.
+
+26
+00:02:03,620 --> 00:02:05,920
+Hier begint het experimenteren:
+
+27
+00:02:05,920 --> 00:02:10,940
+Wat gebeurt er als we de hoeveelheid
+suiker in het recept veranderen?
+
+28
+00:02:11,460 --> 00:02:17,280
+Dat weten we al. In het huiswerk van vorige week hebben we daarvoor een voorspelling afgeleid:
+
+29
+00:02:17,280 --> 00:02:25,360
+150 plus 0,6 maal het aantal gram suiker in
+onze limonade is hoeveel we verkopen.
+
+30
+00:02:25,720 --> 00:02:30,940
+Dus nu kunnen we de winst schatten
+door het verwachte aantal limonades
+
+31
+00:02:30,940 --> 00:02:34,320
+te vermenigvuldigen met de winst per limonade.
+
+32
+00:02:34,640 --> 00:02:39,940
+Als we ons recept zo laten: 200, dan
+is dit de winst die we maken.
+
+33
+00:02:39,950 --> 00:02:44,730
+Maar als we het een beetje veranderen:
+laten we er 150 van maken.
+
+34
+00:02:45,020 --> 00:02:47,080
+Dan zie je dat het verandert.
+
+35
+00:02:47,080 --> 00:02:55,440
+We verkopen minder items, maar we verdienen meer
+geld omdat we geld besparen op de aankoop van suiker.
+
+36
+00:02:56,460 --> 00:03:00,340
+Zo zie je maar: we verkopen minder,
+maar we verdienen meer.
+
+37
+00:03:00,560 --> 00:03:05,180
+En als we het te veranderen in 180, dan verkopen we
+een beetje meer, maar we verdienen een beetje minder.
+
+38
+00:03:05,440 --> 00:03:10,040
+Dus de vraag is natuurlijk:
+Wat is de hoogst mogelijke winst?
+
+39
+00:03:10,240 --> 00:03:15,640
+Wat is de beste hoeveelheid suiker in onze limonade,
+niet op basis van smaak, maar op basis van winst?
+
+40
+00:03:15,640 --> 00:03:18,420
+Dat gaan we uitzoeken
+in de volgende video.
+

@@ -1,0 +1,190 @@
+1
+00:00:00,560 --> 00:00:04,940
+In the previous video I showed you
+how to let Excel do the thinking for you
+
+2
+00:00:04,940 --> 00:00:11,240
+and in this video I will show you another example
+how Excel can help you do the heavy lifting.
+
+3
+00:00:11,560 --> 00:00:14,920
+So if you have downloaded the spreadsheet,
+you have seen that there is a worksheet
+
+4
+00:00:14,920 --> 00:00:18,940
+where we have all the recipes.
+All the things we sell in our little shop
+
+5
+00:00:18,940 --> 00:00:20,420
+and how to make them.
+
+6
+00:00:20,620 --> 00:00:30,980
+For example: For 4 servings of lemonade we need
+200 mg of sugar and 750 ml of water and 6 lemons.
+
+7
+00:00:31,340 --> 00:00:33,420
+Of course, we can play with this a little bit.
+
+8
+00:00:33,430 --> 00:00:38,390
+We can adapt our recipes and see what the
+influence of that is on our business.
+
+9
+00:00:38,650 --> 00:00:43,370
+So here I have an Experimental Recipes worksheet
+where I've written down the recipes...
+
+10
+00:00:43,370 --> 00:00:48,670
+but I've changed it a little bit so that the ingredients
+are values that we can calculate with.
+
+11
+00:00:48,960 --> 00:00:53,889
+I also have a cost price for each of the items.
+If I want to know what the cost price of one...
+
+12
+00:00:53,899 --> 00:01:00,359
+glass of lemonade is, I have to pairwise multiply
+the values and sum everything together.
+
+13
+00:01:00,700 --> 00:01:04,980
+Luckily Excel has a build-in function
+for that called SUMPRODUCT.
+
+14
+00:01:05,220 --> 00:01:11,620
+So I just select the first range and the second range
+and Excel will multiply and sum automatically.
+
+15
+00:01:11,980 --> 00:01:18,720
+Of course, this is still the price for 4 glasses of
+lemonade, so I have to divide by the number of servings.
+
+16
+00:01:18,940 --> 00:01:24,640
+We can see: one glass of lemonade costs $1.05.
+
+17
+00:01:25,980 --> 00:01:29,260
+What is the sales price?
+You have seen this a number of times.
+
+18
+00:01:29,260 --> 00:01:33,160
+We can type it, it's $2.50, but of course
+we want to have a dynamic dashboard...
+
+19
+00:01:33,160 --> 00:01:34,700
+so we will use a VLOOKUP.
+
+20
+00:01:34,700 --> 00:01:39,420
+We go to the Sales Prices worksheet
+and we select the second column.
+
+21
+00:01:39,420 --> 00:01:41,880
+And of course you know this from the previous MOOC:
+
+22
+00:01:41,880 --> 00:01:47,980
+We have to select FALSE here to make sure we
+get the right value even if we do some sorting.
+
+23
+00:01:48,380 --> 00:01:55,560
+Now we can calculate the profit - this is just
+economy 101 - by deducting the total cost price...
+
+24
+00:01:55,560 --> 00:01:56,800
+from the sales price.
+
+25
+00:01:56,800 --> 00:02:02,680
+And then we know the profit we make
+on one glass of lemonade is $1.45.
+
+26
+00:02:03,620 --> 00:02:05,920
+Now here is where the experimentation starts:
+
+27
+00:02:05,920 --> 00:02:10,940
+What happens if we change the
+amount of sugar in our recipe?
+
+28
+00:02:11,460 --> 00:02:17,280
+We know this. We have, actually in the homework
+of last week, derived a prediction for that:
+
+29
+00:02:17,280 --> 00:02:25,360
+150 plus 0.6 times the grams of sugar in
+our lemonade is how much sales we make.
+
+30
+00:02:25,720 --> 00:02:30,940
+So now we can estimate the profit by
+multiplying the number of expected lemonades
+
+31
+00:02:30,940 --> 00:02:34,220
+with the profit we make per lemonade.
+
+32
+00:02:34,640 --> 00:02:39,940
+If we leave our recipe like this (200), then
+this is the profit that we make.
+
+33
+00:02:39,950 --> 00:02:44,730
+But if we change it a little bit:
+let's say we make it 150.
+
+34
+00:02:45,020 --> 00:02:47,080
+You see, it changes.
+
+35
+00:02:47,080 --> 00:02:55,280
+We sell less items, but we make more money
+because we save money on buying sugar.
+
+36
+00:02:56,460 --> 00:03:00,340
+So you see, we sell less, but we make more.
+
+37
+00:03:00,569 --> 00:03:05,189
+And if we change it into 180 we sell a bit
+more, but we make a bit less.
+
+38
+00:03:05,440 --> 00:03:10,040
+So the question now of course is: What is
+the highest profit that is possible?
+
+39
+00:03:10,240 --> 00:03:15,640
+What is the best amount of sugar in our lemonade,
+not tastewise, but profitwise?
+
+40
+00:03:15,640 --> 00:03:18,420
+That is what we are going to figure out
+in the next video.
+
