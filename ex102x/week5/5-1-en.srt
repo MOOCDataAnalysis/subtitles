@@ -1,0 +1,73 @@
+1
+00:00:00,180 --> 00:00:04,160
+Hello everyone! Welcome to week 5 of EX102x.
+
+2
+00:00:04,360 --> 00:00:07,940
+The topic of this week is the
+design of graphs and tables.
+
+3
+00:00:08,180 --> 00:00:11,140
+So let me show you how to make a graph in Excel.
+
+4
+00:00:11,380 --> 00:00:15,140
+We have some data here: Sales people
+and the revenue they are making.
+
+5
+00:00:15,540 --> 00:00:17,580
+I am simply selecting all the data.
+
+6
+00:00:18,100 --> 00:00:22,800
+I will click Insert, Recommended Chart
+and then I got a wonderful bar chart.
+
+7
+00:00:22,800 --> 00:00:25,320
+I just click OK and it will appear in Excel.
+
+8
+00:00:25,320 --> 00:00:26,860
+BAS: Hey Felienne.
+FELIENNE: Hey Bas!
+
+9
+00:00:26,860 --> 00:00:27,720
+BAS: What are you doing?
+
+10
+00:00:27,720 --> 00:00:32,000
+FELIENNE: I am making a chart.
+BAS: What is that 'Total' bar doing there?
+
+11
+00:00:33,300 --> 00:00:34,740
+What do you want to tell?
+
+12
+00:00:34,920 --> 00:00:38,560
+FELIENNE: Uh eh... I don't know.
+I just clicked insert recommended chart and...
+
+13
+00:00:38,560 --> 00:00:40,480
+I figured Excel would know what to do.
+
+14
+00:00:40,480 --> 00:00:43,760
+BAS: Okay, shouldn't we maybe think a little bit
+before we start creating the chart?
+
+15
+00:00:43,760 --> 00:00:47,200
+FELIENNE: Yeah, you might be right. Could
+you help us out with this week's topic?
+
+16
+00:00:47,200 --> 00:00:49,680
+BAS: I would love to explain it.
+FELIENNE: Great!
+

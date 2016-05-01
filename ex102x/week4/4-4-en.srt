@@ -1,0 +1,130 @@
+1
+00:00:00,890 --> 00:00:03,380
+This is where we left it off
+in the previous video.
+
+2
+00:00:03,380 --> 00:00:10,020
+What is the highest profit we can make by
+changing the value of sugar in our recipe?
+
+3
+00:00:10,580 --> 00:00:15,600
+To calculate that automatically we are going
+to use something called a Data Table.
+
+4
+00:00:15,840 --> 00:00:20,619
+And it is quite hard to get it right, so pay
+attention, bear with me, while I construct...
+
+5
+00:00:20,619 --> 00:00:22,219
+the whole Data Table.
+
+6
+00:00:23,060 --> 00:00:27,780
+What we first need to do is decide on what
+options we are going to thrive for sugar.
+
+7
+00:00:27,780 --> 00:00:35,200
+So let's say we start with 50 and we do
+increments of 50, so we get 50, 100, 150, etc.
+
+8
+00:00:35,680 --> 00:00:39,320
+What we do now next to the
+sugar and it has to be there...
+
+9
+00:00:39,320 --> 00:00:42,560
+is we take the value that we
+want to analyse.
+
+10
+00:00:42,840 --> 00:00:46,760
+So we directly point with
+an equal sign to the value.
+
+11
+00:00:46,940 --> 00:00:52,900
+And that, of course, has the whole trace of
+precedence all the way back to the value of sugar.
+
+12
+00:00:52,900 --> 00:00:56,540
+So if we change sugar, then that value will also change.
+
+13
+00:00:57,040 --> 00:01:03,320
+Now we select this whole range with the options
+and the formula that we are pointing at.
+
+14
+00:01:03,680 --> 00:01:06,820
+And now we get two options: row or column.
+
+15
+00:01:07,180 --> 00:01:10,740
+Our options are in a column,
+so we have to say column.
+
+16
+00:01:10,979 --> 00:01:16,059
+And there we put the value that corresponds
+with the value in our column.
+
+17
+00:01:16,360 --> 00:01:21,920
+Tatatata... Now we get the value
+based on that formula for everything
+
+18
+00:01:21,920 --> 00:01:26,940
+that is in the column. It is a bit hard to see,
+but if we add conditional formatting...
+
+19
+00:01:26,940 --> 00:01:33,120
+a nice color scale, we see HA!
+The maximum is there in that green area.
+
+20
+00:01:33,460 --> 00:01:39,360
+Now if we want to zoom in a little bit, what
+we could do of course is change the input values.
+
+21
+00:01:39,360 --> 00:01:43,380
+If we change the sugar there,
+immediately the Data Table will update.
+
+22
+00:01:43,380 --> 00:01:45,260
+So let's have a look at how that looks like.
+
+23
+00:01:45,260 --> 00:01:50,480
+We change this into 100 and we
+change our increments from 50 to 10...
+
+24
+00:01:50,480 --> 00:01:57,800
+we drag the formula down, and now we see:
+there at 120 is where the maximum is.
+
+25
+00:01:58,140 --> 00:02:04,200
+So that is really nice.
+Without doing any extra formulas we have...
+
+26
+00:02:04,200 --> 00:02:10,860
+an overview of what the value of this formula is
+we are pointing at for all of the different input values.
+
+27
+00:02:11,020 --> 00:02:13,840
+That is the power of What-If Analysis!
+

@@ -1,0 +1,243 @@
+1
+00:00:00,660 --> 00:00:07,120
+In de vorige video berekenden we de hoogst mogelijke winst door de hoeveelheid suiker in onze limonade te veranderen.
+
+2
+00:00:07,120 --> 00:00:10,980
+Maar daarvoor hadden we veel ruimte nodig op het Excel-werkblad.
+
+3
+00:00:11,240 --> 00:00:13,840
+Ook moesten we veel nadenken.
+
+4
+00:00:14,060 --> 00:00:18,620
+Wat is de formule? Hoe voeg ik de gegevenstabel toe?
+Voorwaardelijke opmaak toevoegen.
+
+5
+00:00:18,880 --> 00:00:23,020
+Terwijl ik juist beloofde dat we het denken
+aan Excel zouden overlaten.
+
+6
+00:00:23,160 --> 00:00:28,500
+Dus in deze video zal ik het nog makkelijker voor je maken om de hoogste winst te vinden met een...
+
+7
+00:00:28,500 --> 00:00:34,140
+hulpmiddel in Excel genaamd de Oplosser.
+De Oplosser is al ingebouwd in Excel.
+
+8
+00:00:34,150 --> 00:00:37,630
+Echter, voordat je hem kunt gebruiken,
+moet je hem eerst in te schakelen.
+
+9
+00:00:37,900 --> 00:00:41,440
+Zo ziet dat eruit:
+We gaan naar de Opties in Excel.
+
+10
+00:00:43,320 --> 00:00:47,120
+Dan gaan we naar Invoegtoepassingen en we klikken
+bij 'Excel-invoegtoepassingen' op Start en dan Oplosser.
+
+11
+00:00:47,120 --> 00:00:50,560
+We hoeven het alleen maar aan te vinken
+en dan verschijnt het hier.
+
+12
+00:00:50,570 --> 00:00:55,690
+Je hoeft Excel niet opnieuw op te starten.
+Je kunt het nu direct gebruiken.
+
+13
+00:00:56,120 --> 00:00:59,940
+Dus wat doet de Oplosser?
+De Oplosser is een beetje zoals Doelzoeken,
+
+14
+00:00:59,940 --> 00:01:05,260
+maar is krachtiger.
+Want we zijn niet op zoek naar een exact doel.
+
+15
+00:01:05,260 --> 00:01:10,260
+We kunnen maximaliseren of minimaliseren
+en rekening houden met meerdere cellen.
+
+16
+00:01:10,260 --> 00:01:12,000
+Laten we eens zien hoe dat eruit ziet.
+
+17
+00:01:12,000 --> 00:01:15,280
+We gaan deze cellen te verwijderen.
+We hebben de gegevenstabel niet meer nodig...
+
+18
+00:01:15,280 --> 00:01:21,040
+want we krijgen meteen de optimale waarde.
+We klikken op Oplosser, daar gaan we.
+
+19
+00:01:21,560 --> 00:01:25,200
+Nu kunnen we zeggen welke cel
+we willen analyseren: die cel.
+
+20
+00:01:25,200 --> 00:01:29,620
+We willen het maximaliseren door
+de hoeveelheid suiker te veranderen.
+
+21
+00:01:29,620 --> 00:01:36,040
+Je ziet dus dat het best wel op Doelzoeken lijkt.
+Op de achtergrond - ik sleep dit even weg - krijgen...
+
+22
+00:01:36,040 --> 00:01:41,200
+...we meteen de waarde. Zie je dat? BAM! 
+Het gebeurde direct, recht voor onze ogen!
+
+23
+00:01:41,500 --> 00:01:46,060
+We kregen de maximale waarde van 120-en-nog-wat.
+Het is zeer nauwkeurig.
+
+24
+00:01:46,060 --> 00:01:49,360
+We hebben geen gegevenstabel nodig
+We hebben geen voorwaardelijke opmaak nodig.
+
+25
+00:01:49,360 --> 00:01:51,740
+We hadden geen extra ruimte op het werkblad nodig.
+
+26
+00:01:51,740 --> 00:01:55,720
+We krijgen de waarde meteen!
+Is dat niet leuk?
+
+27
+00:01:55,720 --> 00:02:00,940
+De Oplosser is nóg beter dan dat!
+We kunnen nog krachtigere dingen doen.
+
+28
+00:02:01,220 --> 00:02:07,060
+Laten we eens kijken wat we nog meer kunnen.
+We kunnen ook het water en de citroenen veranderen.
+
+29
+00:02:07,060 --> 00:02:11,780
+We hoeven ons niet te beperken tot de
+hoeveelheid suiker zoals in Doelzoeken.
+
+30
+00:02:12,180 --> 00:02:18,520
+Hier kunnen we meerdere cellen gebruiken.
+Dus we kunnen water en citroenen veranderen.
+
+31
+00:02:19,700 --> 00:02:25,280
+We krijgen weer een oplossing.
+Maar nu krijgen we 0 water en 0 citroenen.
+
+32
+00:02:25,640 --> 00:02:26,740
+Laten we dat maar niet doen.
+
+33
+00:02:26,740 --> 00:02:33,020
+Laten we terugkeren naar de oude waarden.
+Als de Oplosser iets doet wat je niet wilt...
+
+34
+00:02:33,020 --> 00:02:38,160
+kan je altijd deze optie gebruiken om terug te gaan
+naar wat je had voordat de Oplosser z'n werk deed.
+
+35
+00:02:38,160 --> 00:02:41,680
+Je hoeft niet bang te zijn dat de
+Oplosser je spreadsheet verknoeit
+
+36
+00:02:41,680 --> 00:02:45,940
+want je kan altijd alle veranderingen resetten.
+
+37
+00:02:46,640 --> 00:02:47,980
+Dus dit willen we niet.
+
+38
+00:02:47,980 --> 00:02:52,160
+Nul citroenen en nul water.
+We willen iets realistischers.
+
+39
+00:02:52,420 --> 00:02:55,620
+De Oplosser kan ons daarbij helpen, want
+we kunnen randvoorwaarden toevoegen.
+
+40
+00:02:55,620 --> 00:02:58,900
+Dat zijn regels waar de Oplosser zich aan moet houden.
+
+41
+00:02:58,900 --> 00:03:03,600
+Zo zouden we kunnen zeggen:
+er moeten minstens 3 citroenen in...
+
+42
+00:03:04,400 --> 00:03:12,100
+en er moet minstens driemaal zoveel water in als
+suiker, anders zou het vreemde limonade zijn.
+
+43
+00:03:12,359 --> 00:03:17,849
+As we deze randvoorwaarden invoeren, dan zal
+de Oplosser een oplossing vinden binnen deze regels.
+
+44
+00:03:17,849 --> 00:03:24,469
+Dus nu krijgen we - zoals je kunt zien -
+helaas: precies 3 keer de hoeveelheid suiker...
+
+45
+00:03:24,469 --> 00:03:28,920
+...en precies 3 citroenen.
+Dat is natuurlijk niet zo vreemd, want
+
+46
+00:03:28,920 --> 00:03:33,120
+de functie voor de verwachte verkoop is
+alleen afhankelijk van de hoeveelheid suiker.
+
+47
+00:03:33,120 --> 00:03:37,100
+Dus wat we ook doen met
+water en citroenen heeft geen effect.
+
+48
+00:03:37,340 --> 00:03:40,220
+In het huiswerk van deze week ga
+je daar verandering in brengen.
+
+49
+00:03:40,220 --> 00:03:45,640
+We geven je een nieuwe formule voor de verwachte verkoop met water en citroenen meegenomen.
+
+50
+00:03:45,920 --> 00:03:50,890
+En dan is jouw doel om de Oplosser te gebruiken
+om de perfecte limonade te vinden!
+
+51
+00:03:50,890 --> 00:03:52,050
+Succes!
+

@@ -1,0 +1,249 @@
+1
+00:00:00,700 --> 00:00:05,760
+In the previous video we calculated the highest
+possible profit by changing the amount of sugar
+
+2
+00:00:05,760 --> 00:00:09,940
+in our lemonade.
+But for that we needed to use a lot of space
+
+3
+00:00:09,950 --> 00:00:14,030
+on the Excel sheet.
+Also we needed to do lots of thinking.
+
+4
+00:00:14,180 --> 00:00:18,700
+What is the formula? How do I add the data
+table? Add conditional formatting.
+
+5
+00:00:18,880 --> 00:00:23,020
+And I promised you that we would let Excel
+do the thinking instead of us.
+
+6
+00:00:23,160 --> 00:00:28,530
+So in this video I will make it even easier
+for you to find the highest profit using a
+
+7
+00:00:28,530 --> 00:00:34,150
+tool in Excel called the Solver.
+The Solver is already built into Excel.
+
+8
+00:00:34,150 --> 00:00:37,790
+However, before you can use it,
+you first have to enable it.
+
+9
+00:00:38,000 --> 00:00:41,440
+This is how it looks like.
+We go to the options of Excel.
+
+10
+00:00:43,360 --> 00:00:47,200
+Then we go to Add-Ins and we click
+'Excel Add-ins' and there it is: the Solver.
+
+11
+00:00:47,200 --> 00:00:50,560
+We just have to tick it.
+And then it appears right there.
+
+12
+00:00:50,570 --> 00:00:55,690
+You don't have to reboot Excel, you can
+immediately use it because it is now enabled.
+
+13
+00:00:56,120 --> 00:01:00,080
+So what does the Solver do?
+The Solver is a little bit like Goal Seek,
+
+14
+00:01:00,080 --> 00:01:05,260
+but is more powerful. Because, we are not
+just saying we are looking for a goal.
+
+15
+00:01:05,260 --> 00:01:10,260
+We can maximize or minimize values and
+take multiple cells into account.
+
+16
+00:01:10,260 --> 00:01:12,000
+Let's see how that looks like.
+
+17
+00:01:12,000 --> 00:01:15,579
+We are going to delete these cells.
+We don't need the Data Table anymore, because
+
+18
+00:01:15,579 --> 00:01:21,039
+we will directly get the right value.
+We click Solver, there we go.
+
+19
+00:01:21,560 --> 00:01:25,200
+Now we can say what is the cell
+that we want to analyse: that cell.
+
+20
+00:01:25,200 --> 00:01:29,620
+We want to set it to maximum
+by changing the value of sugar.
+
+21
+00:01:29,620 --> 00:01:36,380
+So we see it is quite similar to Goal Seek.
+In the background, let me move that, you already
+
+22
+00:01:36,389 --> 00:01:41,309
+got the value. You see that? BAM! Immediately
+it happened there, right in front of our eyes.
+
+23
+00:01:41,560 --> 00:01:46,060
+We got the maximum value 120... and something.
+It is very precise.
+
+24
+00:01:46,060 --> 00:01:49,360
+We didn't need a Data Table.
+We didn't need conditional formatting.
+
+25
+00:01:49,360 --> 00:01:51,740
+We didn't need extra room on the Excel sheet.
+
+26
+00:01:51,740 --> 00:01:55,720
+We just got the value immediately.
+Isn't that nice?
+
+27
+00:01:55,720 --> 00:02:00,940
+And the Solver is even better than that!
+Because we can do more powerful things.
+
+28
+00:02:01,220 --> 00:02:07,060
+Let's have a look at what we can do as well.
+We can also change the water and the lemons.
+
+29
+00:02:07,060 --> 00:02:11,780
+We don't need to restrict ourselves to just
+one value of sugar as with the Goal Seek.
+
+30
+00:02:12,180 --> 00:02:18,520
+Here we can actually use multiple cells.
+So we can say: change water and change lemons too.
+
+31
+00:02:19,700 --> 00:02:25,280
+We again get a solution. However, we now
+have 0 for water and 0 for lemons.
+
+32
+00:02:25,640 --> 00:02:26,740
+Let's not do that.
+
+33
+00:02:26,740 --> 00:02:33,020
+Let's revert back to the old values. If the
+Solver solves something that you don't want...
+
+34
+00:02:33,020 --> 00:02:38,160
+you can always use this option to go back to
+whatever you had before you ran the Solver.
+
+35
+00:02:38,160 --> 00:02:41,680
+You don't have to be afraid that the Solver
+will mess with your entire spreadsheet
+
+36
+00:02:41,680 --> 00:02:45,940
+because you can always check this
+option and it will reset everything.
+
+37
+00:02:46,680 --> 00:02:47,980
+So this is not what we want.
+
+38
+00:02:47,980 --> 00:02:52,160
+It's zero lemons and zero water.
+What we wanted is something more realistic.
+
+39
+00:02:52,420 --> 00:02:55,620
+Solver can help us with that
+because we can add constraints,
+
+40
+00:02:55,620 --> 00:02:58,900
+which are rules that the Solver has to listen to.
+
+41
+00:02:58,900 --> 00:03:05,240
+For example we could say: The lemons have
+to be at least 3 lemons and the water
+
+42
+00:03:05,240 --> 00:03:12,100
+has to be at least three times the amount of sugar,
+otherwise it will be very strange lemonade.
+
+43
+00:03:12,359 --> 00:03:17,849
+So if we set these rules the Solver will find
+the solution within those rules.
+
+44
+00:03:17,849 --> 00:03:24,749
+So what we get now, as you can see, is unfortunately
+exactly 3 times the amount of sugar...
+
+45
+00:03:24,749 --> 00:03:28,920
+and exactly 3 lemons.
+That is of course not that strange, because
+
+46
+00:03:28,920 --> 00:03:33,120
+the rule we have for the expected sales only
+depends on the sugar.
+
+47
+00:03:33,120 --> 00:03:37,100
+So whatever we do with water
+and lemons is not of effect.
+
+48
+00:03:37,340 --> 00:03:40,390
+So for the homework this week
+you are going to change that.
+
+49
+00:03:40,390 --> 00:03:45,650
+We will give you a new formula for expected
+sales, taking water and lemons into account.
+
+50
+00:03:45,920 --> 00:03:50,890
+And then it is your goal to use the Solver
+to find the perfect lemonade.
+
+51
+00:03:50,890 --> 00:03:52,050
+Good luck!
+

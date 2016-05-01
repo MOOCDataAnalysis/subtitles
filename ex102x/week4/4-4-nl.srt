@@ -1,0 +1,128 @@
+1
+00:00:00,890 --> 00:00:03,380
+Hier waren we gebleven in de vorige video.
+
+2
+00:00:03,380 --> 00:00:10,020
+Wat is de hoogste winst die we kunnen maken door
+het veranderen van de hoeveelheid suiker in ons recept?
+
+3
+00:00:10,580 --> 00:00:15,600
+Om dat te automatisch te laten berekenen we gaan
+een ​​zogenaamde gegevenstabel gebruiken.
+
+4
+00:00:15,840 --> 00:00:20,140
+En het is best moeilijk om het goed te krijgen,
+dus let goed op, heb geduld, terwijl ik...
+
+5
+00:00:20,140 --> 00:00:22,020
+...de gegevenstabel opbouw.
+
+6
+00:00:23,060 --> 00:00:27,780
+Wat we eerst moeten doen is beslissen
+welke waarden voor suiker we gaan gebruiken.
+
+7
+00:00:27,780 --> 00:00:35,200
+Laten we zeggen dat we beginnen met 50 en we
+doen stappen van 50, dus krijgen we 50, 100, 150, etc.
+
+8
+00:00:35,680 --> 00:00:39,320
+Nu zetten we naast 'Sugar',
+en dit is heel belangrijk, ...
+
+9
+00:00:39,320 --> 00:00:42,560
+de waarde die we willen analyseren.
+
+10
+00:00:42,840 --> 00:00:46,760
+Dus we wijzen direct met
+een gelijkteken naar die waarde.
+
+11
+00:00:46,940 --> 00:00:52,900
+En dat leidt natuurlijk terug naar de hoeveelheid suiker.
+
+12
+00:00:52,900 --> 00:00:56,540
+Dus als we hoeveelheid suiker veranderen,
+dan zal die waarde ook veranderen.
+
+13
+00:00:57,040 --> 00:01:03,320
+Nu selecteren we dit hele bereik met de opties
+en de verwijzende formule.
+
+14
+00:01:03,680 --> 00:01:06,820
+En nu krijgen we twee opties: rij of kolom.
+
+15
+00:01:07,180 --> 00:01:10,740
+Onze opties staan in een kolom,
+dus we kiezen kolom.
+
+16
+00:01:10,979 --> 00:01:16,059
+En daar zetten we de cel die correspondeert
+met de opties in de kolom.
+
+17
+00:01:16,360 --> 00:01:22,840
+Tatatata... Nu krijgen we de waarde van
+deze formule voor alle waarden in de kolom.
+
+18
+00:01:22,840 --> 00:01:26,940
+Het is een beetje lastig te zien,
+maar als we voorwaardelijke opmaak toevoegen:
+
+19
+00:01:26,940 --> 00:01:33,120
+een mooie kleurenschaal, zien we HA!
+Het maximum zit ergens daar in dat groene gebied.
+
+20
+00:01:33,460 --> 00:01:39,360
+Als we nu een beetje willen inzoomen, dan kunnen
+we natuurlijk de invoerwaarden veranderen.
+
+21
+00:01:39,360 --> 00:01:43,380
+Als we suiker veranderen, dan wordt
+de gegevenstabel onmiddellijk bijgewerkt.
+
+22
+00:01:43,380 --> 00:01:45,260
+Laten we kijken hoe dat gaat:
+
+23
+00:01:45,260 --> 00:01:50,480
+We veranderen dit in 100 en we veranderen
+de stapgroottes van 50 naar 10, ...
+
+24
+00:01:50,480 --> 00:01:57,800
+we slepen de formule naar beneden
+en nu zien we: het maximum zit rond 120.
+
+25
+00:01:58,140 --> 00:02:04,820
+Dus dat is echt mooi.
+Zonder extra formules hebben we een overzicht...
+
+26
+00:02:04,820 --> 00:02:10,860
+van wat de waarde van deze formule is
+voor alle verschillende invoerwaarden.
+
+27
+00:02:11,020 --> 00:02:13,920
+Dat is de kracht van 'Wat als'-analyse!
+

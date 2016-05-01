@@ -1,0 +1,76 @@
+1
+00:00:00,180 --> 00:00:04,160
+Hallo iedereen!
+Van harte welkom in week 5 van EX102x.
+
+2
+00:00:04,360 --> 00:00:07,940
+Het thema van deze week is het
+ontwerp van grafieken en tabellen.
+
+3
+00:00:08,180 --> 00:00:11,140
+Dus ik zal laten zien hoe je een grafiek maakt in Excel.
+
+4
+00:00:11,380 --> 00:00:15,140
+We hebben hier wat data: verkopers
+en de inkomsten die ze maken.
+
+5
+00:00:15,540 --> 00:00:17,580
+Ik selecteer alle gegevens.
+
+6
+00:00:18,100 --> 00:00:22,800
+Ik klik op Invoegen, Aanbevolen grafieken
+en dan krijgen we een prachtige staafdiagram.
+
+7
+00:00:22,800 --> 00:00:25,380
+Ik klik gewoon op OK en het zal verschijnen in Excel.
+
+8
+00:00:25,380 --> 00:00:26,900
+BAS: Hey Felienne.
+FELIENNE: Hey Bas!
+
+9
+00:00:26,900 --> 00:00:27,860
+BAS: Wat ben je aan het doen?
+
+10
+00:00:27,860 --> 00:00:29,820
+FELIENNE: Ik ben een grafiek aan het maken.
+
+11
+00:00:30,180 --> 00:00:31,920
+BAS: Wat doet die staaf 'Total' daar?
+
+12
+00:00:33,300 --> 00:00:34,740
+Wat wil je duidelijk maken?
+
+13
+00:00:34,920 --> 00:00:38,620
+FELIENNE: Uh eh... Ik weet het niet.
+Ik klikte invoegen aanbevolen grafiek en...
+
+14
+00:00:38,620 --> 00:00:40,460
+...ik dacht dat Excel wel zou weten wat te doen.
+
+15
+00:00:40,460 --> 00:00:43,820
+BAS: Oké, zouden we misschien niet eerste nadenken voordat we beginnen met het maken van de grafiek?
+
+16
+00:00:43,820 --> 00:00:47,220
+FELIENNE: Ja, misschien heb je gelijk. Kan jij
+ons niet helpen met het onderwerp van deze week?
+
+17
+00:00:47,220 --> 00:00:49,780
+BAS: Ik leg het graag uit.
+FELIENNE: Geweldig!
+
