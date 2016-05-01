@@ -128,7 +128,8 @@ suiker in het recept veranderen?
 
 28
 00:02:11,460 --> 00:02:17,280
-Dat weten we al. In het huiswerk van vorige week hebben we daarvoor een voorspelling afgeleid:
+Dat weten we al. In het huiswerk van vorige week
+hebben we daarvoor een voorspelling afgeleid:
 
 29
 00:02:17,280 --> 00:02:25,360
