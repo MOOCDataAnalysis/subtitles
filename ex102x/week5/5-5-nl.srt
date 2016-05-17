@@ -1,0 +1,367 @@
+1
+00:00:00,140 --> 00:00:03,820
+Zo, we zijn klaar met de tabellen,
+dus laten we eens kijken naar grafieken.
+
+2
+00:00:06,300 --> 00:00:12,620
+Als er een paar dingen die je moet onthouden
+over deze cursus, dan is dit er één van:
+
+3
+00:00:12,960 --> 00:00:15,980
+Als je een grafiek maakt, dan
+heb je de verantwoordelijkheid
+
+4
+00:00:18,400 --> 00:00:22,280
+...om een ​​visuele correspondentie te onderhouden
+met de gegevens die je visualiseert.
+
+5
+00:00:23,700 --> 00:00:30,520
+Kijk maar eens naar deze grafiek en
+probeer te bedenken wat er fout aan is, ...
+
+6
+00:00:30,520 --> 00:00:34,000
+...want er is veel mis mee.
+Ik geef je wat tijd.
+
+7
+00:00:37,440 --> 00:00:42,920
+Zo, wat we in deze grafiek zien is:
+"De verkopen rijzen de pan uit! '
+
+8
+00:00:43,200 --> 00:00:45,720
+Er is een zeer sterke stijging van de verkopen.
+
+9
+00:00:46,060 --> 00:00:50,980
+Maar, als we eens goed kijken naar de data en
+we vertegenwoordigen deze op de goede manier...
+
+10
+00:00:51,340 --> 00:00:54,480
+dan zou dit de boodschap zijn:
+"De verkopen groeien niet."
+
+11
+00:00:55,080 --> 00:01:02,340
+Wat voor soort trucs zitten er nou in deze grafiek?
+Ik denk dat de eerste wel duidelijk is.
+
+12
+00:01:03,200 --> 00:01:06,740
+De y-as niet begint bij 0.
+
+13
+00:01:07,380 --> 00:01:13,800
+En als je ook kijkt naar het interval, dan zie je
+dat er maar een heel klein interval wordt getoond.
+
+14
+00:01:14,640 --> 00:01:19,700
+Daarnaast hebben ze ook de beeldverhouding verlaagd.
+
+15
+00:01:20,120 --> 00:01:31,460
+Het is een vierkante grafiek en daarmee
+overdrijven ze de stijging die je ziet.
+
+16
+00:01:32,100 --> 00:01:37,420
+Ook gebruiken ze een groene lijn en in
+westerse cultuur betekent groen goed.
+
+17
+00:01:37,420 --> 00:01:42,460
+Dus dat is een andere factor die ondersteunt
+dat de verkopen de pan uit rijzen.
+
+18
+00:01:42,680 --> 00:01:46,220
+En ook de zwarte kleur helpt daaraan mee.
+
+19
+00:01:47,100 --> 00:01:55,040
+We moeten ons ervan bewust zijn dat we in
+staat zijn om te manipuleren wat de lezer ziet.
+
+20
+00:01:55,280 --> 00:02:02,280
+Daarom hebben we een verantwoordelijkheid
+om dichtbij de waarheid te blijven.
+
+21
+00:02:03,780 --> 00:02:06,380
+Dat is dus belangrijk als je grafieken maakt.
+
+22
+00:02:08,820 --> 00:02:13,440
+Iet anders dat je zou moeten onthouden is:
+Blijf weg van 3D!
+
+23
+00:02:14,200 --> 00:02:20,620
+Dit ziet er natuurlijk mooi uit en het is eenvoudig
+te maken in Excel. Met een paar muisklikken...
+
+24
+00:02:20,620 --> 00:02:25,780
+...heb je zo'n prachtige grafiek.
+Maar als ik nou zou vragen:
+
+25
+00:02:27,120 --> 00:02:32,620
+"Wat is de waarde in het eerste kwartaal
+van de zuidelijke regio?"
+
+26
+00:02:33,860 --> 00:02:38,360
+dan ben ik heel beniewd naar je antwoord,
+want het is erg lastig. We kunnen het niet zien.
+
+27
+00:02:38,360 --> 00:02:40,540
+Het is verborgen achter de andere waarden.
+
+28
+00:02:40,940 --> 00:02:48,780
+Dus, 3D presenteren op een 2-dimensionaal vlak,
+dat is nooit een goed idee.
+
+29
+00:02:48,940 --> 00:02:51,640
+En wat is hier dan mis mee? Helemaal niets.
+
+30
+00:02:51,800 --> 00:02:56,180
+Je zou altijd 2-dimensionale grafieken
+moeten gebruiken.
+
+31
+00:02:59,360 --> 00:03:06,320
+Nou, dit klinkt een beetje saai. Kijk naar
+de grafiektypen in Excel, dat zijn er heel veel.
+
+32
+00:03:06,840 --> 00:03:12,440
+Maar wat ik ga uitleggen is dat er eigenlijk drie
+eenvoudige grafiekentypen zijn die je kunt gebruiken...
+
+33
+00:03:12,440 --> 00:03:16,720
+om bijna elke boodschap over data over te brengen.
+
+34
+00:03:17,040 --> 00:03:25,620
+De eerste is een spreidingsgrafiek. Die is heel nuttig
+als je een relatie tussen twee variabelen wilt laten zien.
+
+35
+00:03:27,440 --> 00:03:32,280
+Een andere is de goede oude simpele lijngrafiek.
+
+36
+00:03:33,300 --> 00:03:36,560
+Erg handig als je een trend of
+een tijdreeks wilt laten zien.
+
+37
+00:03:37,040 --> 00:03:41,200
+En de derde is de staaf- of kolomgrafiek.
+
+38
+00:03:41,200 --> 00:03:45,080
+De horizontale noemen we een staafdiagram,
+de verticale we noemen het een kolomdiagram.
+
+39
+00:03:47,960 --> 00:03:51,960
+Deze zijn erg handig als je categorieën
+met elkaar wilt vergelijken.
+
+40
+00:03:52,840 --> 00:03:55,600
+Dus dit zijn de simpele grafiektypen.
+
+41
+00:03:58,400 --> 00:04:00,680
+Eén ontbreekt, en dat is het cirkeldiagram.
+
+42
+00:04:00,680 --> 00:04:05,460
+We hebben er wat onderzoek naar gedaan en
+het blijkt één van de meest gebruikte grafiektypen.
+
+43
+00:04:05,820 --> 00:04:12,720
+Maar ik zou aanraden, ik zou bijna zeggen aandringen,
+om geen cirkeldiagram meer te gebruiken.
+
+44
+00:04:12,720 --> 00:04:15,060
+En ik zal proberen uit te leggen waarom.
+
+45
+00:04:16,120 --> 00:04:23,040
+Allereerst, mensen hebben moeite met
+het schatten van de grootte van oppervlakten.
+
+46
+00:04:23,740 --> 00:04:33,360
+Dus, mijn vraag is: als je kijkt naar cirkel 1 en cirkel 2,
+hoeveel keer groter is de oppervlakte van de cirkel 2?
+
+47
+00:04:39,020 --> 00:04:43,600
+Dus wat is het probleem met cirkeldiagrammen? Hier
+zien we een klassiek voorbeeld van een cirkeldiagram.
+
+48
+00:04:43,600 --> 00:04:46,080
+We hebben verschillende bedrijven
+met verschillende waarden.
+
+49
+00:04:46,220 --> 00:04:53,800
+Als ik je vraag wat het deel van Company C is,
+dan zou je waarschijnlijk meteen zeggen: 25%.
+
+50
+00:04:54,260 --> 00:04:57,420
+Dus, wat is er fout aan cirkeldiagrammen?
+Ze zijn heel duidelijk, is het niet?
+
+51
+00:04:58,240 --> 00:05:03,300
+Nou, als ik de vraag zou herformuleren, en zeggen:
+
+52
+00:05:03,300 --> 00:05:07,580
+Kan je mij vertellen wat de waarden
+zijn voor bedrijven E en F?
+
+53
+00:05:08,160 --> 00:05:12,360
+Nu wordt het steeds ingewikkelder,
+omdat het erg moeilijk om te zeggen.
+
+54
+00:05:12,360 --> 00:05:17,580
+Goed, misschien is het 1% of 2% of 6%,
+maar eigenlijk heb ik geen idee.
+
+55
+00:05:18,100 --> 00:05:22,480
+Maar, we vragen ​​Excel om hulp!
+We voegen wat gegevenslabels toe.
+
+56
+00:05:23,500 --> 00:05:30,340
+Nu kunnen we in ieder geval zien dat
+Company F gelijk is aan 1% en Company E is 7%.
+
+57
+00:05:30,700 --> 00:05:35,840
+Maar wat ik nu met mijn hersenen moet doen:
+ik moet kijken naar de legenda, naar de kleur, ...
+
+58
+00:05:35,840 --> 00:05:42,560
+...dan naar de grafiek, zoek de kleur, dan de waarde
+opzoeken, en dan zie ik dat Company F 1% is.
+
+59
+00:05:42,840 --> 00:05:45,300
+Dat is niet echt gemakkelijk voor de lezer...
+
+60
+00:05:45,760 --> 00:05:49,660
+Het is juist belangrijk dat het gemakkelijk is voor
+de lezer, want je wilt de boodschap overbrengen.
+
+61
+00:05:49,840 --> 00:05:52,880
+Het moet dus zo makkelijk mogelijk zijn voor de lezer.
+
+62
+00:05:53,600 --> 00:05:58,480
+Nu kunnen we daar nog wat aan doen:
+haal de legenda weg en voeg nog wat labels toe.
+
+63
+00:05:59,640 --> 00:06:04,280
+Maar serieus, als we dit allemaal doen,
+waarom dan niet gewoon een tabel?
+
+64
+00:06:05,220 --> 00:06:11,500
+Als je nou echt een ​​grafiek wilt gebruiken, en daar
+ben ik het mee eens, dat zou ik zelfs aanraden, ...
+
+65
+00:06:12,180 --> 00:06:14,580
+...wat is er dan mis met een eenvoudige staafdiagram?
+
+66
+00:06:14,900 --> 00:06:20,400
+Ik kan de bedrijven mooi sorteren,
+zo zie ik meteen wat het grootste bedrijf is.
+
+67
+00:06:20,410 --> 00:06:22,410
+Ik zie wat het kleinste bedrijf is.
+
+68
+00:06:23,560 --> 00:06:31,880
+Voor mensen is het heel moeilijk om een oppervlakte te
+schatten, maar de lengten van twee lijnen vergelijken, ...
+
+69
+00:06:31,880 --> 00:06:35,280
+...daar zijn we heel goed in.
+Dit is dus heel nuttig.
+
+70
+00:06:35,500 --> 00:06:40,520
+Maar dan is er nog een argument dat mensen gebruiken
+als ik zeg dat ze geen cirkeldiagram moeten gebruiken:
+
+71
+00:06:40,520 --> 00:06:48,320
+Ze zeggen: "ja, maar een cirkeldiagram helpt me
+om elk deel te vergelijken met het geheel."
+
+72
+00:06:48,860 --> 00:06:58,000
+Nou, dat is nog steeds mogelijk: we kunnen in deze
+grafiek het relatieve deel naast het label te zetten...
+
+73
+00:06:58,360 --> 00:07:02,240
+...en we zetten een som onderaan
+die laat zien dat alles optelt tot 100%.
+
+74
+00:07:02,420 --> 00:07:07,120
+Nu heb ik 'deel van het geheel' informatie in mijn grafiek
+zonder gebruik te maken van een cirkeldiagram.
+
+75
+00:07:07,120 --> 00:07:15,440
+Dit maakt het gemakkelijk voor de lezer om de
+informatie te lezen en de boodschap te begrijpen.
+
+76
+00:07:16,000 --> 00:07:21,180
+Dat waren een aantal opmerkingen
+over de structuur van grafieken.
+
+77
+00:07:21,740 --> 00:07:27,040
+Zoals bij tabellen, gaan we nu ook kijken naar een aantal
+'best practices' voor grafieken in de volgende video.
+

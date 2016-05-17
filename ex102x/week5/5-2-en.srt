@@ -1,0 +1,383 @@
+1
+00:00:00,099 --> 00:00:04,459
+Hello everybody. Before we dive into this topic,
+let me introduce myself a little bit.
+
+2
+00:00:04,460 --> 00:00:09,020
+My name is Bas Jansen. I work as a PhD
+student at Delft University of Technology.
+
+3
+00:00:09,360 --> 00:00:12,720
+I am a member of the Spreadsheet Lab,
+working together with Felienne.
+
+4
+00:00:13,760 --> 00:00:19,780
+You see my email address and my Twitter handle on
+the slide, so if you want to contact me, that is possible.
+
+5
+00:00:20,660 --> 00:00:23,840
+Then I would like to start with the subject.
+
+6
+00:00:25,480 --> 00:00:27,980
+We live today in an era of big data.
+
+7
+00:00:28,710 --> 00:00:34,270
+Yesterday I read a very nice quote: "Millions
+of dollars yearly are spent in the collection...
+
+8
+00:00:34,270 --> 00:00:39,110
+...of data, with the fond expectation that the
+data will automatically cause the correction...
+
+9
+00:00:39,129 --> 00:00:44,089
+...of the condition studied. Though accurate
+data and real facts are valuable, when it...
+
+10
+00:00:44,089 --> 00:00:50,649
+...comes to getting results the manner of presentation
+is ordinarily more important than the facts themselves."
+
+11
+00:00:51,620 --> 00:00:54,559
+You may say 'Okay, that's a nice quote'.
+
+12
+00:00:54,559 --> 00:00:57,499
+But what really surprised me
+is the date of this quote!
+
+13
+00:00:58,060 --> 00:01:03,900
+This quote is more than 100 years old.
+So, actually, there is nothing new here.
+
+14
+00:01:05,040 --> 00:01:10,720
+Second, what I think is very important, and
+I had to learn that the hard way, is...
+
+15
+00:01:11,400 --> 00:01:17,659
+that when it comes to getting results the manner
+of presentation is ordinarily more important
+
+16
+00:01:17,659 --> 00:01:21,539
+than the facts themselves.
+So it is not about the numbers only.
+
+17
+00:01:21,720 --> 00:01:27,039
+It is also about how you present them.
+And although we learn in school how to write...
+
+18
+00:01:27,039 --> 00:01:34,170
+a report or how to give a presentation, little
+attention is spent on how to display and visualise...
+
+19
+00:01:34,170 --> 00:01:37,760
+quantitative information.
+And that is the topic of today.
+
+20
+00:01:37,760 --> 00:01:38,750
+So let's have a look.
+
+21
+00:01:40,800 --> 00:01:45,540
+One of the founding fathers, and Felienne
+mentioned it also last week, is Edward Tufte.
+
+22
+00:01:45,540 --> 00:01:51,360
+He wrote a very nice book that I would really recommend
+to read: 'The Visual Display of Quantitative Information'.
+
+23
+00:01:53,380 --> 00:02:00,040
+And he coined a term, he coined a definition.
+That definition is the data-ink ratio.
+
+24
+00:02:01,460 --> 00:02:08,760
+Data-ink ratio means that it is the amount
+of data-ink you use as a proportion to the total
+
+25
+00:02:08,770 --> 00:02:14,570
+ink that is used to print the graphic.
+Maybe what would be a better representation
+
+26
+00:02:14,570 --> 00:02:21,640
+of that is thinking like this: It is one minus
+the proportion of graphic that can be erased
+
+27
+00:02:21,640 --> 00:02:23,600
+without loss of data information.
+
+28
+00:02:25,100 --> 00:02:27,340
+Let me illustrate that with a little example.
+
+29
+00:02:27,700 --> 00:02:33,760
+So we have a table here, and you see that
+there is a very heavy grid around every cell.
+
+30
+00:02:34,620 --> 00:02:40,860
+The question is: does that grid tell us anything
+about the data that is in the table?
+
+31
+00:02:41,880 --> 00:02:44,180
+And that is not the case, so we should reduce that.
+
+32
+00:02:44,180 --> 00:02:52,300
+We can do that by making the grid less heavy.
+But what would be even better is to remove the grid.
+
+33
+00:02:53,740 --> 00:02:57,660
+Every line that we see right now has a function.
+
+34
+00:02:57,660 --> 00:03:04,080
+We see the line under the countries. That is
+telling us that the three countries belong together.
+
+35
+00:03:04,660 --> 00:03:08,460
+And below we see a line below the Sales person.
+
+36
+00:03:08,460 --> 00:03:12,040
+That is to divide the table in a header and a body.
+
+37
+00:03:12,500 --> 00:03:16,880
+And at the bottom, we have a Grand Total and
+also there we use a line to divide it.
+
+38
+00:03:16,880 --> 00:03:25,520
+So now the lines are not just some paint on
+the screen, but it is really useful information
+
+39
+00:03:25,520 --> 00:03:32,840
+that is helping us to interpret the table.
+So data-ink ratio means: Do more with less.
+
+40
+00:03:32,840 --> 00:03:38,040
+Use as less pixels as possible to get your
+message to the audience.
+
+41
+00:03:41,280 --> 00:03:44,900
+So, what are we doing when we are visualising data?
+
+42
+00:03:47,200 --> 00:03:53,480
+What we saw Felienne do in the introduction
+was that immediately she went from the data
+
+43
+00:03:53,480 --> 00:03:59,560
+to formatting the message.
+She selected the data and she clicked on create graph.
+
+44
+00:04:00,320 --> 00:04:02,780
+But actually she is skipping a few steps there.
+
+45
+00:04:02,790 --> 00:04:05,110
+Those are the steps we are focussing on today.
+
+46
+00:04:06,400 --> 00:04:10,920
+First, if you have data and if you
+plan to say something about the data
+
+47
+00:04:10,920 --> 00:04:14,500
+then actually you have a goal,
+otherwise you would not do that.
+
+48
+00:04:15,280 --> 00:04:18,560
+So, be sure for yourself what your goal is.
+
+49
+00:04:18,560 --> 00:04:23,160
+What do you want to tell about this data?
+And then the second question is:
+
+50
+00:04:24,100 --> 00:04:27,600
+Who is your audience?
+What is your audience like?
+
+51
+00:04:28,060 --> 00:04:32,820
+Are they very detailed people that want to
+have the sixth digit after the decimal point?
+
+52
+00:04:33,060 --> 00:04:37,520
+Or are they more general people who say 
+'Well, just show me a graph'?
+
+53
+00:04:38,400 --> 00:04:42,260
+And, if I know what my goal is,
+what should be my message then?
+
+54
+00:04:42,260 --> 00:04:46,880
+What do you want to tell?
+If that is clear for me, then I can start...
+
+55
+00:04:46,880 --> 00:04:49,440
+thinking about how I am going to format the message.
+
+56
+00:04:52,580 --> 00:04:57,660
+So, when you are visualising data and when
+you are visualising quantitative information...
+
+57
+00:04:57,660 --> 00:05:00,300
+actually we only have two tools that we can use.
+
+58
+00:05:00,300 --> 00:05:02,380
+That is a table or a graph.
+
+59
+00:05:03,260 --> 00:05:06,380
+Now, before I am going to explain
+the difference for you
+
+60
+00:05:07,220 --> 00:05:10,940
+we have a nice little quiz for you
+to think a little bit about...
+
+61
+00:05:12,900 --> 00:05:15,920
+when you should use a table
+and when you should use a graph.
+
+62
+00:05:19,760 --> 00:05:26,060
+So tables, you normally use them
+to look up individual values.
+
+63
+00:05:26,260 --> 00:05:31,800
+Think about a phone directory, that is a very
+big table and you use it to look up data.
+
+64
+00:05:32,000 --> 00:05:33,520
+Tables are excellent for that.
+
+65
+00:05:35,500 --> 00:05:37,500
+Another thing that is very handy in a table is
+
+66
+00:05:37,510 --> 00:05:42,310
+you can really check individual values
+and compare them to each other.
+
+67
+00:05:44,420 --> 00:05:48,400
+Tables are also very good if
+you need very precise values.
+
+68
+00:05:52,320 --> 00:05:59,220
+Now, imagine you have some kind of dataset, where
+you have kilograms and where you have speed.
+
+69
+00:05:59,840 --> 00:06:02,440
+Try to imagine to plot that in one graph.
+
+70
+00:06:02,440 --> 00:06:06,910
+That is very difficult, because you have two
+different units of measures that you cannot
+
+71
+00:06:06,910 --> 00:06:14,780
+plot on the same axis, so you need more than
+one axis, and it is very difficult to interpret the graph.
+
+72
+00:06:14,780 --> 00:06:17,720
+So, then a table is much easier
+to understand.
+
+73
+00:06:24,360 --> 00:06:29,940
+And finally, if you have in your dataset data
+on a summarised level, for example subtotals,
+
+74
+00:06:29,940 --> 00:06:35,360
+and you have the details, that is almost impossible
+to represent in a graph, but it is very easy
+
+75
+00:06:35,370 --> 00:06:38,290
+to do it in a table.
+So that is when you use a table.
+
+76
+00:06:39,320 --> 00:06:46,080
+Now when would you use graphs? You use graphs
+if the message you want to bring to your audience...
+
+77
+00:06:46,080 --> 00:06:48,380
+is about the shape of the data that you have.
+
+78
+00:06:48,600 --> 00:06:53,500
+Is there some kind of pattern that you want to show
+or some kind of trend that you want to highlight?
+
+79
+00:06:53,500 --> 00:06:56,220
+That is really where a graph is very useful.
+
+80
+00:06:57,740 --> 00:07:03,720
+And the other option is when you want to reveal
+a relationship between two datasets.
+
+81
+00:07:04,260 --> 00:07:09,620
+Are variables correlated or not?
+You can very well use a graph for that.
+

@@ -1,0 +1,386 @@
+1
+00:00:00,099 --> 00:00:04,319
+Hallo allemaal. Voordat we ons in dit onderwerp
+gaan verdiepen, zal ik me even voorstellen.
+
+2
+00:00:04,460 --> 00:00:09,020
+Mijn naam is Bas Jansen. Ik werk als PhD
+student aan de Technische Universiteit Delft.
+
+3
+00:00:09,360 --> 00:00:12,720
+Ik ben lid van het Spreadsheet Lab,
+waarin ik samenwerk met Felienne.
+
+4
+00:00:13,760 --> 00:00:19,780
+Je ziet mijn e-mailadres en Twitter handle op de slide.
+Dus als je contact wilt opnemen, dan is dat mogelijk.
+
+5
+00:00:20,660 --> 00:00:23,840
+Dan zullen we nu beginnen met het onderwerp.
+
+6
+00:00:25,480 --> 00:00:27,980
+We leven tegenwoordig in een tijdperk van big data.
+
+7
+00:00:28,520 --> 00:00:31,580
+Gisteren las ik een mooi citaat:
+
+8
+00:00:32,000 --> 00:00:35,120
+"Jaarlijks worden miljoenen dollars
+uitgegeven aan het verzamelen van data...
+
+9
+00:00:35,120 --> 00:00:40,680
+...met de wat naïeve verwachting dat de data vanzelf
+de geobserveerde omstandigheden zullen corrigeren.
+
+10
+00:00:40,980 --> 00:00:43,760
+Hoewel accurate data en
+werkelijke feiten waardevol zijn, ...
+
+11
+00:00:43,760 --> 00:00:50,940
+...is voor het bereiken van resultaten de manier
+van presenteren vaak belangrijker dan de feiten zelf."
+
+12
+00:00:51,620 --> 00:00:54,200
+Je zou kunnen zeggen: "Oké, dat is een mooie quote."
+
+13
+00:00:54,420 --> 00:00:57,720
+Maar wat me echt verraste
+is de datum van dit citaat!
+
+14
+00:00:58,060 --> 00:01:03,900
+Dit citaat is meer dan 100 jaar oud.
+Dus eigenlijk is er niks nieuws hier.
+
+15
+00:01:05,000 --> 00:01:10,720
+Ten tweede, wat ik denk dat erg belangrijk is,
+en ik moest het op de harde manier leren, is...
+
+16
+00:01:11,400 --> 00:01:17,659
+dat als het gaat om het verkrijgen van resultaten,
+de wijze van presentatie vaak belangrijker is...
+
+17
+00:01:17,659 --> 00:01:21,539
+...dan de feiten zelf.
+Het draait dus niet alleen om de getallen.
+
+18
+00:01:21,720 --> 00:01:27,039
+Het gaat ook over hoe je ze presenteert.
+En hoewel we op school leren hoe je een rapport...
+
+19
+00:01:27,039 --> 00:01:34,170
+moet schrijven of hoe je een presentatie moet geven,
+wordt er weinig aandacht besteed aan het visualiseren
+
+20
+00:01:34,170 --> 00:01:37,760
+van kwantitatieve informatie.
+En dat is het onderwerp voor vandaag.
+
+21
+00:01:37,760 --> 00:01:38,750
+Dus laten we eens kijken.
+
+22
+00:01:40,800 --> 00:01:45,540
+Een van de grondleggers - Felienne noemde
+hem vorige week al - is Edward Tufte.
+
+23
+00:01:45,540 --> 00:01:51,360
+Hij schreef een mooi boek dat ik echt zou aanraden:
+'The Visual Display of Quantitative Information'.
+
+24
+00:01:53,380 --> 00:02:00,040
+En hij bedacht een term, een definitie:
+de data-inkt ratio.
+
+25
+00:02:01,460 --> 00:02:06,400
+Data-inkt ratio betekent de hoeveelheid
+inkt die je gebruikt voor data...
+
+26
+00:02:06,960 --> 00:02:10,900
+als een proportie van alle inkt die wordt
+gebruikt om de afbeelding af te drukken.
+
+27
+00:02:11,620 --> 00:02:17,180
+Misschien zou een betere verwoording zijn:
+
+28
+00:02:17,400 --> 00:02:23,720
+Het is 1 min het percentage van de afbeelding dat
+kan worden weggelaten zonder verlies van informatie.
+
+29
+00:02:24,980 --> 00:02:27,420
+Laat me dat illustreren met een klein voorbeeld.
+
+30
+00:02:27,700 --> 00:02:33,760
+We hebben hier een tabel en je ziet
+rondom elke cel een dikke rand.
+
+31
+00:02:34,620 --> 00:02:40,860
+De vraag is: vertellen die randen ons
+iets over de informatie in de tabel?
+
+32
+00:02:41,880 --> 00:02:44,180
+Dat is niet het geval,
+dus we moeten dat verminderen.
+
+33
+00:02:44,180 --> 00:02:52,300
+We kunnen de randen minder dik maken, maar
+het zou nog beter zijn om de randen weg te halen.
+
+34
+00:02:53,740 --> 00:02:57,660
+Elke lijn die we nu zien heeft een functie.
+
+35
+00:02:57,660 --> 00:03:04,080
+Er is een lijn onder de landen. Die vertelt
+ons dat de drie landen bij elkaar horen.
+
+36
+00:03:04,660 --> 00:03:08,460
+En onder 'Sales person' zien we een lijn.
+
+37
+00:03:08,460 --> 00:03:12,040
+Die onderscheidt de tabelkop van de inhoud.
+
+38
+00:03:12,500 --> 00:03:16,880
+En aan de onderkant hebben een eindtotaal
+en ook die wordt door een lijn onderscheiden.
+
+39
+00:03:16,880 --> 00:03:25,520
+Nu zijn de randen dus niet zomaar wat pixels op
+het scherm, maar het is echt nuttige informatie...
+
+40
+00:03:25,520 --> 00:03:32,840
+die ons helpt om de tabel te interpreteren.
+De data-ink-ratio betekent dus: meer doen met minder.
+
+41
+00:03:32,840 --> 00:03:38,040
+Gebruik zo min mogelijk pixels om je
+boodschap aan het publiek over te brengen.
+
+42
+00:03:41,280 --> 00:03:45,000
+Dus, wat doen we precies als we data visualiseren?
+
+43
+00:03:47,100 --> 00:03:53,180
+Wat we Felienne zagen doen in de introductie
+was dat ze meteen van de data...
+
+44
+00:03:53,640 --> 00:03:55,380
+naar het opmaken van de boodschap ging.
+
+45
+00:03:55,780 --> 00:03:59,580
+Ze selecteerde de data en
+ze klikte op maak grafiek.
+
+46
+00:04:00,320 --> 00:04:02,780
+Maar eigenlijk sloeg ze een paar stappen over.
+
+47
+00:04:02,780 --> 00:04:05,160
+En dat zijn de stappen waar we vandaag op focussen.
+
+48
+00:04:06,400 --> 00:04:10,920
+Allereerst, als je data hebt en
+je wil er iets over vertellen...
+
+49
+00:04:10,920 --> 00:04:14,580
+dan heb je dus eigenlijk een doel,
+anders zou je dat niet doen.
+
+50
+00:04:15,280 --> 00:04:18,560
+Dus, zorg dat je zelf weet wat je doel is.
+
+51
+00:04:18,560 --> 00:04:20,720
+Wat wil je vertellen over deze data?
+
+52
+00:04:21,260 --> 00:04:23,260
+En de tweede vraag is:
+
+53
+00:04:24,060 --> 00:04:27,660
+Wie is je doelgroep?
+Wat voor mensen zijn het?
+
+54
+00:04:28,060 --> 00:04:32,820
+Zijn het heel gedetailleerde mensen die het
+zesde cijfer achter de komma willen weten?
+
+55
+00:04:33,060 --> 00:04:37,600
+Of zijn het mensen die zoiets hebben van:
+'Laat me maar gewoon een grafiek zien'?
+
+56
+00:04:38,400 --> 00:04:42,260
+En, als ik weet wat mijn doel is,
+wat moet mijn boodschap dan zijn?
+
+57
+00:04:42,260 --> 00:04:43,660
+Wat wil je vertellen?
+
+58
+00:04:43,920 --> 00:04:49,380
+Als dat duidelijk is voor mezelf, dan kan ik gaan
+nadenken over hoe ik de boodschap ga opmaken.
+
+59
+00:04:52,580 --> 00:04:57,660
+Dus, wanneer je het data visualiseert, als
+je kwantitatieve informatie visualiseert...
+
+60
+00:04:57,660 --> 00:05:02,440
+dan zijn er eigenlijk maar twee hulpmiddelen
+die we kunnen gebruiken: een tabel of een grafiek.
+
+61
+00:05:03,260 --> 00:05:06,380
+Voordat ik het verschil ga uitleggen...
+
+62
+00:05:07,220 --> 00:05:10,940
+...hebben we een quiz voor je om na te denken over...
+
+63
+00:05:12,900 --> 00:05:16,000
+...wanneer je een tabel moet gebruiken
+en wanneer je een grafiek moet gebruiken.
+
+64
+00:05:19,760 --> 00:05:26,060
+Tabellen gebruik je doorgaans om
+individuele waarden op te zoeken.
+
+65
+00:05:26,220 --> 00:05:31,800
+Denk aan een telefoonboek, dat is een enorme tabel
+en je gebruikt het voor het opzoeken data.
+
+66
+00:05:31,960 --> 00:05:33,540
+Tabellen zijn daar zeer geschikt voor.
+
+67
+00:05:35,500 --> 00:05:42,520
+Een andere eigenschap van een tabel is dat je makkelijk
+individuele waarden met elkaar kunt vergelijken.
+
+68
+00:05:44,420 --> 00:05:48,400
+Tabellen zijn ook erg handig als
+je heel precieze waarden nodig hebt.
+
+69
+00:05:52,320 --> 00:05:59,220
+Stel je voor dat je een dataset
+hebt met kilogrammen en snelheid.
+
+70
+00:05:59,780 --> 00:06:02,440
+Probeer te bedenken hoe je
+daar een grafiek van zou maken.
+
+71
+00:06:02,440 --> 00:06:08,300
+Dat is heel moeilijk, want je hebt twee verschillende
+eenheden die je niet op dezelfde as kan zetten...
+
+72
+00:06:08,300 --> 00:06:14,780
+waardoor je meer dan één as nodig hebt,
+en dat is moeilijk te interpreteren.
+
+73
+00:06:14,780 --> 00:06:17,840
+Dus dan is een tabel makkelijker te begrijpen.
+
+74
+00:06:24,360 --> 00:06:29,940
+En tot slot, als je in je dataset opgesomde
+data hebt, bijvoorbeeld subtotalen...
+
+75
+00:06:29,940 --> 00:06:34,640
+én je hebt de details, dat is bijna onmogelijk
+te vertegenwoordigen in een grafiek...
+
+76
+00:06:34,640 --> 00:06:38,280
+maar het is heel eenvoudig te doen in een tabel.
+Dus dan gebruik je een tabel.
+
+77
+00:06:39,280 --> 00:06:46,080
+Wanneer zou je dan een grafiek gebruiken? Je gebruikt
+een grafiek als de boodschap die je over wilt brengen...
+
+78
+00:06:46,080 --> 00:06:48,380
+...gaat over de vorm van de data die je hebt.
+
+79
+00:06:48,600 --> 00:06:53,500
+Is er een soort patroon dat je wilt weergeven
+of een soort van trend die je wilt benadrukken?
+
+80
+00:06:53,500 --> 00:06:56,220
+Dat zijn echt gevallen waar een grafiek heel nuttig is.
+
+81
+00:06:57,740 --> 00:07:03,780
+En nog een optie is wanneer je een
+relatie tussen twee datasets wilt tonen.
+
+82
+00:07:04,260 --> 00:07:09,800
+Zijn variabelen gecorreleerd of niet?
+Daar kan je heel goed een grafiek voor gebruiken.
+

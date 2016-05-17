@@ -1,0 +1,377 @@
+1
+00:00:00,140 --> 00:00:03,740
+So, we are finished with the tables,
+so let's have a look at graphs.
+
+2
+00:00:06,300 --> 00:00:10,020
+If there are a few things that you have to
+remember about this course, then...
+
+3
+00:00:11,020 --> 00:00:12,460
+this would be one of them:
+
+4
+00:00:12,960 --> 00:00:15,980
+If you are creating a graph you have the responsibility...
+
+5
+00:00:16,220 --> 00:00:22,080
+to maintain a visual correspondence
+to the quantity you display.
+
+6
+00:00:22,900 --> 00:00:30,520
+Now, let's have a look at this graph and try
+to think what is wrong with it
+
+7
+00:00:30,520 --> 00:00:34,000
+because there is a lot wrong with it.
+I will give you some time for that.
+
+8
+00:00:37,440 --> 00:00:42,699
+Now, what we see in this graph is
+"Sales are Skyrocketing!"
+
+9
+00:00:43,200 --> 00:00:45,640
+There is a very steep increase of the sales.
+
+10
+00:00:46,060 --> 00:00:50,860
+But if we actually look at the data and
+if we represent it in the rightful way
+
+11
+00:00:51,340 --> 00:00:54,280
+then this would be the message:
+"Sales is flat"
+
+12
+00:00:55,080 --> 00:01:02,340
+What kind of tricks did they do in this chart?
+I think the first one is very obvious.
+
+13
+00:01:03,200 --> 00:01:09,600
+Their y-axis does not start with 0 and
+also if you look at the scale of it...
+
+14
+00:01:10,160 --> 00:01:13,740
+it's really a very small interval
+of data that they are showing.
+
+15
+00:01:14,640 --> 00:01:19,700
+What they also did is:
+They decreased the aspect ratio.
+
+16
+00:01:20,120 --> 00:01:31,460
+They made it a square graph and because they did that
+they overstated the amount of increase you see.
+
+17
+00:01:32,100 --> 00:01:37,420
+Also, they used a green line and
+in Western culture green is good.
+
+18
+00:01:37,420 --> 00:01:42,460
+So that is another thing that supports
+the message that sales are skyrocketing.
+
+19
+00:01:42,680 --> 00:01:46,080
+And also the black color is helping with that.
+
+20
+00:01:47,100 --> 00:01:53,900
+So we have to be aware that if we create a graph,
+we very easily can manipulate the reader
+
+21
+00:01:53,909 --> 00:02:02,289
+what they are going to see, and we have some
+kind of responsibility to stay close to the truth.
+
+22
+00:02:03,780 --> 00:02:06,380
+So that is important when you create your graphs.
+
+23
+00:02:08,820 --> 00:02:13,440
+Another one that I would like you to remember is:
+Stay away from 3D!
+
+24
+00:02:14,200 --> 00:02:20,620
+If you would ask me... Because this is very nice, and
+it is very easy to create in Excel with a few mouse clicks
+
+25
+00:02:20,620 --> 00:02:25,680
+you have this very nice graph,
+but if I am going to ask you now:
+
+26
+00:02:27,120 --> 00:02:32,620
+"What is the value in the first quarter
+of the south region?"
+
+27
+00:02:33,860 --> 00:02:38,360
+then I would be very interested in your answer,
+because it is very difficult. We cannot see it.
+
+28
+00:02:38,360 --> 00:02:40,540
+It is hidden behind the other ones.
+
+29
+00:02:40,940 --> 00:02:48,780
+So, 3D, if you present it on a 2-dimensional area,
+that is never a good idea.
+
+30
+00:02:48,940 --> 00:02:51,640
+Now, what is wrong with this: completely nothing.
+
+31
+00:02:51,800 --> 00:02:56,180
+You should always use 2-dimensional graphs.
+
+32
+00:02:59,360 --> 00:03:04,480
+Now, this is a little bit boring, because if you go
+into Excel and if you look at all the chart types...
+
+33
+00:03:04,660 --> 00:03:06,220
+there are many of them.
+
+34
+00:03:06,840 --> 00:03:12,440
+But what I am going to tell you is that actually,
+there are only three basic graphs that you can use
+
+35
+00:03:12,440 --> 00:03:16,720
+to express almost any message about
+the data you want to show.
+
+36
+00:03:17,040 --> 00:03:25,620
+The first one is a scatter plot. That is very very useful
+if you want to highlight a relation between two variables.
+
+37
+00:03:27,440 --> 00:03:32,160
+The other one is the good old plain line chart.
+
+38
+00:03:33,300 --> 00:03:36,560
+Very useful if you want to show a trend or a time series.
+
+39
+00:03:37,040 --> 00:03:41,200
+And the third one is the bar or the column chart.
+
+40
+00:03:41,200 --> 00:03:45,080
+If it is horizontal, we call it a bar chart,
+if it is vertical we call it a column chart.
+
+41
+00:03:47,960 --> 00:03:51,960
+They are very useful if you want to compare
+different categories with each other.
+
+42
+00:03:52,840 --> 00:03:55,440
+So these are the basic graph types.
+
+43
+00:03:58,400 --> 00:04:00,560
+One was missing, and that is the pie chart.
+
+44
+00:04:00,569 --> 00:04:05,409
+We did some research on it and it is one of
+the most frequently used charts.
+
+45
+00:04:05,820 --> 00:04:12,720
+But I would really advise... I would almost
+say urge you, not to use the pie chart anymore.
+
+46
+00:04:12,720 --> 00:04:14,800
+And I will try to explain why.
+
+47
+00:04:16,120 --> 00:04:23,040
+First of all, humans have a difficulty in
+estimating how big an area is.
+
+48
+00:04:23,740 --> 00:04:32,920
+So, my question would be, if you look at circle 1 and
+circle 2, how much larger is the area of circle 2?
+
+49
+00:04:39,100 --> 00:04:43,600
+So what is the problem with pie charts?
+Here we see a very classic example of a pie chart.
+
+50
+00:04:43,600 --> 00:04:46,080
+We have different companies with different values.
+
+51
+00:04:46,220 --> 00:04:50,760
+If I ask you what is the part of company C?
+
+52
+00:04:50,980 --> 00:04:53,740
+You probably would immediately say 25%.
+
+53
+00:04:54,260 --> 00:04:57,420
+So, what is wrong with pie charts?
+It is very clear, isn't it?
+
+54
+00:04:58,240 --> 00:05:03,300
+Well, if I would rephrase the question a little bit, and say:
+
+55
+00:05:03,300 --> 00:05:07,580
+Could you tell me what are the
+values for companies E and F?
+
+56
+00:05:08,160 --> 00:05:12,360
+And now it is getting really complicated,
+because it is very difficult for us to say,
+
+57
+00:05:12,360 --> 00:05:17,580
+well that is maybe 1% or 2% or 6%, actually
+I don't know, I have no clue.
+
+58
+00:05:18,100 --> 00:05:22,480
+But, ask Excel to the rescue.
+We can add some data labels.
+
+59
+00:05:23,500 --> 00:05:30,340
+So, now at least we can see that
+company F is 1% and company E is 7%
+
+60
+00:05:30,700 --> 00:05:35,840
+but what I actually have to do in my brains is I have to
+look at the legend, I have to look at the color,
+
+61
+00:05:35,840 --> 00:05:42,560
+I have to go back to the chart, look at the color,
+look up the value, and then I see company F is 1%.
+
+62
+00:05:42,840 --> 00:05:45,240
+That is not really easy for your reader.
+
+63
+00:05:45,760 --> 00:05:49,660
+And it is important that it is easy for your reader,
+because you want to get your message through
+
+64
+00:05:49,840 --> 00:05:52,880
+so it should be as easy as possible for your reader.
+
+65
+00:05:53,600 --> 00:05:58,480
+Now, we could help that:
+Remove the legend and add some more labels.
+
+66
+00:05:59,640 --> 00:06:04,280
+But, really, if we do all this, then
+why not just put it in a table?
+
+67
+00:06:05,220 --> 00:06:11,360
+And, if you really want to use a graph, and
+I would agree on that, I would even advise that.
+
+68
+00:06:12,180 --> 00:06:14,440
+What is wrong with a simple bar chart?
+
+69
+00:06:14,900 --> 00:06:20,400
+I can rank very nicely the companies, also visually.
+So I see immediately what is the largest company.
+
+70
+00:06:20,410 --> 00:06:22,330
+I see what is the smallest company.
+
+71
+00:06:23,560 --> 00:06:31,880
+For humans it is very difficult to make an estimate of
+an area, but to compare lengths between two lines,
+
+72
+00:06:31,880 --> 00:06:35,200
+that is something we are very good at.
+So that is really helpful.
+
+73
+00:06:35,500 --> 00:06:40,520
+And then there is still one argument that people
+throw at me if I say "don't use the pie chart":
+
+74
+00:06:40,520 --> 00:06:48,280
+They say "yes, but the pie chart will help me
+to see everything related to the whole."
+
+75
+00:06:48,860 --> 00:06:58,000
+Well, that is still possible, because we could change
+this chart and put in the relative part next to the label
+
+76
+00:06:58,360 --> 00:07:02,240
+and make a sum at the bottom to see
+that everything ties up to 100%.
+
+77
+00:07:02,420 --> 00:07:07,120
+Now I have a part to a whole information
+in my graph without using a pie chart
+
+78
+00:07:07,120 --> 00:07:15,280
+and making it very easy for the reader to read
+this information and to get the message.
+
+79
+00:07:16,000 --> 00:07:21,280
+So that are some remarks about
+the structure of the charts.
+
+80
+00:07:21,760 --> 00:07:27,040
+But as we did with the tables, we will also focus on
+some of the best practices in charts in the next video.
+
