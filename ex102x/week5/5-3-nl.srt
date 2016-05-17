@@ -1,0 +1,297 @@
+1
+00:00:02,500 --> 00:00:09,580
+In de vorige video keken we naar het
+verschil tussen tabellen en grafieken.
+
+2
+00:00:09,960 --> 00:00:13,660
+In deze sessie gaan we focussen
+op het ontwerp van tabellen.
+
+3
+00:00:13,660 --> 00:00:16,620
+Eigenlijk op het strucurele ontwerp van tabellen.
+
+4
+00:00:19,300 --> 00:00:22,920
+Er zijn slechts drie soorten tabellen.
+Laten we ze eens bekijken.
+
+5
+00:00:23,300 --> 00:00:25,260
+De eerste is het meest eenvoudig.
+
+6
+00:00:25,260 --> 00:00:30,260
+Het heet een unidirectionele tabel,
+dat betekent dat hij maar 1 dimensie heeft.
+
+7
+00:00:31,220 --> 00:00:38,940
+We hebben een verkoper en we hebben de inkomsten
+en die geven we weer in twee kolommen.
+
+8
+00:00:39,480 --> 00:00:41,900
+Nu kunnen we het iets ingewikkelder maken
+
+9
+00:00:41,900 --> 00:00:45,460
+want het kan zijn dat we meer dan één
+categorie hebben.
+
+10
+00:00:45,780 --> 00:00:49,360
+Dus, naast de verkoper hebben we nu ook het land.
+
+11
+00:00:49,960 --> 00:00:53,700
+Zo kunnen we de verschillende categorieën
+organiseren in een soort hiërarchie.
+
+12
+00:00:53,700 --> 00:00:58,540
+Nu zien we de verkoper en binnen een
+verkoper zien we de verschillende landen
+
+13
+00:00:58,540 --> 00:01:02,280
+en we zien de inkomsten die
+hij of zij daar heeft gemaakt.
+
+14
+00:01:02,900 --> 00:01:06,620
+Dit is nog steeds unidirectionele tabel.
+Het is nog steeds één dimensie.
+
+15
+00:01:06,620 --> 00:01:13,040
+Het is allemaal georganiseerd in rijen, maar we hebben
+nu een soort van hiërarchie van de categorieën.
+
+16
+00:01:13,360 --> 00:01:16,300
+Maar we kunnen ook een soort van
+tweedimensionale tabel maken.
+
+17
+00:01:16,300 --> 00:01:19,520
+Het wordt een kruistabel of
+bidirectionele tafel genoemd.
+
+18
+00:01:19,940 --> 00:01:23,800
+We hebben dezelfde categorieën. We hebben
+nog steeds de verkoper en we hebben landen...
+
+19
+00:01:25,160 --> 00:01:32,900
+maar nu hebben we de landen in de kolommen gezet
+en krijgen we een compacter overzicht van de dataset.
+
+20
+00:01:34,000 --> 00:01:39,460
+Dus dat zijn de drie tabeltypen: 
+we hebben unidirectioneel met één categorie,
+
+21
+00:01:39,460 --> 00:01:45,280
+we hebben unidirectioneel met verschillende
+categorieën, maar georganiseerd in een hiërarchie...
+
+22
+00:01:45,280 --> 00:01:50,640
+en we hebben een bidirectionele tabel
+met categorieën in rijen en kolommen.
+
+23
+00:01:52,920 --> 00:01:56,700
+Hoe zit het met afgeleide waarden?
+Laten we eens kijken naar deze tabel.
+
+24
+00:01:58,200 --> 00:02:02,340
+We zien de verschillende producten en
+de hoeveelheden die we hebben verkocht.
+
+25
+00:02:02,560 --> 00:02:08,440
+En we zien de inkomsten gegenereerd door deze
+producten en we hebben ook een soort voorspelling.
+
+26
+00:02:08,860 --> 00:02:12,840
+En dan hebben we twee kolommen die eigenlijk
+berekeningen van eerdere kolommen zijn.
+
+27
+00:02:13,160 --> 00:02:18,800
+We hebben dus een percentage van het totaal, in dit
+geval is het het percentage van het totale inkomen...
+
+28
+00:02:19,480 --> 00:02:24,500
+en we hebben als percentage van de voorspelling,
+dat is eigenlijk de werkelijke inkomsten...
+
+29
+00:02:24,500 --> 00:02:26,560
+...als percentage van de prognose.
+
+30
+00:02:26,800 --> 00:02:32,000
+Nu kan je al zien door de manier waarop ik
+het moet uitleggen, dat dit niet zo duidelijk is.
+
+31
+00:02:32,190 --> 00:02:38,980
+Dus we moeten dit niet doen. Als je afgeleide data
+hebt, waarden die zijn berekend op basis van...
+
+32
+00:02:38,980 --> 00:02:44,040
+...andere kolommen, dan moeten we die berekeninge
+ zo dicht mogelijk bij de andere kolommen zetten.
+
+33
+00:02:44,360 --> 00:02:48,740
+Nu zie je dat we het percentage van totaal hebben
+verplaatst naast de daadwerkelijke inkomsten.
+
+34
+00:02:48,960 --> 00:02:53,540
+Nu is duidelijk dat het percentage van totaal een
+percentage is van de daadwerkelijke inkomsten.
+
+35
+00:02:53,800 --> 00:02:56,100
+Hetzelfde geldt voor de prognose.
+
+36
+00:02:56,800 --> 00:03:01,700
+Tot zover over afgeleide waarden.
+Nu, wat als we willen vergelijken?
+
+37
+00:03:03,720 --> 00:03:11,520
+Hier zien we dezelfde data maar nu willen we het
+verschil zien tussen de prognose en de inkomsten
+
+38
+00:03:11,520 --> 00:03:15,140
+en het verschil tussen de prognose
+en de geplande inkomsten.
+
+39
+00:03:15,420 --> 00:03:21,560
+Als dat het geval is, dan is het belangrijk om de
+kolommen die we met elkaar willen vergelijken...
+
+40
+00:03:21,560 --> 00:03:26,220
+...zo dicht mogelijk bij elkaar te zetten.
+
+41
+00:03:29,800 --> 00:03:38,860
+Witruimte: als je een Excel spreadsheet opent en je data
+erin verwerkt, dan geeft Excel je een standaard rijhoogte
+
+42
+00:03:39,100 --> 00:03:41,900
+en dat bepaalt hoeveel witruimte je ziet.
+
+43
+00:03:42,300 --> 00:03:44,880
+Misschien vraag je je af:
+'Waarom is witruimte belangrijk?'
+
+44
+00:03:45,160 --> 00:03:49,640
+Witruimte helpt ons met bepalen
+wat een rij is en wat de volgende rij is...
+
+45
+00:03:49,640 --> 00:03:51,760
+...en om twee rijen van elkaar te onderscheiden.
+
+46
+00:03:52,020 --> 00:03:54,700
+Hoe meer witruimte er is, hoe makkelijker dat is.
+
+47
+00:03:55,000 --> 00:03:56,260
+Maar er is natuurlijk een evenwicht.
+
+48
+00:03:56,260 --> 00:04:00,480
+Hier zie je de verschillende waarden voor de
+witruimte en het is aan jou om te bepalen...
+
+49
+00:04:00,480 --> 00:04:07,700
+wat je het beste leesbaar vindt.
+Mijn voorkeur is 50 tot 100 procent.
+
+50
+00:04:08,500 --> 00:04:14,420
+Het is belangrijk dat je weet dat je een keuze hebt
+waarmee je de lezer kan helpen: door te bepalen...
+
+51
+00:04:14,420 --> 00:04:18,360
+hoeveel witruimte er is bepaal je
+hoe hij of zij de tabel interpreteert.
+
+52
+00:04:19,300 --> 00:04:23,080
+We kunnen dat doen voor rijen,
+maar natuurlijk ook voor kolommen.
+
+53
+00:04:24,960 --> 00:04:28,960
+Dat komt eigenlijk terug op wat
+we hebben gezegd in de eerste sessie:
+
+54
+00:04:29,180 --> 00:04:30,960
+Het draait allemaal om de boodschap.
+
+55
+00:04:30,960 --> 00:04:35,280
+Wat wil ik vertellen?
+Wat wil ik mensen meegeven?
+
+56
+00:04:35,840 --> 00:04:40,120
+Hoe wil ik dat ze mijn tabel lezen?
+Zouden ze kolom na kolom moeten lezen?
+
+57
+00:04:40,320 --> 00:04:46,920
+Dan zou dit een zeer goede keuze.
+Of zou het beter zijn als ze het rij na rij lezen?
+
+58
+00:04:47,200 --> 00:04:55,460
+Wat ik dan kan doen is de witruimte tussen kolommen
+verlagen en de witruimte tussen rijen verhogen.
+
+59
+00:04:55,720 --> 00:05:00,280
+Dan gaan mensen de tabel automatisch
+rij voor rij lezen, en niet kolom voor kolom.
+
+60
+00:05:01,820 --> 00:05:07,080
+Dus, in deze video zagen we iets over
+het structurele ontwerp van tabellen.
+
+61
+00:05:07,380 --> 00:05:11,840
+In de volgende sessie gaan we kijken naar een aantal
+'best practices' die ons verder gaan helpen met...
+
+62
+00:05:11,840 --> 00:05:14,260
+het maken van echt geweldig tabellen.
+

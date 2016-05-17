@@ -1,0 +1,380 @@
+1
+00:00:00,250 --> 00:00:03,930
+In onze laatste sessie hebben we gekeken
+naar het structureel ontwerp van tabellen.
+
+2
+00:00:04,460 --> 00:00:10,180
+Maar we hebben ook nog wat tips voor je
+om je tabellen nog verder te verbeteren.
+
+3
+00:00:10,520 --> 00:00:15,680
+Dus, laten we eens kijken.
+Het eerste onderwerp is het grid.
+
+4
+00:00:17,380 --> 00:00:23,320
+Helaas zien we nog vaak tabellen
+zoals die in de linkerbovenhoek...
+
+5
+00:00:23,320 --> 00:00:27,360
+waarin een volledige grid wordt gebruikt.
+Zoals we al zeiden in onze inleiding:
+
+6
+00:00:28,080 --> 00:00:33,380
+We moeten nadenken over de data-inkt ratio.
+Vertellen al deze lijnen ons iets over...
+
+7
+00:00:33,390 --> 00:00:37,750
+de gegevens in de tabel?
+Dat is niet het geval.
+
+8
+00:00:38,040 --> 00:00:43,940
+Dus, we moeten proberen om van die lijnen af te
+komen en alleen de écht nuttige lijnen te behouden.
+
+9
+00:00:44,180 --> 00:00:52,940
+Bijvoorbeeld zoals de tabel in de rechter benedenhoek.
+We zien dat we een lijn nodig hebben...
+
+10
+00:00:52,940 --> 00:00:58,380
+om te laten zien dat die drie landen bij elkaar horen,
+we hebben een tweede lijn nodig...
+
+11
+00:00:58,380 --> 00:01:03,800
+om een onderscheid te maken tussen de kop van
+de tabel en de inhoud, en we hebben een lijn nodig...
+
+12
+00:01:03,800 --> 00:01:07,500
+om een onderscheid te maken tussen
+de inhoud en de voettekst van de tabel.
+
+13
+00:01:07,500 --> 00:01:11,320
+En dat is alles wat we nodig hebben.
+Voor de rest kunnen we het indelen met witruimte.
+
+14
+00:01:11,760 --> 00:01:16,920
+Dus, probeer voor te stellen dat de pixels heel duur
+zijn en probeer ze zoveel mogelijk te beperken.
+
+15
+00:01:21,240 --> 00:01:26,160
+Als je kijkt naar je Excel-interface, dan
+zie je dat je tabellen kunt opmaken.
+
+16
+00:01:26,780 --> 00:01:34,300
+Veel populaire opmaakmodellen gebruiken
+afwisselende kleuren voor rijen: de eerste rij is wit,
+
+17
+00:01:34,300 --> 00:01:38,380
+de tweede rij is groen, de derde rij
+is wit, de vierde groen, enzovoort.
+
+18
+00:01:39,740 --> 00:01:42,840
+Ik vind dat eigenlijk geen hele
+goede manier om op te vullen.
+
+19
+00:01:43,040 --> 00:01:48,420
+Als je opvulling wilt gebruiken draait het
+weer om je boodschap en om je doel.
+
+20
+00:01:48,420 --> 00:01:49,980
+Wat wil je communiceren?
+
+21
+00:01:50,200 --> 00:01:55,320
+Als ik wil dat iemand aandacht besteed
+aan een enkele cel in de tabel...
+
+22
+00:01:55,320 --> 00:02:00,920
+dan is het een goed idee om die cel op te vullen.
+Dat is wat ik heb gedaan in de eerste tabel.
+
+23
+00:02:00,920 --> 00:02:04,280
+We maken het rood, dan is het duidelijk
+dat mensen daar naar moeten kijken.
+
+24
+00:02:05,220 --> 00:02:10,860
+Maar het kan ook zo zijn dat ik wil dat ze zich richten
+op een bepaalde verkoper in een bepaald gebied.
+
+25
+00:02:10,860 --> 00:02:13,640
+In dit geval, de heer Hanson in de Verenigde Staten.
+
+26
+00:02:13,920 --> 00:02:18,600
+Dus gebruik ik een lichte opvulling
+om de rij en kolom te benadrukken...
+
+27
+00:02:18,600 --> 00:02:22,920
+en het leidt de ogen van de lezer naar deze waarde.
+
+28
+00:02:23,220 --> 00:02:28,500
+Dus ik kan vulling gebruiken om te beïnvloeden
+hoe de lezers mijn tabel zullen lezen
+
+29
+00:02:28,500 --> 00:02:32,140
+en om ze te helpen het punt
+dat ik wil maken te begrijpen.
+
+30
+00:02:35,320 --> 00:02:39,560
+Nu een aantal basisregels over uitlijning.
+
+31
+00:02:40,620 --> 00:02:44,440
+Het is niet zo moeilijk.
+Als het de tekst, lijn je het links uit.
+
+32
+00:02:45,400 --> 00:02:47,720
+Als het getallen zijn, lijn je het rechts uit.
+
+33
+00:02:48,480 --> 00:02:52,900
+Het enige probleem hebben we met datums.
+Je ziet het aan de onderkant van het scherm.
+
+34
+00:02:54,080 --> 00:02:59,520
+De uitlijning van de datum is niet echt een probleem,
+maar de vorm van de datum zelf.
+
+35
+00:02:59,520 --> 00:03:08,020
+Mijn advies is: probeer de datum in een vorm te krijgen
+die dezelfde lengte heeft voor elke mogelijke datum.
+
+36
+00:03:09,360 --> 00:03:14,780
+Zou je een datum hebben als '1 januari 2014'...
+
+37
+00:03:14,780 --> 00:03:18,340
+beschouw het dan als tekst en lijn het links uit.
+
+38
+00:03:18,800 --> 00:03:23,760
+En als alles even lang is, dan kan je zowel
+links, centereren of rechts gebruiken.
+
+39
+00:03:24,120 --> 00:03:30,600
+Maar je ziet: je wilt geen tabellen met brede kolommen.
+
+40
+00:03:31,280 --> 00:03:33,200
+Tot zover over uitlijning.
+
+41
+00:03:35,640 --> 00:03:40,220
+Je moet ook nadenken over de mate van precisie.
+
+42
+00:03:40,580 --> 00:03:50,160
+Dus in de eerste kolom zien we drie keer '2' in de
+onderste drie rijen. Maar eigenlijk is het 2.4, 2.1, 2.0.
+
+43
+00:03:50,160 --> 00:03:55,720
+Als dat belangrijk voor mijn boodschap,
+want dat is de vraag: Moet mijn lezer begrijpen...
+
+44
+00:03:55,720 --> 00:03:58,660
+...dat er een verschil is tussen deze drie waarden?
+
+45
+00:03:58,660 --> 00:04:01,360
+Dan moet ik minstens één decimaal laten zien.
+
+46
+00:04:02,060 --> 00:04:08,120
+Twee decimalen is in dit geval niet nodig,
+omdat de lezer uit de 2,4, 2,1, 2,0...
+
+47
+00:04:08,120 --> 00:04:10,300
+...al kan afleiden dat er een verschil is.
+
+48
+00:04:10,940 --> 00:04:17,600
+Alleen als de exacte waarde echt noodzakelijk is,
+dan kan ik het aantal decimalen verhogen.
+
+49
+00:04:20,620 --> 00:04:23,280
+En dan is er nog de getalopmaak.
+
+50
+00:04:24,220 --> 00:04:27,540
+We zien de 'Revenue' kolom en
+het is een beetje lastig te lezen.
+
+51
+00:04:27,880 --> 00:04:32,120
+Dat is zo omdat er geen duizendtalscheiding is.
+
+52
+00:04:32,500 --> 00:04:36,000
+Dus ik adviseer om altijd
+duizendtalscheiding te gebruiken.
+
+53
+00:04:36,960 --> 00:04:39,320
+Aan de rechterkant zie je iets anders.
+
+54
+00:04:39,320 --> 00:04:43,960
+Ik heb het in de introductie niet verteld,
+maar eigenlijk ben ik een financiële man.
+
+55
+00:04:44,440 --> 00:04:47,320
+Financiële mensen houden echt niet
+van negatieve waarden.
+
+56
+00:04:47,800 --> 00:04:54,200
+Dus we proberen die te verbergen tussen ronde haakjes.
+
+57
+00:04:55,240 --> 00:05:00,700
+Maar het probleem is - als je kijkt naar het tweede getal
+in de tabel en vergelijk het met het derde getal - ...
+
+58
+00:05:00,700 --> 00:05:04,760
+is dat de nummers niet zijn uitgelijnd
+vanwege de haakjes.
+
+59
+00:05:05,780 --> 00:05:10,680
+En dat moet je oplossen, en dat kan ook.
+Wat je zou willen zien is dit:
+
+60
+00:05:10,680 --> 00:05:16,600
+de cijfers zijn mooi uitgelijnd, maar er is nog
+wat ruimte rond het nummer voor de haakjes.
+
+61
+00:05:17,600 --> 00:05:24,340
+Ik zou heel graag laten zien hoe je dat doet in Excel
+zodat je het zelf ook kan proberen.
+
+62
+00:05:30,840 --> 00:05:33,239
+Dus hier zijn we.
+We hebben dezelfde data.
+
+63
+00:05:33,920 --> 00:05:35,860
+Ik selecteer de data...
+
+64
+00:05:39,580 --> 00:05:43,800
+en ik ga naar de celeigenschappen, naar getalopmaak.
+
+65
+00:05:44,600 --> 00:05:49,180
+Hier kan ik de getalopmaak zien, en de truc.
+
+66
+00:05:53,100 --> 00:05:57,039
+Hier zien we de opmaak.
+We zien dat de uitlijning niet correct is.
+
+67
+00:05:57,320 --> 00:06:03,700
+We willen dat veranderen. Dus we gaan naar de
+celeigenschappen, aangepaste getalnotatie.
+
+68
+00:06:05,660 --> 00:06:11,260
+Dan zie je hier de getalnotatie en
+er staat een puntkomma tussenin.
+
+69
+00:06:11,740 --> 00:06:14,840
+Links van de puntkomma is de positieve waarde.
+
+70
+00:06:15,120 --> 00:06:18,231
+Rechts van de puntkomma is de
+opmaak van de negatieve waarde.
+
+71
+00:06:18,530 --> 00:06:22,530
+En hier kunnen we zien dat
+negatieve waarden tussen haakjes staan.
+
+72
+00:06:24,860 --> 00:06:35,860
+De truc is: we moeten Excel instrueren om
+een ​​beetje ruimte te reserveren voor deze haakjes.
+
+73
+00:06:36,380 --> 00:06:39,400
+We kunnen dat doen door een underscore in te voeren...
+
+74
+00:06:39,960 --> 00:06:44,180
+en daarna het karakter waarvoor
+Excel ruimte moet reserveren.
+
+75
+00:06:44,560 --> 00:06:51,400
+En als je het zo doet... Als het een positieve waarde
+weergeeft, dan wordt dit haakje genegeerd, maar...
+
+76
+00:06:51,400 --> 00:06:57,100
+het laat precies genoeg ruimte over,
+en dat zullen we nu zien.
+
+77
+00:07:02,140 --> 00:07:07,760
+Je kunt zien dat er naast de '8' ruimte is
+zodat alles netjes uitgelijnd is.
+
+78
+00:07:08,380 --> 00:07:10,420
+Dus dat was de getalnotatie.
+
+79
+00:07:11,820 --> 00:07:16,000
+Daarmee beëindigen we de 'best practices'
+voor het ontwerp van tabellen...
+
+80
+00:07:17,420 --> 00:07:19,740
+...en ook het hoofdstuk over tabellen.
+
+81
+00:07:19,940 --> 00:07:22,280
+In de volgende sessie gaan we kijken naar grafieken.
+

@@ -1,0 +1,371 @@
+1
+00:00:00,250 --> 00:00:03,930
+In our last session we have looked at the
+structural design of tables.
+
+2
+00:00:04,460 --> 00:00:10,180
+But, we also prepared some little tips for
+you how you can even improve your tables further.
+
+3
+00:00:10,520 --> 00:00:15,540
+So, let's have a look at that.
+The first thing is about the grid.
+
+4
+00:00:17,460 --> 00:00:23,320
+Unfortunately we still see a lot of tables
+that are displayed in the upper left corner
+
+5
+00:00:23,320 --> 00:00:27,260
+where a full grid is used.
+As we said in our introduction:
+
+6
+00:00:28,080 --> 00:00:33,380
+We have to think about the data-ink ratio.
+Are all these lines telling us something about
+
+7
+00:00:33,390 --> 00:00:37,750
+the data that is in the table?
+That is actually not the case.
+
+8
+00:00:38,040 --> 00:00:43,840
+So we should try to get rid of all the lines
+and keep only the lines that we really need.
+
+9
+00:00:44,180 --> 00:00:52,940
+That is the table in the bottom right corner.
+What we see there is that we need a line...
+
+10
+00:00:52,940 --> 00:00:58,380
+to show you show you which three countries
+belong together, we need a second line
+
+11
+00:00:58,380 --> 00:01:03,800
+to make a distinction between the header of the table
+and the body of the table and we need a line
+
+12
+00:01:03,800 --> 00:01:07,500
+to make a distinction between the body of
+the table and the footer of the table.
+
+13
+00:01:07,500 --> 00:01:11,320
+And that is all we need.
+For the rest we can organize it with whitespace.
+
+14
+00:01:11,760 --> 00:01:16,700
+So, try to imagine that the pixels are very
+expensive and try to minimize them.
+
+15
+00:01:21,240 --> 00:01:25,920
+Now, if you look in your Excel interface,
+you can format tables.
+
+16
+00:01:26,780 --> 00:01:34,420
+A lot of popular formats use alternating colors
+in different rows, so the first row is white,
+
+17
+00:01:34,420 --> 00:01:38,380
+the second row is green, the third row is
+white, the fourth green and so further.
+
+18
+00:01:39,740 --> 00:01:42,820
+Actually, I think that is not a really good use of fill.
+
+19
+00:01:43,200 --> 00:01:48,420
+If you want to use fill, again, it all ties
+back to your message, to your goal.
+
+20
+00:01:48,420 --> 00:01:54,000
+What do you want to communicate?
+If I want somebody to pay attention to a single
+
+21
+00:01:54,000 --> 00:01:59,119
+cell in the table, then that would be a very
+good use case to fill the cell, and that is
+
+22
+00:01:59,120 --> 00:02:03,960
+what I did in the first table. We made it red,
+so it is very clear, people have to look there.
+
+23
+00:02:05,280 --> 00:02:08,260
+But it could also be that I want them to focus...
+
+24
+00:02:08,270 --> 00:02:13,570
+on a certain sales person in a certain region.
+In this case, Mr Hanson in the United States.
+
+25
+00:02:13,920 --> 00:02:19,760
+So I used a very light fill to highlight the
+row and the column and it will guide the eyes
+
+26
+00:02:19,760 --> 00:02:27,319
+of the reader of the table to these data.
+So, I can use fill to influence how readers
+
+27
+00:02:27,319 --> 00:02:31,859
+are going to read my table and to help them
+to understand the point I want to make.
+
+28
+00:02:35,320 --> 00:02:39,560
+Now some basic rules about alignment.
+
+29
+00:02:40,720 --> 00:02:47,760
+It is not really difficult. If it is text, you align it left.
+If it are numbers, you align it right.
+
+30
+00:02:48,580 --> 00:02:55,000
+And then the only trouble we have with dates.
+You see it at the bottom of the screen: actually,
+
+31
+00:02:55,000 --> 00:02:59,520
+the alignment of the date, that is not really
+a problem, but the format of the date itself.
+
+32
+00:02:59,520 --> 00:03:08,020
+My advice would be to try to get your date in a format
+that has the same length for every possible date.
+
+33
+00:03:09,540 --> 00:03:14,780
+Would you use a date like 'January 1, 2014',
+
+34
+00:03:14,780 --> 00:03:21,300
+then consider it text and do a left align.
+And if it is all the same length...
+
+35
+00:03:21,300 --> 00:03:27,760
+then you can either use left, center or right.
+You see that the wide columns in the bottom table
+
+36
+00:03:27,760 --> 00:03:30,600
+those are the situations you don't want to end up with.
+
+37
+00:03:31,280 --> 00:03:33,200
+So that about alignment.
+
+38
+00:03:35,640 --> 00:03:40,220
+Also, you have to think about the levels of precision.
+
+39
+00:03:40,580 --> 00:03:50,160
+So in the first column we see three times '2' at the
+bottom three rows. But actually, it is 2.4, 2.1, 2.0.
+
+40
+00:03:50,160 --> 00:03:54,700
+If that is important for my message, because
+that is the question: Does my reader need...
+
+41
+00:03:54,700 --> 00:03:58,660
+to understand that there is a difference
+between these three values?
+
+42
+00:03:58,660 --> 00:04:01,360
+Then I need to at least show one decimal.
+
+43
+00:04:02,060 --> 00:04:08,120
+Making it two decimals in this case would not
+be necessary, because from the 2.4, 2.1, 2.0...
+
+44
+00:04:08,120 --> 00:04:10,300
+the reader can already see that there is a difference.
+
+45
+00:04:10,940 --> 00:04:17,600
+Only if the precise value would be really necessary,
+then I could increase the number of decimals.
+
+46
+00:04:20,620 --> 00:04:25,680
+And then we have the number format.
+We see now the revenue column
+
+47
+00:04:25,680 --> 00:04:32,360
+and it is a bit difficult to read.
+That is because there are no thousand separators.
+
+48
+00:04:32,540 --> 00:04:35,820
+So I always would advise
+to include a thousand separator.
+
+49
+00:04:37,120 --> 00:04:41,540
+On the right side, you see something different.
+I did not tell you when I introduced myself
+
+50
+00:04:41,540 --> 00:04:47,320
+but actually I am a financial guy.
+Financial people really don't like negative values.
+
+51
+00:04:47,940 --> 00:04:54,200
+So we try to hide that a little bit by putting
+a negative value between parentheses.
+
+52
+00:04:55,240 --> 00:04:59,120
+But the trouble… What you can see now, if
+you look at the second number in the table
+
+53
+00:04:59,130 --> 00:05:04,770
+and compare it to the third, is that the numbers
+are not aligned, because of the parentheses.
+
+54
+00:05:05,860 --> 00:05:10,680
+And that is something you need to fix.
+You can do that, and what you would like to see is this.
+
+55
+00:05:10,680 --> 00:05:16,600
+The numbers are all aligned, but there is some space
+around the number so put the parenthesis there.
+
+56
+00:05:17,600 --> 00:05:20,460
+I would really like to show you
+in Excel how you can do that.
+
+57
+00:05:20,470 --> 00:05:24,370
+So that in an exercise you
+can try that for yourself.
+
+58
+00:05:30,860 --> 00:05:33,259
+So here we are.
+We have the same data.
+
+59
+00:05:33,980 --> 00:05:35,780
+I am going to select the data...
+
+60
+00:05:39,580 --> 00:05:43,800
+and I go to the cell properties to the number format.
+
+61
+00:05:44,600 --> 00:05:49,180
+Here I can see the number format and the trick.
+
+62
+00:05:53,100 --> 00:05:57,039
+Here we see the wrong number formatting.
+We see that the alignment is not correct.
+
+63
+00:05:57,320 --> 00:06:03,700
+We want to change that. So if we go to the cell
+properties, we go to the custom number format...
+
+64
+00:06:05,660 --> 00:06:11,260
+then you see here the number format
+and there is a semicolon in-between.
+
+65
+00:06:11,740 --> 00:06:14,840
+Left to the semicolon is the positive value.
+
+66
+00:06:15,120 --> 00:06:18,231
+Right to the semicolon is the format of the
+negative value.
+
+67
+00:06:18,530 --> 00:06:22,530
+And here we can see that negative values
+are within parentheses.
+
+68
+00:06:24,860 --> 00:06:35,860
+The trick we have to do is that we have to instruct Excel
+to reserve a little bit of space for these parentheses.
+
+69
+00:06:36,380 --> 00:06:39,400
+We can do that by entering an underscore...
+
+70
+00:06:39,960 --> 00:06:44,180
+and then the character that Excel
+should reserve space for.
+
+71
+00:06:44,560 --> 00:06:51,400
+And if you do it like this... If it displays
+a positive value it will ignore this, but
+
+72
+00:06:51,400 --> 00:06:56,980
+it will make a little bit more space, and
+that is what we can see if we click on it.
+
+73
+00:06:58,280 --> 00:06:59,740
+So now we see that...
+
+74
+00:07:02,140 --> 00:07:07,760
+You can see that next to the 8 there is little room
+to make sure that everything is well aligned.
+
+75
+00:07:08,380 --> 00:07:10,420
+So that is about the number format.
+
+76
+00:07:11,820 --> 00:07:16,000
+With that we end the best practices for table design.
+
+77
+00:07:17,480 --> 00:07:19,740
+Also we finish the chapter about tables.
+
+78
+00:07:20,020 --> 00:07:22,280
+In the next session we are going to look at graphs.
+
