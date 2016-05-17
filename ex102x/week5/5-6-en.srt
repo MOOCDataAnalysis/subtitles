@@ -1,0 +1,481 @@
+1
+00:00:00,190 --> 00:00:05,210
+So last time we looked at the design of the
+graphs from a structural point of view.
+
+2
+00:00:05,600 --> 00:00:07,640
+This time we are going to look at the best practices.
+
+3
+00:00:07,860 --> 00:00:09,880
+What we needed to remind from the last time was:
+
+4
+00:00:10,660 --> 00:00:16,500
+Try to stay as close as possible to the truth.
+Do not try to manipulate your readers.
+
+5
+00:00:16,960 --> 00:00:22,160
+Never use a 3D graph and try to avoid pie charts.
+
+6
+00:00:22,780 --> 00:00:27,840
+In this session we are going to focus on some
+of the best practices to create really beautiful graphs.
+
+7
+00:00:32,340 --> 00:00:35,480
+One of the basic chart types was
+the bar or the column graph.
+
+8
+00:00:35,480 --> 00:00:39,300
+Now, when should you use a bar
+and when should you use a column?
+
+9
+00:00:40,640 --> 00:00:44,600
+Actually I don't have a really strong opinion about it,
+but there are some basic rules.
+
+10
+00:00:45,500 --> 00:00:50,700
+One of the most important aspects, or
+determining aspects, are your labels.
+
+11
+00:00:51,000 --> 00:00:57,320
+If you look at the two top graphs, then you see
+for example United States does not fit on one line
+
+12
+00:00:57,860 --> 00:00:59,880
+if you create it in a column graph.
+
+13
+00:01:00,220 --> 00:01:07,440
+So if you have long labels it makes sense to create
+a bar graph or bar chart instead of a column chart.
+
+14
+00:01:09,380 --> 00:01:14,300
+And there is another one, if you look at the
+bottom left you see you have a time series there.
+
+15
+00:01:15,140 --> 00:01:20,960
+I could also create a bar chart for it, you
+can see it at the right, but that is very strange.
+
+16
+00:01:21,180 --> 00:01:28,720
+As soon as you put a time dimension in the vertical axis
+of a graph it gets very difficult to understand.
+
+17
+00:01:29,020 --> 00:01:34,000
+Time for us goes from left to right.
+So if you have a time series and...
+
+18
+00:01:34,000 --> 00:01:38,060
+you want to use a bar or a column chart,
+you should really choose the column chart.
+
+19
+00:01:40,700 --> 00:01:45,780
+Now, with tables we saw the importance of
+whitespace, and for graphs it is exactly the same.
+
+20
+00:01:46,120 --> 00:01:47,920
+Also there you have a choice.
+
+21
+00:01:47,920 --> 00:01:51,680
+You have to be aware that your
+spreadsheet software, in this case Excel...
+
+22
+00:01:51,920 --> 00:01:55,640
+will default it for you,
+and the default is not always right.
+
+23
+00:01:56,480 --> 00:01:59,820
+Here you see some of the different
+values that are possible.
+
+24
+00:02:00,810 --> 00:02:07,530
+I like that the whitespace is about 100 or 50 percent.
+
+25
+00:02:08,760 --> 00:02:13,920
+And I would just like to show you in Excel how you can
+influence the whitespace between the different columns.
+
+26
+00:02:20,760 --> 00:02:21,840
+So here we are.
+
+27
+00:02:23,200 --> 00:02:26,300
+I just select all the data.
+
+28
+00:02:27,480 --> 00:02:29,480
+I learnt that from Felienne.
+
+29
+00:02:31,480 --> 00:02:36,180
+We go to Insert, Column chart.
+
+30
+00:02:41,460 --> 00:02:42,380
+There it is.
+
+31
+00:02:44,460 --> 00:02:47,700
+I really do not like the amount of
+whitespace that I see over here.
+
+32
+00:02:47,700 --> 00:02:52,819
+For me this is too much and I want to change
+that, so I select one of the columns.
+
+33
+00:02:52,819 --> 00:02:54,259
+It does not matter which one.
+
+34
+00:02:55,440 --> 00:02:56,540
+I right click.
+
+35
+00:02:58,220 --> 00:03:00,360
+I format the data series.
+
+36
+00:03:02,160 --> 00:03:04,660
+And then, over here
+
+37
+00:03:05,360 --> 00:03:07,900
+I can adjust the gap width.
+
+38
+00:03:08,660 --> 00:03:14,720
+I will put it, and I like to type it in, to 50%.
+
+39
+00:03:16,860 --> 00:03:19,580
+For me, I think this is better readable.
+
+40
+00:03:20,240 --> 00:03:24,840
+Important is that you understand you have
+a choice there and you should think about it...
+
+41
+00:03:24,840 --> 00:03:26,680
+what it will do with your message.
+
+42
+00:03:34,800 --> 00:03:36,800
+Now, this is a very old one.
+
+43
+00:03:37,340 --> 00:03:41,700
+At some point in time we had matrix printers.
+They could not print colors...
+
+44
+00:03:42,400 --> 00:03:46,620
+and we created graphs and we used
+different fill patterns to make sure...
+
+45
+00:03:46,960 --> 00:03:49,960
+to distinct the different categories we had in our chart.
+
+46
+00:03:50,840 --> 00:03:56,620
+They are still around and because they are around,
+people are still using them, but please don't do that.
+
+47
+00:03:57,460 --> 00:04:03,960
+On the other hand, be aware that even today,
+not everybody has the ability to print in color.
+
+48
+00:04:04,560 --> 00:04:11,820
+So, if it is printed and you are not quite sure
+that they can color print it, use greyscales.
+
+49
+00:04:13,580 --> 00:04:20,560
+If you know that your graph is either color printed
+or on a screen, then this is really the best option.
+
+50
+00:04:20,560 --> 00:04:27,200
+Use colors with a good contrast to distinct
+between the different categories in your data series.
+
+51
+00:04:29,600 --> 00:04:30,840
+Now what about legends?
+
+52
+00:04:30,840 --> 00:04:34,660
+This is the standard by Excel.
+It puts it to the right.
+
+53
+00:04:35,980 --> 00:04:38,760
+Let's think a little bit back to the data-ink ratio.
+
+54
+00:04:39,000 --> 00:04:42,340
+So what I see here is it is to the right.
+It is taking space...
+
+55
+00:04:43,000 --> 00:04:46,860
+and I would actually like to use
+that space for my graph...
+
+56
+00:04:47,280 --> 00:04:52,440
+and there is a frame around it that really
+does not add something to the graph.
+
+57
+00:04:52,840 --> 00:04:56,620
+So what we could do very easily is
+put the legend to the bottom.
+
+58
+00:04:57,040 --> 00:05:02,300
+Now I have more space for my graph,
+I do not have the useless border...
+
+59
+00:05:03,060 --> 00:05:06,560
+and I am really using my pixels in a good way.
+
+60
+00:05:09,880 --> 00:05:15,440
+Now another one, remember the very first chart
+that we saw in the previous video.
+
+61
+00:05:15,800 --> 00:05:18,720
+It was the 'Sales are Skyrocketing' graph.
+
+62
+00:05:19,280 --> 00:05:23,460
+One of the things the creator of the graph did
+was playing with the aspect ratio.
+
+63
+00:05:24,000 --> 00:05:29,040
+You can overstate and understate
+the increase the data is actually making.
+
+64
+00:05:30,220 --> 00:05:34,560
+I like my graphs to have an aspect ratio from 1 to 1.5.
+
+65
+00:05:34,860 --> 00:05:43,200
+I think 1 to 2 is UNDERstated (correction!) and
+the 1 to 1 or even the 3 to 2 that is really OVERstated.
+
+66
+00:05:43,380 --> 00:05:48,260
+Be aware that you influence your reader with the
+aspect ratio and that you really can change it...
+
+67
+00:05:48,270 --> 00:05:50,730
+if you create a graph in Excel.
+
+68
+00:05:53,260 --> 00:05:58,460
+Now, another problem is that sometimes we
+have a lot of data, and you want to show it.
+
+69
+00:05:58,800 --> 00:06:02,520
+Now, our short-term memory can handle 7 things...
+
+70
+00:06:02,520 --> 00:06:08,220
+but actually putting 7 variables in one
+graph is really not easy to understand.
+
+71
+00:06:08,220 --> 00:06:13,520
+I would say 5 is the max, and even that...
+If I could somehow present the data...
+
+72
+00:06:13,520 --> 00:06:16,980
+without putting it all in one graph, I really would do that.
+
+73
+00:06:17,320 --> 00:06:23,180
+But, as a rule of thumb, 5 is the max.
+If it is more than 5, you have to find another solution.
+
+74
+00:06:24,740 --> 00:06:26,960
+Now what could that other solution be?
+
+75
+00:06:27,340 --> 00:06:31,920
+Here we have a table.
+We now know this is a unidirectional table...
+
+76
+00:06:31,930 --> 00:06:38,330
+with a hierarchical presentation of two categories,
+namely the Distribution Channel and the Region.
+
+77
+00:06:38,580 --> 00:06:44,320
+There is quite some information going on here.
+We have a Distribution Channel: Direct Sales,
+
+78
+00:06:44,320 --> 00:06:49,500
+Distributor Sales, Reseller Sales.
+I have the 4 regions, I have the bookings,
+
+79
+00:06:49,500 --> 00:06:55,020
+the orders that I got in, and I have the billings.
+I want to represent this somehow in a graph.
+
+80
+00:06:56,060 --> 00:06:58,880
+But that is too much data to put in a single graph.
+
+81
+00:06:59,320 --> 00:07:05,280
+What you could do: Instead of creating one
+graph, create several smaller graphs.
+
+82
+00:07:05,560 --> 00:07:08,300
+I have an example for that over here.
+
+83
+00:07:09,340 --> 00:07:17,040
+So what we see here is, we organized it horizontally
+and we organized it by Distribution Channel.
+
+84
+00:07:17,300 --> 00:07:20,980
+To the left I have Direct Sales,
+to the right I have Reseller Sales...
+
+85
+00:07:21,420 --> 00:07:25,400
+and what you see, for example if you
+look at the labels on the y-axis:
+
+86
+00:07:25,539 --> 00:07:28,679
+I only have created them for the most left chart.
+
+87
+00:07:29,020 --> 00:07:33,840
+The other charts don't need a label because
+they can borrow the label from the first chart.
+
+88
+00:07:34,200 --> 00:07:40,560
+So you are looking at three different charts, but
+on the other hand, they are also one complete chart.
+
+89
+00:07:40,820 --> 00:07:41,979
+The same for the legend.
+
+90
+00:07:41,979 --> 00:07:46,379
+I only have the legend in there once, because
+it is the same for all the three graphs.
+
+91
+00:07:47,660 --> 00:07:51,680
+Still I have a lot of choices how I am going
+to present the data, and there is no rule
+
+92
+00:07:51,680 --> 00:07:57,419
+for it what is the best way, because it is
+depending on what I want to tell.
+
+93
+00:07:57,419 --> 00:08:02,199
+If I want to focus on Distribution Channel,
+this would be a very good option.
+
+94
+00:08:02,480 --> 00:08:07,740
+But maybe, I want to focus on region, and
+then I would shuffle the data a little bit...
+
+95
+00:08:07,740 --> 00:08:10,660
+and put in the region in the columns.
+
+96
+00:08:11,980 --> 00:08:14,620
+Or, I could do something completely different,
+
+97
+00:08:14,620 --> 00:08:20,460
+because the trouble here is, if I want to, for
+example, compare the bookings of West...
+
+98
+00:08:20,800 --> 00:08:26,660
+to the bookings of South, then I can do it, but
+it is difficult to see the difference in length.
+
+99
+00:08:26,660 --> 00:08:29,820
+It would be easier if it would be presented vertically.
+
+100
+00:08:30,520 --> 00:08:32,500
+So that would be another choice.
+
+101
+00:08:33,140 --> 00:08:38,420
+And that brings us to the end of some of the
+best practices to create very nice looking graphs.
+
+102
+00:08:39,600 --> 00:08:44,640
+In this session you got a lot of theory about how to
+design your tables and how to design your graphs.
+
+103
+00:08:45,680 --> 00:08:50,940
+In the session of next week we are going to bring
+this all together and create our own dashboard.
+
+104
+00:08:51,280 --> 00:08:52,920
+Hope to see you back next week.
+
