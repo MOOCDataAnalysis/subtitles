@@ -1,0 +1,260 @@
+1
+00:00:02,470 --> 00:00:07,460
+Hello everybody!
+Last time we looked at the charts to measure
+
+2
+00:00:07,460 --> 00:00:12,000
+the sales, operating profit, and the margin,
+and they were all vertically oriented.
+
+3
+00:00:12,000 --> 00:00:17,670
+But of course we can do the same, but than
+in stead of a column chart make a bar chart
+
+4
+00:00:17,670 --> 00:00:20,710
+from it.
+And that's what we're going to do in the 'cost'
+
+5
+00:00:20,710 --> 00:00:23,460
+chart.
+So let's have a look in Excel how we're going
+
+6
+00:00:23,460 --> 00:00:28,269
+to do that.
+So, here we are in our file.
+
+7
+00:00:28,269 --> 00:00:35,270
+And I immediately went to the 'cost' sheet.
+Here I have all the information, all the cost
+
+8
+00:00:35,270 --> 00:00:40,110
+elements, and the actual value, and the budget
+value.
+
+9
+00:00:40,110 --> 00:00:55,310
+And we're going to create a chart from that.
+There we are.
+
+10
+00:00:55,310 --> 00:00:58,360
+And then I need to do the trick with the 'ctrl'
+button.
+
+11
+00:00:58,360 --> 00:01:01,829
+There we are.
+So I've selected the data.
+
+12
+00:01:01,829 --> 00:01:07,690
+I've selected the cost elements, the categories,
+and I've selected the numbers.
+
+13
+00:01:07,690 --> 00:01:17,420
+And I'm going to say 'insert', 'bar chart',
+'2D bar.'
+
+14
+00:01:17,420 --> 00:01:21,500
+And there we are.
+We know from the last time that the trick
+
+15
+00:01:21,500 --> 00:01:26,409
+we have to do is:
+we select the actual range, we right-mouse
+
+16
+00:01:26,409 --> 00:01:32,110
+click.
+And we're going to format that data series.
+
+17
+00:01:32,110 --> 00:01:35,299
+And we're going to put in on the secondary
+axis.
+
+18
+00:01:35,299 --> 00:01:39,640
+So there we are.
+We have to play a little bit with the gap
+
+19
+00:01:39,640 --> 00:01:45,100
+width.
+We're going to change this one to 200%.
+
+20
+00:01:45,100 --> 00:01:49,420
+And now I want to select also the other series,
+but I have to be very careful, and I don't
+
+21
+00:01:49,420 --> 00:01:54,380
+like that.
+Luckily I can also select (over here) a different
+
+22
+00:01:54,380 --> 00:01:57,770
+data series.
+I'm going to 'series two'.
+
+23
+00:01:57,770 --> 00:02:09,409
+And I will change the value over here to 50.
+And this is kind of OK, but of course we have
+
+24
+00:02:09,409 --> 00:02:15,440
+the same scaling problem.
+So, we're going to format the axes a little
+
+25
+00:02:15,440 --> 00:02:27,120
+bit.
+And in this case I want to have a hard coded
+
+26
+00:02:27,120 --> 00:02:39,480
+maximum of two million.
+I'm going to do the same over here.
+
+27
+00:02:39,480 --> 00:02:52,040
+Then, I don't need this one.
+And now I have still one problem.
+
+28
+00:02:52,040 --> 00:03:07,430
+[Which] is that the data is not sorted correctly.
+The easiest way to do that is to sort it over
+
+29
+00:03:07,430 --> 00:03:10,860
+here.
+There are other ways to do it, but this will
+
+30
+00:03:10,860 --> 00:03:20,360
+do the trick.
+We're going to sort it on column C, the 'actuals.'
+
+31
+00:03:20,360 --> 00:03:25,390
+And now it's ranked from high to low.
+I like to have that in a chart.
+
+32
+00:03:25,390 --> 00:03:32,319
+Get rid of the title.
+Get rid of the legend.
+
+33
+00:03:32,319 --> 00:03:43,300
+Get rid of the grid lines.
+Also, I want to change these big numbers.
+
+34
+00:03:43,300 --> 00:03:53,800
+So we're going to change the number format
+again.
+
+35
+00:03:53,800 --> 00:04:06,019
+And I want to have that in thousands.
+So a single comma should do the trick.
+
+36
+00:04:06,019 --> 00:04:13,360
+There we are.
+And then we have to adjust the format.
+
+37
+00:04:13,360 --> 00:04:20,310
+But then I have to select the chart area.
+I can also change the format over here.
+
+38
+00:04:20,310 --> 00:04:30,610
+We want to it to be 2.15 and, our well known,
+2.27.
+
+39
+00:04:30,610 --> 00:04:38,520
+And then we should get rid of any fill that
+is left there.
+
+40
+00:04:38,520 --> 00:04:41,820
+No border.
+No fill.
+
+41
+00:04:41,820 --> 00:04:49,370
+Oh, and we still have a very ugly color.
+That we will change with this color.
+
+42
+00:04:49,370 --> 00:05:00,050
+To keep it consistent.
+There we are.
+
+43
+00:05:00,050 --> 00:05:09,840
+And we're almost ready.
+We go back to our dashboard.
+
+44
+00:05:09,840 --> 00:05:22,300
+And we will put it in over here.
+And these are 'costs.'
+
+45
+00:05:22,300 --> 00:05:29,080
+And that should be a little bit larger font.
+Twenty.
+
+46
+00:05:34,840 --> 00:05:41,400
+There we are.
+Get rid of this.
+
+47
+00:05:41,410 --> 00:05:45,770
+And another chart filled.
+So.
+
+48
+00:05:45,770 --> 00:05:50,830
+The cost graph is also there.
+Now, let's have a look [at] what we will see
+
+49
+00:05:50,830 --> 00:05:55,300
+in the next video.
+In the next video we're leaving the charts
+
+50
+00:05:55,300 --> 00:05:57,710
+behind for a moment,
+and we're going to look at a full profit and
+
+51
+00:05:57,710 --> 00:06:02,500
+loss statement in a table.
+And that is going to be interesting, I promise
+
+52
+00:06:02,500 --> 00:06:03,360
+you.
+See you then!
+

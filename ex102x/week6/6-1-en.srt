@@ -1,0 +1,145 @@
+1
+00:00:00,440 --> 00:00:03,390
+Hello everybody!
+Welcome in the next week of the course.
+
+2
+00:00:03,390 --> 00:00:08,969
+Last week we looked at the design of tables
+and graphs,
+
+3
+00:00:08,969 --> 00:00:14,549
+and today we will have a look at dashboard
+design.
+
+4
+00:00:14,549 --> 00:00:19,750
+Last week one of the central points we discussed
+was that when you are going to design a table,
+
+5
+00:00:19,750 --> 00:00:23,930
+or when you are going to design a graph, you
+have to really think about "who's going to
+
+6
+00:00:23,930 --> 00:00:29,750
+be my audience", and "what kind of message
+do I want to tell."
+
+7
+00:00:29,750 --> 00:00:33,109
+And "what is the goal of my graph", or "what
+is the goal of my table."
+
+8
+00:00:33,109 --> 00:00:37,719
+But now we have a dashboard.
+And we have many tables and many graphs.
+
+9
+00:00:37,719 --> 00:00:43,819
+So we have to think a bit about what should
+be the goal or the message.
+
+10
+00:00:43,819 --> 00:00:48,300
+Dashboards, we know them from planes from
+a cockpit.
+
+11
+00:00:48,300 --> 00:00:57,229
+We know them from cars, very beautiful cars.
+And the question is: "why do we need a dashboard?"
+
+12
+00:00:57,229 --> 00:01:02,190
+Why does a plane have a dashboard?
+Why does a car have a dashboard?
+
+13
+00:01:02,190 --> 00:01:07,940
+And if you think a little bit about it,
+then [you realize that] there is somebody behind the dashboard.
+
+14
+00:01:07,940 --> 00:01:13,090
+And that person wants to go from A to B.
+And it needs to steer the machine.
+
+15
+00:01:13,090 --> 00:01:19,920
+Either the plane or the car.
+And to do so, it needs information.
+
+16
+00:01:19,920 --> 00:01:25,420
+If you are going to design a dashboard to
+present your quantitative data you should
+
+17
+00:01:25,420 --> 00:01:30,440
+ask yourself the same question.
+Who's going to sit behind my dashboard?
+
+18
+00:01:30,440 --> 00:01:37,230
+And what is he or she going to control?
+Will that be an organization, or a process,
+
+19
+00:01:37,230 --> 00:01:43,600
+or a research project?
+If you know what has to be controlled, the
+
+20
+00:01:43,600 --> 00:01:51,160
+next question is: "what kind of information
+do I need, so that I really can control my
+
+21
+00:01:51,160 --> 00:01:56,920
+organization or my process?"
+So that's what we're going to focus on today.
+
+22
+00:01:56,920 --> 00:02:02,640
+I will show you a lot of tips and tricks how
+you can do that in Excel, but actually, for
+
+23
+00:02:02,640 --> 00:02:08,890
+me, this is the most important message of
+the whole series of videos:
+
+24
+00:02:08,890 --> 00:02:12,590
+That before you start working in Excel, or
+any other software, you should really think
+
+25
+00:02:12,590 --> 00:02:17,890
+"what should be on my dashboard? What is needed
+to control the process that I will give information
+
+26
+00:02:17,890 --> 00:02:21,160
+about?"
+So what are we going to do today?
+
+27
+00:02:21,160 --> 00:02:27,569
+We're going to have a look at this dashboard.
+It's completely built in Excel, and we're
+
+28
+00:02:27,569 --> 00:02:33,230
+going to build it together, step by step.
+We will start with an empty spreadsheet, and
+
+29
+00:02:33,230 --> 00:02:37,950
+we will fill -gradually- the whole dashboard.
+So, see you in the next video!
+

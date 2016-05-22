@@ -1,0 +1,344 @@
+1
+00:00:02,080 --> 00:00:06,259
+Hello everybody!
+So here we have our big dashboard that we're
+
+2
+00:00:06,259 --> 00:00:09,709
+going to design.
+In this video we're going to focus on the
+
+3
+00:00:09,709 --> 00:00:16,640
+very first graph: sales by category.
+So let's have a closer look at that.
+
+4
+00:00:16,640 --> 00:00:22,840
+I think it is the most easy chart we're going
+to do today, and I think 90% of the people
+
+5
+00:00:22,840 --> 00:00:25,890
+that had to present this data would have used
+a pie chart.
+
+6
+00:00:25,890 --> 00:00:31,840
+But probably you are not among this 90% because
+you followed the lecture from last week [previous
+
+7
+00:00:31,840 --> 00:00:35,699
+lecture], and you know pies should be reserved
+for desert.
+
+8
+00:00:35,699 --> 00:00:40,699
+But, we still want to explain the same kind
+of message here,
+
+9
+00:00:40,699 --> 00:00:45,790
+that we have three broad categories of sales:
+vegetables, dairy, and meat.
+
+10
+00:00:45,790 --> 00:00:51,290
+And we want to know the relative part of each
+category.
+
+11
+00:00:51,290 --> 00:00:56,690
+And that is the reason that I choose to put
+the percentages as a label into the graph.
+
+12
+00:00:56,690 --> 00:01:00,890
+So, let's have a look in Excel how we can
+accomplish this.
+
+13
+00:01:00,890 --> 00:01:09,230
+So, here we are back in our file.
+We need to have our very first chart.
+
+14
+00:01:09,230 --> 00:01:19,380
+As a rule every chart I'm going to create
+in my dashboard will have it's own sheet.
+
+15
+00:01:19,380 --> 00:01:25,270
+In this case I need the sheet with the sales
+details.
+
+16
+00:01:25,270 --> 00:01:29,670
+Here I have my three categories with the three
+percentages.
+
+17
+00:01:29,670 --> 00:01:40,940
+I'm going to select them.
+I'm going to insert a chart.
+
+18
+00:01:40,940 --> 00:01:46,520
+And in this case we use one of the basic charts,
+which is the bar chart.
+
+19
+00:01:46,520 --> 00:01:51,960
+And we always use a 2D bar.
+Never 3D.
+
+20
+00:01:51,960 --> 00:01:59,040
+Here I have my default Excel bar chart.
+It's rather OK.
+
+21
+00:01:59,040 --> 00:02:03,479
+But it's not going to fit in our dashboard.
+So we have to make some adjustments.
+
+22
+00:02:03,479 --> 00:02:09,170
+The title, you can use a title in your chart,
+but I normally don't do that.
+
+23
+00:02:09,170 --> 00:02:16,980
+I use Excel cells for that.
+So I'm going to get rid of the chart [title].
+
+24
+00:02:16,980 --> 00:02:24,920
+I think that the gap between, the whitespace
+between the bars, to my taste it is a bit
+
+25
+00:02:24,920 --> 00:02:27,010
+too much.
+So I'm going to change that.
+
+26
+00:02:27,010 --> 00:02:35,620
+I will select the range, I hit the right mouse-button.
+And I'm going to format the data series.
+
+27
+00:02:35,620 --> 00:02:43,490
+I get a nice screen over here.
+Here I can influence the gap width.
+
+28
+00:02:43,490 --> 00:02:49,610
+And I want to have less white, so therefore
+I have to lesser [decrease] the percentage.
+
+29
+00:02:49,610 --> 00:02:57,760
+I go to 75%, and I think that looks quite
+nice.
+
+30
+00:02:57,760 --> 00:03:01,550
+Then I need to know how big my chart should
+be.
+
+31
+00:03:01,550 --> 00:03:04,880
+I have a little trick for that.
+I'm going to show you that.
+
+32
+00:03:04,880 --> 00:03:24,709
+I have my dashboard over here.
+I will insert a rectangle. Put it over here.
+
+33
+00:03:24,709 --> 00:03:31,720
+We have to see, I think the chart has to come
+over here, but we can check that later on.
+
+34
+00:03:31,720 --> 00:03:37,739
+Now, there is a little trick.
+If I move an object within an Excel sheet,
+
+35
+00:03:37,739 --> 00:03:43,290
+and before I do that hit the 'alt' button,
+which I'm doing now on the keyboard.
+
+36
+00:03:43,290 --> 00:03:50,270
+If I then start moving it will align immediately
+to the cells.
+
+37
+00:03:50,270 --> 00:03:58,690
+And that makes it very easy to make this rectangle
+exactly as big as the placeholder for my chart.
+
+38
+00:03:58,690 --> 00:04:05,319
+Now I can see over here the format is 2.15"
+by 2.27".
+
+39
+00:04:05,319 --> 00:04:09,970
+I'm going to use that to create exactly the
+right format for my chart.
+
+40
+00:04:09,970 --> 00:04:21,319
+So, we delete that [rectangle] again.
+We go back to our 'sales details'.
+
+41
+00:04:21,319 --> 00:04:26,759
+I will select the chart.
+You can see it over here
+
+42
+00:04:26,759 --> 00:04:30,979
+Go to the format.
+I can see over here that the chart area is
+
+43
+00:04:30,979 --> 00:04:45,000
+selected, and that is what I need.
+I need it to be 2.15" by 2.27".
+
+44
+00:04:45,000 --> 00:04:51,409
+Now it is the right format.
+The trouble now: it's solid white, and I don't
+
+45
+00:04:51,409 --> 00:04:55,650
+like that.
+So I'm going to remove the background.
+
+46
+00:04:55,650 --> 00:05:01,159
+So I'm going to format the chart area.
+I get my formatting screen over here.
+
+47
+00:05:01,159 --> 00:05:07,180
+I go to the fill, and I say I do not want
+to have any fill.
+
+48
+00:05:07,180 --> 00:05:12,819
+I will check the border because I also like
+to not have a border.
+
+49
+00:05:12,819 --> 00:05:17,289
+In this case "less is more" we said, so I'm
+going to get rid of the grid lines.
+
+50
+00:05:17,289 --> 00:05:20,800
+They are not that important.
+And what we still need is the data label over
+
+51
+00:05:20,800 --> 00:05:33,509
+here.
+So I'm going to select the range.
+
+52
+00:05:33,509 --> 00:05:50,509
+I'm going to add an object to my graph.
+I'm going to say I need data labels.
+
+53
+00:05:50,509 --> 00:05:54,610
+Then they're outside my bars.
+I don't like that. I want them inside.
+
+54
+00:05:54,610 --> 00:06:01,569
+So I select them.
+I can see over here that they're selected.
+
+55
+00:06:01,569 --> 00:06:06,460
+Now I say I want to have them on the inside,
+at the base.
+
+56
+00:06:06,460 --> 00:06:11,080
+But black on blue, that's not that good.
+So we have to change the font.
+
+57
+00:06:11,080 --> 00:06:18,899
+So I go from 'label options' to 'text options'
+to 'text fill', and I'm going to change the
+
+58
+00:06:18,899 --> 00:06:22,969
+color to white.
+There we are.
+
+59
+00:06:22,969 --> 00:06:29,610
+Now I'm going to select my chart.
+I will cut it with 'ctrl+x'.
+
+60
+00:06:29,610 --> 00:06:36,619
+I will go to my dashboard.
+I will select the right cell.
+
+61
+00:06:36,619 --> 00:06:43,139
+We will have a little peak at the final result
+to see where it goes.
+
+62
+00:06:43,139 --> 00:06:48,550
+It should go over there.
+So we go back.
+
+63
+00:06:48,550 --> 00:06:53,189
+Get rid of this.
+So this is my last column, so it should be
+
+64
+00:06:53,189 --> 00:06:56,830
+over here.
+And if I position my cursor on the right cell
+
+65
+00:06:56,830 --> 00:07:05,039
+I can just paste it in, and it will fit immediately
+exactly in the place that I reserved for it.
+
+66
+00:07:05,039 --> 00:07:19,189
+And in this case it will be 'sales by category.'
+It's always nice to say that it is in percentages.
+
+67
+00:07:19,189 --> 00:07:27,610
+Here we are, this is our result.
+Next week, or in the next video, we're going
+
+68
+00:07:27,610 --> 00:07:31,879
+to do an additional chart, which is the 'average
+order size.'
+
+69
+00:07:31,879 --> 00:07:32,499
+See you then!
+

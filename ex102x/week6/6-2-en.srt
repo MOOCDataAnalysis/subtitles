@@ -1,0 +1,245 @@
+1
+00:00:02,280 --> 00:00:06,460
+Hello everybody!
+In our last video we ended with this dashboard.
+
+2
+00:00:06,460 --> 00:00:12,599
+I promised that we are going to build this
+spreadsheet ourselves, this dashboard ourselves,
+
+3
+00:00:12,599 --> 00:00:17,890
+in Excel.
+But before we start, before you can build
+
+4
+00:00:17,890 --> 00:00:22,570
+anything, you have to think a little bit about
+how you're going to design it.
+
+5
+00:00:22,570 --> 00:00:27,840
+So, actually what we need is some kind of
+grid.
+
+6
+00:00:27,840 --> 00:00:31,700
+I can show it to you on the slides, but I
+think it would be much better if we switch
+
+7
+00:00:31,700 --> 00:00:35,339
+to Excel, and I'm going to show it to you
+over there.
+
+8
+00:00:35,339 --> 00:00:40,199
+So here we see our Excel file.
+This is the grid, and I'll explain how the
+
+9
+00:00:40,199 --> 00:00:44,420
+grid is working later on.
+But before we start I think it is good to
+
+10
+00:00:44,420 --> 00:00:47,890
+have a quick look at the file we're working
+with.
+
+11
+00:00:47,890 --> 00:00:52,690
+And I think one of the first things you see
+is that there are a lot of different worksheets.
+
+12
+00:00:52,690 --> 00:00:59,149
+It would be very cumbersome if we have to
+manually navigate through that.
+
+13
+00:00:59,149 --> 00:01:04,170
+So what is a very easy trick: if you go between
+these two arrows with your mouse, and you
+
+14
+00:01:04,170 --> 00:01:08,810
+right-click, you get a list of all the sheets
+that are in there.
+
+15
+00:01:08,810 --> 00:01:15,189
+And there are two sheets that are very important.
+In the first week of this course you learned
+
+16
+00:01:15,189 --> 00:01:21,770
+how to import data from a CSV-file on a regular
+basis into your Excel file.
+
+17
+00:01:21,770 --> 00:01:29,409
+That is exactly what we did over here.
+This is not a small file, because if I clear
+
+18
+00:01:29,409 --> 00:01:38,579
+the filter we can see that we have about 27000
+records.
+
+19
+00:01:38,579 --> 00:01:46,609
+This is a file with financial information,
+but we also have a file with sales information.
+
+20
+00:01:46,609 --> 00:01:53,640
+The company that we're working with today
+can be described as on online supermarket.
+
+21
+00:01:53,640 --> 00:01:59,060
+So we can order our groceries online.
+And this is the financial data that I get
+
+22
+00:01:59,060 --> 00:02:04,939
+every month, and here is the data from my
+web-shop that gives me exactly which customer
+
+23
+00:02:04,939 --> 00:02:11,409
+has bought which product, in which quantity,
+what was the total amount, what was the price,
+
+24
+00:02:11,409 --> 00:02:15,349
+and we made all kinds of formulas that will
+look up some additional data.
+
+25
+00:02:15,349 --> 00:02:20,260
+So if I have the 'bell pepper', then I also
+know to which shelf this belongs and to which
+
+26
+00:02:20,260 --> 00:02:26,239
+category it belongs.
+And we have these two slides over here.
+
+27
+00:02:26,239 --> 00:02:33,010
+Here I have my list with products with the
+self and with the category.
+
+28
+00:02:33,010 --> 00:02:36,950
+And on this slide I have what is called 'the
+chart of accounts'.
+
+29
+00:02:36,950 --> 00:02:43,299
+These are my general ledger accounts, that
+are coming from my financial software.
+
+30
+00:02:43,299 --> 00:02:50,640
+I can see all necessary reporting groups.
+That are the most important files.
+
+31
+00:02:50,640 --> 00:02:56,959
+And then I get all kinds of data, and we will
+look into it in more detail later on, that
+
+32
+00:02:56,959 --> 00:03:01,610
+I need for my dashboard.
+But now, let's have a look at the design of
+
+33
+00:03:01,610 --> 00:03:08,810
+the dashboard.
+The first thing you have to do is to think
+
+34
+00:03:08,810 --> 00:03:14,769
+about "what is going to happen with this dashboard?"
+Is somebody going to print it out,
+
+35
+00:03:14,769 --> 00:03:17,420
+or is somebody going to look at in from a
+screen.
+
+36
+00:03:17,420 --> 00:03:20,470
+And if they're going to look at a screen,
+what kind of screen will it be?
+
+37
+00:03:20,470 --> 00:03:29,519
+Is it an 11 inch, very small, laptop?
+Or is it a 27 inch, very large, display?
+
+38
+00:03:29,519 --> 00:03:37,060
+You should design for the kind of screen or
+paper where your dashboard will end up.
+
+39
+00:03:37,060 --> 00:03:43,739
+And what I like to do if I design a dashboard
+is to setup some kind of grid.
+
+40
+00:03:43,739 --> 00:03:55,829
+So I have created little separators over here.
+And every box is going to be a graph.
+
+41
+00:03:55,829 --> 00:04:02,450
+I have reserved one line for a title, for
+the dashboard title.
+
+42
+00:04:02,450 --> 00:04:07,110
+And some general information about the dashboard.
+You can see it as the dashboard header.
+
+43
+00:04:07,110 --> 00:04:19,060
+And then I have here an 'area title', a 'chart
+title', here my chart can come in, and then
+
+44
+00:04:19,060 --> 00:04:22,550
+I have a footer for each chart.
+And then I will repeat it over here.
+
+45
+00:04:22,550 --> 00:04:28,880
+Again the 'area title', the 'chart title',
+a placeholder for my chart, and a chart footer.
+
+46
+00:04:28,880 --> 00:04:35,710
+And based on this I can plan my dashboard.
+And that is what we're going to do in the
+
+47
+00:04:35,710 --> 00:04:40,400
+next session.
+So here we are, back in our grid.
+
+48
+00:04:40,400 --> 00:04:45,810
+Let's have a look at our complete dashboard.
+In the next video we're going to start working
+
+49
+00:04:45,810 --> 00:04:48,819
+with the very first graph, the 'sales by category'.
+See you then!
+

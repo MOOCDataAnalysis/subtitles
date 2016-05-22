@@ -1,0 +1,239 @@
+1
+00:00:01,900 --> 00:00:04,480
+Hello everybody!
+Welcome back.
+
+2
+00:00:04,480 --> 00:00:09,740
+We're going to have a look at the next chart.
+That is the a combined chart.
+
+3
+00:00:09,740 --> 00:00:13,490
+It is the sales trend.
+We have a line chart and a we have a so called
+
+4
+00:00:13,490 --> 00:00:18,039
+area chart.
+So, let's have a look in Excel how we're going
+
+5
+00:00:18,039 --> 00:00:28,789
+to create that.
+We go to the right tab, with the data.
+
+6
+00:00:28,789 --> 00:00:33,620
+We need the sales trend.
+Here we are.
+
+7
+00:00:33,620 --> 00:00:40,820
+And we're going to do the same as last time.
+We're going to select the data we need.
+
+8
+00:00:40,820 --> 00:00:44,850
+This time I don't need my 'ctrl' key that is nagging me.
+
+9
+00:00:44,850 --> 00:00:52,730
+I can just select everything I need.
+So I have my x-axis data, my actual data,
+
+10
+00:00:52,730 --> 00:01:00,670
+and my budget data.
+And we say 'insert', and we're going to insert
+
+11
+00:01:00,670 --> 00:01:05,030
+a line chart.
+Over here.
+
+12
+00:01:05,030 --> 00:01:08,470
+2D line.
+So, here we have the data.
+
+13
+00:01:08,470 --> 00:01:14,190
+First, we will clean it up a little bit.
+Delete the title.
+
+14
+00:01:14,190 --> 00:01:20,650
+I don't need the legend.
+In the last video we will focus on what to
+
+15
+00:01:20,650 --> 00:01:23,460
+do with a legend.
+But we don't need it on every chart.
+
+16
+00:01:23,460 --> 00:01:29,340
+So we're going to delete it.
+For once I will leave the grid lines over
+
+17
+00:01:29,340 --> 00:01:34,070
+here.
+But this line, which is the budget line.
+
+18
+00:01:34,070 --> 00:01:40,550
+And I can see it over here.
+I like that to be an area chart.
+
+19
+00:01:40,550 --> 00:01:50,229
+So I select it, I use my right mouse-button,
+and I say 'change the series chart type.'
+
+20
+00:01:50,229 --> 00:01:55,310
+And we're going to change that to an area
+chart.
+
+21
+00:01:55,310 --> 00:02:05,770
+There we are.
+But now it also changed this one.
+
+22
+00:02:05,770 --> 00:02:19,930
+This should still be a line.
+Here we are.
+
+23
+00:02:19,930 --> 00:02:23,719
+I changed it for the two [of them] at the same
+time.
+
+24
+00:02:23,719 --> 00:02:28,180
+This is what we want.
+I don't like the colors, so I'm going to change
+
+25
+00:02:28,180 --> 00:02:32,219
+the color a little bit.
+Normally it would be a light blue, but to
+
+26
+00:02:32,219 --> 00:02:37,739
+make it a little bit easier to see it in the
+video I will change it to a color that I don't
+
+27
+00:02:37,739 --> 00:02:50,379
+like but is clearly visible.
+And that is.. this one.
+
+28
+00:02:50,379 --> 00:03:02,999
+And I want to have this in a different number format.
+Although, now I think that this is OK.
+
+29
+00:03:02,999 --> 00:03:06,809
+Let's check our master.
+Yeah, this is OK.
+
+30
+00:03:06,809 --> 00:03:11,849
+We want that in thousands.
+We do have that.
+
+31
+00:03:11,849 --> 00:03:24,150
+Than we just have to change the format to
+2.15 by 2.27.
+
+32
+00:03:24,150 --> 00:03:30,449
+There we are.
+I should change the font over here.
+
+33
+00:03:30,449 --> 00:03:36,019
+Otherwise I get text in an angle, and I don't
+like that.
+
+34
+00:03:36,019 --> 00:03:45,400
+I will do the same for the vertical axis.
+And we should reduce the number of labels
+
+35
+00:03:45,400 --> 00:03:49,900
+a little bit over here.
+I'm going to format the axis.
+
+36
+00:03:49,900 --> 00:03:54,589
+We say we want the labels.. make it consistent
+with the other one.
+
+37
+00:03:54,589 --> 00:04:06,980
+We want to have it only [every] three times.
+And then we should get rid of any fill and
+
+38
+00:04:06,980 --> 00:04:13,870
+any border.
+We will cut it.
+
+39
+00:04:13,870 --> 00:04:22,310
+Go to the dashboard and I think the sales
+trend should go over here.
+
+40
+00:04:22,310 --> 00:04:32,330
+There we are.
+And I will call it 'sales trend.'
+
+41
+00:04:32,330 --> 00:04:39,020
+And I will do it here in the chart title.
+Sales trend.
+
+42
+00:04:39,020 --> 00:04:42,620
+And in this case it is really important that
+we say something about the number that people
+
+43
+00:04:42,620 --> 00:04:50,080
+see.
+It's '1000 x $.'
+
+44
+00:04:50,080 --> 00:04:59,300
+So, there we are.
+So, we're back at our overview.
+
+45
+00:04:59,300 --> 00:05:03,800
+Three charts are filled now.
+Let's have a look what the next video will
+
+46
+00:05:03,800 --> 00:05:07,550
+bring us.
+It's a new type of graph.
+
+47
+00:05:07,550 --> 00:05:11,689
+It's a thermometer graph.
+And it's a little bit different that what
+
+48
+00:05:11,689 --> 00:05:15,130
+we saw until now.
+So I will see you in the next video.
+

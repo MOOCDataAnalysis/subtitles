@@ -1,0 +1,285 @@
+1
+00:00:00,849 --> 00:00:04,029
+Hello everybody!
+In this video we're going to focus on the
+
+2
+00:00:04,029 --> 00:00:08,240
+sparklines.
+And we combine it with a top-ten list.
+
+3
+00:00:08,240 --> 00:00:12,880
+Here you see a detailed [view] of it.
+So, I have two top-ten lists.
+
+4
+00:00:12,880 --> 00:00:15,960
+I have a top-ten list of all the customers,
+with their sales.
+
+5
+00:00:15,960 --> 00:00:20,340
+And I have a top-ten list of the product,
+with their sales.
+
+6
+00:00:20,340 --> 00:00:25,030
+But they're both year-to-date figures, so
+I also want to see somehow a little bit the
+
+7
+00:00:25,030 --> 00:00:28,830
+trend.
+And for that we use a sparkline.
+
+8
+00:00:28,830 --> 00:00:34,550
+So let's see in Excel how we can create this.
+So we're back in our file.
+
+9
+00:00:34,550 --> 00:00:38,960
+We need to have the two top-ten lists over
+here.
+
+10
+00:00:38,960 --> 00:00:43,480
+And the data is prepared, of course.
+Here we have our customer top-ten.
+
+11
+00:00:45,580 --> 00:00:57,300
+And the trick I did is that I use the top-ten
+functionality of Excel, of the PivotTable.
+
+12
+00:00:57,309 --> 00:01:02,109
+In the filter, you can choose a top-ten.
+And that's what we did.
+
+13
+00:01:02,109 --> 00:01:09,299
+So that means that I always have 10 values.
+And then I use a lookup function, an index
+
+14
+00:01:09,299 --> 00:01:15,740
+function to get the data replicated over here.
+So that I can paste it into my dashboard.
+
+15
+00:01:15,740 --> 00:01:23,880
+And I need some supporting data of the last
+twelve months, for the sparklines.
+
+16
+00:01:23,880 --> 00:01:27,020
+So the sparklines is the first object we're
+going to create.
+
+17
+00:01:27,020 --> 00:01:33,490
+It should go over here, so I'm going to select
+the trend column.
+
+18
+00:01:33,490 --> 00:01:42,929
+And then I say: 'insert,' a spark.. not a
+sparkline, but a column-sparkline.
+
+19
+00:01:42,929 --> 00:01:45,310
+And then it want's to know where the data
+is located.
+
+20
+00:01:45,310 --> 00:01:49,770
+So the nice thing you can do with a sparkline
+is that you can select a whole group.
+
+21
+00:01:49,770 --> 00:01:53,920
+And then you select the data that goes with
+it.
+
+22
+00:01:58,320 --> 00:02:02,560
+There we are.
+And it will create the sparklines.
+
+23
+00:02:02,560 --> 00:02:05,880
+And what is very nice, is that the sparklines
+are now organized in a group.
+
+24
+00:02:05,880 --> 00:02:10,060
+So I can change the properties of the sparklines
+with one step.
+
+25
+00:02:10,060 --> 00:02:17,140
+And I want to have a different color.
+The ugly one.
+
+26
+00:02:17,140 --> 00:02:22,120
+There we are.
+Ah.. I think for this one we can also use
+
+27
+00:02:22,120 --> 00:02:27,830
+this one.
+So that's the sparkline.
+
+28
+00:02:27,830 --> 00:02:32,250
+And then we're going to treat it exactly the
+same as we did with the P&L table.
+
+29
+00:02:32,250 --> 00:02:44,330
+I'm going to select it.
+I'm going back to the dashboard.
+
+30
+00:02:44,330 --> 00:02:56,400
+I position my cursor.
+And again I paste it as a 'linked picture.'
+
+31
+00:02:56,400 --> 00:03:06,370
+And I adjust the size a little bit.
+There we are.
+
+32
+00:03:06,370 --> 00:03:11,620
+And now we have to do the same for the product
+top-ten.
+
+33
+00:03:13,200 --> 00:03:26,780
+We select the trend column again.
+We insert a sparkline.
+
+34
+00:03:26,790 --> 00:03:44,480
+Select the data.
+Adjust the color.
+
+35
+00:03:44,480 --> 00:03:56,980
+And copy the table.
+Back to our dashboard.
+
+36
+00:03:56,980 --> 00:04:05,330
+And we paste it again, as a 'linked picture.'
+And as a final step we have to adjust the
+
+37
+00:04:05,330 --> 00:04:24,010
+size a little bit.
+There we are.
+
+38
+00:04:24,010 --> 00:04:30,160
+So we're almost done now.
+So, we're almost there.
+
+39
+00:04:30,160 --> 00:04:34,700
+All the charts are filled.
+There is one [bit of] trouble.
+
+40
+00:04:34,700 --> 00:04:39,930
+There is one problem.
+To the right we have a white empty place for
+
+41
+00:04:39,930 --> 00:04:43,950
+a legend.
+And that is something you can figure out yourself
+
+42
+00:04:43,950 --> 00:04:48,050
+how you can copy that in.
+The hint that I'll give you is that you can
+
+43
+00:04:48,050 --> 00:04:51,770
+also use a linked picture.
+And if you look in the file, you will find
+
+44
+00:04:51,770 --> 00:04:56,950
+a sheet that is labeled 'legend,' where you'll
+find an area that you can copy.
+
+45
+00:04:56,950 --> 00:05:00,740
+And the other thing you have to do is you
+have to clean up the colors a little bit.
+
+46
+00:05:00,740 --> 00:05:06,100
+Because this is looking very ugly.
+We only needed that to visualize our grid.
+
+47
+00:05:06,100 --> 00:05:12,470
+But this is how we would like to see it.
+So we want to have some gray background behind
+
+48
+00:05:12,470 --> 00:05:17,070
+the graphs, and all the other colors should
+go.
+
+49
+00:05:17,070 --> 00:05:23,350
+And we see your legend to the right.
+And that brings us to the end of this series
+
+50
+00:05:23,350 --> 00:05:27,090
+of videos.
+We have to surprises for you, two little bonuses
+
+51
+00:05:27,090 --> 00:05:33,240
+that you can have a look at.
+But I would like to end with this slide.
+
+52
+00:05:33,240 --> 00:05:41,000
+That is: we spent a lot of time doing all
+kinds of tricks and making a nice dashboard
+
+53
+00:05:41,000 --> 00:05:44,310
+in Excel.
+But what is really important is that before
+
+54
+00:05:44,310 --> 00:05:48,389
+you start doing anything in Excel is that
+you really think: "what is the information
+
+55
+00:05:48,389 --> 00:05:52,290
+that I need to present to the driver behind
+my dashboard?"
+
+56
+00:05:52,290 --> 00:05:58,169
+So, I hope you enjoyed it.
+I hope to see some of you back in the bonus
+
+57
+00:05:58,169 --> 00:06:00,889
+videos.
+And otherwise, see you next time!
+

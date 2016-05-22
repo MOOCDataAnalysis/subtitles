@@ -1,0 +1,329 @@
+1
+00:00:00,740 --> 00:00:04,340
+Hello everybody!
+Ready for our next chart?
+
+2
+00:00:04,340 --> 00:00:10,120
+We're going to look at the average order size.
+Maybe you remember for last week that there
+
+3
+00:00:10,120 --> 00:00:14,570
+are three basic charts.
+We have a bar chart, or column chart.
+
+4
+00:00:14,570 --> 00:00:17,130
+We have a line chart, and we have a scatter
+[plot].
+
+5
+00:00:17,130 --> 00:00:23,009
+The scatter you won't see in the dashboard.
+The reason is that this is a business dashboard,
+
+6
+00:00:23,009 --> 00:00:28,980
+and normally we do not use a scatter plot
+a lot, because we do not have to explain relations
+
+7
+00:00:28,980 --> 00:00:34,250
+between objects or variables.
+So we started with a bar chart, and now we
+
+8
+00:00:34,250 --> 00:00:37,540
+go to the next basic chart, which is the column
+chart.
+
+9
+00:00:37,540 --> 00:00:43,540
+It's going to be the 'average order size.'
+I would take a short moment to look at the
+
+10
+00:00:43,540 --> 00:00:47,060
+x-axis.
+There we see the periods, and the periods
+
+11
+00:00:47,060 --> 00:00:54,930
+consist of 2015-06 to 2016-06.
+And there are two things notable.
+
+12
+00:00:54,930 --> 00:00:59,780
+That you do not need to repeat (for every
+label) the year.
+
+13
+00:00:59,780 --> 00:01:04,600
+If you start with the year and end with the
+year it is very clear for the reader that
+
+14
+00:01:04,600 --> 00:01:07,840
+these are months in a year.
+And you save a little bit of space.
+
+15
+00:01:07,840 --> 00:01:12,850
+Because what I don't want to see is text that
+is vertically aligned or that is rotated.
+
+16
+00:01:12,850 --> 00:01:19,479
+I just want to have normal, plain text.
+The second thing you see is: if you ask people
+
+17
+00:01:19,479 --> 00:01:26,009
+to make some kind of trend overview, they
+normally will select twelve periods.
+
+18
+00:01:26,009 --> 00:01:30,840
+Because that's a whole year.
+What I did over here, and what I did in every
+
+19
+00:01:30,840 --> 00:01:35,359
+trend chart in the dashboard, is: I selected
+13 months.
+
+20
+00:01:35,359 --> 00:01:43,329
+And the reason that I do that is that if I
+choose 13 months I can compare this year with
+
+21
+00:01:43,329 --> 00:01:45,340
+last year.
+And that is what you see in the chart.
+
+22
+00:01:45,340 --> 00:01:52,600
+You see 2016-06, and we can compare it with
+2015-06.
+
+23
+00:01:52,600 --> 00:01:58,560
+So that's a small tip: use 13 periods.
+Now let's see how we can create that ourselves
+
+24
+00:01:58,560 --> 00:02:07,170
+in Excel.
+We need to have the 'average order size.'
+
+25
+00:02:07,170 --> 00:02:11,370
+Here is the raw data.
+Just a very quick moment, because what you
+
+26
+00:02:11,370 --> 00:02:18,940
+remember (maybe) from the chart, is that in
+2015-06, there was a hard return.
+
+27
+00:02:18,940 --> 00:02:24,340
+And this is the way how you do it.
+I have the year, I have the month, and in
+
+28
+00:02:24,340 --> 00:02:28,440
+between I put character 13, which is a hard
+return.
+
+29
+00:02:28,440 --> 00:02:32,830
+And that makes it possible to get the year
+on one row and the period on the other row.
+
+30
+00:02:32,830 --> 00:02:37,880
+The rest is easy.
+So here I have my data.
+
+31
+00:02:37,880 --> 00:02:51,780
+I want to have my average order size.
+So I'm going to select that.
+
+32
+00:02:51,780 --> 00:03:00,350
+My normal strategy for creating a chart is
+just select the data, and then insert the
+
+33
+00:03:00,350 --> 00:03:05,590
+graph, or the chart.
+And in this case I want to have a column chart.
+
+34
+00:03:05,590 --> 00:03:09,690
+Again 2D.
+And here it is.
+
+35
+00:03:09,690 --> 00:03:14,430
+And I made a little mistake, so we're going
+to delete that, because it would be nice if
+
+36
+00:03:14,430 --> 00:03:23,270
+we instruct Excel what should be the x-axis.
+That should be the periods.
+
+37
+00:03:23,270 --> 00:03:40,620
+And then I use the 'ctrl' button again, and
+the 'ctrl' button is playing tricks on me today..
+
+38
+00:03:45,600 --> 00:03:48,820
+There it is.
+
+39
+00:03:48,820 --> 00:03:51,790
+So now I have the two ranges.
+One for the x-axis and one for the average
+
+40
+00:03:51,790 --> 00:03:58,080
+order size.
+I say insert, column chart, column, and there
+
+41
+00:03:58,080 --> 00:04:03,260
+we are.
+And I see that now I have a nice x-axis.
+
+42
+00:04:03,260 --> 00:04:05,320
+First thing that I notice is that I have my
+title again.
+
+43
+00:04:05,320 --> 00:04:09,400
+I will remove it.
+I still don't like the whitespace, so we're
+
+44
+00:04:09,400 --> 00:04:20,180
+going to change that to 75%.
+Actually, what I should have done, also on
+
+45
+00:04:20,180 --> 00:04:27,870
+the other chart, is I should make it a little
+bit smaller.
+
+46
+00:04:27,870 --> 00:04:33,030
+Because we really have to fight for space
+on our dashboard.
+
+47
+00:04:33,030 --> 00:04:49,050
+So normally I make it 8 points.
+I don't need the grid lines.
+
+48
+00:04:49,050 --> 00:04:54,599
+And I don't want to have a fill.
+So most of the times we are changing the same
+
+49
+00:04:54,599 --> 00:04:57,560
+things.
+I don't want to have a fill.
+
+50
+00:04:57,560 --> 00:05:01,449
+To be sure, I don't want to have a border,
+because sometimes if I leave it on automatic
+
+51
+00:05:01,449 --> 00:05:08,889
+Excel will add it.
+Now, I still remember the dimensions of my
+
+52
+00:05:08,889 --> 00:05:13,110
+chart.
+So I'm going to change them.
+
+53
+00:05:13,110 --> 00:05:28,430
+They were 2.15 by 2.27.
+And it should be the right format.
+
+54
+00:05:28,430 --> 00:05:31,960
+Now, it's still a bit crowded over here, in
+the x-axis.
+
+55
+00:05:31,960 --> 00:05:39,629
+So, what I could do is..
+So I selected it, I can check that I selected
+
+56
+00:05:39,629 --> 00:05:44,740
+it over here.
+And now I can say that I want to have my labels
+
+57
+00:05:44,740 --> 00:05:52,870
+on a specific interval, which is three.
+Which makes it less crowded.
+
+58
+00:05:52,870 --> 00:06:00,249
+And I think I'm quite happy now with my chart.
+So I'm going to copy it.
+
+59
+00:06:00,249 --> 00:06:16,870
+Go back to my dashboard.
+And it can go next to our previous chart.
+
+60
+00:06:16,870 --> 00:06:24,059
+We will specify that it is the order sizes
+in '1 X $',
+
+61
+00:06:24,059 --> 00:06:34,729
+and we have to say that this is the 'average
+order size.'
+
+62
+00:06:34,729 --> 00:06:42,490
+There we are.
+OK, so that was the average order size.
+
+63
+00:06:42,490 --> 00:06:45,259
+So we have the 'sales by category', we have
+the 'average order size.'
+
+64
+00:06:45,259 --> 00:06:50,580
+We have two of our charts, but you see we
+have still a lot of empty white spaces.
+
+65
+00:06:50,580 --> 00:06:53,779
+In the next video we're going to have a look
+at the 'sales trend.'
+
+66
+00:06:53,779 --> 00:06:55,979
+We're going to have a new chart type.
+See you then!
+

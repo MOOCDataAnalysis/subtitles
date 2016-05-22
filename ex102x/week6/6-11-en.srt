@@ -1,0 +1,354 @@
+1
+00:00:01,689 --> 00:00:08,429
+Welcome back everybody!
+In the very last bonus video of this series.
+
+2
+00:00:08,429 --> 00:00:15,159
+In the previous bonus video we created a slicer.
+And now we can use the slicer to select the
+
+3
+00:00:15,159 --> 00:00:19,970
+period we want, to look at the data.
+And the data will change accordingly.
+
+4
+00:00:19,970 --> 00:00:26,050
+But there is one problem with it.
+And the problem is with the top-ten lists.
+
+5
+00:00:26,050 --> 00:00:32,119
+Because the top-ten lists are based on a PivotTable.
+And we really need that, because we have a
+
+6
+00:00:32,119 --> 00:00:39,300
+lot of customers, so we really need the PivotTable
+to summarize for us what are the top-ten customers.
+
+7
+00:00:39,300 --> 00:00:45,390
+And the same for the products.
+But if I change the selection of the period,
+
+8
+00:00:45,390 --> 00:00:51,670
+then it will look up additional data.
+You can see that the trend, the sparklines,
+
+9
+00:00:51,670 --> 00:00:55,629
+are changed.
+But it did not refresh the PivotTable.
+
+10
+00:00:55,629 --> 00:01:07,420
+To do that I need to go to 'data.'
+I should not select a picture.
+
+11
+00:01:07,420 --> 00:01:12,690
+I should go to 'data.'
+And then I say 'refresh all.'
+
+12
+00:01:12,690 --> 00:01:16,010
+And now on the background it will also automatically
+refresh the tables.
+
+13
+00:01:16,010 --> 00:01:22,720
+And we saw some changes over here.
+I don't like that.
+
+14
+00:01:22,720 --> 00:01:27,250
+I would like to automate that.
+There is no way to do that with a formula.
+
+15
+00:01:27,250 --> 00:01:29,860
+But we can do it with VBA.
+And it's not that difficult.
+
+16
+00:01:29,870 --> 00:01:35,380
+So, because it's a bonus exercise, we should
+try to do that.
+
+17
+00:01:35,390 --> 00:01:43,590
+We need to go into the VBA editor, and we
+can do that with key combination 'alt+F11.'
+
+18
+00:01:45,140 --> 00:01:55,060
+So, here we are in the program environment
+of Excel.
+
+19
+00:01:55,070 --> 00:02:08,530
+And here we see our VBA project with our worksheet.
+Now, what we want to do is that as soon as
+
+20
+00:02:08,530 --> 00:02:18,120
+this field, this cell, X1, as soon as that
+is changed we want that the PivotTables are
+
+21
+00:02:18,120 --> 00:02:22,900
+automatically refreshed.
+And we can do that by using an 'event.'
+
+22
+00:02:22,900 --> 00:02:27,300
+And it's an event that should be triggered
+by the sheet 'dashboard.'
+
+23
+00:02:27,300 --> 00:02:32,590
+Where is it..
+There we are.
+
+24
+00:02:32,590 --> 00:02:40,050
+So we double-click on it.
+Then I say it's a 'worksheet event.'
+
+25
+00:02:40,050 --> 00:02:44,780
+The first one is always not the one I want.
+Because this is a 'selection change.'
+
+26
+00:02:44,780 --> 00:02:50,270
+Meaning [an] event that will be triggered
+as soon as we click (with the mouse) somewhere
+
+27
+00:02:50,270 --> 00:02:54,310
+on a cell.
+But we only want to have an event triggered
+
+28
+00:02:54,310 --> 00:03:01,099
+if a value in a cell in changed.
+And therefore we need the 'change' event.
+
+29
+00:03:01,099 --> 00:03:07,910
+Meaning that this one we can delete.
+So what we see now is a..
+
+30
+00:03:07,910 --> 00:03:15,160
+We have an event, so every time a cell is
+changed on a worksheet, on the worksheet 'dashboard,'
+
+31
+00:03:15,160 --> 00:03:20,120
+this event is called, and we will get a 'target.'
+And the target is the cell, or the range of
+
+32
+00:03:20,120 --> 00:03:25,120
+cells that has been changed.
+So what we could do is, we could create an
+
+33
+00:03:25,120 --> 00:03:42,680
+'if' statement.
+'If target.Address = "$X$1"', because that
+
+34
+00:03:42,680 --> 00:03:46,250
+was our cell.
+Then, you should do something.
+
+35
+00:03:46,250 --> 00:03:50,260
+And an 'If' should always be closed with an
+'End If.'
+
+36
+00:03:51,880 --> 00:04:00,900
+So, every cell can be changed, but only if
+it is X1, then the PivotTable should be changed.
+
+37
+00:04:02,220 --> 00:04:17,960
+Now, to do that the PivotTables are located
+on a sheet 'CustT10' and 'ProdT10.'
+
+38
+00:04:17,970 --> 00:04:23,780
+And what will make our life a little bit easier,
+if we give the PivotTable that we see over
+
+39
+00:04:23,780 --> 00:04:29,310
+here a proper name.
+So let's do that.
+
+40
+00:04:29,310 --> 00:04:33,680
+Because normally it is called something like
+'PivotTable 1,' but now we're going to say
+
+41
+00:04:33,680 --> 00:04:42,280
+this is the Pivot..
+No, I'll just call it 'Top10Cust.'
+
+42
+00:04:42,280 --> 00:04:53,960
+And I'll do the same for the product PivotTable.
+With the exception that the name will be a
+
+43
+00:04:53,960 --> 00:04:58,280
+bit different.
+'Top10Prod.'
+
+44
+00:04:58,280 --> 00:05:03,330
+So now I have two named PivotTables, and that
+makes our coding a bit easier.
+
+45
+00:05:03,330 --> 00:05:10,199
+And they're located on the sheets 'CustT10,'
+and 'ProdT10.'
+
+46
+00:05:12,520 --> 00:05:24,900
+We go over here and we say we have the sheet
+'CustT10.'
+
+47
+00:05:24,900 --> 00:05:27,160
+And on that sheet we have a collection of
+PivotTables.
+
+48
+00:05:27,160 --> 00:05:30,750
+Or, we at least could have a collection of
+PivotTables.
+
+49
+00:05:30,750 --> 00:05:38,979
+And from that collection of PivotTables we
+want to have the 'Top10Cust.'
+
+50
+00:05:38,979 --> 00:05:45,800
+And from that specific PivotTable we want
+to do a refresh of the table.
+
+51
+00:05:45,800 --> 00:06:06,259
+And if we have that we can copy it.
+And now we have to change it for the 'Prod.'
+
+52
+00:06:06,259 --> 00:06:11,900
+And this should do it.
+So we need 1, 2, 3, 4, 5, 6 lines of code,
+
+53
+00:06:11,900 --> 00:06:18,910
+with the core only being two lines.
+Let's check if we did not make any errors.
+
+54
+00:06:18,910 --> 00:06:21,380
+We did.
+And that is correct.
+
+55
+00:06:21,380 --> 00:06:29,930
+It should not be 'Sheet,' but it is a collection
+of sheets, so we need an 's' there.
+
+56
+00:06:29,930 --> 00:06:33,710
+Check again.
+Yeah, no trouble, no error messages.
+
+57
+00:06:33,710 --> 00:06:39,229
+Then I'm always very curious if it works.
+So I'll put a break-point over here.
+
+58
+00:06:39,229 --> 00:06:43,259
+So that I'll really see that it will go into
+this code.
+
+59
+00:06:43,259 --> 00:06:55,740
+And actually, I should put it over here.
+We go to our dashboard.
+
+60
+00:06:55,740 --> 00:07:03,850
+And now I'm going to change to 2016-12.
+And, dang, it is in our code.
+
+61
+00:07:03,850 --> 00:07:20,449
+We can see that the address is X1.
+And then I have an error over here..
+
+62
+00:07:20,449 --> 00:07:29,039
+I see it.
+So we will continue.
+
+63
+00:07:29,039 --> 00:07:35,110
+And it did work.
+So let's remove the break-point.
+
+64
+00:07:35,110 --> 00:07:44,520
+Let's go back and do a final test.
+So we're going to change it back to 2016-07.
+
+65
+00:07:44,520 --> 00:07:49,560
+And now you see the system needs a little bit more
+time, but it did not only refresh all the
+
+66
+00:07:49,569 --> 00:07:57,050
+data, but it did also refresh the sparkline
+data.
+
+67
+00:07:57,050 --> 00:08:03,389
+We have a small problem over here, but that's
+an error in my own file.
+
+68
+00:08:03,389 --> 00:08:05,979
+In the file you can download you won't have
+that problem.
+
+69
+00:08:05,979 --> 00:08:11,389
+So, that brings us to the end of this exercise.
+I hope you enjoyed it.
+
+70
+00:08:11,389 --> 00:08:14,860
+I hope to see very nice dashboards from all
+of you.
+
+71
+00:08:14,860 --> 00:08:15,360
+Thank you!
+

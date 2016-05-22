@@ -1,0 +1,240 @@
+1
+00:00:00,179 --> 00:00:02,170
+Hello everybody!
+And welcome back.
+
+2
+00:00:02,170 --> 00:00:09,170
+In contrast to the previous videos, in this
+video we're not going to focus on a chart
+
+3
+00:00:09,170 --> 00:00:14,290
+but we're going to focus on a table.
+What we see over here is a full profit and
+
+4
+00:00:14,290 --> 00:00:19,590
+loss statement.
+When you see it you think: "well, that's easy.
+
+5
+00:00:19,590 --> 00:00:22,750
+That's just: we create it in Excel, copy,
+paste, done."
+
+6
+00:00:22,750 --> 00:00:30,779
+But, we design our dashboard with a grid.
+And I can promise you: that grid is
+
+7
+00:00:30,779 --> 00:00:34,720
+not going to match with the column layout
+of this table.
+
+8
+00:00:34,720 --> 00:00:38,880
+Nevertheless we want to have it in.
+And now you see the grid lines behind the
+
+9
+00:00:38,880 --> 00:00:44,500
+table, and you see what kind of mess it is.
+So we have to find a solution for that.
+
+10
+00:00:44,500 --> 00:00:47,590
+And that solution I'm going to show you in
+Excel.
+
+11
+00:00:47,590 --> 00:00:52,579
+So here we have our table.
+If you have a look at the file yourself you
+
+12
+00:00:52,579 --> 00:00:59,090
+can see how we get all that information in
+with the 'SUMIF's.
+
+13
+00:00:59,090 --> 00:01:04,250
+But what we want to do is: we want to copy
+that data into our dashboard.
+
+14
+00:01:04,250 --> 00:01:13,659
+And that is how we start.
+So I will select everything that I need.
+
+15
+00:01:13,659 --> 00:01:25,930
+'ctrl+c', and it is copied.
+And I go to my dashboard, I position the cursor
+
+16
+00:01:25,930 --> 00:01:28,880
+on the right place.
+In this cell, there I want to have it.
+
+17
+00:01:28,880 --> 00:01:32,630
+And I'm going to paste it.
+But you can imagine, if I paste it.. Let's
+
+18
+00:01:32,630 --> 00:01:39,700
+do it, than you can see it.
+If I paste it, it's going to be one ugly mess.
+
+19
+00:01:39,700 --> 00:01:45,189
+So we don't want to do that.
+So, we do 'ctrl+z', to undo this.
+
+20
+00:01:45,189 --> 00:01:51,900
+We're going to select the cell, and instead
+of pasting I'm now going to say 'I want to
+
+21
+00:01:51,900 --> 00:02:01,079
+paste it as a 'linked picture.'
+And that's a very nice feature.
+
+22
+00:02:01,079 --> 00:02:05,079
+In previous versions of Excel it was hidden
+very deep.
+
+23
+00:02:05,079 --> 00:02:09,109
+It was called the 'camera tool'.
+But now it is on our 'paste special' menu,
+
+24
+00:02:09,109 --> 00:02:15,870
+and it's this option, the 'linked picture.'
+And what's very nice about this is..
+
+25
+00:02:15,870 --> 00:02:23,230
+Here it is.
+It behaves as a picture, so if we want we
+
+26
+00:02:23,230 --> 00:02:28,219
+could rotate it,
+but it is still linked to the data.
+
+27
+00:02:28,219 --> 00:02:33,239
+So if I change something in the data, let's
+do that, because I don't like the black negative
+
+28
+00:02:33,239 --> 00:02:37,909
+numbers, these should be red.
+So we're going to change that.
+
+29
+00:02:37,909 --> 00:02:49,959
+So, over here I'm going to select all the
+numeric values.
+
+30
+00:02:49,959 --> 00:02:59,299
+'ctrl+1' gives us the shortcut to the cell
+properties.
+
+31
+00:02:59,299 --> 00:03:11,150
+And now I'm going to say: 'I want to have
+it like this.'
+
+32
+00:03:11,150 --> 00:03:18,919
+But now the numbers are too big, so we have
+to adjust that a little bit by saying that
+
+33
+00:03:18,919 --> 00:03:27,680
+we want to have them in thousands.
+And the 'red' after the semicolon is telling
+
+34
+00:03:27,680 --> 00:03:30,829
+us that if the value if negative it should
+be red.
+
+35
+00:03:30,829 --> 00:03:37,839
+So, if I do it like that, and I go back to
+my dashboard it should be reflected in my
+
+36
+00:03:37,839 --> 00:03:50,040
+funny rotated linked picture.
+Let's see if we can get it straight again.
+
+37
+00:03:50,040 --> 00:03:54,799
+There it is.
+And we have to adjust the format a little
+
+38
+00:03:54,799 --> 00:04:00,459
+bit.
+And here I use the 'alt' button again to make
+
+39
+00:04:00,459 --> 00:04:09,040
+sure it will move with the grid.
+And then I will cheat a little bit.
+
+40
+00:04:09,040 --> 00:04:14,779
+And there we have our data.
+And it's linked, so if any of the figures
+
+41
+00:04:14,779 --> 00:04:21,189
+change, the table will also change.
+And what we should do is get rid of some of
+
+42
+00:04:21,189 --> 00:04:25,620
+the mock-up titles.
+So we will remove this chart title, the chart
+
+43
+00:04:25,620 --> 00:04:36,860
+footer, chart title, chart footer.
+And area title. And area title.
+
+44
+00:04:36,860 --> 00:04:42,669
+The rest we will clean up later on.
+But here we have our table.
+
+45
+00:04:42,669 --> 00:04:46,400
+So that was something different.
+Not a chart but a table.
+
+46
+00:04:46,400 --> 00:04:51,259
+Let's see what the next video is going to
+be [about].
+
+47
+00:04:51,259 --> 00:04:56,569
+There we're going to work with something you
+also saw in one of the earlier lectures, the
+
+48
+00:04:56,569 --> 00:04:58,250
+sparklines.
+See you then!
+

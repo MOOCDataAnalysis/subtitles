@@ -1,0 +1,215 @@
+1
+00:00:02,280 --> 00:00:06,460
+Hallo iedereen! In de vorige video eindigde we met dit dashboard.
+
+2
+00:00:06,460 --> 00:00:12,599
+I had beloofd dat we dit spreadsheet zelf zouden bouwen,
+dit dashboard zelf zouden bouwen,
+
+3
+00:00:12,599 --> 00:00:17,890
+in Excel. Maar voordat we daaraan kunnen beginnen,
+voordat je ergens aan kunt beginnen,
+
+4
+00:00:17,890 --> 00:00:22,570
+moet je nadenken over hoe je het gaat ontwerpen.
+
+5
+00:00:22,570 --> 00:00:27,840
+Wat we eigenlijk nodig hebben is een soort raster.
+
+6
+00:00:27,840 --> 00:00:31,700
+Ik kan dit via de slides laten zien, maar ik denk dat het makkelijker is als we omschakelen
+
+7
+00:00:31,700 --> 00:00:35,339
+naar Excel. Ik zal het nu daar laten zien.
+
+8
+00:00:35,339 --> 00:00:40,199
+Dus hier zien we onze Excel file.
+Dit is het raster, en ik zal later uitleggen
+
+9
+00:00:40,199 --> 00:00:44,420
+hoe het raster werkt. Daarvoor denk ik dat het goed is om
+
+10
+00:00:44,420 --> 00:00:47,890
+een snelle blik te werpen op het bestand waar we mee werken.
+
+11
+00:00:47,890 --> 00:00:52,690
+Een van de eerste dingen die je opvalt is dat er een groot aantal verschillende werkbladen zijn.
+
+12
+00:00:52,690 --> 00:00:59,149
+Het zou erg vervelend zijn om hier handmatig doorheen te navigeren.
+
+13
+00:00:59,149 --> 00:01:04,170
+Hier is een makkelijk trucje voor.
+Je kunt met de muis rechts klikken tussen deze
+
+14
+00:01:04,170 --> 00:01:08,810
+twee pijltjes. Dit geeft je een lijst met alle aanwezige werkbladen.
+
+15
+00:01:08,810 --> 00:01:15,189
+Hier staan twee werkbladen die erg belangrijk zijn.
+In de eerste week van dit vak leerde je
+
+16
+00:01:15,189 --> 00:01:21,770
+hoe je op regelmatige basis data kan importeren
+vanuit een CSV-bestand.
+
+17
+00:01:21,770 --> 00:01:29,409
+Dit is precies wat we hier hebben gedaan.
+Dit ik geen klein bestand. Als ik de filter uitschakel
+
+18
+00:01:29,409 --> 00:01:38,579
+zie je dat we ongeveer 27000 rijen hebben.
+
+19
+00:01:38,579 --> 00:01:46,609
+Dit is een bestand met financiële informatie, maar we hebben ook een bestand met verkoop informatie.
+
+20
+00:01:46,609 --> 00:01:53,640
+Het bedrijf waar we vandaag mee werken kan je zien als een online supermarkt.
+
+21
+00:01:53,640 --> 00:01:59,060
+Zodat we onze boodschappen online kunnen bestellen.
+En dit is de financiële data die ik elke
+
+22
+00:01:59,060 --> 00:02:04,939
+maand krijg, en hier is de data van de webwinkel en bevat exact welke klant
+
+23
+00:02:04,939 --> 00:02:11,409
+welk product heeft gekocht, in welke hoeveelheid, de totale hoeveelheid, en de prijs.
+
+24
+00:02:11,409 --> 00:02:15,349
+Daarnaast hebben we een aantal formules die aanvullende informatie tonen.
+
+25
+00:02:15,349 --> 00:02:20,260
+Dus als we naar de 'paprika' kijken zien we direct op welke plank dit hoort en bij welke
+
+26
+00:02:20,260 --> 00:02:26,239
+categorie het hoort.
+Dan hebben we deze twee werkbladen hier.
+
+27
+00:02:26,239 --> 00:02:33,010
+Hier heb ik een lijst met producten met de plank en de categorie.
+
+28
+00:02:33,010 --> 00:02:36,950
+En op dit werkblad heb iets dat je een 'rekeningschema' noemt.
+
+29
+00:02:36,950 --> 00:02:43,299
+Dit zijn mijn grootboekrekeningen uit mijn financiële software.
+
+30
+00:02:43,299 --> 00:02:50,640
+Ik kan alle nodige verdichtingen zien.
+Dat zijn de belangrijkste bestanden.
+
+31
+00:02:50,640 --> 00:02:56,959
+En dan heb ik nog allerlei data, en hier zullen we later naar kijken, die
+
+32
+00:02:56,959 --> 00:03:01,610
+ik nodig heb voor mijn dashboard. Maar laten we nu een kijken naar het design van
+
+33
+00:03:01,610 --> 00:03:08,810
+het dashboard. Het eerste wat je moet doen is jezelf afvragen
+
+34
+00:03:08,810 --> 00:03:14,769
+"wat gaat er met dit dashboard gebeuren?" Gaat iemand het uitprinten,
+
+35
+00:03:14,769 --> 00:03:17,420
+of gaat iemand het op een scherm bekijken.
+
+36
+00:03:17,420 --> 00:03:20,470
+En als het op een scherm bekeken wordt, wat voor soort scherm is dit?
+
+37
+00:03:20,470 --> 00:03:29,519
+Is het een klein laptop schermpje van 11 inch?
+Of is het een erg groot scherm van 27 inch?
+
+38
+00:03:29,519 --> 00:03:37,060
+Je moet je dashboard ontwerpen voor het scherm waar het uiteindelijk terecht zal komen.
+
+39
+00:03:37,060 --> 00:03:43,739
+En wat ik fijn vind om te doen bij het ontwerpen van een dashboard is een raster opzetten.
+
+40
+00:03:43,739 --> 00:03:55,829
+Ik heb hier kleine scheidingen aangebracht.
+En elk blok wordt een grafiek.
+
+41
+00:03:55,829 --> 00:04:02,450
+Ik heb een regel gereserveerd voor de titel, de dashboard titel.
+
+42
+00:04:02,450 --> 00:04:07,110
+En voor wat algemene informatie over het dashboard.
+Je kunt dit zien als de dashboard koptekst.
+
+43
+00:04:07,110 --> 00:04:19,060
+En hier heb ik een subtitel, een grafiek titel, 
+dan de grafiek zelf, en dan
+
+44
+00:04:19,060 --> 00:04:22,550
+een onderschrift voor elke grafiek.
+Dit geheel herhaal ik hieronder.
+
+45
+00:04:22,550 --> 00:04:28,880
+Opnieuw de subtitel, de grafiek titel, ruimte voor mijn grafiek, en een onderschrift.
+
+46
+00:04:28,880 --> 00:04:35,710
+Dit raster gebruik ik dan om mijn dashboard te plannen.
+En dit is ook wat we gaan doen in de
+
+47
+00:04:35,710 --> 00:04:40,400
+volgende video.
+Hier zijn we weer, terug in ons raster.
+
+48
+00:04:40,400 --> 00:04:45,810
+Laten we kijken naar ons complete dashboard.
+In de volgende video beginnen we met
+
+49
+00:04:45,810 --> 00:04:48,819
+de eerste grafiek, de 'verkopen per categorie'.
+Zie je daar!
+

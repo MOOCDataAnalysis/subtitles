@@ -1,0 +1,128 @@
+1
+00:00:00,440 --> 00:00:03,390
+Hallo iedereen! Welkom bij deze nieuwe week van het vak.
+
+2
+00:00:03,390 --> 00:00:08,969
+Vorige week hebben we gekeken naar het ontwerp van tabellen en grafieken,
+
+3
+00:00:08,969 --> 00:00:14,549
+en vandaag gaan we kijken naar het ontwerpen van dashboards.
+
+4
+00:00:14,549 --> 00:00:19,750
+Een van de belangrijkste vragen die we vorige week hebben besproken bij het ontwerpen van een tabel,
+
+5
+00:00:19,750 --> 00:00:23,930
+of het ontwerpen van een grafiek,
+is dat je goed moet nadenken over de vraag
+
+6
+00:00:23,930 --> 00:00:29,750
+"wie is mijn publiek,"
+en "welk verhaal wil ik vertellen."
+
+7
+00:00:29,750 --> 00:00:33,109
+En "wat is het doel van mijn grafiek,"
+of "wat is het doel van mijn tabel."
+
+8
+00:00:33,109 --> 00:00:37,719
+Maar nu hebben we een dashboard.
+Met veel tabellen en veel grafieken.
+
+9
+00:00:37,719 --> 00:00:43,819
+Dus moeten we nadenken over het doel en het verhaal.
+
+10
+00:00:43,819 --> 00:00:48,300
+Dashboards, we kennen ze bijvoorbeeld
+van de cockpit in een vliegtuig.
+
+11
+00:00:48,300 --> 00:00:57,229
+We kennen ze van auto's. Erg mooie auto's.
+De vraag is: "waarom hebben we een dashboard nodig?"
+
+12
+00:00:57,229 --> 00:01:02,190
+Waarom heeft een vliegtuig een dashboard?
+Waarom heeft een auto een dashboard?
+
+13
+00:01:02,190 --> 00:01:07,940
+Als je hier een beetje over nadenkt, besef je je dat er niemand voor je dashboard zit.
+
+14
+00:01:07,940 --> 00:01:13,090
+En die persoon wilt van A naar B.
+En moet daarbij een machine besturen.
+
+15
+00:01:13,090 --> 00:01:19,920
+In dit geval een auto of een vliegtuig.
+En om dit te doen heeft deze persoon informatie nodig.
+
+16
+00:01:19,920 --> 00:01:25,420
+Zodra je een dashboard gaat ontwerpen moet je jezelf
+
+17
+00:01:25,420 --> 00:01:30,440
+deze zelfde vragen stellen. Wie zal er voor mijn dashboard zitten?
+
+18
+00:01:30,440 --> 00:01:37,230
+En wat gaat deze persoon besturen? Is dat een organisatie, of een proces,
+
+19
+00:01:37,230 --> 00:01:43,600
+of een onderzoeksproject? Zodra je weet wat er bestuurd moet worden
+
+20
+00:01:43,600 --> 00:01:51,160
+is de volgende vraag: "wat voor informatie heb ik nodig, zodat ik daadwerkelijk mijn organisatie of proces kan besturen?"
+
+21
+00:01:51,160 --> 00:01:56,920
+En dat is waar we vandaag naar gaan kijken.
+
+22
+00:01:56,920 --> 00:02:02,640
+Ik zal je een hoop tips en trucs laten zien hoe je dit in Excel kan doen, maar voor mij
+
+23
+00:02:02,640 --> 00:02:08,890
+is dit eigenlijk de belangrijkste les van deze serie van video's:
+
+24
+00:02:08,890 --> 00:02:12,590
+voordat je begint in Excel te werken, of in andere software, moet je jezelf afvragen
+
+25
+00:02:12,590 --> 00:02:17,890
+"wat moet er op mijn dashboard komen? Wat is er nodig om het proces te besturen waarvan ik de informatie toon?"
+
+26
+00:02:17,890 --> 00:02:21,160
+Dus, wat gaan we vandaag doen?
+
+27
+00:02:21,160 --> 00:02:27,569
+We gaan naar dit dashboard kijken.
+Het is geheel in Excel gemaakt, en wij
+
+28
+00:02:27,569 --> 00:02:33,230
+gaan het samen nabouwen, stap voor stap.
+We beginnen met een leeg werkblad,
+
+29
+00:02:33,230 --> 00:02:37,950
+en zullen het stapsgewijs aanvullen tot een heel dashboard.
+Dus, ik zie je in de volgende video!
+

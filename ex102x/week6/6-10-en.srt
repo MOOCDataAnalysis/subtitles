@@ -1,0 +1,190 @@
+1
+00:00:01,810 --> 00:00:06,230
+Hello everybody!
+Welcome back, in this bonus video.
+
+2
+00:00:06,230 --> 00:00:12,690
+Until now, we can change the data on the dashboard
+using a dropdown list over here.
+
+3
+00:00:12,690 --> 00:00:18,660
+So, it's now 2016-12, and we can change it
+to 2016-07 for example.
+
+4
+00:00:18,660 --> 00:00:26,060
+And all the data will be changed.
+But we also.. In earlier videos we have looked
+
+5
+00:00:26,060 --> 00:00:30,859
+at the use of slicers.
+And it would be nice, maybe not for the period,
+
+6
+00:00:30,859 --> 00:00:36,110
+but it would be a good technique to know,
+is how you can use a slicer to change the
+
+7
+00:00:36,110 --> 00:00:44,270
+selection of the data in your dashboard.
+And normally a slicer is linked to a PivotTable,
+
+8
+00:00:44,270 --> 00:00:48,220
+and a lot of this data is not coming from
+a PivotTable.
+
+9
+00:00:48,220 --> 00:00:54,100
+So we need a little trick to connect the slicer
+to our dashboard.
+
+10
+00:00:54,100 --> 00:01:00,510
+So let's have a look at how we can do that.
+And I have to go to one of my very first slides
+
+11
+00:01:00,510 --> 00:01:03,080
+over here.
+The 'validation,' because here I have a list
+
+12
+00:01:03,080 --> 00:01:13,270
+of all my periods.
+And what I will do is: I will insert a PivotTable.
+
+13
+00:01:13,270 --> 00:01:24,229
+Oh.. That's not what I wanted.
+So we will do that again.
+
+14
+00:01:24,229 --> 00:01:30,990
+Again, we're going to insert a PivotTable.
+But I want to have it located on the existing
+
+15
+00:01:30,990 --> 00:01:33,079
+worksheet.
+That's not something I normally do, so I was
+
+16
+00:01:33,079 --> 00:01:40,659
+a little bit too quick with clicking.
+I put it over here.
+
+17
+00:01:40,659 --> 00:01:45,209
+There it is.
+It's a very simple pivot table.
+
+18
+00:01:45,209 --> 00:01:53,289
+I will put the period in the rows.
+And, I now will right-click here, on the period
+
+19
+00:01:53,289 --> 00:02:03,029
+field and say 'add a slicer.'
+So, now we have a slicer.
+
+20
+00:02:03,029 --> 00:02:08,819
+If I select the value, it's linked to the
+PivotTable.
+
+21
+00:02:08,819 --> 00:02:17,610
+In this use case, I'm only interested in one
+period that's selected.
+
+22
+00:02:17,610 --> 00:02:20,430
+That will always be this position in the pivot
+table.
+
+23
+00:02:20,430 --> 00:02:24,250
+So I'm going to give this cell a name.
+I will call it 'pivotPeriod.'
+
+24
+00:02:24,250 --> 00:02:37,150
+There we are.
+And I will copy the slicer, and let's go to
+
+25
+00:02:37,150 --> 00:02:44,040
+our dashboard.
+So here we have our dashboard.
+
+26
+00:02:44,040 --> 00:02:49,950
+I will copy our slicer.
+And first I'm going to change the formatting
+
+27
+00:02:49,950 --> 00:02:58,260
+of the slicer a little bit.
+I want it to have two columns.
+
+28
+00:02:58,260 --> 00:03:06,430
+There we are.
+Make it a little bit longer.
+
+29
+00:03:06,430 --> 00:03:12,290
+That's a bit too long.
+There we are.
+
+30
+00:03:12,290 --> 00:03:21,629
+I can make it a bit..
+I'm happy with that.
+
+31
+00:03:21,629 --> 00:03:29,890
+Now, over here I say: 'the value in this field
+should come from the field pivotPeriod, that
+
+32
+00:03:29,890 --> 00:03:34,049
+we have just created.'
+And that is linked to our PivotTable, and
+
+33
+00:03:34,049 --> 00:03:41,000
+our PivotTable is linked to the slicer.
+And now we can choose any period in our slicer,
+
+34
+00:03:41,000 --> 00:03:46,549
+and the dashboard will adjust.
+So this is a very easy and low-tech way to
+
+35
+00:03:46,549 --> 00:03:51,670
+link a slicer to a specific cell in an Excel
+formula.
+
+36
+00:03:51,670 --> 00:03:57,749
+So, that's the first bonus video.
+In the next one we still have a little problem.
+
+37
+00:03:57,749 --> 00:04:05,840
+And there we need to dive a little bit, only
+two lines, into VBA to get our target there.
+
+38
+00:04:05,840 --> 00:04:10,069
+So, I hope that you're very interested now.
+And that I'll see you in the next bonus video.
+

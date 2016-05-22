@@ -1,0 +1,313 @@
+1
+00:00:02,080 --> 00:00:06,259
+Hallo iedereen!
+Hier zien we het grote dashboard dat we
+
+2
+00:00:06,259 --> 00:00:09,709
+gaan ontwerpen.
+In deze video richten we ons op
+
+3
+00:00:09,709 --> 00:00:16,640
+de allereerste grafiek: 'verkopen per categorie'.
+Laten we daar eens naar gaan kijken.
+
+4
+00:00:16,640 --> 00:00:22,840
+Ik denk dat dit de simpelste grafiek is die we vandaag gaan maken, en dat 90% van de mensen
+
+5
+00:00:22,840 --> 00:00:25,890
+die deze data zouden moeten presenteren een cirkeldiagram zouden gebruiken.
+
+6
+00:00:25,890 --> 00:00:31,840
+Maar waarschijnlijk hoor jij niet bij deze 90% omdat je
+het vorige college hebt gevolgd,
+
+7
+00:00:31,840 --> 00:00:35,699
+en je weet dat taarten allen geschikt zijn als toetje.
+
+8
+00:00:35,699 --> 00:00:40,699
+Maar, we willen hier wel een zelfde soort verhaal vertellen.
+
+9
+00:00:40,699 --> 00:00:45,790
+We hebben drie categorieën: groenten, melkproducten, en vlees.
+
+10
+00:00:45,790 --> 00:00:51,290
+En we willen het relatieve aandeel van elke categorie weten.
+
+11
+00:00:51,290 --> 00:00:56,690
+Dit is de reden dat ik de percentages als text in de grafiek zet.
+
+12
+00:00:56,690 --> 00:01:00,890
+Dus, laten we kijken hoe we dit in Excel
+voor elkaar kunnen krijgen.
+
+13
+00:01:00,890 --> 00:01:09,230
+We zijn nu terug in ons bestand,
+en willen onze eerste grafiek maken.
+
+14
+00:01:09,230 --> 00:01:19,380
+Ik neem als regel dat elke grafiek die ik
+in mijn dashboard maak zijn eigen werkblad krijgt.
+
+15
+00:01:19,380 --> 00:01:25,270
+In dit geval heb ik het werkblad nodig met de verkoop details.
+
+16
+00:01:25,270 --> 00:01:29,670
+Hier heb ik de drie categorieën met de drie percentages.
+
+17
+00:01:29,670 --> 00:01:40,940
+Ik selecteer ze, en voeg een grafiek in.
+
+18
+00:01:40,940 --> 00:01:46,520
+In dit geval gebruiken we een standaard diagram,
+het staafdiagram.
+
+19
+00:01:46,520 --> 00:01:51,960
+En we gebruiken altijd 2D.
+Nooit 3D.
+
+20
+00:01:51,960 --> 00:01:59,040
+Hier hebben we de standaard Excel staafdiagram.
+Dit diagram ziet er redelijk uit,
+
+21
+00:01:59,040 --> 00:02:03,479
+maar het gaan niet in ons dashboard passen.
+We moeten dus een aantal aanpassingen maken.
+
+22
+00:02:03,479 --> 00:02:09,170
+Je kunt een titel in je diagram gebruiken,
+maar ik doe dat normaal gesproken niet.
+
+23
+00:02:09,170 --> 00:02:16,980
+Ik gebruik daar Excel cellen voor.
+Dus ik verwijder nu de diagram titel.
+
+24
+00:02:16,980 --> 00:02:24,920
+Ik vind de witruimte tussen de staven te groot.
+
+25
+00:02:24,920 --> 00:02:27,010
+Dus dat ga ik veranderen.
+
+26
+00:02:27,010 --> 00:02:35,620
+Ik selecteer de staven, en klik de rechtermuisknop.
+Vervolgens klik ik op 'gegevenslabels opmaken.'
+
+27
+00:02:35,620 --> 00:02:43,490
+Ik krijg hier nu een mooi schermpje.
+Hier kan ik de ruimte tussen de staven beïnvloeden.
+
+28
+00:02:43,490 --> 00:02:49,610
+Ik wil minder wit zien,
+dus ik moet het percentage verminderen.
+
+29
+00:02:49,610 --> 00:02:57,760
+Ik kies 75%. Dat ziet er goed uit.
+
+30
+00:02:57,760 --> 00:03:01,550
+Vervolgens moet ik weten hoe groot mijn diagram moet zijn.
+
+31
+00:03:01,550 --> 00:03:04,880
+En hier is een klein trucje voor.
+Ik zal dat nu laten zien.
+
+32
+00:03:04,880 --> 00:03:24,709
+Hier heb ik het dashboard. Ik voeg een rechthoek in,
+en plaats het hier.
+
+33
+00:03:24,709 --> 00:03:31,720
+Ik denk dat het diagram hier terecht moet komen.
+Dit kunnen we later nog controleren.
+
+34
+00:03:31,720 --> 00:03:37,739
+Nu het trucje. Als ik een object verplaats binnen een werkblad,
+
+35
+00:03:37,739 --> 00:03:43,290
+en tijdens het verplaatsen houd ik de 'alt' toets ingedrukt,
+wat ik nu doe op het toetsenbord.
+
+36
+00:03:43,290 --> 00:03:50,270
+Dan zal het object zich opstellen langs de celwanden.
+
+37
+00:03:50,270 --> 00:03:58,690
+Dat maakt het erg gemakkelijk om het vierkant precies zo groot te krijgen als de ruimte gereserveerd voor mijn diagram.
+
+38
+00:03:58,690 --> 00:04:05,319
+Nu kun je hier zijn dat de afmetingen 2.15 inch bij 2.27 inch zijn.
+
+39
+00:04:05,319 --> 00:04:09,970
+Dat ga ik gebruiken om het diagram exact de juiste grootte te geven.
+
+40
+00:04:09,970 --> 00:04:21,319
+Dus, we verwijderen het vierkant,
+en gaan terug naar de 'verkoop details.'
+
+41
+00:04:21,319 --> 00:04:26,759
+Ik selecteer het diagram. Dat zie je hier.
+
+42
+00:04:26,759 --> 00:04:30,979
+Ga vervolgens naar de opmaak. Ik kan hier zien dat het diagram oppervlak is
+
+43
+00:04:30,979 --> 00:04:45,000
+geselecteerd, en dit is wat we nodig hebben.
+We willen dat het 2.15 bij 2.27 inch groot is.
+
+44
+00:04:45,000 --> 00:04:51,409
+Nu is het in het juiste formaat.
+Het volgende probleem is de witte achtergrond.
+
+45
+00:04:51,409 --> 00:04:55,650
+Ik houd daar niet van,
+dus ik haal het weg.
+
+46
+00:04:55,650 --> 00:05:01,159
+Ik ga naar de opmaak van het diagram oppervlak.
+Ik krijg hier dan een opmaak venster.
+
+47
+00:05:01,159 --> 00:05:07,180
+Ik ga naar de achtergrond en zeg dat ik er geen wil.
+
+48
+00:05:07,180 --> 00:05:12,819
+Ik controleer ook de rand omdat ik geen randen wil hebben.
+
+49
+00:05:12,819 --> 00:05:17,289
+Wij zeiden 'minder is meer', dus ik verwijder ook de rasterlijnen.
+
+50
+00:05:17,289 --> 00:05:20,800
+Die zijn niet erg belangrijk.
+Wat we nu nog nodig hebben zijn de data labels.
+
+51
+00:05:20,800 --> 00:05:33,509
+Dus selecteer ik de staven.
+
+52
+00:05:33,509 --> 00:05:50,509
+Ik voeg een object toe aan mijn grafiek,
+en selecteer dat ik datalabels wil zien.
+
+53
+00:05:50,509 --> 00:05:54,610
+Nu staan ze buiten de staven. Dit vind ik niet mooi,
+ik wil ze binnen de staven.
+
+54
+00:05:54,610 --> 00:06:01,569
+Dus ik selecteer ze. En je kunt hier zien dat
+ze geselecteerd zijn.
+
+55
+00:06:01,569 --> 00:06:06,460
+Nu zeg ik dat ik ze in de staven wil plaatsen,
+op de bodem.
+
+56
+00:06:06,460 --> 00:06:11,080
+Maar zwart op blauw is moeilijk zichtbaar.
+Dus passen we de letterkleur aan.
+
+57
+00:06:11,080 --> 00:06:18,899
+Ik ga van 'label opties' naar 'text opties' naar 'text opmaak',
+en ik verander
+
+58
+00:06:18,899 --> 00:06:22,969
+de kleur naar wit. En daar zijn we dan.
+
+59
+00:06:22,969 --> 00:06:29,610
+Nu selecteer ik mijn diagram. Ik knip het met 'ctrl+x'.
+
+60
+00:06:29,610 --> 00:06:36,619
+Ik ga naar mijn dashboard, en selecteer de juiste cell.
+
+61
+00:06:36,619 --> 00:06:43,139
+We spieken even waar dit diagram
+terecht moet komen op het dashboard.
+
+62
+00:06:43,139 --> 00:06:48,550
+Het moet hier komen. Dan gaan we terug.
+
+63
+00:06:48,550 --> 00:06:53,189
+Dit kan weg. Dit is de laatste kolom,
+dus het diagram moet
+
+64
+00:06:53,189 --> 00:06:56,830
+hier komen. En als ik mijn cursor op de juiste plek plaats
+
+65
+00:06:56,830 --> 00:07:05,039
+kan ik het diagram er direct in plakken,
+en past onmiddellijk perfect.
+
+66
+00:07:05,039 --> 00:07:19,189
+En de titel wordt 'verkopen per categorie', en het is altijd goed om erbij te vermelden dat het percentages zijn.
+
+67
+00:07:19,189 --> 00:07:27,610
+Hier zijn we dan. Dit is het resultaat.
+In de volgende video gaan we
+
+68
+00:07:27,610 --> 00:07:31,879
+nog een diagram maken,
+de 'gemiddelde bestelling grootte.'
+
+69
+00:07:31,879 --> 00:07:32,499
+Zie je dan!
+
