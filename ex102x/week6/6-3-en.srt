@@ -240,7 +240,7 @@ to not have a border.
 
 49
 00:05:12,819 --> 00:05:17,289
-In this case "less is more" we said, so I'm
+In this case ["less is more"] we said, so I'm
 going to get rid of the grid lines.
 
 50

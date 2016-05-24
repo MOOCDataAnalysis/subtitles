@@ -131,7 +131,7 @@ And we have these two slides over here.
 27
 00:02:26,239 --> 00:02:33,010
 Here I have my list with products with the
-self and with the category.
+shelf and with the category.
 
 28
 00:02:33,010 --> 00:02:36,950
