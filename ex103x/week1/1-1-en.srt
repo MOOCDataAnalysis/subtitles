@@ -1,0 +1,70 @@
+1
+00:00:00,880 --> 00:00:04,480
+Hello eh, hello Miss Kiers.
+Thank you so much for taking the time...
+
+2
+00:00:04,480 --> 00:00:06,440
+to have a Skype meeting with me today.
+
+3
+00:00:07,960 --> 00:00:09,760
+Yes. Who are you, please?
+
+4
+00:00:09,960 --> 00:00:13,640
+So, I'm Felienne.
+I am an intern in your hotel.
+
+5
+00:00:13,910 --> 00:00:17,790
+I have been working here for a few weeks,
+and eh...
+
+6
+00:00:18,270 --> 00:00:22,399
+No one seems really to have a good idea of
+what is going on in the hotel.
+
+7
+00:00:22,399 --> 00:00:25,939
+Like, how many night we usually sell,
+how many people are there.
+
+8
+00:00:26,309 --> 00:00:30,469
+Everything is fine in the hotel.
+- Yeah I know, I know, it's great.
+
+9
+00:00:30,469 --> 00:00:35,620
+But I just took this course on Data Analysis
+and I thought maybe if we look into the data
+
+10
+00:00:35,620 --> 00:00:40,060
+of the hotel we can learn a bit more about
+exactly is going on.
+
+11
+00:00:40,640 --> 00:00:44,060
+Well, I'm not sure if that is necessary.
+
+12
+00:00:44,420 --> 00:00:49,200
+But if you really want to,
+I can ask Gretta to send you some files.
+
+13
+00:00:49,360 --> 00:00:51,500
+That would be very very much
+appreciated, if you could...
+
+14
+00:00:51,500 --> 00:00:53,400
+Thank you Felienne.
+
+15
+00:00:53,410 --> 00:00:54,260
+Thanks, bye.
+
