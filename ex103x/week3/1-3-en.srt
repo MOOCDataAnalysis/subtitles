@@ -1,0 +1,60 @@
+1
+00:00:01,030 --> 00:00:07,120
+Hello again, Miss Kiers, this is Felienne.
+I have looked at all the data, but I think...
+
+2
+00:00:07,120 --> 00:00:12,640
+we might be missing something, because, every
+Wednesday I see clowns in the hotel.
+
+3
+00:00:12,880 --> 00:00:21,280
+But the clowns are not in my data, so could it
+be possible that you didn't send me all the data?
+
+4
+00:00:21,280 --> 00:00:23,140
+Maybe Gretta missed something.
+
+5
+00:00:24,500 --> 00:00:27,580
+I suggest you stop this crazy hobby, Felienne.
+
+6
+00:00:27,580 --> 00:00:33,820
+You are just looking around in the hotel
+finding all kinds of eh... data you're missing.
+
+7
+00:00:34,360 --> 00:00:36,800
+I think this is a waste of your time.
+
+8
+00:00:36,800 --> 00:00:41,560
+But... [SIGH] If you really want,
+I can add the data of the service providers.
+
+9
+00:00:41,560 --> 00:00:43,320
+Thank you, thank you. That would be nice.
+
+10
+00:00:43,320 --> 00:00:46,540
+Then I could do some analysis into
+if the services are really...
+
+11
+00:00:46,540 --> 00:00:49,240
+making us money.
+Thank you so much.
+
+12
+00:00:49,560 --> 00:00:52,320
+Gretta will send it, as soon as she can.
+
+13
+00:00:52,320 --> 00:00:54,900
+Thanks! See you.
+- Bye, bye.
+
