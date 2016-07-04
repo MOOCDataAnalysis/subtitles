@@ -1,0 +1,62 @@
+1
+00:00:01,100 --> 00:00:03,040
+Hi, Felienne!
+- Hi...
+
+2
+00:00:03,040 --> 00:00:07,440
+So nice to see you!
+- What a surprise that you would call me.
+
+3
+00:00:07,720 --> 00:00:13,280
+Felienne, I have always said it: you are one
+of my favorite employees and I've seen an
+
+4
+00:00:13,280 --> 00:00:16,300
+excellent dashboard.
+It's amazing!
+
+5
+00:00:16,560 --> 00:00:21,080
+Thank you...
+- I have always said we should invest in events.
+
+6
+00:00:21,090 --> 00:00:26,560
+And now I have seen in your dashboard that
+these events are profitable indeed!
+
+7
+00:00:26,560 --> 00:00:32,760
+I'm very happy to congratulate you:
+You are now the head of the events team.
+
+8
+00:00:32,760 --> 00:00:34,880
+Thanks, thank you so much!
+
+9
+00:00:34,880 --> 00:00:38,820
+If you make a nice visualization
+I can present it to the board.
+
+10
+00:00:39,200 --> 00:00:43,920
+I will, yes, I will definitely make a visualization
+so you can present it to the board.
+
+11
+00:00:43,920 --> 00:00:45,300
+Thank you so much!
+
+12
+00:00:45,300 --> 00:00:48,780
+Congratulations Felienne and I am
+looking forward to receive that.
+
+13
+00:00:48,780 --> 00:00:49,560
+Thanks.
+
